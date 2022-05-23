@@ -1,0 +1,40 @@
+---
+permalink: sm-mirroring/suspend-or-resume-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirror, consistency, group, 
+summary: 您可以暂停或恢复镜像一致性组中所有镜像对上的数据同步、这比暂停或恢复单个镜像对上的同步效率更高。 
+---
+= 暂停或恢复镜像一致性组的同步
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以暂停或恢复镜像一致性组中所有镜像对上的数据同步、这比暂停或恢复单个镜像对上的同步效率更高。
+
+暂停和恢复组同步有助于减少对主机应用程序的任何性能影响、在将本地存储阵列上的任何更改数据复制到远程存储阵列时、可能会发生这种情况。
+
+镜像一致性组及其镜像对的状态将保持暂停状态、直到您使用恢复选项恢复同步活动为止。
+
+.步骤
+. 选择菜单：Storage[Asynchronous Mirroring]。
+. 选择*镜像一致性组*选项卡。
++
+此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。
+
+. 选择要暂停或恢复的镜像一致性组、然后选择菜单：更多(暂停)或菜单：更多(恢复)。
++
+系统将显示确认信息。
+
+. 选择*是*进行确认。
+
+
+System Manager将执行以下操作：
+
+* 暂停或恢复镜像一致性组中所有镜像对之间的数据传输、而不删除镜像关系。
+* 记录暂停镜像组时写入镜像一致性组主端的所有数据、并在恢复镜像组后自动将数据写入镜像一致性组的二级端。不需要完全同步。
+* 对于_suspended_mirror一致性组、在镜像一致性组表中显示*用户已暂停*。
+* 对于_resumed_mirror consistency组、在镜像一致性组暂停期间写入主卷的数据将立即写入二级卷。如果设置了自动同步间隔、则定期同步将恢复。
+

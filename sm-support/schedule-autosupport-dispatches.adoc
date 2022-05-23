@@ -1,0 +1,32 @@
+---
+permalink: sm-support/schedule-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, schedule, autosupport, dispatches 
+summary: System Manager会自动为AutoSupport 派单创建默认计划。如果愿意、您可以指定自己的计划。 
+---
+= 计划AutoSupport 派单
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager会自动为AutoSupport 派单创建默认计划。如果愿意、您可以指定自己的计划。
+
+必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。
+
+.关于此任务
+* *每日时间*-每天在您指定的时间范围内收集和发送派单。System Manager会在该范围内随机选择一个时间。所有时间均采用协调世界时(Coordinated Universal Time、UTC)、这可能与存储阵列的本地时间不同。您必须将存储阵列的本地时间转换为UTC时间。
+* *每周日期*-收集每周派单并每周发送一次。System Manager会从您指定的日期中随机选择一天。取消选择不希望每周派单发生的任何日期。System Manager会从允许的天数中随机选择一天。
+* *每周时间*-在您指定的时间范围内、每周收集并发送一次每周派单。System Manager会在该范围内随机选择一个时间。所有时间均采用协调世界时(Coordinated Universal Time、UTC)、这可能与存储阵列的本地时间不同。您必须将存储阵列的本地时间转换为UTC时间。
+
+
+.步骤
+. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 选择*计划AutoSupport 派单*。
++
+此时将显示计划AutoSupport 卸载向导。
+
+. 按照向导中的步骤进行操作。
+

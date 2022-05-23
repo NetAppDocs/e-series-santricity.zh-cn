@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/what-is-a-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload 
+summary: 对于网络中的某些应用程序、例如SQL Server或Exchange、您可以定义一个工作负载来优化该应用程序的存储。 
+---
+= 什么是工作负载？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于网络中的某些应用程序、例如SQL Server或Exchange、您可以定义一个工作负载来优化该应用程序的存储。
+
+工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。对于某些应用程序、系统会将工作负载配置为包含具有类似底层卷特征的卷。这些卷特征会根据工作负载支持的应用程序类型进行优化。例如、如果您创建了一个支持Microsoft SQL Server应用程序的工作负载、然后为该工作负载创建了卷、则底层卷特征将进行优化以支持Microsoft SQL Server。
+
+在创建卷期间、系统会提示您回答有关工作负载使用情况的问题解答 问题。例如、如果要为Microsoft Exchange创建卷、系统会询问您需要多少邮箱、平均邮箱容量要求是多少以及所需数据库副本的数量。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。

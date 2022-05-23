@@ -1,0 +1,44 @@
+---
+permalink: sm-settings/synchronize-storage-array-clocks.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clocks, 
+summary: '如果未启用网络时间协议(NTP)、则可以手动设置控制器上的时钟、以便与管理客户端(用于运行访问SANtricity System Manager的浏览器的系统)同步。' 
+---
+= 同步存储阵列时钟
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果未启用网络时间协议(NTP)、则可以手动设置控制器上的时钟、以便与管理客户端(用于运行访问System Manager的浏览器的系统)同步。
+
+同步可确保事件日志中的事件时间戳与写入主机日志文件的时间戳匹配。在同步过程中、控制器仍保持可用和正常运行。
+
+[NOTE]
+====
+如果在System Manager中启用了NTP、请勿使用此选项同步时钟。相反、NTP会使用SNTP (简单网络时间协议)自动将时钟与外部主机同步。
+
+====
+[NOTE]
+====
+同步后、您可能会注意到性能统计信息丢失或偏差、计划受到影响(ASUP、快照等)、日志数据中的时间戳发生偏差。使用NTP可避免此问题。
+
+====
+.步骤
+. 选择菜单：设置[系统]。
+. 在*常规*下、单击*同步存储阵列时钟*。
++
+此时将打开同步存储阵列时钟对话框。它显示控制器和用作管理客户端的计算机的当前日期和时间。
+
++
+[NOTE]
+====
+对于单工存储阵列、仅显示一个控制器。
+
+====
+. 如果对话框中显示的时间不匹配、请单击*同步*。
+
+
+同步成功后、事件日志和主机日志的事件时间戳相同。

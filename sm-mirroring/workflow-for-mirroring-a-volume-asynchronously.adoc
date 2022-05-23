@@ -1,0 +1,43 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously, 
+summary: 您可以使用以下工作流配置异步镜像。 
+---
+= 异步镜像卷的工作流
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用以下工作流配置异步镜像。
+
+[NOTE]
+====
+EF600或EF300存储系统不支持此功能。
+
+====
+. 在Unified Manager中执行初始配置：
++
+.. 选择本地存储阵列作为数据传输的源。
+.. 创建或选择现有镜像一致性组、该组是本地阵列上主卷和远程阵列上二级卷的容器。主卷和二级卷称为"镜像对"。 如果您是首次创建镜像一致性组、则可以指定是要执行手动同步还是计划同步。
+.. 从本地存储阵列中选择主卷、然后确定其预留容量。预留容量是为复制操作分配的物理容量。
+.. 选择一个远程存储阵列作为传输的目标、一个二级卷、然后确定其预留容量。
+.. 开始从主卷到二级卷的初始数据传输。根据卷大小、此初始传输可能需要几小时的时间。
+
+
+. 检查初始同步的进度：
++
+.. 在Unified Manager中、为本地阵列启动System Manager。
+.. 在System Manager中、查看镜像操作的状态。镜像完成后、镜像对的状态为"最佳"。
+
+
+. *可选：*您可以在System Manager中重新计划或手动执行后续数据传输。只有新的块和更改的块才会从主卷传输到二级卷。
++
+[NOTE]
+====
+由于异步复制是定期进行的、因此系统可以整合更改的块并节省网络带宽。对写入吞吐量和写入延迟的影响最小。
+
+====
+

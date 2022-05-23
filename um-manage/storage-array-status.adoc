@@ -1,0 +1,72 @@
+---
+permalink: um-manage/storage-array-status.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
+summary: Unified Manager将显示已发现的每个存储阵列的状态。 
+---
+= 查看存储阵列状态
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager将显示已发现的每个存储阵列的状态。
+
+转到*管理-全部*页面。在此页面中、您可以查看Web服务代理与该存储阵列之间的连接状态。
+
+下表介绍了状态指示灯。
+
+[cols="25h,~"]
+|===
+| Status | 表示 
+
+
+ a| 
+最佳
+ a| 
+存储阵列处于最佳状态。没有证书问题、密码有效。
+
+
+
+ a| 
+密码无效
+ a| 
+提供的存储阵列密码无效。
+
+
+
+ a| 
+不可信证书
+ a| 
+与存储阵列的一个或多个连接不可信、因为HTTPS证书是自签名的、尚未导入、或者证书是CA签名的、并且根和中间CA证书尚未导入。
+
+
+
+ a| 
+需要关注
+ a| 
+存储阵列存在问题、需要您进行干预才能进行更正。
+
+
+
+ a| 
+锁定
+ a| 
+存储阵列处于已锁定状态。
+
+
+
+ a| 
+未知
+ a| 
+从未联系过存储阵列。如果Web服务代理正在启动且尚未与存储阵列进行联系、或者存储阵列处于脱机状态且自Web服务代理启动以来从未进行过联系、则可能会发生这种情况。
+
+
+
+ a| 
+脱机
+ a| 
+Web服务代理先前已与存储阵列联系、但现在已断开与该存储阵列的所有连接。
+
+|===

@@ -1,0 +1,16 @@
+---
+permalink: sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, firmware, upgrade, slow 
+summary: 固件升级进度取决于系统的整体负载。 
+---
+= 为什么固件升级进度如此缓慢？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+固件升级进度取决于系统的整体负载。
+
+在驱动器固件的联机升级期间、如果在快速重建过程中发生卷传输、系统将对传输的卷启动完全重建。此操作可能需要相当长的时间。实际完整重建时间取决于多个因素、包括重建操作期间发生的I/O活动量、卷组中的驱动器数量、重建优先级设置以及驱动器性能。

@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, decrease, reserved capacity 
+summary: 您只能将预留容量减少到用于增加的容量。只能按与添加成员卷相反的顺序删除为其预留的容量。 
+---
+= 为什么我不能选择另一个减少量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您只能将预留容量减少到用于增加的容量。只能按与添加成员卷相反的顺序删除为其预留的容量。
+
+如果存在以下条件之一、则不能减少存储对象的预留容量：
+
+* 存储对象是镜像对卷。
+* 存储对象仅包含一个用于预留容量的卷。存储对象必须至少包含两个用于预留容量的卷。
+* 存储对象是已禁用的快照卷。
+* 存储对象包含一个或多个关联的快照映像。
+
+
+您只能按与添加卷相反的顺序删除预留容量卷。
+
+您不能减少只读快照卷的预留容量、因为它没有任何关联的预留容量。只有读写Snapshot卷才需要预留容量。

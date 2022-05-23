@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/why-would-i-suspend-a-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series,  suspend, snapshot, schedule 
+summary: 暂停计划后、不会按计划创建快照映像。您可以暂停快照计划以节省存储空间、然后稍后恢复计划的快照。 
+---
+= 为什么要暂停快照计划？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+暂停计划后、不会按计划创建快照映像。您可以暂停快照计划以节省存储空间、然后稍后恢复计划的快照。
+
+如果不需要快照计划、应删除该计划、而不是暂停该计划。

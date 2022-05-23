@@ -1,0 +1,36 @@
+---
+permalink: san-getstarted/login-um.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, log in Unified Manager 
+summary: 访问并登录到Unified Manager。 
+---
+= 访问Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+安装 Web 服务代理后，您可以访问 Unified Manager 以在基于 Web 的界面中管理多个存储系统。
+
+
+NOTE: 有关支持的浏览器、请参见 link:supported-browsers-os.html["支持的浏览器和操作系统"]。
+
+.步骤
+. 打开浏览器并输入以下 URL ：
++
+` + http ： //< 服务器 > ： < 端口 >/um+`
+
++
+在此 URL 中， ` < 服务器 >` 表示安装了 Web 服务代理的服务器的 IP 地址或 FQDN ， ` < 端口 >` 表示侦听端口号（对于 HTTP ，默认为 8080 ，对于 HTTPS ，默认为 8443 ）。
+
++
+此时将打开 Unified Manager 登录页面。
+
+. 对于首次登录，请输入 `admin` 作为用户名，然后设置并确认管理员用户的密码。
++
+此密码最多可包含 30 个字符。
+
+
+
+有关用户和密码的详细信息、请参见 link:../um-certificates/how-access-management-works-unified.html["访问管理的工作原理"]。

@@ -1,0 +1,16 @@
+---
+permalink: um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reserved, capacity, candidate 
+summary: 如果一个池或卷组中有多个卷满足您为存储对象选择的容量百分比量、则您将看到多个候选卷。 
+---
+= 为什么我会看到多个预留容量候选项？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果一个池或卷组中有多个卷满足您为存储对象选择的容量百分比量、则您将看到多个候选卷。
+
+您可以通过更改要在基础卷上为复制服务操作预留的物理驱动器空间百分比来刷新建议候选对象列表。根据您的选择显示最佳候选对象。

@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/overview-access-management-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
+summary: 访问管理是一种在SANtricity Unified Manager中配置用户身份验证的方法。 
+---
+= 访问管理概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+访问管理是一种在Unified Manager中配置用户身份验证的方法。
+
+
+
+== 有哪些身份验证方法可用？
+
+可以使用以下身份验证方法：
+
+* *本地用户角色*—身份验证通过RBAC (基于角色的访问控制)功能进行管理。本地用户角色包括预定义的用户配置文件以及具有特定访问权限的角色。
+* *目录服务*—身份验证通过LDAP (轻型目录访问协议)服务器和目录服务(例如Microsoft的Active Directory)进行管理。
+
+
+了解更多信息。
+
+* link:how-access-management-works-unified.html["访问管理的工作原理"]
+* link:access-management-terminology-unified.html["访问管理术语"]
+* link:permissions-for-mapped-roles-unified.html["映射角色的权限"]
+
+
+
+
+== 如何配置访问管理？
+
+SANtricity 软件已预先配置为使用本地用户角色。如果要使用LDAP、可以在访问管理页面下对其进行配置。
+
+了解更多信息。
+
+* link:access-management-with-local-user-roles-unified.html["具有本地用户角色的访问管理"]
+* link:access-management-with-directory-services-unified.html["使用目录服务进行访问管理"]
+

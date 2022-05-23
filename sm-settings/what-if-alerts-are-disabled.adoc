@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-if-alerts-are-disabled.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, alerts, disabled, 
+summary: 如果您希望管理员接收有关存储阵列中发生的重要事件的通知、则必须配置警报方法。 
+---
+= 如果警报已禁用、该怎么办？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您希望管理员接收有关存储阵列中发生的重要事件的通知、则必须配置警报方法。
+
+对于使用SANtricity System Manager管理的存储阵列、您可以从警报页面配置警报。可以通过电子邮件、SNMP陷阱或系统日志消息发送警报通知。此外、还可以通过初始设置向导配置电子邮件警报。

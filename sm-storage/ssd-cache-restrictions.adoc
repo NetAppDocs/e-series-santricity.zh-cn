@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/ssd-cache-restrictions.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions 
+summary: 了解在存储阵列上使用SSD缓存时的限制。 
+---
+= SSD缓存限制
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解在存储阵列上使用SSD缓存时的限制。
+
+
+
+== 限制
+
+* 分配给使用控制器SSD缓存的任何卷均不符合自动负载平衡传输的条件。
+* 目前、每个存储阵列仅支持一个SSD缓存。
+* 存储阵列上的最大可用SSD缓存容量为5 TB。
+* Snapshot映像不支持SSD缓存。
+* SSD缓存在EF600或EF300存储系统上不可用。
+* 如果导入或导出启用或禁用了SSD缓存的卷、则不会导入或导出缓存的数据。
+* 要删除SSD缓存中的最后一个驱动器、必须先删除SSD缓存。
+
+
+
+
+== 驱动器安全限制
+
+* 只有在创建SSD缓存时、才能在SSD缓存上启用安全性。您稍后无法像在卷上那样启用安全性。
+* 如果将支持安全的驱动器与SSD缓存中不支持安全的驱动器混合使用、则无法为这些驱动器启用驱动器安全性。
+* 启用了安全保护的卷必须具有启用了安全保护的SSD缓存。
+

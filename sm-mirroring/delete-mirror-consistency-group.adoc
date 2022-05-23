@@ -1,0 +1,38 @@
+---
+permalink: sm-mirroring/delete-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group, 
+summary: 您可以删除本地存储阵列和远程存储阵列上不再需要的镜像一致性组。 
+---
+= 删除镜像一致性组
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以删除本地存储阵列和远程存储阵列上不再需要的镜像一致性组。
+
+必须从镜像一致性组中删除所有镜像对。
+
+.步骤
+. 选择菜单：Storage[Asynchronous Mirroring]。
+. 选择*镜像一致性组*选项卡。
++
+此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。
+
+. 选择要删除的镜像一致性组、然后选择菜单：uncommon Tasks[Delete]。
++
+系统将显示确认信息。
+
+. 选择*是*可删除镜像一致性组。
+
+
+System Manager将执行以下操作：
+
+* 首先删除本地存储阵列上的镜像一致性组、然后删除远程存储阵列上的镜像一致性组。
+* 从镜像一致性组表中删除镜像一致性组。
+
+
+有时、可能会从本地存储阵列成功删除镜像一致性组、但通信错误会阻止从远程存储阵列中删除镜像一致性组。在这种情况下、您必须访问远程存储阵列以删除相应的镜像一致性组。

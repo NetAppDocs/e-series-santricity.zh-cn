@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-cpu-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cpu, graph, show, capacity, statistics, controller 
+summary: 'CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是中央处理单元的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。' 
+---
+= CPU图形显示了什么？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是_central processing unit_的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。
+
+CPU图形显示了阵列上的操作所使用的CPU处理容量百分比。即使没有发生外部I/O、CPU利用率百分比也可以不为零、因为存储操作系统可能正在执行后台操作和监控。将光标悬停在图形上的某个点上、可查看该时间点所使用的处理能力百分比。

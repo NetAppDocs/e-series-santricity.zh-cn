@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/configure-nvme-over-infiniband-ports-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, nvme, over, InfiniBand, ports, 
+summary: 如果您的控制器包含基于InfiniBand的NVMe连接、则可以从系统页面配置NVMe端口设置。 
+---
+= 配置基于InfiniBand的NVMe端口
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您的控制器包含基于InfiniBand的NVMe连接、则可以从系统页面配置NVMe端口设置。
+
+.开始之前
+* 您的控制器必须包含基于InfiniBand的NVMe主机端口；否则、System Manager中不提供基于InfiniBand的NVMe设置。
+* 您必须知道主机连接的IP地址。
+
+
+[NOTE]
+====
+只有当存储阵列的控制器包含基于InfiniBand的NVMe端口时、才会显示基于InfiniBand的NVMe设置和功能。
+
+====
+.步骤
+. 选择菜单：设置[系统]。
+. 在*基于InfiniBand的NVMe设置*下、选择*配置基于InfiniBand端口的NVMe *。
+. 选择具有要配置的基于InfiniBand的NVMe端口的控制器。单击 * 下一步 * 。
+. 从下拉列表中选择要配置的HIC端口、然后输入IP地址。
++
+如果要为EF600存储阵列配置支持200 GB的HIC、则此对话框会显示两个IP地址字段、一个用于物理端口(外部)、一个用于虚拟端口(内部)。您应为这两个端口分配唯一的IP地址。通过这些设置、主机可以在每个端口之间建立一条路径、并使HIC实现最高性能。如果不为虚拟端口分配IP地址、HIC将以大约一半的速度运行。
+
+. 单击 * 完成 * 。
+. 单击*是*重置基于InfiniBand的NVMe端口。
+

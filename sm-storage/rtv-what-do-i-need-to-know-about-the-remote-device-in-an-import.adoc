@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, volume, import 
+summary: 使用远程存储功能时、请注意、远程卷是数据源。 
+---
+= 需要了解有关导入中的远程卷的哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用远程存储功能时、请注意、远程卷是数据源。
+
+导入过程中、数据将从远程卷传输到目标存储系统上的目标卷。这两个卷必须具有匹配的块大小。

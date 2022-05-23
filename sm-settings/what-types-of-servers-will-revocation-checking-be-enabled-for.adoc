@@ -1,0 +1,14 @@
+---
+permalink: sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, servers, revocation, checking, 
+summary: '每当存储阵列连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时、它都会执行撤消检查。' 
+---
+= 将为哪些类型的服务器启用撤消检查？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+每当存储阵列连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时、它都会执行撤消检查。

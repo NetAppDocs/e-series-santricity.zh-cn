@@ -1,0 +1,64 @@
+---
+permalink: sm-storage/overview-pools-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存储容量。此逻辑容量可以采用池或卷组的形式、具体取决于您的环境需求。 
+---
+= 池和卷组概述
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从存储阵列中未分配的部分驱动器创建逻辑存储容量。此逻辑容量可以采用池或卷组的形式、具体取决于您的环境需求。
+
+
+
+== 什么是池和卷组？
+
+池_是一组逻辑分组的驱动器。卷组_是具有共享特征的卷的容器。您可以使用池或卷组创建可供主机访问的卷。
+
+了解更多信息。
+
+* link:how-pools-and-volume-groups-work.html["池和卷组的工作原理"]
+* link:capacity-terminology.html["容量术语"]
+* link:decide-to-use-a-pool-or-volume-group.html["确定是使用池还是卷组"]
+
+
+
+
+== 如何创建池？
+
+您可以允许System Manager在检测到存储阵列中的未分配容量时自动创建池。或者、如果自动创建无法确定最佳配置、您也可以从菜单：Storage[Pools & Volume Groups]手动创建池。
+
+了解更多信息。
+
+* link:automatic-versus-manual-pool-creation.html["自动创建池与手动创建池"]
+* link:create-pool-automatically.html["自动创建池"]
+* link:create-pool-manually.html["手动创建池"]
+* link:add-capacity-to-a-pool-or-volume-group.html["向池或卷组添加容量"]
+
+
+
+
+== 如何创建卷组？
+
+您可以从菜单：Storage[Pools & Volume Groups]创建卷组。
+
+了解更多信息。
+
+* link:create-volume-group.html["创建卷组"]
+* link:add-capacity-to-a-pool-or-volume-group.html["向池或卷组添加容量"]
+
+
+
+
+== 相关信息
+
+详细了解与池和卷组相关的概念：
+
+* link:how-reserved-capacity-works.html["预留容量的工作原理"]
+* link:how-ssd-cache-works.html["SSD缓存的工作原理"]
+

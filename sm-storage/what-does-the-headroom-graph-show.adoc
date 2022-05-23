@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-headroom-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, headroom, graph, show, performance, capability 
+summary: 性能余量图与存储阵列控制器的剩余性能功能相关。此图形可在主页页面和性能图块的物理视图选项卡上查看。 
+---
+= 性能余量图显示了哪些内容？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+性能余量图与存储阵列控制器的剩余性能功能相关。此图形可在主页页面和性能图块的物理视图选项卡上查看。
+
+性能余量图显示了存储系统中物理对象的剩余性能。将光标悬停在图中的某个点上方、可查看控制器A和控制器B的剩余IOPS和MiB/秒功能百分比

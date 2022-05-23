@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/access-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access volumes 
+summary: '访问卷是存储阵列上出厂配置的卷、用于通过主机I/O连接与存储阵列和主机进行通信。访问卷需要一个逻辑单元号(Logical Unit Number、LUN)。' 
+---
+= 访问卷
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+访问卷是存储阵列上出厂配置的卷、用于通过主机I/O连接与存储阵列和主机进行通信。访问卷需要一个逻辑单元号(Logical Unit Number、LUN)。
+
+访问卷在两个实例中使用：
+
+* *自动主机创建*—主机上下文代理(Host Context Agent、HCA)实用程序使用访问卷将主机信息(名称、端口、主机类型)推送到System Manager、以便自动创建主机。
+* *带内管理*—访问卷用于带内连接以管理存储阵列。只有在使用命令行界面(CLI)管理存储阵列时、才能执行此操作。
++
+[NOTE]
+====
+EF600或EF300存储系统不支持带内管理。
+
+====
+
+
+首次将卷分配给主机时、系统会自动创建访问卷。例如、如果将Volume_1和Volume_2分配给主机、则在查看分配结果时、您会看到三个卷(Volume_1、Volume_2和Access)。
+
+如果您不是使用命令行界面自动创建主机或带内管理存储阵列、则不需要访问卷、您可以通过删除访问卷来释放LUN。此操作将删除卷到LUN的分配以及与主机的任何带内管理连接。

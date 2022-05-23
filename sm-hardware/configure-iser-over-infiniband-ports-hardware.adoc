@@ -1,0 +1,38 @@
+---
+permalink: sm-hardware/configure-iser-over-infiniband-ports-hardware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, iser, infiniband, ports, 
+summary: 如果控制器包含基于InfiniBand的iSER端口、则可以配置与主机的网络连接。 
+---
+= 通过InfiniBand端口配置iSER
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果控制器包含基于InfiniBand的iSER端口、则可以配置与主机的网络连接。
+
+.开始之前
+* 控制器必须包含基于InfiniBand端口的iSER；否则、基于InfiniBand的iSER设置在System Manager中不可用。
+* 您必须知道主机连接的IP地址。
+
+
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了驱动器，请单击 * 显示磁盘架背面 * 。
++
+此图将发生变化，以显示控制器，而不是驱动器。
+
+. 单击具有要配置的iSER over InfiniBand端口的控制器。
++
+此时将显示控制器的上下文菜单。
+
+. 选择*通过InfiniBand端口配置iSER *。
++
+此时将打开Configure iSER over InfiniBand Ports对话框。
+
+. 在下拉列表中、选择要配置的HIC端口、然后输入主机的IP地址。
+. 单击 * 配置 * 。
+. 完成配置、然后单击*是*重置基于InfiniBand的iSER端口。
+

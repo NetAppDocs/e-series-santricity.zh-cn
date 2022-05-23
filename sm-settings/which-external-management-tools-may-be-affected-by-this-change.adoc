@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/which-external-management-tools-may-be-affected-by-this-change.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, external, management, tools, 
+summary: 在System Manager中进行某些更改时、例如切换管理界面或使用SAML进行身份验证方法、某些外部工具和功能可能会受到限制、无法使用。 
+---
+= 哪些外部管理工具可能会受到此更改的影响？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在System Manager中进行某些更改时、例如切换管理界面或使用SAML进行身份验证方法、某些外部工具和功能可能会受到限制、无法使用。
+
+
+
+== 管理接口
+
+除非启用旧版管理接口设置、否则直接与旧版管理界面(符号)通信的工具(例如SANtricity SMI-S Provider或OnCommand Insight (OCI))无法正常工作。此外、如果禁用了此设置、则不能使用传统CLI命令或执行镜像操作。
+
+有关详细信息，请联系技术支持。
+
+
+
+== SAML 身份验证
+
+启用SAML后、以下客户端将无法访问存储阵列服务和资源：
+
+* 企业管理窗口(EMW)
+* 命令行界面（ CLI ）
+* 软件开发人员套件(SDK)客户端
+* 带内客户端
+* HTTP基本身份验证REST API客户端
+* 使用标准REST API端点登录
+
+
+有关详细信息，请联系技术支持。

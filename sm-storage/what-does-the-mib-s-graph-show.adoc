@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-mib-s-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mibs, graph, 
+summary: MIB/s图以每秒兆字节为单位显示传输速度统计信息。在主页页面上、此图显示存储阵列的统计信息。在性能图块的逻辑视图、物理视图以及应用程序和工作负载视图选项卡中、此图显示存储阵列、卷、卷组、池、应用程序、 和工作负载。 
+---
+= MIB/s图显示什么？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+MIB/s图以每秒兆字节为单位显示传输速度统计信息。在主页页面上、此图显示存储阵列的统计信息。在性能图块的逻辑视图、物理视图以及应用程序和工作负载视图选项卡中、此图显示存储阵列、卷、卷组、池、应用程序、 和工作负载。
+
+MiB/秒是_mebibytes per second_的缩写、即1、048、576字节/秒。将光标悬停在图形上的某个点上、可查看该时间点的以下值：
+
+* 读取的数据量。
+* 写入的数据量。
+* 读取和写入的总数据量。
+

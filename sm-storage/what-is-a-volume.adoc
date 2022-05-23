@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-a-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume 
+summary: 卷是应用程序，数据库和文件系统用于存储数据的容器。它是为主机创建的逻辑组件，用于访问存储阵列上的存储。 
+---
+= 什么是卷？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+卷是应用程序，数据库和文件系统用于存储数据的容器。它是为主机创建的逻辑组件，用于访问存储阵列上的存储。
+
+卷是使用池或卷组中的可用容量创建的。卷已定义容量。尽管一个卷可能包含多个驱动器、但一个卷在主机中显示为一个逻辑组件。

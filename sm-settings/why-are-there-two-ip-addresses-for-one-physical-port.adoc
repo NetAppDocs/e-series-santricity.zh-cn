@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, IP, addresses, physical, port, 
+summary: EF600存储阵列可以包括两个HIC—一个外部HIC和一个内部HIC。 
+---
+= 为什么一个物理端口有两个IP地址？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。
+
+在此配置中、外部HIC连接到内部辅助HIC。您可以从外部HIC访问的每个物理端口都具有来自内部HIC的关联虚拟端口。
+
+要获得最大200 GB性能、必须为物理端口和虚拟端口分配唯一的IP地址、以便主机可以与每个端口建立连接。如果不为虚拟端口分配IP地址、HIC将以大约一半的速度运行。

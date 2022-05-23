@@ -1,0 +1,65 @@
+---
+permalink: sm-support/configure-autosupport-delivery-method.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, autosupport, ASUP, delivery, method 
+summary: AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付派单。 
+---
+= 配置 AutoSupport 交付方法
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付派单。
+
+.开始之前
+* 必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。
+* 必须在网络中安装和配置DNS服务器。必须在System Manager中配置DNS服务器地址(此任务可从硬件页面访问)。
+
+
+查看不同的协议：
+
+* * HTTPS *-允许您使用HTTPS直接连接到目标技术支持服务器。如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。
+* "* HTTP*"-允许您使用HTTP直接连接到目标技术支持服务器。
+* *电子邮件*-用于使用电子邮件服务器作为发送AutoSupport 派单的传送方法。
+
+
+[NOTE]
+====
+* HTTPS/HTTP与电子邮件方法之间的差异*。使用SMTP的电子邮件传送方法与HTTPS和HTTP传送方法有一些重要区别。首先、电子邮件方法的派单大小限制为5 MB、这意味着不会派送某些ASUP数据收集。其次、AutoSupport OnDemand功能仅适用于htmpp和HTTPS方法。
+
+====
+.步骤
+. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 选择 * 配置 AutoSupport 交付方法 * 。
++
+此时将显示一个对话框、其中列出了派单交付方法。
+
+. 选择所需的交付方法、然后选择该交付方法的参数。执行以下操作之一：
++
+** 如果选择HTTPS或HTTP、请选择以下传输参数之一：
++
+*** *直接*—此传送参数为默认选择。通过选择此选项、您可以使用HTTPS或HTTP协议直接连接到目标技术支持系统。
+*** *通过代理服务器*-选择此选项可以指定与目标技术支持系统建立连接所需的HTTP代理服务器详细信息。您必须指定主机地址和端口号。但是、如果需要、您只需要输入主机身份验证详细信息(用户名和密码)。
+*** *通过代理自动配置脚本(PAC)*—指定代理自动配置(PAC)脚本文件的位置。通过PAC文件、系统可以自动选择适当的代理服务器、以便与目标技术支持系统建立连接。
+
+
+** 如果选择了电子邮件、请输入以下信息：
++
+*** 作为完全限定域名、IPv4地址或IPv6地址的邮件服务器地址。
+*** AutoSupport 派遣电子邮件的发件人字段中显示的电子邮件地址。
+*** *可选；如果要执行配置测试*：AutoSupport 系统收到测试派单时发送确认的电子邮件地址。
+*** 如果要对消息进行加密、请选择* SMTPS *或* STARTTLS *作为加密类型、然后选择加密消息的端口号。否则、请选择*无*。
+*** 如果需要、请输入用于向传出发件人和邮件服务器进行身份验证的用户名和密码。
+
+
+
+
+. 单击*测试配置*、使用指定的传输参数测试与技术支持服务器的连接。如果启用了AutoSupport 按需功能、则系统还会测试AutoSupport 按需派单交付的连接。
++
+如果配置测试失败、请检查您的配置设置并重新运行测试。如果测试仍失败、请联系技术支持。
+
+. 单击 * 保存 * 。
+

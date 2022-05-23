@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, dhcp, server, static, internet, protocol, 
+summary: '您必须将动态主机配置协议(DHCP)服务器配置为对存储阵列中的控制器使用静态Internet协议(IP)地址。' 
+---
+= 如何配置DHCP服务器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您必须将动态主机配置协议(DHCP)服务器配置为对存储阵列中的控制器使用静态Internet协议(IP)地址。
+
+DHCP服务器分配的IP地址通常是动态的、可能会发生更改、因为它们的租赁期已到期。某些设备(例如服务器和路由器)需要使用静态地址。存储阵列中的控制器还需要静态IP地址。
+
+有关如何分配静态地址的信息、请参见DHCP服务器的文档。

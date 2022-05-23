@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity, over-allocation, error, 
+summary: 选定卷组可能具有一个或多个可用容量区域。可用容量区域是指删除卷或在创建卷期间未使用所有可用容量时可能产生的可用容量。 
+---
+= 当卷组中有足够的可用容量来创建卷时、为什么会出现容量过度分配错误？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+选定卷组可能具有一个或多个可用容量区域。可用容量区域是指删除卷或在创建卷期间未使用所有可用容量时可能产生的可用容量。
+
+在卷组中创建具有一个或多个可用容量区域的卷时、卷的容量将限制为该卷组中最大的可用容量区域。例如、如果一个卷组的可用容量总计为15 GiB、而最大可用容量区域为10 GiB、则可以创建的最大卷为10 GiB。
+
+如果卷组具有可用容量区域、则卷组图形包含一个链接、指示现有可用容量区域的数量。选择此链接可显示一个弹出窗口、指示每个区域的容量。
+
+通过整合可用容量、您可以从卷组中的最大可用容量创建更多卷。您可以使用以下方法之一整合选定卷组上的现有可用容量：
+
+* 如果至少为卷组检测到一个可用容量区域、则"通知"区域的主页页面上将显示"整合可用容量"建议。单击*整合可用容量*链接以启动对话框。
+* 您也可以选择菜单：池和卷组(不常见的任务>整合卷组可用容量)以启动此对话框。
+
+
+如果要使用特定的可用容量区域、而不是最大可用容量区域、请使用命令行界面(CLI)。

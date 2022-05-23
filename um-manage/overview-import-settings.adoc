@@ -1,0 +1,41 @@
+---
+permalink: um-manage/overview-import-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, settings 
+summary: 您可以将设置从一个存储阵列导入到另一个存储阵列、包括警报、AutoSupport 和目录服务。 
+---
+= 设置导入概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过导入设置功能、您可以执行批量操作、将设置从一个阵列导入到多个阵列。当您需要在网络中配置多个阵列时、此功能可以节省时间。
+
+
+
+== 可以导入哪些设置？
+
+您可以导入警报方法、AutoSupport 配置、目录服务配置、存储配置(例如卷组和池)和系统设置(例如自动负载平衡)。
+
+了解更多信息。
+
+* link:how-import-settings-works.html["导入设置的工作原理"]
+* link:requirements-for-replicating-storage-configurations.html["复制存储配置的要求"]
+
+
+
+
+== 如何执行批量导入？
+
+在要用作源的存储阵列上、打开System Manager并配置所需的设置。然后从Unified Manager中、转到"管理"页面并将设置导入到一个或多个阵列。
+
+了解更多信息。
+
+* link:import-alert-settings.html["导入警报设置"]
+* link:import-autosupport-settings.html["导入AutoSupport 设置"]
+* link:import-directory-services-settings.html["导入目录服务设置"]
+* link:import-storage-configuration-settings.html["导入存储配置设置"]
+* link:import-system-settings.html["导入系统设置"]
+

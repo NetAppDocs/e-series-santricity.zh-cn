@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
+summary: 对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。 
+---
+= 如何知道需要将哪些证书上传到System Manager才能进行外部密钥管理？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。
+
+客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。要获取客户端证书、请使用System Manager为存储阵列完成CSR。然后、您可以将CSR上传到密钥管理服务器并从该服务器生成客户端证书。获得客户端证书后、将该文件复制到要访问System Manager的主机。
+
+密钥管理服务器证书用于验证密钥管理服务器、以便存储阵列可以信任其IP地址。从密钥管理服务器检索服务器证书文件、然后将该文件复制到要访问System Manager的主机。

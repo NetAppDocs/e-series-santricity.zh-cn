@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/overview-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, 
+summary: '您可以使用System Manager创建证书签名请求(Certificate Signing Requests、CSR)、导入证书以及管理现有证书。' 
+---
+= 证书概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用System Manager创建证书签名请求(Certificate Signing Requests、CSR)、导入证书以及管理现有证书。
+
+
+
+== 什么是证书？
+
+_Certificates_是数字文件、用于标识网站和服务器等联机实体、以便在互联网上进行安全通信。证书有两种类型：_signed certificate"由证书颁发机构(CA)验证；_self-signed certificate"由实体所有者(而不是第三方)验证。
+
+了解更多信息。
+
+* link:how-certificates-work-sam.html["证书的工作原理"]
+* link:certificate-terminology.html["证书术语"]
+
+
+
+
+== 如何配置签名证书？
+
+首先从System Manager生成签名请求、然后将文件发送到CA。CA返回证书文件后、您可以使用System Manager导入这些文件。
+
+了解更多信息。
+
+* link:use-ca-signed-certificates-for-controllers.html["对控制器使用CA签名的证书"]
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["使用CA签名的证书通过密钥管理服务器进行身份验证"]
+
+
+
+
+== 相关信息
+
+详细了解与证书相关的任务：
+
+* link:view-imported-certificates.html["查看导入的证书信息"]
+* link:enable-certificate-revocation-checking.html["启用证书撤消检查"]
+

@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-are-hosts-and-host-clusters.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hosts, clusters, server, 
+summary: 主机是指向存储阵列上的卷发送I/O的服务器。主机集群是一组主机。您可以创建一个主机集群、以便轻松地将相同的卷分配给多个主机。 
+---
+= 什么是主机和主机集群？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主机是指向存储阵列上的卷发送I/O的服务器。主机集群是一组主机。您可以创建一个主机集群、以便轻松地将相同的卷分配给多个主机。
+
+您可以单独定义主机。它可以是一个独立的实体、也可以添加到主机集群中。您可以将卷分配给单个主机、也可以将主机作为主机集群的一部分、与主机集群中的其他主机共享对一个或多个卷的访问权限。
+
+主机集群是您在SANtricity 系统管理器中创建的逻辑实体。您必须先将主机添加到主机集群、然后才能分配卷。

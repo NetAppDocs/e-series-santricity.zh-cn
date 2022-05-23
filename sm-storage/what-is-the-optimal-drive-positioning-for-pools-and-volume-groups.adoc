@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, optimal, drive, positioning, pools, volume groups 
+summary: 创建池和卷组时、请确保在上部和下部驱动器插槽之间平衡驱动器选择。 
+---
+= 池和卷组的最佳驱动器定位是什么？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+创建池和卷组时、请确保在上部和下部驱动器插槽之间平衡驱动器选择。
+
+对于EF600和EF300控制器、驱动器插槽0-11连接到一个PCI网桥、而插槽12-23连接到另一个PCI网桥。为了获得最佳性能、您应平衡驱动器选择、使其包含上插槽和下插槽中的驱动器数量大致相等。这种定位可确保卷不会比需要时更早地达到带宽限制。

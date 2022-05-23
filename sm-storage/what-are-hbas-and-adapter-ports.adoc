@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-are-hbas-and-adapter-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hbas, adapter, ports 
+summary: '主机总线适配器(HBA)是驻留在主机中并包含一个或多个主机端口的板。主机端口是主机总线适配器(HBA)上的一个端口、用于与控制器建立物理连接并用于I/O操作。' 
+---
+= 什么是HBA和适配器端口？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主机总线适配器(HBA)是驻留在主机中并包含一个或多个主机端口的板。主机端口是主机总线适配器(HBA)上的一个端口、用于与控制器建立物理连接并用于I/O操作。
+
+HBA上的适配器端口称为主机端口。大多数HBA都有一个或两个主机端口。HBA具有唯一的全球通用标识符(World Wide Identifier、WWID)、每个HBA主机端口都有一个唯一的WWID。当您通过SANtricity 系统管理器手动创建主机或使用主机上下文代理自动创建主机时、可以使用主机端口标识符将相应的HBA与物理主机关联起来。

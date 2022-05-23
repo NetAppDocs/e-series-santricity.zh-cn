@@ -1,0 +1,16 @@
+---
+permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collection, autosupport, ASUP 
+summary: 通过AutoSupport 功能和手动支持数据收集功能、可以在客户支持包中收集数据、以便由技术支持进行远程故障排除和问题分析。 
+---
+= 我正在收集哪些数据？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过AutoSupport 功能和手动支持数据收集功能、可以在客户支持包中收集数据、以便由技术支持进行远程故障排除和问题分析。
+
+客户支持包会将有关存储阵列的所有类型的信息收集到一个压缩文件中。收集的信息包括物理配置、逻辑配置、版本信息、事件、日志文件、 和性能数据。只有技术支持才会使用此信息来解决存储阵列的问题。

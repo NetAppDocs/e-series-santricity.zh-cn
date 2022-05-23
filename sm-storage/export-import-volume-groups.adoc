@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/export-import-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, export, import, volume group 
+summary: 通过卷组迁移、您可以导出卷组、以便将卷组导入到其他存储阵列。 
+---
+= 导出/导入卷组
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过卷组迁移、您可以导出卷组、以便将卷组导入到其他存储阵列。
+
+SANtricity System Manager用户界面不支持导出/导入功能。您必须使用命令行界面(CLI)将卷组导出/导入到其他存储阵列。

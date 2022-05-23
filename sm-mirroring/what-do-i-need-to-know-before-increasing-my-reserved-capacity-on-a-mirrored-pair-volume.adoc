@@ -1,0 +1,30 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, mirrored, pair, volume, 
+summary: 通常、当您收到警告、指出镜像对的预留容量已满时、应增加预留容量。您只能以8 GiB为增量增加预留容量。 
+---
+= 在增加镜像对卷上的预留容量之前、我需要了解哪些信息？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通常、当您收到警告、指出镜像对的预留容量已满时、应增加预留容量。您只能以8 GiB为增量增加预留容量。
+
+对于异步镜像操作、预留容量通常为基础卷的20%。如果存在以下一种或两种情况、请为预留容量选择更大的容量：
+
+* 您打算将镜像对保留很长时间。
+* 由于I/O活动繁重、主卷上的数据块会发生很大一部分更改。使用历史性能数据或其他操作系统实用程序帮助您确定主卷的典型I/O活动。
+
+
+您可以通过执行以下操作之一来增加镜像对的预留容量：
+
+* 通过选择菜单：Storage[池和卷组]并单击*预留容量*选项卡来调整镜像对卷的容量百分比。
+* 使用池或卷组上的可用容量创建新卷。
++
+如果任何池或卷组上没有可用容量、则可以将未配置的容量以未使用驱动器的形式添加到池或卷组中。
+
+

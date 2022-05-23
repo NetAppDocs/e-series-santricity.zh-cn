@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/why-is-it-important-to-record-security-key-information.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, record, security, key, 
+summary: 如果丢失安全密钥信息并且没有备份、则在重新定位启用了安全保护的驱动器或升级控制器时可能会丢失数据。您需要使用安全密钥来解锁驱动器上的数据。 
+---
+= 为什么记录安全密钥信息很重要？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果丢失安全密钥信息并且没有备份、则在重新定位启用了安全保护的驱动器或升级控制器时可能会丢失数据。您需要使用安全密钥来解锁驱动器上的数据。
+
+请务必记录安全密钥标识符、关联的密码短语以及安全密钥文件保存在本地主机上的位置。

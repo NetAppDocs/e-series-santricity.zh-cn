@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/access-management-with-local-user-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles 
+summary: '管理员可以使用SANtricity 统一管理器中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为本地用户角色。' 
+---
+= 具有本地用户角色的访问管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+管理员可以使用Unified Manager中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为"本地用户角色"。
+
+
+
+== 配置工作流
+
+本地用户角色已在系统中预先配置。要使用本地用户角色进行身份验证、管理员可以执行以下操作：
+
+. 管理员使用包含安全管理员权限的用户配置文件登录到Unified Manager。
++
+[NOTE]
+====
+`admin`用户可以完全访问系统中的所有功能。
+
+====
+. 管理员会查看用户配置文件、这些配置文件是预定义的、无法修改。
+. 管理员也可以为每个用户配置文件分配新密码。
+. 用户使用分配的凭据登录到系统。
+
+
+
+
+== 管理
+
+如果仅使用本地用户角色进行身份验证、则管理员可以执行以下管理任务：
+
+* 更改密码。
+* 设置密码的最小长度。
+* 允许用户在不使用密码的情况下登录。
+

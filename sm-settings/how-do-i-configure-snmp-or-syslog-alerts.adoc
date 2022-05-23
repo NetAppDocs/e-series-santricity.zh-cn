@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, snmp, syslog, alerts, 
+summary: '除了电子邮件警报之外、您还可以将警报配置为通过简单网络管理协议(Simple Network Management Protocol、SNMP)陷阱或系统日志消息发送。' 
+---
+= 如何配置SNMP或系统日志警报？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+除了电子邮件警报之外、您还可以将警报配置为通过简单网络管理协议(Simple Network Management Protocol、SNMP)陷阱或系统日志消息发送。
+
+要配置SNMP或系统日志警报、请转到菜单：设置[警报]。

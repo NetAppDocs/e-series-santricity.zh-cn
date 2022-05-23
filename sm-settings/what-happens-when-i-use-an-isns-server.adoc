@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-happens-when-i-use-an-isns-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, isns, server, registration, 
+summary: '使用Internet存储名称服务(iSNS)服务器信息时、可以将主机(启动程序)配置为查询iSNS服务器以从目标(控制器)检索信息。' 
+---
+= 使用iSNS服务器进行注册时会发生什么情况？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用Internet存储名称服务(iSNS)服务器信息时、可以将主机(启动程序)配置为查询iSNS服务器以从目标(控制器)检索信息。
+
+此注册可为iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息、并允许在启动程序(iSCSI主机)和目标(控制器)之间进行查询。

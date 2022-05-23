@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, snapshots, thin, standard, base, images 
+summary: 标准卷和精简卷是唯一可用于存储快照映像的卷类型。不能使用非标准卷。基础卷可以驻留在池或卷组上。 
+---
+= 可以使用哪些类型的卷来创建快照？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+标准卷和精简卷是唯一可用于存储快照映像的卷类型。不能使用非标准卷。基础卷可以驻留在池或卷组上。

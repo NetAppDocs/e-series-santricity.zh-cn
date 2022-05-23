@@ -1,0 +1,23 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, syslog, server, 
+summary: 您可以将审核日志归档到外部系统日志服务器。 
+---
+= 在配置系统日志服务器之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将审核日志归档到外部系统日志服务器。
+
+在配置系统日志服务器之前、请记住以下准则。
+
+* 确保您知道服务器地址、协议和端口号。服务器地址可以是完全限定域名、IPv4地址或IPv6地址。
+* 如果您的服务器使用安全协议(例如TLS)、则本地系统上必须具有证书颁发机构(CA)证书。CA证书用于标识服务器和客户端之间安全连接的网站所有者。
+* 配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。
+* 覆盖策略设置(可从*查看/编辑设置*获得)不会影响使用系统日志服务器配置管理日志的方式。
+* 审核日志采用RFC 5424消息格式。
+

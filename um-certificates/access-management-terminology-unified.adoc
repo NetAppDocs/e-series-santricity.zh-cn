@@ -1,0 +1,75 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
+summary: 了解访问管理术语如何适用于SANtricity Unified Manager。 
+---
+= 访问管理术语
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解访问管理术语如何应用于Unified Manager。
+
+[cols="25h,~"]
+|===
+| 期限 | Description 
+
+
+ a| 
+Active Directory
+ a| 
+Active Directory (AD)是一种Microsoft目录服务、使用LDAP进行Windows域网络。
+
+
+
+ a| 
+绑定
+ a| 
+绑定操作用于向目录服务器对客户端进行身份验证。绑定通常需要帐户和密码凭据、但某些服务器允许匿名绑定操作。
+
+
+
+ a| 
+CA
+ a| 
+证书颁发机构(Certificate Authority、CA)是一个受信任的实体、负责颁发称为数字证书的电子文档以确保Internet安全。这些证书用于标识网站所有者、从而可以在客户端和服务器之间建立安全连接。
+
+
+
+ a| 
+证书
+ a| 
+出于安全考虑、证书用于标识站点所有者、从而防止攻击者模拟站点。此证书包含有关站点所有者的信息以及对此信息进行认证(签名)的可信实体的身份。
+
+
+
+ a| 
+LDAP
+ a| 
+轻型目录访问协议(Lightweight Directory Access Protocol、LDAP)是一种用于访问和维护分布式目录信息服务的应用程序协议。此协议允许许多不同的应用程序和服务连接到LDAP服务器以验证用户。
+
+
+
+ a| 
+RBAC
+ a| 
+基于角色的访问控制(Role-Based Access Control、RBAC)是一种根据各个用户的角色来管理对计算机或网络资源的访问的方法。Unified Manager包含预定义角色。
+
+
+
+ a| 
+SSO
+ a| 
+单点登录(SSO)是一种身份验证服务、允许一组登录凭据访问多个应用程序。
+
+
+
+ a| 
+Web服务代理
+ a| 
+Web服务代理可通过标准HTTPS机制提供访问、允许管理员为存储阵列配置管理服务。代理可以安装在Windows或Linux主机上。Unified Manager界面可用于Web服务代理。
+
+|===

@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/why-would-i-disable-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume 
+summary: 如果要为快照映像分配不同的快照卷、则可以禁用快照卷。您可以预留已禁用的快照卷以供日后使用。 
+---
+= 为什么要禁用Snapshot卷？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要为快照映像分配不同的快照卷、则可以禁用快照卷。您可以预留已禁用的快照卷以供日后使用。
+
+如果您不再需要快照卷或一致性组快照卷、并且不打算稍后重新创建该卷、则应删除该卷、而不是将其禁用。

@@ -1,0 +1,33 @@
+---
+permalink: sm-mirroring/test-communication-for-synchronous-mirroring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, test, communication, synchronous, mirroring, 
+summary: 您可以测试本地存储阵列与远程存储阵列之间的通信、以诊断参与同步镜像的镜像对可能存在的通信问题。 
+---
+= 测试同步镜像的通信
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以测试本地存储阵列与远程存储阵列之间的通信、以诊断参与同步镜像的镜像对可能存在的通信问题。
+
+运行两种不同的测试：
+
+* *通信*-验证两个存储阵列是否具有通信路径。通信测试将验证本地存储阵列是否可以与远程存储阵列通信、以及与镜像对关联的二级卷是否位于远程存储阵列上。
+* *延迟*-向与镜像对关联的远程存储阵列上的二级卷发送SCSI测试单元命令、以测试最小、平均和最大延迟。
+
+
+.步骤
+. 选择菜单：Storage[Synchronous Mirroring]。
+. 选择要测试的镜像对、然后选择*测试通信*。
+. 查看结果窗口中显示的信息、如有必要、请按照指示的更正操作进行操作。
++
+[NOTE]
+====
+如果通信测试失败、则在关闭此对话框后、此测试将继续运行、直到镜像对之间的通信恢复为止。
+
+====
+

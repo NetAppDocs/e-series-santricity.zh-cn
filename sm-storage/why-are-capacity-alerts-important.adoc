@@ -1,0 +1,23 @@
+---
+permalink: sm-storage/why-are-capacity-alerts-important.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity, alerts, important 
+summary: 容量警报指示何时向池添加驱动器。池需要足够的可用容量才能成功执行存储阵列操作。您可以通过将System Manager配置为在池的可用容量达到或超过指定百分比时发送警报来防止这些操作中断。 
+---
+= 容量警报为何重要？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+容量警报指示何时向池添加驱动器。池需要足够的可用容量才能成功执行存储阵列操作。您可以通过将System Manager配置为在池的可用容量达到或超过指定百分比时发送警报来防止这些操作中断。
+
+在使用*池自动配置*选项或*创建池*选项创建池时、可以设置此百分比。如果选择自动选项、则默认设置会自动确定何时接收警报通知。如果您选择手动创建池、则可以确定警报通知设置；如果愿意、也可以接受默认设置。您可以稍后在菜单：Settings[警报]中调整这些设置。
+
+[NOTE]
+====
+当池中的可用容量达到指定百分比时、将使用您在警报配置中指定的方法发送警报通知。
+
+====

@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/edit-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts, 
+summary: 您可以更改接收电子邮件警报的收件人的电子邮件地址。 
+---
+= 编辑警报的电子邮件地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改接收电子邮件警报的收件人的电子邮件地址。
+
+您要编辑的电子邮件地址必须在警报页面的电子邮件选项卡中定义。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*电子邮件*选项卡。
+. 从*电子邮件地址*表中、选择要更改的地址、然后单击最右侧的*编辑*(铅笔)图标。
++
+该行将变为可编辑字段。
+
+. 输入新地址、然后单击*保存*(复选标记)图标。
++
+[NOTE]
+====
+如果要取消更改、请选择*取消*(X)图标。
+
+====
+
+
+警报页面的电子邮件选项卡将显示更新后的电子邮件地址。

@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, asynchronous, volumes 
+summary: 为镜像对选择主卷时、列表将显示所有符合条件的卷。 
+---
+= 异步镜像—为什么我看不到所有卷？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+为镜像对选择主卷时、列表将显示所有符合条件的卷。
+
+不符合使用条件的任何卷不会显示在该列表中。由于以下任一原因、卷可能不符合条件：
+
+* 此卷不是最佳卷。
+* 此卷已加入镜像关系。
+* 对于精简卷、必须启用自动扩展。
+

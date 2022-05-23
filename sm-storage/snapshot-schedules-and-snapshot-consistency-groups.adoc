@@ -1,0 +1,38 @@
+---
+permalink: sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
+summary: 使用计划收集快照映像、并使用快照一致性组管理多个基础卷。 
+---
+= Snapshot计划和快照一致性组
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用计划收集快照映像、并使用快照一致性组管理多个基础卷。
+
+要轻松管理基础卷的快照操作、您可以使用以下功能：
+
+* *快照计划*—自动为单个基础卷创建快照。
+* *快照一致性组*—将多个基础卷作为一个实体进行管理。
+
+
+
+
+== Snapshot计划
+
+如果要自动为基础卷创建快照、可以创建计划。例如、您可以定义一个计划、以便在每个星期六的午夜、每个月的第一个或您决定的任何日期和时间生成快照映像。在一个计划达到最多32个快照后、您可以暂停计划快照、创建更多预留容量、也可以删除快照。可以手动删除快照、也可以通过自动删除过程来删除快照。删除快照映像后、可以重复使用额外的预留容量。
+
+
+
+== Snapshot一致性组
+
+如果要确保同时在多个卷上创建快照映像、请创建快照一致性组。快照映像操作作为一个整体对快照一致性组执行。例如、您可以为所有卷计划具有相同时间戳的同步快照。Snapshot一致性组非常适合跨越多个卷的应用程序、例如将日志存储在一个卷上的数据库应用程序和将数据库文件存储在另一个卷上的数据库应用程序。
+
+快照一致性组中包含的卷称为成员卷。将卷添加到一致性组时、System Manager会自动创建与该成员卷对应的新预留容量。您可以定义一个计划来自动为每个成员卷创建快照映像。
+
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[sam1130 dwg快照一致性组概述]
+
+^1^预留容量；^2^成员卷；^3^一致性组快照映像

@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
+summary: 您可以删除系统日志服务器、使其不再接收警报。 
+---
+= 删除警报的系统日志服务器
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以删除系统日志服务器、使其不再接收警报。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*系统日志*选项卡。
+. 选择系统日志服务器地址、然后单击右上角的*删除*。
++
+此时将打开确认删除系统日志服务器对话框。
+
+. 确认此操作、然后单击*删除*。
+
+
+删除的服务器不再从事件监控器接收警报。

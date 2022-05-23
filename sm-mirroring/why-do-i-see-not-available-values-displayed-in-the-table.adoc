@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Not Available 
+summary: 此表列出了无法显示远程存储阵列上的数据时的不可用值。 
+---
+= 为什么表中显示的值不可用？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此表列出了无法显示远程存储阵列上的数据时的不可用值。
+
+要显示远程存储阵列数据、请从Unified Manager启动System Manager。

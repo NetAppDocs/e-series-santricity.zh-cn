@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/what-is-read-write-accessibility.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, read/write, accessibility, 
+summary: 驱动器设置窗口包含有关驱动器安全属性的信息。读/写可访问是驱动器数据已锁定时显示的属性之一。 
+---
+= 什么是读/写可访问性？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+驱动器设置窗口包含有关驱动器安全属性的信息。"读/写可访问"是驱动器数据已锁定时显示的属性之一。
+
+要查看驱动器安全属性、请转到硬件页面。选择一个驱动器、单击*查看设置*、然后单击*显示更多设置*。如果驱动器已解锁、则页面底部的读/写可访问属性值为*是*。驱动器锁定时、读/写可访问属性值为*否、安全密钥无效*。您可以通过导入安全密钥来解锁安全驱动器(转到菜单：设置(系统>解锁安全驱动器)。

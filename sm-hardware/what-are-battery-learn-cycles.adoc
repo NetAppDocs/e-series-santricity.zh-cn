@@ -1,0 +1,39 @@
+---
+permalink: sm-hardware/what-are-battery-learn-cycles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, battery, learn, cycle, 
+summary: 学习周期是指自动校准智能电池电量表的周期。 
+---
+= 什么是电池学习周期？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+学习周期是指自动校准智能电池电量表的周期。
+
+学习周期包括以下阶段：
+
+* 受控电池放电
+* 休息时间
+* 收费
+
+
+电池将放电至预定的阈值。在此阶段、将校准电池电量表。
+
+学习周期需要以下参数：
+
+* 电池电量已满
+* 无过热电池
+
+
+双工控制器系统的学习周期会同时进行。对于使用多个电池或一组电池供电的控制器、学习周期按顺序进行。
+
+学习周期按计划定期在一周中的同一时间和同一天自动启动。周期之间的间隔以周为单位进行说明。
+
+[NOTE]
+====
+学习周期可能需要几个小时才能完成。
+
+====

@@ -1,0 +1,103 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iscsi 
+summary: iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的System Manager功能。 
+---
+= 配置或诊断iSCSI还需要执行哪些操作？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的System Manager功能。
+
+[NOTE]
+====
+只有当存储阵列支持iSCSI时、iSCSI设置才可用。
+
+====
+
+
+== 配置iSCSI
+
+[cols="1a,1a"]
+|===
+| Action | 位置 
+
+
+ a| 
+管理iSCSI设置
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*可查看所有管理功能。
+
+
+
+
+ a| 
+配置iSCSI端口
+ a| 
+. 选择 * 硬件 * 。
+. 选择*显示磁盘架的背面*。
+. 选择一个控制器。
+. 选择 * 配置 iSCSI 端口 * 。
+
+
+
+
+ a| 
+设置主机CHAP密钥
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*配置身份验证*。
+
+
+或
+
+. 选择菜单： Storage[Hosts] 。
+. 选择一个主机成员。
+. 单击菜单：查看/编辑设置[主机端口]选项卡。
+
+
+|===
+
+
+== 诊断iSCSI
+
+[cols="1a,1a"]
+|===
+| Action | 位置 
+
+
+ a| 
+查看或结束iSCSI会话
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*查看/结束iSCSI会话*。
+
+
+或
+
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*查看/结束iSCSI会话*。
+
+
+
+
+ a| 
+查看iSCSI统计信息
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*查看iSCSI统计信息包*。
+
+
+或
+
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*查看iSCSI统计信息包*。
+
+
+|===

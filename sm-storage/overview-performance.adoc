@@ -1,0 +1,39 @@
+---
+permalink: sm-storage/overview-performance.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance 
+summary: '"性能"页面提供了监控存储阵列性能的简单方法。' 
+---
+= 性能概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+"性能"页面提供了监控存储阵列性能的简单方法。
+
+
+
+== 我可以从性能数据中了解哪些内容？
+
+性能图形和表几乎实时显示性能数据、这有助于您确定存储阵列是否遇到问题。您还可以保存性能数据以构建存储阵列的历史视图、并确定问题发生的时间或导致问题的原因。
+
+了解更多信息。
+
+* link:performance-graphs-guidelines.html["性能图和准则"]
+* link:performance-terminology.html["性能术语"]
+
+
+
+
+== 如何查看性能数据？
+
+性能数据可从主页页面和存储页面获得。
+
+了解更多信息。
+
+* link:view-performance-data-graphical.html["查看图形性能数据"]
+* link:view-and-save-performance-data-tabular.html["查看并保存表格性能数据"]
+* link:interpret-performance-data.html["解读性能数据"]
+

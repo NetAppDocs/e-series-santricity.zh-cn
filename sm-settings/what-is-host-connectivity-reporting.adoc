@@ -1,0 +1,28 @@
+---
+permalink: sm-settings/what-is-host-connectivity-reporting.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host, connectivity, reporting, 
+summary: 启用主机连接报告后、存储阵列会持续监控控制器与已配置主机之间的连接、然后在连接中断时向您发出警报。 
+---
+= 什么是主机连接报告？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+启用主机连接报告后、存储阵列会持续监控控制器与已配置主机之间的连接、然后在连接中断时向您发出警报。
+
+如果主机出现松动、损坏或缺失的缆线或其他问题、可能会中断连接。在这些情况下、系统可能会打开Recovery Guru消息：
+
+* "Host Redundancy Lost"(主机冗余丢失)*—如果任一控制器无法与主机进行通信、则会打开。
+* *主机类型不正确*—如果在存储阵列上错误指定主机类型、则会打开此窗口、从而可能导致故障转移问题。
+
+
+如果重新启动控制器所需时间可能超过连接超时、您可能需要禁用主机连接报告。禁用此功能将禁止恢复消息。
+
+[NOTE]
+====
+禁用主机连接报告还会禁用自动负载平衡、从而监控和平衡控制器资源使用情况。但是、如果重新启用主机连接报告、则不会自动重新启用自动负载平衡功能。
+
+====

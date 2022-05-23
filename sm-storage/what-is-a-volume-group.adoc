@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-a-volume-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, group 
+summary: '卷组是具有共享特征的卷的容器。卷组已定义容量和RAID级别。您可以使用卷组创建一个或多个可供主机访问的卷。(您可以从卷组或池创建卷。)' 
+---
+= 什么是卷组？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+卷组是具有共享特征的卷的容器。卷组已定义容量和RAID级别。您可以使用卷组创建一个或多个可供主机访问的卷。(您可以从卷组或池创建卷。)

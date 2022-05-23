@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-disabled-state.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disabled, state 
+summary: 当前未将处于已禁用状态的快照卷分配给快照映像。要启用快照卷、必须使用重新创建操作为已禁用的快照卷分配新的快照映像。 
+---
+= 什么是"已禁用"状态？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+当前未将处于已禁用状态的快照卷分配给快照映像。要启用快照卷、必须使用重新创建操作为已禁用的快照卷分配新的快照映像。
+
+快照卷的特征由分配给它的快照映像定义。在处于已禁用状态的快照卷上、读写活动将暂停。

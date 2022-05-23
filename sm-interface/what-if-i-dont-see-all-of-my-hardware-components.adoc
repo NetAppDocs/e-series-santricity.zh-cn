@@ -1,0 +1,16 @@
+---
+permalink: sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, verify hardware 
+summary: 如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。 
+---
+= 如果我看不到所有硬件组件、该怎么办？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。
+
+验证所有驱动器架是否均已正确连接。如果您不确定哪些驱动器架兼容、请联系技术支持。

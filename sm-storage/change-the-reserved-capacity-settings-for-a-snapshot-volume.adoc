@@ -1,0 +1,43 @@
+---
+permalink: sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, volume 
+summary: 您可以更改快照卷的设置、以调整当快照卷的预留容量接近全满时系统发送警报通知的百分比点。 
+---
+= 更改快照卷的预留容量设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改快照卷的设置、以调整当快照卷的预留容量接近全满时系统发送警报通知的百分比点。
+
+.步骤
+. 选择菜单：Storage[Pools & Volume Groups]。
+. 单击*预留容量*选项卡。
+. 选择要编辑的快照卷、然后单击*查看/编辑设置*。
++
+此时将显示Snapshot Volume Reserved Capacity Settings对话框。
+
+. 根据需要更改快照卷的预留容量设置。
++
+.字段详细信息
+====
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+在以下情况下提醒我...
+ a| 
+使用spinner框调整当成员卷的预留容量接近全满时系统发送警报通知的百分比点。
+
+当快照卷的预留容量超过指定阈值时、系统会发送警报、以便您有时间增加预留容量或删除不必要的对象。
+
+|===
+====
+. 单击*保存*将更改应用于快照卷预留容量设置。
+

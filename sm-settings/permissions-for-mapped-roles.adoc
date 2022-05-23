@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/permissions-for-mapped-roles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, permissions, mapped, roles, 
+summary: '在存储阵列上强制实施的RBAC (基于角色的访问控制)功能包括预定义的用户配置文件、其中一个或多个角色映射到这些配置文件。每个角色都具有访问SANtricity System Manager中任务的权限。' 
+---
+= 映射角色的权限
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在存储阵列上强制实施的RBAC (基于角色的访问控制)功能包括预定义的用户配置文件、其中一个或多个角色映射到这些配置文件。每个角色都具有访问System Manager中任务的权限。
+
+用户配置文件和映射的角色可从任一System Manager的用户界面中的菜单：设置[访问管理>本地用户角色]进行访问。
+
+这些角色可为用户提供对任务的访问权限、如下所示：
+
+* *存储管理*—对存储对象(例如卷和磁盘池)具有完全读/写访问权限、但无法访问安全配置。
+* *安全管理*—访问访问管理、证书管理、审核日志管理中的安全配置、以及打开或关闭原有管理界面(符号)的功能。
+* *支持管理*—访问存储阵列上的所有硬件资源、故障数据、MEL事件和控制器固件升级。无法访问存储对象或安全配置。
+* *监控*—对所有存储对象的只读访问、但无法访问安全配置。
+
+
+如果用户没有执行某个任务的权限、则该任务将灰显或不会显示在用户界面中。

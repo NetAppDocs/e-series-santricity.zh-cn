@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/add-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, syslog, servers, alerts, 
+summary: 最多可以为系统日志警报添加五个服务器。 
+---
+= 为警报添加系统日志服务器
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+最多可以为系统日志警报添加五个服务器。
+
+.开始之前
+* 系统日志服务器地址必须可用。此地址可以是完全限定域名、IPv4地址或IPv6地址。
+* 系统日志服务器的UDP端口号必须可用。此端口通常为514。
+
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*系统日志*选项卡。
+. 选择*添加系统日志服务器*。
++
+此时将打开添加系统日志服务器对话框。
+
+. 选择*添加另一个系统日志服务器*。
+. 输入系统日志服务器的信息、然后单击*添加*。
++
+** *系统日志服务器地址*-输入完全限定域名、IPv4地址或IPv6地址。
+** * UDP端口*-通常、系统日志的UDP端口为514。
+
+
++
+
+NOTE: 您最多可以配置五个系统日志服务器。
+
+
+
+系统日志服务器地址将显示在表中。

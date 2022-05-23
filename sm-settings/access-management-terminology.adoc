@@ -1,0 +1,89 @@
+---
+permalink: sm-settings/access-management-terminology.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, terms 
+summary: 了解访问管理术语如何应用于存储阵列。 
+---
+= 访问管理术语
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解访问管理术语如何应用于存储阵列。
+
+[cols="25h,~"]
+|===
+| 期限 | Description 
+
+
+ a| 
+Active Directory
+ a| 
+Active Directory (AD)是一种Microsoft目录服务、使用LDAP进行Windows域网络。
+
+
+
+ a| 
+绑定
+ a| 
+绑定操作用于向目录服务器对客户端进行身份验证。绑定通常需要帐户和密码凭据、但某些服务器允许匿名绑定操作。
+
+
+
+ a| 
+CA
+ a| 
+证书颁发机构(Certificate Authority、CA)是一个受信任的实体、负责颁发称为数字证书的电子文档以确保Internet安全。这些证书用于标识网站所有者、从而可以在客户端和服务器之间建立安全连接。
+
+
+
+ a| 
+证书
+ a| 
+出于安全考虑、证书用于标识站点所有者、从而防止攻击者模拟站点。此证书包含有关站点所有者的信息以及对此信息进行认证(签名)的可信实体的身份。
+
+
+
+ a| 
+IdP
+ a| 
+身份提供程序(IdP)是一种外部系统、用于向用户请求凭据并确定该用户是否已成功通过身份验证。可以将IdP配置为提供多因素身份验证并使用任何用户数据库、例如Active Directory。您的安全团队负责维护IdP。
+
+
+
+ a| 
+LDAP
+ a| 
+轻型目录访问协议(Lightweight Directory Access Protocol、LDAP)是一种用于访问和维护分布式目录信息服务的应用程序协议。此协议允许许多不同的应用程序和服务连接到LDAP服务器以验证用户。
+
+
+
+ a| 
+RBAC
+ a| 
+基于角色的访问控制(Role-Based Access Control、RBAC)是一种根据各个用户的角色来管理对计算机或网络资源的访问的方法。RBAC控制会在存储阵列上强制实施、并包括预定义的角色。
+
+
+
+ a| 
+SAML
+ a| 
+安全断言标记语言(SAML)是一种基于XML的标准、用于在两个实体之间进行身份验证和授权。SAML支持多因素身份验证、在这种身份验证中、用户必须提供两个或更多项来证明其身份(例如密码和指纹)。存储阵列的嵌入式SAML功能符合SAML2.0标准、可用于身份断言、身份验证和授权。
+
+
+
+ a| 
+SP
+ a| 
+服务提供商(Service Provider、SP)是一个控制用户身份验证和访问的系统。使用SAML配置访问管理时、存储阵列充当服务提供商、向身份提供程序请求身份验证。
+
+
+
+ a| 
+SSO
+ a| 
+单点登录(SSO)是一种身份验证服务、允许一组登录凭据访问多个应用程序。
+
+|===

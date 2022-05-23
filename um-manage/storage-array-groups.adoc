@@ -1,0 +1,28 @@
+---
+permalink: um-manage/storage-array-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, storage, array, groups 
+summary: 您可以通过对一组存储阵列进行分组来管理物理和虚拟化基础架构。您可能希望对存储阵列进行分组、以便更轻松地运行监控或报告作业。 
+---
+= 存储阵列组
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以通过对一组存储阵列进行分组来管理物理和虚拟化基础架构。您可能希望对存储阵列进行分组、以便更轻松地运行监控或报告作业。
+
+
+
+== 存储阵列组的类型
+
+* *所有组*
++
+All组是默认组、它包括在您的组织中发现的所有存储阵列。可以从主视图访问所有组。
+
+* *用户创建的组*
++
+用户创建的组包括您手动选择添加到该组的存储阵列。可以从主视图访问用户创建的组。
+
+

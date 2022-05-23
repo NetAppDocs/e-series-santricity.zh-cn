@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/thin-volume-monitoring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, thin, volume, monitoring 
+summary: 您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。 
+---
+= 精简卷监控
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。
+
+与底层物理存储相比、精简配置环境可以分配更多的逻辑空间。您可以选择菜单：Storage[卷>精简卷监控]选项卡来监控精简卷在达到分配的容量最大限制之前的增长量。
+
+您可以使用"精简监控"视图执行以下操作：
+
+* 定义限制精简卷可自动扩展到的已分配容量的限制。
+* 设置当精简卷接近最大分配容量限制时向主页页面上的通知区域发送警报(超过警告阈值)的百分比点。
+
+
+要增加精简卷的容量、请增加其报告的容量。
+
+[NOTE]
+====
+System Manager不提供创建精简卷的选项。如果要创建精简卷、请使用命令行界面(CLI)。
+
+====
+[NOTE]
+====
+精简卷在EF600或EF300存储系统上不可用。
+
+====

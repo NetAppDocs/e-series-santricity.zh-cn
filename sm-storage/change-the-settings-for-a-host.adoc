@@ -1,0 +1,59 @@
+---
+permalink: sm-storage/change-the-settings-for-a-host.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, settings, host 
+summary: 您可以更改主机的名称、主机操作系统类型以及关联的主机集群。 
+---
+= 更改主机的设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改主机的名称、主机操作系统类型以及关联的主机集群。
+
+.步骤
+. 选择菜单： Storage[Hosts] 。
+. 选择要编辑的主机、然后单击*查看/编辑设置*。
++
+此时将显示一个对话框，其中显示了当前主机设置。
+
+. 如果尚未选择此选项、请单击*属性*选项卡。
+. 根据需要更改设置。
++
+.字段详细信息
+====
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+Name
+ a| 
+您可以更改用户提供的主机名称。需要为主机指定名称。
+
+
+
+ a| 
+关联的主机集群
+ a| 
+您可以选择以下选项之一：
+
+** *无*—此主机仍为独立主机。如果主机已与主机集群关联、则系统会将此主机从集群中删除。
+** *<Host Cluster>*—系统将主机与选定集群关联。
+
+
+
+
+ a| 
+主机操作系统类型
+ a| 
+您可以更改在定义的主机上运行的操作系统类型。
+
+|===
+====
+. 单击 * 保存 * 。
+

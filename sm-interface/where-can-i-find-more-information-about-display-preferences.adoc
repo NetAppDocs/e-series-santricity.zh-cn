@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, display preferences 
+summary: 您可以在以下帮助主题中找到有关可用显示选项的信息。 
+---
+= 在哪里可以找到有关显示首选项的详细信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要查找有关可用显示选项的信息、请执行以下操作：
+
+* 要阅读有关显示容量值的默认单位的详细信息、请参见 link:set-default-units-for-capacity-values.html["设置容量值的默认单位"]。
+* 要阅读有关显示性能图形的默认时间范围的详细信息、请参见 link:set-default-time-frame-for-performance-graphs.html["设置性能图形的默认时间范围"]。
+

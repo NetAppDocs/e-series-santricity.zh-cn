@@ -1,0 +1,37 @@
+---
+permalink: sm-hardware/place-controller-in-service-mode.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, place, controller, service, mode, 
+summary: 如果系统要求您执行此操作、则可以将控制器置于服务模式。 
+---
+= 将控制器置于服务模式
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果系统要求您执行此操作、则可以将控制器置于服务模式。
+
+.开始之前
+* 存储阵列必须具有两个控制器。未置于服务模式的控制器必须处于联机状态(处于最佳状态)。
+* 请确保未使用任何卷，或者在使用这些卷的所有主机上安装了多路径驱动程序。
+
+
+[NOTE]
+====
+将控制器置于服务模式可能会显著降低性能。请勿将控制器置于服务模式、除非技术支持指示您这样做。
+
+====
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了驱动器，请单击 * 显示磁盘架背面 * 。
++
+此图将发生变化，以显示控制器，而不是驱动器。
+
+. 单击要置于服务模式的控制器。
++
+此时将显示控制器的上下文菜单。
+
+. 选择*置于服务模式*、然后确认要执行此操作。
+

@@ -1,0 +1,48 @@
+---
+permalink: sm-hardware/solid-state-disks-ssds.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD 
+summary: 固态磁盘（ SSD ）是指使用固态内存（ Flash ）持久存储数据的数据存储设备。SSD 可模拟传统硬盘驱动器，并可与硬盘驱动器使用相同的接口。 
+---
+= 固态磁盘(SSD)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+固态磁盘（ SSD ）是指使用固态内存（ Flash ）持久存储数据的数据存储设备。SSD 可模拟传统硬盘驱动器，并可与硬盘驱动器使用相同的接口。
+
+
+
+== SSD的优势
+
+与硬盘驱动器相比、SSD的优势包括：
+
+* 启动速度更快(无转速)
+* 延迟更短
+* 每秒I/O操作数(IOPS)更高
+* 可靠性更高、移动部件更少
+* 更低的电耗
+* 产生的热量更少、所需的散热也更少
+
+
+
+
+== 识别SSD
+
+在硬件页面中、您可以在前架视图中找到SSD。查找显示闪电图标的驱动器托架、该图标表示已安装SSD。
+
+
+
+== 卷组
+
+一个卷组中的所有驱动器都必须具有相同的介质类型(所有SSD或所有硬盘驱动器)。卷组不能混合使用介质类型或接口类型。
+
+
+
+== 缓存
+
+控制器的写入缓存始终为SSD启用。写入缓存可提高性能并延长SSD的使用寿命。
+
+除了控制器缓存之外、您还可以实施SSD缓存功能来提高整体系统性能。在SSD缓存中、数据会从卷复制并存储在两个内部RAID卷上(每个控制器一个)。

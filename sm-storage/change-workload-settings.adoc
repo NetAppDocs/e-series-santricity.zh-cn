@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/change-workload-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload, settings 
+summary: 您可以更改工作负载的名称并查看其关联的应用程序类型。如果当前名称不再有意义或适用、请更改工作负载的名称。 
+---
+= 更改工作负载设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改工作负载的名称并查看其关联的应用程序类型。如果当前名称不再有意义或适用、请更改工作负载的名称。
+
+.步骤
+. 选择菜单： Storage[Volumes] 。
+. 选择*应用程序和工作负载*选项卡。
++
+此时将显示"Applications & Workloads View"。
+
+. 选择要更改的工作负载、然后选择*查看/编辑设置*。
++
+此时将显示应用程序和工作负载设置对话框。
+
+. *可选：*更改用户提供的工作负载名称。
+. 单击 * 保存 * 。
+

@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/reconstruct-drive-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
+summary: 更换驱动器后、驱动器重建通常会自动开始。如果驱动器重建未自动启动、您可以手动启动重建。 
+---
+= 手动重建驱动器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+更换驱动器后、驱动器重建通常会自动开始。如果驱动器重建未自动启动、您可以手动启动重建。
+
+[NOTE]
+====
+只有在技术支持或 Recovery Guru 指示执行此操作时，才能执行此操作。
+
+====
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了控制器、请单击*显示磁盘架正面*。
++
+此图将发生变化、以显示驱动器、而不是控制器。
+
+. 单击要手动重建的驱动器。
++
+此时将显示驱动器的上下文菜单。
+
+. 选择*重建*、然后确认您要执行此操作。
+

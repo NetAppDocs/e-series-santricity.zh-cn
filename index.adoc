@@ -1,0 +1,16 @@
+---
+layout: astra 
+permalink: index.html 
+sidebar: sidebar 
+lead: SANtricity software lets you achieve maximum performance and utilization of your E-Series hybrid-flash and EF-Series all-flash arrays for heavy-workload applications, including data analytics, video surveillance, and backup and recovery. 
+summary: SANtricity System Manager和Unified Manager 
+---
+= SANtricity 软件文档11.7
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

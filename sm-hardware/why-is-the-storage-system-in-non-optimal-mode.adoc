@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, non-optimal, mode, 
+summary: 存储系统处于非最佳模式是由于系统配置无效状态所致。尽管处于此状态、但完全支持对现有卷的正常I/O访问；但是、System Manager将禁止某些操作。 
+---
+= 为什么存储系统处于非最佳模式？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存储系统处于非最佳模式是由于系统配置无效状态所致。尽管处于此状态、但完全支持对现有卷的正常I/O访问；但是、System Manager将禁止某些操作。
+
+存储系统可能会过渡到"系统配置无效"、原因如下：
+
+* 此控制器不合规、可能是因为其子型号ID (SMID)代码不正确或已超过高级功能限制。
+* 正在执行内部服务操作、例如驱动器固件下载。
+* 控制器超过奇偶校验错误阈值并进入锁定状态。
+* 发生常规锁定情况。
+

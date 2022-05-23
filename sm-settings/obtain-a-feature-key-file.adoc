@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/obtain-a-feature-key-file.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
+summary: 要在存储阵列上启用高级功能或功能包、必须先获取功能密钥文件。一个密钥仅与一个存储阵列相关联。 
+---
+= 获取功能密钥文件
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要在存储阵列上启用高级功能或功能包、必须先获取功能密钥文件。一个密钥仅与一个存储阵列相关联。
+
+此任务介绍如何收集功能所需的信息、然后发送功能密钥文件请求。所需信息包括：
+
+* 机箱序列号
+* 功能启用标识符
+* 功能激活代码
+
+
+.步骤
+. 在System Manager中、找到并记录机箱序列号。您可以通过将鼠标悬停在支持中心磁贴上来查看此序列号。
+. 在 System Manager 中，找到功能启用标识符。转到菜单：设置[系统]、然后向下滚动到*加载项*。查找*功能启用标识符*。记录功能启用标识符的编号。
+. 找到并记录用于激活功能的代码。对于功能包、此代码将在执行转换的相应说明中提供。
++
+NetApp说明可从获取 https://www.netapp.com/support-and-training/documentation/eseries-santricity/["NetApp E系列系统文档中心"^]。
+
++
+对于高级功能、您可以从支持站点访问激活代码、如下所示：
+
++
+.. 登录到 https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"^]。
+.. 请访问您的产品对应的*软件许可证*。
+.. 输入存储阵列机箱的序列号、然后单击*执行*。
+.. 在*许可证密钥*列中查找功能激活代码。
+.. 记录所需功能的功能激活代码。
+
+
+. 通过向存储供应商发送包含以下信息的电子邮件或文本文档来请求功能密钥文件：机箱序列号、启用标识符和功能激活代码。
++
+您也可以转到 http://partnerspfk.netapp.com["NetApp 许可证激活：存储阵列高级功能激活"^] 并输入所需信息以获取功能或功能包。(此站点上的说明适用于高级功能、而不适用于功能包。)
+
+
+
+如果您有功能密钥文件、则可以启用高级功能或功能包。

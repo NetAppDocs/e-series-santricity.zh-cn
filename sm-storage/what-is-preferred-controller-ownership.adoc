@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-is-preferred-controller-ownership.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, preferred, controller, ownership 
+summary: 首选控制器所有权用于定义指定为卷的拥有或主控制器的控制器。 
+---
+= 什么是首选控制器所有权？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+首选控制器所有权用于定义指定为卷的拥有或主控制器的控制器。
+
+控制器所有权非常重要、应仔细规划。对于总I/O、控制器应尽可能保持平衡。
+
+例如、如果一个控制器主要读取大型连续数据块、而另一个控制器具有频繁读取和写入的小型数据块、则负载会截然不同。通过了解哪些卷包含哪种类型的数据、您可以在两个控制器之间平均平衡I/O传输。

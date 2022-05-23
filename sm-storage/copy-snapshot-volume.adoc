@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/copy-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
+summary: 您可以对快照卷或快照一致性组快照卷执行复制卷进程。 
+---
+= 复制Snapshot卷
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以对快照卷或快照一致性组快照卷执行复制卷进程。
+
+您可以在正常的复制卷操作中将快照卷复制到目标卷。但是、在复制卷过程中、Snapshot卷不能保持联机。
+
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 选择* Snapshot Volumes*选项卡。
++
+此时将显示Snapshot Volumes表、其中显示了与存储阵列关联的所有Snapshot卷。
+
+. 选择要复制的快照卷、然后选择*复制卷*。
++
+此时将显示复制卷对话框、提示您选择目标。
+
+. 选择要用作复制目标的目标卷、然后单击*完成*。
+

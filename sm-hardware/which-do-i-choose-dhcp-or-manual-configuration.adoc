@@ -1,0 +1,14 @@
+---
+permalink: sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, manual, configuration, protocol, 
+summary: '网络配置的默认方法是动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)。除非您的网络没有DHCP服务器、否则请始终使用此选项。' 
+---
+= 我可以选择以下哪项—DHCP或手动配置？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+网络配置的默认方法是动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)。除非您的网络没有DHCP服务器、否则请始终使用此选项。

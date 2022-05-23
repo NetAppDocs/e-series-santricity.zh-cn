@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
+summary: 如果您先前已禁用资源配置的默认功能、则可以转到设置并为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。 
+---
+= 为新卷组或池启用或禁用资源配置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您先前已禁用资源配置的默认功能、则可以为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。
+
+资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。分配给卷的所有驱动器块都会进行取消分配(未映射)、这样可以延长SSD的使用寿命并提高最大写入性能。
+
+
+NOTE: 默认情况下、在驱动器支持DULBE"的系统上启用资源配置。
+
+.开始之前
+* 您必须具有EF300或EF600存储阵列。
+* 您必须具有SSD卷组或池、其中的所有驱动器都支持NVMe已取消分配或未写入逻辑块错误启用(DULBEe)错误恢复功能。
+
+
+在为新卷组或池重新启用资源配置时、仅会影响新创建的卷组和池。启用了资源配置的任何现有卷组和池将保持不变。
+
+.步骤
+. 选择菜单：设置[系统]。
+. 向下滚动到*其他设置*、然后单击*启用/禁用资源配置卷*。
++
+设置问题描述 指示当前是启用还是禁用资源配置。
+
+. 在对话框中、确认操作。
+
+
+启用或禁用资源配置仅会影响您创建的新SSD池或卷组。现有池或卷组保持不变。

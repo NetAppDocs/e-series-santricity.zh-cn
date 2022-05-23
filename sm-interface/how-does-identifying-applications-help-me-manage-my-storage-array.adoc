@@ -1,0 +1,16 @@
+---
+permalink: sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, 
+summary: 确定应用程序后、System Manager会自动建议一种卷配置、以便根据应用程序类型优化存储。 
+---
+= 识别应用程序如何帮助我管理存储阵列？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+确定应用程序后、System Manager会自动建议一种卷配置、以便根据应用程序类型优化存储。
+
+按应用程序优化卷可以提高数据存储操作的效率。卷配置包括I/O类型、区块大小、控制器所有权以及读写缓存等特征。此外、您还可以按应用程序和工作负载查看性能数据、以评估应用程序及其关联工作负载的延迟、IOPS和MiB/秒数。

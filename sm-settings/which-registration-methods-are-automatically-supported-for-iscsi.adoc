@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, registration, methods,  automatically, supported, iscsi, 
+summary: 'iSCSI实施支持Internet存储名称服务(iSNS)发现方法或使用发送目标命令。' 
+---
+= iSCSI自动支持哪些注册方法？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI实施支持Internet存储名称服务(iSNS)发现方法或使用发送目标命令。
+
+iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS发现。您注册目标控制器以向iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息。
+
+如果不配置iSNS、则iSCSI主机可以在iSCSI发现会话期间发送发送目标命令。作为响应、控制器将返回端口信息(例如目标IQN、端口IP地址、侦听端口和目标端口组)。如果使用iSNS、则不需要此发现方法、因为主机启动程序可以从iSNS服务器检索目标IP。

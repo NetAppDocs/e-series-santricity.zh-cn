@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, nvme, infiniBand, 
+summary: 下表列出了可用于配置和管理基于InfiniBand的NVMe会话的System Manager功能。 
+---
+= 要配置或诊断基于InfiniBand的NVMe、还需要执行哪些操作？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表列出了可用于配置和管理基于InfiniBand的NVMe会话的System Manager功能。
+
+[NOTE]
+====
+只有当存储阵列的控制器包含基于InfiniBand的NVMe端口时、基于InfiniBand的NVMe设置才可用。
+
+====
+[cols="35h,~"]
+|===
+| Action | 位置 
+
+
+ a| 
+配置基于InfiniBand的NVMe端口
+ a| 
+. 选择 * 硬件 * 。
+. 选择*显示磁盘架的背面*。
+. 选择一个控制器。
+. 选择 * 配置基于 InfiniBand 端口的 NVMe * 。
+
+
+或
+
+. 选择菜单：设置[系统]。
+. 向下滚动到*基于InfiniBand的NVMe设置*、然后选择*配置基于InfiniBand端口的NVMe *。
+
+
+
+
+ a| 
+查看基于InfiniBand的NVMe统计信息
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到*基于InfiniBand的NVMe设置*、然后选择*查看基于网络结构的NVMe统计信息*。
+
+
+|===

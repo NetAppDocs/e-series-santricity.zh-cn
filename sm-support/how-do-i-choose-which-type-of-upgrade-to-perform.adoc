@@ -1,0 +1,24 @@
+---
+permalink: sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, upgrade, perform 
+summary: 您可以根据池或卷组的状态选择要对驱动器执行的升级类型。 
+---
+= 如何选择要执行的升级类型？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以根据池或卷组的状态选择要对驱动器执行的升级类型。
+
+* * 联机 *
++
+如果池或卷组支持冗余并处于最佳状态、则可以使用联机方法升级驱动器固件。联机方法会在存储阵列处理使用这些驱动器的关联卷的I/O时下载firmware _o。您不必停止使用这些驱动器的关联卷的I/O。这些驱动器一次升级一个、并升级到与这些驱动器关联的卷。如果驱动器未分配给池或卷组、则可以使用联机或脱机方法更新其固件。使用联机方法升级驱动器固件时、系统性能可能会受到影响。
+
+* * 脱机 *
++
+如果池或卷组不支持冗余(RAID 0)或已降级、则必须使用脱机方法升级驱动器固件。脱机方法将在所有I/O活动均已停止时升级固件_only、并使用这些驱动器将其升级到关联卷。您必须停止使用这些驱动器的任何关联卷的所有I/O。如果驱动器未分配给池或卷组、则可以使用联机或脱机方法更新其固件。
+
+

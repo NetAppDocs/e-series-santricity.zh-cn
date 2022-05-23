@@ -1,0 +1,19 @@
+---
+permalink: sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, limit, number, pool, drive, 
+summary: System Manager可设置可从池中删除的驱动器数量限制。 
+---
+= 可以从池中删除的驱动器数量是否有限制？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager可设置可从池中删除的驱动器数量限制。
+
+* 不能将池中的驱动器数量减少到少于11个驱动器。
+* 如果池中没有足够的可用容量来容纳已删除驱动器中的数据、则在将该数据重新分配到池中的其余驱动器时、您无法删除驱动器。
+* 一次最多可以删除60个驱动器。如果选择的驱动器超过60个、则删除驱动器选项将被禁用。如果需要删除60个以上的驱动器、请重复执行删除驱动器操作。
+

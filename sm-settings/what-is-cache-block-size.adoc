@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-is-cache-block-size.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cache, block, size, 
+summary: 存储阵列的控制器会将其缓存组织为块、这些块是一个内存块、大小可以为8、16、32 KiB。存储系统上的所有卷共享相同的缓存空间；因此、这些卷只能具有一个缓存块大小。 
+---
+= 什么是缓存块大小？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存储阵列的控制器将其缓存组织为"块"、这些块是一个内存块、大小可以为8、16、32 KiB。存储系统上的所有卷共享相同的缓存空间；因此、这些卷只能具有一个缓存块大小。
+
+应用程序使用不同的块大小、这可能会影响存储性能。默认情况下、System Manager中的块大小为32 KiB、但您可以将该值设置为8、16、32 KiB。对于文件系统或数据库应用程序来说、较小的大小是一个不错的选择。对于需要大型数据传输、顺序I/O或高带宽(如多媒体)的应用程序来说、较大的大小是一个不错的选择。

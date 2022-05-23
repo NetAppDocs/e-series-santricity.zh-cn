@@ -1,0 +1,63 @@
+---
+indexpage:
+  tiles:
+  - title: 设置阵列
+    links:
+    - title: 初始设置
+      url: "../sm-interface/setup-wizard-overview.html"
+    - title: 管理员密码
+      url: "../sm-interface/administrator-password-protection.html"
+    - title: 警报
+      url: "../sm-settings/how-alerts-work.html"
+    - title: AutoSupport
+      url: "../sm-support/autosupport-feature-overview.html"
+  - title: 创建存储
+    links:
+    - title: 池
+      url: "../sm-storage/create-pool-manually.html"
+    - title: 卷组
+      url: "../sm-storage/create-volume-group.html"
+    - title: SSD缓存
+      url: "../sm-storage/create-ssd-cache.html"
+    - title: Volumes
+      url: "../sm-storage/create-volumes.html"
+  - title: 管理硬件
+    links:
+    - title: 磁盘架
+      url: "../sm-hardware/hardware-page-overview.html"
+    - title: 控制器
+      url: "../sm-hardware/controller-states.html"
+    - title: 驱动器
+      url: "../sm-hardware/drive-states.html"
+    - title: 证书
+      url: "../sm-settings/how-certificates-work-sam.html"
+  - title: 镜像、快照和远程存储
+    links:
+    - title: 异步镜像
+      url: "../sm-mirroring/how-asynchronous-mirroring-works.html"
+    - title: 同步镜像
+      url: "../sm-mirroring/how-synchronous-mirroring-works.html"
+    - title: Snapshot存储
+      url: "../sm-storage/overview-of-snapshot-storage.html"
+    - title: 远程存储
+      url: "../sm-storage/rtv-how-remote-storage-works.html"
+  - title: 诊断
+    links:
+    - title: 收集支持数据
+      url: "../sm-support/collect-support-data-manually.html"
+    - title: 查看升级错误
+      url: "../sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+    - title: 问题通知
+      url: "../sm-interface/problem-notification.html"
+    - title: 正在执行操作
+      url: "../sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: 恢复和事件
+    links:
+    - title: Unreable Sectors日志
+      url: "../sm-support/view-unreadable-sectors-log.html"
+    - title: Recovery Guru
+      url: "../sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 事件日志
+      url: "../sm-support/overview-event-log.html"
+    - title: 恢复支持文件
+      url: "../sm-support/retrieve-recovery-support-files.html"

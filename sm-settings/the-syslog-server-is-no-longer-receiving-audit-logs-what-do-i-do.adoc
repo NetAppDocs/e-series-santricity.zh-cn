@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, syslog, server, audit, logs, 
+summary: 如果您为系统日志服务器配置了TLS协议、则如果证书因任何原因而无效、则服务器将无法接收消息。审核日志中会发布一条有关此无效证书的错误消息。 
+---
+= 系统日志服务器不再接收审核日志。我该怎么办？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您为系统日志服务器配置了TLS协议、则如果证书因任何原因而无效、则服务器将无法接收消息。审核日志中会发布一条有关此无效证书的错误消息。
+
+要解决此问题描述 、必须先修复系统日志服务器的证书。建立有效的证书链后、转到菜单：设置[审核日志>配置系统日志服务器>测试全部]。

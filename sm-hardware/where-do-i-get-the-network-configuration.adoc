@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/where-do-i-get-the-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, network, configuration, internet, protocol, 
+summary: '您可以从网络管理员处获取Internet协议(IP)地址、子网掩码(子网掩码)和网关信息。' 
+---
+= 从何处获取网络配置？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从网络管理员处获取Internet协议(IP)地址、子网掩码(子网掩码)和网关信息。
+
+在控制器上配置端口时需要此信息。

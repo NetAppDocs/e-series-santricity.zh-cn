@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/overview-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Alerts, 
+summary: 您可以将System Manager配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。 
+---
+= 警报概述
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将System Manager配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。
+
+
+
+== 什么是警报？
+
+_Alerts_向管理员通知存储阵列上发生的重要事件。事件可能包括电池故障、组件从最佳状态移至脱机状态或控制器出现冗余错误等问题。所有严重事件以及一些警告和信息性事件均视为"可处理"。
+
+了解更多信息。
+
+* link:how-alerts-work.html["警报的工作原理"]
+* link:alerts-terminology.html["警报术语"]
+
+
+
+
+== 如何配置警报？
+
+您可以将警报配置为作为消息发送到一个或多个电子邮件地址、作为SNMP陷阱发送到SNMP服务器或作为消息发送到系统日志服务器。可从菜单：设置[警报]访问警报配置。
+
+了解更多信息。
+
+* link:configure-mail-server-and-recipients-for-alerts.html["为警报配置邮件服务器和收件人"]
+* link:configure-syslog-server-for-alerts.html["为系统日志服务器配置警报"]
+* link:configure-snmp-alerts.html["配置SNMP警报"]
+
+
+
+
+== 相关信息
+
+详细了解与警报相关的概念：
+
+* link:../sm-support/overview-event-log.html["事件日志概述"]
+* link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html["时间戳不一致"]
+

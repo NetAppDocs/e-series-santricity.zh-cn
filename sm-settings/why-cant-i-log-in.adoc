@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/why-cant-i-log-in.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, log, in, login 
+summary: 如果在尝试登录到System Manager时收到错误、请查看这些可能的原因。 
+---
+= 为什么我无法登录？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果在尝试登录到System Manager时收到错误、请查看这些可能的原因。
+
+System Manager登录错误可能是由于以下原因之一：
+
+* 您输入的用户名或密码不正确。
+* 您的权限不足。
+* 目录服务器(如果已配置)可能不可用。如果是这种情况、请尝试使用本地用户角色登录。
+* 您尝试多次登录失败、从而触发锁定模式。等待10分钟以重新登录。
+* 已触发锁定条件、并且您的审核日志可能已满。转至访问管理并从审核日志中删除旧事件。
+* 已启用SAML身份验证。刷新浏览器以登录。
+
+
+由于以下原因之一、可能会在远程存储阵列上登录错误以执行镜像任务：
+
+* 您输入的密码不正确。
+* 您尝试多次登录失败、从而触发锁定模式。请等待10分钟以重新登录。
+* 已达到控制器上使用的最大客户端连接数。检查是否存在多个用户或客户端。
+

@@ -1,0 +1,71 @@
+---
+permalink: sm-interface/problem-notification.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, notifications 
+summary: System Manager可使用图标和其他几种方法来通知您存储阵列存在问题。 
+---
+= 问题通知概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager可使用图标和其他几种方法来通知您存储阵列存在问题。
+
+
+
+== 图标
+
+System Manager可使用这些图标指示存储阵列及其组件的状态。
+
+[cols="1a,1a"]
+|===
+| 图标。 | Description 
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-success.gif[""]
+ a| 
+最佳
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-failure.gif[""]
+ a| 
+非最佳或出现故障
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-service.gif[""]
+ a| 
+需要注意或修复
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-caution.gif[""]
+ a| 
+小心
+
+|===
+System Manager会在不同位置显示这些图标。
+
+* 主页页面上的通知区域将显示失败图标和消息。
+* 导航区域中的主页图标将显示故障图标。
+* 在组件页面上、驱动器和控制器的图形显示故障图标。
+
+
+
+
+== 警报和LED
+
+此外、System Manager还会通过其他方式通知您问题。
+
+* System Manager会发送SNMP通知或电子邮件错误消息。
+* 硬件上的"Service Action Required LED"亮起。
+
+
+收到问题通知后、请使用Recovery Guru帮助您解决问题。如有必要、请使用硬件文档以及恢复步骤来更换故障组件。

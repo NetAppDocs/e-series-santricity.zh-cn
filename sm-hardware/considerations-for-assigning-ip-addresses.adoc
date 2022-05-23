@@ -1,0 +1,52 @@
+---
+permalink: sm-hardware/considerations-for-assigning-ip-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses 
+summary: 默认情况下、控制器在发货时会在两个网络端口上启用DHCP。您可以分配静态IP地址、使用默认静态IP地址或使用DHCP分配的IP地址。您也可以使用IPv6无状态自动配置。 
+---
+= 分配IP地址的注意事项
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+默认情况下、控制器在发货时会在两个网络端口上启用DHCP。您可以分配静态IP地址、使用默认静态IP地址或使用DHCP分配的IP地址。您也可以使用IPv6无状态自动配置。
+
+[NOTE]
+====
+默认情况下、新控制器上会禁用IPv6、但您可以使用其他方法配置管理端口IP地址、然后使用System Manager在管理端口上启用IPv6。
+
+====
+当网络端口处于"链路关闭"状态时、即与LAN断开连接时、系统会将其配置报告为静态、显示IP地址0.0.0.0 (早期版本)、或者已启用DHCP且未报告IP地址(后续版本)。在网络端口处于"链路启动"状态(即连接到LAN)后、它会尝试通过DHCP获取IP地址。
+
+如果控制器无法在给定网络端口上获取DHCP地址、则它将还原为默认IP地址、该地址可能需要长达3分钟的时间。默认IP地址如下：
+
+[listing]
+----
+Controller 1 (port 1): IP Address: 192.168.128.101
+----
+[listing]
+----
+Controller 1 (port 2): IP Address: 192.168.129.101
+----
+[listing]
+----
+Controller 2 (port 1): IP Address: 192.168.128.102
+----
+[listing]
+----
+Controller 2 (port 2): IP Address: 192.168.129.102
+----
+分配IP地址时：
+
+* 预留控制器上的端口2以供客户支持使用。请勿更改默认网络设置(已启用DHCP)。
+* 要为E2800和E5700控制器设置静态IP地址、请使用SANtricity 系统管理器。要为E2700和E5600控制器设置静态IP地址、请使用SANtricity 存储管理器。配置静态IP地址后、它将通过所有链路断开/启动事件保持设置状态。
+* 要使用DHCP分配控制器的IP地址、请将控制器连接到可以处理DHCP请求的网络。使用永久DHCP租约。
++
+[NOTE]
+====
+默认地址不会在链路关闭事件中保留。如果控制器上的网络端口设置为使用DHCP、则控制器会尝试在每次链路启动事件(包括插入缆线、重新启动和重新加电)时获取DHCP地址。每当DHCP尝试失败时、都会使用该端口的默认静态IP地址。
+
+====
+

@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/how-does-providing-this-information-help-create-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload 
+summary: 工作负载信息用于优化选定工作负载的卷特征、例如I/O类型、区块大小和读/写缓存。这些优化特性决定了工作负载与存储阵列组件的交互方式。 
+---
+= 提供此信息如何帮助创建存储？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+工作负载信息用于优化选定工作负载的卷特征、例如I/O类型、区块大小和读/写缓存。这些优化特性决定了工作负载与存储阵列组件的交互方式。
+
+System Manager会根据您提供的工作负载信息创建相应的卷、并将其放置在系统上当前存在的可用池或卷组上。系统将根据当前选定工作负载的最佳实践创建卷并优化其特征。
+
+在为给定工作负载创建卷之前、您可以查看建议的卷配置、并使用添加/编辑卷对话框编辑、添加或删除系统建议的卷和特征。
+
+有关最佳实践信息、请参见您的应用程序专用文档。

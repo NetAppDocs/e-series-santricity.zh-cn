@@ -1,0 +1,17 @@
+---
+permalink: sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, AutoSupport, ASUP 
+summary: '要访问AutoSupport 交付方法的配置任务、请转到"支持">"支持中心"、然后单击AutoSupport 选项卡。' 
+---
+= 如何配置AutoSupport 的交付方法？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要访问AutoSupport 交付方法的配置任务、请转到菜单：Support[支持中心]、然后单击* AutoSupport *选项卡。
+
+支持以下协议：HTTPS、HTTP和SMTP。

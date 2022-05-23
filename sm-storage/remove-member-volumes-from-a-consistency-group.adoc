@@ -1,0 +1,32 @@
+---
+permalink: sm-storage/remove-member-volumes-from-a-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, member volume, snapshot, consistency group 
+summary: 您可以从现有快照一致性组中删除成员卷。 
+---
+= 从快照一致性组中删除成员卷
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从现有快照一致性组中删除成员卷。
+
+从快照一致性组中删除成员卷时、System Manager会自动删除与该成员卷关联的快照对象。
+
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 单击* Snapshot一致性组*选项卡。
+. 通过选择要修改的快照一致性组旁边的加号(+)展开该组。
+. 选择要删除的成员卷、然后单击*删除*。
+. 确认要执行此操作、然后单击*删除*。
+
+
+System Manager将执行以下操作：
+
+* 删除与成员卷关联的所有快照映像和快照卷。
+* 删除与成员卷关联的快照组。
+* 不会以其他方式更改或删除成员卷。
+

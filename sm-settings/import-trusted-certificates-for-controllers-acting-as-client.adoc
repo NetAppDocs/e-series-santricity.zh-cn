@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, import, certificates, 
+summary: '如果控制器因无法验证网络服务器的信任链而拒绝连接、您可以从"可信"选项卡导入证书、以使控制器(充当客户端)能够接受来自该服务器的通信。' 
+---
+= 作为客户端时导入控制器的证书
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果控制器因无法验证网络服务器的信任链而拒绝连接、您可以从"可信"选项卡导入证书、以使控制器(充当客户端)能够接受来自该服务器的通信。
+
+.开始之前
+* 您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
+* 证书文件安装在本地系统上。
+
+
+如果要允许其他服务器(例如使用TLS的LDAP服务器或系统日志服务器)与控制器联系、则可能需要从"受信任"选项卡导入证书。
+
+.步骤
+. 选择菜单：设置[证书]。
+. 从可信选项卡中、选择*导入*。
++
+此时将打开一个对话框、用于导入可信证书文件。
+
+. 单击*浏览*以选择控制器的证书文件。
++
+文件名显示在对话框中。
+
+. 单击 * 导入 * 。
+
+
+这些文件将上传并进行验证。

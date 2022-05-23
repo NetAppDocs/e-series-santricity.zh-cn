@@ -1,0 +1,12 @@
+---
+permalink: sm-support/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.7
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+

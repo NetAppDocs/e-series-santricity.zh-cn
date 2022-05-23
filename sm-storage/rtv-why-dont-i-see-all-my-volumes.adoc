@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/rtv-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, destination, array 
+summary: 在为远程存储功能配置导入时、您可能会注意到、由于块大小、容量或卷可用性、某些卷不会显示在目标候选卷列表中。 
+---
+= 为什么我看不到目标阵列上的所有卷？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在为远程存储功能配置导入时、您可能会注意到、由于块大小、容量或卷可用性、某些卷不会显示在目标候选卷列表中。
+
+要显示在列表中、卷候选项必须具有：
+
+* 容量等于或大于远程卷。
+* 与远程卷相同的块大小。
+* 当前最佳状态。
+
+
+如果候选卷具有以下特性、则这些候选卷将从列表中排除：
+
+* 以下任意关系：卷副本、快照或镜像。
+* 正在执行重新配置操作。
+* 映射到其他设备(主机或主机集群)。
+* 已启用读取闪存缓存。
+

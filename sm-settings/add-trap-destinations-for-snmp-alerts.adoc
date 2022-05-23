@@ -1,0 +1,55 @@
+---
+permalink: sm-settings/add-trap-destinations-for-snmp-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, trap, destinations, SNMP, alerts, 
+summary: 您最多可以添加10个服务器来发送SNMP陷阱。 
+---
+= 为SNMP警报添加陷阱目标
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您最多可以添加10个服务器来发送SNMP陷阱。
+
+.开始之前
+* 要添加的网络服务器必须配置SNMP服务应用程序。您需要此服务器的网络地址(IPv4或IPv6地址)、以便事件监控器可以向该地址发送陷阱消息。您可以使用多个服务器(最多允许10个服务器)。
+* 已使用SNMP服务应用程序在服务器上复制和编译管理信息库(Management Information Base、MIB)文件。此MIB文件定义了要监控和管理的数据。
++
+如果您没有MIB文件、可以从NetApp支持站点获取：
+
++
+** 转至 https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"^]。
+** 单击*下载*、然后选择*下载*。
+** 单击* E系列SANtricity 操作系统控制器软件*。
+** 选择*下载最新版本*。
+** 登录。
+** 接受警告声明和许可协议。
+** 向下滚动、直到看到您的控制器类型对应的MIB文件、然后单击链接以下载此文件。
+
+
+
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择* SNMP *选项卡。
++
+表中将显示当前定义的陷阱目标。
+
+. 选择*添加陷阱配置*。
++
+此时将打开添加陷阱目标对话框。
+
+. 输入一个或多个陷阱目标、选择其关联的社区名称或用户名、然后单击*添加*。
++
+** *陷阱目标*-输入运行SNMP服务的服务器的IPv4或IPv6地址。
+** *社区名称或用户名*-从下拉列表中、为此陷阱目标选择社区名称(SNMPv2c)或用户名(SNMPv3)。(如果您仅定义了一个、则此名称已显示在此字段中。)
+** *发送身份验证失败陷阱*-如果要在SNMP请求因社区名称或用户名无法识别而被拒绝时向陷阱目标发出警报、请选择此选项(复选框)。单击*添加*后、陷阱目标以及关联的社区名称或用户名将显示在表中。
+
+
+. 要确保陷阱有效、请从表中选择一个陷阱目标、然后单击*测试陷阱目标*向配置的地址发送测试陷阱。
+
+
+每当发生可更改的事件时、事件监控器都会向服务器发送SNMP陷阱。

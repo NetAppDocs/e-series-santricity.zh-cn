@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuration, data, collect, database 
+summary: 选择收集配置数据后、系统将保存RAID配置数据库的当前状态。 
+---
+= 什么是配置数据？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+选择收集配置数据后、系统将保存RAID配置数据库的当前状态。
+
+RAID配置数据库包含控制器上卷组和磁盘池的所有数据。`s配置数据功能可保存与用于保存storageArray dbmDatabase`的命令行界面命令相同的信息。

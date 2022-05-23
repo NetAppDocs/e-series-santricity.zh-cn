@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, unlocking, secure, drives, 
+summary: 要从启用了安全的驱动器解锁数据、必须导入其安全密钥。 
+---
+= 在解除安全驱动器锁定之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要从启用了安全的驱动器解锁数据、必须导入其安全密钥。
+
+在解除锁定启用了安全保护的驱动器之前、请记住以下准则：
+
+* 存储阵列必须已具有安全密钥。迁移的驱动器将重新密钥设置到目标存储阵列。
+* 对于要迁移的驱动器、您必须知道安全密钥标识符以及与安全密钥文件对应的密码短语。
+* 管理客户端(具有用于访问System Manager的浏览器的系统)上必须具有安全密钥文件。
+* 如果要重置锁定的NVMe驱动器、必须输入驱动器的安全ID。要找到安全ID、您必须物理移除驱动器、并在驱动器标签上找到PSID字符串(最多32个字符)。在开始操作之前、请确保已重新安装驱动器。
+

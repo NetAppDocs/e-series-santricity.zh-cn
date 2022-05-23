@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: 通常、当您收到警告、指出预留容量可能会变满时、应增加容量。您只能以8 GiB为增量增加预留容量。 
+---
+= 增加预留容量需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通常、当您收到警告、指出预留容量可能会变满时、应增加容量。您只能以8 GiB为增量增加预留容量。
+
+* 池或卷组中必须有足够的可用容量、以便可以根据需要进行扩展。
++
+如果任何池或卷组上没有可用容量、则可以将未使用的驱动器形式的未分配容量添加到池或卷组中。
+
+* 池或卷组中的卷必须处于最佳状态、并且不能处于任何修改状态。
+* 要用于增加容量的池或卷组中必须存在可用容量。
+* 您不能增加只读快照卷的预留容量。只有读写Snapshot卷才需要预留容量。
+
+
+对于快照操作、预留容量通常为基础卷的40%。对于异步镜像操作、预留容量通常为基础卷的20%。如果您认为基础卷会发生许多更改、或者存储对象的复制服务操作的预计预期寿命很长、请使用较高的百分比。

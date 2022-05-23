@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, remote, volumes 
+summary: 当远程卷达到其最大数量时、存储系统会自动检测任何未使用的远程卷并提示您删除这些卷。 
+---
+= 为什么系统会提示我删除远程卷？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+当远程卷达到其最大数量时、存储系统会自动检测任何未使用的远程卷并提示您删除这些卷。
+
+在某些情况下、未使用的远程卷在创建过程中不会被清理。在开始任何其他导入操作之前、请验证您的系统是否最佳且网络连接是否稳定。

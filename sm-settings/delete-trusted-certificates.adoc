@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/delete-trusted-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates, 
+summary: '您可以从"受信任"选项卡中删除先前导入的用户安装的证书。' 
+---
+= 删除可信证书
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从"受信任"选项卡中删除先前导入的用户安装的证书。
+
+.开始之前
+* 您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
+* 如果要使用新版本更新受信任证书、则必须先导入更新后的证书、然后才能删除旧证书。
+
+
+[CAUTION]
+====
+如果在导入替代证书之前删除用于对控制器和其他服务器(例如LDAP服务器)进行身份验证的证书、则可能无法访问系统。
+
+====
+此任务介绍如何删除用户安装的证书。无法删除预安装的自签名证书。
+
+.步骤
+. 选择菜单：设置[证书]。
+. 选择*可信*选项卡。
++
+此表显示了存储阵列的受信任证书。
+
+. 从表中、选择要删除的证书。
+. 单击菜单：uncommon Tasks[Delete]。
++
+此时将打开确认删除可信证书对话框。
+
+. 在字段中键入`delete`、然后单击*删除*。
+

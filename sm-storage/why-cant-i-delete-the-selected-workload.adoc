@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/why-cant-i-delete-the-selected-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, selected, workload 
+summary: '此工作负载由一组使用命令行界面(CLI)创建或从其他存储阵列迁移(导入/导出)的卷组成。因此、此工作负载中的卷不会与特定于应用程序的工作负载关联、因此无法删除此工作负载。' 
+---
+= 为什么无法删除选定工作负载？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此工作负载由一组使用命令行界面(CLI)创建或从其他存储阵列迁移(导入/导出)的卷组成。因此、此工作负载中的卷不会与特定于应用程序的工作负载关联、因此无法删除此工作负载。

@@ -1,0 +1,33 @@
+---
+permalink: sm-storage/activate-or-suspend-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot schedule 
+summary: 如果需要节省存储空间、您可以暂时暂停按计划收集快照映像。此方法比删除快照计划并稍后重新创建快照计划的效率更高。 
+---
+= 激活并暂停快照计划
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果需要节省存储空间、您可以暂时暂停按计划收集快照映像。此方法比删除快照计划并稍后重新创建快照计划的效率更高。
+
+快照计划的状态将保持暂停、直到您使用*激活*选项恢复计划的快照活动为止。
+
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 如果尚未显示、请单击*计划*选项卡。
++
+这些计划将在页面上列出。
+
+. 选择要暂停的活动快照计划、然后单击*激活/暂停*。
++
+状态列状态将更改为*已暂停*、并且快照计划将停止收集所有快照映像。
+
+. 要恢复收集快照映像、请选择要恢复的已暂停快照计划、然后单击*激活/暂停*。
++
+状态列状态更改为*活动*。
+
+

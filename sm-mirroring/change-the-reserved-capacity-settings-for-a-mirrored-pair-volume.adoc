@@ -1,0 +1,46 @@
+---
+permalink: sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
+summary: 您可以更改镜像对卷的设置、以调整在镜像对卷的预留容量接近全满时System Manager发送警报通知的百分比。 
+---
+= 更改镜像对卷的预留容量设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改镜像对卷的设置、以调整在镜像对卷的预留容量接近全满时System Manager发送警报通知的百分比。
+
+.步骤
+. 选择菜单：Storage[Pools & Volume Groups]。
+. 选择*预留容量*选项卡。
+. 选择要编辑的镜像对卷、然后单击*查看/编辑设置*。
++
+此时将显示镜像对卷预留容量设置对话框。
+
+. 根据需要更改镜像对卷的预留容量设置。
++
+.字段详细信息
+====
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+在以下情况下提醒我...
+ a| 
+使用spinner框调整在镜像对的预留容量接近全满时System Manager发送警报通知的百分比。
+
+当镜像对的预留容量超过指定阈值时、System Manager将发送警报、以便有时间增加预留容量。
+
+
+NOTE: 更改一个镜像对的警报设置会更改属于同一镜像一致性组的所有镜像对的警报设置。
+
+|===
+====
+. 单击*保存*以应用所做的更改。
+

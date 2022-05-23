@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, drive, reconstruction, 
+summary: '您可以从"正在执行的操作"信息板查看驱动器重建状态。' 
+---
+= 在何处可以查看正在重建的驱动器的状态？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从"正在执行的操作"信息板查看驱动器重建状态。
+
+在主页页面中、单击右上角的*查看正在进行的操作*链接。
+
+根据驱动器的不同、完全重建可能需要相当长的时间。如果卷所有权发生变化、则可能会进行完全重建、而不是快速重建。

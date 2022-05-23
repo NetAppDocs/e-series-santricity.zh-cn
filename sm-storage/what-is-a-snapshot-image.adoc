@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, image, 
+summary: 快照映像是在特定时间点捕获的卷内容的逻辑副本。Snapshot映像使用的存储空间极少。 
+---
+= 什么是快照映像？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+快照映像是在特定时间点捕获的卷内容的逻辑副本。Snapshot映像使用的存储空间极少。
+
+Snapshot映像数据存储如下：
+
+* 创建快照映像时、该映像与基础卷完全匹配。创建快照后、如果对基础卷上的任何块或块集发出首次写入请求、则在将新数据写入基础卷之前、原始数据会复制到快照预留容量。
+* 后续快照仅包含自创建第一个快照映像以来发生更改的数据块。在将新数据写入基础卷之前、后续的每次写入时复制操作都会将基础卷上即将覆盖的原始数据保存到Snapshot预留容量中。
+

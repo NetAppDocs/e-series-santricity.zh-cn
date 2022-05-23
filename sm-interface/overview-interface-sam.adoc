@@ -1,0 +1,97 @@
+---
+permalink: sm-interface/overview-interface-sam.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, 
+summary: 您可以导航主界面以访问System Manager功能和任务。 
+---
+= System Manager界面概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager是一个基于Web的界面、可用于在一个视图中管理存储阵列。
+
+
+
+== 主页
+
+主页页面提供了用于存储阵列日常管理的信息板视图。登录到System Manager时、主页页面将显示第一个屏幕。
+
+信息板视图包含四个摘要区域、其中包含有关存储阵列状态和运行状况的关键信息。您可以从摘要区域中找到更多信息。
+
+[cols="25h,~"]
+|===
+| 区域 | Description 
+
+
+ a| 
+通知
+ a| 
+Notifications区域将显示问题通知、指示存储阵列及其组件的状态。此外、此portlet还会显示自动警报、有助于您在问题影响存储环境的其他区域之前对问题进行故障排除。
+
+
+
+ a| 
+性能
+ a| 
+通过"性能"区域、您可以比较和对比一段时间内的资源使用情况。您可以查看存储阵列的响应时间(IOPS)、传输速率(MiB/秒)和正在使用的处理容量(CPU)性能指标。
+
+
+
+ a| 
+Capacity
+ a| 
+容量区域显示存储阵列中已分配容量、可用存储容量和未分配存储容量的图表视图。
+
+
+
+ a| 
+存储层次结构
+ a| 
+"存储层次结构"区域提供了存储阵列管理的各种硬件组件和存储对象的有序视图。单击下拉箭头对该硬件组件或存储对象执行特定操作。
+
+|===
+
+
+== 接口设置
+
+您可以从主界面更改显示首选项和其他设置。
+
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+显示首选项
+ a| 
+从界面右上角的首选项下拉列表中更改容量值和时间范围。
+
+
+
+ a| 
+会话超时
+ a| 
+配置超时、以便用户的非活动会话在指定时间后断开连接。
+
+
+
+ a| 
+帮助
+ a| 
+从界面右上角的下拉列表中访问帮助文档和其他资源。
+
+|===
+
+
+== 用户登录和密码
+
+登录到系统的当前用户显示在界面的右上角。
+
+有关用户和密码的详细信息、请参见：
+
+* link:administrator-password-protection.html["设置管理员密码保护"]
+* link:../sm-settings/change-passwords.html["更改密码"]
+

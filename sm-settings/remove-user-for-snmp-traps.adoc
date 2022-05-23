@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/remove-user-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, users, snmpv3, traps, 
+summary: 您可以删除SNMPv3陷阱的用户。 
+---
+= 删除SNMPv3陷阱的用户
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以删除SNMPv3陷阱的用户。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择* SNMP *选项卡。
++
+陷阱目标和用户名显示在警报页面上。
+
+. 选择*配置用户*。
++
+此时将打开配置SNMPv3用户对话框。
+
+. 选择要删除的用户名、然后单击*删除*。
+. 确认此操作、然后单击*删除*。
+
+
+用户名及其关联的陷阱目标将从警报页面中删除。

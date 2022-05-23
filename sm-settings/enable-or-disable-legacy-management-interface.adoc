@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/enable-or-disable-legacy-management-interface.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
+summary: '您可以启用或禁用原有管理界面(符号)、这是存储阵列与管理客户端之间的一种通信方法。' 
+---
+= 启用或禁用原有管理界面
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以启用或禁用原有管理界面(符号)、这是存储阵列与管理客户端之间的一种通信方法。
+
+默认情况下、原有管理界面处于打开状态。如果禁用此功能、则存储阵列和管理客户端将使用更安全的通信方法(基于https的REST API)；但是、如果禁用此功能、某些工具和任务可能会受到影响。
+
+[NOTE]
+====
+对于EF600存储系统、此功能默认处于禁用状态。
+
+====
+此设置将影响以下操作：
+
+* *开*(默认)—使用命令行界面和其他一些工具(例如OCI适配器)配置镜像所需的设置。
+* *关*—在存储阵列与管理客户端之间的通信中强制实施机密性以及访问外部工具所需的设置。配置目录服务器(LDAP)时的建议设置。
+
+
+.步骤
+. 选择菜单：设置[系统]。
+. 向下滚动到*其他设置*、然后单击*更改管理界面*。
+. 在对话框中、单击*是*继续。
+

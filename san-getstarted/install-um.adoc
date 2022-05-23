@@ -1,0 +1,20 @@
+---
+permalink: san-getstarted/install-um.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Unified Manager installation 
+summary: Unified Manager安装概述 
+---
+= 安装 Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager随Web服务代理一起提供、Web服务代理是单独安装在主机系统上的RESTful API服务器、用于管理NetApp E系列存储系统。
+
+要安装Web服务代理和Unified Manager、请参见E系列和SANtricity 文档中心中的以下说明：
+
+. https://docs.netapp.com/us-en/e-series/web-services-proxy/install-reqs-task.html["查看安装和升级要求"^]
+. https://docs.netapp.com/us-en/e-series/web-services-proxy/install-wsp-task.html["下载并安装 Web 服务代理文件"^]
+

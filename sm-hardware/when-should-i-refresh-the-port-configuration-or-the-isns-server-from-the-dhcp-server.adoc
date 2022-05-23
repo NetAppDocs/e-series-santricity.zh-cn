@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, port, configuration, isns, server, dhcp, server, 
+summary: 随时修改或升级DHCP服务器、并且与当前存储阵列和要使用的存储阵列相关的DHCP信息已更改、请刷新此服务器。 
+---
+= 何时应从DHCP服务器刷新端口配置或iSNS服务器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+随时修改或升级DHCP服务器、并且与当前存储阵列和要使用的存储阵列相关的DHCP信息已更改、请刷新此服务器。
+
+具体而言、如果您知道DHCP服务器将分配不同的地址、请从DHCP服务器刷新端口配置或iSNS服务器。
+
+[NOTE]
+====
+刷新端口配置会对该端口上的所有iSCSI连接造成破坏。
+
+====

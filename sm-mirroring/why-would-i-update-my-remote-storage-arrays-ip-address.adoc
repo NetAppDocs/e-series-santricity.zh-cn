@@ -1,0 +1,20 @@
+---
+permalink: sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, 
+summary: 如果iSCSI端口的IP地址发生更改、而本地存储阵列无法与远程存储阵列通信、则可以更新远程存储阵列的IP地址。 
+---
+= 为什么要更新远程存储阵列的IP地址？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果iSCSI端口的IP地址发生变化、而本地存储阵列无法与远程存储阵列通信、则可以更新远程存储阵列的IP地址。
+
+在与iSCSI连接建立异步镜像关系时、本地和远程存储阵列会在异步镜像配置中存储远程存储阵列的IP地址记录。如果iSCSI端口的IP地址发生变化、尝试使用该端口的远程存储阵列将遇到通信错误。
+
+IP地址已更改的存储阵列会向与配置为通过iSCSI连接进行镜像的镜像一致性组关联的每个远程存储阵列发送一条消息。接收此消息的存储阵列会自动更新其远程目标IP地址。
+
+如果IP地址已更改的存储阵列无法向远程存储阵列发送其阵列间消息、则系统会向您发送连接问题描述 警报。使用Update Remote IP Address选项重新与本地存储阵列建立连接。

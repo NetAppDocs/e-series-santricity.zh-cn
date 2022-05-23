@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, lights, LEDs 
+summary: 您可以找到驱动器、以物理方式识别构成选定池、卷组或SSD缓存的所有驱动器。选定池、卷组或SSD缓存中的每个驱动器上都会亮起一个LED指示灯。 
+---
+= 打开池、卷组或SSD缓存中的定位灯
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以找到驱动器、以物理方式识别构成选定池、卷组或SSD缓存的所有驱动器。选定池、卷组或SSD缓存中的每个驱动器上都会亮起一个LED指示灯。
+
+.步骤
+. 选择菜单：Storage[Pools & Volume Groups]。
+. 选择要查找的池、卷组或SSD缓存、然后单击菜单：更多(打开定位灯)。
++
+此时将显示一个对话框、指示包含选定池、卷组或SSD缓存的驱动器上的指示灯已打开。
+
+. 成功找到驱动器后、单击*关闭*。
+

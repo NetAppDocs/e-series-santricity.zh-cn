@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: 无法将卷移动到的任何池或卷组不会显示在列表中。 
+---
+= 为什么我看不到所有池和/或卷组？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+无法将卷移动到的任何池或卷组不会显示在列表中。
+
+由于以下任一原因、池或卷组均不符合条件：
+
+* 池或卷组池的数据保证(Data Assurance、DA)功能不匹配。
+* 池或卷组处于非最佳状态。
+* 池或卷组的容量太小。
+

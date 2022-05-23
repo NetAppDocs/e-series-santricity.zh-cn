@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
+summary: 在System Manager中、您可以按照以下步骤创建快照映像和快照卷。 
+---
+= 用于创建快照映像和快照卷的工作流
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在System Manager中、您可以按照以下步骤创建快照映像和快照卷。
+
+
+
+== 创建快照映像的工作流
+
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[Sam1130 FLW快照可创建ss映像]
+
+
+
+== 用于创建快照卷的工作流
+
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Sam1130 FLW快照可创建ss卷]

@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, parameters, physical, port, 
+summary: EF600存储阵列可以包括两个HIC—一个外部HIC和一个内部HIC。 
+---
+= 为什么一个物理端口有两组参数？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。
+
+在此配置中、外部HIC连接到内部辅助HIC。您可以从外部HIC访问的每个物理端口都具有来自内部HIC的关联虚拟端口。
+
+要获得最大200 GB的性能、您必须为物理端口和虚拟端口分配参数、以便主机可以与每个端口建立连接。如果不为虚拟端口分配参数、HIC将以大约一半的可用速度运行。

@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Cannot, Access, Other, Controller 
+summary: '在执行与CA证书相关的某些操作(例如、导入证书)时、您可能会看到一个对话框、提示您接受第二个控制器的自签名证书。' 
+---
+= 为什么会显示"无法访问其他控制器"对话框？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在执行与CA证书相关的某些操作(例如、导入证书)时、您可能会看到一个对话框、提示您接受第二个控制器的自签名证书。
+
+在具有两个控制器的存储阵列(双工配置)中、如果SANtricity 系统管理器无法与第二个控制器通信、或者您的浏览器在操作的某个时间点无法接受证书、则有时会显示此对话框。
+
+如果此对话框打开、请单击*接受自签名证书*以继续。如果另一个对话框提示您输入密码、请输入用于访问System Manager的管理员密码。
+
+如果此对话框再次出现、并且您无法完成证书任务、请尝试以下过程之一：
+
+* 使用其他浏览器类型访问此控制器、接受证书并继续。
+* 使用System Manager访问第二个控制器、接受自签名证书、然后返回到第一个控制器并继续。
+

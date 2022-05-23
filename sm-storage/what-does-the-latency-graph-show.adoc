@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-latency-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, latency, graph, show, statistics, 
+summary: '延迟图形可提供卷、卷组、池的延迟统计信息、以毫秒(ms)为单位。 应用程序和工作负载。此图形显示在逻辑视图、物理视图以及应用程序和工作负载视图选项卡中。' 
+---
+= 延迟图显示了什么内容？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+延迟图形可提供卷、卷组、池的延迟统计信息、以毫秒(ms)为单位。 应用程序和工作负载。此图形显示在逻辑视图、物理视图以及应用程序和工作负载视图选项卡中。
+
+延迟是指读取或写入数据时发生的任何延迟。将光标悬停在图形上的某个点上、可查看该时间点的以下值(以毫秒(ms)为单位)：
+
+* 读取时间。
+* 写入时间。
+* 平均I/O大小。
+

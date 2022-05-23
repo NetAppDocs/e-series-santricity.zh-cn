@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, group, 
+summary: Snapshot组是一个关联基础卷的时间点快照映像的集合。 
+---
+= 什么是快照组？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot组是一个关联基础卷的时间点快照映像的集合。
+
+System Manager会将快照映像组织为_snapshot groups_.Snapshot组无需用户操作、但您可以随时调整Snapshot组上的预留容量。此外、在满足以下条件时、系统可能会提示您创建预留容量：
+
+* 每当为尚未创建快照组的基础卷创建快照时、System Manager都会自动创建快照组。这样会为基础卷创建预留容量、用于存储后续的快照映像。
+* 每当为基础卷创建快照计划时、System Manager都会自动创建快照组。
+

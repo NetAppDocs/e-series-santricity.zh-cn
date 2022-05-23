@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manual, resynchronization 
+summary: 建议使用手动重新同步、因为它可以让您以最佳机会恢复数据的方式管理重新同步过程。 
+---
+= 为什么建议使用手动同步策略？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+建议使用手动重新同步、因为它可以让您以最佳机会恢复数据的方式管理重新同步过程。
+
+如果使用自动重新同步策略、并且在重新同步期间发生间歇性通信问题、则二级卷上的数据可能会暂时损坏。重新同步完成后、数据将得到更正。

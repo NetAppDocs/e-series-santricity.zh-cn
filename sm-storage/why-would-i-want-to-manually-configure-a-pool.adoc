@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/why-would-i-want-to-manually-configure-a-pool.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manually, configure, pool 
+summary: 以下示例说明了您希望手动配置池的原因。 
+---
+= 为什么要手动配置池？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以下示例说明了您希望手动配置池的原因。
+
+* 如果存储阵列上有多个应用程序、并且不希望它们争用相同的驱动器资源、则可以考虑手动为一个或多个应用程序创建一个较小的池。
++
+您只能分配一个或两个卷、而不能将工作负载分配给一个大型池、该池包含许多卷、可用于分布数据。手动创建专用于特定应用程序工作负载的单独池可以提高存储阵列操作的执行速度、并减少争用。
+
++
+要手动创建池、请选择*存储*、然后选择*池和卷组*。从所有容量选项卡中、单击菜单：创建[池]。
+
+* 如果存在多个驱动器类型相同的池、则会显示一条消息、指示System Manager无法自动为池推荐驱动器。但是、您可以手动将驱动器添加到现有池。
++
+要手动将驱动器添加到现有池：从"池和卷组"页面中、选择该池、然后单击*添加容量*。
+
+

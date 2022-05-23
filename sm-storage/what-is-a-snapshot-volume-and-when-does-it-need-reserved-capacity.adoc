@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volume, reserved, capacity 
+summary: 主机可通过Snapshot卷访问Snapshot映像中的数据。快照卷包含自己的预留容量、这样可以在不影响原始快照映像的情况下保存对基础卷所做的任何修改。主机无法读取或写入Snapshot映像。如果要读取或写入快照数据、请创建一个快照卷并将其分配给主机。 
+---
+= 什么是Snapshot卷？何时需要预留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主机可通过Snapshot卷访问Snapshot映像中的数据。快照卷包含自己的预留容量、这样可以在不影响原始快照映像的情况下保存对基础卷所做的任何修改。主机无法读取或写入Snapshot映像。如果要读取或写入快照数据、请创建一个快照卷并将其分配给主机。
+
+您可以创建两种类型的快照卷。Snapshot卷的类型决定了它是否使用预留容量。
+
+* *只读*—创建为只读的快照卷可以使主机应用程序对快照映像中所含数据的副本具有读取访问权限。只读Snapshot卷不使用预留容量。
+* *读写*—创建为读写的快照卷可以在不影响引用的快照映像的情况下对快照卷进行更改。读写Snapshot卷使用预留容量存储这些更改。您可以随时将只读快照卷转换为读写卷。
+

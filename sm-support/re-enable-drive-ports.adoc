@@ -1,0 +1,26 @@
+---
+permalink: sm-support/re-enable-drive-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
+summary: 您可以向控制器指示已采取更正操作、以便从连线错误情况中恢复。 
+---
+= 重新启用驱动器端口
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以向控制器指示已采取更正操作、以便从连线错误情况中恢复。
+
+.步骤
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*重新启用驱动器端口*、然后确认要执行此操作。
++
+只有在存储阵列已禁用驱动器端口时、才会显示此选项。
+
++
+控制器会重新启用检测到连线错误时禁用的所有SAS端口。
+
+

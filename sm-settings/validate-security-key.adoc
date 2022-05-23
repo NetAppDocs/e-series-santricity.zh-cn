@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/validate-security-key.html 
+sidebar: sidebar 
+keywords: SANtricity,System Manager, E-Series, validate, security, key, 
+summary: 您可以验证安全密钥、以确保其未损坏、并验证您是否具有正确的密码短语。 
+---
+= 验证安全密钥
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以验证安全密钥、以确保其未损坏、并验证您是否具有正确的密码短语。
+
+此任务介绍如何验证您先前创建的安全密钥。这是确保密钥文件未损坏且密码短语正确的重要步骤、它可确保在将启用了安全保护的驱动器从一个存储阵列移动到另一个存储阵列后、您可以访问驱动器数据。
+
+.步骤
+. 选择菜单：设置[系统]。
+. 在*安全密钥管理*下、选择*验证密钥*。
++
+此时将打开验证安全密钥对话框。
+
+. 单击*浏览*、然后选择密钥文件(例如、`drivesecury.slk`)。
+. 输入与选定密钥关联的密码短语。
++
+选择有效的密钥文件和密码短语后、*验证*按钮将变为可用。
+
+. 单击*验证*。
++
+验证结果将显示在对话框中。
+
+. 如果结果显示"The security key validated successfully"、请单击*关闭*。如果显示错误消息、请按照对话框中显示的建议说明进行操作。
+

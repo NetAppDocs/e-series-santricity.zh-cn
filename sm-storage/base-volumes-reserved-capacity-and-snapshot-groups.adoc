@@ -1,0 +1,48 @@
+---
+permalink: sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups 
+summary: Snapshot功能可使用基础卷、预留容量和快照组。 
+---
+= 基本卷、预留容量和快照组
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot功能可使用基础卷、预留容量和快照组。
+
+
+
+== 基础卷
+
+a _base volume"是用作快照映像源的卷。基础卷可以是厚卷、也可以是精简卷、并且可以驻留在池或卷组中。
+
+要为基础卷创建快照、您可以随时创建即时映像、也可以通过为快照定义定期计划来自动执行此过程。
+
+下图显示了快照对象与基础卷之间的关系。
+
+image::../media/sam1130-dwg-snapshots-images-overview.gif[sam1130 dwg Snapshot映像概述]
+
+^1^基础卷；^2^组中的Snapshot对象(映像和预留容量)；^3^ Snapshot组的预留容量。
+
+
+
+== 预留容量和快照组
+
+System Manager会将快照映像组织为_snapshot groups_.当System Manager建立快照组时、它会自动创建关联的_reserved capacity_、以存放组的快照映像并跟踪后续对其他快照所做的更改。
+
+如果基础卷驻留在卷组中、则预留的容量可以位于池或卷组中。如果基础卷驻留在池中、则预留容量必须与基础卷位于同一池中。
+
+Snapshot组无需用户操作、但您可以随时调整Snapshot组上的预留容量。此外、在满足以下条件时、系统可能会提示您创建预留容量：
+
+* 每当为尚未创建快照组的基础卷创建快照时、System Manager都会自动创建快照组。此操作还会为用于存储后续快照映像的基础卷创建预留容量。
+* 每当为基础卷创建快照计划时、System Manager都会自动创建快照组。
+
+
+
+
+== 自动删除
+
+使用快照时、请使用默认选项启用自动删除。自动删除功能会在快照组达到32个映像的快照组限制时自动删除最旧的快照映像。如果关闭自动删除、则最终会超过快照组限制、您必须手动执行操作来配置快照组设置并管理预留容量。

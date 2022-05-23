@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters 
+summary: 要使主机或主机集群向卷发送I/O、必须将此卷分配给主机或主机集群。 
+---
+= 如何将卷分配给主机和主机集群
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要使主机或主机集群向卷发送I/O、必须将此卷分配给主机或主机集群。
+
+您可以在创建卷时选择主机或主机集群、也可以稍后将卷分配给主机或主机集群。主机集群是一组主机。您可以创建一个主机集群、以便轻松地将相同的卷分配给多个主机。
+
+为主机分配卷非常灵活、可以满足您的特定存储需求。
+
+* *独立主机、不属于主机集群*—您可以将卷分配给单个主机。卷只能由一台主机访问。
+* *主机集群*-您可以将卷分配给主机集群。主机集群中的所有主机均可访问此卷。
+* *主机集群中的主机*-您可以将卷分配给属于主机集群的单个主机。即使此主机属于主机集群、但此卷只能由单个主机访问、而不能由主机集群中的任何其他主机访问。
+
+
+创建卷时、系统会自动分配逻辑单元号(LUN)。在I/O操作期间、LUN充当主机和控制器之间的"地址"。您可以在创建卷后更改LUN。

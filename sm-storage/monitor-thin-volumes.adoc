@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/monitor-thin-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
+summary: 您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。 
+---
+= 监控精简卷
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。
+
+[NOTE]
+====
+EF600或EF300存储系统不支持此功能。
+
+====
+[NOTE]
+====
+SANtricity System Manager不提供创建精简卷的选项。如果要创建精简卷、请使用命令行界面(CLI)。
+
+====

@@ -1,0 +1,33 @@
+---
+permalink: sm-settings/view-iser-over-infiniband-statistics-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniBand, statistics, 
+summary: 如果存储阵列的控制器包含基于InfiniBand的iSER端口、则可以查看有关主机连接的数据。 
+---
+= 查看基于InfiniBand的iSER统计信息
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果存储阵列的控制器包含基于InfiniBand的iSER端口、则可以查看有关主机连接的数据。
+
+System Manager会显示以下类型的基于InfiniBand的iSER统计信息。所有统计信息均为只读、无法设置。
+
+* *本地目标(协议)统计信息*—提供基于InfiniBand的iSER目标的统计信息、其中显示了对其存储介质的块级访问。
+* *基于InfiniBand接口的iSER统计信息*-提供InfiniBand接口上所有iSER端口的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。
+
+
+您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。原始统计信息是自控制器启动以来收集的所有统计信息。基线统计信息是自设置基线时间以来收集的时间点统计信息。
+
+.步骤
+. 选择菜单：设置[系统]。
+. 选择*查看基于InfiniBand统计信息的iSER *。
+. 单击一个选项卡可查看不同的统计信息集。
+. *可选：*要设置基线、请单击*设置新基线*。
++
+设置基线将为统计信息的收集设置一个新的起点。所有基于InfiniBand的iSER统计信息都使用相同的基线。
+
+

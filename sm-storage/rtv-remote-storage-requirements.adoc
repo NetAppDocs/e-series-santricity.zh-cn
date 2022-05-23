@@ -1,0 +1,61 @@
+---
+permalink: sm-storage/rtv-remote-storage-requirements.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage, requirements 
+summary: 在使用远程存储功能之前、请查看以下要求和限制。 
+---
+= 远程存储功能要求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在使用远程存储功能之前、请查看以下要求和限制。
+
+
+
+== 支持的协议
+
+支持以下协议：
+
+* iSCSI
+* IPv4
+
+
+有关最新的E系列支持和配置信息、请参见 https://imt.netapp.com/matrix/#welcome["NetApp 互操作性表工具"^]。
+
+
+
+== 硬件要求
+
+E 系列存储系统必须包括：
+
+* 两个控制器（双工模式）
+* 两个 E 系列控制器的 iSCSI 连接，用于通过一个或多个 iSCSI 连接与远程存储系统进行通信
+* SANtricity OS 11.71 或更高版本
+* 在子型号 ID （ SMID ）中启用远程存储功能
+
+
+远程系统可以是 E 系列存储系统，也可以是其他供应商提供的系统。其中必须包括：
+
+* 支持iSCSI的接口
+
+
+
+
+== 限制
+
+远程存储功能具有以下限制：
+
+* 必须禁用镜像。
+* E 系列系统上的目标卷不能具有快照。
+* 在启动导入之前，不得将 E 系列系统上的目标卷映射到任何主机。
+* E 系列系统上的目标卷必须已禁用资源配置。
+* 不支持将远程存储卷直接映射到一个或多个主机。
+* 不支持 Web 服务代理。
+* 不支持 iSCSI CHAP 密码。
+* 不支持 SMcli 。
+* 不支持 VMware 数据存储库。
+* 如果存在导入对，则一次只能升级关系 / 导入对中的一个存储系统。
+

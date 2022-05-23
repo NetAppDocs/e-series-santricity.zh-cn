@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/add-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps, 
+summary: 您最多可以为SNMPv2c陷阱添加256个社区名称。 
+---
+= 为SNMPv2c陷阱添加社区
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您最多可以为SNMPv2c陷阱添加256个社区名称。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择* SNMP *选项卡。
++
+陷阱目标和社区名称将显示在表中。
+
+. 选择*配置社区*。
++
+此时将打开配置社区对话框。
+
+. 选择*添加其他社区*。
+. 输入新的社区名称、然后单击*保存*。
+
+
+新社区名称将显示在警报页面的SNMP选项卡中。

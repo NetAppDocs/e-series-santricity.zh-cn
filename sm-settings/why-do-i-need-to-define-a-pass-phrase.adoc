@@ -1,0 +1,14 @@
+---
+permalink: sm-settings/why-do-i-need-to-define-a-pass-phrase.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, define, pass, phrase, 
+summary: 密码短语用于对存储在本地管理客户端上的安全密钥文件进行加密和解密。如果没有密码短语、则无法对安全密钥进行解密、并使用此安全密钥从启用了安全功能的驱动器中解锁数据、如果此驱动器重新安装在另一个存储阵列中。 
+---
+= 为什么需要定义密码短语？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+密码短语用于对存储在本地管理客户端上的安全密钥文件进行加密和解密。如果没有密码短语、则无法对安全密钥进行解密、并使用此安全密钥从启用了安全功能的驱动器中解锁数据、如果此驱动器重新安装在另一个存储阵列中。

@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/how-add-on-features-work.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, features, 
+summary: 附加项是System Manager标准配置中不包含的功能、可能需要使用密钥才能启用。附加功能可以是单个高级功能、也可以是捆绑的功能包。 
+---
+= 附加功能的工作原理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+附加项是System Manager标准配置中不包含的功能、可能需要使用密钥才能启用。附加功能可以是单个高级功能、也可以是捆绑的功能包。
+
+以下步骤概述了如何启用高级功能或功能包：
+
+. 获取以下信息：
++
+** 机箱序列号和功能启用标识符、用于标识要安装的功能的存储阵列。这些项目可在System Manager中使用。
+** 功能激活代码、购买此功能时可从支持站点获取。
+
+
+. 请联系您的存储提供商或访问高级功能激活站点以获取功能密钥。提供机箱序列号、启用标识符和功能代码以进行激活。
+. 使用System Manager、使用功能密钥文件启用高级功能或功能包。
+

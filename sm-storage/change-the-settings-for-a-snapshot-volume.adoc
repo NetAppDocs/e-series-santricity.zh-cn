@@ -1,0 +1,92 @@
+---
+permalink: sm-storage/change-the-settings-for-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
+summary: '您可以更改快照卷或快照一致性组快照卷的设置以对其进行重命名、启用或禁用SSD缓存、或者更改主机、主机集群或逻辑单元号(LUN)分配。' 
+---
+= 更改快照卷的卷设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改快照卷或快照一致性组快照卷的设置以对其进行重命名、启用或禁用SSD缓存、或者更改主机、主机集群或逻辑单元号(LUN)分配。
+
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 单击* Snapshot Volumes*选项卡。
+. 选择要更改的快照卷、然后单击*查看/编辑设置*。
++
+此时将显示Snapshot Volume Settings对话框。
+
+. 根据需要查看或编辑快照卷的设置。
++
+.字段详细信息
+====
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+*快照卷*
+
+
+
+ a| 
+Name
+ a| 
+您可以更改快照卷的名称。
+
+
+
+ a| 
+已分配给
+ a| 
+您可以更改快照卷的主机或主机集群分配。
+
+
+
+ a| 
+LUN
+ a| 
+您可以更改快照卷的LUN分配。
+
+
+
+ a| 
+SSD 缓存
+ a| 
+您可以在固态磁盘(SSD)上启用/禁用只读缓存。
+
+
+
+ a| 
+*关联对象*
+
+
+
+ a| 
+Snapshot映像
+ a| 
+您可以查看与快照卷关联的快照映像。快照映像是指在特定时间点捕获的卷数据的逻辑副本。与还原点一样，您可以通过快照映像回滚到已知正常的数据集。尽管主机可以访问快照映像、但它无法直接对其进行读写。
+
+
+
+ a| 
+基础卷
+ a| 
+您可以查看与快照卷关联的基础卷。基础卷是创建快照映像的源卷。它可以是厚卷或精简卷、通常分配给主机。基础卷可以位于卷组或磁盘池中。
+
+
+
+ a| 
+Snapshot组
+ a| 
+您可以查看与快照卷关联的快照组。快照组是一组来自单个基础卷的快照映像。
+
+|===
+====
+

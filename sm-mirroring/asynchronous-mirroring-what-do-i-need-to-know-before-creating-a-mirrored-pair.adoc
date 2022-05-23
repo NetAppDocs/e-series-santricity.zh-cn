@@ -1,0 +1,28 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
+summary: 您可以在Unified Manager界面中配置镜像对、然后在System Manager中管理这些对。 
+---
+= 异步镜像—在创建镜像对之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在Unified Manager界面中配置镜像对、然后在System Manager中管理这些对。
+
+创建镜像对之前、请遵循以下准则。
+
+* 您必须有两个存储阵列。
+* 每个存储阵列必须具有两个控制器。
+* 主阵列和二级阵列中的每个控制器都必须配置一个以太网管理端口、并且必须连接到您的网络。
+* 本地和远程存储阵列通过光纤通道网络结构或iSCSI接口进行连接。
+* 存储阵列的最低固件版本为7.84。(它们可以分别运行不同的操作系统版本。)
+* 您必须知道本地和远程存储阵列的密码。
+* 您必须在远程存储阵列上具有足够的可用容量、才能创建一个等于或大于要镜像的主卷的二级卷。
+* 您已安装Web服务代理和Unified Manager。镜像对在Unified Manager界面中进行配置。
+* 这两个存储阵列会在Unified Manager中发现。
+* 存储阵列必须至少包含一个镜像一致性组。您可以在Unified Manager中的创建镜像对向导中创建一致性组。
+

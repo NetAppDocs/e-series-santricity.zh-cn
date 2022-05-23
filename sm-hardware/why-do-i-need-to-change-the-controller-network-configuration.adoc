@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, controller, network, configuration, gateway, 
+summary: '使用带外管理时、您必须为每个控制器设置网络配置、包括其Internet协议(IP)地址、子网掩码(子网掩码)和网关。' 
+---
+= 为什么需要更改控制器网络配置？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用带外管理时、您必须为每个控制器设置网络配置、包括其Internet协议(IP)地址、子网掩码(子网掩码)和网关。
+
+您可以使用动态主机配置协议(DHCP)服务器设置网络配置。如果您不使用DHCP服务器、则必须手动输入网络配置。

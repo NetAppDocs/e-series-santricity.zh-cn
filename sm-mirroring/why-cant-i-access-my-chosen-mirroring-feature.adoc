@@ -1,0 +1,33 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mirroring, access 
+summary: 镜像是在Unified Manager界面中配置的。 
+---
+= 为什么我无法访问所选的镜像功能？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+镜像是在Unified Manager界面中配置的。
+
+[NOTE]
+====
+在EF600或EF300存储阵列上不能使用镜像。
+
+====
+要在两个阵列之间启用和配置镜像、请验证以下内容：
+
+* Web服务代理服务必须正在运行。(Unified Manager与Web服务代理一起安装在主机系统上。)
+* Unified Manager必须通过HTTPS连接在本地主机上运行。
+* 必须在Unified Manager中发现要用于镜像的两个存储阵列。
+* Unified Manager必须具有适用于存储阵列的有效SSL证书。您可以从Unified Manager接受自签名证书或安装CA签名证书。
+
+
+有关配置说明、请参见以下内容：
+
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["创建异步镜像对(在Unified Manager中)"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["创建同步镜像对(在Unified Manager中)"]
+

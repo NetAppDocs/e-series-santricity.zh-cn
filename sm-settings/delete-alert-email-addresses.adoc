@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts, 
+summary: 您可以删除先前定义的邮件服务器、以使警报不再发送到电子邮件地址、也可以删除各个电子邮件地址。 
+---
+= 删除警报的邮件服务器或电子邮件地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以删除先前定义的邮件服务器、以使警报不再发送到电子邮件地址、也可以删除各个电子邮件地址。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*电子邮件*选项卡。
+. 从表中、执行以下操作之一：
++
+** 要删除邮件服务器以使警报不再发送到电子邮件地址、请选择邮件服务器所在的行。
+** 要删除电子邮件地址以使警报不再发送到此地址、请选择要删除的电子邮件地址所在的行。表右上角的*删除*按钮可供选择。
+
+
+. 单击*删除*、然后确认操作。
+

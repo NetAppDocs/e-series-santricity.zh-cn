@@ -1,0 +1,22 @@
+---
+permalink: sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, upgrading, drive, firmware 
+summary: 在升级驱动器固件之前、请注意以下事项。 
+---
+= 升级驱动器固件前需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在升级驱动器固件之前、请注意以下事项。
+
+* 作为预防措施、请使用磁盘到磁盘备份、卷副本(到不受计划的固件升级影响的卷组)或远程镜像备份数据。
+* 您可能只需要升级几个驱动器、即可测试新固件的行为、以确保其正常运行。如果新固件运行正常、请升级其余驱动器。
+* 如果有任何故障驱动器、请在开始固件升级之前修复它们。
+* 如果驱动器可以执行脱机升级、请停止与驱动器关联的所有卷的I/O活动。停止I/O活动后、不会执行与这些卷关联的配置操作。
+* 升级驱动器固件时、请勿删除任何驱动器。
+* 升级驱动器固件时、请勿对存储阵列进行任何配置更改。
+

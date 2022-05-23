@@ -1,0 +1,23 @@
+---
+permalink: um-manage/launch-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, individual, storage, array 
+summary: 如果要执行管理操作、您可以使用启动选项为一个或多个存储阵列打开基于浏览器的SANtricity 系统管理器。 
+---
+= 管理单个存储阵列
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要执行管理操作、您可以使用Launch选项为一个或多个存储阵列打开基于浏览器的System Manager。
+
+.步骤
+. 从管理页面中、选择要管理的一个或多个存储阵列。
+. 单击 * 启动 * 。
++
+系统将打开一个新窗口并显示System Manager登录页面。
+
+. 输入用户名和密码、然后单击*登录*。
+

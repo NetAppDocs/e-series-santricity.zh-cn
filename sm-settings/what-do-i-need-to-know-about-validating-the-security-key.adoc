@@ -1,0 +1,21 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, validating, security, key, 
+summary: 创建安全密钥后、您应验证密钥文件以确保其未损坏。 
+---
+= 验证安全密钥时需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+创建安全密钥后、您应验证密钥文件以确保其未损坏。
+
+如果验证失败、请执行以下操作：
+
+* 如果安全密钥标识符与控制器上的标识符不匹配、请找到正确的安全密钥文件、然后重试验证。
+* 如果控制器无法对安全密钥进行解密以进行验证、则您输入的密码短语可能不正确。仔细检查密码短语、必要时重新输入、然后重试验证。如果此错误消息再次出现、请选择密钥文件的备份(如果可用)、然后重试验证。
+* 如果仍然无法验证安全密钥、则原始文件可能已损坏。创建密钥的新备份并验证该副本。
+

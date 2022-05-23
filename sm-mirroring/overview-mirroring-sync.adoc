@@ -1,0 +1,59 @@
+---
+permalink: sm-mirroring/overview-mirroring-sync.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
+summary: 同步镜像功能可在存储阵列之间远程进行联机实时数据复制。 
+---
+= 同步镜像概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同步镜像功能可在存储阵列之间远程进行联机实时数据复制。
+
+[NOTE]
+====
+EF600或EF300存储系统不支持此功能。
+
+====
+
+
+== 什么是同步镜像？
+
+_Synchronous mirroring _实时复制数据卷以确保持续可用性。存储阵列控制器负责管理镜像操作、该操作对主机和软件应用程序是透明的。
+
+这种类型的镜像非常适合用于灾难恢复等业务连续性目的。
+
+了解更多信息。
+
+* link:how-asynchronous-mirroring-works.html["同步镜像的工作原理"]
+* link:synchronous-mirroring-terminology.html["同步镜像术语"]
+* link:synchronous-mirroring-status.html["同步镜像状态"]
+* link:volume-ownership-sync.html["卷所有权"]
+* link:role-change-of-volumes-in-a-mirrored-pair.html["镜像对中的卷之间的角色更改"]
+
+
+
+
+== 如何配置同步镜像？
+
+您必须使用Unified Manager界面在阵列之间执行初始镜像配置。配置后、您可以在System Manager中管理镜像对。
+
+了解更多信息。
+
+* link:requirements-for-using-synchronous-mirroring.html["使用同步镜像的要求"]
+* link:workflow-for-mirroring-a-volume-synchronously.html["同步镜像卷的工作流"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["创建同步镜像对(在Unified Manager中)"]
+
+
+
+
+== 相关信息
+
+详细了解与同步镜像相关的概念：
+
+* link:synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["创建镜像对之前需要了解的信息"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["异步镜像与同步镜像有何不同"]
+

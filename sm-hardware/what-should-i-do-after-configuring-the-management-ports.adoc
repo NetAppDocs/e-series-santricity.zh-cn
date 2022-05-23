@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, management, ports, 
+summary: 如果更改了存储阵列的IP地址、则可能需要在SANtricity 统一管理器中更新全局阵列视图。 
+---
+= 配置管理端口后应执行什么操作？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果更改了存储阵列的IP地址、则可能需要在Unified Manager中更新全局阵列视图。
+
+要在Unified Manager中更新全局阵列视图、请打开界面并转到菜单：Manage (管理)[Discover (发现)。
+
+如果您仍在使用SANtricity 存储管理器、请转到企业管理窗口(EMW)、其中必须删除并重新添加新的IP地址。

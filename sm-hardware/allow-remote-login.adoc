@@ -1,0 +1,34 @@
+---
+permalink: sm-hardware/allow-remote-login.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, login, 
+summary: 远程登录允许局域网外部的用户启动SSH会话并更改控制器上的设置。 
+---
+= 允许远程登录
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+远程登录允许局域网外部的用户启动SSH会话并更改控制器上的设置。
+
+[CAUTION]
+====
+*安全风险*-出于安全原因、启用远程登录仅供技术支持使用。
+
+====
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了驱动器，请单击 * 显示磁盘架背面 * 。
++
+此图将发生变化，以显示控制器，而不是驱动器。
+
+. 单击要为其启用远程登录的控制器。
++
+此时将显示控制器的上下文菜单。
+
+. 选择*更改远程登录*、然后确认要执行此操作。
+
+
+技术支持完成故障排除后、请按照此相同的操作步骤 禁用远程登录。禁用远程登录将终止任何当前SSH会话并拒绝任何新的登录请求。

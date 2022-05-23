@@ -1,0 +1,23 @@
+---
+permalink: sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pool config 
+summary: 是否接受建议的池配置取决于几个因素。 
+---
+= 如何知道是否应接受建议的池配置？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+是否接受建议的池配置取决于几个因素。
+
+回答以下问题、确定最符合您要求的存储类型：
+
+* 您是否更喜欢容量较小的多个池、而不是可能的最大池？
+* 您是否更喜欢RAID卷组而不是池？
+* 您是否更愿意手动配置驱动器、而不是建议您使用的配置？
+
+
+如果您对上述任一问题回答是、请考虑拒绝建议的池配置。

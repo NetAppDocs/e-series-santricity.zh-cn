@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency, group 
+summary: 如果要确保同时在多个卷上创建快照映像、请创建快照一致性组。 
+---
+= 为什么要创建快照一致性组？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要确保同时在多个卷上创建快照映像、请创建快照一致性组。
+
+例如、如果数据库由多个卷组成、并且需要保持一致才能进行恢复、则需要使用快照一致性组来收集所有卷的协调快照、并使用这些快照还原整个数据库。
+
+快照一致性组中包含的卷称为_member volumes_。
+
+您可以对快照一致性组执行以下快照操作：
+
+* 创建快照一致性组的快照映像、以同时获取成员卷的映像。
+* 为快照一致性组创建一个计划、以自动捕获成员卷的定期并发映像。
+* 为快照一致性组映像创建主机可访问的快照卷。
+* 对快照一致性组执行回滚操作。
+

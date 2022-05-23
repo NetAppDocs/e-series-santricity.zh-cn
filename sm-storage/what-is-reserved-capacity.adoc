@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: 预留容量是指物理分配的容量、用于存储Snapshot映像、一致性组成员卷和镜像对卷等副本服务对象的数据。 
+---
+= 什么是预留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+预留容量是指物理分配的容量、用于存储Snapshot映像、一致性组成员卷和镜像对卷等副本服务对象的数据。
+
+与复制服务操作关联的预留容量卷位于池或卷组中。您可以从池或卷组创建预留容量。

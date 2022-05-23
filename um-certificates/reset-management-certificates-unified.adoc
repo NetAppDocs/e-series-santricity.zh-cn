@@ -1,0 +1,32 @@
+---
+permalink: um-certificates/reset-management-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
+summary: 您可以将管理证书还原到原始出厂自签名状态。 
+---
+= 重置管理证书
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将管理证书还原到原始出厂自签名状态。
+
+您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
+
+此任务将从安装了Web服务代理和Unified Manager的主机系统中删除当前管理证书。重置证书后、主机系统将恢复为使用自签名证书。
+
+.步骤
+. 选择*证书管理*。
+. 从管理选项卡中、选择*重置*。
++
+此时将打开确认重置管理证书对话框。
+
+. 在字段中键入`reset`、然后单击*重置*。
++
+浏览器刷新后、浏览器可能会阻止对目标站点的访问并报告此站点正在使用HTTP严格传输安全性。切换回自签名证书时会出现此情况。要清除阻止访问目标的条件、您必须从浏览器中清除浏览数据。
+
+
+
+系统将恢复为使用服务器中的自签名证书。因此、系统会提示用户为其会话手动接受自签名证书。

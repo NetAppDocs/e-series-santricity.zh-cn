@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificate, revocation, checking, 
+summary: '使用System Manager、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器来检查已撤销的证书、而不是上传证书撤消列表(Certificate Revocation List、CRL)。' 
+---
+= 关于证书撤消检查、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用System Manager、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器来检查已撤销的证书、而不是上传证书撤消列表(Certificate Revocation List、CRL)。
+
+已撤销的证书不应再受信任。证书可能会因多种原因而被撤销；例如、如果证书颁发机构(CA)颁发的证书不正确、私钥被泄露或标识的实体不符合策略要求。
+
+在System Manager中与OCSP服务器建立连接后、存储阵列将在连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时执行撤消检查。存储阵列会尝试验证这些服务器的证书、以确保它们未被撤消。然后、服务器将为该证书返回"good "、"revoked"或"unknown"值。如果证书已撤销或阵列无法与OCSP服务器联系、则连接将被拒绝。
+
+[NOTE]
+====
+在System Manager或命令行界面(CLI)中指定OCSP响应程序地址会覆盖在证书文件中找到的OCSP地址。
+
+====

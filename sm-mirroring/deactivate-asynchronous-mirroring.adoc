@@ -1,0 +1,36 @@
+---
+permalink: sm-mirroring/deactivate-asynchronous-mirroring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote, 
+summary: 您可以在本地和远程存储阵列上停用异步镜像、以重新建立存储阵列上专用端口的正常使用。 
+---
+= 停用异步镜像
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在本地和远程存储阵列上停用异步镜像、以重新建立存储阵列上专用端口的正常使用。
+
+.开始之前
+* 您必须已删除所有镜像关系。验证是否已从本地和远程存储阵列中删除所有镜像一致性组和镜像对。
+* 本地存储阵列和远程存储阵列必须通过光纤通道网络结构或iSCSI接口进行连接。
+
+
+停用异步镜像时、本地和远程存储阵列上不会发生镜像活动。
+
+.步骤
+. 选择菜单：Storage[Asynchronous Mirroring]。
+. 选择菜单：不常见任务[停用]。
++
+系统将显示确认信息。
+
+. 选择*是*进行确认。
+
+
+.结果
+* 控制器专用于异步镜像通信的HBA主机通道现在可以接受主机读写请求。
+* 此存储阵列中的所有卷都无法作为主卷或二级卷参与镜像关系。
+

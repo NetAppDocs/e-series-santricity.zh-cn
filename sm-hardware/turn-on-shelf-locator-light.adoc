@@ -1,0 +1,23 @@
+---
+permalink: sm-hardware/turn-on-shelf-locator-light.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
+summary: 要查找硬件页面上显示的磁盘架的物理位置、您可以打开磁盘架的定位灯。 
+---
+= 打开磁盘架定位灯
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要查找硬件页面上显示的磁盘架的物理位置、您可以打开磁盘架的定位灯。
+
+.步骤
+. 选择 * 硬件 * 。
+. 选择控制器架或驱动器架的下拉列表、然后选择*打开定位灯*。
++
+磁盘架的定位灯亮起。
+
+. 在物理定位磁盘架后、返回对话框并选择*关闭*。
+

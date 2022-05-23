@@ -1,0 +1,55 @@
+---
+permalink: sm-support/autosupport-feature-overview.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, autosupport, ASUP 
+summary: AutoSupport 功能可监控存储阵列的运行状况、并向技术支持发送自动派单。 
+---
+= AutoSupport 功能概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 功能可监控存储阵列的运行状况、并向技术支持发送自动派单。
+
+技术支持会主动使用AutoSupport 数据来加快客户问题的诊断和解决速度、并主动检测和避免潜在问题。
+
+AutoSupport 数据包括有关存储阵列的配置、状态、性能和系统事件的信息。AutoSupport 数据不包含任何用户数据。可以立即或按计划(每天和每周)发送派单。
+
+
+
+== 主要优势
+
+AutoSupport 功能的一些主要优势包括：
+
+* 加快案例解决时间
+* 复杂的监控功能、可加快意外事件管理速度
+* 根据计划自动报告、并自动报告关键事件
+* 自动为选定组件(例如驱动器)请求硬件更换
+* 非侵入式警报、用于通知您出现问题并向技术支持提供信息以采取更正措施
+* AutoSupport 分析工具、用于监控派单中是否存在已知配置问题
+
+
+
+
+== 单个AutoSupport 功能
+
+AutoSupport 功能由三个单独启用的功能组成。
+
+* *基本AutoSupport *—允许存储阵列自动收集数据并将其发送给技术支持。
+* * AutoSupport OnDemand *—允许技术支持在对问题描述 进行故障排除时根据需要请求重新传输先前的AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的重新传输请求并做出相应的响应。
+* *远程诊断*—允许技术支持在对问题描述 进行故障排除时根据需要请求新的最新AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的新请求并做出相应的响应。
+
+
+
+
+== AutoSupport 与收集支持数据之间的区别
+
+存储阵列中存在两种收集支持数据的方法：
+
+* * AutoSupport 功能*—自动收集数据。
+* *收集支持数据选项*-必须手动收集和发送数据。
+
+
+AutoSupport 功能更易于使用、因为数据会自动收集和发送。可以主动使用AutoSupport 数据、防止出现问题。AutoSupport 功能可以加快故障排除速度、因为技术支持已经可以访问数据。因此、AutoSupport 功能是首选的数据收集方法。

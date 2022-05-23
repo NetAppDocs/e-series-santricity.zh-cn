@@ -1,0 +1,59 @@
+---
+permalink: sm-storage/re-create-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume 
+summary: 您可以重新创建先前禁用的快照卷或快照一致性组快照卷。与创建新快照卷相比、重新创建快照卷所需时间更短。 
+---
+= 重新创建Snapshot卷
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以重新创建先前禁用的快照卷或快照一致性组快照卷。与创建新快照卷相比、重新创建快照卷所需时间更短。
+
+.开始之前
+* 快照卷必须处于最佳或已禁用状态。
+* 在重新创建快照一致性组快照卷之前、所有成员快照卷都必须处于已禁用状态。
+
+
+您不能重新创建单个成员快照卷；只能重新创建整体快照一致性组快照卷。
+
+[NOTE]
+====
+如果快照卷或快照一致性组快照卷属于联机副本关系、则无法对卷执行重新创建选项。
+
+====
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 选择* Snapshot Volumes*选项卡。
++
+此时将显示Snapshot Volumes表、其中显示了与存储阵列关联的所有Snapshot卷。
+
+. 选择要重新创建的快照卷、然后选择菜单：uncommon Tasks[重新创建]。
++
+此时将显示重新创建Snapshot卷对话框。
+
+. 选择以下选项之一：
++
+** *从卷<name>*创建的现有快照映像
++
+选择此选项可指示要从中重新创建快照卷的现有快照映像。
+
+** *卷<name>*的新(即时)快照映像
++
+选择此选项可创建新的快照映像、以便从中重新创建快照卷。
+
+
+
+. 单击*重新创建*。
+
+
+System Manager将执行以下操作：
+
+* 删除任何关联Snapshot存储库卷上的所有`write`数据。
+* Snapshot卷或Snapshot一致性组Snapshot卷参数与先前禁用的卷参数保持不变。
+* 保留快照卷或快照一致性组快照卷的原始名称。
+

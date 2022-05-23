@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/set-default-time-frame-for-performance-graphs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, time, graphs 
+summary: 您可以更改性能图显示的默认时间范围。 
+---
+= 设置性能图形的默认时间范围
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更改性能图显示的默认时间范围。
+
+主页页面和性能页面上显示的性能图最初显示的时间范围为1小时。首选项存储在浏览器的本地存储中、因此所有用户都可以拥有自己的设置。
+
+.步骤
+. 选择菜单：首选项[设置首选项]。
+. 在下拉列表中、选择* 5分钟*、* 1小时*、* 8小时*、* 1天*或* 7天*、 并确认要执行此操作。
+

@@ -1,0 +1,30 @@
+---
+permalink: sm-support/disable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
+summary: 禁用AutoSupport 维护窗口以允许在发生错误事件时自动创建服务单。禁用AutoSupport 维护窗口后、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。 
+---
+= 禁用AutoSupport 维护窗口
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+禁用AutoSupport 维护窗口以允许在发生错误事件时自动创建服务单。禁用AutoSupport 维护窗口后、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。
+
+.步骤
+. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 选择*禁用AutoSupport 维护窗口*。
+. 输入电子邮件地址、以确认已处理禁用维护窗口请求。
++
+根据您的配置、您最多可以输入五个电子邮件地址。如果要添加多个地址、请选择*添加其他电子邮件*以打开另一个字段。
+
+. 单击 * 是 * 。
++
+已启用错误事件的AutoSupport 自动服务单创建。
+
+
+
+只有在AutoSupport 服务器处理存储阵列的请求之后、维护窗口才会结束。请等待您收到确认电子邮件、然后再继续操作。

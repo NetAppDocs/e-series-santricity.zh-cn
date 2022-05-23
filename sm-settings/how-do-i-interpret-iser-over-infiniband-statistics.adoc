@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, interpret, iser, over, infiniband, statistics, 
+summary: '查看基于InfiniBand的iSER统计信息对话框可显示本地目标(协议)统计信息和基于InfiniBand的iSER (IB)接口统计信息。所有统计信息均为只读、无法设置。' 
+---
+= 如何解读基于InfiniBand统计信息的iSER？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+查看基于InfiniBand的iSER统计信息对话框可显示本地目标(协议)统计信息和基于InfiniBand的iSER (IB)接口统计信息。所有统计信息均为只读、无法设置。
+
+* *本地目标(协议)统计信息*—提供基于InfiniBand的iSER目标的统计信息、其中显示了对其存储介质的块级访问。
+* * iSER over InfiniBand Interface statistics*—提供InfiniBand接口上所有基于InfiniBand端口的iSER的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。
+
+
+您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。原始统计信息是自控制器启动以来收集的所有统计信息。基线统计信息是自设置基线时间以来收集的时间点统计信息。

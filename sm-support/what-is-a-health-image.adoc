@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-a-health-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, health, images, controller, memory, processor 
+summary: 运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。 
+---
+= 什么是运行状况映像？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。
+
+固件在检测到某些错误时会自动生成运行状况映像。在某些故障排除情形下、技术支持可能会要求您检索运行状况映像文件并将其发送给它们。

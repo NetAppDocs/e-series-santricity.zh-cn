@@ -1,0 +1,53 @@
+---
+permalink: sm-settings/configure-snmp-mib-variables.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables, 
+summary: '对于SNMP警报、您可以选择配置SNMP陷阱中显示的管理信息库(Management Information Base、MIB)变量。这些变量可以返回存储阵列名称、阵列位置和联系人。' 
+---
+= 配置SNMP MIB变量
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于SNMP警报、您可以选择配置SNMP陷阱中显示的管理信息库(Management Information Base、MIB)变量。这些变量可以返回存储阵列名称、阵列位置和联系人。
+
+必须使用SNMP服务应用程序在服务器上复制和编译MIB文件。
+
+如果您没有MIB文件、可以按如下所示获取它：
+
+* 转至 https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"^]。
+* 单击*下载*、然后选择*下载*。
+* 单击* E系列SANtricity 操作系统控制器软件*。
+* 选择*下载最新版本*。
+* 登录。
+* 接受警告声明和许可协议。
+* 向下滚动、直到看到您的控制器类型对应的MIB文件、然后单击链接以下载此文件。
+
+
+此任务介绍如何为SNMP陷阱定义MIB变量。这些变量可返回以下值以响应SNMP GetRequests：
+
+* `sysName`(存储阵列的名称)
+* `sysLocation`(存储阵列的位置)
+* `sysContact`(管理员姓名)
+
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择* SNMP *选项卡。
+. 选择*配置SNMP MIB变量*。
++
+此时将打开配置SNMP MIB变量对话框。
+
+. 输入以下一个或多个值、然后单击*保存*。
++
+** *名称*- MIB变量`sysName`的值。例如、输入存储阵列的名称。
+** *位置*- MIB变量`sysLocation`的值。例如、输入存储阵列的位置。
+** *联系人*- MIB变量`sysContact`的值。例如、输入负责存储阵列的管理员。
+
+
+
+
+这些值显示在存储阵列警报的SNMP陷阱消息中。

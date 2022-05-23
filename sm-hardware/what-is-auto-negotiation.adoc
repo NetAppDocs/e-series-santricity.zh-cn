@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/what-is-auto-negotiation.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, auto, negotiation, network, interface, 
+summary: '自动协商是指网络接口能够自动将其自身的连接参数(速度和双工)与另一个网络接口进行协调。' 
+---
+= 什么是自动协商？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+自动协商是指网络接口能够自动将其自身的连接参数(速度和双工)与另一个网络接口进行协调。
+
+自动协商通常是配置管理端口的首选设置；但是、如果协商失败、不匹配的网络接口设置可能会严重影响网络性能。如果这种情况不可接受、您应手动将网络接口设置为正确的配置。自动协商由控制器的以太网管理端口执行。iSCSI主机总线适配器不会执行自动协商。
+
+[NOTE]
+====
+如果自动协商失败、控制器将尝试在10BASE-T半双工位置建立连接、这是最低的通用分母。
+
+====

@@ -1,0 +1,39 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mirror, consistency, group, 
+summary: 在创建镜像一致性组之前、请遵循以下准则。 
+---
+= 在创建镜像一致性组之前、我需要了解哪些信息？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在创建镜像一致性组之前、请遵循以下准则。
+
+[NOTE]
+====
+EF600或EF300存储系统不支持此功能。
+
+====
+您可以在Unified Manager中的创建镜像对向导中创建一致性组。
+
+满足以下Unified Manager要求：
+
+* Web服务代理服务必须正在运行。
+* Unified Manager必须通过HTTPS连接在本地主机上运行。
+* Unified Manager必须显示存储阵列的有效SSL证书。您可以使用Unified Manager接受自签名证书或安装自己的安全证书、并导航到菜单：Certificate[证书管理]。
+
+
+此外、请确保满足以下存储阵列要求：
+
+* 必须在Unified Manager中发现这两个存储阵列。
+* 每个存储阵列必须具有两个控制器。
+* 主阵列和二级阵列中的每个控制器都必须配置一个以太网管理端口、并且必须连接到您的网络。
+* 存储阵列的最低固件版本为7.84。(它们可以分别运行不同的操作系统版本。)
+* 您必须知道本地和远程存储阵列的密码。
+* 本地和远程存储阵列通过光纤通道网络结构或iSCSI接口进行连接。
+

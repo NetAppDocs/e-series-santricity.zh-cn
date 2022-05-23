@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/edit-key-management-server-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings, 
+summary: 如果您配置了外部密钥管理、则可以随时查看和编辑密钥管理服务器设置。 
+---
+= 编辑密钥管理服务器设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您配置了外部密钥管理、则可以随时查看和编辑密钥管理服务器设置。
+
+.步骤
+. 选择菜单：设置[系统]。
+. 在*安全密钥管理*下、选择*查看/编辑密钥管理服务器设置*。
+. 编辑以下字段中的信息：
++
+** *密钥管理服务器地址*—输入用于密钥管理的服务器的完全限定域名或IP地址(IPv4或IPv6)。
+** *密钥管理端口号*-输入用于密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)通信的端口号。
++
+*可选：*您可以通过单击*添加密钥服务器*来包括另一个密钥服务器。
+
+
+
+. 单击 * 保存 * 。
+

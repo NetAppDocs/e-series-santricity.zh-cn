@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume, groups 
+summary: 池与卷组类似、但存在以下差异。 
+---
+= 池和卷组之间有何区别？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+池与卷组类似、但存在以下差异。
+
+* 池中的数据随机存储在池中的所有驱动器上、而卷组中的数据则存储在同一组驱动器上。
+* 驱动器发生故障时、池的性能下降较小、重建所需时间也较短。
+* 池具有内置的保留容量、因此不需要专用的热备用驱动器。
+* 池允许对大量驱动器进行分组。
+* 池不需要指定的RAID级别。
+

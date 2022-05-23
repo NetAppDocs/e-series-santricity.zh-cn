@@ -1,0 +1,49 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, enabling, SAML, 
+summary: '在配置和启用安全断言标记语言(SAML)身份验证功能之前、请确保满足以下要求并了解SAML限制。' 
+---
+= 在配置和启用SAML之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在配置和启用安全断言标记语言(SAML)身份验证功能之前、请确保满足以下要求并了解SAML限制。
+
+
+
+== 要求
+
+开始之前、请确保：
+
+* 已在网络中配置身份提供程序(Identity Provider、IdP)。IdP是一种外部系统、用于向用户请求凭据并确定用户是否已成功通过身份验证。您的安全团队负责维护IdP。
+* IdP管理员已在IdP系统中配置用户属性和组。
+* IdP管理员已确保IdP支持在身份验证时返回名称ID。
+* 管理员已确保IdP服务器和控制器时钟保持同步(通过NTP服务器或通过调整控制器时钟设置)。
+* IdP元数据文件从IdP系统下载、并可从用于访问System Manager的本地系统上获得。
+* 您知道存储阵列中每个控制器的IP地址或域名。
+
+
+
+
+== 限制
+
+除了上述要求之外、请确保您了解以下限制：
+
+* 启用SAML后、您无法通过用户界面将其禁用、也无法编辑IdP设置。如果需要禁用或编辑SAML配置、请联系技术支持以获得帮助。建议您先测试SSO登录、然后再在最终配置步骤中启用SAML。(系统还会在启用SAML之前执行SSO登录测试。)
+* 如果您将来禁用SAML、则系统会自动还原先前的配置(本地用户角色和/或目录服务)。
+* 如果当前已为用户身份验证配置目录服务、则SAML将覆盖此配置。
+* 配置SAML后、以下客户端将无法访问存储阵列资源：
++
+** 企业管理窗口(EMW)
+** 命令行界面（ CLI ）
+** 软件开发人员套件(SDK)客户端
+** 带内客户端
+** HTTP基本身份验证REST API客户端
+** 使用标准REST API端点登录
+
+
+

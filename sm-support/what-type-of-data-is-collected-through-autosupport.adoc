@@ -1,0 +1,42 @@
+---
+permalink: sm-support/what-type-of-data-is-collected-through-autosupport.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collected, autosupport, ASUP 
+summary: AutoSupport 功能包含三种标准派单类型：事件派单、计划派单以及按需和远程诊断派单。 
+---
+= 通过AutoSupport 功能收集哪种类型的数据？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 功能包含三种标准派单类型：事件派单、计划派单以及按需和远程诊断派单。
+
+AutoSupport 数据不包含任何用户数据。
+
+* *事件派单*
++
+如果系统上发生需要主动通知技术支持的事件、则AutoSupport 功能会自动发送事件触发的派单。
+
++
+** 受管存储阵列上发生支持事件时发送。
+** 包括有关事件发生时存储阵列所发生情况的全面快照。
+
+
+* *计划内派单*
++
+AutoSupport 功能会定期自动发送多个派单。
+
++
+** *每日派单*—在用户可配置的时间间隔内每天发送一次。包括当前系统事件日志和性能数据。
+** *每周派单*—在用户可配置的时间间隔和日期内每周发送一次。包括配置和系统状态信息。
+
+
+* * AutoSupport OnDemand和远程诊断派单*
++
+** * AutoSupport OnDemand *—允许技术支持在对问题描述 进行故障排除时根据需要请求重新传输先前的AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的重新传输请求并做出相应的响应。
+** *远程诊断*—允许技术支持在对问题描述 进行故障排除时根据需要请求新的最新AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的新请求并做出相应的响应。
+
+
+

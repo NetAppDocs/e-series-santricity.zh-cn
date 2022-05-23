@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, timestamps, inconsistent, array, alerts, 
+summary: '存储阵列发送警报时、接收警报的目标服务器或主机的时区不正确。相反、存储阵列会使用本地时间(GMT)创建用于警报记录的时间戳。因此、您可能会看到存储阵列的时间戳与接收警报的服务器或主机之间不一致。' 
+---
+= 阵列和警报之间的时间戳为何不一致？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存储阵列发送警报时、接收警报的目标服务器或主机的时区不正确。相反、存储阵列会使用本地时间(GMT)创建用于警报记录的时间戳。因此、您可能会看到存储阵列的时间戳与接收警报的服务器或主机之间不一致。
+
+由于在发送警报时存储阵列的时区不正确、因此警报上的时间戳是与GMT相关的、其时区偏移为零。要计算适合您当地时区的时间戳、您应确定GMT的小时偏移量、然后在时间戳中添加或减去该值。
+
+[NOTE]
+====
+要避免此问题描述 、请在存储阵列控制器上配置网络时间协议(NTP)。NTP可确保控制器始终同步到正确的时间。
+
+====

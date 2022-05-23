@@ -1,0 +1,46 @@
+---
+permalink: sm-settings/access-management-with-directory-services.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, directory services, 
+summary: '对于访问管理、管理员可以使用LDAP (轻型目录访问协议)服务器和目录服务、例如Microsoft的Active Directory。' 
+---
+= 使用目录服务进行访问管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于访问管理、管理员可以使用LDAP (轻型目录访问协议)服务器和目录服务、例如Microsoft的Active Directory。
+
+
+
+== 配置工作流
+
+如果在网络中使用LDAP服务器和目录服务、则配置的工作原理如下：
+
+. 管理员使用具有安全管理员权限的用户配置文件登录到System Manager。
++
+[NOTE]
+====
+`admin`用户可以完全访问系统中的所有功能。
+
+====
+. 管理员输入LDAP服务器的配置设置。设置包括域名、URL和绑定帐户信息。
+. 如果LDAP服务器使用安全协议(LDAPS)、则管理员将上传证书颁发机构(CA)证书链、以便在LDAP服务器和存储阵列之间进行身份验证。
+. 建立服务器连接后、管理员会将用户组映射到存储阵列的角色。这些角色是预定义的、无法修改。
+. 管理员测试LDAP服务器与存储阵列之间的连接。
+. 用户使用其分配的LDAP/Directory服务凭据登录到系统。
+
+
+
+
+== 管理
+
+使用目录服务进行身份验证时、管理员可以执行以下管理任务：
+
+* 添加目录服务器。
+* 编辑目录服务器设置。
+* 将LDAP用户映射到本地用户角色。
+* 删除目录服务器。
+

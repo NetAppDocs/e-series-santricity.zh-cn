@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/manage-application-workloads.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, applications, workloads 
+summary: 您可以管理应用程序和工作负载以查看存储阵列上按工作负载名称和应用程序类型分组的所有现有卷。您还可以向现有或新工作负载添加卷、更改现有工作负载的设置以及创建新卷和工作负载。 
+---
+= 管理应用程序和工作负载
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以管理应用程序和工作负载以查看存储阵列上按工作负载名称和应用程序类型分组的所有现有卷。您还可以向现有或新工作负载添加卷、更改现有工作负载的设置以及创建新卷和工作负载。

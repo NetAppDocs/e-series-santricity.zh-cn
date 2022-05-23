@@ -1,0 +1,30 @@
+---
+permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, creating, mirrored, pair 
+summary: 创建镜像对之前、请遵循以下准则。 
+---
+= 在创建镜像对之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+创建镜像对之前、请遵循以下准则。
+
+* 您必须有两个存储阵列。
+* 每个存储阵列必须具有两个控制器。
+* 必须在Unified Manager中发现这两个存储阵列。
+* 主阵列和二级阵列中的每个控制器都必须配置一个以太网管理端口、并且必须连接到您的网络。
+* 存储阵列的最低固件版本为7.84。(它们可以分别运行不同的操作系统版本。)
+* 您必须知道本地和远程存储阵列的密码。
+* 您必须在远程存储阵列上具有足够的可用容量、才能创建一个等于或大于要镜像的主卷的二级卷。
+* 具有光纤通道(FC)或iSCSI主机端口的控制器支持异步镜像、而只有具有FC主机端口的控制器才支持同步镜像。
+
+
+[NOTE]
+====
+EF600或EF300存储系统不支持此功能。
+
+====

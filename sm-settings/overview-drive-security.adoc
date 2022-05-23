@@ -1,0 +1,64 @@
+---
+permalink: sm-settings/overview-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system, security, key, management, 
+summary: 可从系统页面访问安全密钥管理。 
+---
+= 驱动器安全性概述
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从安全密钥管理页面配置驱动器安全性和密钥管理。
+
+
+
+== 什么是驱动器安全性？
+
+_Drive Security_是一项功能、可防止在从存储阵列中删除启用了安全功能的驱动器上的数据时未经授权进行访问。这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。从阵列中物理删除FDE或FIPS驱动器后、这些驱动器将无法运行、除非将其安装在另一个阵列中、此时、这些驱动器将处于安全锁定状态、直到提供正确的安全密钥为止。安全密钥_是指此类驱动器与存储阵列中的控制器之间共享的字符串。
+
+了解更多信息。
+
+* link:how-the-drive-security-feature-works.html["驱动器安全功能的工作原理"]
+* link:how-security-key-management-works.html["安全密钥管理的工作原理"]
+* link:drive-security-terminology.html["驱动器安全术语"]
+
+
+
+
+== 如何配置密钥管理？
+
+要实施驱动器安全性、阵列中必须安装FDE驱动器或FIPS驱动器。要为这些驱动器配置密钥管理、请转到菜单：设置[系统>安全密钥管理]、在此可以从控制器的永久性内存创建内部密钥、也可以从密钥管理服务器创建外部密钥。最后、您可以通过在卷设置中选择"安全功能"来为池和卷组启用驱动器安全性。
+
+了解更多信息。
+
+* link:create-internal-security-key.html["创建内部安全密钥"]
+* link:create-external-security-key.html["创建外部安全密钥"]
+* link:../sm-storage/create-pool-manually.html["手动创建池"]
+* link:../sm-storage/create-volume-group.html["创建卷组"]
+
+
+
+
+== 如何解锁驱动器？
+
+如果您配置了密钥管理、然后将启用了安全保护的驱动器从一个存储阵列移动到另一个存储阵列、则必须将安全密钥重新分配给新存储阵列、才能访问驱动器上的加密数据。
+
+了解更多信息。
+
+* link:unlock-drives-using-an-internal-security-key.html["使用内部密钥管理时解锁驱动器"]
+* link:unlock-drives-using-an-external-security-key.html["使用外部密钥管理时解锁驱动器"]
+
+
+
+
+== 相关信息
+
+详细了解与密钥管理相关的任务：
+
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["使用CA签名的证书通过密钥管理服务器进行身份验证"]
+* link:back-up-security-key.html["备份安全密钥"]
+

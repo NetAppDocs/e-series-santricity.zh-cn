@@ -1,0 +1,16 @@
+---
+permalink: sm-support/workflow-for-controller-software-and-firmware-upgrade.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, controller, software, firmware upgrade 
+summary: 在SANtricity 系统管理器中、您可以按照以下步骤升级控制器软件和固件。 
+---
+= 控制器软件和固件升级工作流
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在SANtricity 系统管理器中、您可以按照以下步骤升级控制器软件和固件。
+
+image::../media/sam1130-flw-firmware-upgrade.gif[sam1130 FLW固件升级]

@@ -1,0 +1,20 @@
+---
+permalink: um-manage/why-would-i-change-this-percentage-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, change, percentage 
+summary: '对于异步镜像操作、预留容量通常为基础卷的20%。通常、此容量足以满足要求。' 
+---
+= 为什么要更改此百分比？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于异步镜像操作、预留容量通常为基础卷的20%。通常、此容量足以满足要求。
+
+所需容量因向基础卷写入I/O的频率和大小以及要使用存储对象的副本服务操作的时间而异。通常、如果存在以下一种或两种情况、请选择较大的预留容量百分比：
+
+* 如果特定存储对象的复制服务操作的生命周期很长。
+* 如果由于I/O活动繁重而导致基础卷上的大量数据块发生更改、使用历史性能数据或其他操作系统实用程序帮助您确定基础卷的典型I/O活动。
+

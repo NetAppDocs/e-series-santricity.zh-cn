@@ -1,0 +1,24 @@
+---
+permalink: um-manage/launch-considerations.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
+summary: 如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。 
+---
+= 访问System Manager的注意事项
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用Launch选项打开System Manager。
+
+System Manager是控制器上的嵌入式应用程序、它通过以太网管理端口连接到网络。它包括所有基于阵列的功能。
+
+要访问System Manager、您必须具备：
+
+* 此处列出的阵列型号之一： link:https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html["E 系列硬件概述"^]
+* 使用Web浏览器与网络管理客户端的带外连接。
+
+
+image::../media/single2800.gif[单个2800]

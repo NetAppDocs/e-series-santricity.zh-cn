@@ -1,0 +1,31 @@
+---
+permalink: sm-hardware/place-controller-online.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, place, controller, online 
+summary: 如果控制器处于脱机状态或服务模式、您可以将其重新联机。 
+---
+= 将控制器置于联机状态
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果控制器处于脱机状态或服务模式、您可以将其重新联机。
+
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了驱动器，请单击 * 显示磁盘架背面 * 。
++
+此图将发生变化，以显示控制器，而不是驱动器。
+
+. 单击处于脱机状态或服务模式的控制器。
++
+此时将显示控制器的上下文菜单。
+
+. 选择*置于联机状态*、然后确认要执行此操作。
+
+
+多路径驱动程序检测到已还原的首选路径可能需要长达10分钟的时间。
+
+在收到每个卷的I/O请求时、最初由该控制器拥有的任何卷都会自动移回控制器。在某些情况下、您可能需要使用*重新分布卷*命令手动重新分布卷。

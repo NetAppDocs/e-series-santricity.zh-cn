@@ -1,0 +1,41 @@
+---
+indexpage:
+  tiles:
+  - title: 设置
+    links:
+    - title: Unified Manager界面概述
+      url: "../um-admin/overview-interface-unified.html"
+    - title: 设置管理员密码
+      url: "../um-admin/administrator-password-protection-unified.html"
+  - title: 发现阵列
+    links:
+    - title: 发现注意事项
+      url: "../um-manage/considerations-for-discovering-arrays.html"
+    - title: 单个阵列
+      url: "../um-manage/discover-single-array.html"
+    - title: 多个阵列
+      url: "../um-manage/discover-multiple-arrays.html"
+  - title: 管理阵列
+    links:
+    - title: 存储阵列组
+      url: "../um-manage/overview-manage-groups.html"
+    - title: 存储阵列状态
+      url: "../um-manage/storage-array-status.html"
+    - title: 升级软件
+      url: "../um-manage/upgrade-controller-firmware.html"
+  - title: 管理访问
+    links:
+    - title: 用户访问
+      url: "../um-certificates/how-access-management-works-unified.html"
+    - title: 证书
+      url: "../um-certificates/how-certificates-work-unified.html"
+    - title: 目录服务
+      url: "../um-certificates/access-management-with-directory-services-unified.html"
+  - title: 管理设置
+    links:
+    - title: 导入设置
+      url: "../um-manage/how-import-settings-works.html"
+    - title: 更改密码设置
+      url: "../um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: 更改目录服务器设置
+      url: "../um-certificates/edit-directory-server-settings-unified.html"

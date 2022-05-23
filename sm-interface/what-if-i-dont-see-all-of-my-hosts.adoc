@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/what-if-i-dont-see-all-of-my-hosts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host detection 
+summary: 如果未看到已连接的主机、则自动检测失败、主机连接不正确或当前未连接任何主机。 
+---
+= 如果我看不到所有主机、该怎么办？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果未看到已连接的主机、则自动检测失败、主机连接不正确或当前未连接任何主机。
+
+完成设置后、您可以稍后配置主机。您可以按如下所示自动或手动创建主机：
+
+* 如果您在主机上安装了主机上下文代理(Host Context Agent、HCA)、则HCA会将主机配置信息推送到存储阵列。System Manager会自动配置这些主机、并在初始设置向导中显示这些主机。(HCA不适用于基于网络结构的NVMe主机。)
+* 您可以转到菜单：Storage[Hosts]手动创建主机并关联相应的主机端口标识符。手动创建的主机也会显示在*初始设置*向导中。
+* 必须为目标和主机配置主机端口类型(例如、iSCSI或基于RoCE的NVMe)、并且在自动检测之前与存储建立的会话将起作用。
+

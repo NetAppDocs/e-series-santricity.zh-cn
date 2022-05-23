@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
+summary: '如果要读取或写入快照数据、您可以创建快照卷并将其分配给主机。快照卷与基础卷具有相同的特征(RAID级别、I/O特性等)。' 
+---
+= Snapshot卷
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要读取或写入快照数据、您可以创建快照卷并将其分配给主机。快照卷与基础卷具有相同的特征(RAID级别、I/O特性等)。
+
+创建快照卷时、您可以将其指定为_read-onl_y或_read-write accessible_。
+
+创建只读Snapshot卷时、不需要添加预留容量。创建读写Snapshot卷时、必须添加预留容量以提供写入访问。
+
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[sam1130 dwg snapshots volumes概述]
+
+^1^基本卷；^2^主机；^3^只读快照卷；^4^读写快照卷；^5^预留容量

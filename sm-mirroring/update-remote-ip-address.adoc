@@ -1,0 +1,32 @@
+---
+permalink: sm-mirroring/update-remote-ip-address.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, connection, 
+summary: 您可以更新远程存储阵列的iSCSI IP地址、以重新与本地存储阵列建立连接。 
+---
+= 更新远程IP地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以更新远程存储阵列的iSCSI IP地址、以重新与本地存储阵列建立连接。
+
+必须使用iSCSI连接为本地存储阵列和远程存储阵列配置异步镜像。
+
+.步骤
+. 选择菜单：Storage[Asynchronous Mirroring]。
+. 选择*镜像一致性组*选项卡。
++
+镜像一致性组表显示与存储阵列关联的所有镜像一致性组。
+
+. 选择要更新的镜像一致性组、然后选择菜单：更多[更新远程IP地址]。
++
+系统将显示更新远程IP地址对话框。
+
+. 选择*更新*以更新远程存储阵列的iSCSI IP地址。
+
+
+系统会重置远程存储阵列的IP地址、以便重新与本地存储阵列建立连接。

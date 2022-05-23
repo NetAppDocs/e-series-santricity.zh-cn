@@ -1,0 +1,19 @@
+---
+permalink: sm-support/what-do-the-autosupport-features-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, autosupport features, ASUP 
+summary: AutoSupport 功能由三个单独启用的功能组成。 
+---
+= AutoSupport 功能的作用是什么？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 功能由三个单独启用的功能组成。
+
+* *基本AutoSupport *—允许存储阵列自动收集数据并将其发送给技术支持。
+* * AutoSupport OnDemand *—允许技术支持在对问题描述 进行故障排除时根据需要请求重新传输先前的AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的重新传输请求并做出相应的响应。
+* *远程诊断*—允许技术支持在对问题描述 进行故障排除时根据需要请求新的最新AutoSupport 派单。所有传输均从存储阵列启动、而不是从AutoSupport 服务器启动。存储阵列会定期与AutoSupport 服务器进行检查、以确定是否存在任何待处理的新请求并做出相应的响应。
+

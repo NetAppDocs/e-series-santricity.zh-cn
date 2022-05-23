@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, member, volume 
+summary: 快照一致性组中的每个成员卷都必须有自己的预留容量、才能将主机应用程序所做的任何修改保存到基础卷、而不会影响引用的一致性组快照映像。通过预留容量、主机应用程序可以对成员卷中指定为读写的数据副本进行写入访问。 
+---
+= 为什么需要为每个成员卷预留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+快照一致性组中的每个成员卷都必须有自己的预留容量、才能将主机应用程序所做的任何修改保存到基础卷、而不会影响引用的一致性组快照映像。通过预留容量、主机应用程序可以对成员卷中指定为读写的数据副本进行写入访问。
+
+主机无法直接读取或写入一致性组快照映像。而是使用快照映像仅保存从基础卷捕获的数据。
+
+在创建指定为读写的一致性组快照卷期间、System Manager会为一致性组中的每个成员卷创建一个预留容量。通过此预留容量、主机应用程序可以对一致性组快照映像中所含数据的副本进行写入访问。

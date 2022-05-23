@@ -1,0 +1,41 @@
+---
+permalink: sm-interface/recover-from-problems-using-recovery-guru.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Recovery Guru 
+summary: Recovery Guru是System Manager的一个组件、用于诊断存储阵列问题并建议恢复过程以修复问题。 
+---
+= 使用Recovery Guru从问题中恢复
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Recovery Guru是System Manager的一个组件、用于诊断存储阵列问题并建议恢复过程以修复问题。
+
+.步骤
+. 选择*主页*。
+. 单击窗口中央顶部标记为*从_n_问题恢复*的链接。
++
+此时将显示Recovery Guru对话框。
+
+. 选择摘要列表中显示的第一个问题、然后按照恢复操作步骤 中的说明更正此问题。如有必要、请按照更换说明更换出现故障的组件。对列出的每个问题重复此步骤。
++
+一个存储阵列中的多个问题可能是相关的。在这种情况下、更正问题的顺序可能会影响结果。按问题在摘要列表中的列出顺序选择并更正问题。
+
++
+一个电源箱的多个故障会分组在一起、并作为一个问题列在摘要列表中。风扇箱的多个故障也列为一个问题。
+
+. 要确保恢复操作步骤 成功、请单击*重新检查*。
++
+如果您为异步镜像组或异步镜像组的成员选择了问题、请先单击*清除*以从控制器中清除故障、然后单击*重新检查*以从Recovery Guru中删除此事件。
+
++
+如果所有问题均已解决、则存储阵列图标最终会从需要注意过渡到最佳状态。对于某些问题、在执行重建等操作时会显示一个修复图标。
+
+. *可选：*要将Recovery Guru信息保存到文件中、请单击*保存*图标。
++
+此文件将保存在浏览器的"Downloads"文件夹中、其名称为`recovery-guru -failure-yyyy-mm-dd-hh-mm-ss-mmm.html`。
+
+. 要打印Recovery Guru信息、请单击*打印*图标。
+

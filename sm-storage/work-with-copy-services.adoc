@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/work-with-copy-services.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, services 
+summary: 您可以使用复制服务复制卷并对卷执行其他操作。 
+---
+= 使用复制服务
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用复制服务复制卷并对卷执行其他操作。

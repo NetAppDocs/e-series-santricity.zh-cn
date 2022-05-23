@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/what-is-a-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, server, configuration, protocol, 
+summary: '动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)是一种可自动执行Internet协议(IP)地址分配任务的协议。' 
+---
+= 什么是DHCP服务器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)是一种可自动执行Internet协议(IP)地址分配任务的协议。
+
+必须为连接到TCP/IP网络的每个设备分配一个唯一的IP地址。这些设备包括存储阵列中的控制器。
+
+如果没有DHCP、网络管理员可以手动输入这些IP地址。使用DHCP时、当客户端需要启动TCP/IP操作时、客户端会广播地址信息请求。DHCP服务器接收请求、在称为租赁期的指定时间段内分配新地址、并将该地址发送给客户端。使用DHCP时、设备每次连接到网络时都可以具有不同的IP地址。在某些系统中、即使设备仍处于连接状态、设备的IP地址也会发生更改。

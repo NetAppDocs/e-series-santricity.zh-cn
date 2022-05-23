@@ -1,0 +1,34 @@
+---
+permalink: sm-support/overview-support.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, support, center 
+summary: 使用支持中心执行技术支持可能请求的诊断、恢复和信息收集操作。 
+---
+= 支持概述
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过支持页面可以访问技术支持资源。
+
+
+
+== 有哪些支持任务可用？
+
+在支持中、您可以查看技术支持联系人、执行诊断、配置AutoSupport 、查看事件日志以及执行软件升级。
+
+了解更多信息。
+
+* link:autosupport-feature-overview.html["AutoSupport 功能概述"]
+* link:overview-event-log.html["事件日志概述"]
+* link:overview-upgrade-center.html["升级中心概述"]
+
+
+
+
+== 如何联系技术支持？
+
+在主页中、单击菜单：Support[支持中心>支持资源选项卡]。技术支持联系信息列在界面的右上角。

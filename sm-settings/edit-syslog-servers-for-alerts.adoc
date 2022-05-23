@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/edit-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, syslog, servers, alerts, 
+summary: 您可以编辑用于接收系统日志警报的服务器地址。 
+---
+= 编辑系统日志服务器中的警报
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以编辑用于接收系统日志警报的服务器地址。
+
+.步骤
+. 选择菜单：设置[警报]。
+. 选择*系统日志*选项卡。
+. 从表中选择系统日志服务器地址、然后单击最右侧的*编辑*(铅笔)图标。
++
+该行将变为可编辑字段。
+
+. 编辑服务器地址和UDP端口号、然后单击*保存*(复选标记)图标。
+
+
+更新后的服务器地址将显示在表中。

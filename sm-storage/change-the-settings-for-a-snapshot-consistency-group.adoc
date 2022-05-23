@@ -1,0 +1,79 @@
+---
+permalink: sm-storage/change-the-settings-for-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, settings, snapshot, consistency group 
+summary: 如果要更改快照一致性组的名称、自动删除设置或允许的最大快照映像数、请更改该组的设置。 
+---
+= 更改快照一致性组的设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要更改快照一致性组的名称、自动删除设置或允许的最大快照映像数、请更改该组的设置。
+
+.步骤
+. 选择菜单：Storage[Snapshots]。
+. 单击* Snapshot一致性组*选项卡。
+. 选择要编辑的快照一致性组、然后单击*查看/编辑设置*。
++
+此时将显示Snapshot一致性组设置对话框。
+
+. 根据需要更改快照一致性组的设置。
++
+.字段详细信息
+====
+[cols="25h,~"]
+|===
+| 正在设置 ... | Description 
+
+
+ a| 
+* Snapshot一致性组设置*
+
+
+
+ a| 
+Name
+ a| 
+您可以更改快照一致性组的名称。
+
+
+
+ a| 
+自动删除
+ a| 
+如果要在指定限制后自动删除快照映像、请保持选中此复选框；使用spinner框更改此限制。如果清除此复选框、则在创建32个映像后将停止创建快照映像。
+
+
+
+ a| 
+Snapshot映像限制
+ a| 
+您可以更改快照组允许的最大快照映像数。
+
+
+
+ a| 
+Snapshot计划
+ a| 
+此字段指示计划是否与快照一致性组关联。
+
+
+
+ a| 
+*关联对象*
+
+
+
+ a| 
+成员卷
+ a| 
+您可以查看与快照一致性组关联的成员卷数量。
+
+|===
+====
+. 单击 * 保存 * 。
+

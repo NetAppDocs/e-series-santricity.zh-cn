@@ -1,0 +1,33 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mapping, storage, array, roles 
+summary: 在将组映射到角色之前、请查看相关准则。 
+---
+= 关于映射到存储阵列角色、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在将组映射到角色之前、请查看相关准则。
+
+RBAC (基于角色的访问控制)功能包括以下角色：
+
+* *存储管理*—对阵列上的存储对象具有完全读/写访问权限、但无法访问安全配置。
+* *安全管理*—访问访问管理和证书管理中的安全配置。
+* *支持管理*—访问存储阵列上的所有硬件资源、故障数据和MEL事件。无法访问存储对象或安全配置。
+* *监控*—对所有存储对象的只读访问、但无法访问安全配置。
+
+
+[NOTE]
+====
+包括管理员在内的所有用户都需要"监控"角色。
+
+====
+如果您使用的是LDAP (轻型目录访问协议)服务器和目录服务、请确保：
+
+* 管理员已在目录服务中定义用户组。
+* 您知道LDAP用户组的组域名。
+

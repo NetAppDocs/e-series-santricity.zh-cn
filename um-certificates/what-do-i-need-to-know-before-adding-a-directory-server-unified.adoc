@@ -1,0 +1,19 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, adding, directory, server 
+summary: 在Access Management中添加目录服务器之前、您必须满足特定要求。 
+---
+= 在添加目录服务器之前、我需要了解哪些信息？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在Access Management中添加目录服务器之前、您必须满足特定要求。
+
+* 必须在目录服务中定义用户组。
+* LDAP服务器凭据必须可用、包括域名、服务器URL以及可选的绑定帐户用户名和密码。
+* 对于使用安全协议的LDAPS服务器、必须在本地计算机上安装LDAP服务器的证书链。
+

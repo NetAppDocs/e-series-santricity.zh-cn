@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-would-i-logically-replace-a-drive.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, logically, replace, drive, 
+summary: 如果某个驱动器发生故障或您出于任何其他原因需要更换它、并且您的存储阵列中有一个未分配的驱动器、则可以从逻辑上将故障驱动器替换为未分配的驱动器。如果您没有未分配的驱动器、则可以改用物理方式更换该驱动器。 
+---
+= 为什么要从逻辑上更换驱动器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果某个驱动器发生故障或您出于任何其他原因需要更换它、并且您的存储阵列中有一个未分配的驱动器、则可以从逻辑上将故障驱动器替换为未分配的驱动器。如果您没有未分配的驱动器、则可以改用物理方式更换该驱动器。
+
+原始驱动器中的数据将复制或重建到替代驱动器上。

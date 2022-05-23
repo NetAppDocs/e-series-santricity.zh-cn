@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/set-host-connectivity-reporting.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting, 
+summary: 您可以启用主机连接报告、以便存储阵列持续监控控制器与已配置主机之间的连接、然后在连接中断时向您发出警报。默认情况下，此功能处于启用状态。 
+---
+= 设置主机连接报告
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以启用主机连接报告、以便存储阵列持续监控控制器与已配置主机之间的连接、然后在连接中断时向您发出警报。默认情况下，此功能处于启用状态。
+
+如果禁用主机连接报告、则系统将不再监控连接到存储阵列的主机的连接或多路径驱动程序问题。
+
+[NOTE]
+====
+禁用主机连接报告还会禁用自动负载平衡、从而监控和平衡控制器资源利用率。
+
+====
+.步骤
+. 选择菜单：设置[系统]。
+. 向下滚动到*其他设置*、然后单击*启用/禁用主机连接报告*。
++
+此选项下方的文本指示此选项当前是启用还是禁用。
+
++
+此时将打开确认对话框。
+
+. 单击 * 是 * 继续。
++
+通过选择此选项、您可以在已启用/已禁用之间切换此功能。
+
+

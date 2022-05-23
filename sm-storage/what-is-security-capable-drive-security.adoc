@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-security-capable-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, secure-capable, drive, security 
+summary: '驱动器安全性是一项功能、可防止在从存储阵列中删除启用了安全功能的驱动器上的数据时未经授权进行访问。这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。' 
+---
+= 什么是安全功能(驱动器安全)？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+驱动器安全性是一项功能、可防止在从存储阵列中删除启用了安全功能的驱动器上的数据时未经授权进行访问。这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。

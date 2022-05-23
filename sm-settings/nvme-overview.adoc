@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/nvme-overview.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, nvme, 
+summary: '某些控制器包含一个端口、用于在网络结构上实施NVMe (非易失性内存快速协议)。NVMe支持主机与存储阵列之间的高性能通信。' 
+---
+= NVMe 概述
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+某些控制器包含一个端口、用于在网络结构上实施NVMe (非易失性内存快速协议)。NVMe支持主机与存储阵列之间的高性能通信。
+
+
+
+== 什么是NVMe？
+
+_NVM_表示"非易失性内存"、是许多类型的存储设备中使用的永久性内存。_NVME (NVM Express)是一种标准化接口或协议、专为与NVM设备进行高性能多队列通信而设计。
+
+
+
+== 什么是基于网络结构的NVMe？
+
+基于网络结构的NVMe (NVMe-oF)_是一种技术规范、可通过网络在主机计算机和存储之间传输基于NVMe消息的命令和数据。NVMe存储阵列(称为_subsystem_)可由使用网络结构的主机访问。NVMe命令已启用并封装在主机端和子系统端的传输抽象层中。这样可以将高性能NVMe接口从主机端到端扩展到存储、并对命令集进行标准化和简化。
+
+NVMe-oF存储作为本地块存储设备提供给主机。卷(称为_namespacage_)可以与任何其他块存储设备一样挂载到文件系统。您可以使用REST API、SMcli或SANtricity 系统管理器根据需要配置存储。
+
+
+
+== 什么是NVMe限定名称(NQN)？
+
+NVMe限定名称(NQN)用于标识远程存储目标。存储阵列的NVMe限定名称始终由子系统分配、不能修改。整个阵列只有一个NVMe限定名称。NVMe限定名称的长度限制为223个字符。您可以将其与iSCSI限定名称进行比较。
+
+
+
+== 什么是命名空间和命名空间ID？
+
+命名空间相当于SCSI中与阵列中的卷相关的逻辑单元。命名空间ID (NSID)相当于SCSI中的逻辑单元号(LUN)。您可以在创建命名空间时创建NSID、并将其设置为1到255之间的值。
+
+
+
+== 什么是NVMe控制器？
+
+与SCSI I_T Nexus类似、SCSI I_T Nexus表示从主机启动程序到存储系统目标的路径、在主机连接过程中创建的NVMe控制器可在主机与存储阵列中的命名空间之间提供访问路径。主机的NQN加上主机端口标识符可唯一标识NVMe控制器。虽然NVMe控制器只能与单个主机关联、但它可以访问多个命名空间。
+
+您可以使用SANtricity 系统管理器配置哪些主机可以访问哪些命名空间、并为主机设置命名空间ID。然后、在创建NVMe控制器时、将创建可由NVMe控制器访问的命名空间ID列表、并使用这些ID配置允许的连接。

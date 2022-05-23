@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/export-key-management-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
+summary: 您可以将密钥管理服务器的证书保存到本地计算机。 
+---
+= 导出密钥管理服务器证书
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将密钥管理服务器的证书保存到本地计算机。
+
+.开始之前
+* 您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
+* 必须事先导入证书。
+
+
+.步骤
+. 选择菜单：设置[证书]。
+. 选择*密钥管理*选项卡。
+. 从表中、选择要导出的证书、然后单击*导出*。
++
+此时将打开保存对话框。
+
+. 输入文件名并单击*保存*。
+

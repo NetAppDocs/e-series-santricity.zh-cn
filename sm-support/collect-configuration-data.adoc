@@ -1,0 +1,34 @@
+---
+permalink: sm-support/collect-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, configuration data 
+summary: 您可以从控制器保存RAID配置数据、其中包括卷组和磁盘池的所有数据。然后、您可以联系技术支持以获得恢复数据的帮助。 
+---
+= 收集配置数据
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从控制器保存RAID配置数据、其中包括卷组和磁盘池的所有数据。然后、您可以联系技术支持以获得恢复数据的帮助。
+
+此任务介绍如何保存RAID配置数据库的当前状态。此数据是从控制器的RPA内存位置检索的。
+
+[NOTE]
+====
+`s配置数据功能可保存与用于保存storageArray dbmDatabase`的命令行界面命令相同的信息。
+
+====
+只有在Recovery Guru操作或技术支持指示时、才应执行此任务。
+
+.步骤
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择 * 收集配置数据 * 。
+. 在对话框中、单击*收集*。
++
+文件`configurationData-<arrayName>-<DateTime>.7z`将保存在浏览器的"Downloads"文件夹中。
+
+. 有关向技术支持发送文件以及将数据加载回系统的详细信息、请联系技术支持。
+

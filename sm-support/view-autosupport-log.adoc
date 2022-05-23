@@ -1,0 +1,40 @@
+---
+permalink: sm-support/view-autosupport-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
+summary: AutoSupport 日志提供有关状态、派单历史记录以及在交付AutoSupport 派单期间遇到的错误的信息。 
+---
+= 查看AutoSupport 日志
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 日志提供有关状态、派单历史记录以及在交付AutoSupport 派单期间遇到的错误的信息。
+
+可以存在多个日志文件。当当前日志文件达到200 KB时、将对其进行归档并创建新的日志文件。归档的日志文件名称为`ASUPMessages。n`、其中_n_是一个介于1到9之间的整数。如果存在多个日志文件、您可以选择查看最新日志或先前的日志。
+
+* *当前日志*-显示最新捕获事件的列表。
+* *归档日志*-显示早期事件的列表。
+
+
+.步骤
+. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 选择*查看AutoSupport 日志*。
++
+此时将显示一个对话框、其中列出了当前的AutoSupport 日志。
+
+. 如果要查看先前的AutoSupport 日志、请选择*已归档*单选按钮、然后从*选择AutoSupport 日志*下拉列表中选择一个日志。
++
+只有当存储阵列上存在归档日志时、才会显示归档选项。
+
++
+选定的AutoSupport 日志将显示在对话框中。
+
+. *可选：*要搜索AutoSupport 日志、请在*查找*框中键入一个术语、然后单击*查找*。
++
+再次单击*查找*可搜索此词的其他出现项。
+
+

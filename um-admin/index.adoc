@@ -1,0 +1,12 @@
+---
+permalink: um-admin/index.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager 5 
+summary: SANtricity 统一管理器 5. 
+---
+= SANtricity 统一管理器 5.
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+

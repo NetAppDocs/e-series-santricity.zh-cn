@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, events, recorded, audit, log, 
+summary: 审核日志可以记录修改事件、也可以同时记录修改和只读事件。 
+---
+= 审核日志中记录了哪些类型的事件？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+审核日志可以记录修改事件、也可以同时记录修改和只读事件。
+
+根据策略设置、将显示以下类型的事件：
+
+* *修改事件*- System Manager中涉及系统更改的用户操作、例如配置存储。
+* *修改和只读事件*-涉及系统更改的用户操作以及涉及查看或下载信息的事件、例如查看卷分配。
+

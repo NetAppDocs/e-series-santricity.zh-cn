@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, secondary, volume, 
+summary: 为异步镜像对创建二级卷时、系统会显示一个列表、其中列出了该异步镜像对符合条件的所有池和卷组。不符合使用条件的任何池或卷组不会显示在该列表中。 
+---
+= 为什么我看不到所有池和卷组？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+为异步镜像对创建二级卷时、系统会显示一个列表、其中列出了该异步镜像对符合条件的所有池和卷组。不符合使用条件的任何池或卷组不会显示在该列表中。
+
+由于以下任何原因、池或卷组可能不符合条件。
+
+* 池或卷组的安全功能不匹配。
+* 池或卷组处于非最佳状态。
+* 池或卷组的容量太小。
+

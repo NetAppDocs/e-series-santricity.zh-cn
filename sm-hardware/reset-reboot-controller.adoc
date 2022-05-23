@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/reset-reboot-controller.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reset, reboot, controller 
+summary: '某些问题需要重置(重新启动)控制器。您可以重置控制器、即使您无法对其进行物理访问也是如此。' 
+---
+= 重置(重新启动)控制器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+某些问题需要重置(重新启动)控制器。您可以重置控制器、即使您无法对其进行物理访问也是如此。
+
+.开始之前
+* 存储阵列必须具有两个控制器。不需要重置的控制器必须处于联机状态(处于最佳状态)。
+* 请确保未使用任何卷，或者在使用这些卷的所有主机上安装了多路径驱动程序。
+
+
+.步骤
+. 选择 * 硬件 * 。
+. 如果图形显示了驱动器，请单击 * 显示磁盘架背面 * 。
++
+此图将发生变化，以显示控制器，而不是驱动器。
+
+. 单击要重置的控制器。
++
+此时将显示控制器的上下文菜单。
+
+. 选择*重置*、然后确认要执行此操作。
+

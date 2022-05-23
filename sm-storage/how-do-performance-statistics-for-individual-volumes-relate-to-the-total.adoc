@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance, statistics, 
+summary: 池和卷组的统计信息是通过聚合所有卷计算得出的、包括预留容量卷。 
+---
+= 各个卷的性能统计信息与总数有何关系？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+池和卷组的统计信息是通过聚合所有卷计算得出的、包括预留容量卷。
+
+预留容量由存储系统内部使用、用于支持精简卷、快照和异步镜像、不会对I/O主机可见。因此、池、控制器和存储阵列统计信息的总和可能不等于可查看卷的总和。
+
+但是、对于应用程序和工作负载统计信息、只会聚合可见的卷。
