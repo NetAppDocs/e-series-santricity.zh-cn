@@ -15,6 +15,6 @@ summary: 要配置远程存储功能、您必须通过iSCSI直接连接远程设
 
 要设置iSCSI系统连接、请参见：
 
-* link:..sm-hardware/configure-iscsi-ports-hardware.html["配置iSCSI端口"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["配置iSCSI端口"]
 * https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["远程存储技术报告"^]
 
