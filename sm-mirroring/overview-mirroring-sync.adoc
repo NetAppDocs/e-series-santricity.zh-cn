@@ -28,7 +28,7 @@ _Synchronous mirroring _实时复制数据卷以确保持续可用性。存储�
 
 了解更多信息。
 
-* link:how-asynchronous-mirroring-works.html["同步镜像的工作原理"]
+* link:how-synchronous-mirroring-works.html["同步镜像的工作原理"]
 * link:synchronous-mirroring-terminology.html["同步镜像术语"]
 * link:synchronous-mirroring-status.html["同步镜像状态"]
 * link:volume-ownership-sync.html["卷所有权"]
