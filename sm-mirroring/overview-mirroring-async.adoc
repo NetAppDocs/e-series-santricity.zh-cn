@@ -28,7 +28,7 @@ _Asynchronous mirroring _捕获主卷在特定时间点的状态、并仅复制�
 
 了解更多信息。
 
-* link:how-synchronous-mirroring-works.html["异步镜像的工作原理"]
+* link:how-asynchronous-mirroring-works.html["异步镜像的工作原理"]
 * link:asynchronous-terminology.html["异步镜像术语"]
 * link:asynchronous-mirror-status.html["异步镜像状态"]
 * link:volume-ownership-sync.html["卷所有权"]
