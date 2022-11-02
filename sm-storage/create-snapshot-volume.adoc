@@ -42,7 +42,7 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 +
 在查看成员对话框中、查看选择转换为快照卷的卷列表、然后单击*下一步*。
 
-. 转至 <<Step 2: Assign snapshot volume to host>>。
+. 转至  2: Assign snapshot volume to host。
 
 
 
@@ -80,8 +80,8 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 
 . 单击*下一步*、然后执行以下操作之一：
 +
-** 如果快照卷为读/写卷、则会显示查看容量对话框。转至 <<Step 3: Reserve capacity for a snapshot volume>>。
-** 如果快照卷为只读卷、则会显示编辑优先级对话框。转至 <<Step 4: Edit settings for a snapshot volume>>。
+** 如果快照卷为读/写卷、则会显示查看容量对话框。转至  3: Reserve capacity for a snapshot volume。
+** 如果快照卷为只读卷、则会显示编辑优先级对话框。转至  4: Edit settings for a snapshot volume。
 
 
 
@@ -122,7 +122,7 @@ summary: 您可以创建一个快照卷、以使主机能够访问卷或快照�
 
 
 . *可选：*如果要为快照一致性组创建快照卷、"更改候选项"选项将显示在"预留容量候选项"表中。单击*更改候选项*以选择备用预留容量候选项。
-. 单击*下一步*、然后转到 <<Step 4: Edit settings for a snapshot volume>>。
+. 单击*下一步*、然后转到  4: Edit settings for a snapshot volume。
 
 
 

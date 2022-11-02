@@ -57,6 +57,7 @@ AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付�
 
 
 
+. 如果您的防火墙阻止了这些ASUP派单的交付、请将以下URL添加到您的白名单中： `\https://support.netapp.com/put/AsupPut/`
 . 单击*测试配置*、使用指定的传输参数测试与技术支持服务器的连接。如果启用了AutoSupport 按需功能、则系统还会测试AutoSupport 按需派单交付的连接。
 +
 如果配置测试失败、请检查您的配置设置并重新运行测试。如果测试仍失败、请联系技术支持。

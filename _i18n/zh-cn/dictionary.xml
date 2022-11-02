@@ -1772,7 +1772,6 @@
   <block id="b1eda43b44b6c7841e28428a185d47f1" category="list-text">4k—4、096字节扇区大小。</block>
   <block id="f61192de093e66446fac109e76f10b37" category="paragraph">指示此卷组候选项是否全部由具有安全功能的驱动器组成、这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。</block>
   <block id="938194660756ee8e0ec2e6ff25f1469d" category="list-text">您可以使用驱动器安全保护卷组、但所有驱动器都必须具有安全功能才能使用此功能。</block>
-  <block id="f81786effa1738309ce55dd6d13b9b6b" category="list-text">如果要创建仅FDE卷组、请在安全功能列中查找*是- FDE*。如果要创建仅FIPS卷组、请在安全功能列中查找*是- FIPS *。</block>
   <block id="a3655b3b7378daa4a0e080de026cca74" category="list-text">您可以创建一个由驱动器组成的卷组、这些驱动器可能支持安全功能、也可能不支持安全功能、或者混合了多种安全级别。如果卷组中的驱动器包含不支持安全的驱动器、则无法确保卷组的安全。</block>
   <block id="b75e12d3bf891eeff4e4a2f5289ab643" category="paragraph">是否启用安全性？</block>
   <block id="68e04423a15891d77312197fa4d54090" category="paragraph">提供了使用支持安全的驱动器启用驱动器安全功能的选项。如果卷组具有安全功能、并且您已设置安全密钥、则可以选中此复选框来启用驱动器安全性。</block>
@@ -2026,7 +2025,6 @@
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">在多路径驱动程序重新配置以识别新路径之前、卷可能不会使用新的I/O路径。此操作通常需要不到五分钟的时间。</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">厚卷始终为完全配置卷、这意味着在创建卷时会分配所有容量。精简卷始终采用精简配置、这意味着在将数据写入卷时会分配容量。</block>
   <block id="deb88f045b03680286bbcfe06796807a" category="doc">厚卷与精简卷之间的比较</block>
-  <block id="2efc4be90cd29be539e05d8de3597c6d" category="paragraph">您可以从池或卷组创建厚卷。您只能从池创建精简卷、而不能从卷组创建精简卷。</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">Volume type</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">厚卷</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">对于厚卷、预先提供大量存储空间、以满足未来的存储需求。</block>
@@ -2777,7 +2775,6 @@
   <block id="a14d3e9fdf5599c64a2a40b7986baf14" category="paragraph">显示池中驱动器可以写入的块大小(扇区大小)。值可能包括：</block>
   <block id="435543dd5b111649d2821616c83647ce" category="paragraph">指示候选池是否全部由具有安全功能的驱动器组成、这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。</block>
   <block id="080327d2091575570e1def70546d4d65" category="list-text">您可以使用驱动器安全保护池、但所有驱动器都必须具有安全功能才能使用此功能。</block>
-  <block id="d62aa67b163b07ac7261dc3e5f1a1827" category="list-text">如果要创建仅FDE池、请在安全功能列中查找*是- FDE*。如果要创建纯FIPS池、请在支持安全列中查找*是- FIPS *。</block>
   <block id="a07e4ec3d35f9d82a516e126157104a3" category="list-text">您可以创建一个由驱动器组成的池、这些驱动器可能支持安全功能、也可能不支持安全功能、或者混合了多种安全级别。如果池中的驱动器包含不支持安全的驱动器、则无法确保池的安全。</block>
   <block id="85729c6c15dbbffe9072f1b86eac0746" category="paragraph">提供了使用支持安全的驱动器启用驱动器安全功能的选项。如果池支持安全、并且您已创建安全密钥、则可以选中复选框来启用安全性。</block>
   <block id="84e59fc152a2578a5896587796bb5232" category="paragraph">启用驱动器安全性后删除驱动器安全性的唯一方法是删除池并擦除驱动器。</block>
@@ -4505,7 +4502,6 @@
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">您已获取功能密钥。如有必要、请联系技术支持以获取密钥。</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">您已在管理客户端(具有用于访问System Manager的浏览器的系统)上加载密钥文件。</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">此任务介绍如何使用System Manager启用高级功能。</block>
-  <block id="16cf844de4d72d82afe3d732f912ab29" category="paragraph">如果要禁用高级功能、必须在命令行界面(CLI)中使用禁用存储阵列功能命令(`disable storageArray (featurePack | feature=featureAttributeList`)。</block>
   <block id="ace177d8ab15f91a9dd69a46b9cecfd5" category="list-text">在*加载项*下、选择*启用高级功能*。</block>
   <block id="7e88d18b97e81dbab278fa337f3d3f74" category="paragraph">此时将打开启用高级功能对话框。</block>
   <block id="2323fcc4f645baffed3c764c515b4bd0" category="list-text">单击*浏览*、然后选择密钥文件。</block>
@@ -4825,7 +4821,6 @@
   <block id="979f20c9c837f4321f136dc2072d208b" category="paragraph">如果要确保存储阵列可以与您输入的LDAP服务器配置进行通信、请选中此复选框。单击对话框底部的*添加*后、将进行测试。如果选中此复选框且测试失败、则不会添加配置。您必须解决此错误或取消选中此复选框、才能跳过测试并添加配置。</block>
   <block id="6aa4a1112969a67959eaf8876c01f097" category="paragraph">权限设置*</block>
   <block id="e9cbbf722215efee1b875c13217e2f95" category="paragraph">搜索基础DN</block>
-  <block id="2c89f4504fb9c64184ac776dc40830a0" category="paragraph">输入LDAP环境以搜索用户、通常形式为`CN=Users、DC=cOPC、DC=local`。</block>
   <block id="3ce2098166f1c3743b7e7e8aa017593d" category="paragraph">username属性</block>
   <block id="919d4cd60ae61c2f042a8153bfb10a15" category="paragraph">输入绑定到用户ID的属性以进行身份验证。例如：`sAMAccountName`。</block>
   <block id="1da4f8c90edff96b5e53bf82f2aaee04" category="paragraph">组属性</block>
@@ -4966,19 +4961,16 @@
   <block id="8807999b3eb8885075982bc45d9d0db2" category="paragraph">此时将打开目录服务器设置对话框。</block>
   <block id="87be5a175c6911a35fc8f00390f4c7b4" category="list-text">在服务器设置选项卡中、更改所需设置。</block>
   <block id="5662a226564835ba8715bfdd18a8b0e6" category="paragraph">LDAP服务器的域名。对于多个域、请在逗号分隔列表中输入域。域名用于登录(_username_@_domain_)以指定要对其进行身份验证的目录服务器。</block>
-  <block id="5d261017762ca93863c318b1613f98ca" category="paragraph">用于访问LDAP服务器的URL、格式为_ldap：//host：port_。</block>
   <block id="ca910f8da9777b3fa0b507af1550df55" category="paragraph">用于对LDAP服务器进行搜索查询以及在组内进行搜索的只读用户帐户。</block>
   <block id="b50af5decfbadacc63d4876021755004" category="paragraph">绑定帐户的密码。(输入绑定帐户时会显示此字段。)</block>
   <block id="e3f02ab67b919eec7575b8404b0581dd" category="paragraph">保存前测试服务器连接</block>
   <block id="9d43682c0a653c83ecbb7c1fd62095d1" category="paragraph">检查存储阵列是否可以与LDAP服务器配置进行通信。单击对话框底部的*保存*后、将进行测试。如果选中此复选框且测试失败、则不会更改配置。您必须解决此错误或取消选中此复选框、才能跳过测试并重新编辑配置。</block>
   <block id="6e23b42f25cba9a7caedee8bb1a725a4" category="paragraph">*权限设置*</block>
-  <block id="f415b5cb34059586fa23f269aba947f4" category="paragraph">用于搜索用户的LDAP环境、通常采用`CN=Users、DC=cOPC、DC=local`的形式。</block>
   <block id="5c95d1ae609281b3530c8e2a0d4002a1" category="paragraph">绑定到用户ID进行身份验证的属性。例如：`sAMAccountName`。</block>
   <block id="5db46ff79caf5847716884dd12544e60" category="paragraph">组属性</block>
   <block id="f0a2b3957d34509cc1c940c02d1a0fdf" category="paragraph">用户上的组属性列表、用于组到角色映射。例如：`memberOf、managedObjects`。</block>
   <block id="6cc77cae0c6b1bdf04aece9941cf91f1" category="list-text">在角色映射选项卡中、更改所需的映射。</block>
   <block id="8dff636149ee4d86d8a3afbc3def4c75" category="paragraph">要映射的LDAP用户组的域名。支持正则表达式。如果这些特殊正则表达式字符不属于正则表达式模式、则必须使用反斜杠(`\`)进行转义：\.[]｛｝()&lt;&gt;*+-=！？^$...</block>
-  <block id="3bc1640ed113d51e7ab74c9db37565b2" category="paragraph">要映射到组DN的存储阵列角色。您必须单独为此组选择要包含的每个角色。要登录到SANtricity 系统管理器、需要将"监控"角色与其他角色结合使用。存储阵列的角色包括：</block>
   <block id="3bf83ae469052abbe83e2ea8b4f6bef1" category="summary">在执行与CA证书相关的某些操作(例如、导入证书)时、您可能会看到一个对话框、提示您接受第二个控制器的自签名证书。</block>
   <block id="0e6118aad0fc972047356c13887525c8" category="doc">为什么会显示"无法访问其他控制器"对话框？</block>
   <block id="ddc0dbb59ab35307d93df30e53562fd2" category="paragraph">在具有两个控制器的存储阵列(双工配置)中、如果SANtricity 系统管理器无法与第二个控制器通信、或者您的浏览器在操作的某个时间点无法接受证书、则有时会显示此对话框。</block>
@@ -5585,7 +5577,6 @@
   <block id="5cc49466be193485a01cc1fad4dbb876" category="paragraph">在另一个阵列中重新安装启用了安全保护的驱动器后、该阵列将发现这些驱动器、并显示"需要注意"情况以及"需要安全密钥"状态。 要解锁驱动器数据、请选择安全密钥文件并输入密钥的密码短语。(此密码短语与存储阵列的管理员密码不同。)</block>
   <block id="67df9e4d8fc6a2a01205045d14761593" category="list-text">在*安全密钥管理*下、选择*解锁安全驱动器*。</block>
   <block id="ee9b42f5cc6af3732a1dea7c629905a8" category="summary">在证书页面中、您可以查看存储阵列的证书类型、颁发机构和有效日期范围。</block>
-  <block id="7db97910fb48f1d9522a0e88a9c48e4d" category="list-text">选择菜单：设置[证书]。</block>
   <block id="0c016b999af42b393c4fc12030e15eb2" category="list-text">选择一个选项卡以查看有关证书的信息。</block>
   <block id="e5241d50786820ff1f9844a97ff37ada" category="paragraph">阵列管理</block>
   <block id="f6656152f5238ad783b7f163a09de1cf" category="paragraph">查看有关为每个控制器导入的CA签名证书的信息、包括根文件、中间文件和服务器文件。</block>
@@ -5974,7 +5965,6 @@
   <block id="934757b9623717972adcc349e85d6283" category="paragraph">您可以从System Manager下载命令行界面(CLI)软件包。</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">CLI提供了一种基于文本的方法来配置和监控存储阵列。它通过https进行通信、并使用外部安装的管理软件包中提供的CLI语法。下载CLI不需要任何密钥。</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">要运行命令行界面命令的管理系统必须具有Java Runtime Environment (JRE) 8及更高版本。</block>
-  <block id="9a1a880d549166e9e4d319a6c078b143" category="list-text">选择菜单：设置[系统]。</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">在*加载项*下、选择*命令行界面*。</block>
   <block id="bf60a5340d4e0e6baf9e89397fd1ffb3" category="paragraph">ZIP包将下载到浏览器。</block>
   <block id="f98f7c60dd672d6401fc963791cef040" category="list-text">将ZIP文件保存到要对存储阵列运行CLI命令的管理系统、然后提取该文件。</block>
@@ -6445,11 +6435,6 @@
   <block id="871c215b16db9ef0e32b6ede330a07dd" category="paragraph">此驱动器不可用于存储数据、通常是因为它属于要导出的卷组或正在进行固件升级。</block>
   <block id="fffb2fe3525452181282c08445bd214a" category="paragraph">驱动器工作正常。</block>
   <block id="b0e63b5d480c980ed92487704be38394" category="summary">远程登录允许局域网外部的用户启动SSH会话并更改控制器上的设置。</block>
-  <block id="5570bb77e631c7eaa9d865ec47fde197" category="doc">允许远程登录</block>
-  <block id="3042bdde7f2fb8d67b7da434d43af56e" category="paragraph">*安全风险*-出于安全原因、启用远程登录仅供技术支持使用。</block>
-  <block id="e155b5976c9b59fa5adee7c1da877efa" category="list-text">单击要为其启用远程登录的控制器。</block>
-  <block id="f4dc63e7d86e041954b7952c6d54fee6" category="list-text">选择*更改远程登录*、然后确认要执行此操作。</block>
-  <block id="8d229d9ea9494d5a63cb40ce02e6b7fb" category="paragraph">技术支持完成故障排除后、请按照此相同的操作步骤 禁用远程登录。禁用远程登录将终止任何当前SSH会话并拒绝任何新的登录请求。</block>
   <block id="eef455d740e0e1992e8f897823999e39" category="summary">Internet控制消息协议(Internet Control Message Protocol、ICMP)是TCP/IP套件的协议之一。</block>
   <block id="77631831ed9caaf68539f6f6ff6c48f1" category="doc">什么是ICMP ping响应？</block>
   <block id="7b55ccc33597e36ab338a7142bcff9df" category="paragraph">`ICMP echo request`和`ICMP echo reply`消息通常称为`ping`消息。`Ping`是一款故障排除工具、系统管理员可使用此工具手动测试网络设备之间的连接、并测试网络延迟和数据包丢失。`ping`命令会将`ICMP echo request`发送到网络上的设备、并且设备会立即响应`ICMP echo reply`。有时、公司的网络安全策略要求在所有设备上禁用`ping`(`ICMP echo reply`)、以使未经授权的人员更难发现这些设备。</block>
@@ -6855,7 +6840,6 @@
   <block id="28511896b85e22b86d14544cc06a3e85" category="paragraph">制造日期</block>
   <block id="ae2a5312f6343d4bf42cb78fb80dd8a1" category="paragraph">显示驱动器的构建日期。</block>
   <block id="d7081ae6ff35b1c76e53319442a2ebe9" category="admonition">不适用于NVMe驱动器。</block>
-  <block id="455e831fcfa4cc78b3de8d9c3f6ad79e" category="paragraph">显示驱动器是否支持安全(是)(否)。支持安全的驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器、这些驱动器可在写入期间对数据进行加密、并在读取期间对数据进行解密。这些驱动器被视为安全驱动器-_capable"、因为可以使用驱动器安全功能提高安全性。如果为这些驱动器使用的卷组和池启用了驱动器安全功能、则这些驱动器将变为secure—_enabled_.</block>
   <block id="c2cb8d8a9628b0449f5fae233f17169b" category="paragraph">已启用安全保护</block>
   <block id="57cac9f7f45fc113fc3e21a7f1926577" category="paragraph">显示驱动器是否已启用安全保护(是)(否)。启用了安全保护的驱动器与驱动器安全功能结合使用。启用驱动器安全功能后、如果将驱动器安全应用于安全-_capable"驱动器上的池或卷组、则这些驱动器将变为安全-_enabled_。只能通过配置了正确安全密钥的控制器进行读写访问。这种增强的安全性可防止未经授权访问从存储阵列中物理删除的驱动器上的数据。</block>
   <block id="a4f2c7a50453a086d2b145d4af5535cf" category="paragraph">支持数据保证(Data Assurance、DA)</block>
@@ -8292,7 +8276,6 @@
   <block id="60a610051a0ea44e4970777b77bdffb3" category="list-text">在两个字段中输入选定用户的新密码。</block>
   <block id="43c89fc5fe5d2c881ed9925877f8a342" category="list-text">在*服务器设置*选项卡中、更改所需设置。</block>
   <block id="6e5ba56be64f15913cd20e36faa56412" category="paragraph">LDAP服务器的域名。对于多个域、请在逗号分隔列表中输入域。域名用于登录(_username_@_domain_)以指定要对其进行身份验证的目录服务器。</block>
-  <block id="c8038333051e29b98507b8aa9c254820" category="paragraph">用于访问LDAP服务器的URL、格式为`ldap：//*主机*：*端口*`。</block>
   <block id="fff46bc324e184ed03a4aa2f6069b8d3" category="paragraph">检查系统是否可以与LDAP服务器配置进行通信。单击*保存*后会进行测试。如果选中此复选框且测试失败、则不会更改配置。您必须解决此错误或清除此复选框、才能跳过测试并重新编辑配置。</block>
   <block id="4b629ca4dac96503c268bcce005e028b" category="paragraph">绑定到用户ID进行身份验证的属性。例如：`sAMAccountName`。</block>
   <block id="7f5bf943d0251c031e690cc2ca8d13ab" category="paragraph">用户上的组属性列表、用于组到角色映射。例如：`memberOf、managedObjects`。</block>
@@ -8624,4 +8607,110 @@
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 软件</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
+  <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">如果您的防火墙阻止了这些ASUP派单的交付、请将以下URL添加到您的白名单中：<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
+  <block id="674d4f257685239817a1d8bbfdbcbf8b" category="list-text">*问题描述 *-有关事件的追加信息 、如果适用。</block>
+  <block id="73052dd870a19b2dc5141930065b6bed" category="list-text">*身份验证类型*-类型可以包括本地用户、LDAP、SAML和访问令牌。</block>
+  <block id="b87bd6aac06ddb237e7299fad93cbef7" category="list-text">*身份验证ID*-已身份验证会话的ID。</block>
+  <block id="2a4d91302090eb8b3301887b79f8856e" category="summary">您可以编辑访问令牌的设置、包括到期时间和创建新令牌的功能。</block>
+  <block id="2edc23268c5348c8fd858ff983534b75" category="doc">编辑访问令牌设置</block>
+  <block id="957a66aaa906bf52b1f835f43429459f" category="list-text">选择*访问令牌*选项卡。</block>
+  <block id="6de64002a4a878ad911d2bbb8c213d33" category="list-text">选择*查看/编辑访问令牌设置*。</block>
+  <block id="aa45e8c3ff6b956a24aff0e3db42fa35" category="list-text">在对话框中、您可以执行以下一项或两项任务：</block>
+  <block id="87f085d538f34807c555a0f94bdf9361" category="list-text">启用或禁用令牌创建。</block>
+  <block id="c4068a76b8a5cb9010408f8a2c7a5512" category="list-text">更改现有令牌的到期时间。</block>
+  <block id="c9813731b66a3796057b75293ae67f47" category="inline-link-macro">撤消访问令牌</block>
+  <block id="00f276e6a7902781e780ade93c48c852" category="admonition">取消选择*启用访问令牌*设置后、它将同时阻止令牌创建和令牌身份验证。如果稍后重新启用此设置、则可以重新使用未过期的令牌。如果要永久撤消所有现有令牌、请参见 <block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block>。</block>
+  <block id="5bc7ab301074148dc708229c5ad54fc6" category="paragraph">访问令牌</block>
+  <block id="6f3cb47ebfa36fa8ac3a9f5679b4c403" category="paragraph">访问令牌用于使用REST API或命令行界面(CLI)进行身份验证、而不是使用用户名和密码。令牌与特定用户(包括LDAP用户)关联、并包括一组权限和到期时间。</block>
+  <block id="de6aae2c7b68f491759670b8732a576f" category="summary">如果您确定某个令牌已被泄露、则可以撤消所有访问令牌。</block>
+  <block id="a95956e8ba0de7a0a89c175f64ddcc8f" category="paragraph">如果您确定某个令牌已被泄露、或者您要对用于对访问令牌进行签名和验证的加密密钥执行手动密钥轮换、则可以撤消所有访问令牌。</block>
+  <block id="3f52e6ce99598b952f44bdcc2c7a4b73" category="paragraph">此操作将重新生成用于对令牌进行签名的密钥。重置密钥后、_all_发出的令牌将立即失效。由于存储阵列不会跟踪令牌、因此无法撤消各个令牌。</block>
+  <block id="43118581ed013cd97980f01256f5e60c" category="list-text">选择*撤消所有访问令牌*。</block>
+  <block id="80d67a7083770a1b1084819306dc6e00" category="list-text">在对话框中、单击*是*。</block>
+  <block id="566aba70ee8c167dfba34cf46cd5939f" category="paragraph">撤消所有令牌后、您可以创建新令牌并立即使用它们。</block>
+  <block id="156fdf1591a1ac1bc4b4707d24c1e3e9" category="summary">您可以创建访问令牌、用于使用REST API或命令行界面进行身份验证、而不是使用用户名和密码进行身份验证。</block>
+  <block id="78fe365b7215dc3071dee1ad6a568023" category="doc">创建访问令牌</block>
+  <block id="f0ac81da904eece28164c559432ff237" category="paragraph">您可以创建访问令牌、以使用REST API或命令行界面(CLI)进行身份验证、而不是使用用户名和密码。</block>
+  <block id="5add4482e702e41a90c793f56fcb47ce" category="admonition">令牌没有密码、因此您必须小心管理。</block>
+  <block id="1d48b32ebf9d0c0f0f2122a84a33c5c5" category="list-text">选择*查看/编辑访问令牌设置*。在对话框中、确保已选中*启用访问令牌*复选框。单击*保存*以关闭对话框。</block>
+  <block id="1e00df7af5fe5ce57b25e6f9a658a33c" category="list-text">选择*创建访问令牌*。</block>
+  <block id="b63461d2e8385412ad04239656a519f1" category="list-text">在对话框中、选择令牌有效的持续时间。</block>
+  <block id="6efb72ae14d7c2cc9314283adff1ca19" category="admonition">令牌过期后、用户的身份验证尝试将失败。</block>
+  <block id="2c04837bc2b5608d8f19123cf46c8c67" category="list-text">单击 * 创建。 *</block>
+  <block id="36ebc70fbfeffeade88051ef9b69ddd7" category="list-text">在对话框中、选择以下选项之一：</block>
+  <block id="2dba8efb618d207af93bfd64d173d479" category="list-text">*复制*将令牌文本保存到剪贴板。</block>
+  <block id="9e9e48b8d7c618d98f96b7095ecb6f50" category="list-text">*下载*将令牌文本保存到文件中。</block>
+  <block id="4d4e6f1520574b22ce00d99e1b8a4ca7" category="admonition">请务必保存令牌文本。这是在关闭对话框之前查看文本的唯一机会。</block>
+  <block id="3840e75088e495f363406398fad3bc6d" category="list-text">使用令牌、如下所示：</block>
+  <block id="47fa31dab3c933f3c83037d55525cc6a" category="list-text">* REST APi*：要在REST API请求中使用令牌、请在请求中添加HTTP标头。例如：<block ref="9c42352c36b63d073d92890853b35bbd" prefix=" " category="inline-code"></block></block>
+  <block id="8b5a7cf4e27871be02ee93599144a198" category="list-text">*安全命令行界面*：要在命令行中使用令牌、请在命令行中添加令牌值或使用包含令牌值的文件的路径。例如：</block>
+  <block id="f43c45fc08cea43f01d2982c88607584" category="list-text">命令行上的令牌值：<block ref="ebdcecadce927cbd7a31a272b12a8f17" prefix=" " category="inline-code"></block></block>
+  <block id="aa235bbf879ec5642e22aa5b8121a818" category="list-text">包含令牌值的文件的路径：<block ref="64e457e61692b8ca9c4bc0d1033604a5" prefix=" " category="inline-code"></block></block>
+  <block id="69030a788cce478a1ecf903ea779fc1a" category="admonition">如果未指定用户名、密码或令牌、则命令行界面会提示用户输入访问令牌值。</block>
+  <block id="02a301d53560426dee323587216347d7" category="paragraph">输入LDAP环境以搜索用户、通常采用的形式<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="919aba9b6fe5a70cb04822df357153da" category="paragraph">如果要禁用高级功能、必须使用Disable Storage Array feature命令 <block ref="fae23c33caf7e9db773b027b6b8e523b" prefix="(" category="inline-code"></block>)。</block>
+  <block id="29bdb2810b315de6c9d0e3f0f1d5010f" category="paragraph">用于以形式访问LDAP服务器的URL<block ref="f930dd2cba3141050b853a2a05bf401c" prefix=" " category="inline-code"></block>。</block>
+  <block id="ae3092ac2757ebc2a4ce9ec66498d3c2" category="paragraph">用于搜索用户的LDAP环境、通常采用的形式<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="7201af59a06760a88ab299378c7373a4" category="paragraph">要映射到组DN的存储阵列角色。您必须单独为此组选择要包含的每个角色。要登录到SANtricity 系统管理器、需要将"监控"角色与其他角色结合使用。存储阵列的角色包括：</block>
+  <block id="7c483dc440b317fcf93c2c430ac79485" category="summary">通过访问令牌、无需公开用户名和密码即可访问阵列。</block>
+  <block id="3b5b5feef66adc0768f35b724a334827" category="doc">访问令牌</block>
+  <block id="a6c1f1723a51ca1364421411e3f57c62" category="paragraph">访问令牌提供了一种使用REST API或命令行界面(CLI)进行身份验证的方法、而不会公开用户名和密码。令牌与特定用户(包括LDAP用户)关联、并包括一组权限和到期时间。</block>
+  <block id="3c70e70676017860b98c08b226abab0b" category="section-title">SAML和JSON Web令牌访问</block>
+  <block id="4ce5adcc400de93f50c1fec698418c82" category="paragraph">默认情况下、启用了SAML的系统不允许访问传统命令行工具。REST API和CLI实际上无法运行、因为MFA工作流需要重定向到身份提供程序服务器进行身份验证。因此、您必须在System Manager中生成令牌、这要求用户通过MFA进行身份验证。</block>
+  <block id="daf7db4383400d6300a5dcd380ef98fd" category="admonition">要使用Web令牌、无需启用SAML、但出于最高的安全性级别、建议使用SAML。</block>
+  <block id="14e8b0416072bcfd5e8c62992cbef3a3" category="section-title">用于创建和使用令牌的工作流</block>
+  <block id="3e576a5d2c3ca5b6f7525e9cdb121b33" category="list-text">在System Manager中创建令牌并确定其到期日期。</block>
+  <block id="75599d4d0e80b9a5a02700ebd13159b4" category="list-text">将令牌文本复制到剪贴板或下载到文件中、然后将令牌文本保存在安全位置。</block>
+  <block id="55e4d55b9613a32db03a926955e032cc" category="list-text"><block ref="55e4d55b9613a32db03a926955e032cc" category="inline-link-macro-rx"></block></block>
+  <block id="1569c9119e1e28e1ec8fab53bfa69339" category="inline-link-macro">编辑访问令牌</block>
+  <block id="8da9b6ad291cf45a101b427e56ca3a4f" category="list-text"><block ref="8da9b6ad291cf45a101b427e56ca3a4f" category="inline-link-macro-rx"></block></block>
+  <block id="9173d4e408bd89ef74172b82bdcf9f04" category="list-text"><block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block></block>
+  <block id="f2b72ee0697939206bbf9a554cc366b7" category="paragraph">*可选：*如果要配置备份密钥服务器、请单击*添加密钥服务器*、然后输入该服务器的信息。如果无法访问主密钥服务器、则会使用第二个密钥服务器。确保每个密钥服务器都可以访问同一个密钥数据库；否则、阵列将发布错误、并且无法使用备份服务器。</block>
+  <block id="b619226f7496b2687780134401626a39" category="admonition">一次仅使用一个密钥服务器。如果存储阵列无法访问主密钥服务器、则该阵列将联系备份密钥服务器。请注意、必须在两个服务器之间保持奇偶校验；否则可能会导致错误。</block>
+  <block id="224b075d1cf57e3e4a3b24d3315c1ee7" category="admonition">在继续进行初始设置之前、请转到升级中心(菜单：支持[升级中心])并确保您的SANtricity OS软件是最新的。如果需要、请升级到最新版本并刷新浏览器以继续设置。有关详细信息，请参见 <block ref="15166618a8636521e84e4608dae61adb" category="inline-link-macro-rx"></block>。</block>
+  <block id="7d9d1232215eb0fc5b42a7bb406367a0" category="paragraph">如果某个驱动器发生故障或您出于任何其他原因需要更换该驱动器、您可以从逻辑上将该故障驱动器替换为未分配的驱动器或完全集成的热备用驱动器。</block>
+  <block id="684a1ab32d88cc1d6cea257f63cd8ee4" category="paragraph">在逻辑上替换某个驱动器时、该驱动器将变为已分配、然后成为关联池或卷组的永久成员。</block>
+  <block id="8f978151ddbea46dd4ea50236a257374" category="paragraph">您可以使用logical replace选项替换以下类型的驱动器：</block>
+  <block id="f3f7e5eecbbda44d56a585304c3a8d15" category="list-text">符合 FIPS</block>
+  <block id="c3e107c36324a82163304a51fa5593ea" category="list-text">符合FIPS (FIPS 140-2)</block>
+  <block id="7eae2aea23d5d58ac39b011ac209d1fa" category="list-text">符合FIPS (FIPS 140-3)</block>
+  <block id="b8d5514b6c363d7622c4335c65020f0c" category="doc">配置远程登录(SSH)</block>
+  <block id="9e6a19334017caf037d216fb852a0cb1" category="paragraph">通过启用远程登录、您可以允许局域网外部的用户启动控制器上的SSH会话和访问设置。</block>
+  <block id="c16fb6cb95d73950e6e3ca73e68f735d" category="paragraph">对于SANtricity 11.74及更高版本、您还可以通过要求用户输入SSH密钥和/或SSH密码来配置多因素授权(Multifactor Authorization、MFA)。对于SANtricity 11.73及更早版本、此功能不包含使用SSH密钥和密码进行多因素授权的选项。</block>
+  <block id="a8d6cb3e5e829f59565c2ae11a29f385" category="paragraph">*安全风险*-出于安全原因、只有技术支持人员才应使用远程登录功能。</block>
+  <block id="72e047012d72d3be15fc0b67e6b50748" category="list-text">单击要为其配置远程登录的控制器。</block>
+  <block id="d133663ba42583d4ea791fa53d4cf325" category="list-text">选择*配置远程登录(SSH)*。(对于SANtricity 11.73及更早版本、此菜单项为*更改远程登录*。)</block>
+  <block id="8c421495a247201568d21ac72172c818" category="paragraph">此时将打开一个对话框、用于启用远程登录。</block>
+  <block id="5c6b9cfa64b1b52b01653c007db0beb9" category="list-text">选中*启用远程登录*复选框。</block>
+  <block id="12f73d464940c78f34c49ee4107d6fca" category="paragraph">此设置提供远程登录、并提供三个授权选项：</block>
+  <block id="9b238e943ae42327cc81d286beee2ebc" category="list-text">*仅限密码*。对于此选项、您已完成并可以单击*保存*。如果您使用的是双工系统、则可以按照上述步骤在第二个控制器上启用远程登录。</block>
+  <block id="2b4edf147ea6e388f35a2769deb239eb" category="list-text">* SSH密钥或密码*。对于此选项、请继续执行下一步。</block>
+  <block id="4b198d1968aa0b7689d8f9482868a5b7" category="list-text">*密码和SSH密钥*。对于此选项、选中*需要授权的公有 密钥和密码才能进行远程登录*复选框、然后继续下一步。</block>
+  <block id="fd6717c9d164ca85bdcb18e1514aeed3" category="list-text">填充*授权公有 密钥*字段。此字段包含一个授权公有 密钥列表、格式为OpenSSH *授权密钥*文件。</block>
+  <block id="958ec4c65334ee049c9f9834c989feb4" category="paragraph">填充*授权公有 密钥*字段时、请注意以下准则：</block>
+  <block id="ecfbb70ca020b3259ca43656f6e0be8b" category="list-text">"*授权公有 key*"字段适用场景 两个控制器、只需要在第一个控制器上配置。</block>
+  <block id="54017d18c038e6138cae1d76925cd244" category="inline-link-macro">为OpenSSH配置授权密钥</block>
+  <block id="c62037dc11d4f5ac4b4680166d42520c" category="list-text">*授权密钥*文件每行只能包含一个密钥。以#开头的行和空行将被忽略。有关文件格式的详细信息、请参见 <block ref="f5190b101948e797ebcdf38ddcb2f915" category="inline-link-macro-rx"></block>。</block>
+  <block id="064f8e4270ca3b7f5f0f79a2ea06974b" category="list-text">一个*授权密钥*文件应类似于以下示例：</block>
+  <block id="ab7f417a2385f56bf831b9902a390400" category="list-text">完成后、单击*保存*。</block>
+  <block id="c3e7db149fe242ddca9997ac42a654c4" category="list-text">对于双工系统、您可以按照上述步骤在第二个控制器上启用远程登录。如果要为密码和SSH密钥配置选项、请务必再次选中*需要授权的公有 密钥和密码才能进行远程登录*复选框。</block>
+  <block id="f7b0f586152c7d2bba5e5b934a1acc5d" category="list-text">技术支持完成故障排除后、您可以返回配置远程登录对话框并取消选中*启用远程登录*复选框来禁用远程登录。如果在第二个控制器上启用了远程登录、则会打开一个确认对话框、并允许您同时禁用第二个控制器上的远程登录。</block>
+  <block id="8dadb2c1d4421308bddc6b5aea60ad17" category="paragraph">禁用远程登录将终止任何当前SSH会话并拒绝任何新的登录请求。</block>
+  <block id="ce65e0f974ee00c841cc8cb04dcc0929" category="paragraph">显示驱动器是否支持安全(是)(否)。支持安全的驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器(级别140-2或140-3)、用于在写入期间对数据进行加密、并在读取期间对数据进行解密。这些驱动器被视为安全驱动器-_capable"、因为可以使用驱动器安全功能提高安全性。如果为这些驱动器使用的卷组和池启用了驱动器安全功能、则这些驱动器将变为secure—_enabled_.</block>
+  <block id="1974aafa112f63127faafcfced06eda0" category="list-text">如果要创建仅FDE池、请在安全功能列中查找*是- FDE*。如果要创建仅FIPS的池、请查找*是- Fips*或*是- FIPS (混合)*。"混合"表示140-2和140-3级驱动器的混合。如果混合使用这些级别、请注意、池将在较低的安全级别(140-2)下运行。</block>
+  <block id="e55f799494378d33bdb123bc4ffa27ed" category="list-text">厚卷是从池或卷组创建的。</block>
+  <block id="52334a81da7547dbe0a5723b5066a830" category="list-text">精简卷仅从池创建、而不是从卷组创建。</block>
+  <block id="ea7a3e597c665a39ba483dcd4c6f8800" category="list-text">精简卷必须为RAID 6。</block>
+  <block id="ab1005edb422f1f2812bee5e6a3ee9b1" category="list-text">您必须使用命令行界面创建精简卷。</block>
+  <block id="16270243643ed7a37cef9de424ab9bde" category="list-text">FIPS驱动器可以是级别140-2或140-3、而级别140-3则是更高的安全性级别。如果选择140-2和140-3级别的混合驱动器、则池或卷组将以较低的安全级别(140-2)运行。</block>
+  <block id="76ef1c27f2bf0b2286bf7a6a58fb852b" category="list-text">如果要创建仅FDE卷组、请在安全功能列中查找*是- FDE*。如果要创建仅FIPS卷组、请查找*是- FIPS-FIPS *或*是- FIPS (混合)*。"混合"表示140-2和140-3级驱动器的混合。如果混合使用这些级别、请注意、卷组将在较低的安全级别(140-2)下运行。</block>
+  <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">11.74版中的新增功能</block>
+  <block id="158083b77acf87778347dd8cf3138b12" category="paragraph">支持FIPS 140-3</block>
+  <block id="93752d0e76882be98725c8b860259db3" category="paragraph">现在、对于基于SAS和NVMe的SSD、某些驱动器均支持FIPS 140-3。FIPS 140-3级SSD驱动器可以与FIPS 140-2级SSD驱动器共存、但前提是这些驱动器要么全部基于NVMe、要么全部基于SAS。在卷组和磁盘池中混合使用这些级别时、请注意组或池将在较低的安全级别(140-2)下运行。</block>
+  <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA和SSH支持</block>
+  <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">对于SANtricity 11.74及更高版本、远程登录功能允许您通过要求用户输入SSH密钥和/或SSH密码来配置多因素授权(Multifactor Authorization、MFA)。硬件部分中的菜单选项已从*更改远程登录*更改为*配置远程登录(SSH)*。</block>
+  <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一项用于创建访问令牌的新功能。通过这些令牌、您可以使用REST API或命令行界面(CLI)进行身份验证、而不会公开用户名和密码。访问管理部分提供了此功能。</block>
+  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">美国政府行政命令</block>
+  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">为了遵守执行订单、此版本包括多项安全更改。</block>
+  <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用访问令牌</block>
 </blocks>

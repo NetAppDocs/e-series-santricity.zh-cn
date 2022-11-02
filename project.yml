@@ -729,7 +729,7 @@ sidebar:
           url: "/sm-hardware/configure-dns-server-addresses.html"
         - title: 查看控制器设置
           url: "/sm-hardware/view-controller-settings.html"
-        - title: 允许远程登录
+        - title: 配置远程登录(SSH)
           url: "/sm-hardware/allow-remote-login.html"
         - title: 将控制器置于联机状态
           url: "/sm-hardware/place-controller-online.html"
@@ -1049,6 +1049,8 @@ sidebar:
           url: "/sm-settings/access-management-with-directory-services.html"
         - title: SAML
           url: "/sm-settings/access-management-with-saml.html"
+        - title: 访问令牌
+          url: "/sm-settings/access-management-tokens.html"
       - title: 使用本地用户角色
         entries:
         - title: 查看本地用户角色
@@ -1073,6 +1075,14 @@ sidebar:
           url: "/sm-settings/change-saml-role-mappings.html"
         - title: 导出SAML服务提供程序文件
           url: "/sm-settings/export-saml-service-provider-files.html"
+      - title: 使用访问令牌
+        entries:
+        - title: 创建访问令牌
+          url: "/sm-settings/access-management-tokens-create.html"
+        - title: 编辑访问令牌设置
+          url: "/sm-settings/access-management-tokens-edit.html"
+        - title: 撤消访问令牌
+          url: "/sm-settings/access-management-tokens-revoke.html"
       - title: 管理系统日志
         entries:
         - title: 查看审核日志活动

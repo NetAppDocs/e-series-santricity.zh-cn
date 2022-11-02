@@ -36,7 +36,7 @@ summary: 为了确保副本一致、您可以创建一组多个卷、称为快�
 此时将显示创建Snapshot一致性组对话框。
 
 . 选择要作为成员卷添加到快照一致性组的卷。
-. 单击*下一步*、然后转到 <<Step 2: Reserve capacity for snapshot consistency group>>。
+. 单击*下一步*、然后转到  2: Reserve capacity for snapshot consistency group。
 
 
 
@@ -66,7 +66,7 @@ summary: 为了确保副本一致、您可以创建一组多个卷、称为快�
 
 
 . *可选：*如果更改默认预留容量设置、请单击*刷新候选容量*以刷新指定预留容量的候选列表。
-. 单击*下一步*、然后转到 <<Step 3: Edit settings for snapshot consistency group>>。
+. 单击*下一步*、然后转到  3: Edit settings for snapshot consistency group。
 
 
 

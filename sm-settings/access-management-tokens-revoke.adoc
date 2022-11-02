@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/access-management-tokens-revoke.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
+summary: 如果您确定某个令牌已被泄露、则可以撤消所有访问令牌。 
+---
+= 撤消访问令牌
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您确定某个令牌已被泄露、或者您要对用于对访问令牌进行签名和验证的加密密钥执行手动密钥轮换、则可以撤消所有访问令牌。
+
+此操作将重新生成用于对令牌进行签名的密钥。重置密钥后、_all_发出的令牌将立即失效。由于存储阵列不会跟踪令牌、因此无法撤消各个令牌。
+
+.步骤
+. 选择菜单：设置[访问管理]。
+. 选择*访问令牌*选项卡。
+. 选择*撤消所有访问令牌*。
+. 在对话框中、单击*是*。
+
+
+撤消所有令牌后、您可以创建新令牌并立即使用它们。

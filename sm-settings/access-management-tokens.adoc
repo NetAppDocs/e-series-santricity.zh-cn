@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/access-management-tokens.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, tokens 
+summary: 通过访问令牌、无需公开用户名和密码即可访问阵列。 
+---
+= 访问令牌
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+访问令牌提供了一种使用REST API或命令行界面(CLI)进行身份验证的方法、而不会公开用户名和密码。令牌与特定用户(包括LDAP用户)关联、并包括一组权限和到期时间。
+
+
+
+== SAML和JSON Web令牌访问
+
+默认情况下、启用了SAML的系统不允许访问传统命令行工具。REST API和CLI实际上无法运行、因为MFA工作流需要重定向到身份提供程序服务器进行身份验证。因此、您必须在System Manager中生成令牌、这要求用户通过MFA进行身份验证。
+
+
+NOTE: 要使用Web令牌、无需启用SAML、但出于最高的安全性级别、建议使用SAML。
+
+
+
+== 用于创建和使用令牌的工作流
+
+. 在System Manager中创建令牌并确定其到期日期。
+. 将令牌文本复制到剪贴板或下载到文件中、然后将令牌文本保存在安全位置。
+. 使用令牌、如下所示：
++
+** * REST APi*：要在REST API请求中使用令牌、请在请求中添加HTTP标头。例如：
+`Authorization: Bearer _<access-token-value>_`
+** *安全命令行界面*：要在命令行中使用令牌、请在命令行中添加令牌值或使用包含令牌值的文件的路径。例如：
++
+*** 命令行上的令牌值： `-t _access-token-value_`
+*** 包含令牌值的文件的路径： `-T _access-token-file_`
+
+
+
+
+
+
+了解更多信息。
+
+* link:access-management-tokens-create.html["创建访问令牌"]
+* link:access-management-tokens-edit.html["编辑访问令牌"]
+* link:access-management-tokens-revoke.html["撤消访问令牌"]
+

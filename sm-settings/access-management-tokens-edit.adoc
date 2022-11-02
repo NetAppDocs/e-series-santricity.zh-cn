@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/access-management-tokens-edit.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
+summary: 您可以编辑访问令牌的设置、包括到期时间和创建新令牌的功能。 
+---
+= 编辑访问令牌设置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以编辑访问令牌的设置、包括到期时间和创建新令牌的功能。
+
+.步骤
+. 选择菜单：设置[访问管理]。
+. 选择*访问令牌*选项卡。
+. 选择*查看/编辑访问令牌设置*。
+. 在对话框中、您可以执行以下一项或两项任务：
++
+** 启用或禁用令牌创建。
+** 更改现有令牌的到期时间。
++
+
+NOTE: 取消选择*启用访问令牌*设置后、它将同时阻止令牌创建和令牌身份验证。如果稍后重新启用此设置、则可以重新使用未过期的令牌。如果要永久撤消所有现有令牌、请参见 link:access-management-tokens-revoke.html["撤消访问令牌"]。
+
+
+
+. 单击 * 保存 * 。
+

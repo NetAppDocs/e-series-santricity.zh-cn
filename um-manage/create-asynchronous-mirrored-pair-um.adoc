@@ -84,7 +84,7 @@ EF600或EF300存储系统不支持此功能。
 
 
 
-. 选择*下一步*并转到 <<Step 2: Select the primary volume>>。
+. 选择*下一步*并转到  2: Select the primary volume。
 +
 如果定义了新的镜像一致性组、则Unified Manager会首先在本地存储阵列上创建镜像一致性组、然后在远程存储阵列上创建镜像一致性组。您可以通过为每个阵列启动System Manager来查看和管理镜像一致性组。
 
@@ -121,7 +121,7 @@ EF600或EF300存储系统不支持此功能。
 
 
 
-. 选择*下一步*并转到 <<Step 3: Select the secondary volume>>。
+. 选择*下一步*并转到  3: Select the secondary volume。
 
 
 

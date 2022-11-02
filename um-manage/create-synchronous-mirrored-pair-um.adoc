@@ -55,7 +55,7 @@ EF600或EF300存储系统不支持此功能。
 此时将打开创建同步镜像对向导。
 
 . 从符合条件的卷列表中、选择要用作镜像中主卷的卷。
-. 选择*下一步*并转到 <<Step 2: Select the secondary volume>>。
+. 选择*下一步*并转到  2: Select the secondary volume。
 
 
 
@@ -84,7 +84,7 @@ EF600或EF300存储系统不支持此功能。
 如果选择的二级卷的容量大于主卷、则可用容量将限制为主卷的大小。
 
 ====
-. 单击*下一步*并转到 <<Step 3: Select synchronization settings>>。
+. 单击*下一步*并转到  3: Select synchronization settings。
 
 
 

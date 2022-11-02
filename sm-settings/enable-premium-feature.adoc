@@ -23,7 +23,7 @@ summary: 高级功能是一个额外的选项、需要启用密钥。
 
 [NOTE]
 ====
-如果要禁用高级功能、必须在命令行界面(CLI)中使用禁用存储阵列功能命令(`disable storageArray (featurePack | feature=featureAttributeList`)。
+如果要禁用高级功能、必须使用Disable Storage Array feature命令 (`disable storageArray) (featurePack | feature=featureAttributeList`)。
 
 ====
 .步骤

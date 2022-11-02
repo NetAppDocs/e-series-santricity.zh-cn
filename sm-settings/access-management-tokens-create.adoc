@@ -1,0 +1,58 @@
+---
+permalink: sm-settings/access-management-tokens-create.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, create tokens 
+summary: 您可以创建访问令牌、用于使用REST API或命令行界面进行身份验证、而不是使用用户名和密码进行身份验证。 
+---
+= 创建访问令牌
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以创建访问令牌、以使用REST API或命令行界面(CLI)进行身份验证、而不是使用用户名和密码。
+
+
+NOTE: 令牌没有密码、因此您必须小心管理。
+
+.步骤
+. 选择菜单：设置[访问管理]。
+. 选择*访问令牌*选项卡。
+. 选择*查看/编辑访问令牌设置*。在对话框中、确保已选中*启用访问令牌*复选框。单击*保存*以关闭对话框。
+. 选择*创建访问令牌*。
+. 在对话框中、选择令牌有效的持续时间。
++
+
+NOTE: 令牌过期后、用户的身份验证尝试将失败。
+
+. 单击 * 创建。 *
+. 在对话框中、选择以下选项之一：
++
+** *复制*将令牌文本保存到剪贴板。
+** *下载*将令牌文本保存到文件中。
++
+
+NOTE: 请务必保存令牌文本。这是在关闭对话框之前查看文本的唯一机会。
+
+
+
+. 单击 * 关闭 * 。
+. 使用令牌、如下所示：
++
+** * REST APi*：要在REST API请求中使用令牌、请在请求中添加HTTP标头。例如：
+`Authorization: Bearer _<access-token-value>_`
+** *安全命令行界面*：要在命令行中使用令牌、请在命令行中添加令牌值或使用包含令牌值的文件的路径。例如：
++
+*** 命令行上的令牌值： `-t _access-token-value_`
+*** 包含令牌值的文件的路径： `-T _access-token-file_`
++
+
+NOTE: 如果未指定用户名、密码或令牌、则命令行界面会提示用户输入访问令牌值。
+
+
+
+
+
+

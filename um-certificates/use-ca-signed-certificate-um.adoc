@@ -26,7 +26,7 @@ summary: 您可以获取并导入CA签名的证书、以安全访问托管Unifie
 
 [NOTE]
 ====
-或者、您也可以使用OpenSSL等工具生成CSR文件、然后跳至 <<Step 2: Submit CSR file>>。
+或者、您也可以使用OpenSSL等工具生成CSR文件、然后跳至  2: Submit CSR file。
 
 ====
 .步骤
@@ -50,7 +50,7 @@ summary: 您可以获取并导入CA签名的证书、以安全访问托管Unifie
 
 . 确保主机信息正确无误。否则、从CA返回的证书将在您尝试导入时失败。
 . 单击 * 完成 * 。
-. 转至 <<Step 2: Submit CSR file>>。
+. 转至  2: Submit CSR file。
 
 
 
@@ -74,7 +74,7 @@ NOTE: E系列系统要求对签名证书使用PEM格式(Base64 ASCII编码)、�
 *将CSR文件提交给CA后、请勿重新生成另一个CSR文件。*每当生成CSR时、系统都会创建一个专用和公有 密钥对。公有 密钥是CSR的一部分、而私钥则保留在系统的密钥库中。当您收到签名证书并将其导入时、系统会确保私钥和公有 密钥都是原始对。如果密钥不匹配、则签名证书将不起作用、您必须从CA请求新证书。
 
 ====
-. 当CA返回签名证书时、转到 <<Step 3: Import management certificates>>。
+. 当CA返回签名证书时、转到  3: Import management certificates。
 
 
 

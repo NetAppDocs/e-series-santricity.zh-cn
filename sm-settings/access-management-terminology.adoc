@@ -19,6 +19,13 @@ summary: 了解访问管理术语如何应用于存储阵列。
 
 
  a| 
+访问令牌
+ a| 
+访问令牌用于使用REST API或命令行界面(CLI)进行身份验证、而不是使用用户名和密码。令牌与特定用户(包括LDAP用户)关联、并包括一组权限和到期时间。
+
+
+
+ a| 
 Active Directory
  a| 
 Active Directory (AD)是一种Microsoft目录服务、使用LDAP进行Windows域网络。

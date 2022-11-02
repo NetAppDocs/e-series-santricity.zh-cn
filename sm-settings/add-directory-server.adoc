@@ -104,7 +104,7 @@ NOTE: 输入上述绑定帐户时、将显示此字段。
  a| 
 搜索基础DN
  a| 
-输入LDAP环境以搜索用户、通常形式为`CN=Users、DC=cOPC、DC=local`。
+输入LDAP环境以搜索用户、通常采用的形式 `CN=Users, DC=cpoc, DC=local`。
 
 
 

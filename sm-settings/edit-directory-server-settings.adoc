@@ -51,7 +51,7 @@ LDAP服务器的域名。对于多个域、请在逗号分隔列表中输入域�
  a| 
 服务器URL
  a| 
-用于访问LDAP服务器的URL、格式为_ldap：//host：port_。
+用于以形式访问LDAP服务器的URL `ldap[s]://host:port`。
 
 
 
@@ -84,7 +84,7 @@ LDAP服务器的域名。对于多个域、请在逗号分隔列表中输入域�
  a| 
 搜索基础DN
  a| 
-用于搜索用户的LDAP环境、通常采用`CN=Users、DC=cOPC、DC=local`的形式。
+用于搜索用户的LDAP环境、通常采用的形式 `CN=Users, DC=cpoc, DC=local`。
 
 
 

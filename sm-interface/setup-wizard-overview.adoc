@@ -6,6 +6,7 @@ summary: 使用设置向导配置存储阵列、包括硬件、主机、应用�
 ---
 = 设置向导概述
 :allow-uri-read: 
+:experimental: 
 :icons: font
 :imagesdir: ../media/
 
@@ -18,6 +19,9 @@ summary: 使用设置向导配置存储阵列、包括硬件、主机、应用�
 == 首次设置
 
 首次打开System Manager时、设置向导将启动。设置向导会提示您执行基本配置任务、例如命名存储阵列、配置主机、选择应用程序以及创建存储池。
+
+
+NOTE: 在继续进行初始设置之前、请转到升级中心(菜单：支持[升级中心])并确保您的SANtricity OS软件是最新的。如果需要、请升级到最新版本并刷新浏览器以继续设置。有关详细信息，请参见 link:../sm-support/overview-upgrade-center.html["升级中心概述"]。
 
 如果取消此向导、则无法手动重新启动它。在打开 System Manager 或刷新浏览器且至少满足以下条件之一时，向导将自动重新启动：
 
