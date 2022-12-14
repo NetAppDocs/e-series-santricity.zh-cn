@@ -14,6 +14,7 @@ summary: 如果您在无法由SANtricity System Manager管理的旧存储阵列�
 [role="lead"]
 如果您在无法由System Manager管理的旧存储阵列上创建了主卷、则可以使用System Manager在此阵列上创建二级卷。
 
+.关于此任务
 您可以在使用不同接口的原有阵列与可由System Manager管理的较新阵列之间执行异步镜像。
 
 * 如果要在使用System Manager的两个存储阵列之间进行镜像、则可以跳过此任务、因为您已在镜像对创建序列中完成镜像对。
@@ -64,6 +65,7 @@ summary: 如果您在无法由SANtricity System Manager管理的旧存储阵列�
 . 选择*完成*。
 
 
+.结果
 System Manager将执行以下操作：
 
 * 在远程存储阵列上创建二级卷、并为镜像对的远程端分配预留容量。

@@ -14,6 +14,7 @@ summary: System Manager会自动为AutoSupport 派单创建默认计划。如果
 [role="lead"]
 System Manager会自动为AutoSupport 派单创建默认计划。如果愿意、您可以指定自己的计划。
 
+.开始之前
 必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。
 
 .关于此任务

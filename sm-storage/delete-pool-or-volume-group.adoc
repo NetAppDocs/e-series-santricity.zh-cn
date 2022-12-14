@@ -33,6 +33,7 @@ summary: 您可以删除池或卷组以创建更多未分配容量、您可以�
 . 选择菜单：uncommon Tasks[Delete]并确认。
 
 
+.结果
 System Manager将执行以下操作：
 
 * 删除池或卷组中的所有数据。

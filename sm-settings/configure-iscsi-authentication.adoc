@@ -16,8 +16,10 @@ summary: '为了提高iSCSI网络的安全性、您可以在控制器(目标)和
 
 System Manager使用质询握手身份验证协议(Challenge Handshake Authentication Protocol、CHAP)方法、在初始链接期间验证目标和启动程序的身份。身份验证基于名为_CHAP secret_的共享安全密钥。
 
+.开始之前
 您可以在为目标(控制器)设置CHAP密钥之前或之后为启动程序(iSCSI主机)设置CHAP密钥。在按照此任务中的说明进行操作之前、您应等待主机先建立iSCSI连接、然后在各个主机上设置CHAP密钥。建立连接后、主机的IQN名称及其CHAP密钥将在iSCSI身份验证对话框中列出(如本任务所述)、您无需手动输入它们。
 
+.关于此任务
 您可以选择以下身份验证方法之一：
 
 * *单向身份验证*—使用此设置允许控制器对iSCSI主机的身份进行身份验证(单向身份验证)。
@@ -65,4 +67,5 @@ System Manager使用质询握手身份验证协议(Challenge Handshake Authentic
 . 单击 * 完成 * 。
 
 
+.结果
 除非未指定身份验证、否则在控制器和iSCSI主机之间的iSCSI登录序列期间会进行身份验证。

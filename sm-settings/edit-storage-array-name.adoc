@@ -37,4 +37,5 @@ summary: 您可以更改SANtricity 系统管理器标题栏中显示的存储阵
 ====
 
 
+.结果
 新名称将显示在SANtricity 系统管理器的标题栏中。

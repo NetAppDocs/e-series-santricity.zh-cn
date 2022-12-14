@@ -32,6 +32,7 @@ summary: '要配置简单网络管理协议(Simple Network Management Protocol�
 
 
 
+.关于此任务
 此任务介绍如何识别陷阱目标的SNMP服务器、然后测试您的配置。
 
 .步骤
@@ -75,4 +76,5 @@ summary: '要配置简单网络管理协议(Simple Network Management Protocol�
 . 要确保陷阱有效、请从表中选择一个陷阱目标、然后单击*测试陷阱目标*向配置的地址发送测试陷阱。
 
 
+.结果
 每当发生可更改的事件时、事件监控器都会向服务器发送SNMP陷阱。

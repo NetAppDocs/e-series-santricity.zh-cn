@@ -8710,7 +8710,6 @@
   <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA和SSH支持</block>
   <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">对于SANtricity 11.74及更高版本、远程登录功能允许您通过要求用户输入SSH密钥和/或SSH密码来配置多因素授权(Multifactor Authorization、MFA)。硬件部分中的菜单选项已从*更改远程登录*更改为*配置远程登录(SSH)*。</block>
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一项用于创建访问令牌的新功能。通过这些令牌、您可以使用REST API或命令行界面(CLI)进行身份验证、而不会公开用户名和密码。访问管理部分提供了此功能。</block>
-  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">美国政府行政命令</block>
-  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">为了遵守执行订单、此版本包括多项安全更改。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用访问令牌</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
 </blocks>

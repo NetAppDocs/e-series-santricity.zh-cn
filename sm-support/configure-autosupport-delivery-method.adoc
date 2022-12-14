@@ -19,6 +19,7 @@ AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付�
 * 必须在网络中安装和配置DNS服务器。必须在System Manager中配置DNS服务器地址(此任务可从硬件页面访问)。
 
 
+.关于此任务
 查看不同的协议：
 
 * * HTTPS *-允许您使用HTTPS直接连接到目标技术支持服务器。如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。

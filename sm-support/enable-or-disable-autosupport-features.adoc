@@ -14,8 +14,10 @@ summary: 您可以在初始设置期间启用AutoSupport 功能和各个AutoSupp
 [role="lead"]
 您可以在初始设置期间启用AutoSupport 功能和各个AutoSupport 功能、也可以稍后启用或禁用它们。
 
+.开始之前
 如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。
 
+.关于此任务
 您可以随时禁用AutoSupport 功能、但强烈建议您保持启用状态。如果存储阵列出现问题、启用AutoSupport 功能可以显著加快确定和解决问题的速度。
 
 AutoSupport 功能由三个单独启用的功能组成。

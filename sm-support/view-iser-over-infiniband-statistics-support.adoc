@@ -14,6 +14,7 @@ summary: 如果存储阵列的控制器包含基于InfiniBand的iSER端口、则
 [role="lead"]
 如果存储阵列的控制器包含基于InfiniBand的iSER端口、则可以查看有关主机连接的数据。
 
+.关于此任务
 System Manager会显示以下类型的基于InfiniBand的iSER统计信息。所有统计信息均为只读、无法设置。
 
 * *本地目标(协议)统计信息*—提供基于InfiniBand的iSER目标的统计信息、其中显示了对其存储介质的块级访问。

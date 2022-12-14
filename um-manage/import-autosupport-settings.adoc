@@ -19,6 +19,7 @@ summary: 您可以将AutoSupport 配置从一个存储阵列导入到其他存�
 * 目标存储阵列的现有配置会在System Manager中进行备份(菜单：设置[系统>保存存储阵列配置])。
 
 
+.关于此任务
 导入的设置包括不同的功能(基本AutoSupport 、AutoSupport OnDemand和远程诊断)、维护窗口、交付方法、 和派单计划。
 
 .步骤
@@ -44,4 +45,5 @@ summary: 您可以将AutoSupport 配置从一个存储阵列导入到其他存�
 
 
 
+.结果
 现在、目标存储阵列配置了与源阵列相同的AutoSupport 设置。

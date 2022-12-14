@@ -14,8 +14,10 @@ summary: System Manager允许您将AutoSupport 派单发送给技术支持、而
 [role="lead"]
 System Manager允许您将AutoSupport 派单发送给技术支持、而无需等待计划的派单。
 
+.开始之前
 必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。
 
+.关于此任务
 此操作会收集支持数据并自动将其发送给技术支持、以便他们可以对问题进行故障排除。
 
 .步骤
