@@ -8712,4 +8712,6 @@
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一项用于创建访问令牌的新功能。通过这些令牌、您可以使用REST API或命令行界面(CLI)进行身份验证、而不会公开用户名和密码。访问管理部分提供了此功能。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用访问令牌</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
+  <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">11.75版中的新增功能</block>
+  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">要升级到11.80.x或更高版本、系统必须运行11.70.5。</block>
 </blocks>
