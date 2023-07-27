@@ -8681,7 +8681,6 @@
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">请注意、在启用SAML的情况下、不要删除您的权限、否则您将无法访问Unified Manager。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">单击此字段、然后选择要映射到此属性的存储阵列角色之一。您必须单独为此组选择要包含的每个角色。要登录到Unified Manager、需要将"监控"角色与其他角色结合使用。必须至少将安全管理员角色分配给一个组。映射的角色包括以下权限：</block>
   <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80中的新增功能</block>
-  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">下表介绍了SANtricity系统管理器11.8x中的新增功能。</block>
   <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80版中的新增功能</block>
   <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增强型卷奇偶校验扫描</block>
   <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">现在、可以通过REST API或CLI在后台启动卷奇偶校验扫描。只要完成扫描操作需要、生成的奇偶校验扫描就会在后台运行。扫描操作将在控制器重新启动和故障转移操作后继续运行。</block>
@@ -8716,7 +8715,6 @@
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">端口标识符</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。要进一步配置审核日志的系统日志设置、请参见<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。要进一步配置警报的系统日志设置、请参见<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_待 定11.80发行说明_</block>
   <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity软件文档11.80</block>
   <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">使用Unified Manager 6进行多阵列管理</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --一种基于Web的界面，用于管理网络中的单个存储阵列。</block>
@@ -8725,4 +8723,7 @@
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">驱动器、控制器和组件视图</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">要在前磁盘架视图和后磁盘架视图之间切换，请从最右侧选择*Drives*或*Controllers &amp; Components*(显示的链接取决于当前视图)。“*驱动器*”视图显示驱动器和任何空驱动器托架。“*控制器和组件*”视图显示了控制器、所有IOM (ESM)模块、电源/风扇箱或空控制器托架。在页面底部，您还可以选择*显示所有驱动器*。</block>
   <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8文档</block>
+  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">下表介绍了SANtricity系统管理器11.8中的新增功能。</block>
+  <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80发行说明</block>
+  <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
 </blocks>

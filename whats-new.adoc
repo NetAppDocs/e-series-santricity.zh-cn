@@ -12,7 +12,7 @@ summary: SANtricity OS 中的新增功能。
 
 
 [role="lead"]
-下表介绍了SANtricity系统管理器11.8x中的新增功能。
+下表介绍了SANtricity系统管理器11.8中的新增功能。
 
 
 
