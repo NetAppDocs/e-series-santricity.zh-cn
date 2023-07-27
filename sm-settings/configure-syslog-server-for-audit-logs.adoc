@@ -48,4 +48,4 @@ summary: 如果要将审核日志归档到外部系统日志服务器、则可�
 
 
 .结果
-配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。
+配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。要进一步配置警报的系统日志设置、请参见 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html["为系统日志服务器配置警报"]。

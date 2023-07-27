@@ -15,7 +15,7 @@ Unified Manager提供了SANtricity 镜像功能的配置选项、可使管理员
 
 [NOTE]
 ====
-EF600或EF300存储系统不支持此功能。
+EF600或EF300存储系统不支持同步镜像。
 
 ====
 

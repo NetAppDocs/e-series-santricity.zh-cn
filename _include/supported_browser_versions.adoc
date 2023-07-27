@@ -1,0 +1,36 @@
+= 
+:allow-uri-read: 
+
+
+[cols="1a,1a"]
+|===
+| 浏览器 | 最低版本 
+
+
+ a| 
+Google Chrome
+ a| 
+81.
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+80
+
+
+
+ a| 
+Safari
+ a| 
+14.
+
+
+
+ a| 
+Microsoft Edge
+ a| 
+90
+
+|===

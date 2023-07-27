@@ -2122,9 +2122,7 @@
   <block id="133e870accd4d91c65fa10366ad02af9" category="summary">了解在存储阵列上使用SSD缓存时的限制。</block>
   <block id="80f1844d851eb214289c81e17bd44a14" category="doc">SSD缓存限制</block>
   <block id="9d72037d37d97e866a871742350e2716" category="list-text">目前、每个存储阵列仅支持一个SSD缓存。</block>
-  <block id="ff5b4e80fe614d519f02e8f224dc2de7" category="list-text">存储阵列上的最大可用SSD缓存容量为5 TB。</block>
   <block id="97b9c6e578c0883e20aadb4f02c00a1e" category="list-text">Snapshot映像不支持SSD缓存。</block>
-  <block id="d21445fece9edf99aa401b679ab88404" category="list-text">SSD缓存在EF600或EF300存储系统上不可用。</block>
   <block id="e22e0c1392518c21faad5c9ac78068af" category="list-text">如果导入或导出启用或禁用了SSD缓存的卷、则不会导入或导出缓存的数据。</block>
   <block id="9cc197508cad9634df67cf7b0b11d0bd" category="section-title">驱动器安全限制</block>
   <block id="e1b6a65b182d5e02d3700acd8bb670b8" category="list-text">只有在创建SSD缓存时、才能在SSD缓存上启用安全性。您稍后无法像在卷上那样启用安全性。</block>
@@ -2388,8 +2386,6 @@
   <block id="982dc39a81f4c08c243979992140a5ae" category="paragraph">Snapshot基础卷</block>
   <block id="0f785d041eee7b7907327cd693370cf7" category="paragraph">远程镜像主卷</block>
   <block id="d3e800228af9a7ced9cadbe31f21cf71" category="paragraph">是^2^</block>
-  <block id="e0918d282f1e0cdbd13a7b9a760e60fa" category="paragraph">^1^在联机复制操作完成之前、您不能使用Snapshot卷副本。</block>
-  <block id="9a068d1705273de62c0ad27947835884" category="paragraph">^2^如果源卷是主卷、则目标卷的容量必须等于或大于源卷的可用容量。</block>
   <block id="ab87e62e800671b6098ddf7bc94218b6" category="summary">自动负载平衡功能可实现自动I/O平衡、并确保在两个控制器之间动态管理和平衡来自主机的传入I/O流量。</block>
   <block id="a157fdfdfd489a3e346a840af725de72" category="doc">什么是自动负载平衡？</block>
   <block id="21a7704071eaa17ea0d77b35a438060a" category="paragraph">自动负载平衡功能可以随着时间的推移对负载变化做出动态响应、并自动调整卷控制器所有权、以便在工作负载在控制器之间移动时更正任何负载不平衡问题、从而改进了I/O资源管理。</block>
@@ -2510,8 +2506,6 @@
   <block id="71c81db35fb18aa830a01c8148b7fd9b" category="doc">创建SSD缓存</block>
   <block id="a6d73d9dc7f4e71c912136bc15d8eebf" category="paragraph">要动态提高系统性能、您可以使用SSD缓存功能将最常访问的数据("热"数据)缓存到延迟较低的固态驱动器(SSD)上。SSD缓存仅用于主机读取。</block>
   <block id="a2c0f0ef572025e49612def6abf4cfdb" category="paragraph">您的存储阵列必须包含一些SSD驱动器。</block>
-  <block id="173bba3aad3086588981b6c7bec3a84d" category="paragraph">创建SSD缓存时、您可以使用一个或多个驱动器。由于读取缓存位于存储阵列中、因此使用该存储阵列的所有应用程序将共享缓存。选择要缓存的卷、然后自动动态缓存。</block>
-  <block id="45860ebbd64c6433eec904e6800eee62" category="paragraph">创建SSD缓存时、请遵循以下准则。</block>
   <block id="5d8c9d67963d87b710730ac7aa1ce1c8" category="list-text">您只能在创建SSD缓存时启用安全性、而不能稍后启用。</block>
   <block id="8b7f5cbf32b250b85fce451c90b76efd" category="list-text">每个存储阵列仅支持一个SSD缓存。</block>
   <block id="00a32f960b42cd5c1477c219d9776117" category="list-text">存储阵列上的最大可用SSD缓存容量取决于控制器的主缓存容量。</block>
@@ -3176,7 +3170,6 @@
   <block id="1057d2d359811cab2659d02796e6fb5b" category="paragraph">* Snapshot卷设置*</block>
   <block id="8f780a4ba90241ab0c838a7800a89097" category="paragraph">指定快照卷的名称。</block>
   <block id="3a35ff2046f8d1617d34b0b0237b9943" category="paragraph">启用SSD缓存</block>
-  <block id="f89aa75edf68b6cc7c33cb56fcd0571e" category="paragraph">选择此选项可在SSD上启用只读缓存。注：EF600或EF300存储系统不支持此功能。</block>
   <block id="89228fb03fdbc0521cd8249cd8368145" category="paragraph">*仅对读/写Snapshot卷显示*。</block>
   <block id="1d66532a5990ea3c938903ec37256dc8" category="list-text">查看快照卷配置。单击*返回*进行任何更改。</block>
   <block id="6be75b87c417c9d3fef58c3d1051e937" category="list-text">对快照卷配置感到满意后、单击*完成*。</block>
@@ -3727,7 +3720,6 @@
   <block id="020f28d400689ad48a42682372a8ae0c" category="section-title">SSD缓存与主缓存</block>
   <block id="8c4610952d549ec3ac128d217f6d1a1d" category="paragraph">SSD缓存的运行方式与主缓存不同：</block>
   <block id="b1811dec2d9e4fc056f1220e1d68ac6a" category="list-text">对于主缓存、每个I/O操作都必须通过缓存暂存数据才能执行此操作。</block>
-  <block id="28d2b37b49d1a77bcd91b18d5ebb4833" category="list-text">仅使用SSD缓存将数据置于缓存中有利于提高整体系统性能。</block>
   <block id="588aff6b35571bdbf372cbe1fbf8f57b" category="section-title">如何使用SSD缓存</block>
   <block id="8f18c80ca098b6360ef9cfc806c65412" category="paragraph">智能缓存会将数据放置在低延迟驱动器中、以便能够更快地响应未来对该数据的请求。如果某个程序请求缓存中的数据(称为"`cache hit`")、则延迟较低的驱动器可以处理该事务。否则、将出现"`cache miss`"、并且必须从速度较慢的原始驱动器访问数据。随着缓存命中次数的增加、整体性能也会提高。</block>
   <block id="32d026a62b1127ef39fc4ad853bb420e" category="paragraph">当主机程序访问存储阵列的驱动器时、数据存储在SSD缓存中。当主机程序再次访问相同的数据时、系统会从SSD缓存而非硬盘驱动器中读取这些数据。通常访问的数据存储在SSD缓存中。只有在无法从SSD缓存读取数据时、才会访问硬盘驱动器。</block>
@@ -3909,15 +3901,9 @@
   <block id="ef15fd2f45e6bb5ce57587895ba64f93" category="cell">浏览器</block>
   <block id="d0a2e00895462c37efe5227c5b94faae" category="cell">最低版本</block>
   <block id="76868ae832f6c6bd26cadc7d7c269986" category="paragraph">Google Chrome</block>
-  <block id="d1fe173d08e959397adf34b1d77e88d7" category="paragraph">79.</block>
   <block id="c70af508e72e2dc32d72f3765abb21b9" category="paragraph">Mozilla Firefox</block>
-  <block id="7cbbc409ec990f19c78c75bd1e06f215" category="paragraph">70</block>
   <block id="50de9bc68c93dc32d8c7c90593471760" category="paragraph">Safari</block>
-  <block id="c20ad4d76fe97759aa27a0c99bff6710" category="paragraph">12</block>
   <block id="a5c41f715c1b8a880253846c025624e9" category="paragraph">Microsoft Edge</block>
-  <block id="0d5633564f2e86c474c8e4f8c9a8d533" category="paragraph">Microsoft Edge旧版</block>
-  <block id="6f4922f45568161a8cdf4ad2299f6d23" category="paragraph">18</block>
-  <block id="cede765df61358635d71c56c97dfc628" category="paragraph">Microsoft Internet Explorer (MSIE)</block>
   <block id="24bfb1beabc66d9a6a219a39706480f0" category="paragraph">Web服务代理必须已安装并可供浏览器使用。</block>
   <block id="c905ab540cd89c88f522731c7c764a87" category="summary">您可以更改用于访问SANtricity Unified Manager的管理员密码。</block>
   <block id="644a1b99d39f24449d49b931a61fc964" category="doc">更改管理员密码</block>
@@ -3986,7 +3972,6 @@
   <block id="e592adde2bfcb912261b63a294753016" category="paragraph">登录到系统的当前用户显示在界面的右上角。</block>
   <block id="216b0b121e6f2408241a848b4595c30c" category="paragraph">有关用户和密码的详细信息、请参见：</block>
   <block id="dab914db541126686bbe7301f26a031b" category="list-text"><block ref="dab914db541126686bbe7301f26a031b" category="inline-link-macro-rx"></block></block>
-  <block id="0ce99b430e0880d9c5b01d46d038d4dd" category="summary">SANtricity 统一管理器 5.</block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">访问并登录到Unified Manager。</block>
   <block id="935157885838ef2e13b906dc3cfa3504" category="doc">访问Unified Manager</block>
   <block id="0fe8e078d723310c7a025dbb49b053a2" category="paragraph">安装 Web 服务代理后，您可以访问 Unified Manager 以在基于 Web 的界面中管理多个存储系统。</block>
@@ -4002,9 +3987,7 @@
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">E 系列系统包括用于存储配置和其他任务的 SANtricity 软件。</block>
   <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">SANtricity 软件概述</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">此站点介绍如何使用以下SANtricity 管理接口：</block>
-  <block id="43a99cf5380d48020dfc1071e466e3eb" category="list-text">System Manager —一种基于 Web 的界面，用于管理存储阵列中的一个控制器。</block>
   <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager —一种基于 Web 的界面，用于查看和管理网络中的所有存储阵列。</block>
-  <block id="63c27446cbc875ce50da9011ea68f5d7" category="admonition">EF600 和 EF300 存储阵列不支持镜像，精简卷或 SSD 缓存功能。</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 系统管理器</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager 是嵌入在每个控制器上的基于 Web 的管理软件。要访问用户界面，请将浏览器指向控制器的 IP 地址。设置向导可帮助您开始进行系统配置。</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager 提供了多种管理功能，包括：</block>
@@ -4025,7 +4008,6 @@
   <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> * 支持 *</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">查看诊断数据，管理升级和配置 AutoSupport ，此功能可监控存储阵列的运行状况并将自动派单发送给技术支持。</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">SANtricity 统一管理器</block>
-  <block id="1a3e4ccf2425125b19b4d5b3b8b17da4" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新的 E 系列和 EF 系列阵列的状态，例如 E2800 ， EF280 ， EF300 ， E5700 ， EF570 ， 和 EF600 。您还可以对选定存储阵列执行批处理操作。</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager 与 Web 服务代理一起安装在管理服务器上。要访问 Unified Manager ，请打开浏览器并输入指向安装了 Web 服务代理的服务器的 URL 。</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager 提供了多种管理功能，包括：</block>
   <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> * 发现存储阵列 *</block>
@@ -4372,65 +4354,7 @@
   <block id="3337fca1f09a5e507012992667f833f6" category="list-text">*如果要删除密码保护*-如果您不再希望命令受密码保护、请输入当前管理员密码、并将新密码文本框留空。</block>
   <block id="e4dc49d2a53d5925837f317bdef933eb" category="paragraph">在存储阵列上运行配置命令可能会造成发生原因 严重损坏、包括数据丢失。因此、您应始终为存储阵列设置管理员密码。请使用长度较长的管理员密码并至少包含15个字母数字字符、以提高安全性。</block>
   <block id="7bf44c1a455e947396fedd5ddf411974" category="summary">SANtricity OS 中的新增功能。</block>
-  <block id="6defcbe1a602cf38299438f5eeae8697" category="doc">SANtricity OS 11.7中的新增功能</block>
-  <block id="38069ae65990ed9bd66b090a8754bcb1" category="paragraph">下表介绍了SANtricity System Manager 11.7中的新增功能。</block>
-  <block id="09ebea90b63074ba83d2ad844e89d70c" category="section-title">11.73版中的新增功能</block>
   <block id="824a3a83a007a97494ec5981cebf67a5" category="cell">新增功能</block>
-  <block id="36349de7ac0eb86303bed03895c1dcc2" category="paragraph">资源配置和DULBE"支持</block>
-  <block id="16fb65d0cddfe2d4c247fdab06b8cc43" category="paragraph">此版本现在完全支持资源配置功能和DULBE-驱动器功能。这种支持包括使资源配置卷上的主机定向UNMAP更广泛地可用。</block>
-  <block id="e3b2852f4ef13c9d9eb1a41a50d744b5" category="paragraph">EF600 SAS (512e)扩展</block>
-  <block id="299fb5bbb23387835d58bf5165cddeba" category="paragraph">此版本支持将EF600存储系统的SAS-3机箱扩展为SAS。通过此扩展， 4KiB 块 NVMe SSD 可以与 512e SAS SSD 和 HDD 共存。但是，块大小不同的驱动器不能配置在同一个池或卷组中。</block>
-  <block id="c73d7f2c67532a6b036251cdeb908f76" category="paragraph">qlc SSD支持</block>
-  <block id="e7049769f502b79dadcc8c63383bd373" category="paragraph">此版本支持在驱动器固件中设置了ONTAP 功能但未设置完整E系列专用功能的新一代QLC SSD。qlc驱动器(仅限NVMe)的成本较低、但写入性能较低、持久性等级较低、因此不应用于写入密集型工作负载。</block>
-  <block id="854da640a0760b1616bb0284c5ac42aa" category="paragraph">支持TLS 1.3</block>
-  <block id="a1ebc729e73cec123d0c98336b6e1c01" category="paragraph">现在、嵌入式管理支持TLS 1.3。这样可以支持适用场景 System Manager和嵌入式Web服务、并可以启用或禁用它。(在先前版本中为Web服务代理和Unified Manager增加了TLS 1.3支持。)</block>
-  <block id="f1f2fd644d915b365b5abb8c91c74bfa" category="paragraph">RAID 1 DDP、最少8个驱动器</block>
-  <block id="7b17410dd494661b52f2ac79eab0c721" category="paragraph">在此版本中、RAID 1 DDP不再要求池中至少有11个SSD。现在、如果在池中仅创建RAID 1卷、则最小值允许使用8驱动器SSD池。</block>
-  <block id="8b4b67bab63907548f025722a3d981e6" category="paragraph">删除EKMS密钥</block>
-  <block id="7aaef9b529c633049aca22e386a95abc" category="paragraph">现在、存储管理员可以请求外部密钥管理服务器(EKMS)删除旧密钥。只有在已安装驱动器具有新密钥后、才会在重新设置密钥过程中删除此密钥。</block>
-  <block id="1a75366a6d4c821ee7e455bce4cffa25" category="section-title">11.72 版中的新增功能</block>
-  <block id="28b46397fb020adcaf0b119cbfa693b5" category="paragraph">SNMPv3 支持</block>
-  <block id="a9ed1ee525d0d08488f9de3235270743" category="paragraph">现在、警报通知支持SNMPv3、可在菜单：设置[警报]中进行配置。SNMPv3 可通过强大的身份验证和数据加密提供安全性。</block>
-  <block id="c2e4a04d91c5a3b8fe7446de157eb681" category="paragraph">支持将密钥复制到多个密钥服务器</block>
-  <block id="292510d91cd4366627aba2eec79ec942" category="paragraph">对于自加密驱动器的外部密钥管理，创建外部密钥管理对话框提供了一个用于添加多个密钥服务器的新选项。</block>
-  <block id="68a7548c04bd5ae4d9d965b924cc722e" category="paragraph">已更新浏览器版本</block>
-  <block id="2d7d47101a0ad5c71e2101ebb7e5f475" category="paragraph">已更新 System Manager 的最低浏览器版本。</block>
-  <block id="3c7e7b17dae4906b0da9248a0e7f39e2" category="section-title">11.71 版中的新增功能</block>
-  <block id="9f498a936b91eb825293b845ab4c4a34" category="paragraph">EF300 扩展</block>
-  <block id="4cd824b82861a81d3a34355af5534978" category="cell">此版本支持将 EF300 存储系统的 SAS-3 机箱扩展为 SAS 。通过此扩展， 4KiB 块 NVMe SSD 可以与 512e SAS SSD 和 HDD 共存。但是，块大小不同的驱动器不能配置在同一个池或卷组中。</block>
-  <block id="e26cc7c9038cf4d3175e8bf30d816d86" category="paragraph">iSCSI 配置中的 FEC 模式选项</block>
-  <block id="96d538d953209d533cee6c90da4de1a1" category="paragraph">对于使用 25 Gb iSCSI 主机接口卡的存储阵列，可以使用一个新选项在配置 iSCSI 端口时设置正向错误更正（ FEC ）模式。</block>
-  <block id="ea9c177239be0bc55bf551920e73ec9e" category="paragraph">远程存储卷</block>
-  <block id="4c46d61572ef34b4dbdbc7690d745c3d" category="paragraph">通过可选的远程存储卷功能，您可以使用 iSCSI 连接将卷从远程存储系统导入到本地 E 系列存储系统。远程存储可以与您的 E 系列系统具有相同的品牌，也可以来自其他存储供应商，只要可以通过 iSCSI 进行访问即可。</block>
-  <block id="ae376d8e855c99ce33d3f6e542edc956" category="paragraph">为非 FDE 驱动器添加了清理（擦除）功能</block>
-  <block id="7113199ede26393de60c4e8d5222d08d" category="paragraph">驱动器清理功能现在在操作步骤中包括非 FDE 驱动器。在硬件页面中，您可以打开驱动器的上下文菜单并选择 " 擦除 " （以前，此选项为 " 安全擦除 " ）。</block>
-  <block id="e85e5cd7a142a229a3e8752a4502bb6a" category="paragraph">电子邮件警报的安全连接</block>
-  <block id="50c890918fa832fcbdebb84798840bcc" category="paragraph">要启用加密电子邮件通知，您可以选择配置传出电子邮件（警报， ASUP 派单）以提供身份验证凭据。加密类型包括 SMTPS 和 STARTTLS 。</block>
-  <block id="a98e92b119d04e5ca0c2e3a8c6cc6159" category="paragraph">AutoSupport 新增功能</block>
-  <block id="31d5de0104fd289863adccff1475589e" category="paragraph">现在，如果未启用 AutoSupport ，则通知区域将显示一条警报。</block>
-  <block id="5994d3724fb50db3bc66184d3f47b830" category="paragraph">系统日志警报格式更改</block>
-  <block id="6972891f094c169717c1d2cc01a9c332" category="paragraph">系统日志警报格式现在支持 RFC 5424 。</block>
-  <block id="c91b20af8c08d49b519596d358be5e0f" category="section-title">11.70 版中的新增功能</block>
-  <block id="fd6d564757d9bebb4afdcbc6e49ae663" category="paragraph">新存储系统型号— EF300</block>
-  <block id="1d9b013014a7b904368939502c5b6aad" category="paragraph">此版本引入了 EF300 低成本纯 NVMe 闪存存储系统。EF300 包括 24 个 NVMe SSD 驱动器和每个控制器一个主机接口卡（ HIC ）。支持的基于网络结构的 NVMe 主机接口包括基于 IB 的 NVMe ，基于 RoCE 的 NVMe 和基于 FC 的 NVMe 。支持的 SCSI 接口包括 FC ， iSER 上的 IB 和 SRP 上的 IB 。可以在 Unified Manager 中查看和管理多个 EF300 存储系统和其他 E 系列存储系统。</block>
-  <block id="c3164ba2335231fad0057dbe03d6e8dc" category="paragraph">新的资源配置功能（仅限 EF300 和 EF600 ）</block>
-  <block id="43fc15888e6c15a34af56dfc2d49240a" category="paragraph">资源配置功能是 EF300 和 EF600 存储系统的新增功能。资源配置的卷可以立即投入使用，而无需后台初始化过程。</block>
-  <block id="86fffc443dc49ef49131fe738b172a29" category="paragraph">添加 512e 块大小选项（仅限 EF300 和 EF600 ）</block>
-  <block id="34e8ca8f8da7ea96f1b8450def8131aa" category="paragraph">对于 EF300 和 EF600 存储系统，可以将卷设置为支持 512 字节或 4KiB 块大小。添加了 512e 功能，以支持 iSCSI 主机接口和 VMware 操作系统。如果可能， System Manager 会建议适当的默认值。</block>
-  <block id="97815730af7a32b4bee2bd50133bcc3b" category="paragraph">用于按需发送 AutoSupport 派单的新选项</block>
-  <block id="caf318d779d33bdcaf1cb8e5ddefea9d" category="paragraph">通过新的发送 AutoSupport 派遣功能，您无需等待计划的派单，即可向技术支持发送数据。此选项可在支持中心的 AutoSupport 选项卡中找到。</block>
-  <block id="7648787a2f72ca73c563621d8f772039" category="paragraph">外部密钥管理服务器增强功能</block>
-  <block id="d71804131a489a34d629405530d25a01" category="paragraph">用于连接到外部密钥管理服务器的功能包括以下增强功能：</block>
-  <block id="5ce158a574155a1dbf2c52d1112ea5c9" category="list-text">绕过创建备份密钥的功能。</block>
-  <block id="a83cf593b4f7f5cb340b9eb8c9b13daa" category="list-text">除了客户端和服务器证书之外，还为密钥管理服务器选择一个中间证书。</block>
-  <block id="a41ead92ad6d32095eee6328103a4c8f" category="paragraph">证书增强功能</block>
-  <block id="734830643da23e9370e728f64d10f308" category="paragraph">此版本允许使用 OpenSSL 等外部工具生成证书签名请求（ Certificate Signing Request ， CSR ），同时还要求您导入私钥文件以及签名证书。</block>
-  <block id="0d3d43e6247ef530e5466168527ca61c" category="paragraph">为卷组提供了新的脱机初始化功能</block>
-  <block id="428d905bdf1b0c959591111aad19309d" category="paragraph">在创建卷时， System Manager 提供了一种跳过主机分配步骤的方法，以便新创建的卷脱机初始化。此功能仅适用于SAS驱动器上的RAID卷组(即、不适用于动态磁盘池或EF300和EF600存储系统中包含的NVMe SSD)。此功能适用于在使用开始时需要使卷处于完全性能状态的工作负载，而不是在后台运行初始化。</block>
-  <block id="0587e4aa2345855c1a604c02193816de" category="paragraph">新增了收集配置数据功能</block>
-  <block id="3caef3194845d0349b1fde3b790187bf" category="paragraph">这一新功能可从控制器保存RAID配置数据、其中包括卷组和磁盘池的所有数据(与用于`s存储量阵列dbmDatabase`的CLI命令的信息相同)。此功能已添加到支持中心的 "Diagnostics （诊断） " 选项卡中，以协助技术支持。</block>
-  <block id="fa255949f43078f9547e0b38d42d3df0" category="paragraph">在 12 个驱动器的情况下更改磁盘池的默认保留容量</block>
-  <block id="5a4dc582c4bbb046fe16599fb3458522" category="paragraph">以前，创建了一个具有足够保留（备用）容量的 12 驱动器磁盘池，以容纳两个驱动器。现在，默认值已更改，可处理单个驱动器故障，从而提供更经济高效的小型池默认值。</block>
   <block id="9f4da2b4288941f8601a6c1564084cce" category="summary">以下术语适用于证书管理。</block>
   <block id="46e7c93fcec106c8a16c51ad7fe8d443" category="doc">证书术语</block>
   <block id="3e8d115eb4b32b9e9479f387dbe14ee1" category="paragraph">CA</block>
@@ -4640,7 +4564,6 @@
   <block id="ebed1c095df061a9c27a3a3a99521ad7" category="summary">存储阵列发送警报时、接收警报的目标服务器或主机的时区不正确。相反、存储阵列会使用本地时间(GMT)创建用于警报记录的时间戳。因此、您可能会看到存储阵列的时间戳与接收警报的服务器或主机之间不一致。</block>
   <block id="562004c4c73569c2c6fbe088e31b2662" category="doc">阵列和警报之间的时间戳为何不一致？</block>
   <block id="c0ff0a62dfeb02bb133249ac90eaec17" category="paragraph">由于在发送警报时存储阵列的时区不正确、因此警报上的时间戳是与GMT相关的、其时区偏移为零。要计算适合您当地时区的时间戳、您应确定GMT的小时偏移量、然后在时间戳中添加或减去该值。</block>
-  <block id="e569fca48e28303fa5a664a87dd0ea63" category="paragraph">要避免此问题描述 、请在存储阵列控制器上配置网络时间协议(NTP)。NTP可确保控制器始终同步到正确的时间。</block>
   <block id="cab59249983512a16860a47500d9eae9" category="summary">首次连接主机时、存储阵列会使用默认主机类型。它定义了在访问卷时存储阵列中的控制器如何与主机的操作系统配合使用。</block>
   <block id="aebec79a9b28f4643e48ca1245871e7e" category="doc">默认主机操作系统类型</block>
   <block id="31a79c20bdc0147b9cd1ba02e22b76c7" category="paragraph">首次连接主机时、存储阵列会使用默认主机类型。它定义了在访问卷时存储阵列中的控制器如何与主机的操作系统配合使用。</block>
@@ -5348,7 +5271,6 @@
   <block id="19a5094031b18c2dec6848666bb687a6" category="list-text">*服务器地址*-输入完全限定域名、IPv4地址或IPv6地址。</block>
   <block id="30f8e0c6ba6693951068d665bf2d3173" category="list-text">* UDP端口*-通常、系统日志的UDP端口为514。此表显示了已配置的系统日志服务器。</block>
   <block id="85d48bc46b15b6483d2233aa0f95dca0" category="list-text">要向服务器地址发送测试警报、请选择*测试所有系统日志服务器*。</block>
-  <block id="5cc10b9f3b813b06de10682b6d0012bb" category="paragraph">每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。</block>
   <block id="ae8f19f0991a75dbac99ee6e45ba300b" category="summary">您可以在SANtricity 系统管理器中配置超时、以便在指定时间后断开用户的非活动会话。</block>
   <block id="0d08d54101084156343832dde6b77679" category="paragraph">您可以在System Manager中配置超时、以便在指定时间后断开用户的非活动会话。</block>
   <block id="7e21334170926970f8d92b45e8391954" category="paragraph">默认情况下、System Manager的会话超时为30分钟。您可以调整该时间、也可以完全禁用会话超时。</block>
@@ -6264,8 +6186,6 @@
   <block id="92df48228a5784be945b3cb8b079fab7" category="summary">"硬件"页面提供了排序和筛选功能、便于查找组件。</block>
   <block id="e019e27b0206a9a09525ee3c5ea9abd6" category="doc">查看硬件组件</block>
   <block id="9595c9bf4a677eeb685d28aab9324b1e" category="list-text">使用下表中所述的功能查看硬件组件。</block>
-  <block id="0297aff6f18d14fbeb4d8ce7aceb5e2e" category="paragraph">正面和背面磁盘架视图</block>
-  <block id="2cb0af9002c804177e2f091e253e25ce" category="paragraph">要在前磁盘架视图和后磁盘架视图之间切换、请从最右侧选择*显示磁盘架背面*或*显示磁盘架正面*(显示的链接取决于当前视图)。正面视图显示了驱动器和任何空驱动器托架。背面图显示了控制器以及任何IOM (ESM)模块、电源/风扇箱或空控制器托架。在页面底部、您还可以选择*全部显示前视图*或*全部显示后视图*。</block>
   <block id="dd9eb8795a8b5c8464b7a3d3ca7b6909" category="paragraph">驱动器视图筛选器</block>
   <block id="c68b13d5571aa4148d77bafcf9db91a8" category="paragraph">如果存储阵列包含具有不同类型的物理和逻辑属性的驱动器、则*硬件*页面将包含驱动器视图筛选器。通过限制页面上显示的驱动器类型、这些筛选字段可帮助您快速找到特定驱动器。在*显示驱动器...*下、单击左侧的筛选字段(默认情况下、显示*任何驱动器类型*)以查看物理属性(例如容量和速度)的下拉列表。单击右侧的筛选器字段(默认情况下、显示*存储阵列中的任意位置*)以查看逻辑属性的下拉列表(例如、卷组分配)。您可以同时使用这些筛选器、也可以单独使用这些筛选器。</block>
   <block id="47233d56b660bb9d545f03a3019cc00a" category="paragraph">如果存储阵列中的驱动器都共享相同的物理属性、则不会显示左侧的*任何驱动器类型*字段。如果所有驱动器都位于同一逻辑位置、则右侧的*存储阵列中的任意位置*字段不会显示。</block>
@@ -6934,7 +6854,6 @@
   <block id="8cb944903f4a43a3a18cf767c3a47387" category="list-text">控制器超过奇偶校验错误阈值并进入锁定状态。</block>
   <block id="b0d8f535990edb7e2931b325dce7271a" category="list-text">发生常规锁定情况。</block>
   <block id="b0e20a5b05a72022c8f53f4a8d3aea80" category="summary">您可以通过SANtricity 软件文档安装、设置和维护存储阵列。</block>
-  <block id="33fac5e50dba9d05a49bb949dbec339e" category="doc">使用Unified Manager 5.3管理多个阵列</block>
   <block id="2677e564e3696a00712811d8d452bc9d" category="summary">建议使用手动重新同步、因为它可以让您以最佳机会恢复数据的方式管理重新同步过程。</block>
   <block id="be60404b2c56981a6ade529f56c56ade" category="doc">为什么建议使用手动同步策略？</block>
   <block id="203eb3487092f98bd7739657bd0afb70" category="paragraph">如果使用自动重新同步策略、并且在重新同步期间发生间歇性通信问题、则二级卷上的数据可能会暂时损坏。重新同步完成后、数据将得到更正。</block>
@@ -7047,7 +6966,6 @@
   <block id="33dd1e24349af0b8ee7d623742e70d5a" category="list-text">如果可以访问镜像对中的关联卷、则卷之间的角色会发生变化。System Manager会将镜像对中的二级卷提升为主角色、或者将镜像对中的主卷降级为二级角色(具体取决于您的选择)。</block>
   <block id="09aa31a04bb22f0e3a974409e4760569" category="summary">镜像是在Unified Manager界面中配置的。</block>
   <block id="1f886fa10f9979df037b0e533f029308" category="doc">为什么我无法访问所选的镜像功能？</block>
-  <block id="253a07b9e0ccd486d8afabdf8e58cd10" category="paragraph">在EF600或EF300存储阵列上不能使用镜像。</block>
   <block id="bf28bf2251d42b0426dd4f0ec93a91cd" category="paragraph">要在两个阵列之间启用和配置镜像、请验证以下内容：</block>
   <block id="f7fa64ef9537f8a03850d1c113c23923" category="list-text">Web服务代理服务必须正在运行。(Unified Manager与Web服务代理一起安装在主机系统上。)</block>
   <block id="262d5c4ea8c35a3f2e6e65685f833785" category="list-text">Unified Manager必须通过HTTPS连接在本地主机上运行。</block>
@@ -7324,7 +7242,6 @@
   <block id="2157e66b9e6c46fccd44e816b920a83e" category="inline-link-macro">异步镜像与同步镜像有何不同</block>
   <block id="3daca167043ca93f9e451c47976f3077" category="list-text"><block ref="3daca167043ca93f9e451c47976f3077" category="inline-link-macro-rx"></block></block>
   <block id="60d7e2cd5292c4fbff9e9a4350dcfbbf" category="summary">如果您计划使用同步镜像、请记住以下要求。</block>
-  <block id="74386b26c331181b6a5eadec21dbabdb" category="paragraph">在EF300或EF600存储阵列上不能使用镜像。</block>
   <block id="27d2299651367750033b7027a7ecc725" category="paragraph">只有具有光纤通道(FC)主机端口的控制器才支持同步镜像通信。</block>
   <block id="997916cd9c2054e70af916414c1f152b" category="paragraph">同步镜像使用本地存储阵列和远程存储阵列上每个控制器上编号最高的主机端口。控制器主机总线适配器(HBA)主机端口4通常预留用于镜像数据传输。</block>
   <block id="d8759f1fee09e713d512b0884587cacc" category="list-text">同步镜像对的主卷和二级卷上的RAID级别、缓存参数和区块大小可能不同。</block>
@@ -8150,7 +8067,6 @@
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW (E2700、E5600/EF560)帮助</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">SANtricity System Manager和Unified Manager</block>
-  <block id="e66485fdc97bafe46eca656f0d146144" category="doc">SANtricity 软件文档11.7</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">访问管理是一种在SANtricity Unified Manager中配置用户身份验证的方法。</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">访问管理是一种在Unified Manager中配置用户身份验证的方法。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">可以使用以下身份验证方法：</block>
@@ -8215,7 +8131,6 @@
   <block id="7ed1c23fd5825fcffa42b8277d75a176" category="summary">您可以将管理证书还原到原始出厂自签名状态。</block>
   <block id="f8da35c36c426cc6f5e85f3b036b8c22" category="paragraph">此任务将从安装了Web服务代理和Unified Manager的主机系统中删除当前管理证书。重置证书后、主机系统将恢复为使用自签名证书。</block>
   <block id="e4d7c78f06cfedfb1960a9d1ee053e0a" category="list-text">选择*证书管理*。</block>
-  <block id="67c0c3e428d8acbf90125bc09eda87d9" category="list-text">从管理选项卡中、选择*重置*。</block>
   <block id="4c670df3c34ee6fe770985c68d612b00" category="paragraph">此时将打开确认重置管理证书对话框。</block>
   <block id="0d976dc17b4640ed74e2e82306ff7154" category="paragraph">系统将恢复为使用服务器中的自签名证书。因此、系统会提示用户为其会话手动接受自签名证书。</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">如果存储阵列尝试建立与SANtricity Unified Manager的安全连接、但此连接无法确认为安全连接、则会发生不可信证书。</block>
@@ -8350,7 +8265,6 @@
   <block id="e9c3b29b15baba5237733178dce80a59" category="paragraph">在证书管理中、您可以为托管Unified Manager的管理工作站配置证书、也可以为阵列中的控制器导入证书。</block>
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
-  <block id="6328cfb48c2111f6991ccd01603442ab" category="doc">使用System Manager 11.7管理单个阵列</block>
   <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">借助SANtricity 软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大程度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager界面</block>
@@ -8413,7 +8327,6 @@
   <block id="0a0b92f036cc63a95b9be8f8ab2008e8" category="sidebar">Recovery Guru</block>
   <block id="3849340aeaa75e39b4c0086c87286698" category="sidebar">事件日志</block>
   <block id="06eae2db1d4831c93a0da137df21298c" category="sidebar">恢复支持文件</block>
-  <block id="3a269e7025c0f60568d7f845d390ff21" category="sidebar">SANtricity 11.7文档</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">支持的浏览器和操作系统</block>
@@ -8704,14 +8617,112 @@
   <block id="ab1005edb422f1f2812bee5e6a3ee9b1" category="list-text">您必须使用命令行界面创建精简卷。</block>
   <block id="16270243643ed7a37cef9de424ab9bde" category="list-text">FIPS驱动器可以是级别140-2或140-3、而级别140-3则是更高的安全性级别。如果选择140-2和140-3级别的混合驱动器、则池或卷组将以较低的安全级别(140-2)运行。</block>
   <block id="76ef1c27f2bf0b2286bf7a6a58fb852b" category="list-text">如果要创建仅FDE卷组、请在安全功能列中查找*是- FDE*。如果要创建仅FIPS卷组、请查找*是- FIPS-FIPS *或*是- FIPS (混合)*。"混合"表示140-2和140-3级驱动器的混合。如果混合使用这些级别、请注意、卷组将在较低的安全级别(140-2)下运行。</block>
-  <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">11.74版中的新增功能</block>
-  <block id="158083b77acf87778347dd8cf3138b12" category="paragraph">支持FIPS 140-3</block>
-  <block id="93752d0e76882be98725c8b860259db3" category="paragraph">现在、对于基于SAS和NVMe的SSD、某些驱动器均支持FIPS 140-3。FIPS 140-3级SSD驱动器可以与FIPS 140-2级SSD驱动器共存、但前提是这些驱动器要么全部基于NVMe、要么全部基于SAS。在卷组和磁盘池中混合使用这些级别时、请注意组或池将在较低的安全级别(140-2)下运行。</block>
-  <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA和SSH支持</block>
-  <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">对于SANtricity 11.74及更高版本、远程登录功能允许您通过要求用户输入SSH密钥和/或SSH密码来配置多因素授权(Multifactor Authorization、MFA)。硬件部分中的菜单选项已从*更改远程登录*更改为*配置远程登录(SSH)*。</block>
-  <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一项用于创建访问令牌的新功能。通过这些令牌、您可以使用REST API或命令行界面(CLI)进行身份验证、而不会公开用户名和密码。访问管理部分提供了此功能。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用访问令牌</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
-  <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">11.75版中的新增功能</block>
-  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">要升级到11.80.x或更高版本、系统必须运行11.70.5。</block>
+  <block id="70a5ac954926edc08c5f6fc4c248a4a6" category="section-title">SANtricity 11.7版</block>
+  <block id="f7b52729af7c7aa177e09390f0afd194" category="list-text"><block ref="f7b52729af7c7aa177e09390f0afd194" category="inline-link-rx"></block></block>
+  <block id="797222f106ff986b71e9f972dd342bc3" category="list-text"><block ref="797222f106ff986b71e9f972dd342bc3" category="inline-link-rx"></block></block>
+  <block id="7647966b7343c29048673252e490f736" category="paragraph">81.</block>
+  <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
+  <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
+  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity统一管理器6.</block>
+  <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用阵列中嵌入的安全断言标记语言(SAML)功能配置访问管理、则当用户的SSO会话达到其最大限制时、可能会发生会话超时。可能会在System Manager会话超时之前发生这种情况。</block>
+  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600或EF300存储系统不支持同步镜像。</block>
+  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600或EF300存储阵列不支持同步镜像。</block>
+  <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必须匹配相同的协议、托盘级别、区块大小、安全类型和RAID级别。不符合条件的异步镜像对不会显示在可用卷列表中。</block>
+  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不适用于EF600或EF300存储系统上的同步镜像。</block>
+  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity系统管理器11.8.</block>
+  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300或EF600存储阵列不支持同步镜像。</block>
+  <block id="f0d12aaffd9cd7456b0d7640f7b6a727" category="list-text">存储阵列上的最大可用SSD缓存容量为8 TB。</block>
+  <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是^3^</block>
+  <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^目标卷的容量必须等于或大于精简卷报告的容量。</block>
+  <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^在联机复制操作完成之前、您无法使用Snapshot卷副本。</block>
+  <block id="8f5c6f3af41eb39849fa6729edd34ef4" category="paragraph">^3^如果源卷为主卷、则目标卷的容量必须等于或大于源卷的可用容量。</block>
+  <block id="fd3f2a4b95649434788760531c5a248c" category="paragraph">创建新的SSD缓存时、可以使用一个或多个驱动器。由于读取缓存位于存储阵列中、因此使用该存储阵列的所有应用程序将共享缓存。选择要缓存的卷、然后自动动态缓存。</block>
+  <block id="305cbf1b2e94d5aa38ef0a8ea818a2b4" category="paragraph">创建新SSD缓存时、请遵循以下准则。</block>
+  <block id="4a9c782fd503d7426a829b5c98040866" category="list-text">如果只有一个卷启用了SSD缓存、则整个SSD缓存将分配给该卷所属的控制器。</block>
+  <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">在对卷设置进行更改时、某些操作可能不可用</block>
+  <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">只有在将数据置于缓存中有利于提高整体系统性能时、才会使用SSD缓存。</block>
+  <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">选择此选项可在SSD上启用只读缓存。</block>
+  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">使用System Manager 11.8进行单阵列管理</block>
+  <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">如有必要、您可以导出存储阵列的服务提供程序元数据、然后将该文件重新导入到身份提供程序(Identity Provider、Idp)系统中。</block>
+  <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">在此任务中、您将从控制器导出元数据。Idp需要此元数据才能与控制器建立信任关系并处理身份验证请求。此文件包含IdP可用于发送请求的控制器域名或IP地址等信息。</block>
+  <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">单击*Export*将元数据文件保存到本地系统。</block>
+  <block id="4b09b699877612f901bc1067fb675519" category="paragraph">域名字段为只读。</block>
+  <block id="f12f2a18a7e07620fad6228a36b64f3c" category="list-text">从本地系统中、找到您导出的XML格式的服务提供商元数据文件。</block>
+  <block id="075d83a0abd972ce69ef61db38da29be" category="list-text">从Idp服务器中、导入服务提供商元数据文件。您可以直接导入文件、也可以手动输入控制器信息。</block>
+  <block id="7c4628a811708cf3294dac2de4c5f97f" category="list-text">选择*设置&gt;证书*。</block>
+  <block id="a450e680be3e9f05356e4a72d3b2fd9f" category="list-text">选择*阵列管理*选项卡，然后选择*重置*。</block>
+  <block id="90322e9b8e628209c77e7fcaddff0eb5" category="list-text">您必须知道存储阵列中控制器的IP地址或域名。</block>
+  <block id="a8f3d1d2c981da6e0da6bfa7f0083639" category="list-text">管理员已确保IdP服务器和控制器时钟同步(通过NTP服务器或通过调整控制器时钟设置)。</block>
+  <block id="edb063373054a388d66a9ea66cad93ff" category="list-text">Idp元数据文件将从Idp系统下载、并可在用于访问Unified Manager的本地系统上使用。</block>
+  <block id="65c75e5e9737f39188dd8f950fd7e294" category="paragraph">* SAML和目录服务*。如果在将目录服务配置为身份验证方法时启用SAML、则SAML将取代Unified Manager中的目录服务。如果稍后禁用SAML、则目录服务配置将返回到其先前的配置。</block>
+  <block id="e24e654c7d8f8545ef57e030be7b8cf7" category="paragraph">要为存储阵列提供Idp连接信息、请将Idp元数据导入到Unified Manager中。IdP系统需要使用此元数据将身份验证请求重定向到正确的URL并验证收到的响应。</block>
+  <block id="874ff81f90fcd240dd1737943885d51f" category="paragraph">要在IdP和存储阵列之间建立信任关系、请将服务提供商元数据导入到IdP中。Idp需要此元数据才能与控制器建立信任关系并处理授权请求。此文件包含控制器域名或IP地址等信息、以便IdP可以与服务提供商进行通信。</block>
+  <block id="3226d8289a8deb232229d8d7f28969a4" category="list-text">在*控制器A*字段中输入控制器IP地址或DNS名称、然后单击*导出*将元数据文件保存到本地系统。</block>
+  <block id="11bb3a019b1d97c8d2090b7bd6cc865b" category="list-text">从Idp服务器中、导入服务提供商元数据文件以建立信任关系。您可以直接导入文件、也可以手动输入文件中的控制器信息。</block>
+  <block id="9c00debc07d6ffc23d63eccb2ad1b46a" category="paragraph">要为用户提供对Unified Manager的授权和访问权限、您必须将Idp用户属性和组成员资格映射到存储阵列的预定义角色。</block>
+  <block id="57650de481abdd3e6984ef575f0d065b" category="list-text">Idp元数据文件将导入到Unified Manager中。</block>
+  <block id="a87844e0bca403edea7d155f83d77bbe" category="list-text">将控制器的服务提供商元数据文件导入到Idp系统中以建立信任关系。</block>
+  <block id="3cfa359f6717b966ae713cf6fa57377c" category="list-text">单击*映射Unified Manager*角色的链接。</block>
+  <block id="366b335b6c23fde50ab01044a850659a" category="paragraph">单击此字段、然后选择要映射到此属性的存储阵列角色之一。您必须单独选择要包括的每个角色。要登录到Unified Manager、需要将"监控"角色与其他角色结合使用。至少一个组还需要安全管理员角色。</block>
+  <block id="0d22cf04fa574536d6a7e4e17da41aa7" category="paragraph">包括管理员在内的所有用户都需要"监控"角色。如果没有"监控"角色、则Unified Manager将无法对任何用户正常运行。</block>
+  <block id="ea9355b3b1f3ea6d2bc8bcc028f51b03" category="list-text">SP元数据文件中的控制器地址正确。</block>
+  <block id="2d0730c519bced2c7da242ac46c546fa" category="list-text">管理员使用包含"安全管理员"权限的用户配置文件登录到Unified Manager。</block>
+  <block id="308792f40a61d176822c0c11a84aa062" category="list-text">管理员配置与身份提供程序(Identity Provider、IdP)的通信。IdP是一种外部系统、用于向用户请求凭据并确定用户是否已成功通过身份验证。要配置与存储阵列的通信、管理员需要从Idp系统下载Idp元数据文件、然后使用Unified Manager将该文件上传到存储阵列。</block>
+  <block id="db63c0cda0fb44873a76612cd703df33" category="list-text">管理员在服务提供商和IdP之间建立信任关系。服务提供商负责控制用户授权；在这种情况下、存储阵列中的控制器充当服务提供商。要配置通信、管理员可使用Unified Manager导出控制器的服务提供商元数据文件。然后、管理员会从Idp系统将元数据文件导入到Idp中。</block>
+  <block id="a5eff1c83fd4e372756275d4ff8c9e36" category="list-text">管理员会将存储阵列的角色映射到IdP中定义的用户属性。为此、管理员使用Unified Manager创建映射。</block>
+  <block id="bfdf20194c6c147257ae9470515b761a" category="list-text">在Unified Manager中、管理员可为存储阵列启用SAML。</block>
+  <block id="eae9067e764c22587680b3bd3f81d25b" category="paragraph">启用SAML后、用户无法从原有Storage Manager界面发现或管理该阵列的存储。</block>
+  <block id="c4ed98793479ae08990cae4236b9d508" category="list-text">Idp元数据文件将从Idp系统下载、并在用于访问Unified Manager的本地系统上可用。</block>
+  <block id="b1a127861a67e404225a243a453effd3" category="list-text">您知道存储阵列中控制器的IP地址或域名。</block>
+  <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">安全断言标记语言(SAML)是一种基于XML的标准、用于在两个实体之间进行身份验证和授权。SAML支持多因素身份验证、在这种身份验证中、用户必须提供两个或更多项来证明其身份(例如密码和指纹)。存储阵列的嵌入式SAML功能在身份断言、身份验证和授权方面符合SAML2.0标准。</block>
+  <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">请注意、在启用SAML的情况下、不要删除您的权限、否则您将无法访问Unified Manager。</block>
+  <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">单击此字段、然后选择要映射到此属性的存储阵列角色之一。您必须单独为此组选择要包含的每个角色。要登录到Unified Manager、需要将"监控"角色与其他角色结合使用。必须至少将安全管理员角色分配给一个组。映射的角色包括以下权限：</block>
+  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80中的新增功能</block>
+  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">下表介绍了SANtricity系统管理器11.8x中的新增功能。</block>
+  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80版中的新增功能</block>
+  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增强型卷奇偶校验扫描</block>
+  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">现在、可以通过REST API或CLI在后台启动卷奇偶校验扫描。只要完成扫描操作需要、生成的奇偶校验扫描就会在后台运行。扫描操作将在控制器重新启动和故障转移操作后继续运行。</block>
+  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified Manager的SAML支持</block>
+  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified Manager现在支持SAML (安全断言标记语言)。为Unified Manager启用SAML后、用户必须对身份提供程序使用多因素身份验证、才能与用户界面进行交互。请注意、在Unified Manager上启用SAML后、如果不通过Idp对请求进行身份验证、则无法使用REST API。</block>
+  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">自动配置功能</block>
+  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">现在支持设置卷块大小参数、以便在初始阵列设置时与自动配置功能结合使用。此功能在CLI中仅作为"blocksize"参数提供。</block>
+  <block id="017965dda869643c4d632c18853208a2" category="paragraph">控制器固件加密签名</block>
+  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">控制器固件已进行加密签名。签名会在初始下载期间和每次控制器启动时进行检查。预期不会对最终用户造成影响。签名由CA颁发的扩展验证证书提供支持。</block>
+  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">驱动器固件加密签名</block>
+  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">驱动器固件已进行加密签名。签名会在初始下载期间进行检查、并由CA颁发的扩展验证证书提供支持。驱动器固件内容现在以ZIP文件的形式提供、其中包含旧的未签名固件以及新的已签名固件。用户必须根据目标系统上运行的代码版本选择适当的文件。</block>
+  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">外部密钥服务器管理-证书密钥大小</block>
+  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">新的默认证书密钥大小为3072位(2048位)。支持高达4096位的密钥大小。要支持非默认密钥大小、必须更改NVSRAM位。</block>
+  <block id="710e42f1cedbf3e670aace3815d6e451" category="paragraph">支持使用块大小为512b的驱动器更大的动态磁盘池大小</block>
+  <block id="7a4f6b11e091466663e9c7d3c9480717" category="paragraph">使用版本1池版本类型的客户现在可以拥有48 TB的最大磁盘池大小。旧版最多支持24 TB磁盘池大小。如果要将现有磁盘池转换为较大的大小、则必须先删除所有卷。如果存在版本1磁盘池、则降级操作会受到限制。</block>
+  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">除非满足最低浏览器要求、否则System Manager和Unified Manager将无法启动</block>
+  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">要启动System Manager或Unified Manager、必须安装最低版本的浏览器。以下是支持的最低版本：</block>
+  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox最低版本80</block>
+  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome最低版本89</block>
+  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">Edge最小版本90</block>
+  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safari最低版本14</block>
+  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">支持FIPS 140-2 NVMe SSD驱动器</block>
+  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">现在支持经NetApp认证的FIPS 140-2 NVMe SSD驱动器。它们将在存储阵列配置文件和System Manager中正确标识。</block>
+  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">支持EF300和EF600上的SSD读取缓存</block>
+  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">现在、使用HDD和SAS扩展的EF300和EF600控制器支持SSD读取缓存。</block>
+  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">支持EF300和EF600上的iSCSI和光纤通道异步远程镜像</block>
+  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">现在、使用基于NVMe和SAS的卷的EF300和EF600控制器支持异步远程镜像(ARVM)。</block>
+  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">支持基本托架上没有驱动器的EF300和EF600</block>
+  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">现在支持在基座托盘上不使用NVMe驱动器的EF300和EF600控制器配置。</block>
+  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">已为所有平台禁用USB端口</block>
+  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">现在、所有平台均已禁用USB端口。</block>
+  <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">端口标识符</block>
+  <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。要进一步配置审核日志的系统日志设置、请参见<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
+  <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。要进一步配置警报的系统日志设置、请参见<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
+  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_待 定11.80发行说明_</block>
+  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity软件文档11.80</block>
+  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">使用Unified Manager 6进行多阵列管理</block>
+  <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --一种基于Web的界面，用于管理网络中的单个存储阵列。</block>
+  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600和EF300存储阵列不支持同步镜像或精简卷。</block>
+  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。在中央视图中、您可以查看所有较新的E系列和EF系列阵列的状态、例如E2800、EF280、EF300、E5700、EF570、 和EF600。您还可以对选定存储阵列执行批处理操作。</block>
+  <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">驱动器、控制器和组件视图</block>
+  <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">要在前磁盘架视图和后磁盘架视图之间切换，请从最右侧选择*Drives*或*Controllers &amp; Components*(显示的链接取决于当前视图)。“*驱动器*”视图显示驱动器和任何空驱动器托架。“*控制器和组件*”视图显示了控制器、所有IOM (ESM)模块、电源/风扇箱或空控制器托架。在页面底部，您还可以选择*显示所有驱动器*。</block>
+  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8文档</block>
 </blocks>

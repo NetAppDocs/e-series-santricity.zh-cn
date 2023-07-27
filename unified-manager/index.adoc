@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: unified-manager/index.html 
 summary: 您可以通过SANtricity 软件文档安装、设置和维护存储阵列。 
 ---
-= 使用Unified Manager 5.3管理多个阵列
+= 使用Unified Manager 6进行多阵列管理
 :hardbreaks:
 :allow-uri-read: 
 :linkattrs: 

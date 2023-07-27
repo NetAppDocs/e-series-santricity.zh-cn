@@ -15,12 +15,12 @@ E 系列系统包括用于存储配置和其他任务的 SANtricity 软件。
 
 此站点介绍如何使用以下SANtricity 管理接口：
 
-* System Manager —一种基于 Web 的界面，用于管理存储阵列中的一个控制器。
+* System Manager --一种基于Web的界面，用于管理网络中的单个存储阵列。
 * Unified Manager —一种基于 Web 的界面，用于查看和管理网络中的所有存储阵列。
 
 
 
-NOTE: EF600 和 EF300 存储阵列不支持镜像，精简卷或 SSD 缓存功能。
+NOTE: EF600和EF300存储阵列不支持同步镜像或精简卷。
 
 
 
@@ -92,7 +92,7 @@ image:../media/sam1130_icon_support.gif[""] * 支持 *
 
 == SANtricity 统一管理器
 
-Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新的 E 系列和 EF 系列阵列的状态，例如 E2800 ， EF280 ， EF300 ， E5700 ， EF570 ， 和 EF600 。您还可以对选定存储阵列执行批处理操作。
+Unified Manager 是一款基于 Web 的软件，用于管理整个域。在中央视图中、您可以查看所有较新的E系列和EF系列阵列的状态、例如E2800、EF280、EF300、E5700、EF570、 和EF600。您还可以对选定存储阵列执行批处理操作。
 
 Unified Manager 与 Web 服务代理一起安装在管理服务器上。要访问 Unified Manager ，请打开浏览器并输入指向安装了 Web 服务代理的服务器的 URL 。
 

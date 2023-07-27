@@ -42,4 +42,4 @@ summary: 要配置系统日志警报、必须输入系统日志服务器地址�
 
 
 .结果
-每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。
+每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。要进一步配置审核日志的系统日志设置、请参见 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html["为审核日志配置系统日志服务器"]。

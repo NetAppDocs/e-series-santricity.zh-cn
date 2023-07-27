@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.7
+  name: SANtricity 11.8
   internal:
     pdf_enabled: true
   prod:
@@ -10,17 +10,17 @@ settings:
   versions:
   - name: SANtricity 软件
     url: "/e-series-santricity"
+    version-number: '11.8'
+  - name: SANtricity 软件
+    url: "/e-series-santricity-117"
     version-number: '11.7'
   - name: SANtricity 软件
     url: "/e-series-santricity-116"
     version-number: '11.6'
-  - name: SANtricity 软件
-    url: "/e-series-santricity-115"
-    version-number: '11.5'
   langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: SANtricity 11.7文档
+  - title: SANtricity 11.8文档
     url: "/index.html"
   - title: 发行说明
     entries:
@@ -1428,6 +1428,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: 目录服务
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: "/um-certificates/access-management-with-saml.html"
       - title: 使用本地用户角色
         entries:
         - title: 查看本地用户角色
@@ -1444,6 +1446,14 @@ sidebar:
           url: "/um-certificates/edit-directory-server-settings-unified.html"
         - title: 删除目录服务器
           url: "/um-certificates/remove-directory-server-unified.html"
+      - title: 使用SAML
+        entries:
+        - title: 配置SAML
+          url: "/um-certificates/configure-saml.html"
+        - title: 更改SAML角色映射
+          url: "/um-certificates/change-saml-role-mappings.html"
+        - title: 导出SAML服务提供程序文件
+          url: "/um-certificates/export-saml-service-provider-files.html"
       - title: 常见问题解答
         entries:
         - title: 为什么我无法登录？
@@ -1452,6 +1462,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: 关于映射到存储阵列角色、我需要了解哪些信息？
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: 在配置和启用SAML之前、我需要了解哪些信息？
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: 本地用户有哪些？
           url: "/um-certificates/what-are-the-local-users.html"
   - title: 早期版本

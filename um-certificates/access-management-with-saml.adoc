@@ -1,0 +1,74 @@
+---
+permalink: um-certificates/access-management-with-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, saml 
+summary: '对于访问管理、管理员可以使用阵列中嵌入的安全断言标记语言(Security Assertion Markup Language、SAML) 2.0功能。' 
+---
+= 使用SAML进行访问管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于访问管理、管理员可以使用阵列中嵌入的安全断言标记语言(Security Assertion Markup Language、SAML) 2.0功能。
+
+
+
+== 配置工作流
+
+SAML配置的工作原理如下：
+
+. 管理员使用包含"安全管理员"权限的用户配置文件登录到Unified Manager。
++
+[NOTE]
+====
+`admin`用户可以完全访问System Manager中的所有功能。
+
+====
+. 管理员转到访问管理下的* SAML *选项卡。
+. 管理员配置与身份提供程序(Identity Provider、IdP)的通信。IdP是一种外部系统、用于向用户请求凭据并确定用户是否已成功通过身份验证。要配置与存储阵列的通信、管理员需要从Idp系统下载Idp元数据文件、然后使用Unified Manager将该文件上传到存储阵列。
+. 管理员在服务提供商和IdP之间建立信任关系。服务提供商负责控制用户授权；在这种情况下、存储阵列中的控制器充当服务提供商。要配置通信、管理员可使用Unified Manager导出控制器的服务提供商元数据文件。然后、管理员会从Idp系统将元数据文件导入到Idp中。
++
+[NOTE]
+====
+管理员还应确保IdP支持在身份验证时返回名称ID。
+
+====
+. 管理员会将存储阵列的角色映射到IdP中定义的用户属性。为此、管理员使用Unified Manager创建映射。
+. 管理员测试对IdP URL的SSO登录。此测试可确保存储阵列和IdP能够进行通信。
++
+[CAUTION]
+====
+启用SAML后、您无法通过用户界面将其禁用、也无法编辑IdP设置。如果需要禁用或编辑SAML配置、请联系技术支持以获得帮助。
+
+====
+. 在Unified Manager中、管理员可为存储阵列启用SAML。
+. 用户使用其SSO凭据登录到系统。
+
+
+
+
+== 管理
+
+使用SAML进行身份验证时、管理员可以执行以下管理任务：
+
+* 修改或创建新角色映射
+* 导出服务提供商文件
+
+
+
+
+== 访问限制
+
+启用SAML后、用户无法从原有Storage Manager界面发现或管理该阵列的存储。
+
+此外、以下客户端无法访问存储阵列服务和资源：
+
+* 企业管理窗口(EMW)
+* 命令行界面（ CLI ）
+* 软件开发人员套件(SDK)客户端
+* 带内客户端
+* HTTP基本身份验证REST API客户端
+* 使用标准REST API端点登录
+
