@@ -27,6 +27,9 @@ summary: 使用最新软件和NVSRAM升级一个或多个存储阵列、以确�
 
 
 
+
+IMPORTANT: 系统必须运行SANtricity OS 11.70.5才能升级到11.80.x或更高版本。
+
 .关于此任务
 ++++
 
