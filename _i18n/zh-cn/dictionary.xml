@@ -8260,7 +8260,6 @@
   <block id="e9c3b29b15baba5237733178dce80a59" category="paragraph">在证书管理中、您可以为托管Unified Manager的管理工作站配置证书、也可以为阵列中的控制器导入证书。</block>
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
-  <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">借助SANtricity 软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大程度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager界面</block>
   <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager界面</block>
@@ -8512,7 +8511,6 @@
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">使用管理主机证书</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">使用阵列证书</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理证书</block>
-  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 软件</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
   <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">如果您的防火墙阻止了这些ASUP派单的交付、请将以下URL添加到您的白名单中：<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
@@ -8741,4 +8739,5 @@
   <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">改进了磁盘池</block>
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">使用运行11.80或更高版本的控制器创建的磁盘池将为_Version 1_ Pool、而不是_Version 0_ Pool。如果存在_Version 1_磁盘池、则降级操作会受到限制。</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">可以在存储阵列配置文件中确定磁盘池的版本。</block>
+  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">借助SANtricity 11.80软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大限度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。</block>
 </blocks>

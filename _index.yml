@@ -1,6 +1,10 @@
 ---
 indexpage:
-  lead: 借助SANtricity 软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大程度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。
+  title: SANtricity软件文档11.80
+  summary: SANtricity System Manager和Unified Manager
+  keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
+    data analytics
+  lead: 借助SANtricity 11.80软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大限度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。
   tiles:
   - title: 入门
     links:

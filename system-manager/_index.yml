@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: 使用System Manager 11.8进行单阵列管理
+  summary: 您可以通过SANtricity 软件文档安装、设置和维护存储阵列。
+  keywords: santricity, install, setup, maintain, storage array
+  lead: 您可以通过SANtricity 软件文档安装、设置和维护存储阵列。
   tiles:
   - title: 设置阵列
     links:
