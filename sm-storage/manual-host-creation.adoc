@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/manual-host-creation.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manual, host, 
+summary: 创建主机是向存储阵列告知连接了哪些主机并允许对卷进行I/O访问所需的步骤之一。您只能手动创建主机。 
+---
+= 手动创建主机
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+创建主机是向存储阵列告知连接了哪些主机并允许对卷进行I/O访问所需的步骤之一。您只能手动创建主机。
+
+
+
+== 手动创建
+
+通过手动创建主机、您可以确保存储阵列控制器检测到的主机端口标识符与主机正确关联。
+
+在手动创建主机期间、您可以通过从列表中选择主机端口标识符或手动输入这些标识符来关联主机端口标识符。创建主机后，如果您计划共享对卷的访问，则可以为其分配卷或将其添加到主机集群。

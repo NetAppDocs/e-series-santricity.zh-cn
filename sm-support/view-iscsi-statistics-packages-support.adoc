@@ -17,8 +17,12 @@ summary: 您可以查看与存储阵列的iSCSI连接的相关数据。
 .关于此任务
 System Manager将显示这些类型的iSCSI统计信息。所有统计信息均为只读、无法设置。
 
+
+NOTE: System Manager中显示的统计信息类型取决于存储阵列的可用统计信息。
+
 * *以太网MAC统计信息*-提供介质访问控制(MAC)的统计信息。MAC还提供了一种称为物理地址或MAC地址的寻址机制。MAC地址是分配给每个网络适配器的唯一地址。MAC地址有助于将数据包传送到子网络中的目标。
 * *以太网TCP/IP统计信息*—提供TCP/IP的统计信息、即iSCSI设备的传输控制协议(Transmission Control Protocol、TCP)和Internet协议(Internet Protocol、IP)。通过TCP、联网主机上的应用程序可以创建彼此的连接、并通过这些连接以数据包的形式交换数据。IP是一种面向数据的协议、用于在数据包交换的网络间通信数据。IPv4统计信息和IPv6统计信息分别显示。
+* *Ethernet Kernel STATISTIMENTS*--提供iSCSI设备的平台内核驱动程序的统计信息。内核统计信息显示的网络数据与TCP/IP统计信息选项类似。但是、内核统计信息数据是从平台内核驱动程序收集的、而不是直接从iSCSI硬件收集的。
 * *本地目标/启动程序(协议)统计信息*—显示iSCSI目标的统计信息、该目标可对其存储介质进行块级访问、并显示在异步镜像操作中用作启动程序时存储阵列的iSCSI统计信息。
 * * DCBX运行状态统计信息*-显示各种数据中心桥接交换(DCBX)功能的运行状态。
 * * LLDP TLV统计信息*-显示链路层发现协议(Link Layer Discovery Protocol、LLDP)类型长度值(TLV)统计信息。

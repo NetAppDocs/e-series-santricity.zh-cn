@@ -364,8 +364,8 @@ sidebar:
           url: "/sm-storage/host-terminology.html"
         - title: 用于创建主机和分配卷的工作流
           url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
-        - title: 自动创建主机与手动创建主机
-          url: "/sm-storage/automatic-versus-manual-host-creation.html"
+        - title: 手动创建主机
+          url: "/sm-storage/manual-host-creation.html"
         - title: 如何分配卷
           url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
         - title: 访问卷
@@ -376,8 +376,6 @@ sidebar:
           url: "/sm-settings/default-host-operating-system-type.html"
       - title: 配置主机访问
         entries:
-        - title: 自动创建主机
-          url: "/sm-storage/create-host-automatically.html"
         - title: 手动创建主机
           url: "/sm-storage/create-host-manually.html"
         - title: 创建主机集群

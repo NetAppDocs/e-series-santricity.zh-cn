@@ -31,14 +31,13 @@ _host_是一种向存储阵列上的卷发送I/O的服务器。主机集群_是�
 
 == 如何配置主机和主机集群？
 
-要定义主机连接、您可以允许主机上下文代理(Host Context Agent、HCA)自动检测主机、也可以转到菜单：存储(Storage[Hosts])手动配置主机。如果您希望两个或更多主机共享对同一组卷的访问、则可以定义一个集群并将这些卷分配给该集群。
+要定义主机连接、您可以转到菜单：Storage[Hosts]以手动配置主机。如果您希望两个或更多主机共享对同一组卷的访问、则可以定义一个集群并将这些卷分配给该集群。
 
 了解更多信息。
 
-* link:automatic-versus-manual-host-creation.html["自动创建主机与手动创建主机"]
+* link:manual-host-creation.html["手动创建主机"]
 * link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["如何将卷分配给主机和主机集群"]
 * link:workflow-for-creating-hosts-and-assigning-volumes.html["用于创建主机和分配卷的工作流"]
-* link:create-host-automatically.html["自动创建主机"]
 * link:create-host-manually.html["手动创建主机"]
 * link:create-host-cluster.html["创建主机集群"]
 * link:assign-volumes.html["将卷分配给主机"]
