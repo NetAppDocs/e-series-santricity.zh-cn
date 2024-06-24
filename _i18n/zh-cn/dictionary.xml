@@ -2311,12 +2311,7 @@
   <block id="442fc72fb02307d7bb547f3a9e330e5f" category="list-text">如果存在多个驱动器类型相同的池、则会显示一条消息、指示System Manager无法自动为池推荐驱动器。但是、您可以手动将驱动器添加到现有池。</block>
   <block id="cfd5addb3d7e99111f81d8aa18f9a5aa" category="paragraph">要手动将驱动器添加到现有池：从"池和卷组"页面中、选择该池、然后单击*添加容量*。</block>
   <block id="499a0602905ccb67c6d649daa6d57413" category="summary">您可以为任何类型的应用程序创建工作负载。</block>
-  <block id="ef722b0d3f28d401f565985f472c4438" category="paragraph">System Manager建议仅为以下应用程序类型优化卷配置：</block>
-  <block id="f2087899e2afadc125d10b2957ade872" category="list-text">视频监控</block>
-  <block id="7cfedcca8ce6dbe00da8fe3e6fe966f8" category="list-text">VMware ESXi TM (适用于要与虚拟机文件系统结合使用的卷)</block>
   <block id="53d52e9f5e84c6e320cab61e6c75088f" category="paragraph">请牢记以下准则：</block>
-  <block id="d5f2262b63d7e86589dbf70c4e5e35b2" category="list-text">使用特定于应用程序的工作负载时、系统建议使用经过优化的卷配置、以最大程度地减少应用程序工作负载I/O与应用程序实例中的其他流量之间的争用。您可以查看建议的卷配置、然后使用添加/编辑卷对话框编辑、添加或删除系统建议的卷和特征。</block>
-  <block id="bf4bffd53bcd7e30e99315e12ac6f419" category="list-text">使用其他应用程序类型时、您可以使用添加/编辑卷对话框手动指定卷配置。</block>
   <block id="65d1a857de2802d1a9f3295655aaf36f" category="list-text">选择菜单：创建[工作负载]。</block>
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">此时将显示创建应用程序工作负载对话框。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">使用下拉列表选择要为其创建工作负载的应用程序类型、然后键入工作负载名称。</block>
@@ -8737,4 +8732,7 @@
   <block id="71f3dfbf2b051795606c83f3a9eae5ae" category="list-text">如果要查看驱动器，但显示了控制器和电源/风扇箱组件，请单击*Drives*选项卡。</block>
   <block id="581cfab734318e947b176853c8e56d50" category="paragraph">转到硬件页面、该页面以图形方式描绘了存储阵列的物理组件。您可以通过从磁盘架视图的右上角选择*驱动器*或*控制器*选项卡在阵列磁盘架的正面视图和背面视图之间进行切换。</block>
   <block id="c30b45aee772a1884388fa957f41c7d5" category="list-text">*单驱动器*—从磁盘架图中、找到要在阵列中物理定位的驱动器。(如果图中显示了控制器，请单击*Drives*选项卡。) 单击驱动器以显示其上下文菜单，然后选择*打开定位灯*。</block>
+  <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">一次最多只能将卷容量扩展到128 TiB。</block>
+  <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。</block>
+  <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">应用程序是指SQL Server或Exchange等软件。您可以定义一个或多个工作负载来支持每个应用程序。</block>
 </blocks>
