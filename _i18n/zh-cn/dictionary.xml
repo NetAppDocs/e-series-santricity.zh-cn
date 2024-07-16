@@ -8698,8 +8698,6 @@
   <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">以太网内核统计信息</block>
   <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">查看iSCSI统计信息包</block>
   <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">现在、System Manager中的查看iSCSI统计信息包页面提供了一个新的以太网内核统计信息选项。通过此新选项、您可以查看iSCSI设备的平台内核驱动程序的统计信息。有关详细信息，请参见<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
-  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">改进了System Manager中未分配和已启用安全保护的驱动器的筛选功能</block>
-  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">现在、在选择手动驱动器时、System Manager会筛选出未分配的驱动器和已启用安全保护的驱动器。因此、System Manager驱动器选择计数现在与命令行界面和REST API下的自动驱动器选择候选项列表匹配。现在、System Manager中的Unassigned和Secure Enabled驱动器也会应用一个唯一图标和悬停文本。</block>
   <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">增加了通过REST API端点阻止IP地址的功能</block>
   <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">现在、用户可以通过设置端点阻止特定IP地址 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。通过设置端点配置后、只有通过白列表指定的IP地址才能与存储设备进行通信。此新功能支持IPv4和IPv6地址列表。</block>
   <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter存储插件</block>
@@ -8735,4 +8733,8 @@
   <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">一次最多只能将卷容量扩展到128 TiB。</block>
   <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。</block>
   <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">应用程序是指SQL Server或Exchange等软件。您可以定义一个或多个工作负载来支持每个应用程序。</block>
+  <block id="16d708387aba5ea718421175893bd468" category="list-text">主卷和二级卷必须共享相同的驱动器类型。不支持在主卷和二级卷之间混用NVMe和SAS驱动器。</block>
+  <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">预留容量卷必须与其关联的镜像卷共享相同的驱动器类型。</block>
+  <block id="bf9f60c11f9080af705719592217436d" category="list-text">如果预留容量卷是在NVMe驱动器上创建的、则其镜像卷也必须在NVMe驱动器上创建。</block>
+  <block id="402b0811b7e491a20af6474c5296c733" category="list-text">如果预留容量卷是在SAS驱动器上创建的、则其镜像卷也必须在SAS驱动器上创建。</block>
 </blocks>
