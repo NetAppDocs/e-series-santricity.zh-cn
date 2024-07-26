@@ -8737,4 +8737,7 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">预留容量卷必须与其关联的镜像卷共享相同的驱动器类型。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">如果预留容量卷是在NVMe驱动器上创建的、则其镜像卷也必须在NVMe驱动器上创建。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">如果预留容量卷是在SAS驱动器上创建的、则其镜像卷也必须在SAS驱动器上创建。</block>
+  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">11.80.1R1中的新增功能</block>
+  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加了新的自签名和CA签名管理证书的密钥大小长度。</block>
+  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity系统管理器和Unified Manager应用程序自签名证书的管理证书密钥大小长度已从2048位修改为3072位。此更改将应用于SANtricity应用程序中新生成的自签名证书和CA签名证书。密钥长度是固定的、不受NV遭受NV遭受 中默认密钥大小定义的影响。</block>
 </blocks>
