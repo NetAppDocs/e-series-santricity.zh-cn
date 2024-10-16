@@ -8741,4 +8741,8 @@
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加了新的自签名和CA签名管理证书的密钥大小长度。</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity系统管理器和Unified Manager应用程序自签名证书的管理证书密钥大小长度已从2048位修改为3072位。此更改将应用于SANtricity应用程序中新生成的自签名证书和CA签名证书。密钥长度是固定的、不受NV遭受NV遭受 中默认密钥大小定义的影响。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">已清除ARVM</block>
+  <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">副本源卷和目标卷必须具有相同的报告主机可寻址/逻辑块大小(扇区大小)。</block>
+  <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">报告的卷块大小为：</block>
+  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">*本机块大小*—卷的块大小与驱动器块大小匹配、可以是512或4K。</block>
+  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">*模拟512块大小*—驱动器为4 k、但报告的块大小为512。</block>
 </blocks>
