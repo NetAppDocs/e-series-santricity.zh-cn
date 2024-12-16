@@ -8697,4 +8697,29 @@
   <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">使用System Manager 11.9进行单阵列管理</block>
   <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">使用Unified Manager 7进行多阵列管理</block>
   <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9文档</block>
+  <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">借助SANtricity 11.90软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大限度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。</block>
+  <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricity软件文档11.90</block>
+  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">SANtricity System Manager和Unified Manager</block>
+  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager界面</block>
+  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager界面</block>
+  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 软件产品规格</block>
+  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文档</block>
+  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E系列系统文档</block>
+  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">命令行界面（ CLI ）参考</block>
+  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">SANtricity API</block>
+  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">Web 服务</block>
+  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">适用于 vCenter 的插件</block>
+  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S 提供程序</block>
+  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">性能应用程序和附加项</block>
+  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">适用于 Splunk Enterprise 的 SANtricity 应用</block>
+  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">适用于 SANtricity 的 Splunk 技术附加项</block>
+  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">采用 E 系列 + Grafana 的性能分析器</block>
+  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">有关 E 系列性能分析器的博客</block>
+  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">对于 SE</block>
+  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E 系列 /EF 系列技术培训（需要登录）</block>
+  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300 概述和技术详细信息（需要登录）</block>
+  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion （需要登录）</block>
+  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">工具和支持</block>
+  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ （需要登录）</block>
+  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E 系列 /SANtricity 下载（需要登录）</block>
 </blocks>
