@@ -13,4 +13,4 @@ summary: 下图说明了如何配置主机访问。
 [role="lead"]
 下图说明了如何配置主机访问。
 
-image::../media/sam1130-flw-hosts-create-host.gif[sam1130 FLW主机创建主机]
+image::../media/sam1130-flw-hosts-create-host.gif[配置主机工作流]

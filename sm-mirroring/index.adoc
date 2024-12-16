@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity系统管理器11.8.
+= SANtricity系统管理器11.9.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以通过SANtricity系统管理器管理异步镜像和同步镜像。

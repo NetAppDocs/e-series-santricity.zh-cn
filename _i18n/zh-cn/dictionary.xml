@@ -84,22 +84,17 @@
   <block id="0b06dce9e1b3bc7d8372cf18b3a233ff" category="paragraph">如果池或卷组支持冗余并处于最佳状态、则可以使用联机方法升级驱动器固件。联机方法会在存储阵列处理使用这些驱动器的关联卷的I/O时下载firmware _o。您不必停止使用这些驱动器的关联卷的I/O。这些驱动器一次升级一个、并升级到与这些驱动器关联的卷。如果驱动器未分配给池或卷组、则可以使用联机或脱机方法更新其固件。使用联机方法升级驱动器固件时、系统性能可能会受到影响。</block>
   <block id="82590f18903227ef866c105265e29c64" category="list-text">* 脱机 *</block>
   <block id="1b6b2f17142a5a59bae91fead9eea84e" category="paragraph">如果池或卷组不支持冗余(RAID 0)或已降级、则必须使用脱机方法升级驱动器固件。脱机方法将在所有I/O活动均已停止时升级固件_only、并使用这些驱动器将其升级到关联卷。您必须停止使用这些驱动器的任何关联卷的所有I/O。如果驱动器未分配给池或卷组、则可以使用联机或脱机方法更新其固件。</block>
-  <block id="3962c67157856b85df4c5309ed0a5d1c" category="summary">AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付派单。</block>
   <block id="37d2d3abeb0c853792589ef5ef3ca6e2" category="doc">配置 AutoSupport 交付方法</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">开始之前</block>
   <block id="951f23f38a775d7b989c10f181c6a5fb" category="list-text">必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。</block>
   <block id="eafe9700c0de4e0a4bf96ea8a52637c2" category="list-text">必须在网络中安装和配置DNS服务器。必须在System Manager中配置DNS服务器地址(此任务可从硬件页面访问)。</block>
   <block id="f869702509af8522ab5a8d9317437a5c" category="paragraph">查看不同的协议：</block>
   <block id="c320b46bad703dba81e017b358d86d07" category="list-text">* HTTPS *-允许您使用HTTPS直接连接到目标技术支持服务器。如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。</block>
-  <block id="85f5b44a49dc590cf656c27a9db9e5aa" category="list-text">"* HTTP*"-允许您使用HTTP直接连接到目标技术支持服务器。</block>
   <block id="5b999ecb8bff8dd3f70944baa491c671" category="list-text">*电子邮件*-用于使用电子邮件服务器作为发送AutoSupport 派单的传送方法。</block>
-  <block id="4b14e85f50ab6574b52c5f3998e5d090" category="paragraph">* HTTPS/HTTP与电子邮件方法之间的差异*。使用SMTP的电子邮件传送方法与HTTPS和HTTP传送方法有一些重要区别。首先、电子邮件方法的派单大小限制为5 MB、这意味着不会派送某些ASUP数据收集。其次、AutoSupport OnDemand功能仅适用于htmpp和HTTPS方法。</block>
   <block id="ad0299a08f3ae4e0e7821efec30e957c" category="list-text">选择菜单：Support[支持中心&gt; AutoSupport ]选项卡。</block>
   <block id="d15ef58f591a31679a31fd6a6870c0f9" category="list-text">选择 * 配置 AutoSupport 交付方法 * 。</block>
   <block id="b0e813c1d02ae767a417776fd8a8e6f9" category="paragraph">此时将显示一个对话框、其中列出了派单交付方法。</block>
   <block id="c143b9caf0caf400d47403e99931103b" category="list-text">选择所需的交付方法、然后选择该交付方法的参数。执行以下操作之一：</block>
-  <block id="973964a77df9b69b12f27d0b8d26cc36" category="list-text">如果选择HTTPS或HTTP、请选择以下传输参数之一：</block>
-  <block id="46c1790980160f29ebbcc3dd7c68f99a" category="list-text">*直接*—此传送参数为默认选择。通过选择此选项、您可以使用HTTPS或HTTP协议直接连接到目标技术支持系统。</block>
   <block id="9ba064119aa4adae0694381c00680251" category="list-text">*通过代理服务器*-选择此选项可以指定与目标技术支持系统建立连接所需的HTTP代理服务器详细信息。您必须指定主机地址和端口号。但是、如果需要、您只需要输入主机身份验证详细信息(用户名和密码)。</block>
   <block id="6a5001d36e6f16c8e2ba0dd5fc89f8de" category="list-text">*通过代理自动配置脚本(PAC)*—指定代理自动配置(PAC)脚本文件的位置。通过PAC文件、系统可以自动选择适当的代理服务器、以便与目标技术支持系统建立连接。</block>
   <block id="88816662b2b289f8f26259414739e64d" category="list-text">如果选择了电子邮件、请输入以下信息：</block>
@@ -129,9 +124,6 @@
   <block id="e6f2dc3aa8152d09abac598a55e9366f" category="list-text">如果驱动器只能脱机升级、则与驱动器关联的所有卷的I/O活动将停止。</block>
   <block id="a56e70035fdf4b7df936ab775f083aa4" category="list-text">选择菜单：Support[升级中心]。</block>
   <block id="27cbc683bae5b0ae674e1f14b28ba85b" category="list-text">将新文件从支持站点下载到您的管理客户端。</block>
-  <block id="1e85b82464e0b22d88d33677019d1e27" category="list-text">在驱动器固件升级下、单击* NetApp支持*。</block>
-  <block id="7c281e9bad492c4969c4b81a96defe2b" category="list-text">在NetApp支持网站上、单击*下载*选项卡。</block>
-  <block id="15e64f7564367057ae54ac605577e0dc" category="list-text">选择*磁盘驱动器和固件列表*。</block>
   <block id="97ee451d6d95940738f8ea5c329f19b4" category="list-text">按照其余说明进行操作。</block>
   <block id="953a296f7b11258e3941c8cf2edc32a6" category="list-text">在驱动器固件升级下、单击*开始升级*。</block>
   <block id="dc37cd015f10fb7e350ecaeb555ca0c1" category="paragraph">此时将显示一个对话框，其中列出了当前正在使用的驱动器固件文件。</block>
@@ -290,7 +282,6 @@
   <block id="89e45886f102955a4b94fde5cfd472f2" category="list-text">* 控制器 NVSRA* - 控制器 NVSRAM 是一个控制器文件，用于指定控制器的默认设置。</block>
   <block id="9a117d24c5148683876d0d0084de9881" category="list-text">* IOM 固件 * — I/O 模块（ IOM ）固件用于管理控制器与驱动器架之间的连接。它还会监控组件的状态。</block>
   <block id="096ea47ee097c078c09c6a83f880a840" category="list-text">* 监控软件 * —监控软件是运行该软件的控制器上的虚拟机。</block>
-  <block id="672f902afa2aa052ec3b55b9e3e0dfc2" category="image-alt">3个1130 dwg升级固件位置</block>
   <block id="d44c72698d05ea141ed24d5313992baa" category="paragraph">^1^控制器架；^2^驱动器架；^3^软件、控制器固件、控制器NVSRAM、 监控软件；^4^驱动器固件；^5^ IOM固件；^6^驱动器固件</block>
   <block id="f13ad633a10532a718e640963e25ba41" category="paragraph">您可以在软件和固件清单对话框中查看当前软件和固件版本。转到菜单： Support[ 升级中心 ] ，然后单击 * 软件和固件清单 * 链接。</block>
   <block id="521132bf11403dff3ed68f00e8e5203a" category="inline-link">NetApp互操作性表工具</block>
@@ -467,11 +458,9 @@
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">在驱动器固件的联机升级期间、如果在快速重建过程中发生卷传输、系统将对传输的卷启动完全重建。此操作可能需要相当长的时间。实际完整重建时间取决于多个因素、包括重建操作期间发生的I/O活动量、卷组中的驱动器数量、重建优先级设置以及驱动器性能。</block>
   <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤升级控制器软件和固件。</block>
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">控制器软件和固件升级工作流</block>
-  <block id="361638f3fa2ab614b999cb442c3951ea" category="image-alt">sam1130 FLW固件升级</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤配置AutoSupport 功能。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 功能的工作流</block>
   <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">在System Manager中、您可以按照以下步骤配置AutoSupport 功能。</block>
-  <block id="3bd2ffe663bb769bb020a0e8f968a73a" category="image-alt">sam1130 FLW支持asup设置</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">禁用AutoSupport 维护窗口以允许在发生错误事件时自动创建服务单。禁用AutoSupport 维护窗口后、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">禁用AutoSupport 维护窗口</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">选择*禁用AutoSupport 维护窗口*。</block>
@@ -602,10 +591,8 @@
   <block id="6b82b68ee8e8a0e879e030cb59f06c65" category="list-text">选择要升级的文件时，将显示该文件的名称和大小。</block>
   <block id="b4d85d3d8454e416a479e3769d949502" category="list-text">*可选：*如果您选择了要升级的SANtricity 操作系统软件文件、则可以通过选中*立即传输文件、但不升级(稍后激活升级)*复选框将文件传输到控制器而不激活这些文件。</block>
   <block id="ea05f78407f270e18e03bc081fe2f071" category="paragraph">您可以在升级前运行状况检查期间取消此操作，但不能在传输或激活期间取消此操作。</block>
-  <block id="46b89af2910d7de7887ff8b8413a9c3c" category="summary">AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持提供AutoSupport 派单。</block>
   <block id="bc878a19fc67131e8323da1e755255c2" category="doc">如何配置AutoSupport 功能的交付方法？</block>
   <block id="3419a57dc78279b5f8f98de3be93468b" category="list-text">*可选；如果要执行配置测试。* AutoSupport 系统收到测试派单时发送确认的电子邮件地址。</block>
-  <block id="e35d3866f0babedb61a0f1ba9102cafd" category="doc">SANtricity System Manager 11.7</block>
   <block id="86a5e8630ff2e8e28a803ee84068ba6d" category="summary">您可以向控制器指示已采取更正操作、以便从连线错误情况中恢复。</block>
   <block id="78806e8c631b37f7ad8cf035c7be2eac" category="doc">重新启用驱动器端口</block>
   <block id="fb3b0604ba7738bb6c94dfbfcd5c4174" category="list-text">选择*重新启用驱动器端口*、然后确认要执行此操作。</block>
@@ -933,9 +920,7 @@
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">在System Manager中、您可以按照以下步骤创建快照映像和快照卷。</block>
   <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">用于创建快照映像和快照卷的工作流</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">创建快照映像的工作流</block>
-  <block id="ef8bf440f203714f31690f3269f2a3be" category="image-alt">Sam1130 FLW快照可创建ss映像</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">用于创建快照卷的工作流</block>
-  <block id="12da876cc8c4d30e71fe2566936ae1bc" category="image-alt">Sam1130 FLW快照可创建ss卷</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">您可以配置主机和主机集群、从而定义存储阵列与数据服务器之间的连接。</block>
   <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">主机和主机集群概述</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">什么是主机和主机集群？</block>
@@ -969,7 +954,6 @@
   <block id="2d14e3e7721fd1f9209015ea0e5f0a3d" category="doc">Snapshot卷</block>
   <block id="65ecf2a2337dcf0c18a07aebad2467c3" category="paragraph">创建快照卷时、您可以将其指定为_read-onl_y或_read-write accessible_。</block>
   <block id="6fae9866cf5b41c3c43499004314830d" category="paragraph">创建只读Snapshot卷时、不需要添加预留容量。创建读写Snapshot卷时、必须添加预留容量以提供写入访问。</block>
-  <block id="0826f71e74c63bde050daa130916d6c1" category="image-alt">sam1130 dwg snapshots volumes概述</block>
   <block id="9532d122b8f06dcd16ac244c1dc2cf91" category="paragraph">^1^基本卷；^2^主机；^3^只读快照卷；^4^读写快照卷；^5^预留容量</block>
   <block id="0119bd5e8a06e57edb9b364c59ac94ab" category="summary">如果未分配一部分容量、SSD驱动器的使用寿命将会延长、并且最大写入性能也会提高。</block>
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">什么是池的优化容量？</block>
@@ -1284,7 +1268,6 @@
   <block id="0f5df647ca5dab4ee03a26732709068f" category="list-text">池中允许的最大卷数取决于存储系统型号：</block>
   <block id="4c54c92d3510c01a7395053d83e94ed9" category="list-text">2、048个卷(EF600和E5700系列)</block>
   <block id="aff83888aa4f8769518fc32e759fbbe3" category="list-text">1、024个卷(EF300)</block>
-  <block id="bbacc09876e48d4a13adc409b0903156" category="list-text">512个卷(E2800系列)</block>
   <block id="05b93f6f166f69fe87a016a1bfa75578" category="list-text">如果池或卷组包含所有支持安全的驱动器、请仅添加支持安全的驱动器、以继续使用支持安全的驱动器的加密功能。</block>
   <block id="3cebaa2c5445065ae59be02b02aebe90" category="paragraph">支持安全的驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。</block>
   <block id="f62b6a7943693e0c4263ed7095ad9c21" category="paragraph">对于池、一次最多可以添加60个驱动器。对于卷组、一次最多可以添加两个驱动器。如果需要添加的驱动器数超过最大数量、请重复执行操作步骤。(池中的驱动器数不能超过存储系统的最大限制。)</block>
@@ -1534,7 +1517,6 @@
   <block id="cb3a5458bc09e67d6ef6ce205d17d738" category="paragraph">a _base volume"是用作快照映像源的卷。基础卷可以是厚卷、也可以是精简卷、并且可以驻留在池或卷组中。</block>
   <block id="1720719bd157b93b853ddc78630f4791" category="paragraph">要为基础卷创建快照、您可以随时创建即时映像、也可以通过为快照定义定期计划来自动执行此过程。</block>
   <block id="60d9df749d5dab9aa5752ca06b11d535" category="paragraph">下图显示了快照对象与基础卷之间的关系。</block>
-  <block id="3c42e408027c4d66c652218a672a0fe9" category="image-alt">sam1130 dwg Snapshot映像概述</block>
   <block id="949c7d49ab9f67bc9d5777be798b8db7" category="paragraph">^1^基础卷；^2^组中的Snapshot对象(映像和预留容量)；^3^ Snapshot组的预留容量。</block>
   <block id="1e6dcc27b41dd29b57867b26a6a96089" category="section-title">预留容量和快照组</block>
   <block id="26ec84fa5045ca48c0f10d38ca70a090" category="paragraph">System Manager会将快照映像组织为_snapshot groups_.当System Manager建立快照组时、它会自动创建关联的_reserved capacity_、以存放组的快照映像并跟踪后续对其他快照所做的更改。</block>
@@ -1558,7 +1540,6 @@
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">您可以从*池和卷组*更改保留容量。选择要编辑的池。单击*查看/编辑设置*、然后选择*设置*选项卡。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">保留容量指定为多个驱动器、即使实际保留容量分布在池中的驱动器之间也是如此。</block>
   <block id="46c0ce9f7787b7e7378014c3a3284d40" category="summary">下图说明了如何配置主机访问。</block>
-  <block id="5b21f20110107659dd5875988b3409f2" category="image-alt">sam1130 FLW主机创建主机</block>
   <block id="122f46bed4564e906a8313a3e36d3a7f" category="summary">选定卷组可能具有一个或多个可用容量区域。可用容量区域是指删除卷或在创建卷期间未使用所有可用容量时可能产生的可用容量。</block>
   <block id="829adcf34027420aed066d1231af1c87" category="doc">当卷组中有足够的可用容量来创建卷时、为什么会出现容量过度分配错误？</block>
   <block id="5d3f0d326f2cb1c02cf46b35d7f72e22" category="paragraph">在卷组中创建具有一个或多个可用容量区域的卷时、卷的容量将限制为该卷组中最大的可用容量区域。例如、如果一个卷组的可用容量总计为15 GiB、而最大可用容量区域为10 GiB、则可以创建的最大卷为10 GiB。</block>
@@ -3367,7 +3348,6 @@
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">监控精简卷</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤创建卷。</block>
   <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">在System Manager中、您可以按照以下步骤创建卷。</block>
-  <block id="8774cdb9b7bf373fd360b697dfc73074" category="image-alt">创建sam1130 FLW卷</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">您可以将新成员卷添加到现有快照一致性组。添加新成员卷时、还必须为成员卷预留容量。</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">将成员卷添加到快照一致性组</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">成员卷必须是最佳卷。</block>
@@ -3702,14 +3682,12 @@
   <block id="c256ddae26373a7f962ae46e150c1562" category="list-text">* Snapshot一致性组回滚*、可用于回滚一个或多个卷。</block>
   <block id="29012892288d1b7c8f199a16332574cb" category="paragraph">回滚期间、Snapshot功能会保留组中的所有快照映像。此外、如果I/O操作需要、还允许主机在此过程中访问基础卷。</block>
   <block id="de283d7a9098bcc219049cc5e14d0cc8" category="paragraph">启动回滚后、后台进程会扫描基础卷的逻辑块地址(Logical Block Address、LBA)、然后在要还原的回滚快照映像中查找写时复制数据。由于基础卷可通过主机访问进行读取和写入、并且所有先前写入的数据均可立即使用、因此预留容量卷必须足够大、以便在回滚过程中包含所有更改。数据传输将作为后台操作继续进行、直到回滚完成。</block>
-  <block id="5daf01f3f17796b27d7771d6cb582f2c" category="image-alt">sam1130 dwg快照回滚概述</block>
   <block id="743f86d79c37270dc505fe437c1f1c6c" category="paragraph">^1^基本卷；^2^组中的Snapshot对象；^3^ Snapshot组预留容量</block>
   <block id="b351750a3483384d9ab2a934dc160e1e" category="summary">要配置存储、请创建一个池或卷组、其中包含要在存储阵列中使用的硬盘驱动器(HDD)或固态磁盘(SSD)驱动器。</block>
   <block id="b2a1cbc18a64861cce318c44b2aa52f9" category="paragraph">物理硬件配置到逻辑组件中、以便对数据进行组织并轻松检索。支持两种类型的分组：</block>
   <block id="283176e6feb211f8532b2c7c9263cd08" category="list-text">池</block>
   <block id="90b66a5ef079dd6fe113e4666b593730" category="list-text">RAID卷组</block>
   <block id="6b4c11beddbb9d9050898c59e3a7253a" category="paragraph">池和卷组是存储阵列中的顶级存储单元：它们将驱动器的容量划分为可管理的分区。在这些逻辑分区中、是指存储数据的单个卷或LUN。下图说明了这一概念。</block>
-  <block id="bde5bcac86e6435e52adb5ab2ea9b873" category="image-alt">sam1130 dwg卷驱动结构池和卷组</block>
   <block id="102f77a09364193fdbcfe0eb0664ecdb" category="paragraph">^1^主机LUN；^2^卷；^3^卷组或池；^4^ HDD或SSD驱动器</block>
   <block id="9bb34d4088b730e51b652e6baa391ce1" category="paragraph">部署存储系统后、第一步是通过以下方式向各种主机提供可用驱动器容量：</block>
   <block id="161f7520d335e2bd5a9c12746d44848c" category="list-text">创建具有足够容量的池或卷组</block>
@@ -3780,7 +3758,6 @@
   <block id="cf1d844a7c0925859af01a6a7723042e" category="paragraph">创建快照时、Snapshot功能会按如下方式存储映像数据：</block>
   <block id="4d597b8796cba4c28f3bbfe445110674" category="list-text">创建快照映像时、该映像与基础卷完全匹配。Snapshot功能使用写时复制技术。创建快照后、首次写入基础卷上的任何块或块集将导致原始数据复制到预留容量、然后再将新数据写入基础卷。</block>
   <block id="9dacefe95d818773369a9797ff2a929a" category="list-text">后续快照仅包含已更改的数据块。在基础卷上覆盖数据之前、Snapshot功能会使用其写入时复制技术将受影响扇区的所需映像保存到Snapshot预留容量中。</block>
-  <block id="1886962b4901912e6cd5b15cf8ec8801" category="image-alt">sam1130 dwg snapshots COW概述</block>
   <block id="939b092d6e7a8a3b4a205c55c9e2ae72" category="paragraph">^1^基础卷(物理磁盘容量)；^2^ Snapshot (逻辑磁盘容量)；^3^预留容量(物理磁盘容量)</block>
   <block id="d47ce171ec06ec6f652ca0dd7e6f39ae" category="list-text">预留容量用于存储在创建快照后发生更改的基础卷部分的原始数据块、并包含用于跟踪更改的索引。通常、预留容量的大小默认为基础卷的40%。(如果需要更多预留容量、可以增加预留容量。)</block>
   <block id="4049e112b53e70c18a06540b7b2c149e" category="list-text">Snapshot映像会根据其时间戳按特定顺序进行存储。只能手动删除基础卷中最早的快照映像。</block>
@@ -3817,7 +3794,6 @@
   <block id="0df2c1ef0ce0fbcc26d3b077b4376a4c" category="paragraph">如果要自动为基础卷创建快照、可以创建计划。例如、您可以定义一个计划、以便在每个星期六的午夜、每个月的第一个或您决定的任何日期和时间生成快照映像。在一个计划达到最多32个快照后、您可以暂停计划快照、创建更多预留容量、也可以删除快照。可以手动删除快照、也可以通过自动删除过程来删除快照。删除快照映像后、可以重复使用额外的预留容量。</block>
   <block id="2698e3159f430fff009f6ab0419d150a" category="paragraph">如果要确保同时在多个卷上创建快照映像、请创建快照一致性组。快照映像操作作为一个整体对快照一致性组执行。例如、您可以为所有卷计划具有相同时间戳的同步快照。Snapshot一致性组非常适合跨越多个卷的应用程序、例如将日志存储在一个卷上的数据库应用程序和将数据库文件存储在另一个卷上的数据库应用程序。</block>
   <block id="17963740167151a850181d7e3b2adbf4" category="paragraph">快照一致性组中包含的卷称为成员卷。将卷添加到一致性组时、System Manager会自动创建与该成员卷对应的新预留容量。您可以定义一个计划来自动为每个成员卷创建快照映像。</block>
-  <block id="6e72b0870329f5e5695688a38e389963" category="image-alt">sam1130 dwg快照一致性组概述</block>
   <block id="6e30b92634e631be134cb29b1703e5d9" category="paragraph">^1^预留容量；^2^成员卷；^3^一致性组快照映像</block>
   <block id="1d4472085ff5c57f99260a8d83a61773" category="summary">通常、如果创建的卷参数或容量不正确、不再满足存储配置需求或不再需要用于备份或应用程序测试的快照映像、则可以删除这些卷。</block>
   <block id="2a5d42c6975b7c52552f8b0c2c053b53" category="doc">删除卷</block>
@@ -3952,38 +3928,23 @@
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 系统管理器</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager 是嵌入在每个控制器上的基于 Web 的管理软件。要访问用户界面，请将浏览器指向控制器的 IP 地址。设置向导可帮助您开始进行系统配置。</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager 提供了多种管理功能，包括：</block>
-  <block id="37e0eabe0db7567f83a15c51cfc7f62b" category="paragraph"><block ref="61a24b2f3f51ec993b798d3c93abc9a9" category="inline-image-macro-rx" type="image"></block> * 性能 *</block>
   <block id="49ef72f729cb2500435ef1d7e5672053" category="paragraph">查看长达 30 天的性能数据，包括 I/O 延迟， IOPS ， CPU 利用率和吞吐量。</block>
-  <block id="d077770f6c426b33d25496bb584152ca" category="paragraph"><block ref="2b8e9400dd2a90490b7f2301bce6baac" category="inline-image-macro-rx" type="image"></block> * 存储 *</block>
   <block id="987074589fc47a7aa68d608c3464d41a" category="paragraph">使用池或卷组配置存储，并创建应用程序工作负载。</block>
-  <block id="ef25e758b013c77d331d54b5a937ca65" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * 数据保护 *</block>
   <block id="ec407aec27145b4ff02c44781ce9e135" category="paragraph">使用快照，卷副本和远程镜像执行备份和灾难恢复。</block>
-  <block id="980c8bebfcdb099cc91097e43759f417" category="paragraph"><block ref="1cfcec4b7f25019c12aee363ce7c9444" category="inline-image-macro-rx" type="image"></block> * 硬件 *</block>
   <block id="3a6878cac28e93bf631464503ea3e934" category="paragraph">检查组件状态并执行与这些组件相关的某些功能，例如分配热备用驱动器。</block>
-  <block id="f5c518a85015755d3396b4026585e075" category="paragraph"><block ref="7ff49474879db117ddc1b65a56fce106" category="inline-image-macro-rx" type="image"></block> * 警报 *</block>
   <block id="ddd62c374f39f4ab4e5a47f8712f1c7f" category="paragraph">向管理员通知存储阵列上发生的重要事件。可以通过电子邮件， SNMP 陷阱和系统日志发送警报。</block>
-  <block id="298faae53f1ac6f667f02b9eb9f5db62" category="paragraph"><block ref="8b3d1866c22370963ba5ee92059dde1f" category="inline-image-macro-rx" type="image"></block> * 访问管理 *</block>
   <block id="1647e643a86377bf1183456ade80f147" category="paragraph">配置用户身份验证，以要求用户使用分配的凭据登录到系统。</block>
-  <block id="2181e90bce3fbba0064bba8979a73785" category="paragraph"><block ref="d7bb0967f8390bbd248bce2a64a154c4" category="inline-image-macro-rx" type="image"></block> * 系统设置 *</block>
   <block id="ad036b77d0c0303ed4cd8909da482696" category="paragraph">配置其他系统性能功能，例如 SSD 缓存和自动加载平衡。</block>
-  <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> * 支持 *</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">查看诊断数据，管理升级和配置 AutoSupport ，此功能可监控存储阵列的运行状况并将自动派单发送给技术支持。</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">SANtricity 统一管理器</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager 与 Web 服务代理一起安装在管理服务器上。要访问 Unified Manager ，请打开浏览器并输入指向安装了 Web 服务代理的服务器的 URL 。</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager 提供了多种管理功能，包括：</block>
-  <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> * 发现存储阵列 *</block>
   <block id="7f20599d33f14ce1ff7f9b70fb7b73be" category="paragraph">找到并添加要在组织网络中管理的存储阵列。然后，您可以从一个页面查看所有存储阵列的状态。</block>
-  <block id="b75af52589fb3d827f749ab189b58662" category="paragraph"><block ref="89f556efb7ed2a89297bc4c82965906f" category="inline-image-macro-rx" type="image"></block> * 启动 *</block>
   <block id="3fde700fe4a62ce78ac2289fa0a5e46e" category="paragraph">打开 System Manager 实例，对特定存储阵列执行单独的管理操作。</block>
-  <block id="b6be670ccf213da236af7b81b5bfb3d2" category="paragraph"><block ref="3dffbd5d736527ecd51b6202313920e7" category="inline-image-macro-rx" type="image"></block> * 导入设置 *</block>
   <block id="6343245a56c402a6a6194f98f3011e1c" category="paragraph">执行从一个存储阵列到多个阵列的批量导入，包括警报， AutoSupport 和目录服务的设置。</block>
-  <block id="6e9864cc30786ef1aa9a05b3bcbc1f77" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * 镜像 *</block>
   <block id="b3bcc5301536e767580cb521ea8a9168" category="paragraph">在两个存储阵列之间配置异步或同步镜像对。</block>
-  <block id="1bd3e4c10268fad374e342773a76ebe0" category="paragraph"><block ref="264f7a0a6d9627b72e0ff1e75bd955e1" category="inline-image-macro-rx" type="image"></block> * 管理组 *</block>
   <block id="909ebd15eb02815e3d2963dd3edfd9f6" category="paragraph">将存储阵列组织成组，以便于管理。</block>
-  <block id="5e703a60d5f347789f2f9c95020041b5" category="paragraph"><block ref="948395b1a333fdf5713da99763fb9a82" category="inline-image-macro-rx" type="image"></block> * 升级中心 *</block>
   <block id="cadb34e6a3f0b6fef8b65f6b4f83fbd0" category="paragraph">升级多个存储阵列上的 SANtricity OS 软件。</block>
-  <block id="f2debbf0049c9d07a452e7b8f7f8512e" category="paragraph"><block ref="8e9d51ab38f1ad95d1018824362f594b" category="inline-image-macro-rx" type="image"></block> * 证书 *</block>
   <block id="d4d6f2044fbcdd351a413cab792d2d9c" category="paragraph">为多个存储阵列创建证书签名请求（ CSR ），导入证书以及管理现有证书。</block>
   <block id="121cd24338b48712373ab15539868779" category="paragraph">配置用户身份验证，以要求用户使用分配的凭据登录到 Unified Manager 。</block>
   <block id="2267c82d1c72461539c8aaceb4073489" category="summary">可以从多种类型的浏览器和操作系统访问SANtricity。</block>
@@ -4130,12 +4091,8 @@
   <block id="8f67973007158337346584551b093be8" category="section-title">图标</block>
   <block id="e59947ee445b1ddcb1b36e841922561d" category="paragraph">System Manager可使用这些图标指示存储阵列及其组件的状态。</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">图标。</block>
-  <block id="01e8bed710d86952b17238abf140b392" category="paragraph"><block ref="01e8bed710d86952b17238abf140b392" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a8cf90c6e77913075cd51690f39183a" category="paragraph"><block ref="2a8cf90c6e77913075cd51690f39183a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6219fae40a2fc5edda2e7d21837dd11" category="paragraph">非最佳或出现故障</block>
-  <block id="8b05fcd83de6b1289431c5434b4cd1e4" category="paragraph"><block ref="8b05fcd83de6b1289431c5434b4cd1e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e5e827d704d9b760ff1b338673a2c44" category="paragraph">需要注意或修复</block>
-  <block id="026dd9b4d4767dc7f75d65a335da0f71" category="paragraph"><block ref="026dd9b4d4767dc7f75d65a335da0f71" category="inline-image-macro-rx" type="image"></block></block>
   <block id="764a2caff05993fc0d3eff5de7b225e9" category="paragraph">小心</block>
   <block id="dab64d84f160f1ff1bd1dd11088b61a0" category="paragraph">System Manager会在不同位置显示这些图标。</block>
   <block id="9acd806686dd3234546b1446cdcad0cf" category="list-text">主页页面上的通知区域将显示失败图标和消息。</block>
@@ -4203,7 +4160,6 @@
   <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">要访问AutoSupport 交付方法的配置任务、请转到"支持"&gt;"支持中心"、然后单击AutoSupport 选项卡。</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">如何配置AutoSupport 的交付方法？</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">要访问AutoSupport 交付方法的配置任务、请转到菜单：Support[支持中心]、然后单击* AutoSupport *选项卡。</block>
-  <block id="825eddaaf48335688b9a86b051806f05" category="paragraph">支持以下协议：HTTPS、HTTP和SMTP。</block>
   <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。</block>
   <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">如果我看不到所有硬件组件、该怎么办？</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。</block>
@@ -5261,7 +5217,6 @@
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
   <block id="a337faa8760a049e5437a14ea0619b53" category="list-text"><block ref="a337faa8760a049e5437a14ea0619b53" category="inline-link-macro-rx"></block></block>
   <block id="6a2301b626e4d2e000e656bf3239c947" category="section-title">如何配置签名证书？</block>
-  <block id="df65c54a9ec9667bc0283e4aa5ad95a8" category="paragraph">首先从System Manager生成签名请求、然后将文件发送到CA。CA返回证书文件后、您可以使用System Manager导入这些文件。</block>
   <block id="07b1dc7e9a4e74582b63a798f9592f98" category="inline-link-macro">对控制器使用CA签名的证书</block>
   <block id="f30ef1f319818cb54733253443bc4c9a" category="list-text"><block ref="f30ef1f319818cb54733253443bc4c9a" category="inline-link-macro-rx"></block></block>
   <block id="b84682914017c3d657e4a2beaf4a9364" category="paragraph">详细了解与证书相关的任务：</block>
@@ -5470,7 +5425,6 @@
   <block id="3f6d42cf2d512ac8441835feb20c48df" category="list-text">在*连接到密钥服务器*下、在以下字段中输入信息。</block>
   <block id="e65d78a6632588942ba1e69897ae60a7" category="list-text">*密钥管理端口号*-输入用于KMIP通信的端口号。用于密钥管理服务器通信的最常见端口号是5696。</block>
   <block id="faad8801d23a759f57b190bd195325f9" category="list-text">*选择客户端证书*-单击第一个*浏览*按钮以选择存储阵列控制器的证书文件。</block>
-  <block id="d73961b3c6886eb5d1b015bae50f3a4a" category="list-text">*选择密钥管理服务器的服务器证书*-单击第二个*浏览*按钮以选择密钥管理服务器的证书文件。您可以为密钥管理服务器选择根证书、中间证书或服务器证书。</block>
   <block id="eb604adb06c0a47290c764815fd73159" category="list-text">在*创建/备份密钥*下、您可以出于安全目的创建备份密钥。</block>
   <block id="41706d1306339861705180e1825b2d9a" category="list-text">(建议)要创建备份密钥、请保持选中状态、然后输入并确认密码短语。此值可以包含8到32个字符、并且必须包括以下每个字符：</block>
   <block id="f8ee8cbfde4d939a5c373bfa17a57502" category="paragraph">*请务必记录您的条目以供日后使用*。如果您需要从存储阵列中移动启用了安全保护的驱动器、则必须知道解锁驱动器数据的密码短语。</block>
@@ -5587,7 +5541,6 @@
   <block id="a3fabc0295d776f26ee76798f5e7eecb" category="paragraph">您必须先生成证书签名请求(CSR)文件、然后使用CSR从密钥管理服务器信任的证书颁发机构(CA)请求签名客户端证书。您还可以使用下载的CSR文件从密钥管理服务器创建和下载客户端证书。客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。</block>
   <block id="ee0d5d80706867e431096b62cf3c5e2a" category="list-text">从密钥管理选项卡中、选择*完成CSR*。</block>
   <block id="2c80d3f5692bbddd81bc83e7968f3387" category="list-text">输入以下信息：</block>
-  <block id="06c5a678917197769985500f5054ae39" category="list-text">*公用名*—用于标识此CSR的名称、例如存储阵列名称、该名称将显示在证书文件中。</block>
   <block id="f234c3b12dba6166f60bac9c363f54cc" category="list-text">*组织*—贵公司或组织的法定全名。包括后缀、例如Inc.或Corp.</block>
   <block id="69ac902b56aa279ba18618b1e6a972ae" category="list-text">*组织单位(可选)*—组织中负责处理证书的部门。</block>
   <block id="f6a05afe4452342eb12066e4700bb036" category="list-text">*城市/位置*-组织所在的城市或位置。</block>
@@ -5595,7 +5548,6 @@
   <block id="0210750d504f0f88eaea1d4942a4d806" category="list-text">*国家/地区ISO代码*—贵组织所在的两位数ISO (国际标准化组织)代码、例如美国。</block>
   <block id="66d341303806090714534fa743e9440f" category="list-text">单击 * 下载 * 。</block>
   <block id="9dfff367ea9fa51616b265ac4bd0119b" category="paragraph">此时、CSR文件将保存到本地系统。</block>
-  <block id="edc5180b61662fc1be0150bd95564929" category="list-text">从密钥管理服务器信任的CA请求签名客户端证书。</block>
   <block id="d95c637329a7d9e40b647471e048deee" category="list-text">拥有客户端证书后、请转到 <block ref="1f166b6040d8c5a8d4907b35fb575af0" category="inline-xref-macro-rx"></block>。</block>
   <block id="1603855b9dc7554f1873c8164f918999" category="section-title">第2步：导入密钥管理服务器的证书</block>
   <block id="06c92dfc8076f143375a4f0958f180b2" category="paragraph">下一步是、在存储阵列和密钥管理服务器之间导入用于身份验证的证书。证书有两种类型：客户端证书用于验证存储阵列的控制器、而密钥管理服务器证书用于验证服务器。您必须加载控制器的客户端证书文件和密钥管理服务器的服务器证书文件。</block>
@@ -5727,7 +5679,6 @@
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">单点登录(SSO)是一种身份验证服务、允许一组登录凭据访问多个应用程序。</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。</block>
   <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">如何知道需要将哪些证书上传到System Manager才能进行外部密钥管理？</block>
-  <block id="21e61b7b89892f01884cffafc8c86a9c" category="paragraph">客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。要获取客户端证书、请使用System Manager为存储阵列完成CSR。然后、您可以将CSR上传到密钥管理服务器并从该服务器生成客户端证书。获得客户端证书后、将该文件复制到要访问System Manager的主机。</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">密钥管理服务器证书用于验证密钥管理服务器、以便存储阵列可以信任其IP地址。从密钥管理服务器检索服务器证书文件、然后将该文件复制到要访问System Manager的主机。</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">如果要将审核日志归档到外部系统日志服务器、则可以配置该服务器与存储阵列之间的通信。建立连接后、审核日志会自动保存到系统日志服务器。</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">如果您的服务器使用安全协议(例如TLS)、则本地系统上必须具有证书颁发机构(CA)证书。CA证书用于标识服务器和客户端之间安全连接的网站所有者。</block>
@@ -5867,7 +5818,6 @@
   <block id="99bed7435706b520211df81bb3b833a1" category="paragraph">删除事件</block>
   <block id="60adb5288f069f5a086cbcc875d0a4de" category="paragraph">选择*删除*以打开一个对话框、在此可以从页面中删除旧事件。</block>
   <block id="9ae16d2c540a91f8169558ca56bb3a04" category="paragraph">显示/隐藏列</block>
-  <block id="0e5d8c77f64632d6949531c8786c2900" category="paragraph">单击*显示/隐藏*列图标 <block ref="95c275e82bb68f68f11a49bb34fc239c" category="inline-image-macro-rx" type="image"></block> 可选择其他列以显示在表中。其他列包括：</block>
   <block id="6e66f767222daf4c98d3fd8561adf903" category="list-text">*方法*- HTTP方法(例如POST、GET、DELETE等)。</block>
   <block id="456081dd7e5bfc028ec74475ecf409dc" category="list-text">*已执行命令行界面命令*—为安全命令行界面请求执行的命令行界面命令(语法)。</block>
   <block id="add1a37a426dc01049dba656a8fa8040" category="list-text">*命令行界面返回状态*—命令行界面状态代码或客户端请求输入文件。</block>
@@ -5876,9 +5826,7 @@
   <block id="2528c31e6b6280eb42137297929a7451" category="list-text">* SSH会话PID*—SSH会话的进程ID号。</block>
   <block id="15b03dee8798d7cc05994bcb42c31990" category="list-text">* SSH会话持续时间*-用户登录的秒数。</block>
   <block id="510092612bcfdb2a09c7d8e879ec8e66" category="paragraph">切换列筛选器</block>
-  <block id="43608f7f822df1b119fb2f0861752bd0" category="paragraph">单击*切换*图标 <block ref="c402d3ee0f3c0bdb6f04456c65416b8c" category="inline-image-macro-rx" type="image"></block> 打开每个列的筛选字段。在列字段中输入字符、以限制这些字符显示的事件。再次单击图标以关闭筛选字段。</block>
   <block id="f15903c586acb55eceb753ce38b6087a" category="paragraph">撤消更改</block>
-  <block id="8c9faddbe29c40713a51a79ae22b6638" category="paragraph">单击*撤消*图标 <block ref="d42b2137813f4ca554a17d50c37e9052" category="inline-image-macro-rx" type="image"></block> 以将此表恢复为默认配置。</block>
   <block id="0095a9fa74d1713e43e370a7d7846224" category="paragraph">导出</block>
   <block id="4f5e62673b0e203ba449b54b3ace5662" category="paragraph">单击*导出*将表数据保存到逗号分隔值(CSV)文件。</block>
   <block id="9ceb93faef5937a33e4566da3d171696" category="summary">对于访问管理、管理员可以使用在存储阵列中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为本地用户角色。</block>
@@ -6236,7 +6184,6 @@
   <block id="ef8d855bb7b58eb13043f4697e633ed7" category="paragraph">如果控制器无法在给定网络端口上获取DHCP地址、则它将还原为默认IP地址、该地址可能需要长达3分钟的时间。默认IP地址如下：</block>
   <block id="9dfbd8583086cdf43b044681817c83b8" category="paragraph">分配IP地址时：</block>
   <block id="798c19059ebbea34781e20114772d59b" category="list-text">预留控制器上的端口2以供客户支持使用。请勿更改默认网络设置(已启用DHCP)。</block>
-  <block id="85a4e345071b9de80c11ae8d3fd44e88" category="list-text">要为E2800和E5700控制器设置静态IP地址、请使用SANtricity 系统管理器。要为E2700和E5600控制器设置静态IP地址、请使用SANtricity 存储管理器。配置静态IP地址后、它将通过所有链路断开/启动事件保持设置状态。</block>
   <block id="631b8d83c6e19c17a00f6c995f136262" category="list-text">要使用DHCP分配控制器的IP地址、请将控制器连接到可以处理DHCP请求的网络。使用永久DHCP租约。</block>
   <block id="f0e8cd249b17b159ca6279e1cb49e5e9" category="paragraph">默认地址不会在链路关闭事件中保留。如果控制器上的网络端口设置为使用DHCP、则控制器会尝试在每次链路启动事件(包括插入缆线、重新启动和重新加电)时获取DHCP地址。每当DHCP尝试失败时、都会使用该端口的默认静态IP地址。</block>
   <block id="792ded78d469f211955781b362cd4a6c" category="summary">您可以使用擦除选项准备要从系统中删除的未分配驱动器。此操作步骤 会永久删除数据、以确保无法再次读取数据。</block>
@@ -6638,7 +6585,6 @@
   <block id="4ed64ffa453acd1e92cad2b525ddd94d" category="paragraph">在驱动器出现故障之前、请确保复制驱动器的内容。根据您的配置、如果不先复制驱动器的内容、可能会丢失关联池或卷组上的所有数据或数据冗余。</block>
   <block id="586a5fdfcf92424d25f4b58cb312a532" category="paragraph">与重建相比、复制选项可以加快驱动器恢复速度、并减少在复制操作期间另一个驱动器发生故障时卷发生故障的可能性。</block>
   <block id="6f82e7d1008117fb1e1468824b0d9db5" category="list-text">确认要使驱动器出现故障。</block>
-  <block id="d2f974d9ab2113f12a2d0912cae37b90" category="paragraph">驱动器发生故障后、请至少等待30秒、然后再将其删除。</block>
   <block id="0508fea0fd0869ac2976db620ff91876" category="summary">某些问题需要重置(重新启动)控制器。您可以重置控制器、即使您无法对其进行物理访问也是如此。</block>
   <block id="27c04524901764e9aff1f2a6d71b4680" category="doc">重置(重新启动)控制器</block>
   <block id="75d907cbe87bbf0b6955b5a1da1c4aac" category="paragraph">某些问题需要重置(重新启动)控制器。您可以重置控制器、即使您无法对其进行物理访问也是如此。</block>
@@ -7297,7 +7243,6 @@
   <block id="6170b65edb40652e04798be920528567" category="section-title">异步镜像会话</block>
   <block id="8fb8d903583a69bb2f7020ec24064893" category="paragraph">异步镜像可捕获主卷在特定时间点的状态、并仅复制自上次映像捕获以来发生更改的数据。通过异步镜像、可以立即更新主站点、并在带宽允许的情况下更新二级站点。此信息将在网络资源可用时进行缓存并稍后发送。</block>
   <block id="19b4bf527badd2db202d583a7bd23286" category="paragraph">活动异步镜像会话有四个主要步骤。</block>
-  <block id="834ed858f1d2c14d8ca3f69c81de7838" category="image-alt">SAM 1130 dwg异步镜像会话</block>
   <block id="ea9236b1994427da950532ff1ad6ef63" category="list-text">首先在主卷的存储阵列上执行写入操作。</block>
   <block id="1d85d4b999c9737e96173727c950997a" category="list-text">操作的状态将返回给主机。</block>
   <block id="97a3671a1a3bdec2619c9f84dcfc1dcb" category="list-text">系统会记录并跟踪主卷上的所有更改。</block>
@@ -7367,7 +7312,6 @@
   <block id="319b2d26a90387684f3c24237199e24b" category="paragraph">同步镜像关系由一个主卷和一个位于不同存储阵列上的二级卷组成。包含主卷的存储阵列通常位于主站点、并为活动主机提供服务。包含二级卷的存储阵列通常位于二级站点、并保存数据的副本。如果主卷的存储阵列因完全断电、火灾或主站点的硬件故障等原因而不可用、则会使用二级卷。</block>
   <block id="bac2102a46114a248b31ff7c2e7e56c2" category="section-title">同步镜像会话</block>
   <block id="e4c003afc3c4a600e425c7d2982c0d93" category="paragraph">同步镜像配置过程涉及将卷配置成对。创建镜像对后、您可以启动同步镜像、该镜像对由一个存储阵列上的主卷和另一个存储阵列上的二级卷组成。同步镜像的步骤如下所示。</block>
-  <block id="15714a7f65c412a1a54f4b69a47c096c" category="image-alt">SAM 1130 dwg同步镜像会话</block>
   <block id="c491a6ad496588e8cb371fbe517667c6" category="list-text">写入来自主机。</block>
   <block id="f2ad71987234926489fc2a10094f0944" category="list-text">写入将提交到主卷、并传播到远程系统、然后提交到二级卷。</block>
   <block id="a6f33bea3a5bd85d4e296fd8831b9442" category="list-text">主卷的存储阵列会向主机系统_after_发送一条I/O完成消息、两个写入操作均已成功完成。</block>
@@ -7738,7 +7682,6 @@
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E 系列硬件概述</block>
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">此处列出的阵列型号之一： <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">使用Web浏览器与网络管理客户端的带外连接。</block>
-  <block id="cc4ea9328a87a53029aea9916fc48ae4" category="image-alt">单个2800</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">要管理存储资源、您必须先发现网络中的存储阵列。</block>
   <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">发现概述</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">如何发现阵列？</block>
@@ -8012,7 +7955,6 @@
   <block id="fb725bcb780ec50b3fff7a6fcb931c54" category="list-text"><block ref="fb725bcb780ec50b3fff7a6fcb931c54" category="inline-link-rx"></block></block>
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW (E2700、E5600/EF560)帮助</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
-  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">SANtricity System Manager和Unified Manager</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">访问管理是一种在SANtricity Unified Manager中配置用户身份验证的方法。</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">访问管理是一种在Unified Manager中配置用户身份验证的方法。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">可以使用以下身份验证方法：</block>
@@ -8212,28 +8154,6 @@
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager界面</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager界面</block>
-  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 软件产品规格</block>
-  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文档</block>
-  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E系列系统文档</block>
-  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">命令行界面（ CLI ）参考</block>
-  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">SANtricity API</block>
-  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">Web 服务</block>
-  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">适用于 vCenter 的插件</block>
-  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S 提供程序</block>
-  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">性能应用程序附加组件</block>
-  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">适用于 Splunk Enterprise 的 SANtricity 应用</block>
-  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">适用于 SANtricity 的 Splunk 技术附加项</block>
-  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">采用 E 系列 + Grafana 的性能分析器</block>
-  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">有关 E 系列性能分析器的博客</block>
-  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">对于 SE</block>
-  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E 系列 /EF 系列技术培训（需要登录）</block>
-  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300 概述和技术详细信息（需要登录）</block>
-  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion （需要登录）</block>
-  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">工具支持</block>
-  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ （需要登录）</block>
-  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E 系列 /SANtricity 下载（需要登录）</block>
   <block id="b191593bc602ff910417b3f85bb496ca" category="sidebar">设置</block>
   <block id="ba21515573d28200c3e7eae976812e72" category="sidebar">设置管理员密码</block>
   <block id="80b15187c4cef3c7dc145b12616a0357" category="sidebar">发现阵列</block>
@@ -8570,13 +8490,11 @@
   <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
-  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity统一管理器6.</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用阵列中嵌入的安全断言标记语言(SAML)功能配置访问管理、则当用户的SSO会话达到其最大限制时、可能会发生会话超时。可能会在System Manager会话超时之前发生这种情况。</block>
   <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600或EF300存储系统不支持同步镜像。</block>
   <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600或EF300存储阵列不支持同步镜像。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必须匹配相同的协议、托盘级别、区块大小、安全类型和RAID级别。不符合条件的异步镜像对不会显示在可用卷列表中。</block>
   <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不适用于EF600或EF300存储系统上的同步镜像。</block>
-  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity系统管理器11.8.</block>
   <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300或EF600存储阵列不支持同步镜像。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^目标卷的容量必须等于或大于精简卷报告的容量。</block>
@@ -8588,7 +8506,6 @@
   <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">在对卷设置进行更改时、某些操作可能不可用</block>
   <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">只有在将数据置于缓存中有利于提高整体系统性能时、才会使用SSD缓存。</block>
   <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">选择此选项可在SSD上启用只读缓存。</block>
-  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">使用System Manager 11.8进行单阵列管理</block>
   <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">如有必要、您可以导出存储阵列的服务提供程序元数据、然后将该文件重新导入到身份提供程序(Identity Provider、Idp)系统中。</block>
   <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">在此任务中、您将从控制器导出元数据。Idp需要此元数据才能与控制器建立信任关系并处理身份验证请求。此文件包含IdP可用于发送请求的控制器域名或IP地址等信息。</block>
   <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">单击*Export*将元数据文件保存到本地系统。</block>
@@ -8623,52 +8540,16 @@
   <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">安全断言标记语言(SAML)是一种基于XML的标准、用于在两个实体之间进行身份验证和授权。SAML支持多因素身份验证、在这种身份验证中、用户必须提供两个或更多项来证明其身份(例如密码和指纹)。存储阵列的嵌入式SAML功能在身份断言、身份验证和授权方面符合SAML2.0标准。</block>
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">请注意、在启用SAML的情况下、不要删除您的权限、否则您将无法访问Unified Manager。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">单击此字段、然后选择要映射到此属性的存储阵列角色之一。您必须单独为此组选择要包含的每个角色。要登录到Unified Manager、需要将"监控"角色与其他角色结合使用。必须至少将安全管理员角色分配给一个组。映射的角色包括以下权限：</block>
-  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80中的新增功能</block>
-  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80版中的新增功能</block>
-  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增强型卷奇偶校验扫描</block>
-  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">现在、可以通过REST API或CLI在后台启动卷奇偶校验扫描。只要完成扫描操作需要、生成的奇偶校验扫描就会在后台运行。扫描操作将在控制器重新启动和故障转移操作后继续运行。</block>
-  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified Manager的SAML支持</block>
-  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified Manager现在支持SAML (安全断言标记语言)。为Unified Manager启用SAML后、用户必须对身份提供程序使用多因素身份验证、才能与用户界面进行交互。请注意、在Unified Manager上启用SAML后、如果不通过Idp对请求进行身份验证、则无法使用REST API。</block>
-  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">自动配置功能</block>
-  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">现在支持设置卷块大小参数、以便在初始阵列设置时与自动配置功能结合使用。此功能在CLI中仅作为"blocksize"参数提供。</block>
-  <block id="017965dda869643c4d632c18853208a2" category="paragraph">控制器固件加密签名</block>
-  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">控制器固件已进行加密签名。签名会在初始下载期间和每次控制器启动时进行检查。预期不会对最终用户造成影响。签名由CA颁发的扩展验证证书提供支持。</block>
-  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">驱动器固件加密签名</block>
-  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">驱动器固件已进行加密签名。签名会在初始下载期间进行检查、并由CA颁发的扩展验证证书提供支持。驱动器固件内容现在以ZIP文件的形式提供、其中包含旧的未签名固件以及新的已签名固件。用户必须根据目标系统上运行的代码版本选择适当的文件。</block>
-  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">外部密钥服务器管理-证书密钥大小</block>
-  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">新的默认证书密钥大小为3072位(2048位)。支持高达4096位的密钥大小。要支持非默认密钥大小、必须更改NVSRAM位。</block>
-  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">除非满足最低浏览器要求、否则System Manager和Unified Manager将无法启动</block>
-  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">要启动System Manager或Unified Manager、必须安装最低版本的浏览器。以下是支持的最低版本：</block>
-  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox最低版本80</block>
-  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome最低版本89</block>
-  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">Edge最小版本90</block>
-  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safari最低版本14</block>
-  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">支持FIPS 140-2 NVMe SSD驱动器</block>
-  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">现在支持经NetApp认证的FIPS 140-2 NVMe SSD驱动器。它们将在存储阵列配置文件和System Manager中正确标识。</block>
-  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">支持EF300和EF600上的SSD读取缓存</block>
-  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">现在、使用HDD和SAS扩展的EF300和EF600控制器支持SSD读取缓存。</block>
-  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">支持EF300和EF600上的iSCSI和光纤通道异步远程镜像</block>
-  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">现在、使用基于NVMe和SAS的卷的EF300和EF600控制器支持异步远程镜像(ARVM)。</block>
-  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">支持基本托架上没有驱动器的EF300和EF600</block>
-  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">现在支持在基座托盘上不使用NVMe驱动器的EF300和EF600控制器配置。</block>
-  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">已为所有平台禁用USB端口</block>
-  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">现在、所有平台均已禁用USB端口。</block>
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">端口标识符</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。要进一步配置审核日志的系统日志设置、请参见<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。要进一步配置警报的系统日志设置、请参见<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity软件文档11.80</block>
-  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">使用Unified Manager 6进行多阵列管理</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --一种基于Web的界面，用于管理网络中的单个存储阵列。</block>
   <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600和EF300存储阵列不支持同步镜像或精简卷。</block>
-  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。在中央视图中、您可以查看所有较新的E系列和EF系列阵列的状态、例如E2800、EF280、EF300、E5700、EF570、 和EF600。您还可以对选定存储阵列执行批处理操作。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">驱动器、控制器和组件视图</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">要在前磁盘架视图和后磁盘架视图之间切换，请从最右侧选择*Drives*或*Controllers &amp; Components*(显示的链接取决于当前视图)。“*驱动器*”视图显示驱动器和任何空驱动器托架。“*控制器和组件*”视图显示了控制器、所有IOM (ESM)模块、电源/风扇箱或空控制器托架。在页面底部，您还可以选择*显示所有驱动器*。</block>
-  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8文档</block>
-  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">下表介绍了SANtricity系统管理器11.8中的新增功能。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80发行说明</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
   <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">系统必须运行SANtricity OS 11.70.5才能升级到11.80.x或更高版本。</block>
-  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -8677,32 +8558,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="deab0ae4ee87e153ce15a1182bf91617" category="paragraph">密钥大小选择值如下：</block>
-  <block id="92c9cd6ce879c70c929395d49566fca3" category="list-text">默认值为0</block>
-  <block id="91d66be9b353d488558a2fc87f866263" category="list-text">长度2048 = 1</block>
-  <block id="60f95b27118522aa50716737cc578a39" category="list-text">长度3072 = 2</block>
-  <block id="46b1448aca55d48c198834955f8e6b6a" category="list-text">长度4096 = 3</block>
-  <block id="80b104f769b8bbef5d4b39ffe2efd816" category="paragraph">要通过SMCli,将密钥大小更改为4096：</block>
-  <block id="7f1a49e026d5afc827c5a0184af45fe0" category="paragraph"><block ref="53d52ccae7296ad3c52a5cc86881da22" prefix="" category="inline-code"></block><block ref="52baead6a42dd6532784cc33f69d8d94" prefix=" " category="inline-code"></block></block>
-  <block id="ad7ca0ac2dce92cb837bf072818ce860" category="paragraph">查询密钥大小：</block>
-  <block id="dc8f09004148c8853414b2fe2f19c503" category="paragraph"><block ref="5dfae352b2be729a121ea8024c5dc604" prefix="" category="inline-code"></block></block>
-  <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">改进了磁盘池</block>
-  <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">使用运行11.80或更高版本的控制器创建的磁盘池将为_Version 1_ Pool、而不是_Version 0_ Pool。如果存在_Version 1_磁盘池、则降级操作会受到限制。</block>
-  <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">可以在存储阵列配置文件中确定磁盘池的版本。</block>
-  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">借助SANtricity 11.80软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大限度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。</block>
   <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
-  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">11.80.1版中的新增功能</block>
-  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 参数</block>
-  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link">可下载的SMcli命令行参数</block>
-  <block id="99e522a2649e8eb1047cda09b5e2bbd9" category="paragraph">新的<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 参数现在可在SMCli,使用此新参数可以查找与存储阵列关联的所有SCSI本机块设备。有关详细信息，请参见<block ref="7e8dc17a50219e17a3bfb2effae73889" category="inline-link-rx"></block>。</block>
-  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">以太网内核统计信息</block>
-  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">查看iSCSI统计信息包</block>
-  <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">现在、System Manager中的查看iSCSI统计信息包页面提供了一个新的以太网内核统计信息选项。通过此新选项、您可以查看iSCSI设备的平台内核驱动程序的统计信息。有关详细信息，请参见<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
-  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">增加了通过REST API端点阻止IP地址的功能</block>
-  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">现在、用户可以通过设置端点阻止特定IP地址 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。通过设置端点配置后、只有通过白列表指定的IP地址才能与存储设备进行通信。此新功能支持IPv4和IPv6地址列表。</block>
-  <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter存储插件</block>
-  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter存储插件已更新、可与E系列11.80.1版兼容。</block>
-  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">Web服务代理已更新到6.1版、以便与E系列11.80.1版兼容。</block>
   <block id="e6d11ff06b4fbf2dfe6c6c9c235884bd" category="paragraph">访问卷用于以下实例：</block>
   <block id="ea37b1fb3ab53a251f6e5cadc36a4c25" category="summary">创建主机是向存储阵列告知连接了哪些主机并允许对卷进行I/O访问所需的步骤之一。您只能手动创建主机。</block>
   <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="doc">手动创建主机</block>
@@ -8718,7 +8574,6 @@
   <block id="966b5cc0cd53cc056d0a168b8543c134" category="paragraph">如果您希望主机对存储阵列中的某些卷具有特定访问权限、则必须使用默认集群。而是必须将主机端口标识符与其对应的主机相关联。此任务可以在创建主机操作期间手动完成。然后、将卷分配给单个主机或主机集群。</block>
   <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">主机操作系统类型字段包含主机的操作系统。您可以从下拉列表中选择建议的主机类型。</block>
   <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">运行特定于操作系统的实用程序(可从第三方供应商处获得)、然后运行SMcli命令<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 将卷名称与主机存储阵列名称相关联。</block>
-  <block id="0af3ac37d01c9873f79f927554ff17b2" category="paragraph">SMcli可直接通过SANtricity系统管理器访问。此可下载版本的SMcli可从EF600、EF300、E5700、EF570、E2800、 和EF280控制器。要在SANtricity 系统管理器中下载SMCLI、请选择*设置*&gt;*系统*和*加载项*&gt;*命令行界面*。</block>
   <block id="0ea0a94f9ade478fd556172383edecad" category="admonition">System Manager中显示的统计信息类型取决于存储阵列的可用统计信息。</block>
   <block id="707d82b79d1a69b9d510d00c5aaf1d9e" category="list-text">*Ethernet Kernel STATISTIMENTS*--提供iSCSI设备的平台内核驱动程序的统计信息。内核统计信息显示的网络数据与TCP/IP统计信息选项类似。但是、内核统计信息数据是从平台内核驱动程序收集的、而不是直接从iSCSI硬件收集的。</block>
   <block id="32555c4aebeed331e68820e3e0ef23ce" category="list-text">选择*控制器和组件*选项卡。</block>
@@ -8737,12 +8592,109 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">预留容量卷必须与其关联的镜像卷共享相同的驱动器类型。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">如果预留容量卷是在NVMe驱动器上创建的、则其镜像卷也必须在NVMe驱动器上创建。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">如果预留容量卷是在SAS驱动器上创建的、则其镜像卷也必须在SAS驱动器上创建。</block>
-  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">11.80.1R1中的新增功能</block>
-  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加了新的自签名和CA签名管理证书的密钥大小长度。</block>
-  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity系统管理器和Unified Manager应用程序自签名证书的管理证书密钥大小长度已从2048位修改为3072位。此更改将应用于SANtricity应用程序中新生成的自签名证书和CA签名证书。密钥长度是固定的、不受NV遭受NV遭受 中默认密钥大小定义的影响。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">已清除ARVM</block>
   <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">副本源卷和目标卷必须具有相同的报告主机可寻址/逻辑块大小(扇区大小)。</block>
   <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">报告的卷块大小为：</block>
-  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">*本机块大小*—卷的块大小与驱动器块大小匹配、可以是512或4K。</block>
-  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">*模拟512块大小*—驱动器为4 k、但报告的块大小为512。</block>
+  <block id="a5739ed07187fa97fb95b86ca98419fc" category="inline-link">控制器升级指南—传统控制器型号</block>
+  <block id="819e472be532c198f4428448f644516b" category="list-text"><block ref="819e472be532c198f4428448f644516b" category="inline-link-rx"></block></block>
+  <block id="056179e9e794d5023a226430ee4efb8d" category="section-title">SANtricity 11.8版</block>
+  <block id="d16a613e55f21678f189a2fe147619f8" category="list-text"><block ref="d16a613e55f21678f189a2fe147619f8" category="inline-link-rx"></block></block>
+  <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
+  <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90发行说明</block>
+  <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
+  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
+  <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>*性能*</block>
+  <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>*存储*</block>
+  <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">数据保护</block>
+  <block id="48101fc47c99f4be00100bd0e24fa482" category="paragraph"><block ref="cf60c16dfd9a457f7706628c1f3e2cf5" category="inline-image-macro-rx" type="image"></block>*数据保护*</block>
+  <block id="cc3a54aae413901b7935f06eb0747fb4" category="paragraph"><block ref="6b9b5b4553280096034f55188a5b3e0f" category="inline-image-macro-rx" type="image"></block>*硬件*</block>
+  <block id="59cb2f7d30c6e815131b958e5caaa07f" category="paragraph"><block ref="4fb44adb8f67b036fd76de34524b3216" category="inline-image-macro-rx" type="image"></block>*警报*</block>
+  <block id="5dfe8f7b6636e4f45a5e95a77c0529da" category="paragraph"><block ref="bdb34cfbec72a80b17a14942fe759070" category="inline-image-macro-rx" type="image"></block>*访问管理*</block>
+  <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">系统设置</block>
+  <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>*系统设置*</block>
+  <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>*支持*</block>
+  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。您可以从中央视图查看所有较新的E系列和EF系列阵列的状态、例如E4000、E2800、EF280、EF300、E5700、EF570和EF600。您还可以对选定存储阵列执行批处理操作。</block>
+  <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">发现存储阵列</block>
+  <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>*发现存储阵列*</block>
+  <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">启动</block>
+  <block id="dd5912f8cf835c33b2a3b61d5e141ff0" category="paragraph"><block ref="59d02cad0b7ca821298861a148459521" category="inline-image-macro-rx" type="image"></block>*发布*</block>
+  <block id="352a228c155779f9e34542d5c4e945ce" category="inline-image-macro">导入设置</block>
+  <block id="3a7809dfe80b7e55e290a69762b376b0" category="paragraph"><block ref="293657c6f46812024123d05cfacb8f5d" category="inline-image-macro-rx" type="image"></block>*导入设置*</block>
+  <block id="e55d5139e241eec51cb53b8725b111ae" category="paragraph"><block ref="1d994cafa90bd8534dce98204298c26f" category="inline-image-macro-rx" type="image"></block>*镜像*</block>
+  <block id="aba9f7d7443652e858969bfc280690b1" category="inline-image-macro">管理组</block>
+  <block id="8ab578a8eab9df734659a9bbad8fed32" category="paragraph"><block ref="ed1eedd0a4592b9eb8bd506e1ade1b98" category="inline-image-macro-rx" type="image"></block>*管理组*</block>
+  <block id="54f78baeb56f558141400626a8f1d3e3" category="inline-image-macro">升级中心</block>
+  <block id="0d3ce623d8cdbb3fa0594ad836176dcd" category="paragraph"><block ref="35ec5ccd35af7c00f6a01e92abb155fc" category="inline-image-macro-rx" type="image"></block>*升级中心*</block>
+  <block id="74d5c3d79c00ee94f3d157db1001315d" category="paragraph"><block ref="8fe9c4eb7bbe7403b10e873dc7e654f9" category="inline-image-macro-rx" type="image"></block>*证书*</block>
+  <block id="db8b7299d08cc04191bf7a98173078ef" category="list-text">要为E4000、E2800和E5700控制器设置静态IP地址、请使用SANtricity系统管理器。要为E2700和E5600控制器设置静态IP地址、请使用SANtricity 存储管理器。配置静态IP地址后、它将通过所有链路断开/启动事件保持设置状态。</block>
+  <block id="42004a862976ffc8afcece88d3ed14b7" category="paragraph">驱动器发生故障后、请至少等待60秒、然后再将其删除。</block>
+  <block id="27ed3c2f0cc271f3ffd55cef1621928d" category="doc">SANtricity系统管理器11.9.</block>
+  <block id="d85604754e30b3e09626f9f9fdbd8c6f" category="paragraph">支持以下协议：HTTPS和SMTP。</block>
+  <block id="ab468c035d308f2a8c552c4d5aac08f7" category="paragraph"><block ref="ab468c035d308f2a8c552c4d5aac08f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2c792e44ea1f01accfca106a5f980c33" category="paragraph"><block ref="2c792e44ea1f01accfca106a5f980c33" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3ef647d9c4d52f37e6e8692049489f5" category="paragraph"><block ref="e3ef647d9c4d52f37e6e8692049489f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae04b8c08989c6922154b7c875f1ed28" category="paragraph"><block ref="ae04b8c08989c6922154b7c875f1ed28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa089d11d37f87ad34ea6d956fa1fae8" category="paragraph">您可以通过SANtricity系统管理器管理异步镜像和同步镜像。</block>
+  <block id="b3ff8e795b3d80ba68cbe1156469a2cb" category="list-text">*选择私钥文件*--如果需要，请单击第二个*浏览*按钮，为存储阵列的控制器选择私钥文件。</block>
+  <block id="ee01112415d197728f20c99202d37eb2" category="list-text">*选择密钥管理服务器的服务器证书*--单击第三个*浏览*按钮选择密钥管理服务器的证书文件。您可以为密钥管理服务器选择根证书、中间证书或服务器证书。</block>
+  <block id="54c0574306f4d58143114e2e0861640f" category="paragraph">客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。</block>
+  <block id="66093664d0d43a7f4fc3ddbad78f691c" category="paragraph">要获取客户端证书、请使用System Manager为存储阵列完成CSR。您还可以使用私钥和公共密钥对在外部生成CSR。</block>
+  <block id="ff58caf5069b4eb4a200d0205926b16c" category="paragraph">然后、您可以将CSR上传到密钥管理服务器并从该服务器生成客户端证书。获得客户端证书后、将该文件复制到要访问System Manager的主机。</block>
+  <block id="5378e651b013c9c6feff8ff6044d166f" category="list-text">或者、您也可以使用私有密钥对和公共密钥对在外部生成证书签名请求。</block>
+  <block id="63a0114594ce428e6c9715084a3200f4" category="paragraph">您可以从System Manager生成签名请求、也可以使用私钥和公共密钥对从外部生成签名请求。签名请求将发送到CA以生成证书文件。CA返回证书文件后、您可以使用System Manager导入这些文件。</block>
+  <block id="69d858803139fe61364ff86d43e771de" category="admonition">通过私钥和公共密钥对在外部生成的CSR文件可以通过"Create External Security Key"(创建外部安全密钥)对话框导入。有关导入外部生成的CSR文件的详细信息，请参阅<block ref="699b0ddfb388ee73fa0bfd41ac82336b" category="inline-link-rx"></block>。</block>
+  <block id="29d1ee766954d56ae8238b1059bfafc4" category="list-text">*公用名*--用于标识客户机的名称。常见做法是、将公用名中的内容与KMS服务器对客户端证书命名约定的要求进行匹配。公用名通常有助于KMS在握手期间提供客户端证书时识别该证书。</block>
+  <block id="92808c67abdc13e7ad24a7cf2c99f924" category="list-text">从密钥管理服务器信任的CA请求签名客户端证书。</block>
+  <block id="b40c23ca4af2991caf4a498caf524281" category="admonition">密钥管理服务器通常具有直接生成签名证书的工具、因为它充当自己的CA。</block>
+  <block id="5582a122966615aecf1a59ee9608f3ed" category="list-text">如果使用私钥和公钥对在外部生成了证书文件，请单击*Select private key file*旁边的*Browse*按钮，为存储阵列的控制器选择证书文件。</block>
+  <block id="6f3c867468bb7d88038060f63957303e" category="inline-image-macro">显示/隐藏列</block>
+  <block id="c8624a2d0591434eb4c7d02347e97100" category="paragraph">单击*显示/隐藏*列图标<block ref="258072d6c284064dc6fedf3bcab73fc0" category="inline-image-macro-rx" type="image"></block>以选择要在表中显示的其他列。其他列包括：</block>
+  <block id="a8875bbe4272c0bdd786cfaaedf77921" category="inline-image-macro">切换</block>
+  <block id="18a403c983fe9e6fd1b3f6e2ed1177f8" category="paragraph">单击*切换*图标<block ref="90b70f76e2d4e07fe074ad83e4b0a4f3" category="inline-image-macro-rx" type="image"></block>打开每列的过滤字段。在列字段中输入字符、以限制这些字符显示的事件。再次单击图标以关闭筛选字段。</block>
+  <block id="1cdc076b28f70afac5fcedadf99fa119" category="inline-image-macro">撤消</block>
+  <block id="942c04fb3e852a849078bbedc2c563ad" category="paragraph">单击*Undo*图标<block ref="12a3278132f7a92b9e1a0a36d87097d1" category="inline-image-macro-rx" type="image"></block>可将表恢复为默认配置。</block>
+  <block id="649c33cda48fb6cab9b779732e33f798" category="list-text">512个卷(E4000和E2800系列)</block>
+  <block id="9bfa157f06e0cd4bf23f4d7c3522a973" category="image-alt">Snapshot对象和基础卷</block>
+  <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">默认介质扫描期限设置为120天。</block>
+  <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">*本机块大小*—卷的块大小与驱动器块大小匹配、可以是512或4K。</block>
+  <block id="f6c667584c393a129ba0a1a453306311" category="list-text">*模拟512块大小*—驱动器为4 k、但报告的块大小为512。</block>
+  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcli可直接通过SANtricity系统管理器访问。此SMClI可下载版本适用于E4000、EF600、EF300、E5700、EF570、E2800和EF280控制器。要在SANtricity 系统管理器中下载SMCLI、请选择*设置*&gt;*系统*和*加载项*&gt;*命令行界面*。</block>
+  <block id="8372cda02b92707718d83873eed70eff" category="image-alt">池和卷组结构</block>
+  <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshot概述</block>
+  <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">您可以通过SANtricity系统管理器管理系统存储。</block>
+  <block id="ae002d1d58a31e011d63e5c65fdaab56" category="admonition">SANtricity远程存储卷目前在E4000系统上不受支持。</block>
+  <block id="9b14c33fdc0efe4872fc1eb7154525a9" category="image-alt">Snapshot回滚概述</block>
+  <block id="2f0854f7b2eefd5175e0f07fb053bd67" category="image-alt">Snapshot一致性组概述</block>
+  <block id="499c45c544b6972f515b13489cac00c4" category="image-alt">Snapshot卷概述</block>
+  <block id="21bf9a718f1db52f3473f81edb06fb86" category="image-alt">配置主机工作流</block>
+  <block id="6cb1f4545b0ac1779e5099bf499e2257" category="image-alt">创建Snapshot映像工作流</block>
+  <block id="d664803ea5bcb8c4b3e5252c810dd7ae" category="image-alt">创建Snapshot卷工作流</block>
+  <block id="00ae53caaeaab10fa6daf374082ce7c1" category="image-alt">创建卷工作流</block>
+  <block id="8f0db69b076bbcdb3c8760d4e3e98835" category="summary">AutoSupport功能支持使用HTTPS和SMTP协议向技术支持发送派单。</block>
+  <block id="f519381eb9350988ee8b5119c9b920f9" category="paragraph">* HTTPS和电子邮件方法之间的差异*。使用SMTP的电子邮件传送方法与HTTPS传送方法有一些重要区别。首先、电子邮件方法的派单大小限制为5 MB、这意味着不会派送某些ASUP数据收集。其次、AutoSupport OnDemand功能仅适用于HTTPS交付方法。</block>
+  <block id="16ecd48fe399a494ac52761b115bd8e9" category="list-text">如果选择HTTPS、请选择以下交付参数之一：</block>
+  <block id="0a71943276accb62215252f71d3e55e4" category="list-text">*直接*—此传送参数为默认选择。通过选择此选项、您可以使用HTTPS协议直接连接到目标技术支持系统。</block>
+  <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技术支持。</block>
+  <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">升级固件位置</block>
+  <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport工作流</block>
+  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">控制器软件和固件升级工作流</block>
+  <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity统一管理器7.</block>
+  <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">您可以通过SANtricity统一管理器配置使用的设置。</block>
+  <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">使用Web浏览器与网络管理客户端建立带外连接。</block>
+  <block id="3ea0f7b73838fea25dfb4ff6da50f43a" category="doc">SANtricity OS 11.90中的新增功能</block>
+  <block id="e6575254726c9c37843a559ef72300fd" category="paragraph">下表介绍了SANtricity系统管理器11.9中的新增功能。</block>
+  <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">11.90版中的新增功能</block>
+  <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">新存储系统型号— E4000</block>
+  <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">此版本引入了E4000低成本存储系统。E4000支持12个和60个驱动器以及每个控制器一个主机接口卡(Host Interface Card、HIC)。初始版本支持的主机接口卡包括iSCSI和光纤通道。可以在Unified Manager中查看和管理E4000存储系统和其他E系列存储系统。</block>
+  <block id="0d05e82ffcabd1bd655a97084285e90d" category="paragraph">增加了动态磁盘池的容量</block>
+  <block id="372fa8b3c2d2e776e7b288a3b8bbd7da" category="paragraph">只要动态磁盘池(Dynamic Disk Pool、DDP)中每个驱动器的容量超过23 TB、该容量就会增加到12 PB。如果单个驱动器容量小于23 TB、则DDP容量为6 PB。</block>
+  <block id="47366514f1926a1d18e6b7ee9660d7f5" category="paragraph">增加了默认介质扫描设置</block>
+  <block id="9b21ddbc5c4f3b0196cbd88ac900622e" category="paragraph">默认介质扫描速率已增加到120天。</block>
+  <block id="545cf0306f91cc802f72bee950711b04" category="paragraph">专用密钥现在可用于外部密钥管理</block>
+  <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">现在、可以通过System Manager导入外部通过私钥和公共密钥对生成的证书签名请求(CSR)文件。</block>
+  <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">现在、Web服务可以使用登录锁定功能</block>
+  <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">现在、嵌入式Web服务和代理Web服务均可使用新的登录锁定设置、该设置仅可通过REST API进行配置。</block>
+  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">使用System Manager 11.9进行单阵列管理</block>
+  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">使用Unified Manager 7进行多阵列管理</block>
+  <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9文档</block>
 </blocks>

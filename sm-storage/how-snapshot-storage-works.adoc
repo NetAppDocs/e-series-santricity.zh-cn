@@ -30,7 +30,7 @@ Snapshot映像对于测试环境也很有用。通过创建数据的虚拟副本
 * 创建快照映像时、该映像与基础卷完全匹配。Snapshot功能使用写时复制技术。创建快照后、首次写入基础卷上的任何块或块集将导致原始数据复制到预留容量、然后再将新数据写入基础卷。
 * 后续快照仅包含已更改的数据块。在基础卷上覆盖数据之前、Snapshot功能会使用其写入时复制技术将受影响扇区的所需映像保存到Snapshot预留容量中。
 +
-image::../media/sam1130-dwg-snapshots-cow-overview.gif[sam1130 dwg snapshots COW概述]
+image::../media/sam1130-dwg-snapshots-cow-overview.gif[Snapshot概述]
 
 
 

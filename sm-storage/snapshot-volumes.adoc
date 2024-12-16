@@ -17,6 +17,6 @@ summary: '如果要读取或写入快照数据、您可以创建快照卷并将�
 
 创建只读Snapshot卷时、不需要添加预留容量。创建读写Snapshot卷时、必须添加预留容量以提供写入访问。
 
-image::../media/sam1130-dwg-snapshots-volumes-overview.gif[sam1130 dwg snapshots volumes概述]
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Snapshot卷概述]
 
 ^1^基本卷；^2^主机；^3^只读快照卷；^4^读写快照卷；^5^预留容量

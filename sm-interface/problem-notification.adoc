@@ -25,28 +25,28 @@ System Manager可使用这些图标指示存储阵列及其组件的状态。
 
 
  a| 
-image:../media/sam1130-ss-icon-status-success.gif[""]
+image:../media/sam1130-ss-icon-status-success.gif["最佳"]
  a| 
 最佳
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-failure.gif[""]
+image:../media/sam1130-ss-icon-status-failure.gif["非最佳或出现故障"]
  a| 
 非最佳或出现故障
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-service.gif[""]
+image:../media/sam1130-ss-icon-status-service.gif["需要注意或修复"]
  a| 
 需要注意或修复
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-caution.gif[""]
+image:../media/sam1130-ss-icon-status-caution.gif["小心"]
  a| 
 小心
 

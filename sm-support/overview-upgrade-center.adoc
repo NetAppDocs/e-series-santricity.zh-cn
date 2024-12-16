@@ -33,7 +33,7 @@ summary: 使用升级中心下载最新的软件和固件、并升级存储阵�
 * * 监控软件 * —监控软件是运行该软件的控制器上的虚拟机。
 
 
-image::../media/sam1130-dwg-upgrade-firmware-locations.gif[3个1130 dwg升级固件位置]
+image::../media/sam1130-dwg-upgrade-firmware-locations.gif[升级固件位置]
 
 ^1^控制器架；^2^驱动器架；^3^软件、控制器固件、控制器NVSRAM、 监控软件；^4^驱动器固件；^5^ IOM固件；^6^驱动器固件
 

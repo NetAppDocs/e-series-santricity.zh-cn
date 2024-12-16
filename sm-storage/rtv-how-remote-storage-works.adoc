@@ -24,6 +24,9 @@ summary: 通过远程存储功能、您可以将数据从远程存储系统导�
 
 有关这些步骤的详细信息、请参见E系列和SANtricity 文档中心上的《远程存储功能用户指南》 https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html["远程存储卷概述"^]和中的 https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["远程存储技术报告"^]。
 
+
+NOTE: SANtricity远程存储卷目前在E4000系统上不受支持。
+
 在本地E系列存储系统上：
 
 . 确保每个控制器都与远程存储系统建立iSCSI连接。通过此连接、本地E系列系统充当iSCSI启动程序、可将其设置为远程系统上的主机。

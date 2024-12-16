@@ -21,7 +21,7 @@ summary: '要配置存储、请创建一个池或卷组、其中包含要在存�
 
 池和卷组是存储阵列中的顶级存储单元：它们将驱动器的容量划分为可管理的分区。在这些逻辑分区中、是指存储数据的单个卷或LUN。下图说明了这一概念。
 
-image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[sam1130 dwg卷驱动结构池和卷组]
+image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[池和卷组结构]
 
 ^1^主机LUN；^2^卷；^3^卷组或池；^4^ HDD或SSD驱动器
 

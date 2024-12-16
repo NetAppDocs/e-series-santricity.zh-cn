@@ -34,7 +34,7 @@ EF600或EF300存储阵列不支持同步镜像。
 
 同步镜像配置过程涉及将卷配置成对。创建镜像对后、您可以启动同步镜像、该镜像对由一个存储阵列上的主卷和另一个存储阵列上的二级卷组成。同步镜像的步骤如下所示。
 
-image::../media/sam-1130-dwg-sync-mirroring-session.gif[SAM 1130 dwg同步镜像会话]
+image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 . 写入来自主机。
 . 写入将提交到主卷、并传播到远程系统、然后提交到二级卷。

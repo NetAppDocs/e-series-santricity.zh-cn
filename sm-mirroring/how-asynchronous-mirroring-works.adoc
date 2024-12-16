@@ -30,7 +30,7 @@ summary: 异步镜像可按需或按计划复制数据卷、从而最大限度�
 
 活动异步镜像会话有四个主要步骤。
 
-image::../media/sam-1130-dwg-async-mirroring-session.gif[SAM 1130 dwg异步镜像会话]
+image::../media/sam-1130-dwg-async-mirroring-session.gif[异步镜像会话]
 
 . 首先在主卷的存储阵列上执行写入操作。
 . 操作的状态将返回给主机。

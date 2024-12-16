@@ -23,7 +23,7 @@ a _base volume"是用作快照映像源的卷。基础卷可以是厚卷、也�
 
 下图显示了快照对象与基础卷之间的关系。
 
-image::../media/sam1130-dwg-snapshots-images-overview.gif[sam1130 dwg Snapshot映像概述]
+image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot对象和基础卷]
 
 ^1^基础卷；^2^组中的Snapshot对象(映像和预留容量)；^3^ Snapshot组的预留容量。
 

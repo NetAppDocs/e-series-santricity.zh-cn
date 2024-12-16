@@ -2,7 +2,7 @@
 permalink: sm-support/configure-autosupport-delivery-method.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, configure, autosupport, ASUP, delivery, method 
-summary: AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付派单。 
+summary: AutoSupport功能支持使用HTTPS和SMTP协议向技术支持发送派单。 
 ---
 = 配置 AutoSupport 交付方法
 :allow-uri-read: 
@@ -12,7 +12,7 @@ summary: AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支�
 
 
 [role="lead"]
-AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付派单。
+AutoSupport功能支持使用HTTPS和SMTP协议向技术支持发送派单。
 
 .开始之前
 * 必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。
@@ -23,13 +23,12 @@ AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付�
 查看不同的协议：
 
 * * HTTPS *-允许您使用HTTPS直接连接到目标技术支持服务器。如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。
-* "* HTTP*"-允许您使用HTTP直接连接到目标技术支持服务器。
 * *电子邮件*-用于使用电子邮件服务器作为发送AutoSupport 派单的传送方法。
 
 
 [NOTE]
 ====
-* HTTPS/HTTP与电子邮件方法之间的差异*。使用SMTP的电子邮件传送方法与HTTPS和HTTP传送方法有一些重要区别。首先、电子邮件方法的派单大小限制为5 MB、这意味着不会派送某些ASUP数据收集。其次、AutoSupport OnDemand功能仅适用于htmpp和HTTPS方法。
+* HTTPS和电子邮件方法之间的差异*。使用SMTP的电子邮件传送方法与HTTPS传送方法有一些重要区别。首先、电子邮件方法的派单大小限制为5 MB、这意味着不会派送某些ASUP数据收集。其次、AutoSupport OnDemand功能仅适用于HTTPS交付方法。
 
 ====
 .步骤
@@ -40,9 +39,9 @@ AutoSupport 功能支持HTTPS、HTTP和SMTP协议、用于向技术支持交付�
 
 . 选择所需的交付方法、然后选择该交付方法的参数。执行以下操作之一：
 +
-** 如果选择HTTPS或HTTP、请选择以下传输参数之一：
+** 如果选择HTTPS、请选择以下交付参数之一：
 +
-*** *直接*—此传送参数为默认选择。通过选择此选项、您可以使用HTTPS或HTTP协议直接连接到目标技术支持系统。
+*** *直接*—此传送参数为默认选择。通过选择此选项、您可以使用HTTPS协议直接连接到目标技术支持系统。
 *** *通过代理服务器*-选择此选项可以指定与目标技术支持系统建立连接所需的HTTP代理服务器详细信息。您必须指定主机地址和端口号。但是、如果需要、您只需要输入主机身份验证详细信息(用户名和密码)。
 *** *通过代理自动配置脚本(PAC)*—指定代理自动配置(PAC)脚本文件的位置。通过PAC文件、系统可以自动选择适当的代理服务器、以便与目标技术支持系统建立连接。
 

@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity系统管理器11.8.
+= SANtricity系统管理器11.9.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以在硬件页面上检查组件状态、并执行与这些组件相关的某些功能。

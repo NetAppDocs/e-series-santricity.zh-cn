@@ -14,4 +14,4 @@ summary: '要访问AutoSupport 交付方法的配置任务、请转到"支持">"
 [role="lead"]
 要访问AutoSupport 交付方法的配置任务、请转到菜单：Support[支持中心]、然后单击* AutoSupport *选项卡。
 
-支持以下协议：HTTPS、HTTP和SMTP。
+支持以下协议：HTTPS和SMTP。

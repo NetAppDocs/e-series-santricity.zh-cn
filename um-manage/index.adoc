@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity统一管理器6.
+= SANtricity统一管理器7.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以通过SANtricity统一管理器配置使用的设置。

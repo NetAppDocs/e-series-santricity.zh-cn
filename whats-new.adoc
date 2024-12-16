@@ -1,37 +1,22 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.80 
+keywords: whats new, new features, SANtricity 11.90 
 summary: SANtricity OS 中的新增功能。 
 ---
-= SANtricity OS 11.80中的新增功能
+= SANtricity OS 11.90中的新增功能
 :allow-uri-read: 
 :experimental: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
-下表介绍了SANtricity系统管理器11.8中的新增功能。
+下表介绍了SANtricity系统管理器11.9中的新增功能。
 
 
 
-== 11.80.1R1中的新增功能
-
-[cols="35h,~"]
-|===
-| 新增功能 | Description 
-
-
- a| 
-增加了新的自签名和CA签名管理证书的密钥大小长度。
- a| 
-SANtricity系统管理器和Unified Manager应用程序自签名证书的管理证书密钥大小长度已从2048位修改为3072位。此更改将应用于SANtricity应用程序中新生成的自签名证书和CA签名证书。密钥长度是固定的、不受NV遭受NV遭受 中默认密钥大小定义的影响。
-
-|===
-
-
-== 11.80.1版中的新增功能
+== 11.90版中的新增功能
 
 [cols="35h,~"]
 |===
@@ -39,160 +24,36 @@ SANtricity系统管理器和Unified Manager应用程序自签名证书的管理�
 
 
  a| 
-`-identifyDevices` 参数
+新存储系统型号— E4000
  a| 
-新的 `-identifyDevices` 参数现在可在SMCli,使用此新参数可以查找与存储阵列关联的所有SCSI本机块设备。有关详细信息，请参见 https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices["可下载的SMcli命令行参数"^]。
-
-
-
- a| 
-以太网内核统计信息
- a| 
-现在、System Manager中的查看iSCSI统计信息包页面提供了一个新的以太网内核统计信息选项。通过此新选项、您可以查看iSCSI设备的平台内核驱动程序的统计信息。有关详细信息，请参见 https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html["查看iSCSI统计信息包"^]。
+此版本引入了E4000低成本存储系统。E4000支持12个和60个驱动器以及每个控制器一个主机接口卡(Host Interface Card、HIC)。初始版本支持的主机接口卡包括iSCSI和光纤通道。可以在Unified Manager中查看和管理E4000存储系统和其他E系列存储系统。
 
 
 
  a| 
-增加了通过REST API端点阻止IP地址的功能
+增加了动态磁盘池的容量
  a| 
-现在、用户可以通过设置端点阻止特定IP地址 (`/devmgr/v2/settings`）。通过设置端点配置后、只有通过白列表指定的IP地址才能与存储设备进行通信。此新功能支持IPv4和IPv6地址列表。
-
-
-
- a| 
-vCenter存储插件
- a| 
-vCenter存储插件已更新、可与E系列11.80.1版兼容。
+只要动态磁盘池(Dynamic Disk Pool、DDP)中每个驱动器的容量超过23 TB、该容量就会增加到12 PB。如果单个驱动器容量小于23 TB、则DDP容量为6 PB。
 
 
 
  a| 
-Web服务代理
+增加了默认介质扫描设置
  a| 
-Web服务代理已更新到6.1版、以便与E系列11.80.1版兼容。
-
-|===
-
-
-== 11.80版中的新增功能
-
-[cols="35h,~"]
-|===
-| 新增功能 | Description 
-
-
- a| 
-增强型卷奇偶校验扫描
- a| 
-现在、可以通过REST API或CLI在后台启动卷奇偶校验扫描。只要完成扫描操作需要、生成的奇偶校验扫描就会在后台运行。扫描操作将在控制器重新启动和故障转移操作后继续运行。
+默认介质扫描速率已增加到120天。
 
 
 
  a| 
-Unified Manager的SAML支持
+专用密钥现在可用于外部密钥管理
  a| 
-Unified Manager现在支持SAML (安全断言标记语言)。为Unified Manager启用SAML后、用户必须对身份提供程序使用多因素身份验证、才能与用户界面进行交互。请注意、在Unified Manager上启用SAML后、如果不通过Idp对请求进行身份验证、则无法使用REST API。
-
-
-
- a| 
-自动配置功能
- a| 
-现在支持设置卷块大小参数、以便在初始阵列设置时与自动配置功能结合使用。此功能在CLI中仅作为"blocksize"参数提供。
+现在、可以通过System Manager导入外部通过私钥和公共密钥对生成的证书签名请求(CSR)文件。
 
 
 
  a| 
-控制器固件加密签名
+现在、Web服务可以使用登录锁定功能
  a| 
-控制器固件已进行加密签名。签名会在初始下载期间和每次控制器启动时进行检查。预期不会对最终用户造成影响。签名由CA颁发的扩展验证证书提供支持。
-
-
-
- a| 
-驱动器固件加密签名
- a| 
-驱动器固件已进行加密签名。签名会在初始下载期间进行检查、并由CA颁发的扩展验证证书提供支持。驱动器固件内容现在以ZIP文件的形式提供、其中包含旧的未签名固件以及新的已签名固件。用户必须根据目标系统上运行的代码版本选择适当的文件。
-
-
-
- a| 
-外部密钥服务器管理-证书密钥大小
- a| 
-新的默认证书密钥大小为3072位(2048位)。支持高达4096位的密钥大小。要支持非默认密钥大小、必须更改NVSRAM位。
-
-密钥大小选择值如下：
-
-* 默认值为0
-* 长度2048 = 1
-* 长度3072 = 2
-* 长度4096 = 3
-
-
-要通过SMCli,将密钥大小更改为4096：
-
-`set controller[b] globalnvsrambyte[0xc0]=3;`
-`set controller[a] globalnvsrambyte[0xc0]=3;`
-
-查询密钥大小：
-
-`show allcontrollers globalnvsrambyte[0xc0];`
-
-
-
- a| 
-改进了磁盘池
- a| 
-使用运行11.80或更高版本的控制器创建的磁盘池将为_Version 1_ Pool、而不是_Version 0_ Pool。如果存在_Version 1_磁盘池、则降级操作会受到限制。
-
-可以在存储阵列配置文件中确定磁盘池的版本。
-
-
-
- a| 
-除非满足最低浏览器要求、否则System Manager和Unified Manager将无法启动
- a| 
-要启动System Manager或Unified Manager、必须安装最低版本的浏览器。以下是支持的最低版本：
-
-* Firefox最低版本80
-* Chrome最低版本89
-* Edge最小版本90
-* Safari最低版本14
-
-
-
-
- a| 
-支持FIPS 140-2 NVMe SSD驱动器
- a| 
-现在支持经NetApp认证的FIPS 140-2 NVMe SSD驱动器。它们将在存储阵列配置文件和System Manager中正确标识。
-
-
-
- a| 
-支持EF300和EF600上的SSD读取缓存
- a| 
-现在、使用HDD和SAS扩展的EF300和EF600控制器支持SSD读取缓存。
-
-
-
- a| 
-支持EF300和EF600上的iSCSI和光纤通道异步远程镜像
- a| 
-现在、使用基于NVMe和SAS的卷的EF300和EF600控制器支持异步远程镜像(ARVM)。
-
-
-
- a| 
-支持基本托架上没有驱动器的EF300和EF600
- a| 
-现在支持在基座托盘上不使用NVMe驱动器的EF300和EF600控制器配置。
-
-
-
- a| 
-已为所有平台禁用USB端口
- a| 
-现在、所有平台均已禁用USB端口。
+现在、嵌入式Web服务和代理Web服务均可使用新的登录锁定设置、该设置仅可通过REST API进行配置。
 
 |===

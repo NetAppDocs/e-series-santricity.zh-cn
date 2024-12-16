@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity系统管理器11.8.
+= SANtricity系统管理器11.9.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以为System Manager配置一些常规阵列设置和附加功能。

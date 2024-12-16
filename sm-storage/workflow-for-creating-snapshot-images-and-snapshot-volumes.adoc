@@ -17,10 +17,10 @@ summary: 在System Manager中、您可以按照以下步骤创建快照映像和
 
 == 创建快照映像的工作流
 
-image::../media/sam1130-flw-snapshots-create-ss-images.gif[Sam1130 FLW快照可创建ss映像]
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[创建Snapshot映像工作流]
 
 
 
 == 用于创建快照卷的工作流
 
-image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Sam1130 FLW快照可创建ss卷]
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[创建Snapshot卷工作流]

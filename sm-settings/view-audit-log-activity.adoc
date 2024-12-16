@@ -81,7 +81,7 @@ summary: 通过查看审核日志、具有安全管理员权限的用户可以�
  a| 
 显示/隐藏列
  a| 
-单击*显示/隐藏*列图标 image:../media/sam-1140-ss-access-columns.gif[""] 可选择其他列以显示在表中。其他列包括：
+单击*显示/隐藏*列图标image:../media/sam-1140-ss-access-columns.gif["显示/隐藏列"]以选择要在表中显示的其他列。其他列包括：
 
 ** *方法*- HTTP方法(例如POST、GET、DELETE等)。
 ** *已执行命令行界面命令*—为安全命令行界面请求执行的命令行界面命令(语法)。
@@ -99,14 +99,14 @@ summary: 通过查看审核日志、具有安全管理员权限的用户可以�
  a| 
 切换列筛选器
  a| 
-单击*切换*图标 image:../media/sam-1140-ss-access-toggle.gif[""] 打开每个列的筛选字段。在列字段中输入字符、以限制这些字符显示的事件。再次单击图标以关闭筛选字段。
+单击*切换*图标image:../media/sam-1140-ss-access-toggle.gif["切换"]打开每列的过滤字段。在列字段中输入字符、以限制这些字符显示的事件。再次单击图标以关闭筛选字段。
 
 
 
  a| 
 撤消更改
  a| 
-单击*撤消*图标 image:../media/sam-1140-ss-access-undo.gif[""] 以将此表恢复为默认配置。
+单击*Undo*图标image:../media/sam-1140-ss-access-undo.gif["撤消"]可将表恢复为默认配置。
 
 
 

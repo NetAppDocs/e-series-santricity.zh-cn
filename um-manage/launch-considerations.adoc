@@ -21,4 +21,4 @@ System Manager是控制器上的嵌入式应用程序、它通过以太网管理
 * 使用Web浏览器与网络管理客户端的带外连接。
 
 
-image::../media/single2800.gif[单个2800]
+image::../media/single2800.gif[使用Web浏览器与网络管理客户端建立带外连接。]
