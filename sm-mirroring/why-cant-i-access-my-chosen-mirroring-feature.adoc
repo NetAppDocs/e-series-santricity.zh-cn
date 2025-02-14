@@ -11,7 +11,7 @@ summary: 镜像是在Unified Manager界面中配置的。
 
 
 [role="lead"]
-镜像是在Unified Manager界面中配置的。
+镜像可在SANtricity统一管理器界面中配置。
 
 [NOTE]
 ====

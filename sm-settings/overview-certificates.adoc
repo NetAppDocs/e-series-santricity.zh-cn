@@ -11,7 +11,7 @@ summary: '您可以使用System Manager创建证书签名请求(Certificate Sign
 
 
 [role="lead"]
-您可以使用System Manager创建证书签名请求(Certificate Signing Requests、CSR)、导入证书以及管理现有证书。
+您可以使用SANtricity系统管理器创建证书签名请求(Certificate signing Requests、CSV)、导入证书以及管理现有证书。
 
 
 

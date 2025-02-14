@@ -11,7 +11,7 @@ summary: System Manager会报告驱动器的各种状态。
 
 
 [role="lead"]
-System Manager会报告驱动器的各种状态。
+SANtricity系统管理器会报告驱动器的各种状态。
 
 
 

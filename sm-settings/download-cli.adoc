@@ -12,7 +12,7 @@ summary: '您可以从System Manager下载命令行界面(CLI)软件包。'
 
 
 [role="lead"]
-您可以从System Manager下载命令行界面(CLI)软件包。
+在SANtricity系统管理器中、您可以下载命令行界面(CLI)软件包。
 
 CLI提供了一种基于文本的方法来配置和监控存储阵列。它通过https进行通信、并使用外部安装的管理软件包中提供的CLI语法。下载CLI不需要任何密钥。
 

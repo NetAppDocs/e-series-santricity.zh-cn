@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Unified Manager installation 
 summary: Unified Manager安装概述 
 ---
-= 安装 Unified Manager
+= 安装SANtricity统一管理器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Unified Manager随Web服务代理一起提供、Web服务代理是单独安装在主机系统上的RESTful API服务器、用于管理NetApp E系列存储系统。
+SANtricity统一管理器包含在Web服务代理中、该代理是单独安装在主机系统上的一个API服务器、用于管理NetApp E系列存储系统。
 
 要安装Web服务代理和Unified Manager、请参见E系列和SANtricity 文档中心中的以下说明：
 

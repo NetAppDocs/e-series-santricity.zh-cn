@@ -11,4 +11,4 @@ summary:
 
 
 [role="lead"]
-您可以为System Manager配置一些常规阵列设置和附加功能。
+您可以为SANtricity系统管理器配置一些常规阵列设置和附加功能。

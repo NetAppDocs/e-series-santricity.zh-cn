@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: 使用Unified Manager 7进行多阵列管理
+  title: 使用SANtricity统一管理器7进行多阵列管理
   summary: 您可以通过SANtricity 软件文档安装、设置和维护存储阵列。
   keywords: santricity, install, setup, maintain, storage array
   lead: 您可以通过SANtricity 软件文档安装、设置和维护存储阵列。
   tiles:
   - title: 设置
     links:
-    - title: Unified Manager界面概述
+    - title: SANtricity Unified Manager界面概述
       url: "../um-admin/overview-interface-unified.html"
     - title: 设置管理员密码
       url: "../um-admin/administrator-password-protection-unified.html"

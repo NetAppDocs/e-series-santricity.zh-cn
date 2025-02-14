@@ -11,7 +11,7 @@ summary: Unified Manager提供了SANtricity 镜像功能的配置选项、可使
 
 
 [role="lead"]
-Unified Manager提供了SANtricity 镜像功能的配置选项、可使管理员在两个存储阵列之间复制数据以实现数据保护。
+SANtricity统一管理器提供了SANtricity镜像功能的配置选项、使管理员能够在两个存储阵列之间复制数据以实现数据保护。
 
 [NOTE]
 ====

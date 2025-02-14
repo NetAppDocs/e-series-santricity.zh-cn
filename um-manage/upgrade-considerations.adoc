@@ -11,7 +11,7 @@ summary: 在使用Unified Manager升级多个存储阵列之前、请在规划�
 
 
 [role="lead"]
-在使用Unified Manager升级多个存储阵列之前、请在规划过程中查看主要注意事项。
+在使用SANtricity 统一管理器升级多个存储阵列之前、请在规划过程中查看主要注意事项。
 
 
 

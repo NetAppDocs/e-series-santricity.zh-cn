@@ -12,7 +12,7 @@ summary: 如果更改了存储阵列的IP地址、则可能需要在SANtricity �
 
 
 [role="lead"]
-如果更改了存储阵列的IP地址、则可能需要在Unified Manager中更新全局阵列视图。
+如果更改了存储阵列的IP地址、则可能需要在SANtricity 统一管理器中更新全局阵列视图。
 
 要在Unified Manager中更新全局阵列视图、请打开界面并转到菜单：Manage (管理)[Discover (发现)。
 

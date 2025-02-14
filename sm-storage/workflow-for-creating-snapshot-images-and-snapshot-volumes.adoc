@@ -11,7 +11,7 @@ summary: 在System Manager中、您可以按照以下步骤创建快照映像和
 
 
 [role="lead"]
-在System Manager中、您可以按照以下步骤创建快照映像和快照卷。
+在SANtricity系统管理器中、您可以按照以下步骤创建快照映像和快照卷。
 
 
 

@@ -12,7 +12,7 @@ summary: 如果您在无法由SANtricity System Manager管理的旧存储阵列�
 
 
 [role="lead"]
-如果您在无法由System Manager管理的旧存储阵列上创建了主卷、则可以使用System Manager在此阵列上创建二级卷。
+如果您在旧存储阵列上创建了无法由SANtricity System Manager管理的主卷、则可以使用SANtricity System Manager在此阵列上创建二级卷。
 
 .关于此任务
 您可以在使用不同接口的原有阵列与可由System Manager管理的较新阵列之间执行异步镜像。

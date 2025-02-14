@@ -12,7 +12,7 @@ summary: 下表列出了可用于配置和管理基于InfiniBand会话的iSER的
 
 
 [role="lead"]
-下表列出了可用于配置和管理基于InfiniBand会话的iSER的System Manager功能。
+下表列出了可用于配置和管理基于InfiniBand会话的iSER的SANtricity系统管理器功能。
 
 [NOTE]
 ====

@@ -12,7 +12,7 @@ summary: 您可以使用Unified Manager将同一类型的多个存储阵列上�
 
 
 [role="lead"]
-您可以使用Unified Manager将同一类型的多个存储阵列上的SANtricity OS软件升级到更高版本。
+您可以使用SANtricity 统一管理器将同一类型的多个存储阵列上的SANtricity OS软件升级到更高版本。
 
 
 

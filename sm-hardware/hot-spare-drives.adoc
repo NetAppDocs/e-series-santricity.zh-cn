@@ -11,7 +11,7 @@ summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6
 
 
 [role="lead"]
-对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6卷组中的备用驱动器。
+热备件在SANtricity系统管理器的RAID 1、RAID 5或RAID 6卷组中用作备用驱动器。
 
 它们是功能完备的驱动器、不包含任何数据。如果卷组中的某个驱动器发生故障、控制器会自动将故障驱动器中的数据重新构建到分配为热备用驱动器的驱动器中。
 

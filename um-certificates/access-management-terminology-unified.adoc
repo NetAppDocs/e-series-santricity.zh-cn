@@ -11,7 +11,7 @@ summary: 了解访问管理术语如何适用于SANtricity Unified Manager。
 
 
 [role="lead"]
-了解访问管理术语如何应用于Unified Manager。
+了解访问管理术语如何适用于SANtricity Unified Manager。
 
 [cols="25h,~"]
 |===

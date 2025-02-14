@@ -11,7 +11,7 @@ summary: 您可以在Unified Manager中配置异步或同步镜像、然后使�
 
 
 [role="lead"]
-您可以在Unified Manager中配置异步或同步镜像、然后使用System Manager管理同步。
+您可以在SANtricity统一管理器中配置异步或同步镜像、然后使用SANtricity系统管理器管理同步。
 
 
 

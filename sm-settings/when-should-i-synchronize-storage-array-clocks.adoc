@@ -11,7 +11,7 @@ summary: '如果您发现System Manager中显示的时间戳与管理客户端(�
 
 
 [role="lead"]
-如果您发现System Manager中显示的时间戳与管理客户端(通过浏览器访问System Manager的计算机)中显示的时间戳不对齐、则应手动同步存储阵列中的控制器时钟。只有在System Manager中未启用NTP (网络时间协议)时、才需要执行此任务。
+如果您发现SANtricity系统管理器中显示的时间戳与管理客户端(通过浏览器访问SANtricity系统管理器的计算机)中显示的时间戳不一致、则应手动同步存储阵列中的控制器时钟。只有在SANtricity系统管理器中未启用网络时间协议(Network Time Protocol、NTP)时、才需要执行此任务。
 
 [NOTE]
 ====

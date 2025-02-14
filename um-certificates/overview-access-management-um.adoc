@@ -11,7 +11,7 @@ summary: 访问管理是一种在SANtricity Unified Manager中配置用户身份
 
 
 [role="lead"]
-访问管理是一种在Unified Manager中配置用户身份验证的方法。
+访问管理是一种在SANtricity Unified Manager中配置用户身份验证的方法。
 
 
 

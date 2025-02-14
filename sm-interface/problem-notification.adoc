@@ -11,7 +11,7 @@ summary: System Manager可使用图标和其他几种方法来通知您存储阵
 
 
 [role="lead"]
-System Manager可使用图标和其他几种方法来通知您存储阵列存在问题。
+SANtricity系统管理器使用图标和其他几种方法来通知您存储阵列存在问题。
 
 
 

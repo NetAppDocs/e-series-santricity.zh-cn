@@ -11,7 +11,7 @@ summary: 如果在尝试登录到System Manager时收到错误、请查看这些
 
 
 [role="lead"]
-如果在尝试登录到System Manager时收到错误、请查看这些可能的原因。
+如果在尝试登录到SANtricity系统管理器时收到错误、请查看这些可能的原因。
 
 System Manager登录错误可能是由于以下原因之一：
 

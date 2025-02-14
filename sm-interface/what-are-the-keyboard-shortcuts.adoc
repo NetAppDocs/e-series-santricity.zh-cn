@@ -11,7 +11,7 @@ summary: 您可以单独使用键盘在System Manager中导航。
 
 
 [role="lead"]
-您可以单独使用键盘在System Manager中导航。
+您可以仅使用键盘在SANtricity系统管理器中导航。
 
 
 

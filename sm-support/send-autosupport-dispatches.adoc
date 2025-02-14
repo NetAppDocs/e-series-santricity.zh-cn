@@ -12,7 +12,7 @@ summary: System Manager允许您将AutoSupport 派单发送给技术支持、而
 
 
 [role="lead"]
-System Manager允许您将AutoSupport 派单发送给技术支持、而无需等待计划的派单。
+SANtricity系统管理器允许您将AutoSupport派单发送给技术支持、而无需等待计划的派单。
 
 .开始之前
 必须启用AutoSupport 功能。您可以在AutoSupport 页面上查看它是否已启用。

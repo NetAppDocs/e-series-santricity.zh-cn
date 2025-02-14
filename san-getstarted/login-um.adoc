@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, log in Unified Manager 
 summary: 访问并登录到Unified Manager。 
 ---
-= 访问Unified Manager
+= 访问SANtricity统一管理器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-安装 Web 服务代理后，您可以访问 Unified Manager 以在基于 Web 的界面中管理多个存储系统。
+安装Web服务代理后、您可以访问SANtricity统一管理器、以便在一个基于Web的界面中管理多个存储系统。
 
 
 NOTE: 有关支持的浏览器、请参见 link:supported-browsers-os.html["支持的浏览器和操作系统"]。

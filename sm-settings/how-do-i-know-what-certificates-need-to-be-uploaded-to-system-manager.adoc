@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
 summary: 对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。 
 ---
-= 如何知道需要将哪些证书上传到System Manager才能进行外部密钥管理？
+= 我如何知道需要将哪些证书上传到SANtricity系统管理器以进行外部密钥管理？
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

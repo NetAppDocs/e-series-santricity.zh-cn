@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: 如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。 
 ---
-= 访问System Manager的注意事项
+= 访问SANtricity System Manager的注意事项
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用Launch选项打开System Manager。
+如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。
 
 System Manager是控制器上的嵌入式应用程序、它通过以太网管理端口连接到网络。它包括所有基于阵列的功能。
 

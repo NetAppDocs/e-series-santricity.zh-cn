@@ -11,7 +11,7 @@ summary: Unified Manager将显示已发现的每个存储阵列的状态。
 
 
 [role="lead"]
-Unified Manager将显示已发现的每个存储阵列的状态。
+SANtricity统一管理器会显示已发现的每个存储阵列的状态。
 
 转到*管理-全部*页面。在此页面中、您可以查看Web服务代理与该存储阵列之间的连接状态。
 

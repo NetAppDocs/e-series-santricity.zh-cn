@@ -31,9 +31,9 @@ sidebar:
       url: "/san-getstarted/santricity-overview.html"
     - title: 支持的浏览器和操作系统
       url: "/san-getstarted/supported-browsers-os.html"
-    - title: System Manager设置
+    - title: SANtricity系统管理器设置
       entries:
-      - title: 访问System Manager
+      - title: 访问 SANtricity 系统管理器
         url: "/san-getstarted/access-sam.html"
       - title: 设置向导概述
         url: "/sm-interface/setup-wizard-overview.html"
@@ -51,20 +51,20 @@ sidebar:
           url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
         - title: 如何知道是否应接受建议的池配置？
           url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-        - title: System Manager未检测到任何主机。我该怎么办？
+        - title: SANtricity系统管理器未检测到任何主机。我该怎么办？
           url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-    - title: Unified Manager设置
+    - title: SANtricity Unified Manager设置
       entries:
-      - title: 安装 Unified Manager
+      - title: 安装SANtricity统一管理器
         url: "/san-getstarted/install-um.html"
-      - title: 访问Unified Manager
+      - title: 访问SANtricity统一管理器
         url: "/san-getstarted/login-um.html"
-  - title: System Manager
+  - title: SANtricity 系统管理器
     url: "/system-manager/index.html"
     entries:
     - title: 主接口
       entries:
-      - title: System Manager界面概述
+      - title: SANtricity System Manager界面概述
         url: "/sm-interface/overview-interface-sam.html"
       - title: 查看性能数据
         entries:
@@ -1140,7 +1140,7 @@ sidebar:
         entries:
         - title: 为什么会显示"无法访问其他控制器"对话框？
           url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-        - title: 如何知道需要将哪些证书上传到System Manager才能进行外部密钥管理？
+        - title: 我如何知道需要将哪些证书上传到SANtricity系统管理器以进行外部密钥管理？
           url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
         - title: 关于证书撤消检查、我需要了解哪些信息？
           url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
@@ -1244,12 +1244,12 @@ sidebar:
           url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
         - title: 如何选择要执行的升级类型？
           url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
-  - title: Unified Manager
+  - title: SANtricity 统一管理器
     url: "/unified-manager/index.html"
     entries:
     - title: 主接口
       entries:
-      - title: Unified Manager界面概述
+      - title: SANtricity Unified Manager界面概述
         url: "/um-admin/overview-interface-unified.html"
       - title: 支持的浏览器
         url: "/um-admin/supported-browsers-unified.html"
@@ -1267,7 +1267,7 @@ sidebar:
         entries:
         - title: 发现阵列的注意事项
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: 访问System Manager的注意事项
+        - title: 访问SANtricity System Manager的注意事项
           url: "/um-manage/launch-considerations.html"
       - title: 发现阵列
         entries:
@@ -1279,7 +1279,7 @@ sidebar:
         entries:
         - title: 查看阵列状态
           url: "/um-manage/storage-array-status.html"
-        - title: 启动 System Manager
+        - title: 管理单个存储阵列
           url: "/um-manage/launch-system-manager.html"
         - title: 更改阵列密码
           url: "/um-admin/change-storage-array-passwords.html"

@@ -11,7 +11,7 @@ summary: 使用访问管理在SANtricity Unified Manager中建立用户身份验
 
 
 [role="lead"]
-使用访问管理在Unified Manager中建立用户身份验证。
+使用访问管理在SANtricity Unified Manager中建立用户身份验证。
 
 
 

@@ -11,7 +11,7 @@ summary: '管理员可以使用SANtricity 统一管理器中强制实施的RBAC 
 
 
 [role="lead"]
-管理员可以使用Unified Manager中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为"本地用户角色"。
+管理员可以使用SANtricity 统一管理器中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为"本地用户角色"。
 
 
 

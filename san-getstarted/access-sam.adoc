@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access System Manager 
 summary: 要访问System Manager用户界面、请将浏览器指向控制器的IP地址。设置向导可帮助您开始进行系统配置。 
 ---
-= 访问System Manager
+= 访问 SANtricity 系统管理器
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,7 +12,7 @@ summary: 要访问System Manager用户界面、请将浏览器指向控制器的
 
 
 [role="lead"]
-要访问System Manager用户界面、请将浏览器指向控制器的IP地址。设置向导可帮助您开始进行系统配置。
+要访问SANtricity系统管理器用户界面、请在浏览器中指向控制器的IP地址。设置向导可帮助您开始进行系统配置。
 
 .开始之前
 * 按照其中一个快速配置指南中所述安装和配置硬件：

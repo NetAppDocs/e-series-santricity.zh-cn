@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host detection 
 summary: 如果未看到已连接的主机、则自动检测失败、主机连接不正确或当前未连接任何主机。 
 ---
-= System Manager未检测到任何主机。我该怎么办？
+= SANtricity系统管理器未检测到任何主机。我该怎么办？
 :allow-uri-read: 
 :experimental: 
 :icons: font

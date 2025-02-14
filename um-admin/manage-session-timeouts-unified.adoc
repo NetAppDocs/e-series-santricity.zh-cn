@@ -11,7 +11,7 @@ summary: 您可以为SANtricity Unified Manager配置超时、以便在指定时
 
 
 [role="lead"]
-您可以为Unified Manager配置超时、以便用户非活动会话在指定时间后断开连接。
+您可以为SANtricity统一管理器配置超时、以便用户的非活动会话在指定时间后断开连接。
 
 .关于此任务
 默认情况下、Unified Manager的会话超时为30分钟。您可以调整该时间、也可以完全禁用会话超时。

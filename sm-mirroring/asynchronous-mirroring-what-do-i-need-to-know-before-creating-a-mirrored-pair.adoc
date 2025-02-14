@@ -11,7 +11,7 @@ summary: 您可以在Unified Manager界面中配置镜像对、然后在System M
 
 
 [role="lead"]
-您可以在Unified Manager界面中配置镜像对、然后在System Manager中管理这些对。
+您可以在SANtricity统一管理器界面中配置镜像对、然后在SANtricity系统管理器中管理这些对。
 
 创建镜像对之前、请遵循以下准则。
 

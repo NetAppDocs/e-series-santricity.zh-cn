@@ -11,7 +11,7 @@ summary: '使用System Manager、您可以使用联机证书状态协议(Online 
 
 
 [role="lead"]
-使用System Manager、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器来检查已撤销的证书、而不是上传证书撤消列表(Certificate Revocation List、CRL)。
+使用SANtricity系统管理器、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器(而不是上传证书撤消列表(Certificate Revocation List、CRL))来检查是否存在已撤销的证书。
 
 已撤销的证书不应再受信任。证书可能会因多种原因而被撤销；例如、如果证书颁发机构(CA)颁发的证书不正确、私钥被泄露或标识的实体不符合策略要求。
 

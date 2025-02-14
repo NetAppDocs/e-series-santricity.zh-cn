@@ -12,7 +12,7 @@ summary: iSCSI会话可以与异步镜像关系中的主机或远程存储阵列
 
 
 [role="lead"]
-iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的System Manager功能。
+iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的SANtricity系统管理器功能。
 
 [NOTE]
 ====

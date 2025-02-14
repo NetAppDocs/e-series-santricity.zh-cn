@@ -12,7 +12,7 @@ summary: 如果存储阵列尝试建立与SANtricity Unified Manager的安全连
 
 
 [role="lead"]
-如果存储阵列尝试建立与Unified Manager的安全连接、但此连接无法确认为安全连接、则会发生不可信证书。
+如果存储阵列尝试建立与SANtricity Unified Manager的安全连接、但此连接无法确认为安全连接、则会发生不可信证书。
 
 在证书页面中、您可以通过从存储阵列导入自签名证书或导入可信第三方颁发的证书颁发机构(CA)证书来解析不可信的证书。
 

@@ -11,7 +11,7 @@ summary: Recovery Guru是System Manager的一个组件、用于诊断存储阵�
 
 
 [role="lead"]
-Recovery Guru是System Manager的一个组件、用于诊断存储阵列问题并建议恢复过程以修复问题。
+恢复专家是SANtricity系统管理器的一个组件、用于诊断存储阵列问题并建议用于修复问题的恢复过程。
 
 .步骤
 . 选择*主页*。

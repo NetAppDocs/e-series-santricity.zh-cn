@@ -12,7 +12,7 @@ summary: 您可以将System Manager配置为通过电子邮件、SNMP陷阱和�
 
 
 [role="lead"]
-您可以将System Manager配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。
+您可以将SANtricity系统管理器配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。
 
 
 

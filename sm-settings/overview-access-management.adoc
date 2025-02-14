@@ -12,7 +12,7 @@ summary: '访问管理是在SANtricity System Manager中建立用户身份验证
 
 
 [role="lead"]
-访问管理是在System Manager中建立用户身份验证的一种方法。
+访问管理是在SANtricity System Manager中建立用户身份验证的一种方法。
 
 
 

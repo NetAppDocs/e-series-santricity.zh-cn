@@ -12,7 +12,7 @@ summary: 'System Manager可以显示容量值、以吉字节(GiB)或太字节(Ti
 
 
 [role="lead"]
-System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。
+SANtricity系统管理器可以吉字节(GiB)或兆字节(TiB)为单位显示容量值。
 
 首选项存储在浏览器的本地存储中、因此所有用户都可以拥有自己的设置。
 

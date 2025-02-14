@@ -11,7 +11,7 @@ summary: Unified Manager必须先发现要在组织网络中管理的存储阵�
 
 
 [role="lead"]
-Unified Manager必须先发现要在组织网络中管理的存储阵列、然后才能显示和管理存储资源。您可以发现多个阵列、也可以发现一个阵列。
+在SANtricity Unified Manager显示和管理存储资源之前、它必须先发现要在组织网络中管理的存储阵列。您可以发现多个阵列、也可以发现一个阵列。
 
 
 

@@ -11,7 +11,7 @@ summary: SANtricity 统一管理器可从多种类型的浏览器进行访问。
 
 
 [role="lead"]
-Unified Manager可从多种类型的浏览器进行访问。
+SANtricity 统一管理器可从多种类型的浏览器进行访问。
 
 支持以下浏览器和版本。
 
