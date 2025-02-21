@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.9
+  name: SANtricity software
   internal:
     pdf_enabled: true
   prod:
@@ -17,7 +17,7 @@ settings:
   langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
 sidebar:
   entries:
-  - title: SANtricity 11.9文档
+  - title: SANtricity软件版本、版本为
     url: "/index.html"
   - title: 发行说明
     entries:

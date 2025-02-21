@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity软件文档11.90
+  title: SANtricity软件版本操作文档
   summary: SANtricity System Manager和Unified Manager
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: 借助SANtricity 11.90软件、您可以在数据分析、视频监控以及备份和恢复等繁重工作负载应用程序中、最大限度地提高E系列混合闪存和EF系列全闪存阵列的性能和利用率。
+  lead: SANtricity软件版本是一款适用于数据分析、视频监控以及备份和恢复等繁重工作负载应用程序的E系列混合闪存和EF系列全闪存阵列、可帮助您实现最高性能和利用率。
   tiles:
   - title: 入门
     links:
