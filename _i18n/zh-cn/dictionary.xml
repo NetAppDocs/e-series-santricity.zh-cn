@@ -911,7 +911,6 @@
   <block id="02d56cf7754ce16d7ce0193fbca7c90a" category="paragraph">缓存</block>
   <block id="01875a0a0c6c489daebdf2da47822bf8" category="paragraph">显示了缓存设置、您可以更改此设置以影响卷的整体I/O性能。</block>
   <block id="f7fad94692941472b9a76c2ba57c020c" category="paragraph">SSD 缓存</block>
-  <block id="04bbd2c132c1093db28e447b3653bb4f" category="admonition">EF600或EF300存储系统不支持此功能。</block>
   <block id="0ac6cd8987ecb9501395a6c2fed923c4" category="paragraph">显示了SSD缓存设置、您可以在兼容卷上启用此设置以提高只读性能。如果卷共享相同的驱动器安全和数据保证功能、则这些卷是兼容的。</block>
   <block id="d0c8df7335fd09690d17fec5d12d8ec8" category="paragraph">* SSD缓存功能使用一个或多个固态磁盘(SSD)来实施读取缓存*。由于SSD的读取速度更快、因此应用程序性能得到了提高。由于读取缓存位于存储阵列中、因此使用该存储阵列的所有应用程序将共享缓存。只需选择要缓存的卷、即可自动动态缓存。</block>
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager会根据您的选择更改卷的设置。</block>
@@ -1314,7 +1313,6 @@
   <block id="2b6dfac4c2ee1e0fccb3ed18c1e9e715" category="list-text">设置当精简卷接近最大分配容量限制时向主页页面上的通知区域发送警报(超过警告阈值)的百分比点。</block>
   <block id="641704c0841951140a62999ce85bfaeb" category="paragraph">要增加精简卷的容量、请增加其报告的容量。</block>
   <block id="b427c469cec42cd76c840d0e5107a920" category="paragraph">System Manager不提供创建精简卷的选项。如果要创建精简卷、请使用命令行界面(CLI)。</block>
-  <block id="5b48e77fd7668c15e4d278280b54ae19" category="paragraph">精简卷在EF600或EF300存储系统上不可用。</block>
   <block id="50d09ee94af23ca7be0ea0bd72392ef1" category="summary">主机是指向存储阵列上的卷发送I/O的服务器。主机集群是一组主机。您可以创建一个主机集群、以便轻松地将相同的卷分配给多个主机。</block>
   <block id="72180ea1a91065ba958b5dd4237a8c86" category="paragraph">您可以单独定义主机。它可以是一个独立的实体、也可以添加到主机集群中。您可以将卷分配给单个主机、也可以将主机作为主机集群的一部分、与主机集群中的其他主机共享对一个或多个卷的访问权限。</block>
   <block id="e4fe3b05ff25fac2ac46ef009d413f46" category="paragraph">主机集群是您在SANtricity 系统管理器中创建的逻辑实体。您必须先将主机添加到主机集群、然后才能分配卷。</block>
@@ -1570,7 +1568,6 @@
   <block id="c840c0758e533a8d2471360454925ac2" category="paragraph">使用驱动器安全功能、您可以创建一个安全密钥、该安全密钥可在存储阵列中启用了安全保护的驱动器和控制器之间共享。无论何时关闭和打开驱动器的电源、启用了安全保护的驱动器都会变为安全锁定状态、直到控制器应用安全密钥为止。</block>
   <block id="8a815b2a47535f1623438fab12c61953" category="summary">访问卷是存储阵列上出厂配置的卷、用于通过主机I/O连接与存储阵列和主机进行通信。访问卷需要一个逻辑单元号(Logical Unit Number、LUN)。</block>
   <block id="da5b269ce13f310ea60da5646f66f4df" category="list-text">*带内管理*—访问卷用于带内连接以管理存储阵列。只有在使用命令行界面(CLI)管理存储阵列时、才能执行此操作。</block>
-  <block id="b07f190bd057ec5ae997cb6fe0661683" category="paragraph">EF600或EF300存储系统不支持带内管理。</block>
   <block id="c77cfe09f0da7405a83c73fb323b653d" category="paragraph">首次将卷分配给主机时、系统会自动创建访问卷。例如、如果将Volume_1和Volume_2分配给主机、则在查看分配结果时、您会看到三个卷(Volume_1、Volume_2和Access)。</block>
   <block id="1f7334c99cc83f3bab939dd30e1ec973" category="paragraph">如果您不是使用命令行界面自动创建主机或带内管理存储阵列、则不需要访问卷、您可以通过删除访问卷来释放LUN。此操作将删除卷到LUN的分配以及与主机的任何带内管理连接。</block>
   <block id="728d21c326005f9487f28f6b53df62a5" category="summary">区块是指存储阵列移至条带中的下一个驱动器(RAID组)之前存储在驱动器上的数据量(以千字节(KiB)为单位)。区块大小仅适用于卷组、而不适用于池。</block>
@@ -1752,7 +1749,6 @@
   <block id="497f98df0a65d45702bbb213f94ad2f9" category="paragraph">磁盘架丢失保护</block>
   <block id="583c0f2e390971cb9f4ba4ce9747868e" category="paragraph">显示磁盘架丢失保护是否可用。磁盘架丢失保护功能可确保在与磁盘架完全失去通信时能够访问卷组中卷上的数据。</block>
   <block id="ccadd3c23eb718337466208415f3437d" category="paragraph">抽盒丢失保护</block>
-  <block id="fd12b513859f856de91f86c6941047de" category="paragraph">显示是否提供了抽盒丢失保护、只有在使用包含抽盒的驱动器架时、才会提供此保护。如果与驱动器架中的单个抽盒完全失去通信、则抽盒丢失保护功能可确保能够访问卷组中卷上的数据。</block>
   <block id="26fd2333265af0bb99ce6e49214a7444" category="paragraph">支持的卷块大小(仅限EF300和EF600)</block>
   <block id="145bb60ec8160f7c202bcdea28c6a17a" category="paragraph">显示了可为组中的卷创建的块大小：</block>
   <block id="71c479418a6ac59e90760be894a1c19b" category="list-text">512n—512字节原生。</block>
@@ -2397,7 +2393,6 @@
   <block id="23509c39f2453599ca0877d32956ae09" category="list-text">厚卷的容量是在创建该卷时分配的。</block>
   <block id="5310bc5e64d1f64e025eb1c642e2bba8" category="list-text">写入到精简卷时、精简卷的容量将作为数据进行分配。</block>
   <block id="059801af7cde1a87cf3c098887a187f9" category="paragraph">精简配置有助于避免浪费已分配的容量、并可节省企业前期存储成本。但是、完全配置的优势在于延迟更短、因为在创建厚卷时会一次性分配所有存储。</block>
-  <block id="e2b8fbf01b4ff47fbb96c92ac379ea78" category="paragraph">EF600和EF300存储系统不支持精简配置。</block>
   <block id="089e479d3dc64139ab1266d151b32d32" category="section-title">卷的特征</block>
   <block id="796dfd432b6f644d61e91352515bb6d2" category="paragraph">池或卷组中的每个卷都可以根据要存储的数据类型具有自己的特征。其中一些特征包括：</block>
   <block id="7c1d052253e33c65465a5eb406bb3dc2" category="list-text">*区块大小*—区块是指存储阵列移至条带中下一个驱动器(RAID组)之前存储在驱动器上的数据量(以千字节(KiB)为单位)。区块大小等于或小于卷组的容量。区块大小是固定的、不能为池更改。</block>
@@ -5826,8 +5821,6 @@
   <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">在System Manager中、找到并记录机箱序列号。您可以通过将鼠标悬停在支持中心磁贴上来查看此序列号。</block>
   <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">在 System Manager 中，找到功能启用标识符。转到菜单：设置[系统]、然后向下滚动到*加载项*。查找*功能启用标识符*。记录功能启用标识符的编号。</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">找到并记录用于激活功能的代码。对于功能包、此代码将在执行转换的相应说明中提供。</block>
-  <block id="b7c76db9b2472e615129452598c32a70" category="inline-link">NetApp E系列系统文档中心</block>
-  <block id="19c1dae7ed1abf9eb3b6c5146df9b1d5" category="paragraph">NetApp说明可从获取<block ref="da76044833cc021823434c8291982304" category="inline-link-rx"></block>。</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">对于高级功能、您可以从支持站点访问激活代码、如下所示：</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">登录到<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>。</block>
   <block id="78e85ed9fdf2fdf631f1825f112c9596" category="list-text">请访问您的产品对应的*软件许可证*。</block>
@@ -8448,11 +8441,7 @@
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用阵列中嵌入的安全断言标记语言(SAML)功能配置访问管理、则当用户的SSO会话达到其最大限制时、可能会发生会话超时。可能会在System Manager会话超时之前发生这种情况。</block>
-  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600或EF300存储系统不支持同步镜像。</block>
-  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600或EF300存储阵列不支持同步镜像。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必须匹配相同的协议、托盘级别、区块大小、安全类型和RAID级别。不符合条件的异步镜像对不会显示在可用卷列表中。</block>
-  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不适用于EF600或EF300存储系统上的同步镜像。</block>
-  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300或EF600存储阵列不支持同步镜像。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^目标卷的容量必须等于或大于精简卷报告的容量。</block>
   <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^在联机复制操作完成之前、您无法使用Snapshot卷副本。</block>
@@ -8501,7 +8490,6 @@
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每当发生可警报的事件时、事件监控器都会向系统日志服务器发送警报。要进一步配置审核日志的系统日志设置、请参见<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。要进一步配置警报的系统日志设置、请参见<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager --一种基于Web的界面，用于管理网络中的单个存储阵列。</block>
-  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600和EF300存储阵列不支持同步镜像或精简卷。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">驱动器、控制器和组件视图</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">要在前磁盘架视图和后磁盘架视图之间切换，请从最右侧选择*Drives*或*Controllers &amp; Components*(显示的链接取决于当前视图)。“*驱动器*”视图显示驱动器和任何空驱动器托架。“*控制器和组件*”视图显示了控制器、所有IOM (ESM)模块、电源/风扇箱或空控制器托架。在页面底部，您还可以选择*显示所有驱动器*。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80发行说明</block>
@@ -8570,7 +8558,6 @@
   <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">系统设置</block>
   <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>*系统设置*</block>
   <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>*支持*</block>
-  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。您可以从中央视图查看所有较新的E系列和EF系列阵列的状态、例如E4000、E2800、EF280、EF300、E5700、EF570和EF600。您还可以对选定存储阵列执行批处理操作。</block>
   <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">发现存储阵列</block>
   <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>*发现存储阵列*</block>
   <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">启动</block>
@@ -8615,7 +8602,6 @@
   <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">默认介质扫描期限设置为120天。</block>
   <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">*本机块大小*—卷的块大小与驱动器块大小匹配、可以是512或4K。</block>
   <block id="f6c667584c393a129ba0a1a453306311" category="list-text">*模拟512块大小*—驱动器为4 k、但报告的块大小为512。</block>
-  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcli可直接通过SANtricity系统管理器访问。此SMClI可下载版本适用于E4000、EF600、EF300、E5700、EF570、E2800和EF280控制器。要在SANtricity 系统管理器中下载SMCLI、请选择*设置*&gt;*系统*和*加载项*&gt;*命令行界面*。</block>
   <block id="8372cda02b92707718d83873eed70eff" category="image-alt">池和卷组结构</block>
   <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshot概述</block>
   <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">您可以通过SANtricity系统管理器管理系统存储。</block>
@@ -8742,4 +8728,25 @@
   <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricity软件版本是一款适用于数据分析、视频监控以及备份和恢复等繁重工作负载应用程序的E系列混合闪存和EF系列全闪存阵列、可帮助您实现最高性能和利用率。</block>
   <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricity软件版本操作文档</block>
   <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricity软件版本、版本为</block>
+  <block id="bea9b4f39c26a537662fed44c4b4ab7e" category="admonition">EF600/EF600C和EF300/EF300C存储阵列不支持同步镜像或精简卷。</block>
+  <block id="07ceb34078b6425ead2bdf25c28b4765" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中、您可以查看所有较新的E系列和EF系列阵列的状态、例如E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C和EF600C。您还可以对选定存储阵列执行批处理操作。</block>
+  <block id="a8d536a226bc5040b931337a7644185d" category="paragraph">EF600/EF600C或EF300/EF300C存储阵列不支持同步镜像。</block>
+  <block id="68d28abd2b869bd5795d298dfa9e846e" category="paragraph">此功能在EF600/EF600C或EF300/EF300C存储系统上不可用。</block>
+  <block id="465143b73392c408d4e639ff6ed7cf18" category="paragraph">EF300/EF300C或EF600/EF600C存储阵列不支持同步镜像。</block>
+  <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C或EF300/EF300C存储系统不支持同步镜像。</block>
+  <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">此功能不适用于EF600/EF600C或EF300/EF300C存储系统上的同步镜像。</block>
+  <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">目前、EF300C或EF600C存储阵列不支持DULBE。</block>
+  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">资源配置是EF300、EF300C、EF600和EF600C存储阵列中提供的一项功能、可以立即使用卷、而无需后台初始化过程。</block>
+  <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000、EF600/EF600C或EF300/EF300C存储系统不支持使用Access卷进行带内管理。</block>
+  <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">精简卷在EF600/EF600C或EF300/EF300C存储系统上不可用。</block>
+  <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">显示是否提供了抽盒丢失保护、只有在使用包含抽盒的驱动器架时、才会提供此保护。如果与驱动器架中的单个抽盒完全失去通信、则抽盒丢失保护功能可确保能够访问卷组中卷上的数据。</block>
+  <block id="d1395fc90f77b84babf353a6d9d715db" category="list-text">2、048个卷(EF600、EF600C和E5700系列)</block>
+  <block id="896a61fe313f0f38c6a4575f53d2958d" category="list-text">1、024个卷(EF300和EF300C)</block>
+  <block id="61c9873f4f28e9fd9310c86bf6f0e33f" category="paragraph">SMcli可直接通过SANtricity系统管理器访问。此SMClI可下载版本适用于E4000、EF600、EF600C、EF300、EF300C、E5700、EF570、E2800和EF280控制器。要在SANtricity 系统管理器中下载SMCLI、请选择*设置*&gt;*系统*和*加载项*&gt;*命令行界面*。</block>
+  <block id="4f0494c1ee4d34a0be2e413265889dcb" category="paragraph">EF600/EF600C和EF300/EF300C存储系统不支持精简配置。</block>
+  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">11.90R1中的新增功能</block>
+  <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">新存储系统型号—EF300C和EF600C</block>
+  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">此版本推出了EF300C和EF600C全闪存NVMe存储系统。EF300C和EF600C是现有EF300和EF600存储系统的高容量闪存版本。EF300C和EF600C支持30 TB或60 TB大小的高容量NVMe SSD驱动器。EF300C/EF600C仅兼容动态磁盘池、不支持原有RAID。</block>
+  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">支持EF4000上的12 Gb SAS接口</block>
+  <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000控制器现在支持12 Gb SAS主机接口卡。</block>
 </blocks>
