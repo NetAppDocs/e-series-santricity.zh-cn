@@ -456,8 +456,6 @@
   <block id="a68e42f8ba6fef756332c8e2507bd688" category="summary">固件升级进度取决于系统的整体负载。</block>
   <block id="182309e939480b1bc525560bbc942506" category="doc">为什么固件升级进度如此缓慢？</block>
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">在驱动器固件的联机升级期间、如果在快速重建过程中发生卷传输、系统将对传输的卷启动完全重建。此操作可能需要相当长的时间。实际完整重建时间取决于多个因素、包括重建操作期间发生的I/O活动量、卷组中的驱动器数量、重建优先级设置以及驱动器性能。</block>
-  <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤升级控制器软件和固件。</block>
-  <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">控制器软件和固件升级工作流</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤配置AutoSupport 功能。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 功能的工作流</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">禁用AutoSupport 维护窗口以允许在发生错误事件时自动创建服务单。禁用AutoSupport 维护窗口后、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。</block>
@@ -7394,11 +7392,7 @@
   <block id="78d46085734b1546832159391eb2b467" category="list-text">选择菜单：管理组[将存储阵列添加到组]。</block>
   <block id="875510c22480d2f647cff890742474ab" category="list-text">选择要添加到组中的存储阵列。</block>
   <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">单击 * 添加。 *</block>
-  <block id="7d63fa7b66beb048adb4cb5412f78f29" category="summary">您可以使用Unified Manager将同一类型的多个存储阵列上的SANtricity OS软件升级到更高版本。</block>
-  <block id="35a02fabedaff63c9eea49354c0479c7" category="doc">升级的工作原理</block>
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="section-title">升级工作流</block>
-  <block id="37e1222cab25890a0cd0d01b19f4489d" category="paragraph">以下步骤提供了执行软件升级的高级工作流：</block>
-  <block id="bc2ada3b24f486f7b98ff3159828f426" category="list-text">您可以从支持站点下载最新的SANtricity OS软件文件(可从Unified Manager的*支持*页面中找到一个链接)。将此文件保存在管理主机系统(在浏览器中访问Unified Manager的主机)上、然后解压缩此文件。</block>
   <block id="a200f8c4b71a38169e50e4e1757c92f0" category="list-text">在Unified Manager中、您可以将SANtricity OS软件文件和NVSRAM文件加载到存储库(存储文件的Web服务代理服务器的一个区域)。您可以从菜单：升级中心[升级SANtricity 操作系统软件或从升级中心&gt;管理软件存储库]添加文件。</block>
   <block id="d1ba3ebc5172c097a542cb59c46118f4" category="list-text">将文件加载到存储库中后、您可以选择要在升级中使用的文件。从升级SANtricity OS软件页面(菜单：升级中心[升级SANtricity OS软件])中、选择SANtricity OS软件文件和NVSRAM文件。选择软件文件后、此页面上将显示兼容存储阵列列表。然后、选择要使用新软件升级的存储阵列。(不能选择不兼容的阵列。)</block>
   <block id="d07fed7a91e9b5ecf1b7a376a13d3c4e" category="list-text">然后、您可以立即开始软件传输和激活、也可以选择稍后暂存文件以进行激活。在升级过程中、Unified Manager将执行以下任务：</block>
@@ -8620,7 +8614,6 @@
   <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技术支持。</block>
   <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">升级固件位置</block>
   <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport工作流</block>
-  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">控制器软件和固件升级工作流</block>
   <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity统一管理器7.</block>
   <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">您可以通过SANtricity统一管理器配置使用的设置。</block>
   <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">使用Web浏览器与网络管理客户端建立带外连接。</block>
@@ -8713,7 +8706,6 @@
   <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">您可以获取并导入CA签名的证书、以便安全访问托管SANtricity统一管理器的管理系统。</block>
   <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">在SANtricity Unified Manager显示和管理存储资源之前、它必须先发现要在组织网络中管理的存储阵列。您可以发现多个阵列、也可以发现一个阵列。</block>
   <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">您可以使用SANtricity 统一管理器将设置从一个存储阵列导入到多个存储阵列。导入设置功能是一个批处理操作、当您需要在网络中配置多个阵列时、可以节省时间。</block>
-  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">您可以使用SANtricity 统一管理器将同一类型的多个存储阵列上的SANtricity OS软件升级到更高版本。</block>
   <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">访问SANtricity System Manager的注意事项</block>
   <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">您可以在SANtricity统一管理器中配置异步或同步镜像、然后使用SANtricity系统管理器管理同步。</block>
   <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity统一管理器提供了SANtricity镜像功能的配置选项、使管理员能够在两个存储阵列之间复制数据以实现数据保护。</block>
@@ -8749,4 +8741,7 @@
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">此版本推出了EF300C和EF600C全闪存NVMe存储系统。EF300C和EF600C是现有EF300和EF600存储系统的高容量闪存版本。EF300C和EF600C支持30 TB或60 TB大小的高容量NVMe SSD驱动器。EF300C/EF600C仅兼容动态磁盘池、不支持原有RAID。</block>
   <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">支持EF4000上的12 Gb SAS接口</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000控制器现在支持12 Gb SAS主机接口卡。</block>
+  <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">11.90R2中的新增功能</block>
+  <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E系列11.90发行说明</block>
+  <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本仅包含少量更改、没有任何新功能。有关此版本中变更的详细信息，请参阅<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
 </blocks>
