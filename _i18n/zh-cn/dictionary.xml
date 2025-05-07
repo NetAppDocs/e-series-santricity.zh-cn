@@ -8744,4 +8744,6 @@
   <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">11.90R2中的新增功能</block>
   <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E系列11.90发行说明</block>
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本仅包含少量更改、没有任何新功能。有关此版本中变更的详细信息，请参阅<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
+  <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">启用SAML的连接有限</block>
+  <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">启用SAML后、以下存储阵列功能与JSON Web令牌身份验证的连接将受到限制。</block>
 </blocks>
