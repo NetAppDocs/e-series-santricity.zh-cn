@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, remote, storage 
 summary: 要启动从远程系统到本地E系列存储系统的存储导入、请使用导入远程存储向导。 
 ---
-= 导入远程存储
+= 在 SANtricity System Manager 中导入远程存储
 :allow-uri-read: 
 :experimental: 
 :icons: font

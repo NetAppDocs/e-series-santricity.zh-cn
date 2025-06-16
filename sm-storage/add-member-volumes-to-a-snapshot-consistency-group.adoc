@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, member, volume, snapshot consistency group 
 summary: 您可以将新成员卷添加到现有快照一致性组。添加新成员卷时、还必须为成员卷预留容量。 
 ---
-= 将成员卷添加到快照一致性组
+= 在 SANtricity System Manager 中将成员卷添加到快照一致性组
 :allow-uri-read: 
 :experimental: 
 :icons: font

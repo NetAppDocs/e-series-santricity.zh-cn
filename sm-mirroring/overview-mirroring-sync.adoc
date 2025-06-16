@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
 summary: 同步镜像功能可在存储阵列之间远程进行联机实时数据复制。 
 ---
-= 同步镜像概述
+= 了解 SANtricity 软件中的同步镜像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

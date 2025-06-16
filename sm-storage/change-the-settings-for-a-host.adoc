@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host 
 summary: 您可以更改主机的名称、主机操作系统类型以及关联的主机集群。 
 ---
-= 更改主机的设置
+= 在 SANtricity System Manager 中更改主机的设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

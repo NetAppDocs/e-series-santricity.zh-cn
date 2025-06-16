@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, synchronous, mirroring, 
 summary: 您可以测试本地存储阵列与远程存储阵列之间的通信、以诊断参与同步镜像的镜像对可能存在的通信问题。 
 ---
-= 测试同步镜像的通信
+= 在 SANtricity System Manager 中测试同步镜像的通信
 :allow-uri-read: 
 :experimental: 
 :icons: font

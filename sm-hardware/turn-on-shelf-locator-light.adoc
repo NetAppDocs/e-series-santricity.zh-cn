@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
 summary: 要查找硬件页面上显示的磁盘架的物理位置、您可以打开磁盘架的定位灯。 
 ---
-= 打开磁盘架定位灯
+= 在 SANtricity System Manager 中打开机架定位灯
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

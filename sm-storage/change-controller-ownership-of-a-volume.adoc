@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller ownership, volume 
 summary: 您可以更改卷的首选控制器所有权、以便通过新路径定向主机应用程序的I/O。 
 ---
-= 更改卷的控制器所有权
+= 在 SANtricity System Manager 中更改卷的控制器所有权
 :allow-uri-read: 
 :experimental: 
 :icons: font

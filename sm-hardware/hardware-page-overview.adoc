@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, components, 
 summary: 硬件页面以图形方式描绘了存储阵列的物理组件。您可以从此处检查组件状态并执行与这些组件相关的某些功能。 
 ---
-= 硬件页面和组件
+= SANtricity System Manager 硬件页面和组件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

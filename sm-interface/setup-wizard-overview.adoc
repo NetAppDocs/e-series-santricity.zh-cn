@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, setup wizard 
 summary: 使用设置向导配置存储阵列、包括硬件、主机、应用程序、工作负载、 池、警报和AutoSupport。 
 ---
-= 设置向导概述
+= 了解 SANtricity System Manager 安装向导
 :allow-uri-read: 
 :experimental: 
 :icons: font

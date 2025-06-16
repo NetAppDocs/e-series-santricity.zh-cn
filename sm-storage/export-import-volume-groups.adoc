@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, import, volume group 
 summary: 通过卷组迁移、您可以导出卷组、以便将卷组导入到其他存储阵列。 
 ---
-= 导出/导入卷组
+= 在 SANtricity CLI 中导出/导入卷组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

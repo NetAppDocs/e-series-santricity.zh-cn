@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information, 
 summary: 在证书页面中、您可以查看存储阵列的证书类型、颁发机构和有效日期范围。 
 ---
-= 查看导入的证书信息
+= 在 SANtricity System Manager 中查看导入的证书信息
 :allow-uri-read: 
 :experimental: 
 :icons: font

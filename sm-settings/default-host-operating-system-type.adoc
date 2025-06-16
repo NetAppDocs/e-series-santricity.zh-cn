@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, default, host, operating, system, 
 summary: 首次连接主机时、存储阵列会使用默认主机类型。它定义了在访问卷时存储阵列中的控制器如何与主机的操作系统配合使用。 
 ---
-= 默认主机操作系统类型
+= 了解 SANtricity 软件中的默认主机操作系统类型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

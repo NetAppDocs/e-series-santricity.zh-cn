@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirrored, pair, 
 summary: 您可以更改镜像对在通信中断后用于完成重新同步操作的同步优先级和重新同步策略。 
 ---
-= 更改镜像对的同步设置
+= 在 SANtricity System Manager 中更改镜像对的同步设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

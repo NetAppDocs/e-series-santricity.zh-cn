@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses 
 summary: 默认情况下、控制器在发货时会在两个网络端口上启用DHCP。您可以分配静态IP地址、使用默认静态IP地址或使用DHCP分配的IP地址。您也可以使用IPv6无状态自动配置。 
 ---
-= 分配IP地址的注意事项
+= 了解 E 系列控制器的 IP 地址分配
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

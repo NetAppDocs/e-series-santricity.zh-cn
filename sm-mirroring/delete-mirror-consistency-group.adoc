@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group, 
 summary: 您可以删除本地存储阵列和远程存储阵列上不再需要的镜像一致性组。 
 ---
-= 删除镜像一致性组
+= 在 SANtricity System Manager 中删除镜像一致性组
 :allow-uri-read: 
 :experimental: 
 :icons: font

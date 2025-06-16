@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, redistribute, volumes 
 summary: 重新分配卷以将卷移回其首选控制器所有者。通常、当主机和存储阵列之间的数据路径出现问题时、多路径驱动程序会从其首选控制器所有者移动卷。 
 ---
-= 重新分配卷
+= 在 SANtricity System Manager 中重新分配卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

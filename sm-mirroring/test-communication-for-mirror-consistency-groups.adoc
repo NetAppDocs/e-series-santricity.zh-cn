@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups, 
 summary: 您可以测试通信链路、以诊断本地存储阵列与与镜像一致性组关联的远程存储阵列之间可能存在的通信问题。 
 ---
-= 测试镜像一致性组的通信
+= 在 SANtricity System Manager 中测试镜像一致性组的通信
 :allow-uri-read: 
 :experimental: 
 :icons: font

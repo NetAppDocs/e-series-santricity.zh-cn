@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, manual, pool 
 summary: 您可以自动或手动创建池、以便对物理存储进行分组、然后根据需要动态分配。创建池时、您可以添加物理驱动器。 
 ---
-= 自动创建池与手动创建池
+= 了解 SANtricity System Manager 中的自动池创建与手动池创建
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

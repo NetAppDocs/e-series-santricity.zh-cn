@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: 您可以将卷创建为容器、以便应用程序、数据库和文件系统存储数据。创建卷时、您还可以选择一个工作负载来为特定应用程序自定义存储阵列配置。 
 ---
-= 卷和工作负载概述
+= 了解 SANtricity System Manager 中的卷和工作负载
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, mail, server, alerts, 
 summary: 您可以更改用于电子邮件警报的邮件服务器地址和电子邮件发件人地址。 
 ---
-= 编辑警报的邮件服务器
+= 在 SANtricity System Manager 中编辑警报邮件服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font

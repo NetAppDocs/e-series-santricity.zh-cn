@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, controllers, 
 summary: 您可以获取CA签名的证书、以便在控制器与用于访问System Manager的浏览器之间进行安全通信。 
 ---
-= 对控制器使用CA签名的证书
+= 在 SANtricity System Manager 中为控制器使用 CA 签名的证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, status, 
 summary: 同步镜像对的状态指示主卷和二级卷上的数据是否已同步。镜像状态与镜像对中卷的组件状态无关。 
 ---
-= 同步镜像状态
+= 了解 SANtricity System Manager 中的同步镜像状态
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

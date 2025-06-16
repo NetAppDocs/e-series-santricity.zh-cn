@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pool, volume group 
 summary: 您可以使用池或卷组创建卷。最佳选择主要取决于关键存储要求、例如预期I/O工作负载、性能要求和数据保护要求。 
 ---
-= 确定是使用池还是卷组
+= 了解 SANtricity 软件中的池和卷组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

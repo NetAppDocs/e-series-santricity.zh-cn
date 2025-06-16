@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, volume 
 summary: 您可以更改卷的设置、例如名称、主机分配、区块大小、修改优先级、缓存、 等等。 
 ---
-= 更改卷的设置
+= 更改 SANtricity System Manager 中的卷设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

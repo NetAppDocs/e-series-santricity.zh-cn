@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, cache, settings, 
 summary: 对于存储阵列中的所有卷、您可以根据刷新和块大小调整缓存内存设置。 
 ---
-= 更改存储阵列的缓存设置
+= 在 SANtricity System Manager 中更改存储阵列缓存设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

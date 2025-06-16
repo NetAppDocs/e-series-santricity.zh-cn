@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays, group 
 summary: 如果不再需要从特定存储组管理一个或多个受管存储阵列、则可以从组中删除该存储阵列。 
 ---
-= 从组中删除存储阵列
+= 从 SANtricity Unified Manager 中的组中删除存储阵列
 :allow-uri-read: 
 :experimental: 
 :icons: font

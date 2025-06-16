@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, change, saml, role, mappings, 
 summary: 如果先前已为访问管理配置SAML、则可以更改IdP组与存储阵列的预定义角色之间的角色映射。 
 ---
-= 更改SAML角色映射
+= 在 SANtricity Unified Manager 中更改 SAML 角色映射
 :allow-uri-read: 
 :experimental: 
 :icons: font

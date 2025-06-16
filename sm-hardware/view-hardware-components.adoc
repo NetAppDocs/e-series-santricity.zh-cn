@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, hardware, components, filtering, 
 summary: '"硬件"页面提供了排序和筛选功能、便于查找组件。' 
 ---
-= 查看硬件组件
+= 在 SANtricity System Manager 中查看硬件组件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

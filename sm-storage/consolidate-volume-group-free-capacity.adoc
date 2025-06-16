@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, consolidate, free capacity, volume group 
 summary: 使用整合可用容量选项整合选定卷组上的现有可用块区。通过执行此操作、您可以使用卷组中的最大可用容量创建更多卷。 
 ---
-= 整合卷组的可用容量
+= 在 SANtricity System Manager 中整合卷组的可用容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

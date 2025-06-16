@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
 summary: 如果您先前已禁用资源配置的默认功能、则可以转到设置并为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。 
 ---
-= 为新卷组或池启用或禁用资源配置
+= 在 SANtricity System Manager 中启用或禁用新卷组或池的资源配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

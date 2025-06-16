@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software 
 summary: 您可以删除暂存操作系统软件、以确保稍后不会无意中激活待定版本。删除暂存操作系统软件不会影响存储阵列上运行的当前版本。 
 ---
-= 清除暂存操作系统软件
+= 清除 SANtricity Unified Manager 中的暂存操作系统软件
 :allow-uri-read: 
 :experimental: 
 :icons: font

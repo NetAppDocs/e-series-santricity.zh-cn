@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, volume 
 summary: 通常、如果创建的卷参数或容量不正确、不再满足存储配置需求或不再需要用于备份或应用程序测试的快照映像、则可以删除这些卷。 
 ---
-= 删除卷
+= 在 SANtricity System Manager 中删除卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

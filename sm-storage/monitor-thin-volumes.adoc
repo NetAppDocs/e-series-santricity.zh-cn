@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
 summary: 您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。 
 ---
-= 监控精简卷
+= 在 SANtricity System Manager 中监控精简卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

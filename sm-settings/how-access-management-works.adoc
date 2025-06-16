@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management, 
 summary: 访问管理是在SANtricity System Manager中建立用户身份验证的一种方法。 
 ---
-= 访问管理的工作原理
+= SANtricity System Manager 中的访问管理工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

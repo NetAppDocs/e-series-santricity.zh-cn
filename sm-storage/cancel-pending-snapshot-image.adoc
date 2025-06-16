@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, pending, snapshot, image 
 summary: 您可以在待定快照映像完成之前将其取消。快照会异步执行、快照的状态为待定、直到快照完成为止。同步操作完成后、快照映像即会完成。 
 ---
-= 取消待定快照映像
+= 取消 SANtricity System Manager 中的待处理快照映像
 :allow-uri-read: 
 :experimental: 
 :icons: font

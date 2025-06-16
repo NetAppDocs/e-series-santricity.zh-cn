@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: 您可以对卷执行多种不同的操作：增加容量、删除、复制、初始化、重新分发、 更改所有权、更改缓存设置以及更改介质扫描设置。 
 ---
-= 您可以对卷执行的操作
+= 您可以在 SANtricity System Manager 中对卷执行的操作
 :allow-uri-read: 
 :experimental: 
 :icons: font

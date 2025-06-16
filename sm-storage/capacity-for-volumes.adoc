@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity, volumes, 
 summary: 存储阵列中的驱动器可为数据提供物理存储容量。开始存储数据之前、必须先将分配的容量配置到称为池或卷组的逻辑组件中。您可以使用这些存储对象配置、存储、维护和保留存储阵列上的数据。 
 ---
-= 如何为卷分配容量
+= 如何在 SANtricity System Manager 中分配卷容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

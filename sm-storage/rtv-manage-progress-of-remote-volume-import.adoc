@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, imports 
 summary: 导入过程开始后，您可以查看其进度并对其执行操作。 
 ---
-= 管理远程存储导入的进度
+= 在 SANtricity System Manager 中管理远程存储导入的进度
 :allow-uri-read: 
 :experimental: 
 :icons: font

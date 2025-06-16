@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
 summary: 更换驱动器后、驱动器重建通常会自动开始。如果驱动器重建未自动启动、您可以手动启动重建。 
 ---
-= 手动重建驱动器
+= 在 SANtricity System Manager 中手动重建驱动器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

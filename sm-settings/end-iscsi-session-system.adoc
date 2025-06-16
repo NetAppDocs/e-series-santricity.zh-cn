@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, end, iSCSI, session, 
 summary: 您可以结束不再需要的iSCSI会话。iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。 
 ---
-= 结束iSCSI会话
+= 在 SANtricity System Manager 中结束 iSCSI 会话
 :allow-uri-read: 
 :experimental: 
 :icons: font

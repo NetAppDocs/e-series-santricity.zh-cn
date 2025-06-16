@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, image 
 summary: 您可以从基础卷或快照一致性组手动创建快照映像。这也称为即时快照或即时映像。 
 ---
-= 创建快照映像
+= 在 SANtricity System Manager 中创建快照映像
 :allow-uri-read: 
 :experimental: 
 :icons: font

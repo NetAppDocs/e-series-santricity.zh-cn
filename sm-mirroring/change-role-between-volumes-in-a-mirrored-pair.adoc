@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, role, volumes, mirrored, pair, 
 summary: 您可以在镜像对中出于管理目的或在本地存储阵列发生灾难时参与同步镜像的两个卷之间执行角色反转。 
 ---
-= 更改镜像对中卷之间的角色
+= 在 SANtricity System Manager 中更改镜像对中卷之间的角色
 :allow-uri-read: 
 :experimental: 
 :icons: font

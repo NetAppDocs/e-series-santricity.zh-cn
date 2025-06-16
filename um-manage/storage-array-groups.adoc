@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, storage, array, groups 
 summary: 您可以通过对一组存储阵列进行分组来管理物理和虚拟化基础架构。您可能希望对存储阵列进行分组、以便更轻松地运行监控或报告作业。 
 ---
-= 存储阵列组
+= 了解 SANtricity Unified Manager 中的存储阵列组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, hot, spare, unassign, 
 summary: 您可以将热备用磁盘重新更改为未分配的驱动器。 
 ---
-= 取消分配热备用磁盘
+= 在 SANtricity System Manager 中取消分配热备用
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

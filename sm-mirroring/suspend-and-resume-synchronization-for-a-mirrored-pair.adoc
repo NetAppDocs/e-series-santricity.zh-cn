@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
 summary: 您可以使用暂停选项和恢复选项来控制何时同步镜像对中主卷和二级卷上的数据。 
 ---
-= 暂停并恢复镜像对的同步
+= 在 SANtricity System Manager 中暂停和恢复镜像对的同步
 :allow-uri-read: 
 :experimental: 
 :icons: font

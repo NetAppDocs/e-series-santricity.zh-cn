@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, center 
 summary: 从升级中心、您可以管理多个存储阵列的SANtricity OS软件和NVSRAM升级。 
 ---
-= 升级中心概述
+= 了解 SANtricity Unified Manager 中的升级中心
 :allow-uri-read: 
 :experimental: 
 :icons: font

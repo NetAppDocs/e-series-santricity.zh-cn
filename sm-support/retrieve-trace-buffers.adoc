@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, trace, buffers 
 summary: 您可以从控制器中检索跟踪缓冲区、并将文件发送给技术支持进行分析。 
 ---
-= 检索跟踪缓冲区
+= 在 SANtricity System Manager 中检索跟踪缓冲区
 :allow-uri-read: 
 :experimental: 
 :icons: font

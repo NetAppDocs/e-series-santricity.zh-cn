@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, requirements 
 summary: 在使用远程存储功能之前、请查看以下要求和限制。 
 ---
-= 远程存储功能要求
+= 了解 SANtricity 软件中的远程存储功能要求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

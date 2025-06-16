@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters 
 summary: 要使主机或主机集群向卷发送I/O、必须将此卷分配给主机或主机集群。 
 ---
-= 如何将卷分配给主机和主机集群
+= 如何在 SANtricity 软件中将卷分配给主机和主机集群
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

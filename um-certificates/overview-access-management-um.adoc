@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
 summary: 访问管理是一种在SANtricity Unified Manager中配置用户身份验证的方法。 
 ---
-= 访问管理概述
+= 了解 SANtricity Unified Manager 访问管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, communities, snmpv2c, traps, 
 summary: 您可以删除SNMPv2c陷阱的社区名称。 
 ---
-= 删除SNMPv2c陷阱的社区
+= 在 SANtricity System Manager 中删除 SNMPv2c 陷阱的社区
 :allow-uri-read: 
 :experimental: 
 :icons: font

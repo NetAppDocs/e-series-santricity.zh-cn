@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, autosupport, ASUP, delivery, method 
 summary: AutoSupport功能支持使用HTTPS和SMTP协议向技术支持发送派单。 
 ---
-= 配置 AutoSupport 交付方法
+= 在 SANtricity System Manager 中配置 AutoSupport 交付方法
 :allow-uri-read: 
 :experimental: 
 :icons: font

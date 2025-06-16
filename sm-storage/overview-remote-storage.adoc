@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage 
 summary: 如果您具有远程存储功能、则可以从远程存储系统导入数据。 
 ---
-= 远程存储功能概述
+= 了解 SANtricity System Manager 中的远程存储功能
 :allow-uri-read: 
 :experimental: 
 :icons: font

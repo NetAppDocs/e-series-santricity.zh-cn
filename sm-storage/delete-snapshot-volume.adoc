@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, volume 
 summary: 您可以删除备份或软件应用程序测试不再需要的快照卷或快照一致性组快照卷。 
 ---
-= 删除Snapshot卷
+= 在 SANtricity System Manager 中删除快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

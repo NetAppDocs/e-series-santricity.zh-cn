@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 通过复制卷功能、您可以在同一存储阵列上创建两个单独的卷、即源卷和目标卷、从而创建卷的时间点副本。 
 ---
-= 复制卷概述
+= 了解 SANtricity System Manager 中的复制卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

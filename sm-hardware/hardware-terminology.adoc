@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, terms 
 summary: 了解硬件术语如何应用于存储阵列。 
 ---
-= 硬件术语
+= 了解 SANtricity 软件中使用的硬件术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
 summary: System Manager允许您将AutoSupport 派单发送给技术支持、而无需等待计划的派单。 
 ---
-= 发送AutoSupport 派单
+= 在 SANtricity System Manager 中发送 AutoSupport 调度
 :allow-uri-read: 
 :experimental: 
 :icons: font

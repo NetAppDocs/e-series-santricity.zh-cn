@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, storage array, name, 
 summary: 您可以更改SANtricity 系统管理器标题栏中显示的存储阵列名称。 
 ---
-= 编辑存储阵列名称
+= 在 SANtricity System Manager 中编辑存储阵列名称
 :allow-uri-read: 
 :experimental: 
 :icons: font

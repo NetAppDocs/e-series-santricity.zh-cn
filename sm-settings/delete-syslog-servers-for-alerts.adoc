@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
 summary: 您可以删除系统日志服务器、使其不再接收警报。 
 ---
-= 删除警报的系统日志服务器
+= 删除 SANtricity System Manager 中警报的系统日志服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font

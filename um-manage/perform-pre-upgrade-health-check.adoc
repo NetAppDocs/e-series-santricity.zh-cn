@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check 
 summary: 运行状况检查会在升级过程中运行，但您也可以在开始之前单独运行运行运行运行状况检查。运行状况检查会评估存储阵列的组件，以确保升级可以继续进行。 
 ---
-= 执行升级前运行状况检查
+= 在 SANtricity Unified Manager 中执行升级前健康检查
 :allow-uri-read: 
 :experimental: 
 :icons: font

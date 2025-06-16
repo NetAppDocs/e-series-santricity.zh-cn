@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd cache, 
 summary: 'SSD缓存功能是一种基于控制器的解决方案 、可将最常访问的数据("热"数据)缓存到延迟较低的固态驱动器(SSD)上、以动态提高系统性能。SSD缓存仅用于主机读取。' 
 ---
-= SSD缓存的工作原理
+= SSD 缓存在 SANtricity 软件中的工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

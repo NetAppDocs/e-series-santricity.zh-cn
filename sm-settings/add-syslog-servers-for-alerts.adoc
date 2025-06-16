@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, syslog, servers, alerts, 
 summary: 最多可以为系统日志警报添加五个服务器。 
 ---
-= 为警报添加系统日志服务器
+= 在 SANtricity System Manager 中添加用于警报的系统日志服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font

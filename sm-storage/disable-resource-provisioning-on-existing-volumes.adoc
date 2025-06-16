@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning, 
 summary: 您可以在现有池或卷组上启用或禁用资源配置。 
 ---
-= 在现有卷组和池上启用或禁用资源配置
+= 在 SANtricity System Manager 中启用或禁用现有卷组和池的资源配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

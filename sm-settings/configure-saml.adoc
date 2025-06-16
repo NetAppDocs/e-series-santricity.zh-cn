@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, saml, 
 summary: '要为访问管理配置身份验证、您可以使用存储阵列中嵌入的安全断言标记语言(SAML)功能。此配置将在身份提供程序和存储提供程序之间建立连接。' 
 ---
-= 配置SAML
+= 在 SANtricity System Manager 中配置 SAML
 :allow-uri-read: 
 :experimental: 
 :icons: font

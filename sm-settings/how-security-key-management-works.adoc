@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, security, key, management, 
 summary: '在实施驱动器安全功能时、启用了安全保护的驱动器(FIPS或FDE)需要一个安全密钥才能进行数据访问。安全密钥是指这些类型的驱动器与存储阵列中的控制器之间共享的字符串。' 
 ---
-= 安全密钥管理的工作原理
+= SANtricity System Manager 中的安全密钥管理工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

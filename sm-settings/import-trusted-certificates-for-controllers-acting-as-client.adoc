@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, certificates, 
 summary: '如果控制器因无法验证网络服务器的信任链而拒绝连接、您可以从"可信"选项卡导入证书、以使控制器(充当客户端)能够接受来自该服务器的通信。' 
 ---
-= 作为客户端时导入控制器的证书
+= 在 SANtricity System Manager 中充当客户端时导入控制器的证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

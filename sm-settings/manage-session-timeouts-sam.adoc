@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, manage, session, timeouts, 
 summary: 您可以在SANtricity 系统管理器中配置超时、以便在指定时间后断开用户的非活动会话。 
 ---
-= 管理会话超时
+= 在 SANtricity System Manager 中管理会话超时
 :allow-uri-read: 
 :experimental: 
 :icons: font

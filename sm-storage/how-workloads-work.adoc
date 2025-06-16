@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, application, workloads, volume, 
 summary: 创建卷时、您可以选择一个工作负载来为特定应用程序自定义存储阵列配置。 
 ---
-= 工作负载的工作原理
+= SANtricity 软件中的工作负载工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trap, destinations, 
 summary: 您可以删除陷阱目标地址、以便存储阵列的事件监控器不再向该地址发送SNMP陷阱。 
 ---
-= 删除陷阱目标
+= 在 SANtricity System Manager 中删除陷阱目标
 :allow-uri-read: 
 :experimental: 
 :icons: font

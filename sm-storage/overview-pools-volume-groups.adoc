@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume groups 
 summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存储容量。此逻辑容量可以采用池或卷组的形式、具体取决于您的环境需求。 
 ---
-= 池和卷组概述
+= 了解 SANtricity System Manager 中的池和卷组
 :allow-uri-read: 
 :experimental: 
 :icons: font

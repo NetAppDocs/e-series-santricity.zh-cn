@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays 
 summary: '如有必要、您可以导入存储阵列的证书、以便这些证书可以在托管SANtricity Unified Manager的系统中进行身份验证。证书可以由证书颁发机构(CA)签名、也可以是自签名证书。' 
 ---
-= 导入阵列的证书
+= 在 SANtricity Unified Manager 中导入阵列证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

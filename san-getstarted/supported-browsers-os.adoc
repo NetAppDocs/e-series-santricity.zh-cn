@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: 可以从多种类型的浏览器和操作系统访问SANtricity。 
 ---
-= 支持的浏览器和操作系统
+= SANtricity 软件浏览器和操作系统支持
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group 
 summary: 您可以删除不再需要的一个或多个存储阵列组。 
 ---
-= 删除存储阵列组
+= 在 SANtricity Unified Manager 中删除存储阵列组
 :allow-uri-read: 
 :experimental: 
 :icons: font

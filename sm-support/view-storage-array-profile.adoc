@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, profile 
 summary: 存储阵列配置文件可提供存储阵列的所有组件和属性的问题描述。 
 ---
-= 查看存储阵列配置文件
+= 在 SANtricity System Manager 中查看存储阵列的配置文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, events, audit, log, 
 summary: '您可以清除旧事件的审核日志、从而使搜索事件更易于管理。删除后、您可以选择将旧事件保存到CSV (逗号分隔值)文件中。' 
 ---
-= 从审核日志中删除事件
+= 从 SANtricity System Manager 中的审核日志中删除事件
 :allow-uri-read: 
 :experimental: 
 :icons: font

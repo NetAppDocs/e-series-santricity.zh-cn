@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, system, security, key, management, 
 summary: 可从系统页面访问安全密钥管理。 
 ---
-= 驱动器安全性概述
+= 了解 SANtricity System Manager 中的驱动器安全性
 :allow-uri-read: 
 :experimental: 
 :icons: font

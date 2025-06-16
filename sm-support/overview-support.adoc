@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, support, center 
 summary: 使用支持中心执行技术支持可能请求的诊断、恢复和信息收集操作。 
 ---
-= 支持概述
+= 获取 SANtricity System Manager 支持
 :allow-uri-read: 
 :experimental: 
 :icons: font

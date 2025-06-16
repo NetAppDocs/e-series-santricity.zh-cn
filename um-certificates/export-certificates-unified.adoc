@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, export, certificates 
 summary: 您可以导出证书以查看其完整详细信息。 
 ---
-= 导出证书
+= 在 SANtricity Unified Manager 中导出证书
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

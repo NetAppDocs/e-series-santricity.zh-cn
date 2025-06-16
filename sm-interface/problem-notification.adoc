@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, notifications 
 summary: System Manager可使用图标和其他几种方法来通知您存储阵列存在问题。 
 ---
-= 问题通知概述
+= 了解 SANtricity System Manager 问题通知
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

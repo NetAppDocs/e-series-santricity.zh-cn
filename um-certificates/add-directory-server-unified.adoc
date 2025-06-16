@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, add, directory, server 
 summary: 要为访问管理配置身份验证、请在LDAP服务器与运行适用于SANtricity Unified Manager的Web服务代理的主机之间建立通信。然后、将LDAP用户组映射到本地用户角色。 
 ---
-= 添加目录服务器
+= 在 SANtricity Unified Manager 中添加目录服务器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

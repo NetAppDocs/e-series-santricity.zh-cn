@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
 summary: 您可以更改镜像对卷的设置、以调整在镜像对卷的预留容量接近全满时System Manager发送警报通知的百分比。 
 ---
-= 更改镜像对卷的预留容量设置
+= 在 SANtricity System Manager 中更改镜像对卷的预留容量设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

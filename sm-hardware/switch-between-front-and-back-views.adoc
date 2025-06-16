@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves 
 summary: 硬件页面可以显示磁盘架的正面视图或背面视图。 
 ---
-= 在正面视图和背面视图之间切换
+= 在 SANtricity System Manager 中显示正面和背面视图
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

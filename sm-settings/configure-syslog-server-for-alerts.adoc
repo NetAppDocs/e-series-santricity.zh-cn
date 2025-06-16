@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
 summary: 要配置系统日志警报、必须输入系统日志服务器地址和UDP端口。最多允许五个系统日志服务器。 
 ---
-= 为系统日志服务器配置警报
+= 在 SANtricity System Manager 中配置 syslog 服务器以接收警报
 :allow-uri-read: 
 :experimental: 
 :icons: font

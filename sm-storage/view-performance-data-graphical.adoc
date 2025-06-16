@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, graphical, performance, 
 summary: 您可以查看逻辑对象、物理对象、应用程序和工作负载的图形性能数据。 
 ---
-= 查看图形性能数据
+= 在 SANtricity System Manager 中查看图形性能数据
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

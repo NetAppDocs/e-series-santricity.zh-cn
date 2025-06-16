@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache settings 
 summary: 您可以更改读取缓存和写入缓存设置、以影响卷的整体I/O性能。 
 ---
-= 更改卷的缓存设置
+= 在 SANtricity System Manager 中更改卷的缓存设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

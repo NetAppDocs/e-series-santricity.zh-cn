@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access volumes 
 summary: '访问卷是存储阵列上出厂配置的卷、用于通过主机I/O连接与存储阵列和主机进行通信。访问卷需要一个逻辑单元号(Logical Unit Number、LUN)。' 
 ---
-= 访问卷
+= 访问 SANtricity System Manager 中的卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, event, log 
 summary: 使用事件日志查看存储阵列上发生的更改和事件的历史记录。 
 ---
-= 事件日志概述
+= 了解 SANtricity 软件中的事件日志
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

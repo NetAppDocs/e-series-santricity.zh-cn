@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group, 
 summary: 您可以更改镜像一致性组中镜像对之间的角色。为此、您可以将主镜像一致性组降级为二级角色、或者将二级镜像一致性组提升为主角色。 
 ---
-= 镜像一致性组的角色更改
+= 在 SANtricity 软件中更改镜像一致性组角色
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

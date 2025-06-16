@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, nvme, over, InfiniBand, ports, 
 summary: 如果您的控制器包含基于InfiniBand的NVMe连接、则可以从系统页面配置NVMe端口设置。 
 ---
-= 配置基于InfiniBand的NVMe端口
+= 在 SANtricity System Manager 中配置 NVMe over InfiniBand 端口
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes 
 summary: 您可以执行回滚操作、以更改快照一致性组成员卷的内容、使其与保存在快照映像中的内容匹配。 
 ---
-= 为快照一致性组成员卷启动快照映像回滚
+= 在 SANtricity System Manager 中启动快照一致性组成员卷的快照映像回滚
 :allow-uri-read: 
 :experimental: 
 :icons: font

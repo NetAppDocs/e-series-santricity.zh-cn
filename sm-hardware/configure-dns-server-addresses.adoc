@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, dns, server, addresses, 
 summary: '域名系统(Domain Name System、DNS)用于解析控制器和网络时间协议(Network Time Protocol、NTP)服务器的完全限定域名。存储阵列上的管理端口可以同时支持IPv4或IPv6协议。' 
 ---
-= 配置DNS服务器地址
+= 在 SANtricity System Manager 中配置 DNS 服务器地址
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

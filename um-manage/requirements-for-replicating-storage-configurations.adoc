@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations 
 summary: 在将存储配置从一个存储阵列导入到另一个存储阵列之前、请查看相关要求和准则。 
 ---
-= 复制存储配置的要求
+= 在 SANtricity Unified Manager 中复制存储阵列配置的要求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access, management, 
 summary: '访问管理是在SANtricity System Manager中建立用户身份验证的一种方法。身份验证方法包括RBAC (基于角色的访问控制)、目录服务和安全断言标记语言(SAML) 2.0。' 
 ---
-= 访问管理概述
+= 了解 SANtricity System Manager 中的访问管理
 :allow-uri-read: 
 :experimental: 
 :icons: font

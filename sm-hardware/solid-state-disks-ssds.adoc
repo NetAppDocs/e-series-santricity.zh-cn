@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD 
 summary: 固态磁盘（ SSD ）是指使用固态内存（ Flash ）持久存储数据的数据存储设备。SSD 可模拟传统硬盘驱动器，并可与硬盘驱动器使用相同的接口。 
 ---
-= 固态磁盘(SSD)
+= 了解 SANtricity System Manager 中的固态磁盘 (SSD)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

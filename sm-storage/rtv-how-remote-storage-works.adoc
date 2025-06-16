@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage 
 summary: 通过远程存储功能、您可以将数据从远程存储系统导入到本地E系列存储系统。如果您希望简化数据迁移并最大限度地减少停机时间、例如在设备升级期间、此功能将非常有用。 
 ---
-= 远程存储的工作原理
+= 远程存储在 SANtricity 软件中的工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

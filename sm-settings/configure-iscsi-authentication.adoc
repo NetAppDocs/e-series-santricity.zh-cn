@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iscsi, authentication, 
 summary: '为了提高iSCSI网络的安全性、您可以在控制器(目标)和主机(启动程序)之间设置身份验证。' 
 ---
-= 配置iSCSI身份验证
+= 在 SANtricity System Manager 中配置 iSCSI 身份验证
 :allow-uri-read: 
 :experimental: 
 :icons: font

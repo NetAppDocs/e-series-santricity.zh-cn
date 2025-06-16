@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
 summary: 您可以使用减少容量选项减少以下存储对象的预留容量：Snapshot组、Snapshot卷和一致性组成员卷。您只能将预留容量减少为您用于增加的容量。 
 ---
-= 减少预留容量
+= 减少 SANtricity System Manager 中的预留容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

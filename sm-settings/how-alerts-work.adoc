@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, alarm, alerts, 
 summary: 警报会向管理员通知存储阵列上发生的重要事件。可以通过电子邮件， SNMP 陷阱和系统日志发送警报。 
 ---
-= 警报的工作原理
+= SANtricity System Manager 中的警报工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

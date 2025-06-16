@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
 summary: 您可以编辑访问令牌的设置、包括到期时间和创建新令牌的功能。 
 ---
-= 编辑访问令牌设置
+= 在 SANtricity System Manager 中编辑访问令牌设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

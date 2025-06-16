@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, check, volume, redundancy 
 summary: 在技术支持的指导下或按照Recovery Guru的指示、您可以检查池或卷组中某个卷的冗余情况、以确定该卷上的数据是否一致。如果池或卷组中的某个驱动器发生故障、则可以使用冗余数据快速重建替代驱动器上的信息。 
 ---
-= 检查卷冗余
+= 在 SANtricity System Manager 中检查卷冗余
 :allow-uri-read: 
 :experimental: 
 :icons: font

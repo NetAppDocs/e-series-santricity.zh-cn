@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, backup, security, key, 
 summary: 创建或更改安全密钥后、您可以为密钥文件创建备份副本、以防其损坏。 
 ---
-= 备份安全密钥
+= 在 SANtricity System Manager 中备份安全密钥
 :allow-uri-read: 
 :experimental: 
 :icons: font

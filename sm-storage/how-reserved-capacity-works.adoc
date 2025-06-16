@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved, capacity, 
 summary: '在为卷提供复制服务操作(例如快照或异步镜像操作)时、系统会自动创建预留容量。' 
 ---
-= 预留容量的工作原理
+= SANtricity 软件中的预留容量工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

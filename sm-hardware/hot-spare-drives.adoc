@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5 
 summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6卷组中的备用驱动器。 
 ---
-= 热备用驱动器概述
+= 了解 SANtricity System Manager 中的热备用驱动器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

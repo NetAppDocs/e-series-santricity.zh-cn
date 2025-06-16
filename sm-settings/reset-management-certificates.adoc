@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, management, certificates, 
 summary: 您可以将控制器上的证书从使用CA签名证书还原到出厂设置的自签名证书。 
 ---
-= 重置管理证书
+= 在 SANtricity System Manager 中重置管理证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

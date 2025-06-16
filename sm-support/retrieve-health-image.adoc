@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, health, image 
 summary: 您可以查看控制器的运行状况映像。运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。 
 ---
-= 检索运行状况映像
+= 在 SANtricity System Manager 中检索健康图像
 :allow-uri-read: 
 :experimental: 
 :icons: font

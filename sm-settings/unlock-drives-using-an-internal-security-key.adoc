@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, drives, internal, key, management, 
 summary: 如果您配置了内部密钥管理、然后将启用了安全保护的驱动器从一个存储阵列移动到另一个存储阵列、则必须将安全密钥重新分配给新存储阵列、才能访问驱动器上的加密数据。 
 ---
-= 使用内部密钥管理时解锁驱动器
+= 在 SANtricity System Manager 中使用内部密钥管理时解锁驱动器
 :allow-uri-read: 
 :experimental: 
 :icons: font

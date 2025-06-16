@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, external, security, key, 
 summary: 要对密钥管理服务器使用驱动器安全功能、必须创建一个外部密钥、该密钥由密钥管理服务器和存储阵列中支持安全功能的驱动器共享。 
 ---
-= 创建外部安全密钥
+= 在 SANtricity System Manager 中创建外部安全密钥
 :allow-uri-read: 
 :experimental: 
 :icons: font

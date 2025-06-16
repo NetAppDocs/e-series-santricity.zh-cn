@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media, 
 summary: 您可以查看驱动器的状态和设置、例如介质类型、接口类型和容量。 
 ---
-= 查看驱动器状态和设置
+= 在 SANtricity System Manager 中查看驱动器状态和设置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

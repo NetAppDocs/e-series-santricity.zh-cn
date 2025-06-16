@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, os, operating system 
 summary: 使用最新软件和NVSRAM升级一个或多个存储阵列、以确保您拥有所有最新功能和错误修复。控制器NVSRAM是一个控制器文件、用于指定控制器的默认设置。 
 ---
-= 升级SANtricity 操作系统
+= 升级 SANtricity 操作系统
 :allow-uri-read: 
 :experimental: 
 :icons: font

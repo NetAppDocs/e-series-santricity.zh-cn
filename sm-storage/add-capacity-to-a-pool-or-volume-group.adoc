@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, capacity, pool, volume, group 
 summary: 您可以添加驱动器以扩展现有池或卷组中的可用容量。 
 ---
-= 向池或卷组添加容量
+= 在 SANtricity System Manager 中向池或卷组添加容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

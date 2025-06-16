@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, 
 summary: 您可以查看存储阵列的配置文件以及存储阵列中每个组件的固件版本。 
 ---
-= 查看存储阵列信息
+= 在 SANtricity System Manager 中查看存储阵列的信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

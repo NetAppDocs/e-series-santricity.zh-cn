@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
 summary: 启用AutoSupport 维护窗口以禁止在发生错误事件时自动创建服务单。在正常操作模式下、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。 
 ---
-= 启用AutoSupport 维护窗口
+= 在 SANtricity System Manager 中启用 AutoSupport 维护窗口
 :allow-uri-read: 
 :experimental: 
 :icons: font

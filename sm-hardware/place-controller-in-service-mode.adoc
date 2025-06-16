@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, service, mode, 
 summary: 如果系统要求您执行此操作、则可以将控制器置于服务模式。 
 ---
-= 将控制器置于服务模式
+= 在 SANtricity System Manager 中将控制器置于服务模式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

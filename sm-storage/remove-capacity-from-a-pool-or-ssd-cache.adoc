@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, capacity, pool, ssd cache 
 summary: 您可以删除驱动器以减少现有池或SSD缓存的容量。 
 ---
-= 从池或SSD缓存中删除容量
+= 从 SANtricity System Manager 中的池或 SSD 缓存中删除容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

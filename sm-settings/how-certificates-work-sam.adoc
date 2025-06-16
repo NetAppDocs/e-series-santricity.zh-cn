@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, 
 summary: 证书是数字文件、用于标识网站和服务器等在线实体、以实现Internet上的安全通信。 
 ---
-= 证书的工作原理
+= 证书在 SANtricity System Manager 中的工作方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

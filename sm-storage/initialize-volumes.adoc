@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, volumes 
 summary: 首次创建卷时、系统会自动对其进行初始化。但是、Recovery Guru可能会建议您手动初始化卷、以便从某些故障情况中恢复。请仅在技术支持的指导下使用此选项。您可以选择一个或多个卷进行初始化。 
 ---
-= 初始化卷
+= 在 SANtricity System Manager 中初始化卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

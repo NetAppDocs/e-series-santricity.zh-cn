@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, 
 summary: '您可以使用System Manager创建证书签名请求(Certificate Signing Requests、CSR)、导入证书以及管理现有证书。' 
 ---
-= 证书概述
+= 了解 SANtricity System Manager 中的证书
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

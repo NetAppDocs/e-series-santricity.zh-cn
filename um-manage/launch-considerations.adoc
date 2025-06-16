@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: 如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。 
 ---
-= 访问SANtricity System Manager的注意事项
+= 了解如何从 Unified Manager 访问 SANtricity System Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 您可以查看正在执行的复制卷操作、并停止、更改优先级、重新复制或清除复制卷操作。 
 ---
-= 对复制卷操作执行操作
+= 在 SANtricity System Manager 中对复制卷操作采取行动
 :allow-uri-read: 
 :experimental: 
 :icons: font

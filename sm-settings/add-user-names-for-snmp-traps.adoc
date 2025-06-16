@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, users, snmpv3, traps, 
 summary: 对于SNMPv3陷阱、您最多可以添加256个用户。 
 ---
-= 为SNMPv3陷阱添加用户
+= 在 SANtricity System Manager 中为 SNMPv3 陷阱添加用户
 :allow-uri-read: 
 :experimental: 
 :icons: font

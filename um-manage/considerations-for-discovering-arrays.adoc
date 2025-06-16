@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, discovering, arrays 
 summary: Unified Manager必须先发现要在组织网络中管理的存储阵列、然后才能显示和管理存储资源。您可以发现多个阵列、也可以发现一个阵列。 
 ---
-= 发现阵列的注意事项
+= 了解如何在 SANtricity Unified Manager 中发现存储阵列
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

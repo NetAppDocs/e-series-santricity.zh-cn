@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory 
 summary: 软件和固件清单列出了存储阵列中每个组件的固件版本。 
 ---
-= 查看软件和固件清单
+= 在 SANtricity System Manager 中查看软件和固件清单
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
 summary: 异步镜像可按需或按计划复制数据卷、从而最大限度地减少或避免因数据损坏或丢失而导致的停机时间。 
 ---
-= 异步镜像的工作原理
+= 异步镜像在 SANtricity System Manager 中的工作方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

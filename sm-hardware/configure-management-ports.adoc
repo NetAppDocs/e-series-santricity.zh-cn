@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, management, port, 
 summary: 此控制器包含一个用于系统管理的以太网端口。如有必要、您可以更改其传输参数和IP地址。 
 ---
-= 配置管理端口
+= 在 SANtricity System Manager 中配置管理端口
 :allow-uri-read: 
 :experimental: 
 :icons: font

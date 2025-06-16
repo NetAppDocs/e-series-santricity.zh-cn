@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, synchronous, mirror, relationship, 
 summary: 您可以删除镜像对、以便从本地存储阵列上的主卷和远程存储阵列上的二级卷删除镜像关系。 
 ---
-= 删除同步镜像关系
+= 在 SANtricity System Manager 中删除同步镜像关系
 :allow-uri-read: 
 :experimental: 
 :icons: font

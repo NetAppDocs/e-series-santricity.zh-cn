@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting, 
 summary: 您可以启用主机连接报告、以便存储阵列持续监控控制器与已配置主机之间的连接、然后在连接中断时向您发出警报。默认情况下，此功能处于启用状态。 
 ---
-= 设置主机连接报告
+= 在 SANtricity System Manager 中设置主机连接报告
 :allow-uri-read: 
 :experimental: 
 :icons: font

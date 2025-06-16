@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables, 
 summary: '对于SNMP警报、您可以选择配置SNMP陷阱中显示的管理信息库(Management Information Base、MIB)变量。这些变量可以返回存储阵列名称、阵列位置和联系人。' 
 ---
-= 配置SNMP MIB变量
+= 在 SANtricity System Manager 中配置 SNMP MIB 变量
 :allow-uri-read: 
 :experimental: 
 :icons: font

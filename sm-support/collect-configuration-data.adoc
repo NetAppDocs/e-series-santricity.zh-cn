@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, configuration data 
 summary: 您可以从控制器保存RAID配置数据、其中包括卷组和磁盘池的所有数据。然后、您可以联系技术支持以获得恢复数据的帮助。 
 ---
-= 收集配置数据
+= 在 SANtricity System Manager 中收集配置数据
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates 
 summary: 您可以删除一个或多个不再需要的证书、例如已过期的证书。 
 ---
-= 删除可信证书
+= 在 SANtricity Unified Manager 中删除受信任的证书
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

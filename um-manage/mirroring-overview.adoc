@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, 
 summary: Unified Manager提供了SANtricity 镜像功能的配置选项、可使管理员在两个存储阵列之间复制数据以实现数据保护。 
 ---
-= 镜像的工作原理
+= 了解 SANtricity 镜像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

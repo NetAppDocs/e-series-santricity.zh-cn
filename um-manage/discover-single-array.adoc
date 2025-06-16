@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, single, array 
 summary: 使用添加/发现单个存储阵列选项手动发现单个存储阵列并将其添加到组织的网络中。 
 ---
-= 发现单个阵列
+= 在 SANtricity Unified Manager 中发现单个阵列
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server, 
 summary: 要在密钥管理服务器和存储阵列控制器之间实现安全通信、您必须配置相应的证书集。 
 ---
-= 使用CA签名的证书通过密钥管理服务器进行身份验证
+= 使用 CA 签名证书通过 SANtricity System Manager 中的密钥管理服务器进行身份验证
 :allow-uri-read: 
 :experimental: 
 :icons: font

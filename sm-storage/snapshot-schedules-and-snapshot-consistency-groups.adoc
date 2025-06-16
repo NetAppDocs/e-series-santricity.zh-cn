@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
 summary: 使用计划收集快照映像、并使用快照一致性组管理多个基础卷。 
 ---
-= Snapshot计划和快照一致性组
+= 了解 SANtricity System Manager 中的快照计划和快照一致性组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

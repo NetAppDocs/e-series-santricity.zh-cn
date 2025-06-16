@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
 summary: 下图说明了如何配置主机访问。 
 ---
-= 用于创建主机和分配卷的工作流
+= SANtricity System Manager 中的主机创建和卷分配的工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

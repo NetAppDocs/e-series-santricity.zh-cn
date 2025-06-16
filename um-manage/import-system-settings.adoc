@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, system, settings 
 summary: 您可以将系统配置从一个存储阵列导入到其他存储阵列。当您需要在网络中配置多个阵列时、此批处理操作可以节省时间。 
 ---
-= 导入系统设置
+= 在 SANtricity Unified Manager 中导入系统设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

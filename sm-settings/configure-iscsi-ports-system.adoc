@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iSCSI, ports, systems 
 summary: 如果控制器包含iSCSI主机连接、则可以从系统页面配置iSCSI端口设置。 
 ---
-= 配置iSCSI端口
+= 在 SANtricity System Manager 中配置 iSCSI 端口
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, fail, drive, 
 summary: 如果系统要求您这样做、您可以手动使驱动器出现故障。 
 ---
-= 驱动器发生故障
+= 在 SANtricity System Manager 中手动关闭驱动器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

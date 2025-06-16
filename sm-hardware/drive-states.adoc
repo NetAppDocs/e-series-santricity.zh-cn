@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, states, 
 summary: System Manager会报告驱动器的各种状态。 
 ---
-= 驱动器状态
+= 了解 SANtricity System Manager 中的驱动器状态
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

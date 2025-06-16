@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, nvme, 
 summary: '某些控制器包含一个端口、用于在网络结构上实施NVMe (非易失性内存快速协议)。NVMe支持主机与存储阵列之间的高性能通信。' 
 ---
-= NVMe 概述
+= 了解 NVMe 和 SANtricity 软件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

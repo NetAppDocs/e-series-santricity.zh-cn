@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unassign, volumes 
 summary: 如果不再需要从主机或主机集群对该卷进行I/O访问、请从主机或主机集群中取消分配卷。 
 ---
-= 取消分配卷
+= 在 SANtricity System Manager 中取消分配卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, convert, snapshot, volume, read-write mode 
 summary: 如果需要、您可以将只读快照卷或快照一致性组快照卷转换为读写模式。 
 ---
-= 将快照卷转换为读写模式
+= 在 SANtricity System Manager 中将快照卷转换为读写模式
 :allow-uri-read: 
 :experimental: 
 :icons: font

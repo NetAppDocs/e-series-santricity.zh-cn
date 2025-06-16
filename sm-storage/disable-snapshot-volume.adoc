@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume 
 summary: 如果您不再需要快照卷或希望暂时停止使用快照一致性组中的快照卷、可以将其禁用。 
 ---
-= 禁用Snapshot卷
+= 在 SANtricity System Manager 中禁用快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

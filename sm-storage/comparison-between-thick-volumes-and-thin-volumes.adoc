@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, comparison, thick volumes, thin volumes 
 summary: 厚卷始终为完全配置卷、这意味着在创建卷时会分配所有容量。精简卷始终采用精简配置、这意味着在将数据写入卷时会分配容量。 
 ---
-= 厚卷与精简卷之间的比较
+= 了解 SANtricity 软件中的厚卷和薄卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
 summary: 了解访问管理术语如何适用于SANtricity Unified Manager。 
 ---
-= 访问管理术语
+= 了解 SANtricity Unified Manager 访问管理术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

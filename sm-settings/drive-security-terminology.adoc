@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, security, terms, 
 summary: 了解驱动器安全术语如何应用于存储阵列。 
 ---
-= 驱动器安全术语
+= 了解 SANtricity 软件中的驱动器安全术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

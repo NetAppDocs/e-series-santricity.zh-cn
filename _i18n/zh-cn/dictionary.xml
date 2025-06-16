@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d61bdae6b2aeb5c287102c8d9569da95" category="summary">使用支持中心执行技术支持可能请求的诊断、恢复和信息收集操作。</block>
-  <block id="9852644c4378fe1c292ec7f7c830685e" category="doc">支持概述</block>
   <block id="ec20c5bdec49e7bf8220a764bf8308f8" category="paragraph">通过支持页面可以访问技术支持资源。</block>
   <block id="fe4495fbc98f543d58b2992973cab2a5" category="section-title">有哪些支持任务可用？</block>
   <block id="fd22b478e0779c1faf10bbfeb4b2d9c3" category="paragraph">在支持中、您可以查看技术支持联系人、执行诊断、配置AutoSupport 、查看事件日志以及执行软件升级。</block>
@@ -332,7 +331,6 @@
   <block id="885ebf97ecde4b9932e7e13cf4bfb89d" category="list-text">*每周派单*—在用户可配置的时间间隔和日期内每周发送一次。包括配置和系统状态信息。</block>
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport OnDemand和远程诊断派单*</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">您可以查看存储阵列的配置文件以及存储阵列中每个组件的固件版本。</block>
-  <block id="c679b506735784c7add4a25b6870f8ab" category="doc">查看存储阵列信息</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">您可以查看存储阵列的配置文件以及存储阵列中每个组件的固件版本。</block>
   <block id="4abeb578b363f44144000527bdaabd0d" category="summary">在升级控制器的软件和固件之前、请注意以下事项。</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">在升级SANtricity OS软件之前、我需要了解哪些信息？</block>
@@ -369,7 +367,6 @@
   <block id="c0a9b28d11d68616fb79e051fb5e09ff" category="doc">暂停IOM自动同步前需要了解哪些信息？</block>
   <block id="26459f8e39f6f9c5a61209c666270f09" category="paragraph">通常、控制器软件和IOM固件会作为捆绑包进行升级。如果要保留在机箱上的特殊IOM固件版本、则可以暂停IOM自动同步。否则、您将在下次升级控制器软件时还原到与控制器软件捆绑在一起的IOM固件。</block>
   <block id="9bff0a52d07123acc65d79466ad99166" category="summary">您可以通过查看无法读取的扇区日志、重新启用驱动器端口并清除恢复模式来对当前存储阵列的状态采取操作。</block>
-  <block id="7ca3e291db0767443f0a1deecc6e4357" category="doc">对存储阵列状态执行恢复操作</block>
   <block id="47c365409e53a20cd64997e83455ba87" category="paragraph">您可以通过查看无法读取的扇区日志、重新启用驱动器端口并清除恢复模式来对当前存储阵列的状态采取操作。</block>
   <block id="9963750fa29cf1c51603894979061ccd" category="summary">您可以查看有关通过网络结构连接到存储阵列的NVMe的数据。</block>
   <block id="073c45d3e9123012b597c98a659c03cf" category="doc">查看基于网络结构的NVMe统计信息</block>
@@ -563,7 +560,6 @@
   <block id="a8fdcab87c50d1c3326d999ec15dd4d9" category="list-text">选择*发送*确认操作。</block>
   <block id="e35fea426d01b061b9410a2b28b185d7" category="doc">AutoSupport 功能的作用是什么？</block>
   <block id="80b1c491a2f0b6a862407e5388529f37" category="summary">您可以升级存储阵列的软件以及IOM固件和非易失性静态随机存取存储器(NVSRAM)(可选)、以确保您具有所有最新功能并修复了错误。</block>
-  <block id="b151384749d99be9519acbb3ad2c2b88" category="doc">升级控制器软件和固件</block>
   <block id="d6bd09aab8b7ead5f95174655184e159" category="paragraph">您可以升级存储阵列的软件以及IOM固件和非易失性静态随机存取存储器(NVSRAM)(可选)、以确保您具有所有最新功能并修复了错误。</block>
   <block id="481afbfd60141becd23d9826b22cd01c" category="paragraph">通常，您应同时升级所有组件。但是，如果您不希望在 SANtricity OS 软件升级过程中升级 IOM 固件，或者技术支持已指示您降级 IOM 固件（您只能使用命令行界面降级固件），则可能决定不升级 IOM 固件。</block>
   <block id="d39fe55fd710f94de48358cb3a9684a9" category="list-text">您知道是要立即激活操作系统升级还是稍后激活。</block>
@@ -647,7 +643,6 @@
   <block id="075e5f5e3effee4ba8e827827c488091" category="list-text">选择要结束的会话</block>
   <block id="bd6a44ecaf818d9ed042334cbe10542c" category="list-text">单击*结束会话*、然后确认要执行此操作。</block>
   <block id="690752e5e5c1eec2845ab13481f63056" category="summary">您可以查看事件日志、其中提供了存储阵列上发生的事件的历史记录。</block>
-  <block id="19e7e9857ac1181d5199cfeeca027e31" category="doc">使用事件日志查看事件</block>
   <block id="f935bb769c237afb304f2eb94055b212" category="list-text">选择菜单：Support[事件日志]。</block>
   <block id="6711a7f27c9fa223bbe0e85b65da8385" category="paragraph">此时将显示"Event Log"页面。</block>
   <block id="b45b43dbc109060db4497aaa37ef5e72" category="example-title">页面详细信息</block>
@@ -736,7 +731,6 @@
   <block id="e278e6437347ba1b8b43475dafb1ed84" category="inline-link">11.50 发行说明</block>
   <block id="7d69ef318412295725664b5711e60b81" category="list-text"><block ref="7d69ef318412295725664b5711e60b81" category="inline-link-rx"></block></block>
   <block id="563af0d23fd85448336d877b26d56bcc" category="summary">对于快照计划、您可以更改自动收集时间或收集频率。</block>
-  <block id="2e9f67d336204b527f0e5c0482695e84" category="doc">更改快照计划的设置</block>
   <block id="c770e0557e37eec1175c5e132b5573ad" category="paragraph">您可以从现有快照计划导入设置、也可以根据需要修改设置。</block>
   <block id="abcf9709de55788d69010451f394baa5" category="paragraph">由于快照计划与快照组或快照一致性组关联、因此、计划设置更改可能会影响预留的容量。</block>
   <block id="f9f5e05fdd7630083b26cd44a4934403" category="list-text">选择菜单：Storage[Snapshots]。</block>
@@ -812,7 +806,6 @@
   <block id="01ce1e5eb2298600379f23c5d99bf65e" category="paragraph">*额外优化容量*(仅限EF600和EF300阵列)—创建池时、系统会生成一个建议的优化容量、以便在可用容量与性能以及驱动器使用寿命之间取得平衡。您可以通过向右移动滑块以提高性能和驱动器使用寿命而降低可用容量的增加来调整这种平衡、也可以将滑块移至左侧以增加可用容量、从而降低性能和驱动器使用寿命。</block>
   <block id="27b4db9e4e549f9fa6783d94bcc723e0" category="paragraph">如果未分配一部分容量、SSD驱动器的使用寿命将会延长、并且最大写入性能也会提高。对于与池关联的驱动器、未分配的容量包括池的保留容量、可用容量(卷未使用的容量)以及作为额外优化容量而预留的部分可用容量。额外的优化容量可通过减少可用容量来确保最低的优化容量级别、因此不可用于创建卷。</block>
   <block id="0835be6e2acd3996689e567944a98681" category="summary">"性能"页面提供了监控存储阵列性能的简单方法。</block>
-  <block id="f264455563ca8b26d0daffb627e42c00" category="doc">性能概述</block>
   <block id="64b261aec0cde83064ccb3ba601ea7f3" category="section-title">我可以从性能数据中了解哪些内容？</block>
   <block id="ebe09fa67ff6dd58475ee86e46acd288" category="paragraph">性能图形和表几乎实时显示性能数据、这有助于您确定存储阵列是否遇到问题。您还可以保存性能数据以构建存储阵列的历史视图、并确定问题发生的时间或导致问题的原因。</block>
   <block id="d21d53b8aa24ab7ba645bc9127a88d36" category="inline-link-macro">性能图和准则</block>
@@ -832,7 +825,6 @@
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是_central processing unit_的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU图形显示了阵列上的操作所使用的CPU处理容量百分比。即使没有发生外部I/O、CPU利用率百分比也可以不为零、因为存储操作系统可能正在执行后台操作和监控。将光标悬停在图形上的某个点上、可查看该时间点所使用的处理能力百分比。</block>
   <block id="ec427217874a4925059f42a4cc0d10c9" category="summary">在使用远程存储功能之前、请查看以下要求和限制。</block>
-  <block id="61d69856278e90dda2a782558c4d13fc" category="doc">远程存储功能要求</block>
   <block id="c84d4278eb32c7a089aea86ebf95ad39" category="section-title">支持的协议</block>
   <block id="8967f1758ff8784982c669fc54020cd1" category="paragraph">支持以下协议：</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">iSCSI</block>
@@ -859,7 +851,6 @@
   <block id="396018b82f5e5162a0d44ba918ce385e" category="list-text">不支持 VMware 数据存储库。</block>
   <block id="93e0cdf967f3e69ef1184bc37a06a347" category="list-text">如果存在导入对，则一次只能升级关系 / 导入对中的一个存储系统。</block>
   <block id="e298ddbac0c7e8b508debaf62613efd2" category="summary">您可以更改卷的设置、例如名称、主机分配、区块大小、修改优先级、缓存、 等等。</block>
-  <block id="0ea9de1cbb76e2ac6dd6551040dc4481" category="doc">更改卷的设置</block>
   <block id="8a9d122d42d84ec02591e2da50b53190" category="paragraph">您可以更改卷的设置、例如名称、主机分配、区块大小、修改优先级、缓存、 等等。</block>
   <block id="b768d698f525e9b46e91718351cad1a3" category="paragraph">要更改的卷处于最佳状态。</block>
   <block id="bbf46f9beb7cca84a6bd9b9ad7a9d701" category="list-text">选择菜单： Storage[Volumes] 。</block>
@@ -914,11 +905,9 @@
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager会根据您的选择更改卷的设置。</block>
   <block id="7d4d06d4d7f18d34e58915011308eea8" category="paragraph">选择菜单：主页(查看正在执行的操作)可查看当前正在对选定卷运行的更改操作的进度。</block>
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">在System Manager中、您可以按照以下步骤创建快照映像和快照卷。</block>
-  <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">用于创建快照映像和快照卷的工作流</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">创建快照映像的工作流</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">用于创建快照卷的工作流</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">您可以配置主机和主机集群、从而定义存储阵列与数据服务器之间的连接。</block>
-  <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">主机和主机集群概述</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">什么是主机和主机集群？</block>
   <block id="e2def4f23961d4c427b0cdfd416ff103" category="paragraph">_host_是一种向存储阵列上的卷发送I/O的服务器。主机集群_是一组主机、您可以创建这些主机来将相同的卷分配给多个主机。</block>
   <block id="d34984bf887ed8157bf3724c05cf6310" category="inline-link-macro">主机术语</block>
@@ -957,7 +946,6 @@
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">创建池时、系统会生成一个建议的优化容量、以便在性能、驱动器使用寿命和可用容量之间实现平衡。"池设置"对话框中的"其他优化容量"滑块可用于调整池的优化容量。调整滑块可以提高性能和驱动器磨损寿命、而不会影响可用容量、也不会影响性能和驱动器磨损寿命。</block>
   <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">附加优化容量滑块仅适用于EF600和EF300存储系统。</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">您可以删除驱动器以减少现有池或SSD缓存的容量。</block>
-  <block id="c8f3c0a42a2cd9bb18813868125e869f" category="doc">从池或SSD缓存中删除容量</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">删除驱动器后、池或SSD缓存中每个卷中的数据将重新分配给其余驱动器。已删除的驱动器将变为未分配、其容量将成为存储阵列总可用容量的一部分。</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">删除容量时、请遵循以下准则：</block>
   <block id="293009b86e54802418f98f60625ac2a7" category="list-text">要删除SSD缓存中的最后一个驱动器、必须先删除SSD缓存。</block>
@@ -1012,7 +1000,6 @@
   <block id="624a1dff311bc4d163f1158fdd79e3bb" category="list-text">预留容量不能直接从主机读取或写入。</block>
   <block id="fa6e0c909e3145f51bfdd46bf738d97b" category="list-text">每个读/写Snapshot卷、快照组、一致性组成员卷和镜像对卷都有预留容量。</block>
   <block id="d8bd7fd2f9375aab50b9c8238587ef00" category="summary">您可以找到驱动器、以物理方式识别构成选定池、卷组或SSD缓存的所有驱动器。选定池、卷组或SSD缓存中的每个驱动器上都会亮起一个LED指示灯。</block>
-  <block id="f07ad8c9bf3a486f836a1089919b0053" category="doc">打开池、卷组或SSD缓存中的定位灯</block>
   <block id="dd622c0178d6ffaeb6d3c17389a4d397" category="list-text">选择要查找的池、卷组或SSD缓存、然后单击菜单：更多(打开定位灯)。</block>
   <block id="da01e7e2a730ad7efb5964db19366480" category="paragraph">此时将显示一个对话框、指示包含选定池、卷组或SSD缓存的驱动器上的指示灯已打开。</block>
   <block id="7ce5899000f51ae10c4246754e3e2d5f" category="list-text">成功找到驱动器后、单击*关闭*。</block>
@@ -1020,7 +1007,6 @@
   <block id="dbade4fd0f8d3ab8fc0fbd0de49aa5f6" category="doc">为什么要暂停快照计划？</block>
   <block id="d9eb0ca8e7c587d83f931dbc0d686c77" category="paragraph">如果不需要快照计划、应删除该计划、而不是暂停该计划。</block>
   <block id="fb40658beb252958ffee2087357c67c7" category="summary">您可以使用复制服务复制卷并对卷执行其他操作。</block>
-  <block id="ef72ce97af4d783504adff7908ef6327" category="doc">使用复制服务</block>
   <block id="c99be05276e49867c3c82a7022f31b32" category="doc">如何知道哪种主机操作系统类型正确？</block>
   <block id="e13be85800aed175412a62f5b2b23406" category="paragraph">下拉列表中显示的主机类型取决于存储阵列型号和固件版本。最新版本会首先显示最常见的选项、最有可能是最合适的选项。此列表中的显示并不表示完全支持此选项。</block>
   <block id="e5dc6a32612d72253c0fec9ccbb44c04" category="paragraph">有关主机支持的详细信息、请参见<block ref="8a9cbe245fbeb909e401db80fbaa7bad" category="inline-link-rx"></block>。</block>
@@ -1043,8 +1029,6 @@
   <block id="961886d373243f3f3f779b008441b5d2" category="paragraph">支持使用ATTO Technology、Inc.多路径驱动程序的Mac OS版本。</block>
   <block id="d93a7355c7e5ae529cbbd1c7386ef236" category="paragraph">Windows (ATTO)</block>
   <block id="1cef5a0ae504a39c3c685c81bb227bcc" category="paragraph">支持使用ATTO Technology、Inc.多路径驱动程序的Windows操作系统。</block>
-  <block id="fae9863ad38cf7cb4abba55837a6958e" category="paragraph">FlexArray (ALUA)</block>
-  <block id="80a4b6a6aea0733712df8ece7feeb565" category="paragraph">支持使用ALUA实现多路径的NetApp FlexArray 系统。</block>
   <block id="448462a9364fed0f780b5871c1332348" category="paragraph">IBM服务</block>
   <block id="ba5b374a9253be7b2e7ff414763a91ee" category="paragraph">支持IBM SAN卷控制器配置。</block>
   <block id="fb83a625e5852c1ba47fe358f2d50ffc" category="paragraph">出厂默认值</block>
@@ -1071,7 +1055,6 @@
   <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="paragraph">Volume</block>
   <block id="5529f79a50b85422a46f2851156e97bf" category="paragraph">存储数据的容器。它是为主机创建的逻辑组件、用于访问数据。</block>
   <block id="2ff923561cb245799c176b2d77152327" category="summary">如果要更改主机端口标识符上的用户标签、向主机添加新的主机端口标识符或从主机中删除主机端口标识符、请更改主机端口标识符。</block>
-  <block id="a308e6a2b194d75951c509482417c35a" category="doc">更改主机的主机端口标识符</block>
   <block id="60e563cf5063894ea19b6f99c9c3535c" category="paragraph">更改主机端口标识符时、请记住以下准则：</block>
   <block id="a7bff65d0ed51d740a39f731e7d8021b" category="list-text">*添加*—添加主机端口时、要将主机端口标识符与为连接到存储阵列而创建的主机相关联。您可以使用主机总线适配器(HBA)实用程序手动输入端口信息。</block>
   <block id="f2d3620c344a28c110b23aa6b6f1ce14" category="list-text">*编辑*—您可以编辑主机端口以将主机端口移动(关联)到其他主机。您可能已将主机总线适配器或iSCSI启动程序移动到其他主机、因此必须将主机端口移动(关联)到新主机。</block>
@@ -1146,7 +1129,6 @@
   <block id="f77d46565f9ece5538465e8ec4285c4c" category="list-text">*恢复*-选择*恢复*以从停止位置开始已停止或失败的进程。接下来，将优先级应用于恢复操作，然后单击 * 确定 * 。此操作不会从头开始重新启动导入。如果要从头开始重新启动此过程，必须选择 * 断开连接 * ，然后通过导入远程存储向导重新创建导入。</block>
   <block id="ec5fafc6d1940ad203fabc6f088db6a7" category="list-text">*断开连接*-选择*断开连接*可中断已停止、已完成或失败的导入操作的源卷和目标卷之间的关系。</block>
   <block id="28777dded0f4b7a62c3138973e35582c" category="summary">您可以使用减少容量选项减少以下存储对象的预留容量：Snapshot组、Snapshot卷和一致性组成员卷。您只能将预留容量减少为您用于增加的容量。</block>
-  <block id="fd9b60620868f54114ba56d583ad7b0e" category="doc">减少预留容量</block>
   <block id="115acc53492ff3d71c7e0717c01220a6" category="paragraph">您可以使用减少容量选项减少以下存储对象的预留容量：Snapshot组、Snapshot卷和一致性组成员卷。您只能将预留容量减少为您用于增加的容量。</block>
   <block id="1d76cca7e5eb092d02723fdb9a2c1272" category="list-text">存储对象必须包含多个预留容量卷。</block>
   <block id="7015a6ebdf4b0f5c526b2ffa6971a905" category="list-text">存储对象不能是镜像对卷。</block>
@@ -1403,7 +1385,6 @@
   <block id="7372bf22ccef83db912c883687d647ff" category="paragraph">如果因RAID级别更改而导致容量减少、卷冗余丢失或磁盘架/抽屉丢失保护丢失、则会显示一个确认对话框。选择*是*继续；否则单击*否*。</block>
   <block id="4a3f3854fb9436d01f6ec731304fbf88" category="paragraph">如果更改卷组的RAID级别、System Manager将更改组成卷组的每个卷的RAID级别。在此操作期间、性能可能会受到轻微影响。</block>
   <block id="44102ff30b0cb1313132dfbfa6ab2510" category="summary">您可以为池或卷组启用驱动器安全性、以防止未经授权访问池或卷组中驱动器上的数据。只有使用安全密钥配置的控制器才能对驱动器进行读写访问。</block>
-  <block id="1a3d83a11843bc2c9a2b5405af4f8e34" category="doc">为池或卷组启用安全性</block>
   <block id="1e98917a750bb72ac7b04ed7333f6e91" category="list-text">必须启用驱动器安全功能。</block>
   <block id="320b2cf951a0d3e1ee72e1da68af376c" category="list-text">必须创建安全密钥。</block>
   <block id="c78f7c076825f99339326a7adfb29dab" category="list-text">池或卷组必须处于最佳状态。</block>
@@ -1420,7 +1401,6 @@
   <block id="b84e85e7db7f8a3d2c3833ca5a766938" category="list-text">创建快照映像时、该映像与基础卷完全匹配。创建快照后、如果对基础卷上的任何块或块集发出首次写入请求、则在将新数据写入基础卷之前、原始数据会复制到快照预留容量。</block>
   <block id="15e7467dc499e6bd623850837ffbc81c" category="list-text">后续快照仅包含自创建第一个快照映像以来发生更改的数据块。在将新数据写入基础卷之前、后续的每次写入时复制操作都会将基础卷上即将覆盖的原始数据保存到Snapshot预留容量中。</block>
   <block id="33d4af9dc0c0fc34b7caf0a6ce97ce1c" category="summary">您可以更改主机的名称、主机操作系统类型以及关联的主机集群。</block>
-  <block id="c9b3985cba1edece3f25972cb1d707fb" category="doc">更改主机的设置</block>
   <block id="81f7602d508495d45605b46b5bb92187" category="list-text">选择要编辑的主机、然后单击*查看/编辑设置*。</block>
   <block id="356644152a8ce764e09fdec4e9212fb9" category="list-text">如果尚未选择此选项、请单击*属性*选项卡。</block>
   <block id="dc4c397fe7e85b41f4983bddd8fc0f3d" category="list-text">根据需要更改设置。</block>
@@ -1584,7 +1564,6 @@
   <block id="b56a5fd4bbd3253eb632e0d3225c6ba4" category="paragraph">此时将显示Snapshot映像设置对话框。</block>
   <block id="3f32c7ad02124299dfc7c01e16cc558b" category="list-text">查看快照映像的设置。</block>
   <block id="f949e1c1c71d48680d0ee072b23da4ff" category="summary">您可以查看正在执行的复制卷操作、并停止、更改优先级、重新复制或清除复制卷操作。</block>
-  <block id="d4975b7496eff162cc5471de7875c6f0" category="doc">对复制卷操作执行操作</block>
   <block id="2a960fa11f5217be7b07c29c966c7d36" category="list-text">选择菜单：主页(查看正在执行的操作)。</block>
   <block id="1cab632814d61fafc9d8700dfb3e6bb1" category="paragraph">此时将显示操作进行中对话框。</block>
   <block id="75324fe07b5254b86eb250d33e9a267f" category="list-text">找到要对其执行操作的复制卷操作、然后单击*操作*列中的链接以执行以下操作之一。</block>
@@ -1774,7 +1753,6 @@
   <block id="49787430e749b7be5c4be79c25cd1f33" category="summary">支持以下介质类型：硬盘驱动器(HDD)和固态磁盘(SSD)。</block>
   <block id="5667801c9d485200cee1dd727cd1ab29" category="doc">驱动器支持哪些介质类型？</block>
   <block id="6460199a09a62534a5d7285029145977" category="summary">您可以在现有池或卷组上启用或禁用资源配置。</block>
-  <block id="3ce165f9ea33b7373022aacde38c9ee1" category="doc">在现有卷组和池上启用或禁用资源配置</block>
   <block id="45626cd18cb972bec9636194a3ad449c" category="paragraph">对于任何支持DULBE-的驱动器、您可以在池或卷组中的现有卷上启用或禁用资源配置。</block>
   <block id="af4e386f4a0bfa6defdb867cccb5c066" category="paragraph">资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。分配给卷的所有驱动器块都会进行取消分配(未映射)、这样可以延长SSD的使用寿命并提高最大写入性能。</block>
   <block id="5c6c27c561cdd8551b9bc0d3f459a366" category="paragraph">默认情况下、在驱动器支持DULBE"的系统上启用资源配置。除非您先前已禁用资源配置、否则无需启用该配置。</block>
@@ -1812,7 +1790,6 @@
   <block id="157d8626e7c0e956049c8fc68e4a427c" category="list-text">写入时间。</block>
   <block id="68fa8b7b3ad4153e40edc17f213b5e90" category="list-text">平均I/O大小。</block>
   <block id="6456c5d9623d0552182ab9c769536295" category="summary">您可以将卷创建为容器、以便应用程序、数据库和文件系统存储数据。创建卷时、您还可以选择一个工作负载来为特定应用程序自定义存储阵列配置。</block>
-  <block id="5f071533fa069e07259fb1f7bf088815" category="doc">卷和工作负载概述</block>
   <block id="1a2c232ecac5bfbc4ed165b1096d2713" category="section-title">什么是卷和工作负载？</block>
   <block id="5fe500941776af205fa8b309710f70b6" category="paragraph">卷是使用特定容量为主机创建的逻辑组件、可供主机访问。尽管一个卷可能包含多个驱动器、但一个卷在主机中显示为一个逻辑组件。定义卷后、您可以将其添加到工作负载中。工作负载_是支持SQL Server或Exchange等应用程序的存储对象、您可以使用此对象优化该应用程序的存储。</block>
   <block id="23b0f40602cea8fa2a8a698ef1dd5e05" category="inline-link-macro">卷的工作原理</block>
@@ -1904,7 +1881,6 @@
   <block id="88b6d510c50bcb1b16c968fd91477174" category="paragraph">此时将显示复制卷对话框、提示您选择目标。</block>
   <block id="9427d6397f3d0799cd0eff4c90af378a" category="list-text">选择要用作复制目标的目标卷、然后单击*完成*。</block>
   <block id="3ffd5f0322b1320cb436208a96cd164d" category="summary">您可以更改主机集群名称、或者在主机集群中添加或删除主机。</block>
-  <block id="e5534c43699ab3c35211fa76c37373c6" category="doc">更改主机集群的设置</block>
   <block id="51d60eae66c9543a949b6c5741bec4c2" category="list-text">选择要编辑的主机集群、然后单击*查看/编辑设置*。</block>
   <block id="6e1d2ef0ede0098f422178e7c2f227ef" category="paragraph">此时将显示一个对话框、其中显示了当前主机集群设置。</block>
   <block id="ea082987b476f935cb21974d95545371" category="list-text">根据需要更改主机集群的设置。</block>
@@ -1976,7 +1952,6 @@
   <block id="a9757954a2578775621a228a654b9c0d" category="section-title">驱动器安全功能</block>
   <block id="d5b07097b4cf49d7e93bb597224de2c3" category="paragraph">要在同时使用驱动器安全(已启用安全保护)的卷上使用SSD缓存、该卷的驱动器安全功能必须与SSD缓存匹配。如果不匹配、则此卷将不会启用安全保护。</block>
   <block id="718def83cc27de3ea7c791559cbfb9e4" category="summary">您可以更改卷的首选控制器所有权、以便通过新路径定向主机应用程序的I/O。</block>
-  <block id="8bad42f2b42e9d79e4385df87c170d96" category="doc">更改卷的控制器所有权</block>
   <block id="72b5db057b884e837900cd46506f3406" category="paragraph">如果不使用多路径驱动程序、则必须关闭当前正在使用此卷的任何主机应用程序。此操作可防止在I/O路径发生更改时出现应用程序错误。</block>
   <block id="1a193d87a118a7b0ea8d2329908ebc62" category="paragraph">您可以更改池或卷组中一个或多个卷的控制器所有权。</block>
   <block id="055de6d23ba3feacf68acd0dece439fc" category="list-text">选择任何卷、然后选择菜单：更多[更改所有权]。</block>
@@ -1985,7 +1960,6 @@
   <block id="f7465e26f6da9199ea364328d17635d9" category="list-text">System Manager会更改卷的控制器所有权。现在、卷的I/O将通过此I/O路径定向。</block>
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">在多路径驱动程序重新配置以识别新路径之前、卷可能不会使用新的I/O路径。此操作通常需要不到五分钟的时间。</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">厚卷始终为完全配置卷、这意味着在创建卷时会分配所有容量。精简卷始终采用精简配置、这意味着在将数据写入卷时会分配容量。</block>
-  <block id="deb88f045b03680286bbcfe06796807a" category="doc">厚卷与精简卷之间的比较</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">Volume type</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">厚卷</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">对于厚卷、预先提供大量存储空间、以满足未来的存储需求。</block>
@@ -2032,7 +2006,6 @@
   <block id="c9a9f655057c31cee78def41182ef8f6" category="list-text">存储对象包含一个或多个关联的快照映像。</block>
   <block id="9945a680db325b61ee52dcb6a86bb0b0" category="paragraph">您只能按与添加卷相反的顺序删除预留容量卷。</block>
   <block id="54fe116a46ee3e8514431de0788db1c9" category="summary">通过Snapshot功能、您可以为存储阵列卷创建时间点映像、以用于备份或测试。</block>
-  <block id="bb4db1d940ba3861734fd6e971f7bb5f" category="doc">Snapshot 概述</block>
   <block id="dac8f68c8cc49e828f74e9df79d8fb47" category="section-title">什么是Snapshot映像？</block>
   <block id="91fba19e613b7cbd444bf6ea2426015d" category="paragraph">_snapshot image_是在特定时间点捕获的卷数据的逻辑副本。与还原点一样，您可以通过快照映像回滚到已知正常的数据集。尽管主机可以访问快照映像、但它无法直接对其进行读写。</block>
   <block id="c587bef8eac8648f03d8c4557de37bee" category="inline-link-macro">快照存储的工作原理</block>
@@ -2151,7 +2124,6 @@
   <block id="00c9f8995e9e372b1b21f15fc0c9001b" category="list-text">分配的卷将收到下一个可用的 LUN 编号。主机使用此 LUN 编号来访问此卷。</block>
   <block id="4faf06e0466760e50f45759abdf2041c" category="list-text">用户提供的卷名称将显示在与主机关联的卷列表中。如果适用，出厂配置的访问卷也会显示在与主机关联的卷列表中。</block>
   <block id="380cbfd4d1cf37c4bcab258a95fa8770" category="summary">您可以更改快照组的设置以更改其名称、自动删除设置、允许的最大快照映像数、System Manager发送预留容量警报通知的百分比点或预留容量达到其最大定义百分比时要使用的策略。</block>
-  <block id="c716bcf2eb04bf6a1997371363f29aa7" category="doc">更改快照组的预留容量设置</block>
   <block id="461d4d6aff9437cf486bde4465e94358" category="paragraph">在创建快照组期间、系统会创建预留容量来存储组中所有快照映像的数据。</block>
   <block id="8c6fc876d654fd1d7f379afba14dabae" category="list-text">选择要编辑的快照组、然后单击*查看/编辑设置*。</block>
   <block id="3726b7f0267ff56f9f5c771bd06c30b7" category="paragraph">此时将显示Snapshot组设置对话框。</block>
@@ -2314,7 +2286,6 @@
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">池或卷组处于非最佳状态。</block>
   <block id="a1b139d59112cf92af4c10f50fb6dec0" category="list-text">池或卷组的容量太小。</block>
   <block id="129c375677986f0df558d98865d15561" category="summary">通过复制卷功能、您可以在同一存储阵列上创建两个单独的卷、即源卷和目标卷、从而创建卷的时间点副本。</block>
-  <block id="cc448d01360c44d3867d40054ad4b2c2" category="doc">复制卷概述</block>
   <block id="751451b42f5feb38b0ab9a5355f2a886" category="paragraph">此功能会逐字节执行从源卷到目标卷的复制、从而使目标卷上的数据与源卷上的数据完全相同。</block>
   <block id="76227302cc2a921713b76d05f4eb63b5" category="section-title">复制数据以提高访问能力</block>
   <block id="0772a60b3b09eb3a9507aee6a3c3e0e8" category="paragraph">随着卷的存储要求发生变化、您可以使用复制卷功能将数据从使用较小容量驱动器的池或卷组复制到使用较大容量驱动器的池或卷组。例如、您可以使用复制卷功能执行以下操作：</block>
@@ -2361,7 +2332,6 @@
   <block id="e2b55cbf1da587ab432dea10ed7793a4" category="list-text">您可以选择卷图块中的*应用程序和工作负载*选项卡、以查看按工作负载分组的存储阵列卷以及与工作负载关联的应用程序类型。</block>
   <block id="ac18a6a26f564a918149353f318b2d9d" category="list-text">您可以选择性能图块中的*应用程序和工作负载*选项卡以查看逻辑对象的性能指标(延迟、IOPS和MBs)。对象按应用程序和关联工作负载分组。通过定期收集此性能数据、您可以建立基线测量并分析趋势、这有助于您调查与I/O性能相关的问题。</block>
   <block id="8bc8cf41f208c93a13a5a656ec48608d" category="summary">您可以执行回滚操作来更改基础卷的内容、使其与保存在快照映像中的内容匹配。回滚操作不会更改与基础卷关联的快照映像的内容。</block>
-  <block id="46e96478d0dd921c2f8fadb327d3e23d" category="doc">启动基础卷的快照映像回滚</block>
   <block id="235ad21d209038d7e95be805248f929d" category="paragraph">您可以执行回滚操作来更改基础卷的内容、使其与保存在快照映像中的内容匹配。</block>
   <block id="e29010bd175ff4270aad98626de4bc9b" category="paragraph">回滚操作不会更改与基础卷关联的快照映像的内容。</block>
   <block id="353702e361f6771e184a1ca4ac7a6084" category="list-text">预留的容量足以启动回滚操作。</block>
@@ -2401,9 +2371,7 @@
   <block id="cefe54bdb4dc0e23367eaf8ba8f61a93" category="list-text">*描述性名称*—您可以根据需要为卷命名任何名称、但我们建议将此名称设置为描述性名称。</block>
   <block id="5a31ba315f9216d623d8fe03f601e49d" category="paragraph">在创建卷期间、系统会为每个卷分配容量、并为其分配名称、区块大小(仅限卷组)、控制器所有权以及卷到主机的分配。卷数据会根据需要在控制器之间自动进行负载平衡。</block>
   <block id="88e56411e6f3d7df385eece8002ee7c8" category="summary">您可以管理应用程序和工作负载以查看存储阵列上按工作负载名称和应用程序类型分组的所有现有卷。您还可以向现有或新工作负载添加卷、更改现有工作负载的设置以及创建新卷和工作负载。</block>
-  <block id="9067d3a54424613d49086a0043247788" category="doc">管理应用程序和工作负载</block>
   <block id="aff417c0d45c728410c40abfb161ecba" category="summary">您可以执行脱机复制卷操作或联机复制卷操作。脱机操作会从源卷读取数据并将其复制到目标卷。联机操作使用快照卷作为源卷、并将其数据复制到目标卷。</block>
-  <block id="915b7d2a3b458225c1ee16363230c039" category="doc">复制卷操作的类型</block>
   <block id="0de58aa88d06dff3650182cac9a226ee" category="paragraph">您可以执行_offline"复制卷"操作或"_online"复制卷操作。脱机操作会从源卷读取数据并将其复制到目标卷。联机操作使用快照卷作为源卷、并将其数据复制到目标卷。</block>
   <block id="9b7155c0a3b16c4282d1395e582dcbc6" category="paragraph">为确保数据完整性、在任何一种类型的复制卷操作期间、目标卷的所有I/O活动都将暂停。发生此暂停的原因是、在操作步骤 完成之前、目标卷上的数据状态不一致。</block>
   <block id="3606eaf10e2f51e455289fe4dd10c4a2" category="paragraph">下面介绍了脱机和联机复制卷操作。</block>
@@ -2438,7 +2406,6 @@
   <block id="7a3c0387ff8d671f116d2f97ed8afcbc" category="list-text">由于预留容量卷会将原始数据的副本存储在这些数据块中、因此对这些数据块进行的进一步更改仅会写入源卷。</block>
   <block id="ab36a8aa582f02cd458d8bff21889ed0" category="list-text">联机副本操作使用的磁盘空间少于完整物理副本、因为存储在预留容量卷中的数据块仅为自创建快照以来发生更改的数据块。</block>
   <block id="6bb3a46b3932d69f74f52e1d3c942756" category="summary">如果您具有远程存储功能、则可以从远程存储系统导入数据。</block>
-  <block id="18fcb008ceda8b1cf63c0444c17bf801" category="doc">远程存储功能概述</block>
   <block id="51bdb07cd734dc156aa5d6485d1ba3b7" category="paragraph">如果您具有远程存储功能、则可以将数据从远程存储系统导入到存储阵列。</block>
   <block id="bef81a1a0d24aa88775efd48898250b6" category="section-title">什么是远程存储功能？</block>
   <block id="18d20e16fed95134da8259eee46d6a8c" category="paragraph">使用_Remote Storage_功能、您可以将数据从远程存储系统导入到本地E系列存储系统。远程系统可以是其他E系列系统、也可以是其他供应商提供的系统。如果您希望简化数据迁移并最大限度地减少停机时间、例如在设备升级期间、此功能将非常有用。</block>
@@ -2487,7 +2454,6 @@
   <block id="e92822017f1499ec305fe9f75ac19f24" category="list-text">将SSD缓存与要实施SSD读取缓存的卷相关联。要立即在兼容卷上启用SSD缓存、请选中*在映射到主机的现有兼容卷上启用SSD缓存*复选框。</block>
   <block id="13d1cd9af96a1d87ee43e665e1d42520" category="paragraph">如果卷共享相同的驱动器安全性和DA功能、则这些卷是兼容的。</block>
   <block id="7329ad3e94c5d71f625111f13a005dd0" category="summary">您可以更改快照卷或快照一致性组快照卷的设置以对其进行重命名、启用或禁用SSD缓存、或者更改主机、主机集群或逻辑单元号(LUN)分配。</block>
-  <block id="aa02f147ca4603af8538063bab5ad6f3" category="doc">更改快照卷的卷设置</block>
   <block id="d919aeec90292c7d8f9643574269233b" category="list-text">单击* Snapshot Volumes*选项卡。</block>
   <block id="39b0b41d458e8522460af500eecf9350" category="list-text">选择要更改的快照卷、然后单击*查看/编辑设置*。</block>
   <block id="2f9d9b50df8f9db67b6e81d9055d4ed9" category="paragraph">此时将显示Snapshot Volume Settings对话框。</block>
@@ -2521,7 +2487,6 @@
   <block id="8c06bc91bc7e972275b25c6600652afc" category="list-text">选择要删除的快照计划、然后确认此操作。</block>
   <block id="2ca2521bd984988b62fd46e21768a1c2" category="paragraph">系统会从基础卷或快照一致性组中删除所有计划属性。</block>
   <block id="f504b91fc7b2daed13ef594e9760a84e" category="summary">您可以从现有快照一致性组中删除成员卷。</block>
-  <block id="6cc9b327f7942c0c8762960f3aafeed1" category="doc">从快照一致性组中删除成员卷</block>
   <block id="aedcc7652c31273f99b946fb9bb5a005" category="paragraph">从快照一致性组中删除成员卷时、System Manager会自动删除与该成员卷关联的快照对象。</block>
   <block id="0eed47d2d90cdb3e448151fdaa730703" category="list-text">单击* Snapshot一致性组*选项卡。</block>
   <block id="b36f040a3cd2052fc1f5b6bbcf96df1b" category="list-text">通过选择要修改的快照一致性组旁边的加号(+)展开该组。</block>
@@ -2620,7 +2585,6 @@
   <block id="5a4ca6fb7be75476f7fc96c9b0de9ae2" category="paragraph">用户数据字节</block>
   <block id="78cad8caffd843a6d8697519b35e65a7" category="paragraph">SSD缓存中包含基础卷中的数据的已分配字节数。可用字节数、已分配字节数和用户数据字节数用于计算缓存分配百分比和缓存利用率百分比。</block>
   <block id="6d9c06e04d17d85325a8e4070ca61f69" category="summary">如果需要节省存储空间、您可以暂时暂停按计划收集快照映像。此方法比删除快照计划并稍后重新创建快照计划的效率更高。</block>
-  <block id="95ed951f7d9cd2c1975eca4c10627134" category="doc">激活并暂停快照计划</block>
   <block id="02f81331c3946fa42ca877f31aa7f324" category="paragraph">快照计划的状态将保持暂停、直到您使用*激活*选项恢复计划的快照活动为止。</block>
   <block id="8d45993d556f77ec18873c6a4b16eb10" category="list-text">如果尚未显示、请单击*计划*选项卡。</block>
   <block id="be49673abd6a2cf7d744954864471e5d" category="paragraph">这些计划将在页面上列出。</block>
@@ -2632,7 +2596,6 @@
   <block id="53062af7844d00791beae2fb84050613" category="paragraph">通过池、管理员无需监控每个主机上的使用情况、即可确定存储空间何时可能用尽、并避免传统的磁盘大小调整中断。当池即将耗尽时、可以无中断地向池中添加更多驱动器、并且容量增长对主机是透明的。</block>
   <block id="dd0e8a0621012aa59cfaf7797e25bdec" category="paragraph">对于池、数据会自动重新分布以保持平衡。通过在池中分布奇偶校验信息和备用容量、可以使用池中的每个驱动器重建故障驱动器。此方法不使用专用热备用驱动器、而是在整个池中保留保留(备用)容量。驱动器发生故障时、系统会读取其他驱动器上的区块以重新创建数据。然后、选择一个新驱动器来写入故障驱动器上的每个区块、以便在驱动器之间保持数据分布。</block>
   <block id="46854b5aaaf89d735acaec0bcdeb09bd" category="summary">对于能够按需分配空间的精简卷、您可以更改限制精简卷自动扩展到的已分配容量的限制。</block>
-  <block id="1fbb7853291c978c3052e717082eb546" category="doc">更改精简卷的已分配容量限制</block>
   <block id="b961845efa38e1910c96d89f52483649" category="paragraph">此外、您还可以更改在精简卷接近分配的容量限制时向主页上的通知区域发送警报(超过警告阈值)的百分比点。您可以选择启用或禁用此警报通知。</block>
   <block id="07e54d5f26326212e25b6c584bb84fc5" category="paragraph">系统会根据已分配的容量限制自动扩展已分配的容量。通过分配的容量限制、您可以将精简卷的自动增长限制为低于报告的容量。当写入的数据量接近分配的容量时、您可以更改分配的容量限制。</block>
   <block id="3b0375020af2deacca4406d460303f32" category="paragraph">更改精简卷的已分配容量限制和警告阈值时、必须考虑卷的用户数据和副本服务数据要占用的空间。</block>
@@ -2764,7 +2727,6 @@
   <block id="875e2406f706886f5e31ebae30c66343" category="list-text">查看要添加到选定工作负载的卷。</block>
   <block id="fc6cffe9c819ec03322fb7efb1566961" category="list-text">对工作负载配置感到满意后、单击*完成*。</block>
   <block id="c48bbb13d6635029a8b99e9a931ff354" category="summary">如果要更改快照一致性组的名称、自动删除设置或允许的最大快照映像数、请更改该组的设置。</block>
-  <block id="9522cd3e7661068ccb781f02a4c49819" category="doc">更改快照一致性组的设置</block>
   <block id="87445d8a23c0a915645b18393869c861" category="list-text">选择要编辑的快照一致性组、然后单击*查看/编辑设置*。</block>
   <block id="1b0b0b2ea99e7a5e685e2d755b7587b6" category="paragraph">此时将显示Snapshot一致性组设置对话框。</block>
   <block id="a5edde860d12a7d25fb1cb5d8673482b" category="list-text">根据需要更改快照一致性组的设置。</block>
@@ -3065,7 +3027,6 @@
   <block id="36601f5a928c82791cf21ecbc0723503" category="list-text">删除所有成员Snapshot卷(对于快照一致性组快照卷)。</block>
   <block id="a2b27b5d771bd78822a79ed2704060b6" category="list-text">删除所有关联的主机分配。</block>
   <block id="5da2165026df97efab8cfd791810840d" category="summary">您可以创建一个快照卷、以使主机能够访问卷或快照一致性组的快照映像。您可以将快照卷指定为只读或读写卷。</block>
-  <block id="358172bf51e596cc00b38fb652fc1cae" category="doc">创建Snapshot卷</block>
   <block id="07592b4775149598cb0771e1bcf08ce6" category="paragraph">通过快照卷创建序列、您可以从快照映像创建快照卷、并提供在卷为读/写卷时分配预留容量的选项。快照卷可以指定为以下卷之一：</block>
   <block id="981b97fa3f8db8779eb41f8fdc4f6ac3" category="list-text">只读快照卷使主机应用程序可以对快照映像中所含数据的副本进行读取访问、但无法修改快照映像。只读Snapshot卷没有关联的预留容量。</block>
   <block id="ca5adb3ef8700f58c307c7a7f5de50ba" category="list-text">读写Snapshot卷使主机应用程序能够对快照映像中所含数据的副本进行写入访问。它具有自己的预留容量、用于将主机应用程序后续所做的任何修改保存到基础卷、而不会影响引用的快照映像。</block>
@@ -3149,7 +3110,6 @@
   <block id="072001db08ae65e793389aff41f4b0bf" category="list-text">扫描RAID 3卷、RAID 5卷或RAID 6卷中的数据块、然后检查每个块的冗余信息。(只能使用命令行界面将RAID 3分配给卷组。)</block>
   <block id="022d29d5236acf6a0c4d3252c8c98061" category="list-text">如果控制器固件确定数据不一致、则返回冗余错误。</block>
   <block id="fde13dc4c7d1b0763b56c795eb2b46f0" category="summary">您可以更改一致性组成员卷的设置、以调整在成员卷的预留容量接近全满时System Manager发送警报通知的百分比点、并更改在预留容量达到其定义的最大容量时使用的策略 百分比。</block>
-  <block id="e25d069a4234a38f71cfd3676a1aaddd" category="doc">更改一致性组成员卷的预留容量设置</block>
   <block id="42d96921ced5ab0fbb41eb81dc92775b" category="paragraph">更改单个成员卷的预留容量设置还会更改与一致性组关联的所有成员卷的预留容量设置。</block>
   <block id="23cfe12358ab8744880b94ca23e606a2" category="list-text">选择要编辑的一致性组成员卷、然后单击*查看/编辑设置*。</block>
   <block id="e889be2a32c09b0c39094fb6e3b75a28" category="paragraph">此时将显示成员卷预留容量设置对话框。</block>
@@ -3337,10 +3297,8 @@
   <block id="83c7f11da626486e05121420cf17839f" category="doc">为什么要禁用Snapshot卷？</block>
   <block id="c53922217115bc2415decc6b2d5c447f" category="paragraph">如果您不再需要快照卷或一致性组快照卷、并且不打算稍后重新创建该卷、则应删除该卷、而不是将其禁用。</block>
   <block id="8707cd376e4a4e2b7f02a71e6a1b1009" category="summary">您可以监控精简卷的空间并生成适当的警报、以防止出现容量不足的情况。</block>
-  <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">监控精简卷</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">在SANtricity 系统管理器中、您可以按照以下步骤创建卷。</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">您可以将新成员卷添加到现有快照一致性组。添加新成员卷时、还必须为成员卷预留容量。</block>
-  <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">将成员卷添加到快照一致性组</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">成员卷必须是最佳卷。</block>
   <block id="cf3a19215e7df2fb275b6b3c21d48915" category="list-text">快照一致性组必须小于允许的最大卷数(根据您的配置定义)。</block>
   <block id="56190e6346f498a50676bb624c6f75f2" category="list-text">每个预留容量卷都必须与关联成员卷具有相同的数据保证(Data Assurance、DA)和安全设置。</block>
@@ -3354,7 +3312,6 @@
   <block id="39ced869eb85919b61985a5bc99facb5" category="paragraph">使用此建议选项可使用默认设置为成员卷分配预留容量。</block>
   <block id="c35c2abaa4f0a8645eb9e3cf99b41d28" category="list-text">单击*完成*以添加成员卷。</block>
   <block id="3178f2fce0cfe05b9683b4c79ba0d25d" category="summary">您可以使用池或卷组中的可用容量来增加卷的报告容量（向主机报告的容量）。</block>
-  <block id="5993d1f87afbdf33ef7997a1099d3924" category="doc">增加卷的容量</block>
   <block id="7cf61abe29c59213c314036c21f30dcc" category="list-text">卷的关联池或卷组具有足够的可用容量。</block>
   <block id="6a3ddd06148d23567ce3abf9f3ade114" category="list-text">卷处于最佳状态，不处于任何修改状态。</block>
   <block id="55c07879d5779d730d66f74982752968" category="list-text">对于精简卷、尚未达到报告的最大容量256 TiB。</block>
@@ -3370,7 +3327,6 @@
   <block id="8ae12a3324de65c82a5ac7ad0063817b" category="list-text">System Manager会根据您的选择增加卷的容量。</block>
   <block id="4557785dd414b53e7a78f3927e297868" category="list-text">选择菜单：主页(查看正在执行的操作)可查看当前正在对选定卷运行的增加容量操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="0af080eb4432df13d727dd507e77884c" category="summary">您可以更改镜像对卷的设置、以调整在镜像对卷的预留容量接近全满时System Manager发送警报通知的百分比。</block>
-  <block id="e7ef70291c1af1df5f8e0c7b25c4b18a" category="doc">更改镜像对卷的预留容量设置</block>
   <block id="cb2a61edc8e473df065e2a7ce71b2262" category="list-text">选择要编辑的镜像对卷、然后单击*查看/编辑设置*。</block>
   <block id="20a01fbfbd4cbdbac22c8c5194e23a2a" category="paragraph">此时将显示镜像对卷预留容量设置对话框。</block>
   <block id="551f32821ade9970a4092e53eb39a01b" category="list-text">根据需要更改镜像对卷的预留容量设置。</block>
@@ -3378,7 +3334,6 @@
   <block id="04be1c22ba2d746eea4640f9d00c1cb4" category="paragraph">当镜像对的预留容量超过指定阈值时、System Manager将发送警报、以便有时间增加预留容量。</block>
   <block id="464ce565ecc7dfb188c20fcce8d6f3f6" category="admonition">更改一个镜像对的警报设置会更改属于同一镜像一致性组的所有镜像对的警报设置。</block>
   <block id="1f536fe23a59e190feeb33e8ecd98fe8" category="summary">您可以将数据从一个卷复制到同一存储阵列中的另一个卷、并为源卷创建物理时间点副本(克隆)。</block>
-  <block id="203be19949d87fdda022d7246e69e8ef" category="doc">复制卷</block>
   <block id="bd04500ae279c04533f73dd99effa989" category="list-text">必须停止源卷和目标卷的所有I/O活动。</block>
   <block id="6656a654889546874aa0ab1a423f37c5" category="list-text">必须卸载源卷和目标卷上的任何文件系统。</block>
   <block id="27e98c64528360c8659c6a8d4ec829a8" category="list-text">如果您之前在复制卷操作中使用过目标卷、则不再需要该数据或已备份数据。</block>
@@ -3448,7 +3403,6 @@
   <block id="ca4985f26b2a7c22b1593e6d3e788a34" category="doc">什么是首选控制器所有权？</block>
   <block id="ea83d1418120e9e91a66317ff177d3e7" category="paragraph">例如、如果一个控制器主要读取大型连续数据块、而另一个控制器具有频繁读取和写入的小型数据块、则负载会截然不同。通过了解哪些卷包含哪种类型的数据、您可以在两个控制器之间平均平衡I/O传输。</block>
   <block id="84d58ff791c5fbcc9cb54d00a50888a1" category="summary">您可以更改快照卷的设置、以调整当快照卷的预留容量接近全满时系统发送警报通知的百分比点。</block>
-  <block id="6ef1ef03a9cb47223d884b7236b4d377" category="doc">更改快照卷的预留容量设置</block>
   <block id="98215322bdcac7fbd2c48c18bde56b01" category="list-text">选择要编辑的快照卷、然后单击*查看/编辑设置*。</block>
   <block id="15bf92ab00f4899c0356a7e83271a31e" category="paragraph">此时将显示Snapshot Volume Reserved Capacity Settings对话框。</block>
   <block id="f7e34e1b95ad3b2fa36099a9eded3e0e" category="list-text">根据需要更改快照卷的预留容量设置。</block>
@@ -3509,7 +3463,6 @@
   <block id="d935b7857bb2c4f1f726e074a0257467" category="paragraph">通常情况下、使用数据保证功能将检查控制器和驱动器之间I/O路径的部分。DA 功能在池和卷组级别提供。</block>
   <block id="0056cb971070f5193e490ed7ab5a3504" category="paragraph">请确保使用支持DA的I/O接口将这些启用了DA的卷分配给主机。支持DA的I/O接口包括光纤通道、SAS、基于TCP/IP的iSCSI、NVMe/FC、NVMe/IB、 NVMe/RoCE和iSER over InfiniBand (适用于RDMA/IB的iSCSI扩展)。基于InfiniBand的SRP不支持DA。</block>
   <block id="c4dbc322f8fed9347675a66b0b7eded0" category="summary">介质扫描是一种后台操作、可扫描卷中的所有数据和冗余信息。使用此选项可以为一个或多个卷启用或禁用介质扫描设置、或者更改扫描持续时间。</block>
-  <block id="eba02f58bb95b7598b213e615adf7b73" category="doc">更改卷的介质扫描设置</block>
   <block id="b36060959ab5d66ad4193551f206d2c9" category="paragraph">了解以下内容：</block>
   <block id="cb059b974bb61025fe4edad6039d467d" category="list-text">介质扫描会根据要扫描的容量和扫描持续时间以恒定速率持续运行。后台扫描可能会被较高优先级的后台任务(例如重建)临时暂停、但会以相同的恒定速率恢复。</block>
   <block id="28e0e6fb79d81dae9a7cd88e5491dd77" category="list-text">如果在扫描期间遇到不可恢复的介质错误、则会使用冗余信息(如果有)修复数据。</block>
@@ -3565,7 +3518,6 @@
   <block id="dfad59f259bd19c4bbe8d41389dea242" category="list-text">禁用已删除快照映像的所有关联快照卷。</block>
   <block id="330b4727b35dfca76c06e8679c323e28" category="list-text">从快照一致性组删除中、将与已删除的快照映像关联的任何成员卷移至已停止状态。</block>
   <block id="446e9dc96f223018043e91de7859bdc0" category="summary">您可以从存储阵列中未分配的部分驱动器创建逻辑存储容量。此逻辑容量可以采用池或卷组的形式、具体取决于您的环境需求。</block>
-  <block id="fde7554b5a76754e6a7fb65ca073ef13" category="doc">池和卷组概述</block>
   <block id="bbbc93a5179e0a5db81686a5f04b5dd6" category="section-title">什么是池和卷组？</block>
   <block id="aeabd274c18c6c90a45e3413fd087752" category="paragraph">池_是一组逻辑分组的驱动器。卷组_是具有共享特征的卷的容器。您可以使用池或卷组创建可供主机访问的卷。</block>
   <block id="7843d404cc351a960aef89e5b45e876b" category="inline-link-macro">池和卷组的工作原理</block>
@@ -3700,7 +3652,6 @@
   <block id="fa002b0af386f45f34ae2b96bcffcce3" category="paragraph">您不能混用不同的驱动器技术(HDD和SSD驱动器)。RAID 3、5和6最多限制为30个驱动器。RAID 1和RAID 10使用镜像、因此这些卷组的磁盘数量必须为偶数。</block>
   <block id="3c2733e7ec6d8837ce8fe0f8a3ca792f" category="paragraph">如果卷组中包含的RAID 1/10、RAID 3、RAID 5或RAID 6卷中的驱动器发生故障、则卷组会使用热备用驱动器作为备用驱动器。热备用驱动器不包含任何数据、并为存储阵列添加了另一个冗余级别。</block>
   <block id="90e9cfe5f85a5320a3128c2e7a0bcd46" category="summary">您可以更改读取缓存和写入缓存设置、以影响卷的整体I/O性能。</block>
-  <block id="6b533b182f72d231c83305bb1fa4e9ee" category="doc">更改卷的缓存设置</block>
   <block id="49393d42007c814eb7498554843e9a99" category="paragraph">更改卷的缓存设置时、请记住以下准则：</block>
   <block id="93513d11c804d486194905555dbcf3f4" category="list-text">打开更改缓存设置对话框后、您可能会看到选定缓存属性旁边显示的图标。此图标表示控制器已暂时暂停缓存操作。</block>
   <block id="cf72f8d286e9d569a846c3b337018393" category="paragraph">如果新电池正在充电、已删除控制器或控制器检测到缓存大小不匹配、则可能会发生此操作。清除此条件后、在对话框中选择的缓存属性将变为活动状态。如果选定缓存属性未处于活动状态、请联系技术支持。</block>
@@ -3814,7 +3765,6 @@
   <block id="dbac463794ca526bfd22ed135f4c5075" category="list-text">写入操作的数量。</block>
   <block id="7dfb3cdb10c11c047007d5ba193bc8ec" category="list-text">读取和写入操作总数的总和。</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">您可以在SANtricity Unified Manager中更新用于查看和访问存储阵列的密码。</block>
-  <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">更改存储阵列密码</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">您必须使用包含存储管理员权限的用户配置文件登录。</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">您必须知道在System Manager中设置的存储阵列的当前密码。</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">在此任务中、您可以输入存储阵列的当前密码、以便在Unified Manager中访问该密码。如果在System Manager中更改了阵列密码、并且现在还必须在Unified Manager中更改该密码、则可能需要执行此操作。</block>
@@ -3905,7 +3855,6 @@
   <block id="95226cb0501c56de0568ff86c86bcedc" category="paragraph">此密码最多可包含 30 个字符。</block>
   <block id="c921ab82c25550633b7e359a45a16dda" category="paragraph">有关用户和密码的详细信息、请参见 <block ref="5c922583ae248325086bab7f2768b014" category="inline-link-macro-rx"></block>。</block>
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">E 系列系统包括用于存储配置和其他任务的 SANtricity 软件。</block>
-  <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">SANtricity 软件概述</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">此站点介绍如何使用以下SANtricity 管理接口：</block>
   <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager —一种基于 Web 的界面，用于查看和管理网络中的所有存储阵列。</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 系统管理器</block>
@@ -4099,7 +4048,6 @@
   <block id="8b266c9fb3238ab21cdfb65ae66f6d31" category="list-text">*存储层次结构*</block>
   <block id="c141888590eec4af951b9533399cbef4" category="paragraph">"存储层次结构"区域提供了存储阵列管理的各种硬件组件和存储对象的有序视图。单击下拉箭头对该硬件组件或存储对象执行特定操作。</block>
   <block id="d77e0997337cdb24d489418a010b13ee" category="summary">通过"正在执行的操作"页面、您可以查看当前正在运行或处于暂停、已停止或失败状态的长时间运行的操作列表。您可以对某些类型的操作执行操作。</block>
-  <block id="f53bb3610199ab61220a8a29d54748a8" category="doc">正在执行的操作页面</block>
   <block id="c3008c8558711ff7e85fd87a8cce8608" category="paragraph">长时间运行的操作可能会影响系统性能。对于某些操作、您可以选择停止该操作或更改其优先级、以便更重要的操作首先完成。</block>
   <block id="197a8788fa0424578c05d8a3be986388" category="paragraph">"Operations in Progress"页面上显示的操作包括以下内容：</block>
   <block id="2a78ed76450c3cb42320882b3e055b31" category="cell">操作</block>
@@ -4278,7 +4226,6 @@
   <block id="c90221339a5b1309cf424327a6bbe8d2" category="list-text">向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand端口配置iSER *。</block>
   <block id="2839d8ea86224b685168d2c05ffce9f3" category="list-text">向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand统计信息查看iSER *。</block>
   <block id="ec57f2fa289bc747a7897a18f6547022" category="summary">可从系统页面访问安全密钥管理。</block>
-  <block id="37b34993d227de4a91e53824714524f7" category="doc">驱动器安全性概述</block>
   <block id="897908eea79f29e91d7292b997bc12d1" category="paragraph">您可以从安全密钥管理页面配置驱动器安全性和密钥管理。</block>
   <block id="fec993e10529507628b292e7d6deca91" category="section-title">什么是驱动器安全性？</block>
   <block id="ea7b0217aecb7e56b0a9606cdab88856" category="paragraph">_Drive Security_是一项功能、可防止在从存储阵列中删除启用了安全功能的驱动器上的数据时未经授权进行访问。这些驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。从阵列中物理删除FDE或FIPS驱动器后、这些驱动器将无法运行、除非将其安装在另一个阵列中、此时、这些驱动器将处于安全锁定状态、直到提供正确的安全密钥为止。安全密钥_是指此类驱动器与存储阵列中的控制器之间共享的字符串。</block>
@@ -4309,7 +4256,6 @@
   <block id="a2467421bb681e973079977a499e1d7a" category="inline-link-macro">备份安全密钥</block>
   <block id="7ec1b2a1590a2956cdb73e6afbd94583" category="list-text"><block ref="7ec1b2a1590a2956cdb73e6afbd94583" category="inline-link-macro-rx"></block></block>
   <block id="2c7fb2471bd7df4416b402b1548cad3c" category="summary">高级功能是一个额外的选项、需要启用密钥。</block>
-  <block id="9d0ac4bbba0c69c357757a2cd0500ed1" category="doc">启用高级功能</block>
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">您已获取功能密钥。如有必要、请联系技术支持以获取密钥。</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">您已在管理客户端(具有用于访问System Manager的浏览器的系统)上加载密钥文件。</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">此任务介绍如何使用System Manager启用高级功能。</block>
@@ -4362,7 +4308,6 @@
   <block id="3ac3febbb07afc0d4f4391a215e8c883" category="paragraph">选择此选项，然后在字段中输入静态地址。(如果需要、可以剪切地址并将其粘贴到字段中。) 对于IPv4、请包括网络子网掩码和网关。对于 IPv6 ，请包括可路由的 IP 地址和路由器 IP 地址。如果要为EF600存储阵列配置支持200 GB的HIC、则此对话框会显示两组网络参数字段、一组用于物理端口(外部)、一组用于虚拟端口(内部)。您应为这两个端口分配唯一的参数。通过这些设置、主机可以在每个端口之间建立一条路径、并使HIC实现最高性能。如果不为虚拟端口分配IP地址、HIC将以大约一半的速度运行。</block>
   <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">单击 * 完成 * 。</block>
   <block id="ddb5573c6f39b580321b3833c2d21c1a" category="summary">您可以编辑SNMPv3陷阱的用户定义。</block>
-  <block id="9c5a0af90c3e3ad4fd7235f9a512c375" category="doc">编辑SNMPv3陷阱的用户设置</block>
   <block id="e6ae1cef6f540818bd9a9f5d26d5b552" category="paragraph">必须为SNMPv3陷阱创建用户。</block>
   <block id="4dc1e0718a071b0cde9dafee55e930d8" category="list-text">选择菜单：设置[警报]。</block>
   <block id="e184a1e2b514901f3669384a849c6dc6" category="list-text">选择* SNMP *选项卡。</block>
@@ -4382,7 +4327,6 @@
   <block id="860fa57c2a839ecf264232c1dc1cc54f" category="list-text">在下拉列表中、选择要配置的HIC端口、然后输入主机的IP地址。</block>
   <block id="8e736fec560076a8a802b9a2abdd1d1c" category="list-text">单击*是*重置基于InfiniBand的iSER端口。</block>
   <block id="7a643bfd7d74cfc9288d1a6c4575f766" category="summary">您最多可以为SNMPv2c陷阱添加256个社区名称。</block>
-  <block id="60924fb1e46ce4c636901833aee8eb00" category="doc">为SNMPv2c陷阱添加社区</block>
   <block id="1180049f414c1d532d596ff26d6bb31b" category="paragraph">陷阱目标和社区名称将显示在表中。</block>
   <block id="41aa6c264fff7b9445944dbc3fe04b55" category="list-text">选择*配置社区*。</block>
   <block id="12a4520eec64566b7d5dc03c69238b65" category="paragraph">此时将打开配置社区对话框。</block>
@@ -4405,7 +4349,6 @@
   <block id="3d73ecabe16509dfb4f836c89276d92e" category="list-text">卷组和池必须全部由具有安全功能的驱动器组成。(对于需要FIPS支持的卷、请仅使用FIPS驱动器。在卷组或池中混用FIPS和FDE驱动器将导致所有驱动器被视为FDE驱动器。此外、FDE驱动器不能添加到纯FIPS卷组或池中或用作备用磁盘。)</block>
   <block id="ace1e3f5e8d6992cf9c192305b9648cb" category="list-text">卷组和池必须处于最佳状态。</block>
   <block id="90916bbd1b8d2573b5bd4f3d51ce55a9" category="summary">您可以删除SNMPv2c陷阱的社区名称。</block>
-  <block id="2907ece77f76e4e322a7857f6d0c4d91" category="doc">删除SNMPv2c陷阱的社区</block>
   <block id="1e756147ce4505bb60ff641cfe702fd6" category="paragraph">陷阱目标和社区名称将显示在*警报*页面上。</block>
   <block id="c1a8313c012bc9367233c0a268384bf5" category="list-text">选择要删除的社区名称、然后单击最右侧的*删除*(X)图标。</block>
   <block id="ee9a8270acba54fdc3b4acd21016d46b" category="paragraph">如果陷阱目标与此社区名称关联、则确认删除社区对话框将显示受影响的陷阱目标地址。</block>
@@ -4461,7 +4404,6 @@
   <block id="06d463f1b4468e76ca6ea50d3655ad0d" category="list-text">如果大多数已连接主机混合使用不同的操作系统、请将主机类型更改为出厂默认值。</block>
   <block id="8d7acc04293681c4a5dfb82015b79f68" category="paragraph">例如、如果要将八个不同的主机连接到存储阵列、并且其中两个主机运行的是Windows操作系统、则三个主机运行的是VMware操作系统、 另外三个主机运行Linux操作系统、您必须选择出厂默认作为默认主机操作系统类型。</block>
   <block id="9e8302a402f611baf05e75aa5256b369" category="summary">您可以更改接收电子邮件警报的收件人的电子邮件地址。</block>
-  <block id="5d96e90268b8dc01886a9903ef24a4ce" category="doc">编辑警报的电子邮件地址</block>
   <block id="cb31780dfc8015f0a5d6c54c59554fbf" category="paragraph">您要编辑的电子邮件地址必须在警报页面的电子邮件选项卡中定义。</block>
   <block id="60a5a62ee9c308b3343d07931360961b" category="list-text">选择*电子邮件*选项卡。</block>
   <block id="e66bc582c9f51271bf48e285b2a48a0d" category="list-text">从*电子邮件地址*表中、选择要更改的地址、然后单击最右侧的*编辑*(铅笔)图标。</block>
@@ -4568,7 +4510,6 @@
   <block id="8186ebeae82f8ea44af9bbdb7fd857ad" category="list-text">在安全位置记下您的密码短语、然后单击*关闭*。</block>
   <block id="86583299199fa25d2e5f2c718a47ccd3" category="paragraph">您应验证备份安全密钥。</block>
   <block id="1cb92a094f657907ebfe15ea818cbde2" category="summary">您可以删除SNMPv3陷阱的用户。</block>
-  <block id="13093ea77b77a3071ebc264547e699e2" category="doc">删除SNMPv3陷阱的用户</block>
   <block id="f4be2e6b3e26af76d95ad241b79a4b53" category="paragraph">陷阱目标和用户名显示在警报页面上。</block>
   <block id="66522d59029a20235048bc90785a4653" category="list-text">选择*配置用户*。</block>
   <block id="aa8f46bfe960559cff7b9631e969d2e7" category="paragraph">此时将打开配置SNMPv3用户对话框。</block>
@@ -4736,7 +4677,6 @@
   <block id="c2a4e4fe8f441d56f50bdc8ffaeb0b77" category="doc">如何配置SNMP或系统日志警报？</block>
   <block id="062b9a1905e78f03b8da6f29da2a9d7f" category="paragraph">要配置SNMP或系统日志警报、请转到菜单：设置[警报]。</block>
   <block id="d07cc924ea2d447f0cb70624e22edde6" category="summary">对于访问管理、管理员可以使用阵列中嵌入的安全断言标记语言(Security Assertion Markup Language、SAML) 2.0功能。</block>
-  <block id="0fb95b26d48595a0ce2232035938d6a4" category="doc">使用SAML进行访问管理</block>
   <block id="ee4737a99df1f82d6dbc164235a6ae68" category="section-title">配置工作流</block>
   <block id="b1579259042d74dcb20047d27930fa64" category="paragraph">SAML配置的工作原理如下：</block>
   <block id="6253fb6ca7c7846b2dee57fe550b9234" category="list-text">管理员使用具有安全管理员权限的用户配置文件登录到System Manager。</block>
@@ -4788,7 +4728,6 @@
   <block id="3d2c8a5d3944c8c3b63ef7f887bb008d" category="list-text">使用其他浏览器类型访问此控制器、接受证书并继续。</block>
   <block id="f7fcbeafdbe4f79dff275e0025dd7e03" category="list-text">使用System Manager访问第二个控制器、接受自签名证书、然后返回到第一个控制器并继续。</block>
   <block id="da7d003e1593bb562d551eb1e55a64ea" category="summary">您最多可以为电子邮件警报添加20个收件人。</block>
-  <block id="71cb574ff3f32e8696a2fb5eb9584ebe" category="doc">为警报添加电子邮件地址</block>
   <block id="f1bed1c4054ab2b65b0f31b051808bc7" category="list-text">在空字段中、输入新的电子邮件地址。如果要添加多个地址、请选择*添加其他电子邮件*以打开另一个字段。</block>
   <block id="1257fce62eb03c6b8995e654752c5e22" category="paragraph">警报页面的电子邮件选项卡将显示新的电子邮件地址。</block>
   <block id="20f880099619c2c57feb8a3562b1b1ad" category="summary">对于SNMP警报、您可以选择配置SNMP陷阱中显示的管理信息库(Management Information Base、MIB)变量。这些变量可以返回存储阵列名称、阵列位置和联系人。</block>
@@ -4815,7 +4754,6 @@
   <block id="b1b4292f8c54378861577eefdaf3b8d4" category="list-text">*联系人*- MIB变量`sysContact`的值。例如、输入负责存储阵列的管理员。</block>
   <block id="f725e6cad4396bb7c44eabb138c4b8c0" category="paragraph">这些值显示在存储阵列警报的SNMP陷阱消息中。</block>
   <block id="eb05c3171faac77659ea33cda512ebb3" category="summary">对于存储阵列中的所有卷、您可以根据刷新和块大小调整缓存内存设置。</block>
-  <block id="4c33c4ee994a00b2cee56434ebffd95f" category="doc">更改存储阵列的缓存设置</block>
   <block id="9f5b90f341ce11d3d4d32f7059325a23" category="paragraph">缓存内存是控制器上的临时易失性存储区域、其访问速度比驱动器介质更快。要调整缓存性能、您可以调整以下设置：</block>
   <block id="d9ee8e898e5a26c66bd18ee5b230abca" category="paragraph">启动按需缓存刷新</block>
   <block id="cef5629de51936d53c62b360313ecbdb" category="paragraph">启动需求缓存刷新指定缓存中触发缓存刷新(写入磁盘)的未写入数据的百分比。默认情况下、当未写入的数据达到80%容量时、将开始缓存刷新。较高的百分比是主要执行写入操作的环境的理想选择、因此新的写入请求可以通过缓存进行处理、而无需转到磁盘。如果环境中的I/O不稳定(发生数据突发)、则设置越低越好、系统就会在数据突发之间频繁地刷新缓存。但是、如果开始百分比低于80%、则发生原因 可能会降低性能。</block>
@@ -4847,7 +4785,6 @@
   <block id="ca73cc8db153dd5b0efaf1565bdbc00e" category="paragraph">请勿使用HTML或其他标记标记标记进行格式化。</block>
   <block id="3a307fc4bdd3676da308751d9de7980b" category="paragraph">用户下次登录到System Manager时、文本将在对话框中打开。用户必须单击*确定*才能继续进入登录屏幕。</block>
   <block id="ffbd2cbf28a13c1c03306bc44664af69" category="summary">您可以更改用于电子邮件警报的邮件服务器地址和电子邮件发件人地址。</block>
-  <block id="94b47ae93998bc943ef52046200ea393" category="doc">编辑警报的邮件服务器</block>
   <block id="ff152714aa004530881bd00f6af3b073" category="paragraph">您要更改的邮件服务器的地址必须可用。该地址可以是IPv4或IPv6地址、也可以是完全限定域名。</block>
   <block id="9127c89ba843a181a8200c1f416d1814" category="list-text">编辑邮件服务器地址、发件人信息和联系信息。</block>
   <block id="88a41b6ced70f1be2e411b53a29392fa" category="list-text">*邮件服务器地址*-编辑邮件服务器的完全限定域名、IPv4地址或IPv6地址。</block>
@@ -5056,7 +4993,6 @@
   <block id="bec4155c254e8a1ee324fec9a88e4082" category="list-text">您尝试多次登录失败、从而触发锁定模式。请等待10分钟以重新登录。</block>
   <block id="435953d3081ef0990c37ecab65084fce" category="list-text">已达到控制器上使用的最大客户端连接数。检查是否存在多个用户或客户端。</block>
   <block id="a5b14ab0ae015507696b26a4ce8b4466" category="summary">您可以删除先前定义的邮件服务器、以使警报不再发送到电子邮件地址、也可以删除各个电子邮件地址。</block>
-  <block id="aa6cbbd3d438ad7442c3b187f2724299" category="doc">删除警报的邮件服务器或电子邮件地址</block>
   <block id="3b1afccbf6f27ee23548336b80972c58" category="list-text">从表中、执行以下操作之一：</block>
   <block id="a9603b39c08090693785be87b26331a8" category="list-text">要删除邮件服务器以使警报不再发送到电子邮件地址、请选择邮件服务器所在的行。</block>
   <block id="aa611d3c0ccadaf84c619f4f49b6f3e5" category="list-text">要删除电子邮件地址以使警报不再发送到此地址、请选择要删除的电子邮件地址所在的行。表右上角的*删除*按钮可供选择。</block>
@@ -5066,7 +5002,6 @@
   <block id="104e995b71d005ce9591fed237349989" category="paragraph">iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS发现。您注册目标控制器以向iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息。</block>
   <block id="86f5e054028caf77425a701d42d4cdfc" category="paragraph">如果不配置iSNS、则iSCSI主机可以在iSCSI发现会话期间发送发送目标命令。作为响应、控制器将返回端口信息(例如目标IQN、端口IP地址、侦听端口和目标端口组)。如果使用iSNS、则不需要此发现方法、因为主机启动程序可以从iSNS服务器检索目标IP。</block>
   <block id="058a7c81942e7505aaa4be7ef91dd0a3" category="summary">您最多可以添加10个服务器来发送SNMP陷阱。</block>
-  <block id="10c9deef8acbf32aa279bc401d72e2bd" category="doc">为SNMP警报添加陷阱目标</block>
   <block id="b029585d541e79f3acc44c44dd600882" category="list-text">要添加的网络服务器必须配置SNMP服务应用程序。您需要此服务器的网络地址(IPv4或IPv6地址)、以便事件监控器可以向该地址发送陷阱消息。您可以使用多个服务器(最多允许10个服务器)。</block>
   <block id="215cf6beecf479adb3a867d26fc744da" category="list-text">已使用SNMP服务应用程序在服务器上复制和编译管理信息库(Management Information Base、MIB)文件。此MIB文件定义了要监控和管理的数据。</block>
   <block id="21bfc3076ecd20e3a23a918418d483cc" category="paragraph">如果您没有MIB文件、可以从NetApp支持站点获取：</block>
@@ -5232,7 +5167,6 @@
   <block id="f0adc5d000173927e6565b7796988e8b" category="doc">如何解读基于InfiniBand统计信息的iSER？</block>
   <block id="594b7f21d6afec5d61bcd2260307666a" category="list-text">* iSER over InfiniBand Interface statistics*—提供InfiniBand接口上所有基于InfiniBand端口的iSER的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。</block>
   <block id="d7fe3f61b8fba1e2ea84b40274c848f3" category="summary">您可以编辑用于接收系统日志警报的服务器地址。</block>
-  <block id="64562268c827f0db0ec460162eaac269" category="doc">编辑系统日志服务器中的警报</block>
   <block id="2bca2faba0332e87a3a5db7e0da917a4" category="list-text">从表中选择系统日志服务器地址、然后单击最右侧的*编辑*(铅笔)图标。</block>
   <block id="c0d48f16bbf961ebeb5a2ccf7771595c" category="list-text">编辑服务器地址和UDP端口号、然后单击*保存*(复选标记)图标。</block>
   <block id="1224cd55e66bf33c9c36c852dce9afca" category="paragraph">更新后的服务器地址将显示在表中。</block>
@@ -5477,7 +5411,6 @@
   <block id="12decb6d47cbe5ebea1f00fff603f92c" category="paragraph">此时将打开确认删除可信证书对话框。</block>
   <block id="81ef15858bb7abedf63272c9049c38e7" category="list-text">在字段中键入`delete`、然后单击*删除*。</block>
   <block id="c2560c880c403f33bc716c921a1ec329" category="summary">您可以删除系统日志服务器、使其不再接收警报。</block>
-  <block id="349fec05f43bb6a34ba71c7a20d4dfd5" category="doc">删除警报的系统日志服务器</block>
   <block id="9c6b300fa1de4b841871bf58b17c8809" category="list-text">选择系统日志服务器地址、然后单击右上角的*删除*。</block>
   <block id="c33bcdfe4272e80436d6b538ab8fb9cf" category="paragraph">此时将打开确认删除系统日志服务器对话框。</block>
   <block id="4b0847badf4df2f436372c3f65ecd674" category="paragraph">删除的服务器不再从事件监控器接收警报。</block>
@@ -5533,7 +5466,6 @@
   <block id="e4ca0be6435e2cb971783f45129d42f6" category="list-text">单击 * 导入 * 。</block>
   <block id="1e4cb43cb642ff327628d52937282424" category="paragraph">这些文件将上传并进行验证。</block>
   <block id="71f232032bd481ebdb62001be98a76cf" category="summary">了解附加功能术语如何应用于存储阵列。</block>
-  <block id="26463becbcaafd1f526129b3b127c573" category="doc">附加功能术语</block>
   <block id="31b4a364897c36d8d86eb53596e63747" category="paragraph">功能启用标识符</block>
   <block id="f4ecdf07fa67bd4159a126ebe16589cc" category="paragraph">功能启用标识符是用于标识特定存储阵列的唯一字符串。此标识符可确保在您获得高级功能时、它仅与该特定存储阵列相关联。此字符串将显示在System页面的Add-Ons下。</block>
   <block id="71433dcd2b078a8dadba8b448709c553" category="paragraph">功能密钥文件</block>
@@ -5543,7 +5475,6 @@
   <block id="92c7a0b0dc7bd2705e86edc5d4b8e179" category="paragraph">高级功能</block>
   <block id="911fca3a0018d17235161560de04d3fc" category="paragraph">高级功能是一个额外的选项、需要使用密钥才能启用它。System Manager的标准配置不包括此功能。</block>
   <block id="54d13fdb52c1af4f0ea502e17d746841" category="summary">如果您先前已禁用资源配置的默认功能、则可以转到设置并为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。</block>
-  <block id="bb3181b0820e0259475417cded293509" category="doc">为新卷组或池启用或禁用资源配置</block>
   <block id="5d639ec8780dcddc091c86db5b4b6620" category="paragraph">如果您先前已禁用资源配置的默认功能、则可以为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。</block>
   <block id="9a63d29eb59a567bebc60ad0d414dc51" category="admonition">默认情况下、在驱动器支持DULBE"的系统上启用资源配置。</block>
   <block id="a38277bd3ef4476562c7f78e16a79230" category="list-text">您必须具有SSD卷组或池、其中的所有驱动器都支持NVMe已取消分配或未写入逻辑块错误启用(DULBEe)错误恢复功能。</block>
@@ -5552,7 +5483,6 @@
   <block id="d1d57051db2f0063e28d60e9b8a86053" category="paragraph">设置问题描述 指示当前是启用还是禁用资源配置。</block>
   <block id="887d69360071ae6164479e435fa40e66" category="paragraph">启用或禁用资源配置仅会影响您创建的新SSD池或卷组。现有池或卷组保持不变。</block>
   <block id="360137c4d8e71902073c583e9c903b6b" category="summary">对于SNMPv3陷阱、您最多可以添加256个用户。</block>
-  <block id="a756b861ea03f2a916bb96099828d9ef" category="doc">为SNMPv3陷阱添加用户</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">选择 * 添加 * 。</block>
   <block id="f336fad62f61742c47732eac6eb13cba" category="list-text">输入以下信息、然后单击*添加*。</block>
   <block id="26a9ffa25fc94b0d705e109541130f71" category="summary">要为访问管理配置身份验证、您可以使用存储阵列中嵌入的安全断言标记语言(SAML)功能。此配置将在身份提供程序和存储提供程序之间建立连接。</block>
@@ -5607,7 +5537,6 @@
   <block id="5426403fa8c8b91049e91083a4befabc" category="list-text">输入用于SSO登录测试的用户凭据。</block>
   <block id="02e136814c7c9eacb4cbd1eac60dba3b" category="paragraph">系统启用SAML后、它将终止所有活动会话并开始通过SAML对用户进行身份验证。</block>
   <block id="19380508f9149606321ac832a3c00e8a" category="summary">访问管理是在SANtricity System Manager中建立用户身份验证的一种方法。身份验证方法包括RBAC (基于角色的访问控制)、目录服务和安全断言标记语言(SAML) 2.0。</block>
-  <block id="8a85e54e2f698ad0de66d093245f2e66" category="doc">访问管理概述</block>
   <block id="ed5fe7f66e9072ed2fe64e1c8ad6737d" category="section-title">有哪些身份验证方法可用？</block>
   <block id="1f5e202c614a1661cfc9d511376773ed" category="paragraph">身份验证方法包括RBAC (基于角色的访问控制)、目录服务和安全断言标记语言(SAML)：</block>
   <block id="4b8217cf8d756a89a1dc65298ed13a9a" category="list-text">* RBAC /本地用户角色*—身份验证通过在存储阵列中强制实施的RBAC功能进行管理。本地用户角色包括预定义的用户配置文件以及具有特定访问权限的角色。</block>
@@ -5812,7 +5741,6 @@
   <block id="232702c653cde09c07912e338d3eacd8" category="list-text">设置密码的最小长度。</block>
   <block id="b19f31a8ba2f57c8e0ce96c8e5fe2bfa" category="list-text">允许用户在不使用密码的情况下登录。</block>
   <block id="23c4474ad0e8ba1b6378929ff6dc6eb8" category="summary">要在存储阵列上启用高级功能或功能包、必须先获取功能密钥文件。一个密钥仅与一个存储阵列相关联。</block>
-  <block id="8482c34bfd5355d2325c43299e3b4a22" category="doc">获取功能密钥文件</block>
   <block id="01fccb238136cadbbda6282b2738a082" category="paragraph">此任务介绍如何收集功能所需的信息、然后发送功能密钥文件请求。所需信息包括：</block>
   <block id="1fe0bc7459693232ff7ad04999b73597" category="list-text">机箱序列号</block>
   <block id="aaa7a3624a97859ee3583f71dde90af3" category="list-text">功能激活代码</block>
@@ -5854,7 +5782,6 @@
   <block id="87d57c85c7f6ca214148876b1643fde9" category="list-text">覆盖策略设置(可从*查看/编辑设置*获得)不会影响使用系统日志服务器配置管理日志的方式。</block>
   <block id="07edc16c0199dba3dfc82b49414795e9" category="list-text">审核日志采用RFC 5424消息格式。</block>
   <block id="69afef839468847d18d8eadd707e6a28" category="summary">最多可以为系统日志警报添加五个服务器。</block>
-  <block id="aac82b32d41c8e77515563d0fe18c57f" category="doc">为警报添加系统日志服务器</block>
   <block id="3fcdca939850c517b014f7754b186fbb" category="list-text">系统日志服务器的UDP端口号必须可用。此端口通常为514。</block>
   <block id="eab662577e265093fe68fbab56f250cd" category="list-text">选择*添加系统日志服务器*。</block>
   <block id="531dc8110d95adeeb11a6700bb787aab" category="list-text">选择*添加另一个系统日志服务器*。</block>
@@ -5866,7 +5793,6 @@
   <block id="079344e24125661a235311c4af323831" category="doc">关于资源配置卷功能、我需要了解哪些信息？</block>
   <block id="9742fedd4fc70f86711709c96aad31ad" category="paragraph">在驱动器支持DULBE"的系统上、默认情况下会启用资源配置。您可以在*池和卷组*中禁用此默认设置。</block>
   <block id="51a446719a3a2b36bb69b274d84caafe" category="summary">您可以编辑SNMPv2c陷阱的社区名称。</block>
-  <block id="ebfa9a5a9908878d795861499f7a332e" category="doc">编辑SNMPv2c陷阱的社区</block>
   <block id="b87c0a131c7bdafd2d279917218a6018" category="paragraph">必须创建社区名称。</block>
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">选择菜单：设置[警报]。</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">输入新的社区名称、然后单击*保存*。团体名称只能包含可打印的ASCII字符。</block>
@@ -5930,7 +5856,6 @@
   <block id="cd8c3a2f7a727372face69f091644a22" category="paragraph">要将已保存的存储阵列配置加载到另一个存储阵列、请使用带有`-f`选项的SANtricity 命令行界面(SMcli)应用`.cfg`文件。</block>
   <block id="7e2d04fef276358bb38ed34e48ef401a" category="paragraph">此外、您还可以使用Unified Manager界面将存储阵列配置加载到其他存储阵列(选择菜单：管理[导入设置])。</block>
   <block id="8976aaeac0280efd1bd19cc334bc43da" category="summary">您可以将System Manager配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。</block>
-  <block id="4aee0ec85903fa611e90b218d8118753" category="doc">警报概述</block>
   <block id="a69dc0934864b8119dbde4916baf39c6" category="section-title">什么是警报？</block>
   <block id="18a2e3de7a2db6968bb6142af86b9d9f" category="paragraph">_Alerts_向管理员通知存储阵列上发生的重要事件。事件可能包括电池故障、组件从最佳状态移至脱机状态或控制器出现冗余错误等问题。所有严重事件以及一些警告和信息性事件均视为"可处理"。</block>
   <block id="546ed1b56927d6cbf8f51ec81e7e7afc" category="inline-link-macro">警报的工作原理</block>
@@ -6108,7 +6033,6 @@
   <block id="0182db1190dd0cc7c4a95253b5ac91fb" category="paragraph">背面视图显示了控制器/IOM和电源风扇箱。正面图显示了驱动器。</block>
   <block id="14f5e94d7b72896c2abbcdce16d4f926" category="list-text">或者、您也可以选择位于页面底部的*全部显示前台*或*全部显示后端*。</block>
   <block id="1e399fb7e0446b765c8a9c5ad88d6886" category="summary">硬件页面以图形方式描绘了存储阵列的物理组件。您可以从此处检查组件状态并执行与这些组件相关的某些功能。</block>
-  <block id="7c5cb0a97002dad77ccc4f997a12379c" category="doc">硬件页面和组件</block>
   <block id="ba74e32f98742b3a572dc18f74c22928" category="paragraph">硬件页面以图形方式描绘了存储阵列的物理组件。您可以从此处检查组件状态并执行与这些组件相关的某些功能。</block>
   <block id="bb53c62475a4f28295dfd71302a53a3d" category="section-title">磁盘架</block>
   <block id="27c69af256cdb21fcf9cf6708cce8e21" category="paragraph">磁盘架是一个组件、其中包含存储阵列的硬件(控制器、电源/风扇箱和驱动器)。磁盘架有两种类型：</block>
@@ -6430,7 +6354,6 @@
   <block id="4a2833218ca50e72920f4fc85ded87b5" category="doc">为什么要从逻辑上更换驱动器？</block>
   <block id="846859675e7484942f2482e86b021b52" category="paragraph">原始驱动器中的数据将复制或重建到替代驱动器上。</block>
   <block id="30902da97f6a0bc1b43189f22930bf3b" category="summary">您可以在硬件页面上检查组件状态、并执行与这些组件相关的某些功能。</block>
-  <block id="46249b2092a182e085410a7b6cba0fcd" category="doc">硬件组件概述</block>
   <block id="a2e9b38da1058670eeec01bcaf0ff494" category="section-title">我可以管理哪些组件？</block>
   <block id="d040c419785e5dde6f78f0ca7643c722" category="paragraph">您可以检查组件状态并执行与这些组件相关的某些功能：</block>
   <block id="d01cd128d6abf4d7933f8a2639098e20" category="list-text">"*磁盘架"*-_shelf_是一个组件、其中包含存储阵列的硬件(控制器、电源/风扇箱和驱动器)。磁盘架有三种大小、最多可容纳12、24或60个驱动器。</block>
@@ -6674,7 +6597,6 @@
   <block id="f94609c94eb181d6647a3e787902e8f5" category="admonition">如果更改IP地址配置、则会丢失存储阵列的管理路径。如果您使用SANtricity 统一管理器全局管理网络中的阵列、请打开用户界面并转到菜单：管理[发现]。如果您使用的是SANtricity 存储管理器、则必须从企业管理窗口(EMW)中删除此设备、并通过选择菜单：编辑(添加存储阵列)将其重新添加到EMW中、然后输入新的IP地址。</block>
   <block id="f74ec7352e7eeb86c5de4e638147f9ca" category="paragraph">管理端口配置显示在控制器设置的管理端口选项卡中。</block>
   <block id="74b96ad1072c9d815991a81d9452df10" category="summary">如果存储阵列包含具有不同类型的物理和逻辑属性的驱动器、则硬件页面将提供筛选字段、以帮助您限制驱动器视图并查找特定驱动器。</block>
-  <block id="14df5b731d4997d2ee71cdf4bc523bf9" category="doc">限制驱动器视图</block>
   <block id="facdfcb4bee682dfd1eb4f0e17ccc7c2" category="paragraph">驱动器筛选器可以将视图限制为在某些逻辑位置(例如卷组1)仅查看某些类型的物理驱动器(例如、所有SAS)以及某些安全属性(例如、支持安全)。您可以同时使用这些筛选器、也可以单独使用这些筛选器。</block>
   <block id="1a87e1a07850c1c707a3888ab74e5f5c" category="paragraph">如果所有驱动器共享相同的物理属性、则不会显示*显示驱动器...*筛选字段。如果所有驱动器共享相同的逻辑属性、则不会显示存储阵列*筛选器字段中的*任意位置。</block>
   <block id="c0045c6c284d1fa7245572a2659fa923" category="list-text">在第一个筛选器字段(在*显示驱动器...*下)中、单击下拉箭头以显示可用的驱动器类型和安全属性。</block>
@@ -6717,7 +6639,6 @@
   <block id="be60404b2c56981a6ade529f56c56ade" category="doc">为什么建议使用手动同步策略？</block>
   <block id="203eb3487092f98bd7739657bd0afb70" category="paragraph">如果使用自动重新同步策略、并且在重新同步期间发生间歇性通信问题、则二级卷上的数据可能会暂时损坏。重新同步完成后、数据将得到更正。</block>
   <block id="8201c629dd6551605c1fa4b163a76d37" category="summary">您可以删除镜像对、以便从本地存储阵列上的主卷和远程存储阵列上的二级卷删除镜像关系。</block>
-  <block id="1ead2f5a8f8bd71a04f291e529419db7" category="doc">删除异步镜像关系</block>
   <block id="1954b1434c37f1e6720d7e7c0db08530" category="paragraph">查看有关孤立镜像对的以下信息：</block>
   <block id="a54e8bbbb036b83f8181f0c77eaaf906" category="list-text">如果在一端(本地存储阵列端或远程存储阵列端)删除了一致性镜像组中的成员卷、而不是在另一端删除了该成员卷、则会存在孤立镜像对。</block>
   <block id="250696e24a4e70ab9003d34e160b476c" category="list-text">在恢复阵列间通信且镜像配置的两端协调镜像参数时、系统会检测到孤立镜像对。</block>
@@ -6731,7 +6652,6 @@
   <block id="b6dc45978281b0c6a7a333fdf4706295" category="list-text">将主卷和二级卷返回到主机可访问的非镜像卷。</block>
   <block id="4fc9176a629b2df5d3c531937e01e5cc" category="list-text">删除异步镜像对后更新异步镜像磁贴。</block>
   <block id="7508e4442d535a8c1b39528432dc19f0" category="summary">您可以查看本地存储阵列和远程存储阵列上的镜像一致性组之间未同步的数据量。当镜像一致性组处于"未同步"状态时、不会发生任何镜像活动。</block>
-  <block id="2ac29e19a0ce69edb4f3fe082c088a5e" category="doc">查看镜像一致性组之间未同步的数据量</block>
   <block id="0977cf4a58da9cc581a6745cfcdc48b5" category="paragraph">如果选定镜像一致性组包含镜像对、并且当前未进行同步、则可以执行此任务。</block>
   <block id="bd65b5e01459a4f61664d873f3e319a3" category="list-text">选择*镜像一致性组*选项卡。</block>
   <block id="33bb4394bc47c9dcf94b889b4047ed3b" category="paragraph">此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。</block>
@@ -6784,7 +6704,6 @@
   <block id="54abd49eba72d75970404acd8a2a3512" category="list-text">如果特定存储对象的复制服务操作的生命周期很长。</block>
   <block id="3b965b7599e93263ee7ae3b2db7bf7ae" category="list-text">如果由于I/O活动繁重而导致基础卷上的大量数据块发生更改、使用历史性能数据或其他操作系统实用程序帮助您确定基础卷的典型I/O活动。</block>
   <block id="3e4b41fe7dfdb67ca16165cc983793d6" category="summary">您可以更改本地存储阵列上的镜像一致性组在初始同步数据或在异步镜像操作期间重新同步数据时使用的同步设置和警告阈值。</block>
-  <block id="75fd01b8a28d9721b74ead8d141aa67a" category="doc">更改镜像一致性组的同步设置</block>
   <block id="f14d90a64d3831669d5b98f32911dcf3" category="paragraph">更改同步设置会影响镜像一致性组中所有镜像对的同步操作。</block>
   <block id="ad54f4dec93f6fc649f047145fb0821c" category="paragraph">此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。</block>
   <block id="065ebbde71ee0c6eaf6ce2c26e199767" category="list-text">选择要编辑的镜像一致性组、然后选择菜单：更多[编辑设置]。</block>
@@ -6813,7 +6732,6 @@
   <block id="425a64e0d583694b7183474b36985728" category="list-text">您已安装Web服务代理和Unified Manager。镜像对在Unified Manager界面中进行配置。</block>
   <block id="fe99edff93d55843d1bd3a7d39d7dbcd" category="list-text">这两个存储阵列会在Unified Manager中发现。</block>
   <block id="a1dc8dcd0ef0c3f9c09c995746bd9eaa" category="summary">您可以在镜像对中出于管理目的或在本地存储阵列发生灾难时参与同步镜像的两个卷之间执行角色反转。</block>
-  <block id="33e1d4955d1ad338432d061228de9d23" category="doc">更改镜像对中卷之间的角色</block>
   <block id="82deb6e7c6ccf745d601a8e410473414" category="paragraph">您可以在镜像对中参与同步镜像的两个卷之间执行角色反转。出于管理目的或在本地存储阵列发生灾难时、可能需要执行此任务。</block>
   <block id="a94d228d4ea6bacf24f30d98d435d32e" category="paragraph">您可以将主卷降级为二级角色、也可以将二级卷提升为主角色。正在访问主卷的所有主机均可对该卷进行读/写访问。当主卷成为二级卷时、只会向该卷写入由主控制器启动的远程写入。</block>
   <block id="ab473df4e0c88c723409554d7d88c823" category="list-text">选择菜单：Storage[Synchronous Mirroring]。</block>
@@ -6962,7 +6880,6 @@
   <block id="354f62801910dd1edac18a317f02d0a4" category="doc">为什么表中显示的值不可用？</block>
   <block id="352674da3b0347b2fa94309f9852e20b" category="paragraph">要显示远程存储阵列数据、请从Unified Manager启动System Manager。</block>
   <block id="adfb05f5a886a855a1779bccd4b6cada" category="summary">您可以暂停或恢复镜像一致性组中所有镜像对上的数据同步、这比暂停或恢复单个镜像对上的同步效率更高。</block>
-  <block id="c879a001efd3881d2569005752912018" category="doc">暂停或恢复镜像一致性组的同步</block>
   <block id="9cec334a78447d6e341bcef3c11881ed" category="paragraph">暂停和恢复组同步有助于减少对主机应用程序的任何性能影响、在将本地存储阵列上的任何更改数据复制到远程存储阵列时、可能会发生这种情况。</block>
   <block id="392f6877a53502f73249bbd61d4efe50" category="paragraph">镜像一致性组及其镜像对的状态将保持暂停状态、直到您使用恢复选项恢复同步活动为止。</block>
   <block id="34c538d2963ff874f6435e6d75fe33df" category="list-text">选择要暂停或恢复的镜像一致性组、然后选择菜单：更多(暂停)或菜单：更多(恢复)。</block>
@@ -7002,7 +6919,6 @@
   <block id="03636572249dd9880006378f3c1755fe" category="paragraph">创建镜像对之前、请遵循以下准则。</block>
   <block id="b6287b731648fdf0c4197b5b53ed2e5b" category="list-text">存储阵列必须至少包含一个镜像一致性组。您可以在Unified Manager中的创建镜像对向导中创建一致性组。</block>
   <block id="f7282d43a3db8918076ecd180e1a78d6" category="summary">您可以更改镜像对在通信中断后用于完成重新同步操作的同步优先级和重新同步策略。</block>
-  <block id="7c86ac8b3b5787fd4006c745e9ba0096" category="doc">更改镜像对的同步设置</block>
   <block id="375ffdc3425d89c8ef73212975a6b3e7" category="paragraph">您只能在包含主卷的存储阵列上编辑镜像对的同步设置。</block>
   <block id="f8931812e14da4f685be124ecc0cc2a6" category="list-text">选择要编辑的镜像对、然后选择菜单：更多[编辑设置]。</block>
   <block id="c76c168d6f92b3d43a9c641ff6f6588e" category="paragraph">系统将显示查看/编辑设置对话框。</block>
@@ -7017,7 +6933,6 @@
   <block id="60a8997705970e5b5155e1b481e80795" category="list-text">*自动*—选择此选项可在与镜像对的通信恢复后自动开始重新同步。</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">选择 * 保存 * 。</block>
   <block id="d3f1b71e636e25d3c076afa38de86758" category="summary">您可以使用暂停选项和恢复选项来控制何时同步镜像对中主卷和二级卷上的数据。</block>
-  <block id="080ac0ce499cae0f7a11f6aefb54366c" category="doc">暂停并恢复镜像对的同步</block>
   <block id="c8d55b18a2a5b14a5326912fac53e808" category="paragraph">如果手动暂停镜像对、则镜像对在手动恢复之前不会同步。</block>
   <block id="b1c5adbd547b9b89120cf4881fa399f3" category="list-text">选择要暂停或恢复的镜像对、然后选择菜单：更多(暂停)或菜单：更多(恢复)。</block>
   <block id="210b94ecc118560463c7b43e50e61a01" category="list-text">暂停或恢复镜像对之间的数据传输、而不删除镜像关系。</block>
@@ -7043,7 +6958,6 @@
   <block id="94d12e4ecfa0727a21dceabd94e97cb4" category="paragraph">镜像对的二级卷通常位于二级站点、并保存数据的副本。</block>
   <block id="454c65346b592d2a6ddcf6e6cd91d9b3" category="paragraph">同步</block>
   <block id="1b6781f9766328ee7f0960dbe05f98bf" category="paragraph">在本地存储阵列与远程存储阵列之间进行初始同步时进行同步。如果在通信中断后主卷和二级卷未同步、则也会发生同步。当通信链路重新工作时、任何未复制的数据都会同步到二级卷的存储阵列。</block>
-  <block id="bc514fe3893b353f46136dbb9ea4696a" category="doc">删除同步镜像关系</block>
   <block id="a04fd3cfecf107e93638020cde5f1c20" category="paragraph">您还可以删除镜像对以更正孤立的镜像对状态。查看有关孤立镜像对的以下信息：</block>
   <block id="c2e6998877daef719281db11f254cf4d" category="list-text">如果在一端(本地/远程)删除了成员卷、而不是在另一端删除了成员卷、则会存在孤立镜像对。</block>
   <block id="5a667fb8b9ee512c9f723f5ec2645421" category="list-text">恢复阵列间通信时、系统会检测到孤立的镜像对。</block>
@@ -7079,7 +6993,6 @@
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">IP地址已更改的存储阵列会向与配置为通过iSCSI连接进行镜像的镜像一致性组关联的每个远程存储阵列发送一条消息。接收此消息的存储阵列会自动更新其远程目标IP地址。</block>
   <block id="dc1ea033fdb960bfcd0b3b66b9d46b86" category="paragraph">如果IP地址已更改的存储阵列无法向远程存储阵列发送其阵列间消息、则系统会向您发送连接问题描述 警报。使用Update Remote IP Address选项重新与本地存储阵列建立连接。</block>
   <block id="9298215bd55bd7c3aa8a21b50a88e28e" category="summary">同步镜像功能可在存储阵列之间远程进行联机实时数据复制。</block>
-  <block id="460f1e8c3e603bf77d64ce3d701324a5" category="doc">同步镜像概述</block>
   <block id="10d68dbaa5a809daf171f782598d85b7" category="section-title">什么是同步镜像？</block>
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_Synchronous mirroring _实时复制数据卷以确保持续可用性。存储阵列控制器负责管理镜像操作、该操作对主机和软件应用程序是透明的。</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">这种类型的镜像非常适合用于灾难恢复等业务连续性目的。</block>
@@ -7120,13 +7033,11 @@
   <block id="3875f01f6cc1fb12c8699d458b4605d5" category="doc">为什么我会看到多个预留容量候选项？</block>
   <block id="285f1744664f2e1e4e361e7f0569d4b0" category="paragraph">您可以通过更改要在基础卷上为复制服务操作预留的物理驱动器空间百分比来刷新建议候选对象列表。根据您的选择显示最佳候选对象。</block>
   <block id="14c0b5c11cec183cae5b026de83be26c" category="summary">您可以在存储阵列上停用同步镜像功能、以重新建立主机总线适配器(HBA)主机端口4的正常使用、该端口是为镜像数据传输预留的。</block>
-  <block id="959b6f8aa08631615c9cc167221f7e2f" category="doc">停用同步镜像</block>
   <block id="c50acb6fde75a12cb1d95875bbe42db2" category="paragraph">您必须已删除所有同步镜像关系。验证是否已从存储阵列中删除所有镜像对。</block>
   <block id="443d8eab9aa73f1f60c6b8ccbb939d68" category="list-text">选择菜单：不常见任务[停用]。</block>
   <block id="455c19a3e2e0ae204aaae455a94dc139" category="list-text">控制器的HBA主机端口4专用于同步镜像通信、现在可以接受主机读写请求。</block>
   <block id="c8795d54a85ef60634d6af6928100837" category="list-text">存储阵列上的预留容量卷将被删除。</block>
   <block id="e01d2c972c8675c34dc83aee38224fdb" category="summary">异步镜像功能提供了一种基于固件的控制器级别机制、用于在本地存储阵列和远程存储阵列之间进行数据复制。</block>
-  <block id="95f005b7a0d89bd52b50e36428f03fa7" category="doc">异步镜像概述</block>
   <block id="1c8f32949aacae037e67973d36640f81" category="section-title">什么是异步镜像？</block>
   <block id="a973f9cd883909c4210fa4a3a2a46a57" category="paragraph">_Asynchronous mirroring _捕获主卷在特定时间点的状态、并仅复制自上次映像捕获以来发生更改的数据。可以立即更新主站点、并在带宽允许的情况下更新二级站点。此信息将在网络资源可用时进行缓存并稍后发送。</block>
   <block id="40f940a1f2b00ed6e1e16df96cf0cfc1" category="paragraph">异步镜像是按卷创建的、但在组级别进行管理、这样您就可以将一个不同的远程镜像卷与给定存储阵列上的任何主卷关联起来。这种类型的镜像最适合满足无中断操作的需求、而且通常对于定期流程来说、网络效率更高。</block>
@@ -7144,7 +7055,6 @@
   <block id="90c1d6c4247630bca80fcc961ffb6449" category="list-text"><block ref="90c1d6c4247630bca80fcc961ffb6449" category="inline-link-macro-rx"></block></block>
   <block id="baba612c4896ebae31a1baa788fda3da" category="list-text"><block ref="baba612c4896ebae31a1baa788fda3da" category="inline-link-macro-rx"></block></block>
   <block id="4591b231c875be60e18e7b60fc60f4f3" category="summary">您可以在本地和远程存储阵列上停用异步镜像、以重新建立存储阵列上专用端口的正常使用。</block>
-  <block id="65c90a169ddaeb6811b328b7407a851f" category="doc">停用异步镜像</block>
   <block id="a2d99b2e8addfdbf20505041bd540a00" category="list-text">您必须已删除所有镜像关系。验证是否已从本地和远程存储阵列中删除所有镜像一致性组和镜像对。</block>
   <block id="11f121101dafcc279245e9342d94d033" category="list-text">本地存储阵列和远程存储阵列必须通过光纤通道网络结构或iSCSI接口进行连接。</block>
   <block id="30d5f99b08c30d1e8e4982b11716da78" category="paragraph">停用异步镜像时、本地和远程存储阵列上不会发生镜像活动。</block>
@@ -7159,7 +7069,6 @@
   <block id="fa98027accb9c3a7375a77d355bbb4d5" category="list-text">如果主卷已启用DA、则二级卷必须已启用DA。</block>
   <block id="835f4291909c19a4a71fd5963dcd860e" category="list-text">如果主卷未启用DA、则二级卷不能启用DA。</block>
   <block id="15737c83a1c51b25b3b62b657bafc663" category="summary">您可以出于管理目的或在本地存储阵列发生灾难时更改镜像一致性组之间的角色。</block>
-  <block id="0c2bc54478b89c06870df9e2e1c1477d" category="doc">将镜像一致性组角色更改为主卷或二级卷</block>
   <block id="b8c2d9c9ed5f27ec4715a24adb21bc4d" category="paragraph">在本地存储阵列上创建的镜像一致性组具有主要角色。在远程存储阵列上创建的镜像一致性组具有二级角色。您可以将本地镜像一致性组降级为二级角色、也可以将远程镜像一致性组提升为主角色。</block>
   <block id="1ec9b4e27e4b84ae42787d68143b9a8c" category="list-text">选择要更改角色的镜像一致性组、然后选择菜单：更多(将角色更改为&lt;主卷&gt;二级卷&gt;]*)。</block>
   <block id="c4a3a534bd315144fdc6a57f6ad7f518" category="list-text">确认要更改镜像一致性组的角色、然后单击*更改角色*。</block>
@@ -7167,7 +7076,6 @@
   <block id="a812fe9d2d7e7584ce14a32b80394dd5" category="list-text">镜像一致性组表会在正在进行角色更改的镜像一致性组旁边显示状态"待定"或"正在进行"。您可以单击表单元格中的*取消*链接来取消待定的角色更改操作。</block>
   <block id="322e1ee3a38a8457e7323b149fbb8184" category="list-text">如果可以联系关联的镜像一致性组、则镜像一致性组之间的角色会发生变化。System Manager会将二级镜像一致性组提升为主角色、或者将主镜像一致性组降级为二级角色(具体取决于您的选择)。角色更改会影响选定镜像一致性组中的所有镜像对。</block>
   <block id="37290e22c9fa8eb0f62c0192041dffed" category="summary">您可以手动为镜像一致性组中的所有镜像对启动重新同步。</block>
-  <block id="d8ce60567538c1954ac3b7c707d1d197" category="doc">手动重新同步镜像一致性组</block>
   <block id="527b920dffed09a344bb3e1c877b207f" category="list-text">选择要重新同步的镜像一致性组、然后选择菜单：更多(手动重新同步)。</block>
   <block id="958b076f7e1539852bedf91e5fe7a516" category="paragraph">系统将执行以下操作：</block>
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">启动对选定镜像一致性组中所有镜像对上的数据的重新同步。</block>
@@ -7235,7 +7143,6 @@
   <block id="65024c2cda9e330342e42e99eab931fc" category="summary">了解异步镜像术语如何应用于存储阵列。</block>
   <block id="cffa7e4fcd460690ec5261eba8312305" category="paragraph">在异步镜像中、镜像对始终属于镜像一致性组。首先对主卷执行写入操作、然后将其复制到二级卷。镜像一致性组中的每个镜像对共享相同的同步设置。</block>
   <block id="e35d546a90affeef6c848766d7755ffe" category="summary">您可以测试本地存储阵列与远程存储阵列之间的通信、以诊断参与同步镜像的镜像对可能存在的通信问题。</block>
-  <block id="0777661b9ea84c315de5f0180e7f413a" category="doc">测试同步镜像的通信</block>
   <block id="70e0638c198c3a893ece352f33b3be87" category="paragraph">运行两种不同的测试：</block>
   <block id="7276375972d4aa97011944003f7b649a" category="list-text">*通信*-验证两个存储阵列是否具有通信路径。通信测试将验证本地存储阵列是否可以与远程存储阵列通信、以及与镜像对关联的二级卷是否位于远程存储阵列上。</block>
   <block id="28a3f7ed92b888a430054f2ed5ae29a6" category="list-text">*延迟*-向与镜像对关联的远程存储阵列上的二级卷发送SCSI测试单元命令、以测试最小、平均和最大延迟。</block>
@@ -7297,7 +7204,6 @@
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">如果在一端(主端或二级端)删除了成员卷、而在另一端未删除、则会存在孤立的镜像对卷。</block>
   <block id="3495d24d327284018c764d189eb19ebe" category="doc">同步镜像—为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">您可以测试通信链路、以诊断本地存储阵列与与镜像一致性组关联的远程存储阵列之间可能存在的通信问题。</block>
-  <block id="fbc6a2ea09bb34bc0a93d790d9514315" category="doc">测试镜像一致性组的通信</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">要测试的镜像一致性组必须位于本地和远程存储阵列上。</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">您可以运行四种不同的测试：</block>
   <block id="d49d15e557b8dae791f5e3e35d9c3034" category="list-text">*连接*-验证两个控制器是否具有通信路径。连接测试会在存储阵列之间发送一条阵列间消息、然后验证远程存储阵列上的相应镜像一致性组是否存在。它还会验证远程存储阵列上的镜像一致性组的成员卷是否与本地存储阵列上的镜像一致性组的成员卷匹配。</block>
@@ -7321,7 +7227,6 @@
   <block id="a24004d7b0e54b0b506d0ebf5c2c53e6" category="paragraph">通信测试完成后、此对话框将显示正常状态、已通过状态或失败状态。</block>
   <block id="e6d46f3189edf0f711bc9c710e28f8e4" category="paragraph">如果通信测试返回失败状态、则在关闭此对话框后、此测试将继续运行、直到镜像一致性组之间的通信恢复为止。</block>
   <block id="25be04f8f564d75f005e7d91ec561532" category="summary">使用镜像功能可以异步或同步在本地存储阵列和远程存储阵列之间复制数据。</block>
-  <block id="8eaa7d8cc17d8c089c43d2f928c8775f" category="doc">镜像概述</block>
   <block id="7e5302b1c4eac0373046e5e48d74febc" category="section-title">什么是镜像？</block>
   <block id="b1aebc00c1bc1dfce2ff8962832bfb5c" category="paragraph">SANtricity 应用程序包括两种类型的镜像：异步和同步。异步镜像可按需或按计划复制数据卷、从而最大限度地减少或避免因数据损坏或丢失而导致的停机时间。同步镜像可实时复制数据卷、以确保持续可用性。</block>
   <block id="277f48ac3dd713f3c93952544ad55a9e" category="inline-link-macro">镜像的工作原理</block>
@@ -7430,7 +7335,6 @@
   <block id="e1cfa79dbec62347a6be30a50cfa9692" category="doc">在创建镜像对之前、我需要了解哪些信息？</block>
   <block id="afb89ed7edef0cc7dc3ef4d41d3887c2" category="list-text">具有光纤通道(FC)或iSCSI主机端口的控制器支持异步镜像、而只有具有FC主机端口的控制器才支持同步镜像。</block>
   <block id="9732d74959a323e59d6e9160b809f0a2" category="summary">在使用Unified Manager升级多个存储阵列之前、请在规划过程中查看主要注意事项。</block>
-  <block id="4a77379e9fcc01e35b7933a91b02a2bb" category="doc">升级注意事项</block>
   <block id="6371e5ddbbe5c848ab1144dfd8b50449" category="section-title">当前版本</block>
   <block id="063e4a905654baf6a3df919bc5acac65" category="paragraph">您可以从Unified Manager的"管理"页面查看每个已发现存储阵列的当前SANtricity OS软件版本。此版本显示在SANtricity OS软件列中。单击每行中的 SANtricity OS 版本时，会在弹出对话框中显示控制器固件和 NVSRAM 信息。</block>
   <block id="83a51c77c243b9672984451585e9ad2f" category="section-title">其他需要升级的组件</block>
@@ -7510,7 +7414,6 @@
   <block id="6d2693ac93f6085397ef92c9a73ba5b5" category="summary">对于异步镜像操作、预留容量通常为基础卷的20%。通常、此容量足以满足要求。</block>
   <block id="039949ec150f284be8ac989b11a63eed" category="paragraph">所需容量因向基础卷写入I/O的频率和大小以及要使用存储对象的副本服务操作的时间而异。通常、如果存在以下一种或两种情况、请选择较大的预留容量百分比：</block>
   <block id="c79b141d0d17696705c99b794b11901a" category="summary">在管理组页面中、您可以创建一组存储阵列组、以便于管理。</block>
-  <block id="a1279915a8f9251c8e26db088b087beb" category="doc">组概述</block>
   <block id="55c21421b0b49c72e4ecf5d969ddc7ef" category="section-title">什么是阵列组？</block>
   <block id="1f153ce693a76088e1bcf184fb041fda" category="paragraph">您可以通过对一组存储阵列进行分组来管理物理和虚拟化基础架构。您可能希望对存储阵列进行分组、以便更轻松地运行监控或报告作业。</block>
   <block id="6c17c1b173211258ec0ec9985189d2a5" category="paragraph">组类型有两种：</block>
@@ -7569,7 +7472,6 @@
   <block id="cda4530cc29b73a2848e3ee73549537a" category="paragraph">转到System Manager并选择菜单：主页(查看正在执行的操作)以查看同步镜像操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="839a15232e75363abd83283c12dccb75" category="summary">如果一个池或卷组中有多个卷满足您为存储对象选择的容量百分比量、则您将看到多个候选卷。</block>
   <block id="c80a3b4054f1065c5ed2862c799574d3" category="summary">您可以将设置从一个存储阵列导入到另一个存储阵列、包括警报、AutoSupport 和目录服务。</block>
-  <block id="364bdf677eee1ef74394eade4142e858" category="doc">设置导入概述</block>
   <block id="6d2afd33fd55f01ede09873e95c44962" category="paragraph">通过导入设置功能、您可以执行批量操作、将设置从一个阵列导入到多个阵列。当您需要在网络中配置多个阵列时、此功能可以节省时间。</block>
   <block id="1ce28fccbd059af9ebab85e5f644e942" category="section-title">可以导入哪些设置？</block>
   <block id="c60d96f37d31d58ac863067912c7f98b" category="paragraph">您可以导入警报方法、AutoSupport 配置、目录服务配置、存储配置(例如卷组和池)和系统设置(例如自动负载平衡)。</block>
@@ -7639,7 +7541,6 @@
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">此处列出的阵列型号之一： <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">使用Web浏览器与网络管理客户端的带外连接。</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">要管理存储资源、您必须先发现网络中的存储阵列。</block>
-  <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">发现概述</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">如何发现阵列？</block>
   <block id="317e394dfc22c08fcca81a40f804affa" category="paragraph">使用"添加/发现"页面查找并添加要在组织网络中管理的存储阵列。您可以发现多个阵列、也可以发现一个阵列。为此、您需要输入网络IP地址、然后Unified Manager将尝试单独连接到该范围中的每个IP地址。</block>
   <block id="a308cde70025b17fe6c5cd5adaa155f3" category="list-text"><block ref="a308cde70025b17fe6c5cd5adaa155f3" category="inline-link-macro-rx"></block></block>
@@ -7669,7 +7570,6 @@
   <block id="ea9c669c9aa64371894dddb0505a0325" category="paragraph">存储阵列将添加到Unified Manager中、如果指定此阵列、则还会添加到选定的组中。</block>
   <block id="03bc500f3c11ae20134e43b6b586e119" category="paragraph">如果启用了自动支持数据收集、则会自动收集您添加的存储阵列的支持数据。</block>
   <block id="f9c9e13a8e7b9326b088117f9ce357a6" category="summary">如果当前名称不再有意义或适用、您可以更改存储阵列组的名称。</block>
-  <block id="49db6539f30cd17d190fa960d343e280" category="doc">重命名存储阵列组</block>
   <block id="9f4f8b73149dd133619a2463d69040cb" category="paragraph">请牢记这些准则。</block>
   <block id="7d5522de49a0c89cafe3acd8d5cca909" category="list-text">名称可以由字母、数字和特殊字符下划线(_)、连字符(-)和井号(#)组成。如果选择任何其他字符、则会显示一条错误消息。系统将提示您选择其他名称。</block>
   <block id="6705fbda2e6abf3c06911a7e187adac6" category="list-text">名称限制为30个字符。名称中的任何前导空格和尾随空格将被删除。</block>
@@ -7775,7 +7675,6 @@
   <block id="608bd8a074ef68196b2b16c389892b52" category="section-title">升级前需要了解哪些信息？</block>
   <block id="c62a746e301ad31c4b84a7bf74763687" category="paragraph">在升级多个存储阵列之前、请在规划过程中查看主要注意事项。</block>
   <block id="1f7336346d3723051fe725fd0d8b6f52" category="summary">如果不再需要从特定存储组管理一个或多个受管存储阵列、则可以从组中删除该存储阵列。</block>
-  <block id="81f419d8ee97055bcd7f59cc96299594" category="doc">从组中删除存储阵列</block>
   <block id="5f482ae5ff29923bd82a3447b4f3b55f" category="paragraph">从组中删除存储阵列不会以任何方式影响存储阵列或其数据。如果您的存储阵列由System Manager管理、则仍可使用浏览器对其进行管理。如果意外从组中删除了存储阵列、则可以重新添加该存储阵列。</block>
   <block id="9711f8dab32ef33485d895e69337fc1b" category="list-text">从管理页面中、选择菜单：管理组[从组中删除存储阵列]。</block>
   <block id="597fbec95d8471a7f75703abb91ab8df" category="list-text">从下拉列表中、选择包含要删除的存储阵列的组、然后单击要从组中删除的每个存储阵列旁边的复选框。</block>
@@ -7845,7 +7744,6 @@
   <block id="64d8b9dd1b95fd9e366edc1b59a6394b" category="paragraph">同步镜像不使用镜像一致性组。</block>
   <block id="fc0fc4bcfa8e77ccbe825eb40749b735" category="paragraph">需要这些卷、以便控制器能够持久保存必要的信息、以使镜像保持运行状态。它们包含增量日志和写入时复制数据等信息。</block>
   <block id="b64dc90c0d8c8af7e5c1414038e1a206" category="summary">您可以删除不再需要的一个或多个存储阵列组。</block>
-  <block id="1075451261ff01d866ffbf5c0de96768" category="doc">删除存储阵列组</block>
   <block id="8904110eedca9801c2f064ef59eb1b3f" category="paragraph">此操作仅删除存储阵列组。与已删除组关联的存储阵列仍可通过全部管理视图或与其关联的任何其他组进行访问。</block>
   <block id="2d77764408426ef7cc12ec0cb8bab868" category="list-text">从管理页面中、选择菜单：管理组[删除存储阵列组]。</block>
   <block id="df88e1007319fd66fb452b699b950fb9" category="list-text">选择要删除的一个或多个存储阵列组。</block>
@@ -8746,4 +8644,410 @@
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本仅包含少量更改、没有任何新功能。有关此版本中变更的详细信息，请参阅<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
   <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">启用SAML的连接有限</block>
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">启用SAML后、以下存储阵列功能与JSON Web令牌身份验证的连接将受到限制。</block>
+  <block id="afd690b4a6f8f723237e406e691e1994" category="doc">了解SANtricity软件</block>
+  <block id="55efb1bea2303063bea2fdc03480bf5d" category="doc">SANtricity 软件浏览器和操作系统支持</block>
+  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">在 SANtricity System Manager 中配置远程登录 (SSH)</block>
+  <block id="791192eba5e6ba25fcb3f4d4787bdd42" category="doc">在 SANtricity System Manager 中分配热备件</block>
+  <block id="2a179d4ca17916b1724afc04dabd8796" category="doc">在 SANtricity System Manager 中更改架子 ID</block>
+  <block id="3efe7542ac804d872e4cb32668bdcd0b" category="doc">更改 SANtricity System Manager 中架子的视图顺序</block>
+  <block id="0f25f1493e996ca8c9fe406f75014e5b" category="doc">在 SANtricity System Manager 中配置 DNS 服务器地址</block>
+  <block id="6fec971fb5688583e3ae938ea6635252" category="doc">在 SANtricity System Manager 中配置 iSCSI 端口</block>
+  <block id="647bd57aa89ba480c449b7af20bcdb4b" category="doc">在 SANtricity System Manager 中配置 iSER over InfiniBand 端口</block>
+  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">在 SANtricity System Manager 中配置管理端口</block>
+  <block id="942b826e8bf81247277dd17294833adb" category="doc">在 SANtricity System Manager 中配置 NTP 服务器地址</block>
+  <block id="ed71508096ddf105f7a66756aaa909a1" category="doc">在 SANtricity System Manager 中配置 NVMe over InfiniBand 端口</block>
+  <block id="139a4bc3ba2ed00c3628e46a02eaec8e" category="doc">在 SANtricity System Manager 中配置 NVMe over RoCE 端口</block>
+  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">了解 E 系列控制器的 IP 地址分配</block>
+  <block id="84e1a7e377374cd578c829ac734ca1b1" category="doc">了解 SANtricity System Manager 中的控制器状态</block>
+  <block id="3e4ca6f5f42e0015e4c9dfee09a5dcc0" category="doc">了解 SANtricity System Manager 中的驱动器状态</block>
+  <block id="0ff6204b4922a614f054cf74d19b5033" category="doc">在 SANtricity System Manager 中擦除驱动器</block>
+  <block id="4a14bf0b2df804251e27c193a6a0765f" category="doc">在 SANtricity System Manager 中手动关闭驱动器</block>
+  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 硬件页面和组件</block>
+  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">了解 SANtricity 软件中使用的硬件术语</block>
+  <block id="acaa93f0c47521f4f2f9398239806b48" category="doc">了解 SANtricity System Manager 中的热备用驱动器</block>
+  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">在 SANtricity System Manager 中初始化（格式化）驱动器</block>
+  <block id="f59aa10f5efd30da7726822e94f66de3" category="doc">在 SANtricity System Manager 中筛选驱动器视图</block>
+  <block id="3d1cf52a63b21d443e1cf92f6943bea9" category="doc">在 SANtricity System Manager 中查看和管理硬件组件</block>
+  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">在 SANtricity System Manager 中将控制器置于服务模式</block>
+  <block id="baa8f21cf13b83a225b1c7853c8625cb" category="doc">在 SANtricity System Manager 中将控制器置于脱机状态</block>
+  <block id="d2f436ef9eb00d0e92e11a9d418eadc8" category="doc">在 SANtricity System Manager 中将控制器置于联机状态</block>
+  <block id="c3b7a3c7230a12b101d55060d1570cca" category="doc">在 SANtricity System Manager 中手动重建驱动器</block>
+  <block id="569a85590c4c73a17007b1bde319b3b8" category="doc">在 SANtricity System Manager 中逻辑替换驱动器</block>
+  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">在 SANtricity System Manager 中重置（重新启动）控制器</block>
+  <block id="e51433051a984f5e19002bc90747281b" category="doc">在 SANtricity System Manager 中显示或隐藏组件状态</block>
+  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">了解 SANtricity System Manager 中的固态磁盘 (SSD)</block>
+  <block id="650a82d4acfd7f1b8552e6a97a27a62b" category="doc">在 SANtricity System Manager 中显示正面和背面视图</block>
+  <block id="fbcb1ff48c181cd2172f9bbafd85feef" category="doc">在 SANtricity System Manager 中打开驱动器定位器指示灯</block>
+  <block id="2efbaccdd317d40351cbd3b0078ba4e5" category="doc">在 SANtricity System Manager 中打开机架定位灯</block>
+  <block id="27524250c330c0c3b3e4d14953ab61ba" category="doc">在 SANtricity System Manager 中取消分配热备用</block>
+  <block id="006fe7517749b9bc8c427c28d3a5fd5d" category="doc">在 SANtricity System Manager 中解锁或重置锁定的 NVMe 或 FIPS 驱动器</block>
+  <block id="af1c7ebf693b4b6f684fcbcf0bad3fe0" category="doc">在 SANtricity System Manager 中更新电池学习周期</block>
+  <block id="3b154a12ff75488de9bffb20316dc845" category="doc">在 SANtricity System Manager 中查看控制器设置</block>
+  <block id="019cd8fdd410c8e21ac8e48aa82391f2" category="doc">在 SANtricity System Manager 中查看驱动器状态和设置</block>
+  <block id="c524d0a4d62606457b777ef541ea9347" category="doc">在 SANtricity System Manager 中查看硬件组件</block>
+  <block id="9e9cedf03a8665e4bad051e08cd66766" category="doc">在 SANtricity System Manager 中查看机架组件状态和设置</block>
+  <block id="69985995523c2d426b66408d7daed125" category="doc">在 SANtricity System Manager 中管理密码保护</block>
+  <block id="19f7c1453dbda42210e85ff75ce6eff2" category="doc">了解 SANtricity System Manager 主页</block>
+  <block id="5c32253d600042425394ed5980d9be38" category="doc">了解 SANtricity System Manager 操作进度页面</block>
+  <block id="58a34f657d81d7edfbaed6401bb0f515" category="doc">了解 SANtricity System Manager 界面</block>
+  <block id="33e2da76f04b079e476aa9cac594b266" category="doc">了解 SANtricity System Manager 问题通知</block>
+  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">使用 SANtricity System Manager Recovery Guru 恢复问题</block>
+  <block id="547886ecd6f44d1e94d51c7a824cdf5c" category="doc">在 SANtricity System Manager 中设置性能图的默认时间范围</block>
+  <block id="32fc217fc1fed4d84d398e41c515b71d" category="doc">在 SANtricity System Manager 中设置容量值的默认单位</block>
+  <block id="427aa43b9cdc2defe80f26a9b8201921" category="doc">了解 SANtricity System Manager 安装向导</block>
+  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">查看并执行 SANtricity System Manager 中正在进行的操作</block>
+  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">在 SANtricity System Manager 中查看存储层次结构</block>
+  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">在 SANtricity System Manager 中查看异步镜像状态</block>
+  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">了解 SANtricity 软件中的异步镜像术语</block>
+  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">在 SANtricity System Manager 中将镜像一致性组角色更改为主或辅助</block>
+  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">在 SANtricity System Manager 中更改镜像对中卷之间的角色</block>
+  <block id="e344db326042f633dec679fb389ca0e4" category="doc">在 SANtricity System Manager 中更改镜像一致性组的同步设置</block>
+  <block id="b571c7942921f56e38dc2234119600d8" category="doc">在 SANtricity System Manager 中更改镜像对的同步设置</block>
+  <block id="af90f6617180555848d0d0edc437d6e1" category="doc">在 SANtricity System Manager 中更改镜像对卷的预留容量设置</block>
+  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">在 SANtricity System Manager 中完成在旧系统上创建的主卷的镜像对</block>
+  <block id="5e5c7541af958458f1ac268b6712c5b5" category="doc">在 SANtricity System Manager 中停用异步镜像</block>
+  <block id="b92bbd05d370531c1aa6532c3519f954" category="doc">在 SANtricity System Manager 中停用同步镜像</block>
+  <block id="2ce490e8da130e3ad278fad4b8eee537" category="doc">在 SANtricity System Manager 中删除镜像一致性组</block>
+  <block id="81b2556e4fd871f9ea682e69a232b804" category="doc">异步镜像在 SANtricity System Manager 中的工作方式</block>
+  <block id="e9d5efeaff5fce51394bba9ee3af6eac" category="doc">SANtricity System Manager 中的同步镜像工作原理</block>
+  <block id="026ccf050237d46deb2637acd910f852" category="doc">增加 SANtricity System Manager 中的预留容量</block>
+  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">了解 SANtricity 软件中的异步镜像</block>
+  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">了解 SANtricity 软件中的同步镜像</block>
+  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">在 SANtricity System Manager 中手动重新同步镜像一致性组</block>
+  <block id="f1c3f1483418f4843025c78102b16af4" category="doc">在 SANtricity System Manager 中删除异步镜像关系</block>
+  <block id="288e2c16d3025c5aeb7ddfdcf7e12576" category="doc">在 SANtricity System Manager 中删除同步镜像关系</block>
+  <block id="7c24c58ebddc7ce4f60ae6f4686a8cc1" category="doc">在 SANtricity 软件中使用异步镜像的要求</block>
+  <block id="2d0b5b4cae00ca0b94335defe5fc08fe" category="doc">在 SANtricity 软件中使用同步镜像的要求</block>
+  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">在 SANtricity 软件中更改镜像一致性组角色</block>
+  <block id="0d1b357841241bc8e28cae55f9a67ffd" category="doc">了解 SANtricity 软件中镜像对中的卷角色变化</block>
+  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">在 SANtricity System Manager 中暂停和恢复镜像对的同步</block>
+  <block id="792c6be07e358d94fe968a169f79db04" category="doc">在 SANtricity System Manager 中暂停或恢复镜像一致性组的同步</block>
+  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">了解 SANtricity System Manager 中的同步镜像状态</block>
+  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">了解 SANtricity 软件中的同步镜像术语</block>
+  <block id="43a0f9d96717dc640a9f5807452d5629" category="doc">在 SANtricity System Manager 中测试镜像一致性组的通信</block>
+  <block id="440e769d8cd1305095a160989cbe81dc" category="doc">在 SANtricity System Manager 中测试同步镜像的通信</block>
+  <block id="515576da6c365e178e990e12007bd60f" category="doc">在 SANtricity System Manager 中更新远程存储阵列 IP 地址</block>
+  <block id="8d7b05b34155e2c1e475071247cd76bf" category="doc">在 SANtricity System Manager 中查看镜像一致性组之间不同步的数据量</block>
+  <block id="2362f7bbc535b1dc6072c22c675c861e" category="doc">了解 SANtricity 软件中异步镜像的卷所有权</block>
+  <block id="91eafc3e8b902bfe2e658f3494dadf73" category="doc">了解 SANtricity 软件中同步镜像的卷所有权</block>
+  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">在 SANtricity 软件中异步镜像卷</block>
+  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">在 SANtricity 软件中同步镜像卷</block>
+  <block id="a8fbfce67e03a9242f79c779433628dd" category="doc">了解 SANtricity 软件中的访问管理术语</block>
+  <block id="7e99fcc276ed873dd7e2a3253d7cb578" category="doc">在 SANtricity System Manager 中创建访问令牌</block>
+  <block id="bfb6bcf04fa0010ea3a31baca8a4c547" category="doc">在 SANtricity System Manager 中编辑访问令牌设置</block>
+  <block id="a8e01fd75b10b5cf4680125403fa6462" category="doc">撤销 SANtricity System Manager 中的访问令牌</block>
+  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">了解访问令牌和 SANtricity 软件</block>
+  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">使用 SANtricity System Manager 中的目录服务配置访问管理</block>
+  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">在 SANtricity System Manager 中使用本地用户角色配置访问管理</block>
+  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">在 SANtricity System Manager 中使用 SAML 配置访问管理</block>
+  <block id="f385220cdc8e60569df92b9d7eabb4c8" category="doc">在 SANtricity System Manager 中添加警报的电子邮件地址</block>
+  <block id="9f2b00c7fbe58a2fc27cd5892bd6e8e1" category="doc">在 SANtricity System Manager 中为 SNMPv2c 陷阱添加社区</block>
+  <block id="2996b5d1f418841877ba521f22a1ac71" category="doc">在 SANtricity System Manager 中添加 LDAP 目录服务器</block>
+  <block id="1add2c602a73f70727dcc02ebc0183e3" category="doc">了解 SANtricity 软件中的附加功能术语</block>
+  <block id="5ed0f81554ae0eabdac354f2903435d3" category="doc">在 SANtricity System Manager 中添加用于警报的系统日志服务器</block>
+  <block id="b852b03f5700ffec0f5633999d44ad03" category="doc">在 SANtricity System Manager 中为 SNMP 警报添加陷阱目标</block>
+  <block id="a624afafd42ea61e954286a8478cdcb4" category="doc">在 SANtricity System Manager 中为 SNMPv3 陷阱添加用户</block>
+  <block id="1384d2ebe5e4c835b00521b4dd55cb63" category="doc">了解 SANtricity 软件中的警报术语</block>
+  <block id="cde20b00c713a71024aaf6b91fb3a41f" category="doc">了解 SANtricity 软件中的自动负载平衡</block>
+  <block id="de4e7575d8ffa712788e75757d5fa706" category="doc">在 SANtricity System Manager 中备份安全密钥</block>
+  <block id="27960f0a7db696fb979bb30c1917b6b0" category="doc">了解 SANtricity 软件中的证书术语</block>
+  <block id="9133825713be9d2a3ddcdaa373e14c01" category="doc">在 SANtricity System Manager 中更改存储阵列缓存设置</block>
+  <block id="bbecc1006f2bb4546d102f8a67203b01" category="doc">在 SANtricity System Manager 中更改默认主机类型</block>
+  <block id="88eb4f592a68d5776107d8c99a7066ce" category="doc">在 SANtricity System Manager 中更改本地用户密码设置</block>
+  <block id="51cbce9ae4c6738cdb655b2add2d3463" category="doc">在 SANtricity System Manager 中更改密码</block>
+  <block id="5dc76fd987aab3a3fbf897b0ec2a80aa" category="doc">在 SANtricity System Manager 中更改 SAML 角色映射</block>
+  <block id="f974f2a8ea64ba654368b13b359c8e80" category="doc">在 SANtricity System Manager 中更改安全密钥</block>
+  <block id="c3b02d54822be7ed1b1a37dca62e2a89" category="doc">在 SANtricity System Manager 中清除存储阵列配置</block>
+  <block id="d311e680ec4a09af5d99abdf07494585" category="admonition">存储阵列将进入恢复模式。您必须先清除恢复模式，然后才能使用存储阵列。有关详细信息、请参见<block ref="2001d2a7db4dcda6fdf0cd414d6f8462" category="inline-link-rx"></block> 。</block>
+  <block id="f907479db49f2301fb89eb887513c6c4" category="doc">在 SANtricity System Manager 中配置 iSCSI 身份验证</block>
+  <block id="9129e2c71e39b1808fe77d677121f39d" category="doc">在 SANtricity System Manager 中配置登录横幅</block>
+  <block id="c819a7dac222c0c592d7eeaffa79fd13" category="doc">在 SANtricity System Manager 中配置邮件服务器和警报收件人</block>
+  <block id="75f3ae3f8c17bc63af094f2dbf71af02" category="doc">在 SANtricity System Manager 中配置 SAML</block>
+  <block id="440dec11d54b9a34e0e895e508ec1828" category="doc">在 SANtricity System Manager 中配置 SNMP 警报</block>
+  <block id="91edc2da7832cd81e8040e979a904659" category="doc">在 SANtricity System Manager 中配置 SNMP MIB 变量</block>
+  <block id="078ea06e0d382d047e720a212443d871" category="doc">在 SANtricity System Manager 中配置 syslog 服务器以接收警报</block>
+  <block id="304d676949c7e0155bcb685b1c2fb796" category="doc">在 SANtricity System Manager 中为审计日志配置 syslog 服务器</block>
+  <block id="c0183ac54c5bccbeed16642ac6b34e07" category="doc">在 SANtricity System Manager 中创建外部安全密钥</block>
+  <block id="6b6193161b48b7cde8c03b98217111a7" category="doc">在 SANtricity System Manager 中创建内部安全密钥</block>
+  <block id="8161c0ee73ae73fc37314c652c79df73" category="doc">了解 SANtricity 软件中的默认主机操作系统类型</block>
+  <block id="3613e7f17ca120b9580d1049fd30f81f" category="doc">在 SANtricity System Manager 中定义审计日志策略</block>
+  <block id="79a30833cf9264cdbc802ba226109b82" category="doc">在 SANtricity System Manager 中删除警报的邮件服务器或电子邮件地址</block>
+  <block id="cdc405abaf604313bed59282a1203e8c" category="doc">从 SANtricity System Manager 中的审核日志中删除事件</block>
+  <block id="45537ac2660f470d89198d9cced18fe9" category="doc">删除 SANtricity System Manager 中警报的系统日志服务器</block>
+  <block id="4e6256ca8c4fa71022d3eaeee97b3b8c" category="doc">在 SANtricity System Manager 中删除陷阱目标</block>
+  <block id="f619b095ff69ee2e39492981fab79a75" category="doc">在 SANtricity System Manager 中删除受信任的证书</block>
+  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">下载 SANtricity 命令行界面 (CLI)</block>
+  <block id="2f525b8539b39a67b470766447ab5bca" category="doc">了解 SANtricity 软件中的驱动器安全术语</block>
+  <block id="ccef233b8aa60591e10f80e9a07fa49b" category="doc">在 SANtricity System Manager 中编辑警报的电子邮件地址</block>
+  <block id="1f3d1096e329e5b75789b8b8e9ea9a0d" category="doc">在 SANtricity System Manager 中编辑 SNMPv2c 陷阱的社区</block>
+  <block id="e4fb8c940c30270291074c679a4c023e" category="doc">在 SANtricity System Manager 中编辑目录服务器设置和角色映射</block>
+  <block id="578a2b0614cfa178dd5cbacd04b5fb2d" category="doc">在 SANtricity System Manager 中编辑密钥管理服务器设置</block>
+  <block id="3823a38109a4335d2c849eec94137fb7" category="doc">在 SANtricity System Manager 中编辑警报邮件服务器</block>
+  <block id="d9542b18a89159e096db1016f8d829c3" category="doc">在 SANtricity System Manager 中编辑存储阵列名称</block>
+  <block id="c9ba2e77e2a82fcac91ea09c7c958050" category="doc">在 SANtricity System Manager 中编辑审计日志记录的 syslog 服务器设置</block>
+  <block id="a8119e85bf377d3c639c56a0a32f52ba" category="doc">在 SANtricity System Manager 中编辑警报的系统日志服务器</block>
+  <block id="fd73f1b2be5817f542818738ca756ac3" category="doc">在 SANtricity System Manager 中编辑 SNMPv3 陷阱的用户设置</block>
+  <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">在 SANtricity System Manager 中启用证书吊销检查</block>
+  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">在 SANtricity System Manager 中启用功能包</block>
+  <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">在 SANtricity System Manager 中启用 iSCSI 发现设置</block>
+  <block id="95d8541a159451a64c0bdb938e4bcf77" category="doc">在 SANtricity System Manager 中启用或禁用旧式管理界面</block>
+  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">在 SANtricity System Manager 中启用或禁用新卷组或池的资源配置</block>
+  <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">在 SANtricity System Manager 中启用高级功能</block>
+  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">在 SANtricity System Manager 中结束 iSCSI 会话</block>
+  <block id="6f498623a1b6cc1d1ed3a98feb04e6c4" category="doc">在 SANtricity System Manager 中导出密钥管理服务器证书</block>
+  <block id="94637ab9cad9908845d1b9eb4a7a3f5b" category="doc">在 SANtricity System Manager 中导出 SAML 服务提供商文件</block>
+  <block id="ee5e02e3e6430426582311b05aa6660c" category="doc">SANtricity System Manager 中的访问管理工作原理</block>
+  <block id="328c77bafebc1309c9997752d43bbd57" category="doc">SANtricity System Manager 中的附加功能如何工作</block>
+  <block id="1d3bc635d79ab3544cca66f6b35fc8a7" category="doc">SANtricity System Manager 中的警报工作原理</block>
+  <block id="2d08c425e5df039556cb7f8b1cf9b3ff" category="doc">证书在 SANtricity System Manager 中的工作方式</block>
+  <block id="27bdf3ead650486aebb952ecf83b0f4a" category="doc">SANtricity System Manager 中的安全密钥管理工作原理</block>
+  <block id="0127eb4ceb8184bc8788f2f8e705e869" category="doc">SANtricity System Manager 中的驱动器安全功能如何工作</block>
+  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">在 SANtricity System Manager 中充当客户端时导入控制器的证书</block>
+  <block id="acb821d135d279a55a79fc28435f0e27" category="doc">在 SANtricity System Manager 中管理会话超时</block>
+  <block id="5f822c60893c9bb2c258abe33195c314" category="doc">了解 NVMe 和 SANtricity 软件</block>
+  <block id="90e38527b9b59d98d9e61a2e9b208145" category="doc">在 SANtricity System Manager 中获取功能密钥文件</block>
+  <block id="394c8ed9f3c223f9bcf489a180184e41" category="doc">了解 SANtricity System Manager 中的访问管理</block>
+  <block id="e7d845895b4a8391f704543dddac2b30" category="doc">了解 SANtricity System Manager 中的警报</block>
+  <block id="4e0705446c75aaa8c722d01477add263" category="doc">了解 SANtricity System Manager 中的证书</block>
+  <block id="2cacee96f6e579cecc30bd9716d2b304" category="doc">了解 SANtricity System Manager 中的驱动器安全性</block>
+  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">了解 SANtricity System Manager 中的设置概述</block>
+  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">了解 SANtricity System Manager 中映射角色的权限</block>
+  <block id="fbf1a8e12861c428c9880acfae54cb14" category="doc">在 SANtricity System Manager 中删除 SNMPv2c 陷阱的社区</block>
+  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">在 SANtricity System Manager 中删除目录服务器</block>
+  <block id="0e0b711e14d848611081dd0c7c5bfd84" category="doc">在 SANtricity System Manager 中删除 SNMPv3 陷阱的用户</block>
+  <block id="c93553d53b7594a2f55ac551dee2a7cd" category="doc">在 SANtricity System Manager 中重置管理证书</block>
+  <block id="22df0766fabfc3aa8c477941ae92c9d1" category="doc">在 SANtricity System Manager 中保存存储阵列配置</block>
+  <block id="9250977b6fc74e450587fba1db99f008" category="doc">在 SANtricity System Manager 中设置自动负载平衡</block>
+  <block id="4e70ce522d6b7b255672b9f2b7f05e54" category="doc">在 SANtricity System Manager 中设置主机连接报告</block>
+  <block id="00777c3320e115287926e31250ef4795" category="doc">在 SANtricity System Manager 中从外部密钥管理切换到内部密钥管理</block>
+  <block id="6920c227f5515cf38df838a7fe711fbb" category="doc">在 SANtricity System Manager 中同步存储阵列时钟</block>
+  <block id="d39867f534eecef2c702a868fff1675b" category="doc">在 SANtricity System Manager 中打开存储阵列定位器灯</block>
+  <block id="64b2495c2fe314d34754523613020356" category="doc">在 SANtricity System Manager 中使用外部密钥管理时解锁驱动器</block>
+  <block id="390e79029af21ff41137881f05857435" category="doc">在 SANtricity System Manager 中使用内部密钥管理时解锁驱动器</block>
+  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">使用 CA 签名证书通过 SANtricity System Manager 中的密钥管理服务器进行身份验证</block>
+  <block id="bdae02098d2024cc99f583c8528a34e0" category="doc">在 SANtricity System Manager 中为控制器使用 CA 签名的证书</block>
+  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">在 SANtricity System Manager 中验证安全密钥</block>
+  <block id="838be43bb8157a4382de7c0df9a5848e" category="doc">在 SANtricity System Manager 中查看审计日志活动</block>
+  <block id="39362ae8f84d6584f46edbb1ea9c559a" category="doc">在 SANtricity System Manager 中查看导入的证书信息</block>
+  <block id="aff17649c80932061abc5a42b1abbe5f" category="doc">在 SANtricity System Manager 中查看 iSCSI 会话</block>
+  <block id="847baa2f24dccef8116075c271dc72e7" category="doc">在 SANtricity System Manager 中查看 iSCSI 统计信息包</block>
+  <block id="6358465b52f1825fa1da1a26df55562a" category="doc">在 SANtricity System Manager 中查看 InfiniBand 上的 iSER 统计数据</block>
+  <block id="d38bece8b648942330106166d2cdf120" category="doc">在 SANtricity System Manager 中查看本地用户角色</block>
+  <block id="d5e080d237b212ab36f7152eaca280fe" category="doc">在 SANtricity System Manager 中查看 NVMe over Fabrics 统计信息</block>
+  <block id="3d537bd80e746a786e54f263aba798db" category="doc">访问 SANtricity System Manager 中的卷</block>
+  <block id="7ae0437fb66cb1d11d9ba880d1855d4c" category="doc">您可以在 SANtricity System Manager 中对卷执行的操作</block>
+  <block id="ba8875d55ed38186f452f0779c05022c" category="doc">在 SANtricity System Manager 中激活和暂停快照计划</block>
+  <block id="12646556c051d8afb3253ce36273ad1c" category="doc">在 SANtricity System Manager 中向池或卷组添加容量</block>
+  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">在 SANtricity System Manager 中将成员卷添加到快照一致性组</block>
+  <block id="c82d281f4a42668c59b407c5439f7041" category="doc">在 SANtricity System Manager 中将卷添加到工作负载</block>
+  <block id="346683dc1d86ee2232d45a02874e70f6" category="doc">在 SANtricity System Manager 中将卷分配给主机</block>
+  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">了解 SANtricity System Manager 中的自动池创建与手动池创建</block>
+  <block id="80764ae4bac51ce96a179980b0272cd5" category="doc">取消 SANtricity System Manager 中的待处理快照映像</block>
+  <block id="a5f504929c631626bde694e07e40402f" category="doc">在 SANtricity System Manager 中取消快照映像回滚</block>
+  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">如何在 SANtricity System Manager 中分配卷容量</block>
+  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">了解 SANtricity 软件中的容量术语</block>
+  <block id="9e7606366310838bc01463b6e40b71cf" category="doc">在 SANtricity System Manager 中更改精简卷的分配容量限制</block>
+  <block id="ba7d755ec0c4f655c206cd6915083206" category="doc">在 SANtricity System Manager 中更改卷的缓存设置</block>
+  <block id="876346aa2afb1152de2f75b929ce9a97" category="doc">在 SANtricity System Manager 中更改池的配置设置</block>
+  <block id="8771cd1871dc7f6b5ea1555fac615482" category="doc">在 SANtricity System Manager 中更改卷组的配置设置</block>
+  <block id="5d7ac761a2adcb6471bc2396180e6cd7" category="doc">在 SANtricity System Manager 中更改卷的控制器所有权</block>
+  <block id="9d0eef6ca8a369214dae3893a569a26d" category="doc">在 SANtricity System Manager 中更改主机的主机端口标识符</block>
+  <block id="976d5b100c8bb46a978d025d54df9db7" category="doc">在 SANtricity System Manager 中更改卷的介质扫描设置</block>
+  <block id="32106203ac6ae6e19b181aff1dbd5ed2" category="doc">更改 SANtricity System Manager 中的卷设置</block>
+  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">在 SANtricity System Manager 中更改 SSD 缓存设置</block>
+  <block id="322aaec0ca97fbcb9472361aaa86b9bb" category="doc">在 SANtricity System Manager 中更改一致性组成员卷的预留容量设置</block>
+  <block id="2129449eac2f1abcf7571dadc500ed44" category="doc">在 SANtricity System Manager 中更改快照组的预留容量设置</block>
+  <block id="1a58763a2cba36bf2c96c197a7468796" category="doc">在 SANtricity System Manager 中更改快照卷的预留容量设置</block>
+  <block id="ae19203212746b298487caffc894114f" category="doc">在 SANtricity System Manager 中更改主机群集的设置</block>
+  <block id="8a7e1ef4bbc2211e7f5a82552f991017" category="doc">在 SANtricity System Manager 中更改主机的设置</block>
+  <block id="027bd5c8f9103029b8be80e9fbb4c8f8" category="doc">在 SANtricity System Manager 中更改快照一致性组的设置</block>
+  <block id="02c61f2208b07fccaf99cf3021683fca" category="doc">更改 SANtricity System Manager 中的快照计划设置</block>
+  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">在 SANtricity System Manager 中更改快照卷的卷设置</block>
+  <block id="2bbf6db559a55a9597ef3a1331156b4b" category="doc">在 SANtricity System Manager 中更改工作负载设置</block>
+  <block id="7b593eeadba9048e035e5e95858a4f3f" category="doc">在 SANtricity System Manager 中检查卷冗余</block>
+  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">了解 SANtricity 软件中的厚卷和薄卷</block>
+  <block id="9483c72f80e16ad2a8994ff6242b6fbf" category="doc">在 SANtricity System Manager 中整合卷组的可用容量</block>
+  <block id="cebf235e245ac1727a4fb08543606201" category="doc">在 SANtricity System Manager 中将快照卷转换为读写模式</block>
+  <block id="94e367453c588ed2953d8cdaf12bd179" category="doc">在 SANtricity System Manager 中复制快照卷</block>
+  <block id="e28693570486edcbf19eae6d1bf4e000" category="doc">了解 SANtricity System Manager 中的复制卷</block>
+  <block id="cb4d76dfabd71388f81783d1f6683914" category="doc">在 SANtricity System Manager 中复制卷</block>
+  <block id="45ee11bb89ac8fecb5fedf3c63bca9ae" category="doc">在 SANtricity System Manager 中创建主机集群</block>
+  <block id="d5a35385e3c41cf9fd9e2f0a4a94c813" category="doc">在 SANtricity System Manager 中手动创建主机</block>
+  <block id="9469b5d2a997e9b9a4959b3cd44efbda" category="doc">在 SANtricity System Manager 中自动创建池</block>
+  <block id="f6d986e7a4c8c449c4df2c55a996b739" category="doc">在 SANtricity System Manager 中手动创建池</block>
+  <block id="385f418e214bdb6723032ee80bc9d225" category="doc">在 SANtricity System Manager 中创建快照一致性组</block>
+  <block id="96f6bbb92838490ba4cfd5e4fdb34676" category="doc">在 SANtricity System Manager 中创建快照映像</block>
+  <block id="092ce361ed9559ba823bac0c5c8c97be" category="doc">在 SANtricity System Manager 中创建快照卷</block>
+  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">在 SANtricity System Manager 中创建 SSD 缓存</block>
+  <block id="241d4844735147be96e18c62745d0aba" category="doc">在 SANtricity System Manager 中创建卷组</block>
+  <block id="d70d3c3654f0dc1516e419e794c4e634" category="doc">在 SANtricity System Manager 中创建卷</block>
+  <block id="ee8139e7a79d1303ae381079df78417a" category="doc">在 SANtricity System Manager 中创建工作负载</block>
+  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">了解 SANtricity 软件中卷的数据完整性和数据安全性</block>
+  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">了解 SANtricity 软件中的池和卷组</block>
+  <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">减少 SANtricity System Manager 中的预留容量</block>
+  <block id="0f065244a3565fda62f0c2976c388d92" category="doc">在 SANtricity System Manager 中删除主机或主机集群</block>
+  <block id="c5c9cf2ee2dcd4d87d04772b62b322f4" category="doc">在 SANtricity System Manager 中删除池或卷组</block>
+  <block id="09ddd2005bda93faab1279791c1ad740" category="doc">在 SANtricity System Manager 中删除快照一致性组</block>
+  <block id="35a797765daa950b34d70d1b300689a5" category="doc">在 SANtricity System Manager 中删除快照组</block>
+  <block id="9e77eb00cb754a6a026e090b87e2b312" category="doc">在 SANtricity System Manager 中删除快照映像</block>
+  <block id="bed6e6ab9580560abff8902133b2d790" category="doc">在 SANtricity System Manager 中删除快照计划</block>
+  <block id="bb911c27080e432d25f5cd8fb82c2f19" category="doc">在 SANtricity System Manager 中删除快照卷</block>
+  <block id="699d3c8de2c6b58221acff3442153e07" category="doc">在 SANtricity System Manager 中删除卷</block>
+  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">在 SANtricity System Manager 中启用或禁用现有卷组和池的资源配置</block>
+  <block id="1c92a73211bcb188f3b5f2030d1a25ec" category="doc">在 SANtricity System Manager 中禁用快照卷</block>
+  <block id="acca3d436b0bbe84c91c35c048a92083" category="doc">在 SANtricity System Manager 中为池或卷组启用安全性</block>
+  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">在 SANtricity CLI 中导出/导入卷组</block>
+  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">了解 SANtricity 软件中的主机术语</block>
+  <block id="72a46a8edc58469b2f88fda748ddd4bb" category="doc">SANtricity 软件中的池和卷组工作原理</block>
+  <block id="e262c7061ccf9614b315a45f2b000f9e" category="doc">SANtricity 软件中的预留容量工作原理</block>
+  <block id="9266af538e0dac8d3b6cac89f8d44f98" category="doc">快照存储在 SANtricity 软件中的工作原理</block>
+  <block id="3238be27f78645ac1292e42c24181394" category="doc">SSD 缓存在 SANtricity 软件中的工作原理</block>
+  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">如何在 SANtricity 软件中将卷分配给主机和主机集群</block>
+  <block id="2cf3377f31335a0a3de5985e36ada500" category="doc">SANtricity 软件中的卷工作原理</block>
+  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">SANtricity 软件中的工作负载工作原理</block>
+  <block id="f9ab1379c579b2393b9bf8aba288559d" category="doc">增加 SANtricity System Manager 中卷的容量</block>
+  <block id="fe02b7fc1c3f72ac227996fa4fd0227a" category="doc">在 SANtricity System Manager 中初始化卷</block>
+  <block id="9d4b81d6353945511bba44b53f060178" category="doc">解读 SANtricity System Manager 中的性能数据</block>
+  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">在 SANtricity System Manager 中管理应用程序和工作负载</block>
+  <block id="ad45b02bb613f89a36807319b8b1c991" category="doc">了解 SANtricity System Manager 中的手动主机创建</block>
+  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">了解 SANtricity 软件中的最大 LUN 数量</block>
+  <block id="5910120f88b026d84ccb959f3e061afb" category="doc">在 SANtricity System Manager 中监控精简卷</block>
+  <block id="dd0d36753dad2d9b708f3e0143f81e15" category="doc">了解 SANtricity 软件中的主机和主机集群</block>
+  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">了解 SANtricity System Manager 中的性能概述</block>
+  <block id="6153428cf786fb4d7b2d14144b207d2d" category="doc">了解 SANtricity System Manager 中的池和卷组</block>
+  <block id="31599231d5b8254d0d62975d0cdbf117" category="doc">了解 SANtricity System Manager 中的远程存储功能</block>
+  <block id="c208bf91e8a0df25bb7b48152e8204a5" category="doc">了解 SANtricity System Manager 中的快照</block>
+  <block id="b5a3371dc2d8a29f4873f495b92d247a" category="doc">了解 SANtricity System Manager 中的卷和工作负载</block>
+  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">了解 SANtricity System Manager 中的性能图表和指南</block>
+  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">了解 SANtricity 软件中的性能术语</block>
+  <block id="e47dd25f85e15805b5f310c947b42bca" category="doc">在 SANtricity System Manager 中重新创建快照卷</block>
+  <block id="70474cf06dc73d58a01a97006cd687ed" category="doc">在 SANtricity System Manager 中重新分配卷</block>
+  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">从 SANtricity System Manager 中的池或 SSD 缓存中删除容量</block>
+  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">从 SANtricity System Manager 中的快照一致性组中删除成员卷</block>
+  <block id="f2db3cbe9a176b268ceff67072def08d" category="doc">SANtricity System Manager 中的快照要求和指南</block>
+  <block id="532efc960c239d58c30eb4d8254f3ac4" category="doc">在 SANtricity System Manager 中恢复快照映像回滚</block>
+  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">远程存储在 SANtricity 软件中的工作原理</block>
+  <block id="e6ac89d8f6549854ff238879c90d974e" category="doc">在 SANtricity System Manager 中导入远程存储</block>
+  <block id="a5a3cec422c98a6055cafd0fbb1884d1" category="doc">在 SANtricity System Manager 中管理远程存储导入的进度</block>
+  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">在 SANtricity System Manager 中修改远程存储的连接设置</block>
+  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">了解 SANtricity 软件中的远程存储功能要求</block>
+  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">了解 SANtricity 软件中的远程存储卷要求</block>
+  <block id="fccbb682788c68809a3443edfb4277e8" category="doc">在 SANtricity System Manager 中删除远程存储对象</block>
+  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">了解 SANtricity 软件中的远程存储术语</block>
+  <block id="9995bb9afc99d41ab721f7f8cd86534a" category="doc">在 SANtricity System Manager 中安排快照映像</block>
+  <block id="c0b569d8ce87ac810947f22fb4605077" category="doc">了解 SANtricity 软件中的快照回滚</block>
+  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">了解 SANtricity System Manager 中的快照计划和快照一致性组</block>
+  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">了解 SANtricity 软件中的快照术语</block>
+  <block id="d1ed0fc7b9cdd69553d3bb787eec62b7" category="doc">了解 SANtricity 软件中的快照卷</block>
+  <block id="6e9294ea12dc5399b02d69ef241e9fa9" category="doc">了解 SANtricity 软件中的 SSD 缓存和卷</block>
+  <block id="5d33e25c1d367155f7d3cae11424abaa" category="doc">了解 SANtricity 软件中的 SSD 缓存限制</block>
+  <block id="77f06e6fcf7554f7eea00f34f27b1301" category="doc">在 SANtricity System Manager 中启动基本卷的快照映像回滚</block>
+  <block id="d598aebdbf681a329fb0199bc184638c" category="doc">在 SANtricity System Manager 中启动快照一致性组成员卷的快照映像回滚</block>
+  <block id="f148978799622908e86625a1be990510" category="doc">在 SANtricity System Manager 中对复制卷操作采取行动</block>
+  <block id="21a1be4e8d1df5431436d38683ed51b8" category="doc">了解 SANtricity 软件中的精简卷监控</block>
+  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">在 SANtricity System Manager 中打开池、卷组或 SSD 缓存中的定位器灯</block>
+  <block id="fa7759509da8c7c79ae9fb63775d856a" category="doc">了解 SANtricity 软件中的复制卷操作类型</block>
+  <block id="d6e8360b2cb0d8e3e14484b82709a35a" category="doc">在 SANtricity System Manager 中取消分配卷</block>
+  <block id="83fc0ebc2ad61a3e97ce59f4fb9047f9" category="doc">在 SANtricity System Manager 中查看和保存表格性能数据</block>
+  <block id="797fb1139409c1127dd559f83c0bbe6b" category="doc">在 SANtricity System Manager 中查看图形性能数据</block>
+  <block id="84d5b685a37be079a60f4b95f43b316a" category="doc">在 SANtricity System Manager 中查看快照映像设置</block>
+  <block id="9b6b546777e9f0c4bf77147600a53b2b" category="doc">在 SANtricity System Manager 中查看 SSD 缓存统计信息</block>
+  <block id="150d59a7387353231504faf7bf859a37" category="doc">了解 SANtricity 软件中的卷术语</block>
+  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">使用 SANtricity System Manager 中的复制服务</block>
+  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager 中的主机创建和卷分配的工作原理</block>
+  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">如何在 SANtricity System Manager 中创建快照映像和快照卷</block>
+  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">如何在 SANtricity System Manager 中创建卷</block>
+  <block id="2a6f1c9883df4f32f0e0cce228054d30" category="doc">在 SANtricity System Manager 中激活控制器软件和固件</block>
+  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">了解 E 系列的 AutoSupport</block>
+  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">SANtricity 软件中的清除恢复模式</block>
+  <block id="cad307494928a47597a4d3f3f22e0549" category="doc">在 SANtricity System Manager 中收集配置数据</block>
+  <block id="4d610ec1d8da57ef3d3cb976ca9964e6" category="doc">在 SANtricity System Manager 中收集 I/O 路径统计信息</block>
+  <block id="3031fc1b7e95f47d5b6e408a1fe1da82" category="doc">在 SANtricity System Manager 中手动收集支持数据</block>
+  <block id="204c361119e43c0e1f9b8100678a1eb8" category="doc">在 SANtricity System Manager 中配置 AutoSupport 交付方法</block>
+  <block id="c533a68f4d1b6bd3604cb9c9d7f3efe6" category="doc">在 SANtricity System Manager 中禁用 AutoSupport 维护窗口</block>
+  <block id="ceb37a3d20b732f1e9e18a021af8b44d" category="doc">在 SANtricity System Manager 中启用 AutoSupport 维护窗口</block>
+  <block id="e6293a2da1040683d4c217a73bcaded8" category="doc">在 SANtricity System Manager 中启用或禁用 AutoSupport 功能</block>
+  <block id="03445e0c39174a97cf2215c8d7b43557" category="doc">在 SANtricity System Manager 中结束 iSCSI 会话</block>
+  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">了解 SANtricity 软件中的事件日志</block>
+  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">获取 SANtricity System Manager 支持</block>
+  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">了解如何升级SANtricity软件</block>
+  <block id="1df40413268ea802e8842361f2930e29" category="doc">在 SANtricity System Manager 中重新启用驱动器端口</block>
+  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">在 SANtricity System Manager 中检索健康图像</block>
+  <block id="f030d9e0f32f240f816b1c3efb5a9eb0" category="doc">在 SANtricity System Manager 中检索恢复支持文件</block>
+  <block id="a4004de8d3a6553f6f7b5a30da919b92" category="doc">在 SANtricity System Manager 中检索跟踪缓冲区</block>
+  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">了解 SANtricity 软件和固件升级错误</block>
+  <block id="0da414b6db8ea25737e4addb928b7678" category="doc">在 SANtricity System Manager 中安排 AutoSupport 调度</block>
+  <block id="f11e0d8e9c3ee108d5252105d6b3d146" category="doc">在 SANtricity System Manager 中发送 AutoSupport 调度</block>
+  <block id="34b42367166dc58389323853b131ce17" category="doc">在 SANtricity System Manager 中对存储阵列状态采取恢复操作</block>
+  <block id="9a7c99285024fd1a971ebff677e7e761" category="doc">在 SANtricity System Manager 中升级控制器软件和固件</block>
+  <block id="e732b095ef437b5257ca69ef28418fcd" category="doc">在 SANtricity System Manager 中升级驱动器固件</block>
+  <block id="22874b3b9dac20031165078a5de90f4d" category="doc">在 SANtricity System Manager 中查看 AutoSupport 日志</block>
+  <block id="22fa42db986406a5c66610591a3e22dd" category="doc">在 SANtricity System Manager 中查看 AutoSupport 状态</block>
+  <block id="8b33eabd8c76e2ac31fa5f17bd0e4fff" category="doc">使用 SANtricity System Manager 中的事件日志查看事件</block>
+  <block id="aa3d88e1e49082ff6c7c1cca8a8eac5d" category="doc">在 SANtricity System Manager 中查看软件和固件清单</block>
+  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">在 SANtricity System Manager 中查看存储阵列的信息</block>
+  <block id="526671aab5a269160910a134da3e3986" category="doc">在 SANtricity System Manager 中查看存储阵列的配置文件</block>
+  <block id="f1ff77b3a9e0132d7bc42edd71e852cd" category="doc">查看 SANtricity System Manager 中不可读扇区日志</block>
+  <block id="599923004690b0c1117d7b708d7321cb" category="doc">在 SANtricity System Manager 中配置 AutoSupport</block>
+  <block id="3cd4b94b1c1fffe404c8c018c1791943" category="doc">了解 SANtricity Unified Manager 中的管理员密码保护</block>
+  <block id="464b12e0772bcfed1c42bfa46f879dca" category="doc">在 SANtricity Unified Manager 中更改管理员密码</block>
+  <block id="3438015d59c89bd0f7e2cad7ee17b809" category="doc">在 SANtricity Unified Manager 中更改存储阵列密码</block>
+  <block id="1204125f1034038b68d1105bbee4cd9a" category="doc">在 SANtricity Unified Manager 中管理会话超时</block>
+  <block id="a54710832ee5a423064fca5395cf9042" category="doc">了解 SANtricity Unified Manager</block>
+  <block id="d8dd5de41b5b3a9fcb4c3b7a0881087b" category="doc">SANtricity Unified Manager 支持的浏览器</block>
+  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">了解 SANtricity Unified Manager 访问管理术语</block>
+  <block id="c130faf5f75c80684c1dcc31ac0d6406" category="doc">使用 SANtricity Unified Manager 中的目录服务进行访问管理</block>
+  <block id="82a7b453e318f7a3bdf4692ba422e535" category="doc">SANtricity Unified Manager 中的本地用户角色访问管理</block>
+  <block id="24656b3bd6cf5e93077f7198a4d813e8" category="doc">使用 SANtricity Unified Manager 中的 SAML 进行访问管理</block>
+  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">在 SANtricity Unified Manager 中添加目录服务器</block>
+  <block id="678fed422fa391c5a10436bb093756a0" category="doc">了解 SANtricity Unified Manager 中的证书术语</block>
+  <block id="61127992be34b32f41d73f18997a8364" category="doc">在 SANtricity Unified Manager 中更改本地用户密码设置</block>
+  <block id="f7423e9d4df8d8e9084556e1c1ff38d9" category="doc">在 SANtricity Unified Manager 中更改本地用户配置文件的密码</block>
+  <block id="63476dfab5a207f15f6c7bc98ba041c7" category="doc">在 SANtricity Unified Manager 中更改 SAML 角色映射</block>
+  <block id="d0a4a6c7d15aa5527d6ff89876367125" category="doc">在 SANtricity Unified Manager 中配置 SAML</block>
+  <block id="3dcf9c1dd1b4202a536110fd5cce94a2" category="doc">在 SANtricity Unified Manager 中删除受信任的证书</block>
+  <block id="5a69d2b6ebb82e6f7ad7755f5d37f944" category="doc">在 SANtricity Unified Manager 中编辑目录服务器设置和角色映射</block>
+  <block id="c15e67f959fadc8aa0624cbde86d1a89" category="doc">在 SANtricity Unified Manager 中导出证书</block>
+  <block id="28af642d77e8f77cd9cbf0e0d8cfa319" category="doc">在 SANtricity Unified Manager 中导出 SAML 服务提供商文件</block>
+  <block id="20771dd38b257635ef7043fb622c67b8" category="doc">SANtricity Unified Manager 中的访问管理工作原理</block>
+  <block id="2614871f4374ac34f686ead68cda088f" category="doc">证书在 SANtricity Unified Manager 中的工作方式</block>
+  <block id="1c355b31500b8b7696a674f8e62e67fc" category="doc">在 SANtricity Unified Manager 中导入阵列证书</block>
+  <block id="921508962263d063ddb6cce204ce2579" category="doc">了解 SANtricity Unified Manager 访问管理</block>
+  <block id="91e41a40a4eb6b5380197bea8ac2abe6" category="doc">在 SANtricity Unified Manager 中激活暂存操作系统软件</block>
+  <block id="65c137fb34cd8343c6d0449542e02aa3" category="doc">清除 SANtricity Unified Manager 中的暂存操作系统软件</block>
+  <block id="77b366da5cb379384d566c9e6549b813" category="doc">了解如何在 SANtricity Unified Manager 中发现存储阵列</block>
+  <block id="44c75ca7aa3ade1a526c6fc1c7801b15" category="doc">在 SANtricity Unified Manager 中创建异步镜像对</block>
+  <block id="f704e986cac2a5d3d1355ea085884cae" category="doc">在 SANtricity Unified Manager 中配置存储阵列组</block>
+  <block id="c3d5dfbb534fb862e47732fe36583be8" category="doc">在 SANtricity Unified Manager 中创建同步镜像对</block>
+  <block id="b8721ad259aeca37ccbc3dc6adcbab4f" category="doc">在 SANtricity Unified Manager 中删除存储阵列组</block>
+  <block id="d64eea73e524455b96174c2f6402dc79" category="doc">在 SANtricity Unified Manager 中发现多个存储阵列</block>
+  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">在 SANtricity Unified Manager 中发现单个阵列</block>
+  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">了解如何在 SANtricity Unified Manager 中配置多个存储阵列</block>
+  <block id="af25a8f324b7dbf97f90f90c3c71a997" category="doc">在 SANtricity Unified Manager 中导入警报设置</block>
+  <block id="29d52818815ba6dd7c7a7c74d86c558a" category="doc">在 SANtricity Unified Manager 中导入 AutoSupport 设置</block>
+  <block id="eb3fd545a78e3ee552c4a85ea9ea5aa0" category="doc">在 SANtricity Unified Manager 中导入存储配置设置</block>
+  <block id="83ab137f66017a61135aa46894ec318d" category="doc">在 SANtricity Unified Manager 中导入系统设置</block>
+  <block id="0a853dc1023f2caadb8bfa27e8ad1273" category="doc">了解如何从 Unified Manager 访问 SANtricity System Manager</block>
+  <block id="88f73e2cd5f762edce7e3e3d70975b13" category="doc">在 SANtricity Unified Manager 中管理单个存储阵列</block>
+  <block id="0397a3a58d5821945f8530d856fc1c18" category="doc">在 Unified Manager 中管理 SANtricity 软件存储库</block>
+  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">镜像 SANtricity 配置工作流程</block>
+  <block id="3c093e9fa11cb83fdb4558d0ecf2443c" category="doc">了解 SANtricity 镜像</block>
+  <block id="3b359f38e087517c0d02b105333d690f" category="doc">了解 SANtricity Unified Manager 中的镜像术语</block>
+  <block id="273afb9794fcb75bd1b190680990764e" category="doc">了解如何在 SANtricity Unified Manager 中导入存储阵列设置</block>
+  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">了解 SANtricity Unified Manager 中的组概述</block>
+  <block id="746efcb7e933a3cf8db78361deec9a15" category="doc">了解 SANtricity Unified Manager 中的镜像</block>
+  <block id="97a8edd259940a20fd1ace7cf0af3dfc" category="doc">了解 SANtricity Unified Manager 中的发现</block>
+  <block id="3a486a444a7e994002a2a326de7c9715" category="doc">了解 SANtricity Unified Manager 中的升级中心</block>
+  <block id="5abc1d0156d65f17f8756eb333623b9a" category="doc">在 SANtricity Unified Manager 中执行升级前健康检查</block>
+  <block id="f79baa1058b14f4b32dc00bdc8d2ceda" category="doc">从 SANtricity Unified Manager 中的组中删除存储阵列</block>
+  <block id="d63d0c7dfdc8a7552901436cde5658ab" category="doc">在 SANtricity Unified Manager 中重命名存储阵列组</block>
+  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">在 SANtricity Unified Manager 中复制存储阵列配置的要求</block>
+  <block id="fe015c845a17ffd8b3ccded4f1c7ec14" category="doc">在 SANtricity Unified Manager 中使用镜像的要求</block>
+  <block id="ce0f43f0cff59f79cef9d24182d1c24b" category="doc">了解 SANtricity Unified Manager 中的存储阵列组</block>
+  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">在 SANtricity Unified Manager 中查看存储阵列状态</block>
+  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">了解如何使用 SANtricity Unified Manager 升级多个存储阵列</block>
+  <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">升级 SANtricity 操作系统</block>
+  <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">11.90R3中的新增功能</block>
+  <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">SANtricity 操作系统对 IOM12C 和 DCM3 的支持</block>
+  <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">控制器固件版本 11.90R3 或更高版本现已支持 IOM12C 和 DCM3 SAS-3 磁盘架。IOM12C和 DCM3 磁盘架将替代 IOM12B 和 DCM2 磁盘架。</block>
 </blocks>

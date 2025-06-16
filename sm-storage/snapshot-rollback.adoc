@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
 summary: 回滚操作会将基础卷返回到先前的状态、此状态由选定快照决定。 
 ---
-= Snapshot回滚
+= 了解 SANtricity 软件中的快照回滚
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

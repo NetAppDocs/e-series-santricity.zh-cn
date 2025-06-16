@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
 summary: 如果要永久删除快照组的数据并将其从系统中删除、则可以删除该快照组。删除快照组会回收预留容量、以便在池或卷组中重复使用。 
 ---
-= 删除快照组
+= 在 SANtricity System Manager 中删除快照组
 :allow-uri-read: 
 :experimental: 
 :icons: font

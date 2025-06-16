@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, permissions, mapped, roles, 
 summary: '在存储阵列上强制实施的RBAC (基于角色的访问控制)功能包括预定义的用户配置文件、其中一个或多个角色映射到这些配置文件。每个角色都具有访问SANtricity System Manager中任务的权限。' 
 ---
-= 映射角色的权限
+= 了解 SANtricity System Manager 中映射角色的权限
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, ownership, sync, change, preferred, controller, owner, mirrored, pair, 
 summary: 您可以更改镜像对中的首选控制器所有者。 
 ---
-= 卷所有权
+= 了解 SANtricity 软件中同步镜像的卷所有权
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

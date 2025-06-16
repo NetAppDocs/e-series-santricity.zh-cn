@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance, 
 summary: 性能页面提供了数据图形和表、可用于评估存储阵列在多个关键领域的性能。 
 ---
-= 性能图和准则
+= 了解 SANtricity System Manager 中的性能图表和指南
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, define, audit, log, policies, 
 summary: 您可以更改覆盖策略以及审核日志中记录的事件类型。 
 ---
-= 定义审核日志策略
+= 在 SANtricity System Manager 中定义审计日志策略
 :allow-uri-read: 
 :experimental: 
 :icons: font

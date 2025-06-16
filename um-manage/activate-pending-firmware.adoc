@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, activate, staged, os, software 
 summary: 您可以选择立即激活软件文件，也可以等到更方便的时间再激活。此操作步骤假定您稍后选择激活此软件文件。 
 ---
-= 激活暂存操作系统软件
+= 在 SANtricity Unified Manager 中激活暂存操作系统软件
 :allow-uri-read: 
 :experimental: 
 :icons: font

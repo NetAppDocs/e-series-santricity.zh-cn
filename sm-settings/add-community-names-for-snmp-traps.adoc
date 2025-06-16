@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps, 
 summary: 您最多可以为SNMPv2c陷阱添加256个社区名称。 
 ---
-= 为SNMPv2c陷阱添加社区
+= 在 SANtricity System Manager 中为 SNMPv2c 陷阱添加社区
 :allow-uri-read: 
 :experimental: 
 :icons: font

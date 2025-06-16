@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
 summary: 您可以将密钥管理服务器的证书保存到本地计算机。 
 ---
-= 导出密钥管理服务器证书
+= 在 SANtricity System Manager 中导出密钥管理服务器证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

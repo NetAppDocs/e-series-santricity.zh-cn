@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
 summary: 要在存储阵列上启用高级功能或功能包、必须先获取功能密钥文件。一个密钥仅与一个存储阵列相关联。 
 ---
-= 获取功能密钥文件
+= 在 SANtricity System Manager 中获取功能密钥文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

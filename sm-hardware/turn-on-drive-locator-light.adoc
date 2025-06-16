@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, turn, drive, locator, light, LEDs 
 summary: 在硬件页面中、您可以打开定位器指示灯以查找驱动器在存储阵列中的物理位置。 
 ---
-= 打开驱动器定位灯
+= 在 SANtricity System Manager 中打开驱动器定位器指示灯
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

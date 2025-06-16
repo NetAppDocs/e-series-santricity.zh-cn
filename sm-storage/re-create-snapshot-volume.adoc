@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume 
 summary: 您可以重新创建先前禁用的快照卷或快照一致性组快照卷。与创建新快照卷相比、重新创建快照卷所需时间更短。 
 ---
-= 重新创建Snapshot卷
+= 在 SANtricity System Manager 中重新创建快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

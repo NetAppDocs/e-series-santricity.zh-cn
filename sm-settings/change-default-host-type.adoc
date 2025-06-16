@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, default, host, type, 
 summary: 使用更改默认主机操作系统设置更改存储阵列级别的默认主机类型。通常、在将主机连接到存储阵列或连接其他主机之前、您会更改默认主机类型。 
 ---
-= 更改默认主机类型
+= 在 SANtricity System Manager 中更改默认主机类型
 :allow-uri-read: 
 :experimental: 
 :icons: font

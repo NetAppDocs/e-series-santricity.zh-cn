@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, sessions 
 summary: 您可以查看有关与存储阵列的iSCSI连接的详细信息。iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。 
 ---
-= 查看 iSCSI 会话
+= 在 SANtricity System Manager 中查看 iSCSI 会话
 :allow-uri-read: 
 :experimental: 
 :icons: font

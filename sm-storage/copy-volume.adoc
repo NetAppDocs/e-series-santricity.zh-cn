@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy volume 
 summary: '您可以将数据从一个卷复制到同一存储阵列中的另一个卷、并为源卷创建物理时间点副本(克隆)。' 
 ---
-= 复制卷
+= 在 SANtricity System Manager 中复制卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

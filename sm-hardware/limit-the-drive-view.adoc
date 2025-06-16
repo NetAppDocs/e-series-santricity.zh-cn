@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, limit, drive, view, 
 summary: 如果存储阵列包含具有不同类型的物理和逻辑属性的驱动器、则硬件页面将提供筛选字段、以帮助您限制驱动器视图并查找特定驱动器。 
 ---
-= 限制驱动器视图
+= 在 SANtricity System Manager 中筛选驱动器视图
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

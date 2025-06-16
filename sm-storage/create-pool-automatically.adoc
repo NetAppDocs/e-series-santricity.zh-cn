@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, automatically 
 summary: 当System Manager检测到存储阵列中未分配的驱动器时、将自动启动池创建。您可以使用自动创建池将存储阵列中所有未分配的驱动器轻松配置到一个池中、并将驱动器添加到现有池中。 
 ---
-= 自动创建池
+= 在 SANtricity System Manager 中自动创建池
 :allow-uri-read: 
 :experimental: 
 :icons: font

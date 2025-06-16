@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, local, user, roles, 
 summary: '对于访问管理、管理员可以使用在存储阵列中强制实施的RBAC (基于角色的访问控制)功能。这些功能称为本地用户角色。' 
 ---
-= 具有本地用户角色的访问管理
+= 在 SANtricity System Manager 中使用本地用户角色配置访问管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

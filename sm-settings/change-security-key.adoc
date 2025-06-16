@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, security, key, 
 summary: 您可以随时将安全密钥替换为新密钥。如果您的公司存在潜在的安全违规行为、并且希望确保未经授权的人员无法访问驱动器的数据、则可能需要更改安全密钥。 
 ---
-= 更改安全密钥
+= 在 SANtricity System Manager 中更改安全密钥
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, volume group 
 summary: 您可以编辑卷组的设置、包括其名称和RAID级别。 
 ---
-= 更改卷组的配置设置
+= 在 SANtricity System Manager 中更改卷组的配置设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

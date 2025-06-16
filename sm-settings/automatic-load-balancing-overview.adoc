@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, load, balancing, 
 summary: 自动负载平衡可随着时间的推移对负载变化做出动态响应、并自动调整卷控制器所有权、以便在工作负载在控制器之间移动时更正任何负载不平衡问题、从而改进I/O资源管理。 
 ---
-= 自动负载平衡概述
+= 了解 SANtricity 软件中的自动负载平衡
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

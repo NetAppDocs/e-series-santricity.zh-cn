@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, premium, feature, 
 summary: 高级功能是一个额外的选项、需要启用密钥。 
 ---
-= 启用高级功能
+= 在 SANtricity System Manager 中启用高级功能
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, format, drive, 
 summary: '如果将分配的驱动器从一个存储阵列移动到另一个存储阵列、则必须先初始化(格式化)驱动器、然后才能在新存储阵列中使用它们。' 
 ---
-= 初始化(格式化)驱动器
+= 在 SANtricity System Manager 中初始化（格式化）驱动器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

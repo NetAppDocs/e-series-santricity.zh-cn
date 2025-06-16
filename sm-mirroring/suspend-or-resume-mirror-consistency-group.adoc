@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirror, consistency, group, 
 summary: 您可以暂停或恢复镜像一致性组中所有镜像对上的数据同步、这比暂停或恢复单个镜像对上的同步效率更高。 
 ---
-= 暂停或恢复镜像一致性组的同步
+= 在 SANtricity System Manager 中暂停或恢复镜像一致性组的同步
 :allow-uri-read: 
 :experimental: 
 :icons: font

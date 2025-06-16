@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, settings 
 summary: 您可以编辑SSD缓存的名称并查看其状态、最大和当前容量、驱动器安全性和数据保证状态及其关联的卷和驱动器。 
 ---
-= 更改SSD缓存设置
+= 在 SANtricity System Manager 中更改 SSD 缓存设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

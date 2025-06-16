@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, time, graphs 
 summary: 您可以更改性能图显示的默认时间范围。 
 ---
-= 设置性能图形的默认时间范围
+= 在 SANtricity System Manager 中设置性能图的默认时间范围
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, alerts, 
 summary: '要配置简单网络管理协议(Simple Network Management Protocol、SNMP)警报、您必须至少确定一台存储阵列的事件监控器可以发送SNMP陷阱的服务器。此配置需要社区名称或用户名以及服务器的IP地址。' 
 ---
-= 配置SNMP警报
+= 在 SANtricity System Manager 中配置 SNMP 警报
 :allow-uri-read: 
 :experimental: 
 :icons: font

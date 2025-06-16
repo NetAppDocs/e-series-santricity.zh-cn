@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, software, firmware 
 summary: '您可以升级存储阵列的软件以及IOM固件和非易失性静态随机存取存储器(NVSRAM)(可选)、以确保您具有所有最新功能并修复了错误。' 
 ---
-= 升级控制器软件和固件
+= 在 SANtricity System Manager 中升级控制器软件和固件
 :allow-uri-read: 
 
 

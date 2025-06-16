@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, directory, server, 
 summary: 要为访问管理配置身份验证、您可以在存储阵列和LDAP服务器之间建立通信、然后将LDAP用户组映射到阵列的预定义角色。 
 ---
-= 添加LDAP目录服务器
+= 在 SANtricity System Manager 中添加 LDAP 目录服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font

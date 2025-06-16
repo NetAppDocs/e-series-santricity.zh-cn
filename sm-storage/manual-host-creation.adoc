@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, manual, host, 
 summary: 创建主机是向存储阵列告知连接了哪些主机并允许对卷进行I/O访问所需的步骤之一。您只能手动创建主机。 
 ---
-= 手动创建主机
+= 了解 SANtricity System Manager 中的手动主机创建
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

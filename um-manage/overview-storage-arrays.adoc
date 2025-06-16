@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
 summary: 要管理存储资源、您必须先发现网络中的存储阵列。 
 ---
-= 发现概述
+= 了解 SANtricity Unified Manager 中的发现
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

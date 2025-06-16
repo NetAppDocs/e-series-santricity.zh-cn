@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, reset, locked, fips, nvme, drives, 
 summary: '如果您将一个或多个锁定的NVMe或FIPS驱动器插入存储阵列、则可以通过添加与这些驱动器关联的安全密钥文件来解锁驱动器数据。如果您没有安全密钥、则可以通过输入每个锁定驱动器的物理安全ID (PSID)对其执行重置、以重置其安全属性并擦除驱动器数据。' 
 ---
-= 解锁或重置锁定的NVMe或FIPS驱动器
+= 在 SANtricity System Manager 中解锁或重置锁定的 NVMe 或 FIPS 驱动器
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -84,13 +84,6 @@ Windows (ATTO)
 
 
  a| 
-FlexArray (ALUA)
- a| 
-支持使用ALUA实现多路径的NetApp FlexArray 系统。
-
-
-
- a| 
 IBM服务
  a| 
 支持IBM SAN卷控制器配置。

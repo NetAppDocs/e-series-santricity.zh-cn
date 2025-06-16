@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, take, recovery, action, storage, array, status 
 summary: 您可以通过查看无法读取的扇区日志、重新启用驱动器端口并清除恢复模式来对当前存储阵列的状态采取操作。 
 ---
-= 对存储阵列状态执行恢复操作
+= 在 SANtricity System Manager 中对存储阵列状态采取恢复操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
 summary: 您可以创建存储组、然后将存储阵列添加到这些组中。存储组定义了哪些驱动器提供构成卷的存储。 
 ---
-= 配置存储阵列组
+= 在 SANtricity Unified Manager 中配置存储阵列组
 :allow-uri-read: 
 :experimental: 
 :icons: font

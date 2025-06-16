@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow 
 summary: 您可以在Unified Manager中配置异步或同步镜像、然后使用System Manager管理同步。 
 ---
-= 镜像配置工作流
+= 镜像 SANtricity 配置工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

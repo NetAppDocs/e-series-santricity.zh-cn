@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, mirror, consistency group, primary, secondary 
 summary: 您可以出于管理目的或在本地存储阵列发生灾难时更改镜像一致性组之间的角色。 
 ---
-= 将镜像一致性组角色更改为主卷或二级卷
+= 在 SANtricity System Manager 中将镜像一致性组角色更改为主或辅助
 :allow-uri-read: 
 :experimental: 
 :icons: font

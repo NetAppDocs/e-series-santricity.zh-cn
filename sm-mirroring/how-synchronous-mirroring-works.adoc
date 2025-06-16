@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, 
 summary: 同步镜像可实时复制数据卷、以确保持续可用性。 
 ---
-= 同步镜像的工作原理
+= SANtricity System Manager 中的同步镜像工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

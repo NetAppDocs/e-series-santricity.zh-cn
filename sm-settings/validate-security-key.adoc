@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity,System Manager, E-Series, validate, security, key, 
 summary: 您可以验证安全密钥、以确保其未损坏、并验证您是否具有正确的密码短语。 
 ---
-= 验证安全密钥
+= 在 SANtricity System Manager 中验证安全密钥
 :allow-uri-read: 
 :experimental: 
 :icons: font

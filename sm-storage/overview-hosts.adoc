@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hosts 
 summary: 您可以配置主机和主机集群、从而定义存储阵列与数据服务器之间的连接。 
 ---
-= 主机和主机集群概述
+= 了解 SANtricity 软件中的主机和主机集群
 :allow-uri-read: 
 :experimental: 
 :icons: font

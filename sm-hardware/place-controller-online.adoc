@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, online 
 summary: 如果控制器处于脱机状态或服务模式、您可以将其重新联机。 
 ---
-= 将控制器置于联机状态
+= 在 SANtricity System Manager 中将控制器置于联机状态
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host, cluster 
 summary: 您可以更改主机集群名称、或者在主机集群中添加或删除主机。 
 ---
-= 更改主机集群的设置
+= 在 SANtricity System Manager 中更改主机群集的设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

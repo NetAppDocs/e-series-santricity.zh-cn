@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, data, integrity, security, volumes 
 summary: '您可以使卷使用数据保证(Data Assurance、DA)功能和驱动器安全功能。这些功能在池和卷组级别提供。' 
 ---
-= 卷的数据完整性和数据安全性
+= 了解 SANtricity 软件中卷的数据完整性和数据安全性
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

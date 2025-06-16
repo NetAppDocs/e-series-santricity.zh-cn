@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics 
 summary: 您可以查看SSD缓存的统计信息、例如读取、写入、缓存命中率、缓存分配百分比、 和缓存利用率百分比。 
 ---
-= 查看SSD缓存统计信息
+= 在 SANtricity System Manager 中查看 SSD 缓存统计信息
 :allow-uri-read: 
 :experimental: 
 :icons: font

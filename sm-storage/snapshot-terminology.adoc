@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, terms 
 summary: 了解快照术语如何应用于存储阵列。 
 ---
-= Snapshot术语
+= 了解 SANtricity 软件中的快照术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

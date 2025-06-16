@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot schedule 
 summary: 如果需要节省存储空间、您可以暂时暂停按计划收集快照映像。此方法比删除快照计划并稍后重新创建快照计划的效率更高。 
 ---
-= 激活并暂停快照计划
+= 在 SANtricity System Manager 中激活和暂停快照计划
 :allow-uri-read: 
 :experimental: 
 :icons: font

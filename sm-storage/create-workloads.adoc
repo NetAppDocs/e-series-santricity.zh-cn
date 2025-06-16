@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, workloads 
 summary: 您可以为任何类型的应用程序创建工作负载。 
 ---
-= 创建工作负载
+= 在 SANtricity System Manager 中创建工作负载
 :allow-uri-read: 
 :experimental: 
 :icons: font

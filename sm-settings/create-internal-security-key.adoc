@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, internal, security, key, 
 summary: 要使用驱动器安全功能、您可以创建一个内部安全密钥、该密钥由存储阵列中的控制器和支持安全功能的驱动器共享。内部密钥会保留在控制器的永久性内存上。 
 ---
-= 创建内部安全密钥
+= 在 SANtricity System Manager 中创建内部安全密钥
 :allow-uri-read: 
 :experimental: 
 :icons: font

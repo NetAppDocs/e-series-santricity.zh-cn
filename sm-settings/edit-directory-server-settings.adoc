@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, directory, server, settings, role, mappings, 
 summary: 如果您之前在Access Management中配置了目录服务器、则可以随时更改其设置。设置包括服务器连接信息和组到角色映射。 
 ---
-= 编辑目录服务器设置和角色映射
+= 在 SANtricity System Manager 中编辑目录服务器设置和角色映射
 :allow-uri-read: 
 :experimental: 
 :icons: font

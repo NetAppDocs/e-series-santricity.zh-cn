@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
 summary: '您可以更改快照卷或快照一致性组快照卷的设置以对其进行重命名、启用或禁用SSD缓存、或者更改主机、主机集群或逻辑单元号(LUN)分配。' 
 ---
-= 更改快照卷的卷设置
+= 在 SANtricity System Manager 中更改快照卷的卷设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

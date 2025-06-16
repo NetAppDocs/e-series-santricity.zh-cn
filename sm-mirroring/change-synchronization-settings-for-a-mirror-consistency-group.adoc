@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirror, consistency, group, 
 summary: 您可以更改本地存储阵列上的镜像一致性组在初始同步数据或在异步镜像操作期间重新同步数据时使用的同步设置和警告阈值。 
 ---
-= 更改镜像一致性组的同步设置
+= 在 SANtricity System Manager 中更改镜像一致性组的同步设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

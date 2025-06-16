@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, login, 
 summary: 远程登录允许局域网外部的用户启动SSH会话并更改控制器上的设置。 
 ---
-= 配置远程登录(SSH)
+= 在 SANtricity System Manager 中配置远程登录 (SSH)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

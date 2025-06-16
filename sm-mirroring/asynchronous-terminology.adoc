@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, terms, 
 summary: 了解异步镜像术语如何应用于存储阵列。 
 ---
-= 异步镜像术语
+= 了解 SANtricity 软件中的异步镜像术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

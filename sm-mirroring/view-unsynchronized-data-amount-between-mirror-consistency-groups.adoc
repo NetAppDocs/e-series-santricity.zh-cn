@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unsynchronized, data, mirror, consistency, groups, 
 summary: '您可以查看本地存储阵列和远程存储阵列上的镜像一致性组之间未同步的数据量。当镜像一致性组处于"未同步"状态时、不会发生任何镜像活动。' 
 ---
-= 查看镜像一致性组之间未同步的数据量
+= 在 SANtricity System Manager 中查看镜像一致性组之间不同步的数据量
 :allow-uri-read: 
 :experimental: 
 :icons: font

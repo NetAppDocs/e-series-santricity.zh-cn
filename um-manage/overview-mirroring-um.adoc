@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring 
 summary: 使用镜像功能可以异步或同步在本地存储阵列和远程存储阵列之间复制数据。 
 ---
-= 镜像概述
+= 了解 SANtricity Unified Manager 中的镜像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

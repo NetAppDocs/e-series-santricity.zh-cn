@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays 
 summary: 您可以发现多个阵列、以检测管理服务器所在子网中的所有存储阵列、并自动将发现的阵列添加到管理域中。 
 ---
-= 发现多个存储阵列
+= 在 SANtricity Unified Manager 中发现多个存储阵列
 :allow-uri-read: 
 :experimental: 
 :icons: font

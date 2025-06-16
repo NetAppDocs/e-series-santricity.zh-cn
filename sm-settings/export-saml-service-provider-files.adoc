@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, saml, Service Provider, files, 
 summary: '如有必要、您可以导出存储阵列的服务提供商元数据并将文件重新导入到身份提供程序(Identity Provider、IdP)系统中。' 
 ---
-= 导出SAML服务提供程序文件
+= 在 SANtricity System Manager 中导出 SAML 服务提供商文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

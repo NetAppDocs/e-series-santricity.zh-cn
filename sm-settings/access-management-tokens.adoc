@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, tokens 
 summary: 通过访问令牌、无需公开用户名和密码即可访问阵列。 
 ---
-= 访问令牌
+= 了解访问令牌和 SANtricity 软件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

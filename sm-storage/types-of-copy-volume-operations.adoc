@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 您可以执行脱机复制卷操作或联机复制卷操作。脱机操作会从源卷读取数据并将其复制到目标卷。联机操作使用快照卷作为源卷、并将其数据复制到目标卷。 
 ---
-= 复制卷操作的类型
+= 了解 SANtricity 软件中的复制卷操作类型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

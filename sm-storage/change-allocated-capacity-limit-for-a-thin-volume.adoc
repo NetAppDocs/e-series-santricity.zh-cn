@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, allocated capacity, thin volume 
 summary: 对于能够按需分配空间的精简卷、您可以更改限制精简卷自动扩展到的已分配容量的限制。 
 ---
-= 更改精简卷的已分配容量限制
+= 在 SANtricity System Manager 中更改精简卷的分配容量限制
 :allow-uri-read: 
 :experimental: 
 :icons: font

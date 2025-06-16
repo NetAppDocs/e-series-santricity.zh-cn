@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume 
 summary: 您可以执行回滚操作来更改基础卷的内容、使其与保存在快照映像中的内容匹配。回滚操作不会更改与基础卷关联的快照映像的内容。 
 ---
-= 启动基础卷的快照映像回滚
+= 在 SANtricity System Manager 中启动基本卷的快照映像回滚
 :allow-uri-read: 
 :experimental: 
 :icons: font

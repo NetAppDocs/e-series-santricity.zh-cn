@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, terminology 
 summary: 了解镜像术语如何应用于存储阵列。 
 ---
-= 镜像术语
+= 了解 SANtricity Unified Manager 中的镜像术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

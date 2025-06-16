@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, view, order, shelves 
 summary: 您可以更改硬件页面上显示的磁盘架顺序、以匹配机柜中磁盘架的物理顺序。 
 ---
-= 更改磁盘架的视图顺序
+= 更改 SANtricity System Manager 中架子的视图顺序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

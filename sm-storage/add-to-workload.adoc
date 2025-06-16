@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add workload, volume 
 summary: 对于当前未与工作负载关联的卷、您可以将一个或多个卷添加到现有工作负载或新工作负载。 
 ---
-= 将卷添加到工作负载
+= 在 SANtricity System Manager 中将卷添加到工作负载
 :allow-uri-read: 
 :experimental: 
 :icons: font

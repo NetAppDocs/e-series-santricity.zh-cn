@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, synchronous, mirrored, pair 
 summary: 要配置同步镜像、请创建一个镜像对、其中包括本地阵列上的主卷和远程阵列上的二级卷。 
 ---
-= 创建同步镜像对
+= 在 SANtricity Unified Manager 中创建同步镜像对
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, operations in progress 
 summary: '通过"正在执行的操作"页面、您可以查看当前正在运行或处于暂停、已停止或失败状态的长时间运行的操作列表。您可以对某些类型的操作执行操作。' 
 ---
-= 正在执行的操作页面
+= 了解 SANtricity System Manager 操作进度页面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

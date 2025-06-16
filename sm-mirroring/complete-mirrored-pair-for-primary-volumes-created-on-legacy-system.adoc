@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, complete, mirrored, pair, volumes, created, legacy, 
 summary: 如果您在无法由SANtricity System Manager管理的旧存储阵列上创建了主卷、则可以使用System Manager在此阵列上创建二级卷。 
 ---
-= 在原有系统上创建的主卷的完整镜像对
+= 在 SANtricity System Manager 中完成在旧系统上创建的主卷的镜像对
 :allow-uri-read: 
 :experimental: 
 :icons: font

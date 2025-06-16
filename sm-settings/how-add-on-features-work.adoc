@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add-on, features, 
 summary: 附加项是System Manager标准配置中不包含的功能、可能需要使用密钥才能启用。附加功能可以是单个高级功能、也可以是捆绑的功能包。 
 ---
-= 附加功能的工作原理
+= SANtricity System Manager 中的附加功能如何工作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

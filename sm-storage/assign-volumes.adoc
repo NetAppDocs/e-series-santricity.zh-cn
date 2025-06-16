@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign volumes 
 summary: 您必须将卷分配给主机或主机集群、以便用于I/O操作。此分配将授予主机或主机集群对存储阵列中一个或多个卷的访问权限。 
 ---
-= 将卷分配给主机
+= 在 SANtricity System Manager 中将卷分配给主机
 :allow-uri-read: 
 :experimental: 
 :icons: font

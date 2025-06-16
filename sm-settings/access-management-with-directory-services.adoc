@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, directory services, 
 summary: '对于访问管理、管理员可以使用LDAP (轻型目录访问协议)服务器和目录服务、例如Microsoft的Active Directory。' 
 ---
-= 使用目录服务进行访问管理
+= 使用 SANtricity System Manager 中的目录服务配置访问管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

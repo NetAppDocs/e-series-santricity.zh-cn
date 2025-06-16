@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, support, data, manually 
 summary: 您可以在一个文件中收集有关存储阵列的各种类型的清单、状态和性能数据。技术支持可以使用该文件进行故障排除和进一步分析。 
 ---
-= 手动收集支持数据
+= 在 SANtricity System Manager 中手动收集支持数据
 :allow-uri-read: 
 :experimental: 
 :icons: font

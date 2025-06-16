@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unreadable, sectors, log 
 summary: 您可以保存无法读取的扇区日志并将文件发送给技术支持以进行分析。 
 ---
-= 查看无法读取的扇区日志
+= 查看 SANtricity System Manager 中不可读扇区日志
 :allow-uri-read: 
 :experimental: 
 :icons: font

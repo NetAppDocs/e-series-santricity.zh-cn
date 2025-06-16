@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, snapshot, schedule 
 summary: 对于快照计划、您可以更改自动收集时间或收集频率。 
 ---
-= 更改快照计划的设置
+= 更改 SANtricity System Manager 中的快照计划设置
 :allow-uri-read: 
 :experimental: 
 :icons: font

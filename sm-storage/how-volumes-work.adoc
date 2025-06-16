@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, copy, 
 summary: 卷是一种数据容器，用于管理和组织存储阵列上的存储空间。 
 ---
-= 卷的工作原理
+= SANtricity 软件中的卷工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

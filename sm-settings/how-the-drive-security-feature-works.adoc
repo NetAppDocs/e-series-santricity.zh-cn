@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Drive Security, 
 summary: 驱动器安全性是一种存储阵列功能，可通过全磁盘加密（ Full Disk Encryption ， FDE ）驱动器或联邦信息处理标准（ Federal Information Processing Standard ， FIPS ）驱动器提供额外的安全层。 
 ---
-= 驱动器安全功能的工作原理
+= SANtricity System Manager 中的驱动器安全功能如何工作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

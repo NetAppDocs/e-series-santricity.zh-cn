@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, 
 summary: 您可以在硬件页面上检查组件状态、并执行与这些组件相关的某些功能。 
 ---
-= 硬件组件概述
+= 在 SANtricity System Manager 中查看和管理硬件组件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

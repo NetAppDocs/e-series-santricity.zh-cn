@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, pool, volume, group 
 summary: 您可以删除池或卷组以创建更多未分配容量、您可以根据应用程序存储需求对其进行重新配置。 
 ---
-= 删除池或卷组
+= 在 SANtricity System Manager 中删除池或卷组
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, volume, group 
 summary: 您可以使用卷组创建一个或多个可供主机访问的卷。卷组是指具有RAID级别和容量等共享特征的卷的容器。 
 ---
-= 创建卷组
+= 在 SANtricity System Manager 中创建卷组
 :allow-uri-read: 
 :experimental: 
 :icons: font

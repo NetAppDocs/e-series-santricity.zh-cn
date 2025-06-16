@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, resume, snapshot, image, rollback 
 summary: 如果在快照映像回滚操作期间发生错误、则此操作会自动暂停。您可以恢复处于暂停状态的回滚操作。 
 ---
-= 恢复快照映像回滚
+= 在 SANtricity System Manager 中恢复快照映像回滚
 :allow-uri-read: 
 :experimental: 
 :icons: font

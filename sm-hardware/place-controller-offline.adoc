@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, offline, 
 summary: 如果系统要求您这样做、则可以将控制器置于脱机状态。 
 ---
-= 使控制器脱机
+= 在 SANtricity System Manager 中将控制器置于脱机状态
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

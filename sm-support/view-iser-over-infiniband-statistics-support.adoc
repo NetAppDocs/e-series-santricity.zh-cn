@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniband, statistics 
 summary: 如果存储阵列的控制器包含基于InfiniBand的iSER端口、则可以查看有关主机连接的数据。 
 ---
-= 查看基于InfiniBand的iSER统计信息
+= 在 SANtricity System Manager 中查看 InfiniBand 上的 iSER 统计数据
 :allow-uri-read: 
 :experimental: 
 :icons: font

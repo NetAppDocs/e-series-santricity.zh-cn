@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
 summary: 如果您确定某个令牌已被泄露、则可以撤消所有访问令牌。 
 ---
-= 撤消访问令牌
+= 撤销 SANtricity System Manager 中的访问令牌
 :allow-uri-read: 
 :experimental: 
 :icons: font

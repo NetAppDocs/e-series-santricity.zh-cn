@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, directory, server, 
 summary: 要中断目录服务器与存储阵列之间的连接、您可以从访问管理页面中删除服务器信息。如果您配置了新服务器、然后要删除旧服务器、则可能需要执行此任务。 
 ---
-= 删除目录服务器
+= 在 SANtricity System Manager 中删除目录服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font

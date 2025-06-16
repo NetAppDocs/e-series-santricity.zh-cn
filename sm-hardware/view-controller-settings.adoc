@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, controller, settings 
 summary: 您可以查看有关控制器的信息、例如主机接口、驱动器接口和管理端口的状态。 
 ---
-= 查看控制器设置
+= 在 SANtricity System Manager 中查看控制器设置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

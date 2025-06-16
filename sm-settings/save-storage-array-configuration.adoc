@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, save, storage array, configuration, 
 summary: 您可以将存储阵列的配置信息保存在脚本文件中、以节省设置具有相同配置的其他存储阵列所需的时间。 
 ---
-= 保存存储阵列配置
+= 在 SANtricity System Manager 中保存存储阵列配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

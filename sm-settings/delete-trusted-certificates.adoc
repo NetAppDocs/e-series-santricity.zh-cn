@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates, 
 summary: '您可以从"受信任"选项卡中删除先前导入的用户安装的证书。' 
 ---
-= 删除可信证书
+= 在 SANtricity System Manager 中删除受信任的证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

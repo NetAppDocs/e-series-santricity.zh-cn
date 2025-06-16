@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, mirroring, synchronously, 
 summary: 您可以使用以下工作流配置同步镜像。 
 ---
-= 同步镜像卷的工作流
+= 在 SANtricity 软件中同步镜像卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

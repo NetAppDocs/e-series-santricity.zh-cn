@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, schedule, snapshot, images 
 summary: 您可以创建快照计划、以便在基础卷出现问题时进行恢复、并执行计划备份。可以在一天中的任意时间按每日、每周或每月计划创建基础卷或快照一致性组的快照。 
 ---
-= 计划快照映像
+= 在 SANtricity System Manager 中安排快照映像
 :allow-uri-read: 
 :experimental: 
 :icons: font

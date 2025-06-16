@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Alerts, 
 summary: 您可以将System Manager配置为通过电子邮件、SNMP陷阱和系统日志消息发送存储阵列警报。 
 ---
-= 警报概述
+= 了解 SANtricity System Manager 中的警报
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshots 
 summary: 通过Snapshot功能、您可以为存储阵列卷创建时间点映像、以用于备份或测试。 
 ---
-= Snapshot 概述
+= 了解 SANtricity System Manager 中的快照
 :allow-uri-read: 
 :experimental: 
 :icons: font

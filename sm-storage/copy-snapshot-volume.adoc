@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
 summary: 您可以对快照卷或快照一致性组快照卷执行复制卷进程。 
 ---
-= 复制Snapshot卷
+= 在 SANtricity System Manager 中复制快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI, 
 summary: '您可以从System Manager下载命令行界面(CLI)软件包。' 
 ---
-= 下载命令行界面(CLI)
+= 下载 SANtricity 命令行界面 (CLI)
 :allow-uri-read: 
 :experimental: 
 :icons: font

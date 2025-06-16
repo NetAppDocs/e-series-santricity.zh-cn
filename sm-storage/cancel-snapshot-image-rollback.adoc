@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback 
 summary: '您可以取消正在进行的活动回滚(主动复制数据)、正在等待资源启动的待定队列中的待定回滚或由于错误而暂停的回滚。' 
 ---
-= 取消快照映像回滚
+= 在 SANtricity System Manager 中取消快照映像回滚
 :allow-uri-read: 
 :experimental: 
 :icons: font

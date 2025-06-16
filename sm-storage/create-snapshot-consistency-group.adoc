@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency group 
 summary: 为了确保副本一致、您可以创建一组多个卷、称为快照一致性组。 
 ---
-= 创建快照一致性组
+= 在 SANtricity System Manager 中创建快照一致性组
 :allow-uri-read: 
 :experimental: 
 :icons: font

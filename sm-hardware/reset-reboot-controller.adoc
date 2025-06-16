@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, reboot, controller 
 summary: '某些问题需要重置(重新启动)控制器。您可以重置控制器、即使您无法对其进行物理访问也是如此。' 
 ---
-= 重置(重新启动)控制器
+= 在 SANtricity System Manager 中重置（重新启动）控制器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

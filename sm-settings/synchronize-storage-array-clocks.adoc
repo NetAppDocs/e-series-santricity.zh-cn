@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clocks, 
 summary: '如果未启用网络时间协议(NTP)、则可以手动设置控制器上的时钟、以便与管理客户端(用于运行访问SANtricity System Manager的浏览器的系统)同步。' 
 ---
-= 同步存储阵列时钟
+= 在 SANtricity System Manager 中同步存储阵列时钟
 :allow-uri-read: 
 :experimental: 
 :icons: font

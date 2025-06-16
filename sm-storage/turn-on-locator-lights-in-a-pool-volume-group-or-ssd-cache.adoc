@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, lights, LEDs 
 summary: 您可以找到驱动器、以物理方式识别构成选定池、卷组或SSD缓存的所有驱动器。选定池、卷组或SSD缓存中的每个驱动器上都会亮起一个LED指示灯。 
 ---
-= 打开池、卷组或SSD缓存中的定位灯
+= 在 SANtricity System Manager 中打开池、卷组或 SSD 缓存中的定位器灯
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
 summary: 您可以向控制器指示已采取更正操作、以便从连线错误情况中恢复。 
 ---
-= 重新启用驱动器端口
+= 在 SANtricity System Manager 中重新启用驱动器端口
 :allow-uri-read: 
 :experimental: 
 :icons: font

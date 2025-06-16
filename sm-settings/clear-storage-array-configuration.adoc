@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration, 
 summary: 如果要从存储阵列中删除所有池、卷组、卷、主机定义和主机分配、请使用清除配置操作。 
 ---
-= 清除存储阵列配置
+= 在 SANtricity System Manager 中清除存储阵列配置
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -108,4 +108,8 @@ X
 .结果
 * 此时将删除当前配置、从而销毁存储阵列上的所有现有数据。
 * 所有驱动器均已取消分配。
++
+
+NOTE: 存储阵列将进入恢复模式。您必须先清除恢复模式，然后才能使用存储阵列。有关详细信息、请参见 https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html["清除恢复模式"^] 。
+
 

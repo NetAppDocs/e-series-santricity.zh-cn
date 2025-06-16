@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
 summary: 异步镜像功能提供了一种基于固件的控制器级别机制、用于在本地存储阵列和远程存储阵列之间进行数据复制。 
 ---
-= 异步镜像概述
+= 了解 SANtricity 软件中的异步镜像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

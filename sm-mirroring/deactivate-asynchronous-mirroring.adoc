@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote, 
 summary: 您可以在本地和远程存储阵列上停用异步镜像、以重新建立存储阵列上专用端口的正常使用。 
 ---
-= 停用异步镜像
+= 在 SANtricity System Manager 中停用异步镜像
 :allow-uri-read: 
 :experimental: 
 :icons: font

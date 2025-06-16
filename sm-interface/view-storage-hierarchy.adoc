@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, storage hierarchy 
 summary: 主界面上的存储层次结构可提供存储阵列所管理的各种硬件组件和存储对象的有序视图。 
 ---
-= 查看存储层次结构
+= 在 SANtricity System Manager 中查看存储层次结构
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

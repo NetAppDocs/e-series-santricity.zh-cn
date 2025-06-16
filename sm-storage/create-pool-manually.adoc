@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, manually 
 summary: 如果池自动配置功能不提供满足您需求的池、您可以从一组候选对象手动创建池。 
 ---
-= 手动创建池
+= 在 SANtricity System Manager 中手动创建池
 :allow-uri-read: 
 :experimental: 
 :icons: font

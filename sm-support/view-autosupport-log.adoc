@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
 summary: AutoSupport 日志提供有关状态、派单历史记录以及在交付AutoSupport 派单期间遇到的错误的信息。 
 ---
-= 查看AutoSupport 日志
+= 在 SANtricity System Manager 中查看 AutoSupport 日志
 :allow-uri-read: 
 :experimental: 
 :icons: font

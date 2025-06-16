@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, remote, storage, 
 summary: 导入完成后，如果您不再需要在本地设备和远程设备之间复制数据，则可以删除远程存储对象。 
 ---
-= 删除远程存储对象
+= 在 SANtricity System Manager 中删除远程存储对象
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
 summary: 软件存储库列出了与 Web 服务代理关联的所有软件文件。 
 ---
-= 管理软件存储库
+= 在 Unified Manager 中管理 SANtricity 软件存储库
 :allow-uri-read: 
 :experimental: 
 :icons: font

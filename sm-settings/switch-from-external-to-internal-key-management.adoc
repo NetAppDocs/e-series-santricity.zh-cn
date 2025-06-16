@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, external, internal, key, management, 
 summary: 您可以将驱动器安全管理方法从外部密钥服务器更改为存储阵列使用的内部方法。然后、以前为外部密钥管理定义的安全密钥将用于内部密钥管理。 
 ---
-= 从外部密钥管理切换到内部密钥管理
+= 在 SANtricity System Manager 中从外部密钥管理切换到内部密钥管理
 :allow-uri-read: 
 :experimental: 
 :icons: font

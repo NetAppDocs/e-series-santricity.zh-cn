@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity values 
 summary: 'System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。' 
 ---
-= 设置容量值的默认单位
+= 在 SANtricity System Manager 中设置容量值的默认单位
 :allow-uri-read: 
 :experimental: 
 :icons: font

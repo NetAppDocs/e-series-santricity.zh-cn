@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, volumes 
 summary: 您可以创建卷来为应用程序特定的工作负载添加存储容量、并使创建的卷对特定主机或主机集群可见。此外、卷创建顺序还提供了一些选项、用于为要创建的每个卷分配特定容量。 
 ---
-= 创建卷
+= 在 SANtricity System Manager 中创建卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

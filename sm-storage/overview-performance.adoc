@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance 
 summary: '"性能"页面提供了监控存储阵列性能的简单方法。' 
 ---
-= 性能概述
+= 了解 SANtricity System Manager 中的性能概述
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

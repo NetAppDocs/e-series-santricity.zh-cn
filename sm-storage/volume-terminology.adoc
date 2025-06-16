@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, terms 
 summary: 了解卷术语如何应用于存储阵列。 
 ---
-= 卷术语
+= 了解 SANtricity 软件中的卷术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

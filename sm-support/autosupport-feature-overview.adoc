@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, autosupport, ASUP 
 summary: AutoSupport 功能可监控存储阵列的运行状况、并向技术支持发送自动派单。 
 ---
-= AutoSupport 功能概述
+= 了解 E 系列的 AutoSupport
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

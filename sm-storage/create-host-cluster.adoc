@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, cluster 
 summary: 当两个或更多主机需要对相同卷进行I/O访问时、您可以创建一个主机集群。 
 ---
-= 创建主机集群
+= 在 SANtricity System Manager 中创建主机集群
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, saml 
 summary: '对于访问管理、管理员可以使用阵列中嵌入的安全断言标记语言(Security Assertion Markup Language、SAML) 2.0功能。' 
 ---
-= 使用SAML进行访问管理
+= 使用 SANtricity Unified Manager 中的 SAML 进行访问管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

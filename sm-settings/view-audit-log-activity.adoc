@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, audit, log, activity, 
 summary: 通过查看审核日志、具有安全管理员权限的用户可以监控用户操作、身份验证失败、无效登录尝试以及用户会话生命周期。 
 ---
-= 查看审核日志活动
+= 在 SANtricity System Manager 中查看审计日志活动
 :allow-uri-read: 
 :experimental: 
 :icons: font

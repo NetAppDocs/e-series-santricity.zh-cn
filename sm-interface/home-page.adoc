@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, home page 
 summary: 主页页面提供了用于存储阵列日常管理的信息板视图。登录到System Manager时、主页页面将显示第一个屏幕。 
 ---
-= 主页
+= 了解 SANtricity System Manager 主页
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

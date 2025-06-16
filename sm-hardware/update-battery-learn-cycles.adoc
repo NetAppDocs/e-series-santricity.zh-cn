@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, battery, learn, cycles 
 summary: '学习周期是指自动校准智能电池电量表的周期。这些周期按计划在同一天和时间自动开始、间隔为8周(每个控制器)。如果要设置其他计划、可以调整学习周期。' 
 ---
-= 更新电池学习周期
+= 在 SANtricity System Manager 中更新电池学习周期
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

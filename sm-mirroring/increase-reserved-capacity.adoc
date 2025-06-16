@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, increase, reserved, capacity 
 summary: 您可以增加预留容量、这是物理分配的容量、用于对存储对象执行任何复制服务操作。 
 ---
-= 增加预留容量
+= 增加 SANtricity System Manager 中的预留容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

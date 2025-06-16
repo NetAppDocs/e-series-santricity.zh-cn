@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, locator, lights, 
 summary: '要查找存储阵列在机柜中的物理位置、您可以打开其定位器(LED)指示灯。' 
 ---
-= 打开存储阵列定位灯
+= 在 SANtricity System Manager 中打开存储阵列定位器灯
 :allow-uri-read: 
 :experimental: 
 :icons: font

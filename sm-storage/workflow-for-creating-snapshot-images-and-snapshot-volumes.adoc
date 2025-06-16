@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
 summary: 在System Manager中、您可以按照以下步骤创建快照映像和快照卷。 
 ---
-= 用于创建快照映像和快照卷的工作流
+= 如何在 SANtricity System Manager 中创建快照映像和快照卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

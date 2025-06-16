@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, certificate, revocation checking, 
 summary: '您可以启用对已撤销证书的自动检查、以便联机证书状态协议(OCSP)服务器阻止用户进行非安全连接。' 
 ---
-= 启用证书撤消检查
+= 在 SANtricity System Manager 中启用证书吊销检查
 :allow-uri-read: 
 :experimental: 
 :icons: font

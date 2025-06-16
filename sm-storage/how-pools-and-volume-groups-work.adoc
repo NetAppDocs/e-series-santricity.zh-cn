@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume group, 
 summary: '要配置存储、请创建一个池或卷组、其中包含要在存储阵列中使用的硬盘驱动器(HDD)或固态磁盘(SSD)驱动器。' 
 ---
-= 池和卷组的工作原理
+= SANtricity 软件中的池和卷组工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

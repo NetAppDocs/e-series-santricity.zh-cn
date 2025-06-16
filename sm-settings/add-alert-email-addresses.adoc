@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts, 
 summary: 您最多可以为电子邮件警报添加20个收件人。 
 ---
-= 为警报添加电子邮件地址
+= 在 SANtricity System Manager 中添加警报的电子邮件地址
 :allow-uri-read: 
 :experimental: 
 :icons: font

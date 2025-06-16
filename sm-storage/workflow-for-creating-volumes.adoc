@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, volumes 
 summary: 在SANtricity 系统管理器中、您可以按照以下步骤创建卷。 
 ---
-= 用于创建卷的工作流
+= 如何在 SANtricity System Manager 中创建卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, terms 
 summary: 了解访问管理术语如何应用于存储阵列。 
 ---
-= 访问管理术语
+= 了解 SANtricity 软件中的访问管理术语
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

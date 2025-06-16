@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
 summary: 如果要将审核日志归档到外部系统日志服务器、则可以配置该服务器与存储阵列之间的通信。建立连接后、审核日志会自动保存到系统日志服务器。 
 ---
-= 为审核日志配置系统日志服务器
+= 在 SANtricity System Manager 中为审计日志配置 syslog 服务器
 :allow-uri-read: 
 :experimental: 
 :icons: font
