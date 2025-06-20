@@ -1,0 +1,66 @@
+---
+permalink: sm-settings/faq-certificates.html 
+sidebar: sidebar 
+keywords:  
+summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
+---
+= SANtricity System Manager 的 CA 签名证书和自签名证书常见问题解答
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想快速了解问题解答，此常见问题解答会很有帮助。
+
+
+
+== 为什么会显示"无法访问其他控制器"对话框？
+
+在执行与CA证书相关的某些操作(例如、导入证书)时、您可能会看到一个对话框、提示您接受第二个控制器的自签名证书。
+
+在具有两个控制器的存储阵列(双工配置)中、如果SANtricity 系统管理器无法与第二个控制器通信、或者您的浏览器在操作的某个时间点无法接受证书、则有时会显示此对话框。
+
+如果此对话框打开、请单击*接受自签名证书*以继续。如果另一个对话框提示您输入密码、请输入用于访问System Manager的管理员密码。
+
+如果此对话框再次出现、并且您无法完成证书任务、请尝试以下过程之一：
+
+* 使用其他浏览器类型访问此控制器、接受证书并继续。
+* 使用System Manager访问第二个控制器、接受自签名证书、然后返回到第一个控制器并继续。
+
+
+
+
+== 我如何知道需要将哪些证书上传到SANtricity系统管理器以进行外部密钥管理？
+
+对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。
+
+客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。
+
+要获取客户端证书、请使用System Manager为存储阵列完成CSR。您还可以使用私钥和公共密钥对在外部生成CSR。
+
+然后、您可以将CSR上传到密钥管理服务器并从该服务器生成客户端证书。获得客户端证书后、将该文件复制到要访问System Manager的主机。
+
+密钥管理服务器证书用于验证密钥管理服务器、以便存储阵列可以信任其IP地址。从密钥管理服务器检索服务器证书文件、然后将该文件复制到要访问System Manager的主机。
+
+
+
+== 关于证书撤消检查、我需要了解哪些信息？
+
+使用SANtricity系统管理器、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器(而不是上传证书撤消列表(Certificate Revocation List、CRL))来检查是否存在已撤销的证书。
+
+已撤销的证书不应再受信任。证书可能会因多种原因而被撤销；例如、如果证书颁发机构(CA)颁发的证书不正确、私钥被泄露或标识的实体不符合策略要求。
+
+在System Manager中与OCSP服务器建立连接后、存储阵列将在连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时执行撤消检查。存储阵列会尝试验证这些服务器的证书、以确保它们未被撤消。然后、服务器将为该证书返回"good "、"revoked"或"unknown"值。如果证书已撤销或阵列无法与OCSP服务器联系、则连接将被拒绝。
+
+[NOTE]
+====
+在System Manager或命令行界面(CLI)中指定OCSP响应程序地址会覆盖在证书文件中找到的OCSP地址。
+
+====
+
+
+== 将为哪些类型的服务器启用撤消检查？
+
+每当存储阵列连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时、它都会执行撤消检查。

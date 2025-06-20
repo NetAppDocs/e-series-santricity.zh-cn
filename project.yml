@@ -37,22 +37,8 @@ sidebar:
         url: "/san-getstarted/access-sam.html"
       - title: 设置向导概述
         url: "/sm-interface/setup-wizard-overview.html"
-      - title: 常见问题解答
-        entries:
-        - title: 如果我看不到所有硬件组件、该怎么办？
-          url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
-        - title: 如果我看不到所有主机、该怎么办？
-          url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
-        - title: 识别应用程序如何帮助我管理存储阵列？
-          url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
-        - title: 什么是工作负载？
-          url: "/sm-interface/what-is-a-workload.html"
-        - title: 如何配置AutoSupport 的交付方法？
-          url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
-        - title: 如何知道是否应接受建议的池配置？
-          url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-        - title: SANtricity系统管理器未检测到任何主机。我该怎么办？
-          url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+      - title: 存储系统设置常见问题解答
+        url: "/sm-interface/faq-storage-system-setup.html"
     - title: SANtricity Unified Manager设置
       entries:
       - title: 安装SANtricity统一管理器
@@ -102,28 +88,8 @@ sidebar:
           url: "/sm-interface/view-and-act-on-operations-in-progress.html"
         - title: 使用Recovery Guru从问题中恢复
           url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-      - title: 常见问题解答
-        entries:
-        - title: 支持哪些浏览器？
-          url: "/sm-interface/what-are-the-supported-browsers.html"
-        - title: 什么是键盘快捷键？
-          url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
-        - title: 各个卷的性能统计信息与总数有何关系？
-          url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
-        - title: 为什么数据在图形和表中显示为零？
-          url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
-        - title: 延迟图显示了什么内容？
-          url: "/sm-storage/what-does-the-latency-graph-show.html"
-        - title: IOPS图显示了什么？
-          url: "/sm-storage/what-does-the-iops-graph-show.html"
-        - title: MIB/s图显示什么？
-          url: "/sm-storage/what-does-the-mib-s-graph-show.html"
-        - title: CPU图形显示了什么？
-          url: "/sm-storage/what-does-the-cpu-graph-show.html"
-        - title: 性能余量图显示了哪些内容？
-          url: "/sm-storage/what-does-the-headroom-graph-show.html"
-        - title: 在哪里可以找到有关显示首选项的详细信息？
-          url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+      - title: 管理界面常见问题解答
+        url: "/sm-interface/faq-management-interface.html"
     - title: 池和卷组
       entries:
       - title: 概述
@@ -206,58 +172,8 @@ sidebar:
           url: "/sm-storage/cancel-pending-snapshot-image.html"
         - title: 删除快照组
           url: "/sm-storage/delete-snapshot-group.html"
-      - title: 常见问题解答
-        entries:
-        - title: 什么是卷组？
-          url: "/sm-storage/what-is-a-volume-group.html"
-        - title: 什么是池？
-          url: "/sm-storage/what-is-a-pool.html"
-        - title: 什么是预留容量？
-          url: "/sm-storage/what-is-reserved-capacity.html"
-        - title: 什么是FDE/Fips安全性？
-          url: "/sm-storage/what-is-fde-fips-security.html"
-        - title: 什么是冗余检查？
-          url: "/sm-storage/what-is-redundancy-check.html"
-        - title: 池和卷组之间有何区别？
-          url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
-        - title: 为什么要手动配置池？
-          url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
-        - title: 容量警报为何重要？
-          url: "/sm-storage/why-are-capacity-alerts-important.html"
-        - title: 为什么我不能增加我的保留容量？
-          url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
-        - title: 可以从池中删除的驱动器数量是否有限制？
-          url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
-        - title: 驱动器支持哪些介质类型？
-          url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
-        - title: 为什么某些驱动器不显示？
-          url: "/sm-storage/why-are-some-drives-not-showing-up.html"
-        - title: 如何维护磁盘架/抽屉丢失保护？
-          url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
-        - title: 池和卷组的最佳驱动器定位是什么？
-          url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
-        - title: 哪种RAID级别最适合我的应用程序？
-          url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
-        - title: 什么是数据保证？
-          url: "/sm-storage/what-is-data-assurance.html"
-        - title: 什么是安全功能(驱动器安全)？
-          url: "/sm-storage/what-is-security-capable-drive-security.html"
-        - title: 增加预留容量需要了解哪些信息？
-          url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
-        - title: 为什么我不能选择另一个减少量？
-          url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
-        - title: 为什么需要为每个成员卷预留容量？
-          url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
-        - title: 如何查看和解释所有SSD缓存统计信息？
-          url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
-        - title: 什么是池的优化容量？
-          url: "/sm-storage/what-is-optimization-capacity-pools.html"
-        - title: 卷组的优化容量是多少？
-          url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
-        - title: 什么是资源配置功能？
-          url: "/sm-storage/what-is-resource-provisioning-capable.html"
-        - title: 关于资源配置卷功能、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+      - title: 池和卷组常见问题解答
+        url: "/sm-storage/faq-pools-volume-groups.html"
     - title: 卷和工作负载
       entries:
       - title: 概述
@@ -326,34 +242,8 @@ sidebar:
           url: "/sm-storage/copy-volume.html"
         - title: 管理操作
           url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
-      - title: 常见问题解答
-        entries:
-        - title: 什么是卷？
-          url: "/sm-storage/what-is-a-volume.html"
-        - title: 当卷组中有足够的可用容量来创建卷时、为什么会出现容量过度分配错误？
-          url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
-        - title: 选定工作负载对卷创建有何影响？
-          url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
-        - title: 为什么这些卷不与工作负载关联？
-          url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
-        - title: 为什么无法删除选定工作负载？
-          url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
-        - title: 应用程序特定的工作负载如何帮助我管理存储阵列？
-          url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
-        - title: 提供此信息如何帮助创建存储？
-          url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
-        - title: 要识别扩展的容量、我需要执行哪些操作？
-          url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
-        - title: 为什么我看不到所有池和/或卷组？
-          url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
-        - title: 什么是区块大小？
-          url: "/sm-storage/what-is-segment-sizing.html"
-        - title: 什么是首选控制器所有权？
-          url: "/sm-storage/what-is-preferred-controller-ownership.html"
-        - title: 稍后要在何时使用分配主机选项？
-          url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
-        - title: 关于主机块大小要求、我需要了解哪些信息？
-          url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+      - title: 卷和工作负载常见问题解答
+        url: "/sm-storage/faq-volumes-workloads.html"
     - title: 主机和主机集群
       entries:
       - title: 概述
@@ -400,24 +290,8 @@ sidebar:
           url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
         - title: 更改主机的主机端口标识符
           url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
-      - title: 常见问题解答
-        entries:
-        - title: 什么是主机和主机集群？
-          url: "/sm-storage/what-are-hosts-and-host-clusters.html"
-        - title: 为什么需要创建主机集群？
-          url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
-        - title: 如何知道哪种主机操作系统类型正确？
-          url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
-        - title: 什么是HBA和适配器端口？
-          url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
-        - title: 如何将主机端口与主机匹配？
-          url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
-        - title: 如何创建CHAP密码？
-          url: "/sm-storage/how-do-i-create-chap-secrets.html"
-        - title: 默认集群是什么？
-          url: "/sm-storage/what-is-the-default-cluster.html"
-        - title: 什么是主机连接报告？
-          url: "/sm-settings/what-is-host-connectivity-reporting.html"
+      - title: 主机系统和主机集群常见问题解答
+        url: "/sm-storage/faq-systems-clusters.html"
     - title: 快照
       entries:
       - title: 概述
@@ -496,28 +370,8 @@ sidebar:
           url: "/sm-storage/disable-snapshot-volume.html"
         - title: 删除Snapshot卷
           url: "/sm-storage/delete-snapshot-volume.html"
-      - title: 常见问题解答
-        entries:
-        - title: 为什么看不到我的所有卷、主机或主机集群？
-          url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
-        - title: 什么是快照映像？
-          url: "/sm-storage/what-is-a-snapshot-image.html"
-        - title: 为什么使用Snapshot映像？
-          url: "/sm-storage/why-use-snapshot-images.html"
-        - title: 可以使用哪些类型的卷来创建快照？
-          url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
-        - title: 为什么要创建快照一致性组？
-          url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
-        - title: 什么是Snapshot卷？何时需要预留容量？
-          url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
-        - title: 什么是快照组？
-          url: "/sm-storage/what-is-a-snapshot-group.html"
-        - title: 为什么要禁用Snapshot卷？
-          url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
-        - title: 什么是"已禁用"状态？
-          url: "/sm-storage/what-is-the-disabled-state.html"
-        - title: 为什么要暂停快照计划？
-          url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+      - title: 快照常见问题解答
+        url: "/sm-storage/faq-snapshots.html"
     - title: 镜像
       entries:
       - title: 概述
@@ -604,48 +458,10 @@ sidebar:
           url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
         - title: 停用同步镜像
           url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-      - title: 异步常见问题解答
-        entries:
-        - title: 异步镜像与同步镜像有何不同？
-          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
-        - title: 为什么我无法访问所选的镜像功能？
-          url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
-        - title: 在创建镜像一致性组之前、我需要了解哪些信息？
-          url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
-        - title: 异步镜像—在创建镜像对之前、我需要了解哪些信息？
-          url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-        - title: 在增加镜像对卷上的预留容量之前、我需要了解哪些信息？
-          url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
-        - title: 为什么不能使用请求的容量增加预留容量？
-          url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
-        - title: 为什么要更改此百分比？
-          url: "/sm-mirroring/why-would-i-change-this-percentage.html"
-        - title: 为什么我会看到多个预留容量候选项？
-          url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
-        - title: 为什么表中显示的值不可用？
-          url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
-        - title: 为什么我看不到所有池和卷组？
-          url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
-        - title: 异步镜像—为什么我看不到所有卷？
-          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-        - title: 异步镜像—为什么我看不到远程存储阵列上的所有卷？
-          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-        - title: 为什么要更新远程存储阵列的IP地址？
-          url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
-      - title: Sync常见问题解答
-        entries:
-        - title: 同步镜像与异步镜像有何不同？
-          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-        - title: 同步镜像—为什么我看不到所有卷？
-          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-        - title: 同步镜像—为什么我看不到远程存储阵列上的所有卷？
-          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-        - title: 同步镜像—在创建镜像对之前、我需要了解哪些信息？
-          url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-        - title: 同步优先级对同步速率有何影响？
-          url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-        - title: 为什么建议使用手动同步策略？
-          url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+      - title: 异步镜像常见问题解答
+        url: "/sm-mirroring/faq-async-mirroring.html"
+      - title: 同步镜像常见问题解答
+        url: "/sm-mirroring/faq-sync-mirroring.html"
     - title: 远程存储
       entries:
       - title: 概述
@@ -670,18 +486,8 @@ sidebar:
           url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
         - title: 删除远程存储对象
           url: "/sm-storage/rtv-remove-remote-storage.html"
-      - title: 常见问题解答
-        entries:
-        - title: 在创建远程存储连接之前、我需要了解哪些信息？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
-        - title: 为什么系统会提示我删除远程卷？
-          url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
-        - title: 为什么我看不到目标阵列上的所有卷？
-          url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
-        - title: 需要了解有关导入中的远程卷的哪些信息？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
-        - title: 在开始远程存储导入之前、我需要了解哪些信息？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+      - title: 远程存储常见问题解答
+        url: "/sm-storage/faq-remote-storage.html"
     - title: 硬件组件
       entries:
       - title: 概述
@@ -794,70 +600,16 @@ sidebar:
           url: "/sm-hardware/assign-hot-spares-hardware.html"
         - title: 取消分配热备用磁盘
           url: "/sm-hardware/unassign-hot-spares.html"
-      - title: 磁盘架常见问题解答
-        entries:
-        - title: 什么是磁盘架丢失保护和抽屉丢失保护？
-          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-        - title: 什么是电池学习周期？
-          url: "/sm-hardware/what-are-battery-learn-cycles.html"
-      - title: 控制器常见问题解答
-        entries:
-        - title: 什么是自动协商？
-          url: "/sm-hardware/what-is-auto-negotiation.html"
-        - title: 什么是IPv6无状态地址自动配置？
-          url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
-        - title: 我可以选择以下哪项—DHCP或手动配置？
-          url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
-        - title: 什么是DHCP服务器？
-          url: "/sm-hardware/what-is-a-dhcp-server.html"
-        - title: 如何配置DHCP服务器？
-          url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
-        - title: 为什么需要更改控制器网络配置？
-          url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
-        - title: 从何处获取网络配置？
-          url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
-        - title: 什么是ICMP ping响应？
-          url: "/sm-hardware/what-are-icmp-ping-responses.html"
-        - title: 何时应刷新端口配置？
-          url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
-        - title: 配置管理端口后应执行什么操作？
-          url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
-        - title: 为什么存储系统处于非最佳模式？
-          url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
-      - title: iSCSI常见问题解答
-        entries:
-        - title: 使用iSNS服务器进行注册时会发生什么情况？
-          url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
-        - title: iSCSI自动支持哪些注册方法？
-          url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
-        - title: 如何解读基于InfiniBand统计信息的iSER？
-          url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
-        - title: 要通过InfiniBand配置或诊断iSER、还需要执行哪些操作？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
-        - title: 配置或诊断iSCSI还需要执行哪些操作？
-          url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
-      - title: NVMe常见问题解答
-        entries:
-        - title: 如何解读基于网络结构的NVMe统计信息？
-          url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
-        - title: 要配置或诊断基于InfiniBand的NVMe、还需要执行哪些操作？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
-        - title: 要通过RoCE配置或诊断NVMe、还需要执行哪些操作？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
-        - title: 为什么一个物理端口有两个IP地址？
-          url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
-        - title: 为什么一个物理端口有两组参数？
-          url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
-      - title: 驱动器常见问题解答
-        entries:
-        - title: 什么是热备用驱动器？
-          url: "/sm-storage/what-is-a-hot-spare-drive.html"
-        - title: 什么是保留容量？
-          url: "/sm-hardware/what-is-preservation-capacity.html"
-        - title: 为什么要从逻辑上更换驱动器？
-          url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
-        - title: 在何处可以查看正在重建的驱动器的状态？
-          url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+      - title: 仓储货架常见问题解答
+        url: "/sm-hardware/faq-storage-shelf.html"
+      - title: 存储控制器 FAQ
+        url: "/sm-hardware/faq-storage-controller.html"
+      - title: iSCSI 协议常见问题解答
+        url: "/sm-settings/faq-iscsi-protocol.html"
+      - title: NVMe 协议常见问题解答
+        url: "/sm-settings/faq-nvme-protocol.html"
+      - title: 存储驱动器常见问题解答
+        url: "/sm-storage/faq-storage-drives.html"
     - title: 警报
       entries:
       - title: 概述
@@ -912,14 +664,8 @@ sidebar:
           url: "/sm-settings/add-syslog-servers-for-alerts.html"
         - title: 删除系统日志服务器
           url: "/sm-settings/delete-syslog-servers-for-alerts.html"
-      - title: 常见问题解答
-        entries:
-        - title: 如果警报已禁用、该怎么办？
-          url: "/sm-settings/what-if-alerts-are-disabled.html"
-        - title: 如何配置SNMP或系统日志警报？
-          url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
-        - title: 阵列和警报之间的时间戳为何不一致？
-          url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+      - title: 存储系统警报常见问题解答
+        url: "/sm-settings/faq-storage-system-alerts.html"
     - title: 阵列设置
       entries:
       - title: 设置概述
@@ -962,18 +708,8 @@ sidebar:
           url: "/sm-settings/enable-feature-pack.html"
       - title: 下载CLI
         url: "/sm-settings/download-cli.html"
-      - title: 常见问题解答
-        entries:
-        - title: 什么是自动负载平衡？
-          url: "/sm-storage/what-is-automatic-load-balancing.html"
-        - title: 什么是控制器缓存？
-          url: "/sm-settings/what-is-controller-cache.html"
-        - title: 什么是缓存刷新？
-          url: "/sm-settings/what-is-cache-flushing.html"
-        - title: 什么是缓存块大小？
-          url: "/sm-settings/what-is-cache-block-size.html"
-        - title: 何时应同步存储阵列时钟？
-          url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+      - title: 存储阵列设置常见问题解答
+        url: "/sm-storage/faq-storage-array-settings.html"
     - title: 驱动器安全性
       entries:
       - title: 概述
@@ -1008,24 +744,8 @@ sidebar:
           url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
         - title: 使用外部密钥管理时解锁驱动器
           url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
-      - title: 常见问题解答
-        entries:
-        - title: 在创建安全密钥之前、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
-        - title: 为什么需要定义密码短语？
-          url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
-        - title: 为什么记录安全密钥信息很重要？
-          url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
-        - title: 备份安全密钥前需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
-        - title: 在解除安全驱动器锁定之前、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
-        - title: 什么是读/写可访问性？
-          url: "/sm-settings/what-is-read-write-accessibility.html"
-        - title: 验证安全密钥时需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
-        - title: 内部安全密钥与外部安全密钥管理有何区别？
-          url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+      - title: 存储驱动器安全常见问题解答
+        url: "/sm-settings/faq-storage-drive-security.html"
     - title: 访问管理
       entries:
       - title: 概述
@@ -1090,24 +810,8 @@ sidebar:
           url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
         - title: 编辑审核日志记录的系统日志服务器设置
           url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
-      - title: 常见问题解答
-        entries:
-        - title: 为什么我无法登录？
-          url: "/sm-settings/why-cant-i-log-in.html"
-        - title: 在添加目录服务器之前、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
-        - title: 关于映射到存储阵列角色、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
-        - title: 哪些外部管理工具可能会受到此更改的影响？
-          url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
-        - title: 在配置和启用SAML之前、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-        - title: 审核日志中记录了哪些类型的事件？
-          url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
-        - title: 在配置系统日志服务器之前、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
-        - title: 系统日志服务器不再接收审核日志。我该怎么办？
-          url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+      - title: 用户访问管理常见问题解答
+        url: "/sm-settings/faq-user-access-mgmt-sm.html"
     - title: 证书
       entries:
       - title: 概述
@@ -1136,16 +840,8 @@ sidebar:
           url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
         - title: 导出密钥管理服务器证书
           url: "/sm-settings/export-key-management-certificates.html"
-      - title: 常见问题解答
-        entries:
-        - title: 为什么会显示"无法访问其他控制器"对话框？
-          url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-        - title: 我如何知道需要将哪些证书上传到SANtricity系统管理器以进行外部密钥管理？
-          url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
-        - title: 关于证书撤消检查、我需要了解哪些信息？
-          url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
-        - title: 将为哪些类型的服务器启用撤消检查？
-          url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
+      - title: 证书常见问题解答
+        url: "/sm-settings/faq-certificates.html"
     - title: 支持
       entries:
       - title: 概述
@@ -1218,32 +914,8 @@ sidebar:
           url: "/sm-support/upgrade-drive-firmware.html"
         - title: 查看可能的软件和固件升级错误
           url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
-      - title: 常见问题解答
-        entries:
-        - title: 我正在收集哪些数据？
-          url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
-        - title: 无法读取的扇区数据显示了什么？
-          url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
-        - title: 什么是运行状况映像？
-          url: "/sm-support/what-is-a-health-image.html"
-        - title: AutoSupport 功能的作用是什么？
-          url: "/sm-support/what-do-the-autosupport-features-do.html"
-        - title: 通过AutoSupport 功能收集哪种类型的数据？
-          url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
-        - title: 如何配置AutoSupport 功能的交付方法？
-          url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
-        - title: 什么是配置数据？
-          url: "/sm-support/what-is-configuration-data.html"
-        - title: 在升级SANtricity OS软件之前、我需要了解哪些信息？
-          url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
-        - title: 暂停IOM自动同步前需要了解哪些信息？
-          url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
-        - title: 为什么固件升级进度如此缓慢？
-          url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
-        - title: 升级驱动器固件前需要了解哪些信息？
-          url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
-        - title: 如何选择要执行的升级类型？
-          url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
+      - title: AutoSupport FAQ
+        url: "/sm-support/faq-autosupport.html"
   - title: SANtricity 统一管理器
     url: "/unified-manager/index.html"
     entries:
@@ -1307,12 +979,8 @@ sidebar:
           url: "/um-manage/import-system-settings.html"
         - title: 导入存储配置设置
           url: "/um-manage/import-storage-configuration-settings.html"
-      - title: 常见问题解答
-        entries:
-        - title: 将导入哪些设置？
-          url: "/um-manage/what-settings-will-be-imported.html"
-        - title: 为什么我看不到所有存储阵列？
-          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+      - title: 导入设置常见问题解答
+        url: "/um-manage/faq-import-settings.html"
     - title: 阵列组
       entries:
       - title: 概述
@@ -1361,24 +1029,8 @@ sidebar:
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: 创建同步镜像对
           url: "/um-manage/create-synchronous-mirrored-pair-um.html"
-      - title: 常见问题解答
-        entries:
-        - title: 在创建镜像一致性组之前、我需要了解哪些信息？
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
-        - title: 在创建镜像对之前、我需要了解哪些信息？
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
-        - title: 为什么要更改此百分比？
-          url: "/um-manage/why-would-i-change-this-percentage-um.html"
-        - title: 为什么我会看到多个预留容量候选项？
-          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
-        - title: 为什么我看不到所有卷？
-          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
-        - title: 为什么我看不到远程存储阵列上的所有卷？
-          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
-        - title: 同步优先级对同步速率有何影响？
-          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
-        - title: 为什么建议使用手动同步策略？
-          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
+      - title: 存储镜像常见问题解答
+        url: "/um-manage/faq-storage-mirroring.html"
     - title: 证书
       entries:
       - title: 概述
@@ -1449,18 +1101,8 @@ sidebar:
           url: "/um-certificates/change-saml-role-mappings.html"
         - title: 导出SAML服务提供程序文件
           url: "/um-certificates/export-saml-service-provider-files.html"
-      - title: 常见问题解答
-        entries:
-        - title: 为什么我无法登录？
-          url: "/um-certificates/why-cant-i-log-in-unified.html"
-        - title: 在添加目录服务器之前、我需要了解哪些信息？
-          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
-        - title: 关于映射到存储阵列角色、我需要了解哪些信息？
-          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
-        - title: 在配置和启用SAML之前、我需要了解哪些信息？
-          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-        - title: 本地用户有哪些？
-          url: "/um-certificates/what-are-the-local-users.html"
+      - title: 用户访问管理常见问题解答
+        url: "/um-certificates/faq-user-access-mgmt-um.html"
   - title: 早期版本
     url: "/early-versions.html"
   - title: 法律声明

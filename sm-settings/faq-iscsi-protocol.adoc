@@ -1,0 +1,180 @@
+---
+permalink: sm-settings/faq-iscsi-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
+---
+= SANtricity System Manager 的 iSCSI 协议常见问题解答
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想快速了解问题解答，此常见问题解答会很有帮助。
+
+
+
+== 使用iSNS服务器进行注册时会发生什么情况？
+
+使用Internet存储名称服务(iSNS)服务器信息时、可以将主机(启动程序)配置为查询iSNS服务器以从目标(控制器)检索信息。
+
+此注册可为iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息、并允许在启动程序(iSCSI主机)和目标(控制器)之间进行查询。
+
+
+
+== iSCSI自动支持哪些注册方法？
+
+iSCSI实施支持Internet存储名称服务(iSNS)发现方法或使用发送目标命令。
+
+iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS发现。您注册目标控制器以向iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息。
+
+如果不配置iSNS、则iSCSI主机可以在iSCSI发现会话期间发送发送目标命令。作为响应、控制器将返回端口信息(例如目标IQN、端口IP地址、侦听端口和目标端口组)。如果使用iSNS、则不需要此发现方法、因为主机启动程序可以从iSNS服务器检索目标IP。
+
+
+
+== 如何解读基于InfiniBand统计信息的iSER？
+
+查看基于InfiniBand的iSER统计信息对话框可显示本地目标(协议)统计信息和基于InfiniBand的iSER (IB)接口统计信息。所有统计信息均为只读、无法设置。
+
+* *本地目标(协议)统计信息*—提供基于InfiniBand的iSER目标的统计信息、其中显示了对其存储介质的块级访问。
+* * iSER over InfiniBand Interface statistics*—提供InfiniBand接口上所有基于InfiniBand端口的iSER的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。
+
+
+您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。原始统计信息是自控制器启动以来收集的所有统计信息。基线统计信息是自设置基线时间以来收集的时间点统计信息。
+
+
+
+== 要通过InfiniBand配置或诊断iSER、还需要执行哪些操作？
+
+下表列出了可用于配置和管理基于InfiniBand会话的iSER的SANtricity系统管理器功能。
+
+[NOTE]
+====
+只有当存储阵列的控制器包含基于InfiniBand的iSER主机管理端口时、iSER over InfiniBand设置才可用。
+
+====
+[cols="35h,~"]
+|===
+| Action | 位置 
+
+
+ a| 
+通过InfiniBand端口配置iSER
+ a| 
+. 选择 * 硬件 * 。
+. 选择*控制器和组件*选项卡。
+. 选择一个控制器。
+. 选择*通过InfiniBand端口配置iSER *。
+
+
+或
+
+. 选择菜单：设置[系统]。
+. 向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand端口配置iSER *。
+
+
+
+
+ a| 
+查看基于InfiniBand的iSER统计信息
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand统计信息查看iSER *。
+
+
+|===
+
+
+== 配置或诊断iSCSI还需要执行哪些操作？
+
+iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的SANtricity系统管理器功能。
+
+[NOTE]
+====
+只有当存储阵列支持iSCSI时、iSCSI设置才可用。
+
+====
+
+
+=== 配置iSCSI
+
+[cols="1a,1a"]
+|===
+| Action | 位置 
+
+
+ a| 
+管理iSCSI设置
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*可查看所有管理功能。
+
+
+
+
+ a| 
+配置iSCSI端口
+ a| 
+. 选择 * 硬件 * 。
+. 选择*控制器和组件*选项卡。
+. 选择一个控制器。
+. 选择 * 配置 iSCSI 端口 * 。
+
+
+
+
+ a| 
+设置主机CHAP密钥
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*配置身份验证*。
+
+
+或
+
+. 选择菜单： Storage[Hosts] 。
+. 选择一个主机成员。
+. 单击菜单：查看/编辑设置[主机端口]选项卡。
+
+
+|===
+
+
+=== 诊断iSCSI
+
+[cols="1a,1a"]
+|===
+| Action | 位置 
+
+
+ a| 
+查看或结束iSCSI会话
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*查看/结束iSCSI会话*。
+
+
+或
+
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*查看/结束iSCSI会话*。
+
+
+
+
+ a| 
+查看iSCSI统计信息
+ a| 
+. 选择菜单：设置[系统]。
+. 向下滚动到* iSCSI设置*、然后选择*查看iSCSI统计信息包*。
+
+
+或
+
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*查看iSCSI统计信息包*。
+
+
+|===

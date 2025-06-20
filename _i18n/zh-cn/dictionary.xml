@@ -332,7 +332,6 @@
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport OnDemand和远程诊断派单*</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">您可以查看存储阵列的配置文件以及存储阵列中每个组件的固件版本。</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">您可以查看存储阵列的配置文件以及存储阵列中每个组件的固件版本。</block>
-  <block id="4abeb578b363f44144000527bdaabd0d" category="summary">在升级控制器的软件和固件之前、请注意以下事项。</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">在升级SANtricity OS软件之前、我需要了解哪些信息？</block>
   <block id="335d86aaca8c114cdd7c918669e77b31" category="paragraph">在升级控制器的软件和固件之前、请注意以下事项。</block>
   <block id="00d0f215b8edbde21b482165efb63f25" category="list-text">您已阅读此文档和`reADME.txt`文件、并已确定要执行升级。</block>
@@ -359,7 +358,6 @@
   <block id="73c40dbedb58622a5addb484bcb2b74f" category="list-text">选择*计划AutoSupport 派单*。</block>
   <block id="3c5e6b5527da0fa55b93f5dd6c1ee2f7" category="paragraph">此时将显示计划AutoSupport 卸载向导。</block>
   <block id="8afcf107cdd07f6a765c949ecd297794" category="list-text">按照向导中的步骤进行操作。</block>
-  <block id="ba3213bbbf9e5128613954ca4db4e5ee" category="summary">运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。</block>
   <block id="4e3f3d52a16affbf4b062a79c89574da" category="doc">什么是运行状况映像？</block>
   <block id="793d79923fdf757cef5c422780f3772b" category="paragraph">运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。</block>
   <block id="ce263fa58d4fdb3ad71f24d93430faf6" category="paragraph">固件在检测到某些错误时会自动生成运行状况映像。在某些故障排除情形下、技术支持可能会要求您检索运行状况映像文件并将其发送给它们。</block>
@@ -504,7 +502,6 @@
   <block id="91dbe600e65db881ab696db75fb0c577" category="summary">通过AutoSupport 功能和手动支持数据收集功能、可以在客户支持包中收集数据、以便由技术支持进行远程故障排除和问题分析。</block>
   <block id="0c0abab82c0a4d319b8e472ca9976625" category="doc">我正在收集哪些数据？</block>
   <block id="8d1df5e3923cb2221d6d97c979f4a6a9" category="paragraph">客户支持包会将有关存储阵列的所有类型的信息收集到一个压缩文件中。收集的信息包括物理配置、逻辑配置、版本信息、事件、日志文件、 和性能数据。只有技术支持才会使用此信息来解决存储阵列的问题。</block>
-  <block id="068ea21c39695d9df18e79ea4abf66e1" category="summary">iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的System Manager功能。</block>
   <block id="c31a63fbfe62247245f55d6b792ad9e1" category="doc">配置或诊断iSCSI还需要执行哪些操作？</block>
   <block id="0d97aebcf5431f90d47b2257e5c9ad96" category="paragraph">只有当存储阵列支持iSCSI时、iSCSI设置才可用。</block>
   <block id="28f21ae88e9953ac3d80686cfb49832b" category="section-title">配置iSCSI</block>
@@ -820,7 +817,6 @@
   <block id="8c455a82b904ae8cb2ac4f38aa62b51c" category="list-text"><block ref="8c455a82b904ae8cb2ac4f38aa62b51c" category="inline-link-macro-rx"></block></block>
   <block id="c8b683caf010ac698a90dd897620ec5a" category="inline-link-macro">解读性能数据</block>
   <block id="c08474664a89e996c5ba900acd208685" category="list-text"><block ref="c08474664a89e996c5ba900acd208685" category="inline-link-macro-rx"></block></block>
-  <block id="ef7ae095d51a83215900fcb4d6a8da70" category="summary">CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是中央处理单元的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。</block>
   <block id="9af8e70c2152ca5e60b42c567ce33fa9" category="doc">CPU图形显示了什么？</block>
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是_central processing unit_的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU图形显示了阵列上的操作所使用的CPU处理容量百分比。即使没有发生外部I/O、CPU利用率百分比也可以不为零、因为存储操作系统可能正在执行后台操作和监控。将光标悬停在图形上的某个点上、可查看该时间点所使用的处理能力百分比。</block>
@@ -1107,7 +1103,6 @@
   <block id="8d63b58086a957abb733872e91b25917" category="list-text">如果池或卷组包含支持所有数据保证(DA)的驱动器、并且池或卷组中至少有一个已启用DA的卷、则不支持DA的驱动器将不符合条件、因此无法将其添加到该池或卷组。但是、如果池或卷组中没有启用了DA的卷、则可以将不支持DA的驱动器添加到该池或卷组中。如果决定混用这些驱动器、请记住、您不能创建任何已启用DA的卷。</block>
   <block id="26fc92dce88a2f2b7f6d311212b712a2" category="paragraph">可以通过添加新驱动器或删除池或卷组来增加存储阵列中的容量。</block>
   <block id="821c127bf32c0d6d510d581384bfdc89" category="summary">在为远程存储功能配置导入时、您可能会注意到、由于块大小、容量或卷可用性、某些卷不会显示在目标候选卷列表中。</block>
-  <block id="d4538d3e9457b3332037137becb531c2" category="doc">为什么我看不到目标阵列上的所有卷？</block>
   <block id="d57fac41eaeaf7a84370871910e0f6d2" category="paragraph">要显示在列表中、卷候选项必须具有：</block>
   <block id="69cc506297892e5a506e7d183cf03227" category="list-text">容量等于或大于远程卷。</block>
   <block id="b9152e2a19a205f565f107c733485374" category="list-text">与远程卷相同的块大小。</block>
@@ -1508,9 +1503,7 @@
   <block id="4acd7b5d7792ddea4992339cc611b8fa" category="doc">导出/导入卷组</block>
   <block id="e518bc03dbcd1762ba4d30c8c6626427" category="paragraph">SANtricity System Manager用户界面不支持导出/导入功能。您必须使用命令行界面(CLI)将卷组导出/导入到其他存储阵列。</block>
   <block id="3bfd2179043341e09a4fc1cfd720d6ff" category="summary">此工作负载由一组使用命令行界面(CLI)创建或从其他存储阵列迁移(导入/导出)的卷组成。因此、此工作负载中的卷不会与特定于应用程序的工作负载关联、因此无法删除此工作负载。</block>
-  <block id="91d388ab2a6ac649e3e39aa1f5535eef" category="doc">为什么无法删除选定工作负载？</block>
   <block id="3cedad73b5b33c8b0c2b8d5beeed5264" category="summary">如果已在所有可用容量上创建卷、则可能无法增加保留容量。</block>
-  <block id="87b59aa4fc1f0d0f5aac88efb29545be" category="doc">为什么我不能增加我的保留容量？</block>
   <block id="71396049ff539200dbba1007ca0cbc94" category="paragraph">保留容量是指池中为支持潜在驱动器故障而预留的容量(驱动器数量)。创建池时、系统会根据池中的驱动器数量自动预留默认保留容量。如果已在所有可用容量上创建卷、则在不通过添加驱动器或删除卷向池添加容量的情况下、无法增加保留容量。</block>
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">您可以从*池和卷组*更改保留容量。选择要编辑的池。单击*查看/编辑设置*、然后选择*设置*选项卡。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">保留容量指定为多个驱动器、即使实际保留容量分布在池中的驱动器之间也是如此。</block>
@@ -1661,7 +1654,6 @@
   <block id="579111952277df3df9fa742ea446a46e" category="paragraph">必须初始化新创建的卷。系统可以使用以下两种模式之一进行初始化：即即时可用格式(Immediate Available Format、IAF)后台初始化过程或脱机过程。</block>
   <block id="b1c4b88d281bea242ba9cbb2fc92f27f" category="paragraph">将卷映射到主机时、它会强制该组中所有初始化的卷过渡到后台初始化。此后台初始化过程允许并发主机I/O、这有时可能非常耗时。</block>
   <block id="4eca01072b181a01596e3bbd4352155a" category="paragraph">如果未映射卷组中的任何卷、则会执行脱机初始化。脱机过程比后台进程快得多。</block>
-  <block id="0c6710fd70e8f6dfb7dc7c5ef665fd39" category="summary">在创建卷期间、系统会提示您提供有关工作负载使用情况的信息。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。或者、您也可以在卷创建序列中跳过此步骤。</block>
   <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">选定工作负载对卷创建有何影响？</block>
   <block id="313e2c8f533507666d0259a50f56b9d4" category="paragraph">在创建卷期间、系统会提示您提供有关工作负载使用情况的信息。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。或者、您也可以在卷创建序列中跳过此步骤。</block>
   <block id="ab699fec90fd6cda5e110bb5189e9178" category="paragraph">工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。对于某些应用程序、系统会将工作负载配置为包含具有类似底层卷特征的卷。这些卷特征会根据工作负载支持的应用程序类型进行优化。例如、如果您创建了一个支持Microsoft SQL Server应用程序的工作负载、然后为该工作负载创建了卷、则底层卷特征将进行优化以支持Microsoft SQL Server。</block>
@@ -1672,7 +1664,6 @@
   <block id="9e58bf91c4db2768afe12a38561fb7ee" category="list-text">VMware ESXi®(适用于要与虚拟机文件系统结合使用的卷)</block>
   <block id="978ec6001b2172ad0515b162a6b92721" category="paragraph">您可以使用添加/编辑卷对话框查看建议的卷配置以及编辑、添加或删除系统建议的卷和特征。</block>
   <block id="2f80ce597e2c0c00e53a627a39a89400" category="list-text">*其他*(或不支持特定卷创建的应用程序)— 其他工作负载使用的卷配置、您必须在创建与特定应用程序无关的工作负载时手动指定、或者如果您要在存储阵列上使用的应用程序没有内置优化功能、则必须手动指定。您必须使用添加/编辑卷对话框手动指定卷配置。</block>
-  <block id="bbe3b633d8eb778210704db7ffbfa4f0" category="summary">容量警报指示何时向池添加驱动器。池需要足够的可用容量才能成功执行存储阵列操作。您可以通过将System Manager配置为在池的可用容量达到或超过指定百分比时发送警报来防止这些操作中断。</block>
   <block id="b66879679e0a456d131df0dfbdb9fb95" category="doc">容量警报为何重要？</block>
   <block id="36b833228459c54e9caad4c4ebad3dad" category="paragraph">在使用*池自动配置*选项或*创建池*选项创建池时、可以设置此百分比。如果选择自动选项、则默认设置会自动确定何时接收警报通知。如果您选择手动创建池、则可以确定警报通知设置；如果愿意、也可以接受默认设置。您可以稍后在菜单：Settings[警报]中调整这些设置。</block>
   <block id="2e7fdb8bc40f6a8c60ac3763b5af0b1d" category="paragraph">当池中的可用容量达到指定百分比时、将使用您在警报配置中指定的方法发送警报通知。</block>
@@ -1766,8 +1757,6 @@
   <block id="3e5cc3257f1985b382415a4fab7c65d9" category="list-text">选择*不常见任务*、然后选择*启用资源配置*或*禁用资源配置*。</block>
   <block id="057fd6d85219203435ea065ff7eeca02" category="list-text">在对话框中、确认操作。</block>
   <block id="a12dd8ae911fabfd99caece66bd2bab2" category="admonition">*如果您重新启用DULBE*-后台操作完成后、您可能需要重新启动主机以检测到DULBE*配置更改、然后重新挂载所有文件系统。</block>
-  <block id="13681cec74a14e3099d5f047f880fe52" category="summary">具有已启用DA的基础卷的Snapshot卷不能分配给不支持数据保证(Data Assurance、DA)的主机。要将快照卷分配给不支持DA的主机、必须先在基础卷上禁用DA。"</block>
-  <block id="1940b3e4d69d728f35065944d4986514" category="doc">为什么看不到我的所有卷、主机或主机集群？</block>
   <block id="f956e41235aa6de0ef7cf1901fa9a994" category="paragraph">具有已启用DA的基础卷的Snapshot卷不能分配给不支持数据保证(Data Assurance、DA)的主机。您必须先在基础卷上禁用DA、然后才能将快照卷分配给不支持DA的主机。</block>
   <block id="92fc66f9534d94b4859793638454d6ee" category="paragraph">对于要将快照卷分配到的主机、请考虑以下准则：</block>
   <block id="934321fee1dda599a0c218c9b94c7e4e" category="list-text">如果主机通过不支持DA的I/O接口连接到存储阵列、则该主机将不支持DA。</block>
@@ -1863,7 +1852,6 @@
   <block id="da2f488d54ebbc0f82f7d3a45c729f04" category="list-text">查看对话框中的文本、然后确认操作。</block>
   <block id="bc4936c78429e0f85dfa04f979250b01" category="paragraph">驱动器在硬件页面上以粉色显示、表示它现在是热备用磁盘。</block>
   <block id="0573d9ce089aa1db49a5c1452140a569" category="paragraph">如果RAID 1、RAID 5或RAID 6卷组中的驱动器发生故障、控制器会自动使用冗余数据将故障驱动器中的数据重建到热备用磁盘。</block>
-  <block id="e3745a2a50cbf1b7fb00b47442215710" category="summary">对于EF300和EF600系统、可以将卷设置为支持512字节或4KiB块大小(也称为"存储器大小")。您必须在创建卷期间设置正确的值。如果可能、系统会建议适当的默认值。</block>
   <block id="fb5754cb7d8aec1ca725e7242d365730" category="doc">关于主机块大小要求、我需要了解哪些信息？</block>
   <block id="e5e425d8ab1cbef0e34a067f0d88d470" category="paragraph">对于EF300和EF600系统、可以将卷设置为支持512字节或4KiB块大小(也称为"扇区大小")。您必须在创建卷期间设置正确的值。如果可能、系统会建议适当的默认值。</block>
   <block id="f4aa667b118a0a334c4fa467de995fc8" category="paragraph">在设置卷块大小之前、请阅读以下限制和准则。</block>
@@ -1998,7 +1986,6 @@
   <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">不适用</block>
   <block id="22d03e4758985a5a5d12b6ba4e387311" category="paragraph">如果池或卷组中的驱动器已发生故障、则不会保持磁盘架/抽屉丢失保护。在这种情况下、如果无法访问某个驱动器架或抽盒、进而无法访问池或卷组中的另一个驱动器、则会导致数据丢失。</block>
   <block id="726550ac9f3a3c80815ec14c73720e62" category="summary">您只能将预留容量减少到用于增加的容量。只能按与添加成员卷相反的顺序删除为其预留的容量。</block>
-  <block id="a30ad4433e63d5f3d62023d4c6a44eef" category="doc">为什么我不能选择另一个减少量？</block>
   <block id="54880ee7dd93a5e304efe90ee14790cf" category="paragraph">如果存在以下条件之一、则不能减少存储对象的预留容量：</block>
   <block id="34210320456ed09a6b7ab3fd7cd515d2" category="list-text">存储对象是镜像对卷。</block>
   <block id="df7cb77dac6de30904215f9c98b0ee50" category="list-text">存储对象仅包含一个用于预留容量的卷。存储对象必须至少包含两个用于预留容量的卷。</block>
@@ -2262,7 +2249,6 @@
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">此时将显示创建应用程序工作负载对话框。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">使用下拉列表选择要为其创建工作负载的应用程序类型、然后键入工作负载名称。</block>
   <block id="c6f5742708364491211254845c51e364" category="paragraph">您已准备好向创建的工作负载添加存储容量。使用*创建卷*选项为应用程序创建一个或多个卷、并为每个卷分配特定容量。</block>
-  <block id="1bf2df1e11004707e4b12d626138d3e1" category="summary">System Manager可设置可从池中删除的驱动器数量限制。</block>
   <block id="dc0cac4fc3fe8b65f61e8ceff382e740" category="doc">可以从池中删除的驱动器数量是否有限制？</block>
   <block id="7dbebcef358c2bbdbe834522ce3e1c62" category="list-text">如果池中没有足够的可用容量来容纳已删除驱动器中的数据、则在将该数据重新分配到池中的其余驱动器时、您无法删除驱动器。</block>
   <block id="913831c401c62c45e925dfafa5eb7b3c" category="list-text">一次最多可以删除60个驱动器。如果选择的驱动器超过60个、则删除驱动器选项将被禁用。如果需要删除60个以上的驱动器、请重复执行删除驱动器操作。</block>
@@ -2280,7 +2266,6 @@
   <block id="dbcdd670d3898db57d1e0ec2779c6fe2" category="list-text">根据需要接受或指定快照卷的设置、然后选择*完成*以转换快照卷。</block>
   <block id="c116e4cd3509742bd600cdb3e070db3e" category="paragraph">当快照卷的预留容量超过指定阈值时、系统会发送警报、以便您有时间增加预留容量或删除不必要的对象。</block>
   <block id="7268cb410294effa0119ff2325fdb4e1" category="summary">无法将卷移动到的任何池或卷组不会显示在列表中。</block>
-  <block id="947a640f864857e2aadd36576eb50dd7" category="doc">为什么我看不到所有池和/或卷组？</block>
   <block id="7840c3770de62c2567d5278bd0c6c7f2" category="paragraph">由于以下任一原因、池或卷组均不符合条件：</block>
   <block id="766dcd4dd0eb0d198d9b6bf6f1cd4d55" category="list-text">池或卷组池的数据保证(Data Assurance、DA)功能不匹配。</block>
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">池或卷组处于非最佳状态。</block>
@@ -2513,7 +2498,6 @@
   <block id="0427c1ca9e66629018bc1d6fa5ff6417" category="list-text">Snapshot卷或Snapshot一致性组Snapshot卷参数与先前禁用的卷参数保持不变。</block>
   <block id="6896e6ca3e93c9dff70ec981ac73d86b" category="list-text">保留快照卷或快照一致性组快照卷的原始名称。</block>
   <block id="95ddff89f7e76cf544c140d3f049b138" category="summary">如果卷是使用命令行界面(CLI)创建的、或者已从其他存储阵列迁移(导入/导出)、则卷不会与工作负载关联。</block>
-  <block id="7589dd9416261212740c49b4796da6dc" category="doc">为什么这些卷不与工作负载关联？</block>
   <block id="ad680ef054ae9c24e26f464447c727bc" category="summary">如果要确保同时在多个卷上创建快照映像、请创建快照一致性组。</block>
   <block id="0812ae221b625e1b60c1dcf2e54e93f9" category="doc">为什么要创建快照一致性组？</block>
   <block id="77213d4c9f32e500a181f1b66278d8d8" category="paragraph">例如、如果数据库由多个卷组成、并且需要保持一致才能进行恢复、则需要使用快照一致性组来收集所有卷的协调快照、并使用这些快照还原整个数据库。</block>
@@ -2609,7 +2593,6 @@
   <block id="24b6bceb168a0ddb2cf25241783ddf1d" category="paragraph">在以下情况下提醒我... (警告阈值)</block>
   <block id="ca8835a1cc4339de05fe2c0e92464d5a" category="paragraph">如果希望系统在精简卷接近分配的容量限制时生成警报、请选中此复选框。警报将发送到主页页面上的通知区域。此阈值是卷报告的容量大小的百分比。</block>
   <block id="a7f1a3b7c091f0b1860cb0371affd5b6" category="paragraph">清除此复选框可禁用警告阈值警报通知。</block>
-  <block id="d5099898b83b97d11acb716788257093" category="summary">如果在连接到存储阵列的任何iSCSI主机上设置质询握手身份验证协议(CHAP)身份验证、则必须为每个iSCSI主机重新输入该启动程序CHAP密钥。</block>
   <block id="ecc4042eed7652f76dd879b570b57e11" category="doc">如何创建CHAP密码？</block>
   <block id="17e37321365996a91a4f11718b601987" category="paragraph">如果在连接到存储阵列的任何iSCSI主机上设置质询握手身份验证协议(CHAP)身份验证、则必须为每个iSCSI主机重新输入该启动程序CHAP密钥。</block>
   <block id="3e9a4afaef61b4b0b728e7809d2fe707" category="paragraph">为此、您可以在创建主机操作中使用System Manager、也可以通过查看/编辑设置选项使用System Manager。</block>
@@ -3958,9 +3941,7 @@
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="paragraph">AutoSupport</block>
   <block id="9436a2a20c8f8554799cfa7493891181" category="paragraph">存储系统硬件包括存储阵列、控制器和驱动器。</block>
   <block id="f741797da5e817b0054ef9c0eaf6e202" category="paragraph">对象是任何逻辑或物理存储组件。逻辑对象包括卷组、池和卷。物理对象包括存储阵列、阵列控制器、主机和驱动器。</block>
-  <block id="646754995935d94c046a920e98aed63b" category="summary">System Manager支持这些浏览器版本。</block>
   <block id="a260cf8ad6a1291b0978385144000e3c" category="doc">支持哪些浏览器？</block>
-  <block id="8dec1efe38001f4587b49af677d444ac" category="summary">您可以单独使用键盘在System Manager中导航。</block>
   <block id="f44c2e0b9af76e9f2722f52a08c25e93" category="doc">什么是键盘快捷键？</block>
   <block id="ae9a8db5f7710f133e0083741b19cfe0" category="section-title">整体导航</block>
   <block id="89fd3695e7d8c39822cbec979aa00be3" category="cell">键盘快捷方式</block>
@@ -4009,7 +3990,6 @@
   <block id="8417d057d3b11e2b4066c9ed49c5d09d" category="paragraph">控制/命令+结束</block>
   <block id="c35d713def8372dd160b0ae180ceadb9" category="paragraph">关闭日期选择器而不进行选择。</block>
   <block id="013ec032d3460d4be4431c6ab1f8f224" category="paragraph">转义</block>
-  <block id="a4001dd61d7d9d8ea94055a6907f80f9" category="summary">您可以在以下帮助主题中找到有关可用显示选项的信息。</block>
   <block id="d8a6ba9a5ef05e84deee23f14a28ab46" category="doc">在哪里可以找到有关显示首选项的详细信息？</block>
   <block id="dae44576c7b1e063ed5da830d3a4f9f9" category="paragraph">要查找有关可用显示选项的信息、请执行以下操作：</block>
   <block id="313d3ca857aa69d9e4d7383aa98504b6" category="inline-link-macro">设置容量值的默认单位</block>
@@ -4085,11 +4065,8 @@
   <block id="cd580062773964aabd2ab607e90c3879" category="paragraph">驱动器擦除</block>
   <block id="974bdee2f58c358dff43f3629257cd84" category="paragraph">远程存储导入</block>
   <block id="42ae25231906c83927831e0ef7c317ac" category="list-text">断开连接</block>
-  <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">要访问AutoSupport 交付方法的配置任务、请转到"支持"&gt;"支持中心"、然后单击AutoSupport 选项卡。</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">如何配置AutoSupport 的交付方法？</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">要访问AutoSupport 交付方法的配置任务、请转到菜单：Support[支持中心]、然后单击* AutoSupport *选项卡。</block>
-  <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。</block>
-  <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">如果我看不到所有硬件组件、该怎么办？</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。</block>
   <block id="b372dad273bfadf640e39fc6f3e8aff4" category="paragraph">验证所有驱动器架是否均已正确连接。如果您不确定哪些驱动器架兼容、请联系技术支持。</block>
   <block id="b3e03781499b79199f562eb4ac600854" category="summary">主界面上的存储层次结构可提供存储阵列所管理的各种硬件组件和存储对象的有序视图。</block>
@@ -4142,7 +4119,6 @@
   <block id="b44cc8f2227561bd5c9166d7540d3bf7" category="list-text"><block ref="b44cc8f2227561bd5c9166d7540d3bf7" category="inline-link-macro-rx"></block></block>
   <block id="b47240c91c3c71e6f24291515a38e27e" category="inline-link-macro">更改密码</block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
-  <block id="0cf92f39ed774e6e03907495e7d22aae" category="doc">如果我看不到所有主机、该怎么办？</block>
   <block id="7cb5c9b7004163f1a52b20165ecce689" category="summary">Recovery Guru是System Manager的一个组件、用于诊断存储阵列问题并建议恢复过程以修复问题。</block>
   <block id="097aa9373d1177a905ff25237ef92e64" category="doc">使用Recovery Guru从问题中恢复</block>
   <block id="021f1bb83b28d41e3ee27b42fcb94b13" category="list-text">单击窗口中央顶部标记为*从_n_问题恢复*的链接。</block>
@@ -4159,7 +4135,6 @@
   <block id="e08bea33d06f32222715e3fdc7fa8842" category="summary">对于网络中的某些应用程序、例如SQL Server或Exchange、您可以定义一个工作负载来优化该应用程序的存储。</block>
   <block id="6404d6af6f191a945c98c6e22bb8a302" category="doc">什么是工作负载？</block>
   <block id="0f00e158c95683733d5268cd23a15139" category="paragraph">在创建卷期间、系统会提示您回答有关工作负载使用情况的问题解答 问题。例如、如果要为Microsoft Exchange创建卷、系统会询问您需要多少邮箱、平均邮箱容量要求是多少以及所需数据库副本的数量。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。</block>
-  <block id="4343a245fb510b33d199f2e5fae7a540" category="summary">确定应用程序后、System Manager会自动建议一种卷配置、以便根据应用程序类型优化存储。</block>
   <block id="c56a19e88f72c77c4ab3e3911e485975" category="doc">识别应用程序如何帮助我管理存储阵列？</block>
   <block id="e8d880726c1e775bd5008cff6e09ad34" category="paragraph">按应用程序优化卷可以提高数据存储操作的效率。卷配置包括I/O类型、区块大小、控制器所有权以及读写缓存等特征。此外、您还可以按应用程序和工作负载查看性能数据、以评估应用程序及其关联工作负载的延迟、IOPS和MiB/秒数。</block>
   <block id="720fa4ee2f7b9beaa1e33c121c9216e8" category="summary">System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。</block>
@@ -4218,7 +4193,6 @@
   <block id="45cd485cdbe2710a251414286fe4b24b" category="paragraph">自签名证书由实体的所有者进行验证。此数据文件包含一个专用密钥、可确保通过HTTPS连接在服务器和客户端之间以加密形式发送数据。它还包括由字母和数字组成的数字签名。自签名证书与CA签名证书使用的信任链不同、因此最常用于测试环境。也称为"预安装"证书。</block>
   <block id="da60f79907700d2e72e415264e4c359f" category="paragraph">服务器证书</block>
   <block id="7d2ec4b7897de79a42594fe0b806fedf" category="paragraph">服务器证书位于证书链的底部。它标识您的特定实体、例如网站或其他设备。存储系统中的每个控制器都需要一个单独的服务器证书。</block>
-  <block id="3356c7ecaf79b816577caeabeb922c52" category="summary">下表列出了可用于配置和管理基于InfiniBand会话的iSER的System Manager功能。</block>
   <block id="cbe7bc079476646f06b8968551839760" category="doc">要通过InfiniBand配置或诊断iSER、还需要执行哪些操作？</block>
   <block id="34e1ef42c23e055b03535998dc9a10ea" category="paragraph">只有当存储阵列的控制器包含基于InfiniBand的iSER主机管理端口时、iSER over InfiniBand设置才可用。</block>
   <block id="2bb0ddaccd7b20c12f4ac0ca303c3645" category="paragraph">通过InfiniBand端口配置iSER</block>
@@ -4333,7 +4307,6 @@
   <block id="43d98acc1f21987fc8fb29231b237901" category="list-text">选择*添加其他社区*。</block>
   <block id="5e4cda4efb19475c15e558484ccd344c" category="list-text">输入新的社区名称、然后单击*保存*。</block>
   <block id="b043d095facd375f83cfb984bc617519" category="paragraph">新社区名称将显示在警报页面的SNMP选项卡中。</block>
-  <block id="02b62fe21218b105202354e3ea442287" category="summary">EF600存储阵列可以包括两个HIC—一个外部HIC和一个内部HIC。</block>
   <block id="2e82a1559209519df8d86c81aa9d6198" category="doc">为什么一个物理端口有两组参数？</block>
   <block id="efae713b5876ddd9d5278ed17ac910d8" category="paragraph">EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。</block>
   <block id="8db062752d20414202ee8dcfe8b79167" category="paragraph">在此配置中、外部HIC连接到内部辅助HIC。您可以从外部HIC访问的每个物理端口都具有来自内部HIC的关联虚拟端口。</block>
@@ -4979,8 +4952,6 @@
   <block id="31f7661c9d292dbdf3fe50fc1b901b4c" category="paragraph">DCBX PFC状态</block>
   <block id="944a7b1c0168a6d53cf9a53188e63035" category="paragraph">特定端口的基于优先级的流量控制(PFC)状态。此值为enabled或disabled。</block>
   <block id="c8a0ab123e3cad5a7b689f89639753e6" category="admonition">您可以在状态捕获文件中找到其他DCBX TLV统计信息。</block>
-  <block id="ad7b6f0b788abb4027a97020a34740d3" category="summary">如果在尝试登录到System Manager时收到错误、请查看这些可能的原因。</block>
-  <block id="b6026ee3aca4cc03c6a1bf51a326a2d1" category="doc">为什么我无法登录？</block>
   <block id="b9197487d195b0270141242d84cef938" category="paragraph">System Manager登录错误可能是由于以下原因之一：</block>
   <block id="d1ac1dfa34b7d51990947002ee6adb2d" category="list-text">您输入的用户名或密码不正确。</block>
   <block id="7c5ba619c861a80ef986b7207b06fe08" category="list-text">您的权限不足。</block>
@@ -5373,7 +5344,6 @@
   <block id="079ca23dfe46ca9964db968e31f50d58" category="paragraph">如果您的系统运行的是Red Hat Enterprise Linux 6或SUSE Linux Enterprise Server 11、请联系技术支持。</block>
   <block id="21004bc9953099033e5395c4fc593d98" category="list-text">更新并配置`/etc/multipath.conf文件`。</block>
   <block id="b21eb279fc105b8614fd3cf19e7fee68" category="list-text">确保适用的供应商和产品的`renet_attached _device_handler`和`detect_prio`均设置为`yes`、或者使用默认设置。</block>
-  <block id="e6f9c55029196b7648834c36ed0e3472" category="summary">如果您发现System Manager中显示的时间戳与管理客户端(通过浏览器访问System Manager的计算机)中显示的时间戳不对齐、则应手动同步存储阵列中的控制器时钟。只有在System Manager中未启用NTP (网络时间协议)时、才需要执行此任务。</block>
   <block id="d0e1c48d259a397068da011bc9e48355" category="doc">何时应同步存储阵列时钟？</block>
   <block id="f9a315def8f285bce635c80c1bf7c96d" category="paragraph">强烈建议您使用NTP服务器、而不是手动同步时钟。NTP会使用SNTP (简单网络时间协议)自动将时钟与外部服务器同步。</block>
   <block id="f7c2a6279f30ed31e705988dae3b0a7a" category="paragraph">您可以从同步存储阵列时钟对话框中检查同步状态、该对话框可从系统页面访问。如果对话框中显示的时间不匹配、请运行同步。您可以定期查看此对话框、此对话框指示控制器时钟显示的时间是否已偏离并不再同步。</block>
@@ -5395,7 +5365,6 @@
   <block id="9e98d98388e5e090ae8059025905090d" category="summary">如果丢失安全密钥信息并且没有备份、则在重新定位启用了安全保护的驱动器或升级控制器时可能会丢失数据。您需要使用安全密钥来解锁驱动器上的数据。</block>
   <block id="8f325c9d4a8f4fb18367ff5b96e3ca31" category="doc">为什么记录安全密钥信息很重要？</block>
   <block id="3e6a61893d1333f5d128659f56bee74d" category="paragraph">请务必记录安全密钥标识符、关联的密码短语以及安全密钥文件保存在本地主机上的位置。</block>
-  <block id="f2ebc677a5b447998da1a046adcc46f0" category="summary">存储阵列的控制器会将其缓存组织为块、这些块是一个内存块、大小可以为8、16、32 KiB。存储系统上的所有卷共享相同的缓存空间；因此、这些卷只能具有一个缓存块大小。</block>
   <block id="16fa5803900906142586eefc2643c7e8" category="doc">什么是缓存块大小？</block>
   <block id="e49b598ec0d819934f021980302ed36e" category="paragraph">存储阵列的控制器将其缓存组织为"块"、这些块是一个内存块、大小可以为8、16、32 KiB。存储系统上的所有卷共享相同的缓存空间；因此、这些卷只能具有一个缓存块大小。</block>
   <block id="3a60a217f8b5d35351731337da2590da" category="paragraph">应用程序使用不同的块大小、这可能会影响存储性能。默认情况下、System Manager中的块大小为32 KiB、但您可以将该值设置为8、16、32 KiB。对于文件系统或数据库应用程序来说、较小的大小是一个不错的选择。对于需要大型数据传输、顺序I/O或高带宽(如多媒体)的应用程序来说、较大的大小是一个不错的选择。</block>
@@ -5434,7 +5403,6 @@
   <block id="7c5ee15e4160328ac534662fe8dca0f5" category="list-text">如果将协议更改为安全TLS协议(从UDP或TCP)、请单击*导入可信证书*以上传CA证书。</block>
   <block id="770dce1cc3b932ae22d1e055da6efb57" category="list-text">要测试与存储阵列的新连接、请选择*全部测试*。</block>
   <block id="0a81e8f050a6c392eeb7e801c574d17a" category="paragraph">配置后、所有新审核日志都会发送到系统日志服务器。不会传输先前的日志。</block>
-  <block id="a8e2e2e6f94a627dfb39ec0a4930c961" category="summary">驱动器设置窗口包含有关驱动器安全属性的信息。读/写可访问是驱动器数据已锁定时显示的属性之一。</block>
   <block id="acd4d22fedd48d49e5eaf65df648efcf" category="doc">什么是读/写可访问性？</block>
   <block id="08e4cde4dec18bcf34720085b135053b" category="paragraph">驱动器设置窗口包含有关驱动器安全属性的信息。"读/写可访问"是驱动器数据已锁定时显示的属性之一。</block>
   <block id="5d0ace8d3a4aed739aa36c5cfff181ca" category="paragraph">要查看驱动器安全属性、请转到硬件页面。选择一个驱动器、单击*查看设置*、然后单击*显示更多设置*。如果驱动器已解锁、则页面底部的读/写可访问属性值为*是*。驱动器锁定时、读/写可访问属性值为*否、安全密钥无效*。您可以通过导入安全密钥来解锁安全驱动器(转到菜单：设置(系统&gt;解锁安全驱动器)。</block>
@@ -5593,7 +5561,6 @@
   <block id="c218ac303723dc9e5238aefa1b3a7ff7" category="summary">使用更改默认主机操作系统设置更改存储阵列级别的默认主机类型。通常、在将主机连接到存储阵列或连接其他主机之前、您会更改默认主机类型。</block>
   <block id="f13b8836ca590f08dc665390028349e3" category="list-text">向下滚动到*其他设置*、然后单击*更改默认主机操作系统类型*。</block>
   <block id="ea158c98dbcda1af17cc1edde6ce9882" category="list-text">选择要用作默认值的主机操作系统类型。</block>
-  <block id="621f5a5f95be39f6dfd96721467576f1" category="summary">当缓存中未写入的数据量达到某个级别时、控制器会定期将缓存的数据写入驱动器。此写入过程称为刷新。</block>
   <block id="2913e0bdf47a84de45d1801f60bd03ec" category="doc">什么是缓存刷新？</block>
   <block id="995e13919b56bf032eea1b80b032776e" category="paragraph">当缓存中未写入的数据量达到某个级别时、控制器会定期将缓存的数据写入驱动器。此写入过程称为"刷新"。</block>
   <block id="b722587f8397c4f92f14a10a2d19a73d" category="paragraph">控制器使用两种算法来刷新缓存：基于需求和基于年龄。控制器使用基于需求的算法、直到缓存的数据量降至缓存刷新阈值以下。默认情况下、当80%的缓存正在使用时、将开始刷新。</block>
@@ -5661,7 +5628,6 @@
   <block id="109aa3a3a3d05949e97d84d0b42bb0ca" category="list-text">单击*浏览*按钮、首先选择根证书和中间证书文件、然后选择控制器的每个服务器证书。两个控制器的根文件和中间文件相同。对于每个控制器、只有服务器证书是唯一的。如果从外部工具生成CSR、则还必须导入随CSR一起创建的私钥文件。</block>
   <block id="5b65c7f3e78be7ecbb752287c80522ff" category="paragraph">文件名将显示在对话框中。</block>
   <block id="8b37291827ebe2e6f281d76aa03af478" category="paragraph">会话将自动终止。要使证书生效、您必须重新登录。重新登录后、新的CA签名证书将用于会话。</block>
-  <block id="6f0a8cf9a1855b3b4a97c825f0dc2353" category="summary">在System Manager中进行某些更改时、例如切换管理界面或使用SAML进行身份验证方法、某些外部工具和功能可能会受到限制、无法使用。</block>
   <block id="6c447bc20946705a74ecd7374bbfb3d9" category="doc">哪些外部管理工具可能会受到此更改的影响？</block>
   <block id="f54dbfa752935857fdfec4346eb4879a" category="section-title">管理接口</block>
   <block id="d4b335926e3028e39907d1a8db8d868b" category="paragraph">除非启用旧版管理接口设置、否则直接与旧版管理界面(符号)通信的工具(例如SANtricity SMI-S Provider或OnCommand Insight (OCI))无法正常工作。此外、如果禁用了此设置、则不能使用传统CLI命令或执行镜像操作。</block>
@@ -5680,7 +5646,6 @@
   <block id="c0d224a4fed485c51514cc07cc810891" category="list-text">如果未为本地用户密码设置最小密码长度、则可以选中此框以要求选定用户输入密码以访问存储阵列、然后您可以键入选定用户的新密码。</block>
   <block id="582cfc64006cc5e7b3b25ffe837b384c" category="list-text">输入本地管理员密码、然后单击*更改*。</block>
   <block id="8f67454616784ed58a0ed5a40e3b22e9" category="paragraph">如果用户当前已登录、则更改密码会导致用户的活动会话终止。</block>
-  <block id="a6f7affe4dc5be0cadf5dc1e51b4de98" category="summary">下表列出了可用于配置和管理基于InfiniBand的NVMe会话的System Manager功能。</block>
   <block id="f579a5c2bbaa968b2ae0227f6d61ee8b" category="doc">要配置或诊断基于InfiniBand的NVMe、还需要执行哪些操作？</block>
   <block id="f354dc8aa2d80d21ecf46a214b9dc749" category="paragraph">只有当存储阵列的控制器包含基于InfiniBand的NVMe端口时、基于InfiniBand的NVMe设置才可用。</block>
   <block id="a03fb9ed3e23d41ff2ce19057c3e8d50" category="list-text">选择 * 配置基于 InfiniBand 端口的 NVMe * 。</block>
@@ -5797,7 +5762,6 @@
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">选择菜单：设置[警报]。</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">输入新的社区名称、然后单击*保存*。团体名称只能包含可打印的ASCII字符。</block>
   <block id="828a1a17714ff7fbe66b286e64f2e8e2" category="paragraph">警报页面的SNMP选项卡会显示更新后的社区名称。</block>
-  <block id="911b263427c2a3d45b55258250b4f85d" category="summary">使用System Manager、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器来检查已撤销的证书、而不是上传证书撤消列表(Certificate Revocation List、CRL)。</block>
   <block id="e1338191b3f39c31a394336c2fb52f36" category="doc">关于证书撤消检查、我需要了解哪些信息？</block>
   <block id="fb43529f07beddec07e39c4b3a09bd7c" category="paragraph">已撤销的证书不应再受信任。证书可能会因多种原因而被撤销；例如、如果证书颁发机构(CA)颁发的证书不正确、私钥被泄露或标识的实体不符合策略要求。</block>
   <block id="0fb970899dcd3fadfd680340b731758b" category="paragraph">在System Manager中与OCSP服务器建立连接后、存储阵列将在连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时执行撤消检查。存储阵列会尝试验证这些服务器的证书、以确保它们未被撤消。然后、服务器将为该证书返回"good "、"revoked"或"unknown"值。如果证书已撤销或阵列无法与OCSP服务器联系、则连接将被拒绝。</block>
@@ -6065,7 +6029,6 @@
   <block id="2418af550cb63dc05a2e61b1e1914d6a" category="list-text">分配或取消分配热备用磁盘。</block>
   <block id="82c2216ff8483a5753f647df799d5573" category="list-text">擦除驱动器。</block>
   <block id="bbe66c4be17769c6d4513643761ffdc8" category="summary">随时修改或升级DHCP服务器、并且与当前存储阵列和要使用的存储阵列相关的DHCP信息已更改、请刷新此服务器。</block>
-  <block id="94788b711f7e65635e443787fd7a4d64" category="doc">何时应从DHCP服务器刷新端口配置或iSNS服务器？</block>
   <block id="9b0798ee6300bf2c7b2901a68b97fe16" category="paragraph">具体而言、如果您知道DHCP服务器将分配不同的地址、请从DHCP服务器刷新端口配置或iSNS服务器。</block>
   <block id="ed5f3843db7d9e3eef32391affc01b48" category="paragraph">刷新端口配置会对该端口上的所有iSCSI连接造成破坏。</block>
   <block id="a3e48a58e140d82f16be4f08bc7cda9e" category="summary">默认情况下、控制器在发货时会在两个网络端口上启用DHCP。您可以分配静态IP地址、使用默认静态IP地址或使用DHCP分配的IP地址。您也可以使用IPv6无状态自动配置。</block>
@@ -6622,12 +6585,9 @@
   <block id="e292f5857d049f6cadc79561b997df69" category="paragraph">多路径驱动程序检测到已还原的首选路径可能需要长达10分钟的时间。</block>
   <block id="b8fcbf83107c708efa791bdefc4d5b14" category="paragraph">在收到每个卷的I/O请求时、最初由该控制器拥有的任何卷都会自动移回控制器。在某些情况下、您可能需要使用*重新分布卷*命令手动重新分布卷。</block>
   <block id="6173d078b9110f3bc6b143913e3eb5c3" category="summary">网络配置的默认方法是动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)。除非您的网络没有DHCP服务器、否则请始终使用此选项。</block>
-  <block id="8bc7a4f0cccf7a456c1c5e4160d10f9a" category="doc">我可以选择以下哪项—DHCP或手动配置？</block>
-  <block id="71c3af242ccaa8ae2337b0f30267ab9c" category="summary">使用带外管理时、您必须为每个控制器设置网络配置、包括其Internet协议(IP)地址、子网掩码(子网掩码)和网关。</block>
   <block id="2f7ce553a41c640f56c7844a348637c6" category="doc">为什么需要更改控制器网络配置？</block>
   <block id="5e835244a570835c8ccafca9cbc311c0" category="paragraph">使用带外管理时、您必须为每个控制器设置网络配置、包括其Internet协议(IP)地址、子网掩码(子网掩码)和网关。</block>
   <block id="c9c710b8643a9328d401dbe32e5382d0" category="paragraph">您可以使用动态主机配置协议(DHCP)服务器设置网络配置。如果您不使用DHCP服务器、则必须手动输入网络配置。</block>
-  <block id="89e384381ed0570ab577beaf9c2e601b" category="summary">存储系统处于非最佳模式是由于系统配置无效状态所致。尽管处于此状态、但完全支持对现有卷的正常I/O访问；但是、System Manager将禁止某些操作。</block>
   <block id="574d0bc88edf7298a47d4aa1e588a886" category="doc">为什么存储系统处于非最佳模式？</block>
   <block id="4daa9d5961d8e3a7d375183df715a565" category="paragraph">存储系统可能会过渡到"系统配置无效"、原因如下：</block>
   <block id="87db37c136e3231b71d5b7b9a2777a60" category="list-text">此控制器不合规、可能是因为其子型号ID (SMID)代码不正确或已超过高级功能限制。</block>
@@ -6696,7 +6656,6 @@
   <block id="7b9ce18ef057f72de83e1ebbee094643" category="paragraph">由于主卷、二级卷或镜像预留容量出现故障、异步镜像操作无法正常运行。</block>
   <block id="af437ac3df15f94bfea509017c51f1aa" category="paragraph">在两个存储阵列之间恢复通信且镜像配置的两端协调镜像参数时、系统会检测到孤立的镜像对卷。</block>
   <block id="02450c956f6e4f0ee6eb09e6d2e2940b" category="paragraph">镜像对处于stopped状态、因为镜像一致性组处于系统暂停状态。</block>
-  <block id="b3fd593fc883dfb95bb20995275cb9a2" category="summary">对于快照操作、预留容量通常为基础卷的40%、对于异步镜像操作、预留容量通常为基础卷的20%。通常、此容量足以满足要求。</block>
   <block id="9e5663f73d80960408415d0ced12887a" category="doc">为什么要更改此百分比？</block>
   <block id="fe1327f33625d09259d474174d0735ed" category="paragraph">对于快照操作、预留容量通常为基础卷的40%、对于异步镜像操作、预留容量通常为基础卷的20%。</block>
   <block id="7ef46edfdc71263097118ce1f1a8a2c2" category="paragraph">通常、此容量足以满足要求。所需容量因向基础卷写入I/O的频率和大小以及要使用存储对象的副本服务操作的时间而异。</block>
@@ -6719,7 +6678,6 @@
   <block id="84b8f6a301b359842aa2361f6749354b" category="list-text">*远程恢复点*—设置一个时间限制、超过此时间限制后、System Manager将发送一条警报、指示远程存储阵列上的恢复点数据早于您定义的时间限制。定义上次更新结束后的时间限制。</block>
   <block id="3f5765f676e00ae9e68055c88a7402d2" category="list-text">"*预留容量阈值"*—定义预留容量、System Manager将在该容量时发送警报、指出您即将达到预留容量阈值。按剩余容量百分比定义阈值。</block>
   <block id="d388a5a56fc0f21659f7e385913b7385" category="paragraph">System Manager会更改镜像一致性组中每个镜像对的同步设置。</block>
-  <block id="b47b71858322e411094e44ec1a37135c" category="summary">您可以在Unified Manager界面中配置镜像对、然后在System Manager中管理这些对。</block>
   <block id="65377e804f196feceee3ad92b112155f" category="doc">同步镜像—在创建镜像对之前、我需要了解哪些信息？</block>
   <block id="00e8b06da64441679d15d4f0ec472c62" category="paragraph">创建镜像对之前、请遵循以下准则：</block>
   <block id="974faf4582be88d5166f32c03cc6e7c8" category="list-text">您必须有两个存储阵列。</block>
@@ -6741,8 +6699,6 @@
   <block id="e6eee9d75412719ac4162bfeb0bae72e" category="paragraph">如果本地存储阵列无法与远程存储阵列通信、则在请求角色更改时、系统会显示无法联系存储阵列对话框、但无法联系远程存储阵列。单击*是*强制更改角色。</block>
   <block id="f13bfae77b9e3fa6ae100d6085b12771" category="paragraph">System Manager将执行以下操作：</block>
   <block id="33dd1e24349af0b8ee7d623742e70d5a" category="list-text">如果可以访问镜像对中的关联卷、则卷之间的角色会发生变化。System Manager会将镜像对中的二级卷提升为主角色、或者将镜像对中的主卷降级为二级角色(具体取决于您的选择)。</block>
-  <block id="09aa31a04bb22f0e3a974409e4760569" category="summary">镜像是在Unified Manager界面中配置的。</block>
-  <block id="1f886fa10f9979df037b0e533f029308" category="doc">为什么我无法访问所选的镜像功能？</block>
   <block id="bf28bf2251d42b0426dd4f0ec93a91cd" category="paragraph">要在两个阵列之间启用和配置镜像、请验证以下内容：</block>
   <block id="f7fa64ef9537f8a03850d1c113c23923" category="list-text">Web服务代理服务必须正在运行。(Unified Manager与Web服务代理一起安装在主机系统上。)</block>
   <block id="262d5c4ea8c35a3f2e6e65685f833785" category="list-text">Unified Manager必须通过HTTPS连接在本地主机上运行。</block>
@@ -6791,7 +6747,6 @@
   <block id="1e25cceb69d635cc8209010eaf1067e3" category="list-text">*可选：*您可以在System Manager中重新计划或手动执行后续数据传输。只有新的块和更改的块才会从主卷传输到二级卷。</block>
   <block id="fc77b013c096ad100da05dcf6981f28b" category="paragraph">由于异步复制是定期进行的、因此系统可以整合更改的块并节省网络带宽。对写入吞吐量和写入延迟的影响最小。</block>
   <block id="9a40e4909c217e4f4c325f3a320ac93a" category="summary">为异步镜像对创建二级卷时、系统会显示一个列表、其中列出了该异步镜像对符合条件的所有池和卷组。不符合使用条件的任何池或卷组不会显示在该列表中。</block>
-  <block id="15f94db58250536332ae255a199d8cc3" category="doc">为什么我看不到所有池和卷组？</block>
   <block id="c55e0fc2f650b6c29bee97d6d925791c" category="paragraph">由于以下任何原因、池或卷组可能不符合条件。</block>
   <block id="38c3daa178b71dd0ef1047cd80837346" category="list-text">池或卷组的安全功能不匹配。</block>
   <block id="cdb782ab256ef3f2668dbe0a875bf251" category="summary">同步优先级用于定义为同步活动分配的处理时间与系统性能相关。</block>
@@ -6865,7 +6820,6 @@
   <block id="a5f1724da2375d10d5b700c9a4e1b4c9" category="paragraph">有时、远程写入会因控制器重置或存储阵列重新启动而中断、然后才能写入二级卷。在这种情况下、控制器不需要对镜像对执行完全同步。</block>
   <block id="ef7c0136fda8298ef70bc3f610d1faed" category="paragraph">如果在控制器重置期间远程写入中断、则主端的新控制器所有者将读取存储在首选控制器所有者的预留容量卷中的日志文件中的信息。然后、新控制器所有者将受影响的数据块从主卷复制到二级卷、从而无需对镜像卷进行完全同步。</block>
   <block id="1866ca64bf91acf982f0825105cd98a1" category="summary">您只能以4 GiB为增量增加预留容量。</block>
-  <block id="5e79bfcdaf2980a36b13dea84317bc33" category="doc">为什么不能使用请求的容量增加预留容量？</block>
   <block id="ce83ffa7dc75c0de0405ab5e24abcecf" category="paragraph">对于异步镜像操作、预留容量通常为基础卷的20%。如果您认为基础卷会发生许多更改、或者存储对象的复制服务操作的预计预期寿命很长、请使用较高的百分比。</block>
   <block id="9b82b2833fcb1841064ceba7e4c4a845" category="summary">通常、当您收到警告、指出镜像对的预留容量已满时、应增加预留容量。您只能以8 GiB为增量增加预留容量。</block>
   <block id="8ae525b549c567cd3fda0ba8a3890d67" category="doc">在增加镜像对卷上的预留容量之前、我需要了解哪些信息？</block>
@@ -6986,8 +6940,6 @@
   <block id="9c1e5a0d898296dcc1c8ff70f8a25cff" category="list-text">首先删除本地存储阵列上的镜像一致性组、然后删除远程存储阵列上的镜像一致性组。</block>
   <block id="b9d1ca30f010ae5367a9e3dba49d0414" category="list-text">从镜像一致性组表中删除镜像一致性组。</block>
   <block id="85f7d422d4e4be8f81ad54bed0f8d0ce" category="paragraph">有时、可能会从本地存储阵列成功删除镜像一致性组、但通信错误会阻止从远程存储阵列中删除镜像一致性组。在这种情况下、您必须访问远程存储阵列以删除相应的镜像一致性组。</block>
-  <block id="6dfc033921a7d8d6b90bc5145f989f1e" category="summary">如果iSCSI端口的IP地址发生更改、而本地存储阵列无法与远程存储阵列通信、则可以更新远程存储阵列的IP地址。</block>
-  <block id="6f04c9a202bb634f610d093a0d5d0495" category="doc">为什么要更新远程存储阵列的IP地址？</block>
   <block id="4eb18d2e1000f44c1aa7bf303324ef52" category="paragraph">如果iSCSI端口的IP地址发生变化、而本地存储阵列无法与远程存储阵列通信、则可以更新远程存储阵列的IP地址。</block>
   <block id="fd6fd032baf66907fa006af6877faa89" category="paragraph">在与iSCSI连接建立异步镜像关系时、本地和远程存储阵列会在异步镜像配置中存储远程存储阵列的IP地址记录。如果iSCSI端口的IP地址发生变化、尝试使用该端口的远程存储阵列将遇到通信错误。</block>
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">IP地址已更改的存储阵列会向与配置为通过iSCSI连接进行镜像的镜像一致性组关联的每个远程存储阵列发送一条消息。接收此消息的存储阵列会自动更新其远程目标IP地址。</block>
@@ -7061,7 +7013,6 @@
   <block id="851aa6e23b0323e905fc4b18b1ac93ad" category="list-text">控制器专用于异步镜像通信的HBA主机通道现在可以接受主机读写请求。</block>
   <block id="f61b34655c89283503c961e53e47178a" category="list-text">此存储阵列中的所有卷都无法作为主卷或二级卷参与镜像关系。</block>
   <block id="7b35335a6eefe537ec49adb2a524da1e" category="summary">在远程存储阵列上选择二级卷时、列表将显示该镜像对的所有符合条件的卷。</block>
-  <block id="d58e89d803ae3ca8b3fded751d8dac3f" category="doc">异步镜像—为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="20f1ebedc229b82bc1ca089db22f742e" category="paragraph">不符合使用条件的任何卷不会显示在该列表中。由于以下任一原因、卷可能不符合条件：</block>
   <block id="da6c861252922d5dba9aca194ca15178" category="list-text">此卷不是最佳卷。</block>
   <block id="4e30fb2503bfbf3dbe8e11d9e48208d0" category="list-text">此卷已加入镜像关系。</block>
@@ -7081,7 +7032,6 @@
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">启动对选定镜像一致性组中所有镜像对上的数据的重新同步。</block>
   <block id="99e4c2d5cb84c6dc00d6f12bdfee23ca" category="list-text">将修改后的数据从本地存储阵列更新到远程存储阵列。</block>
   <block id="50fd10ff08567255543d64e6fdfd287a" category="summary">为镜像对选择主卷时、列表将显示所有符合条件的卷。</block>
-  <block id="d651b1b5dea76bd9febe498feca9d0aa" category="doc">异步镜像—为什么我看不到所有卷？</block>
   <block id="6e6d3781c3d5e89dac9c7a5286567157" category="paragraph">不符合使用条件的任何卷不会显示在该列表中。由于以下任一原因、卷可能不符合条件：</block>
   <block id="e162c795f41b2f54f4cc4318a9da4a18" category="list-text">对于精简卷、必须启用自动扩展。</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">如果您在无法由SANtricity System Manager管理的旧存储阵列上创建了主卷、则可以使用System Manager在此阵列上创建二级卷。</block>
@@ -7149,7 +7099,6 @@
   <block id="11b0de4b478927556d7181ae8cb63a63" category="list-text">选择要测试的镜像对、然后选择*测试通信*。</block>
   <block id="488faf1796cf425a0749bd67b69aaeeb" category="list-text">查看结果窗口中显示的信息、如有必要、请按照指示的更正操作进行操作。</block>
   <block id="328718c90d988fb5ec16ef6a5c12f32a" category="paragraph">如果通信测试失败、则在关闭此对话框后、此测试将继续运行、直到镜像对之间的通信恢复为止。</block>
-  <block id="76c6cdf244623c861eb1e9b45de9f68d" category="doc">同步镜像—为什么我看不到所有卷？</block>
   <block id="996b3bbba1205dd996b175afc6573b9c" category="paragraph">不符合使用条件的任何卷不会显示在该列表中。由于以下任一原因、卷可能不符合条件：</block>
   <block id="991e25bd7d0d856f1cbe33745a8858c0" category="list-text">此卷是非标准卷、例如Snapshot卷或精简卷。</block>
   <block id="4c3e3eeae093b41fea312df07943a896" category="summary">同步镜像对的状态指示主卷和二级卷上的数据是否已同步。镜像状态与镜像对中卷的组件状态无关。</block>
@@ -7202,7 +7151,6 @@
   <block id="e9f4d06ac1b68bbf0025e53cb0a0d47c" category="list-text">正在镜像对上手动暂停同步</block>
   <block id="7782187a2d5e2cdc939698c13e7a75be" category="section-title">孤立镜像对</block>
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">如果在一端(主端或二级端)删除了成员卷、而在另一端未删除、则会存在孤立的镜像对卷。</block>
-  <block id="3495d24d327284018c764d189eb19ebe" category="doc">同步镜像—为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">您可以测试通信链路、以诊断本地存储阵列与与镜像一致性组关联的远程存储阵列之间可能存在的通信问题。</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">要测试的镜像一致性组必须位于本地和远程存储阵列上。</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">您可以运行四种不同的测试：</block>
@@ -7243,7 +7191,6 @@
   <block id="7531a334d220ea22508e384739133ef8" category="list-text"><block ref="7531a334d220ea22508e384739133ef8" category="inline-link-macro-rx"></block></block>
   <block id="42d0992879784d7e513c56623504d02c" category="inline-link-macro">创建同步镜像对</block>
   <block id="923106106376cef736ef776f6214dfe6" category="list-text"><block ref="923106106376cef736ef776f6214dfe6" category="inline-link-macro-rx"></block></block>
-  <block id="082027bfe4130225fed98f419dcfcbee" category="doc">为什么我看不到所有卷？</block>
   <block id="d6a2f3fb02a6b5a0805cb96861b2ad88" category="list-text">对于同步镜像、镜像对中的主卷和二级卷必须是标准卷。它们不能是精简卷或快照卷。</block>
   <block id="d003fc64a90ec0d2d96a3a9a15d536f4" category="list-text">对于异步镜像、精简卷必须启用自动扩展。</block>
   <block id="0adbb67cce78097bd133a392388a4ea0" category="summary">您可以将存储配置从一个存储阵列导入到其他存储阵列。当您需要在网络中配置多个阵列时、此批处理操作可以节省时间。</block>
@@ -7512,7 +7459,6 @@
   <block id="f20f6d487c692f545d0e34b3f99face7" category="list-text">*自签名证书*</block>
   <block id="f052a72434f6bc613c169fc96093903a" category="paragraph">也可以使用自签名证书。如果管理员尝试在未导入签名证书的情况下发现阵列、则Unified Manager将显示一个错误对话框、允许管理员接受自签名证书。存储阵列的自签名证书将标记为可信、存储阵列将添加到Unified Manager中。</block>
   <block id="5e83f689355fdec866c155c6fe9b323e" category="paragraph">如果您不相信与存储阵列的连接、请选择*取消*并验证存储阵列的安全证书策略、然后再将存储阵列添加到Unified Manager。</block>
-  <block id="7f82bc53f199e7918cc64b78504c2064" category="doc">为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="8802aac967f31435c584318c847b8f96" category="paragraph">不符合使用条件的任何卷不会显示在该列表中。由于以下任一原因、卷可能不符合条件：</block>
   <block id="1e7a9162b9eda403f57543b169ec7c36" category="list-text">此卷是一个非标准卷、例如Snapshot卷。</block>
   <block id="08a038d98290bf4f3a988b5b930953b6" category="list-text">对于异步镜像、主卷和二级卷之间的精简卷属性不匹配。</block>
@@ -7718,7 +7664,6 @@
   <block id="d675ef77cef523879bf46cc81f50b333" category="paragraph">Unified Manager将执行以下操作：</block>
   <block id="0dafb34640f1fa9f320c7bf5aed1a0f2" category="admonition">如果要镜像的卷是精简卷、则在初始同步期间、只会将配置的块(已分配容量而不是报告的容量)传输到二级卷。这样可以减少完成初始同步所需传输的数据量。</block>
   <block id="44be7be255dacc165bc883399e8ce540" category="summary">在导入设置操作期间、某些存储阵列可能在目标选择对话框中不可用。</block>
-  <block id="2ec3d7bda9724dc0164af9b927fdbc28" category="doc">为什么我看不到所有存储阵列？</block>
   <block id="509271c8c60b258f298994cb7ca8944c" category="paragraph">存储阵列可能不会显示、原因如下：</block>
   <block id="c91bcce3104eb156b3cd15ae07870a24" category="list-text">固件版本低于8.50。</block>
   <block id="d42c8b73b3ccc12638f610f2623a0c09" category="list-text">存储阵列已脱机。</block>
@@ -8040,9 +7985,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">支持的浏览器和操作系统</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常见问题解答</block>
-  <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">如果我看不到所有硬件组件、该怎么办？</block>
-  <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">如果我看不到所有主机、该怎么办？</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">主接口</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">查看性能数据</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">管理接口设置</block>
@@ -8069,8 +8011,6 @@
   <block id="775b7856e9d6f75f853357d7ff4ad166" category="sidebar">更改Snapshot卷的容量</block>
   <block id="167bf1069d8793030ffca242b297158f" category="sidebar">更改容量一致性组成员卷</block>
   <block id="ab0c882e76928fd51f394b7b8f148e5f" category="sidebar">更改镜像对卷的容量设置</block>
-  <block id="d863817ffe646208af65e3a3e7270ce6" category="sidebar">为什么我不能增加我的保留容量？</block>
-  <block id="4c3ca9b61e82061eb67e30fc2e8f47f4" category="sidebar">为什么我不能选择另一个减少量？</block>
   <block id="d9e19492064b37fdbc6a3d0c3537588a" category="sidebar">卷和工作负载</block>
   <block id="8c49ce915d4f8928c912addef222bcf5" category="sidebar">数据完整性和数据安全性</block>
   <block id="464608dc32f11d61980f0e0673d96128" category="sidebar">卷的容量</block>
@@ -8085,9 +8025,6 @@
   <block id="88f1d0e5fdeb268f6b87119dfcc27f8a" category="sidebar">操作类型</block>
   <block id="31ef3dfd1e101bf5cf328ec387a10820" category="sidebar">复制卷</block>
   <block id="41b4e5d916e26c9e0d32ceff6fd589ed" category="sidebar">管理操作</block>
-  <block id="0c54aa2356b1ba19bf4386215c1829f9" category="sidebar">为什么这些卷不与工作负载关联？</block>
-  <block id="c2573d03e7d109e27aea5c826f85d422" category="sidebar">为什么无法删除选定工作负载？</block>
-  <block id="b9f14f06f609b90bb993424923055760" category="sidebar">为什么我看不到所有池和/或卷组？</block>
   <block id="c6707458876d290c703ac763778d44a0" category="sidebar">主机和主机集群</block>
   <block id="cf9a49f1bff1d19decdde49cdbdae169" category="sidebar">如何分配卷</block>
   <block id="b58847c8b7694663db21c4d392c57994" category="sidebar">配置主机访问</block>
@@ -8108,7 +8045,6 @@
   <block id="d96ab2599a9195c08b8737eafd4a8124" category="sidebar">删除成员卷</block>
   <block id="170fad9f4be46ada31f8a718075ed709" category="sidebar">管理快照卷</block>
   <block id="2895ed1d66f9333c01622c7a7d6718eb" category="sidebar">更改快照卷的卷设置</block>
-  <block id="fe82cef3fafe389abaff7e7b8c1c8945" category="sidebar">为什么看不到我的所有卷、主机或主机集群？</block>
   <block id="3b63cdc3399c713b7de8016c91a99548" category="sidebar">镜像</block>
   <block id="de3ae7d3b7cb2b60fdd43283060e9bf8" category="sidebar">异步概念</block>
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">工作流</block>
@@ -8130,21 +8066,9 @@
   <block id="54d6c04f64489f12de29a89b83cec315" category="sidebar">停用镜像</block>
   <block id="190233503c975b7bb1f4c8a3f12aba9d" category="sidebar">停用异步镜像</block>
   <block id="fa7433b43d36d2536077feb9de6b7d42" category="sidebar">停用同步镜像</block>
-  <block id="193ce2ae6dab7d8dddd7670ffaffe748" category="sidebar">异步常见问题解答</block>
-  <block id="2b2aa633a1528095db126f6bb4133c10" category="sidebar">为什么我无法访问所选的镜像功能？</block>
-  <block id="cb0fd874d43f58b1962d457f8982a032" category="sidebar">为什么不能使用请求的容量增加预留容量？</block>
-  <block id="126f364ce23072dbb9d2813556631beb" category="sidebar">为什么我看不到所有池和卷组？</block>
-  <block id="cad9ea95efebc08a02e3d69cfba88444" category="sidebar">异步镜像—为什么我看不到所有卷？</block>
-  <block id="67a0bff1354ca5f23241168ff1af4cd1" category="sidebar">异步镜像—为什么我看不到远程存储阵列上的所有卷？</block>
-  <block id="a0a778322fcd1480ce0a97557c0bc92c" category="sidebar">为什么要更新远程存储阵列的IP地址？</block>
-  <block id="009b56b468834c1fb339ca6fd6e64425" category="sidebar">Sync常见问题解答</block>
-  <block id="1ee329323d69a8ee4fb262351ae2bb47" category="sidebar">同步镜像与异步镜像有何不同？</block>
-  <block id="7948b47687c25969b744a950d4151812" category="sidebar">同步镜像—为什么我看不到所有卷？</block>
-  <block id="389d3a8b3a5730bc57f7f4d0b4d48716" category="sidebar">同步镜像—为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="c7c7a6a5641f33e348244f9c43010e16" category="sidebar">功能要求</block>
   <block id="551705bacc367306569170afabb0a315" category="sidebar">卷要求：</block>
   <block id="85ecd630da2e3481551a9ee213eb40fe" category="sidebar">管理远程存储</block>
-  <block id="2f20f508a18f461954c8d3933827bcb7" category="sidebar">为什么我看不到目标阵列上的所有卷？</block>
   <block id="34df2039718349f1b8c838bff98ae8fa" category="sidebar">硬件组件</block>
   <block id="56fed02afa343607f2a7395908bc7b80" category="sidebar">管理磁盘架组件</block>
   <block id="ce5355093ef60f32420434b5e225c42c" category="sidebar">管理控制器</block>
@@ -8153,13 +8077,7 @@
   <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="sidebar">管理驱动器</block>
   <block id="14d1c0c1fae5f4b4b38ac991e0042905" category="sidebar">限制驱动器视图</block>
   <block id="2e2a47fe25c4d9ffccde0d65c889b8ea" category="sidebar">管理热备件</block>
-  <block id="1e43379f3c402667b130d9a559cbe0a3" category="sidebar">磁盘架常见问题解答</block>
-  <block id="94edff9f76656b0aa64f11d10564bbec" category="sidebar">控制器常见问题解答</block>
-  <block id="985daafeefad88644262898a6ba85dfd" category="sidebar">我可以选择以下哪项—DHCP或手动配置？</block>
   <block id="757b19acb02bcb72f8fbe9a7b9c92bb1" category="sidebar">何时应刷新端口配置？</block>
-  <block id="4a4afac381fa72747a54ec753304470e" category="sidebar">iSCSI常见问题解答</block>
-  <block id="09ced3685690518398f597bd647eab6c" category="sidebar">NVMe常见问题解答</block>
-  <block id="d1cc2aa09499f8deaf22b2dc39e8d219" category="sidebar">驱动器常见问题解答</block>
   <block id="388e3dfbbe5846b66146f413ab694755" category="sidebar">管理电子邮件警报</block>
   <block id="3990901575d796b02953233d3202f8bb" category="sidebar">配置邮件服务器和收件人</block>
   <block id="48d5d00e65f9a1cc7aff26da6a5c5c0a" category="sidebar">编辑电子邮件地址</block>
@@ -8194,7 +8112,6 @@
   <block id="3b59007922517b5519c2947e72212587" category="sidebar">使用目录服务</block>
   <block id="dc4efa2585d1662804b20a74b4acc7a4" category="sidebar">使用SAML</block>
   <block id="8377583907b5858273c3fcf855ae2800" category="sidebar">管理系统日志</block>
-  <block id="4db7a3bf8dbbf2993ed6610cb2fb4fe0" category="sidebar">为什么我无法登录？</block>
   <block id="ab70a9bf5b25c1b7ecd7244eef9bf625" category="sidebar">使用证书</block>
   <block id="573efefcaa393f8bfd3572c46a082bf8" category="sidebar">查看导入的证书信息</block>
   <block id="085f430b0f579d2ec7d45759dea27e67" category="sidebar">对身份验证服务器使用CA签名的证书</block>
@@ -8211,7 +8128,6 @@
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">从视图中删除阵列</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">设置导入</block>
   <block id="360bd2c3afed58c551a15d240c5d8ae4" category="sidebar">使用批量导入</block>
-  <block id="c662a0230db643f7b489f1a5fd4c7738" category="sidebar">为什么我看不到所有存储阵列？</block>
   <block id="7fa2f2323087b4b331f294a3e571ac48" category="sidebar">阵列组</block>
   <block id="5004fa93538efdf6507cbefc3275b79e" category="sidebar">配置组</block>
   <block id="07a90270ebf66da177e03281873bb626" category="sidebar">从组中删除阵列</block>
@@ -8219,8 +8135,6 @@
   <block id="70056e37f8376098bb31cd0e5570d51b" category="sidebar">重命名组</block>
   <block id="240f9686efc9548a1d556d924c143924" category="sidebar">升级</block>
   <block id="ecaa37294fe56af2542fb9595f4d7c00" category="sidebar">配置镜像</block>
-  <block id="a4228446d8c9251ebd134b25ea2f2a9d" category="sidebar">为什么我看不到所有卷？</block>
-  <block id="4a8aaebc73b69b1dce072d72f2645856" category="sidebar">为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">使用管理主机证书</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">使用阵列证书</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理证书</block>
@@ -8626,7 +8540,6 @@
   <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C或EF300/EF300C存储系统不支持同步镜像。</block>
   <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">此功能不适用于EF600/EF600C或EF300/EF300C存储系统上的同步镜像。</block>
   <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">目前、EF300C或EF600C存储阵列不支持DULBE。</block>
-  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">资源配置是EF300、EF300C、EF600和EF600C存储阵列中提供的一项功能、可以立即使用卷、而无需后台初始化过程。</block>
   <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000、EF600/EF600C或EF300/EF300C存储系统不支持使用Access卷进行带内管理。</block>
   <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">精简卷在EF600/EF600C或EF300/EF300C存储系统上不可用。</block>
   <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">显示是否提供了抽盒丢失保护、只有在使用包含抽盒的驱动器架时、才会提供此保护。如果与驱动器架中的单个抽盒完全失去通信、则抽盒丢失保护功能可确保能够访问卷组中卷上的数据。</block>
@@ -9050,4 +8963,75 @@
   <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">11.90R3中的新增功能</block>
   <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">SANtricity 操作系统对 IOM12C 和 DCM3 的支持</block>
   <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">控制器固件版本 11.90R3 或更高版本现已支持 IOM12C 和 DCM3 SAS-3 磁盘架。IOM12C和 DCM3 磁盘架将替代 IOM12B 和 DCM2 磁盘架。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
+  <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager 的存储控制器常见问题解答</block>
+  <block id="d51277c947b0f0f0862c6f10192a1cc0" category="section-title">我该选择哪一个——DHCP 还是手动配置？</block>
+  <block id="ad76bfb46a270b4305ffd6738882677c" category="doc">SANtricity System Manager 存储架常见问题解答</block>
+  <block id="19b5339279f2639b668d0bbe4f8b70a0" category="doc">SANtricity System Manager 管理界面常见问题解答</block>
+  <block id="8587ba2a3667d610eb60afc44dad1723" category="doc">SANtricity System Manager 的存储系统设置常见问题解答</block>
+  <block id="a8d4770377b5b26815bf4624787b5cd2" category="section-title">如果我没有看到所有硬件组件怎么办？</block>
+  <block id="93553c3f530e96d0430861eab073fd9f" category="section-title">如果我没有看到所有主机怎么办？</block>
+  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager 异步镜像常见问题解答</block>
+  <block id="9f823e5a9e8f9ed671d7256745222141" category="section-title">为什么我无法访问我选择的镜像功能？</block>
+  <block id="056a12680d6f0ea9fbc5b9cd0dcbbbc5" category="section-title">为什么我无法将预留容量增加到我请求的数量？</block>
+  <block id="627802c3caee37379a9c399ab704765d" category="section-title">为什么我看不到所有的池和卷组？</block>
+  <block id="c61a1154889025d1e7a947414ac8a162" category="section-title">异步镜像 - 为什么我看不到所有卷？</block>
+  <block id="a7d50b4837966a5a224cf9d31b8f4a86" category="section-title">异步镜像 - 为什么我看不到远程存储阵列上的所有卷？</block>
+  <block id="2aea594a4c81b0946e1265a4de81a100" category="section-title">为什么要更新远程存储阵列的 IP 地址？</block>
+  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager 同步镜像常见问题解答</block>
+  <block id="3cf88cf8f3807ba93b6284bc7f35241d" category="section-title">同步镜像 - 为什么我看不到所有卷？</block>
+  <block id="127409013236f2ee4d2fedecdfdf9696" category="section-title">同步镜像 - 为什么我看不到远程存储阵列上的所有卷？</block>
+  <block id="474e6194420a15da8f116ca1d03c1089" category="doc">了解 SANtricity 软件中的缓存设置和性能</block>
+  <block id="07a19ca9ce814c05660c931367a1daec" category="doc">SANtricity System Manager 的 CA 签名证书和自签名证书常见问题解答</block>
+  <block id="07898edb5d614ff7156be4ecdb0b0a5f" category="doc">SANtricity System Manager 的 iSCSI 协议常见问题解答</block>
+  <block id="3da657434c2b0361e0108af6bf025792" category="doc">SANtricity System Manager 的 NVMe 协议常见问题解答</block>
+  <block id="8a75fb951da264587a6600ccf7d93fea" category="doc">SANtricity System Manager 存储驱动器安全常见问题解答</block>
+  <block id="7e2b30503c6c69f7a65b4e868fd7b1d7" category="doc">SANtricity System Manager 的存储系统警报常见问题解答</block>
+  <block id="fe7c1bb53377d143fbbd6019354e2c03" category="doc">SANtricity System Manager 用户访问管理常见问题解答</block>
+  <block id="0307aefebec2be18a5e72767abfab6ea" category="section-title">为什么我无法登录？</block>
+  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">了解 SANtricity System Manager 中的基本卷、预留容量和快照组</block>
+  <block id="93ff2ee6ca3ebff76b39eee6c837a05c" category="doc">SANtricity System Manager 的池和卷组常见问题解答</block>
+  <block id="95480a662f5c9e477922a7a2b403bb11" category="section-title">为什么我无法提高我的保存能力？</block>
+  <block id="e162d80660b94f1ba0e8a0ed9b5db00c" category="section-title">为什么我不能选择其他要减少的金额？</block>
+  <block id="e28db378e03cfeaba6b656dc0456b190" category="doc">SANtricity System Manager 远程存储常见问题解答</block>
+  <block id="24ad5296fefcace9e0149956fd904cf2" category="section-title">为什么我看不到目标阵列上的所有卷？</block>
+  <block id="5fcdf917efa28e8116867e315322b0e1" category="doc">SANtricity System Manager 快照常见问题解答</block>
+  <block id="2ba6fbda3398bad4861f032c2009b0d3" category="section-title">为什么我看不到所有卷、主机或主机集群？</block>
+  <block id="9421c472440f982cec67bc525c3c00a6" category="doc">SANtricity System Manager 的存储阵列设置常见问题解答</block>
+  <block id="28f98bb6051d213c5956bab8fa693f88" category="doc">SANtricity System Manager 存储驱动器常见问题解答</block>
+  <block id="570b09742a6d84e577f1d00cdf68e38b" category="doc">SANtricity System Manager 的主机系统和主机集群常见问题解答</block>
+  <block id="4538489334cc71ec5bc63f18418b8b5f" category="doc">SANtricity System Manager 卷和工作负载常见问题解答</block>
+  <block id="38457c0d7698b046b04ff29966984237" category="section-title">为什么这些卷与工作负载没有关联？</block>
+  <block id="38134686fcc012c564ba793d762895ce" category="section-title">为什么我无法删除选定的工作负载？</block>
+  <block id="73158d5edc74cd6d3fceaaadb9c001b6" category="section-title">为什么我看不到所有池和/或卷组？</block>
+  <block id="9e5fa4fee4e2e323cc46591b9c569f80" category="doc">SANtricity System Manager 的 AutoSupport 常见问题解答</block>
+  <block id="17b506511a9d92bc797c9a616e848618" category="doc">SANtricity Unified Manager 用户访问管理常见问题解答</block>
+  <block id="46bbf70058c38d16be148ec731c4e2ff" category="doc">SANtricity Unified Manager 导入设置常见问题解答</block>
+  <block id="9265078167e4a547bcd07baa0fcd2c28" category="section-title">为什么我看不到所有的存储阵列？</block>
+  <block id="e4dd224c723eab5d0e1fc1ba66660335" category="doc">SANtricity Unified Manager 存储镜像常见问题解答</block>
+  <block id="a09f907840e3debc354b7bf16928d0a9" category="section-title">为什么我看不到我的所有卷？</block>
+  <block id="59811ac2b31c7c14c4f6c5a0fe557df0" category="section-title">为什么我看不到远程存储阵列上的所有卷？</block>
+  <block id="6aa27cc5d4cf944c8ace1bc2cb4b986d" category="doc">在 SANtricity Unified Manager 中导入目录服务设置</block>
+  <block id="af12fbdbeeb22bd98af40e694f9dbeed" category="sidebar">存储系统设置常见问题解答</block>
+  <block id="e880fbedb2e8a12c7abef7ffeecb5c8a" category="sidebar">管理界面常见问题解答</block>
+  <block id="85f37ae864bd5c5fb734f986c131ea41" category="sidebar">池和卷组常见问题解答</block>
+  <block id="c12ad1150304879fdf3619ff461b010f" category="sidebar">卷和工作负载常见问题解答</block>
+  <block id="e3f88e92f689c60cd6dd33d9bdf1781f" category="sidebar">主机系统和主机集群常见问题解答</block>
+  <block id="7b79c68474c127986d80027dea958b67" category="sidebar">快照常见问题解答</block>
+  <block id="f3c1090e458eacb45d91144e5e8843dc" category="sidebar">异步镜像常见问题解答</block>
+  <block id="e812bdafa8421a172fa5f89167c98d11" category="sidebar">同步镜像常见问题解答</block>
+  <block id="764c366408531519068ab72822b9d70b" category="sidebar">远程存储常见问题解答</block>
+  <block id="f5500aa15342ea488f2a3948a19f8a86" category="sidebar">仓储货架常见问题解答</block>
+  <block id="efaedbc5c0388f05f894ade9a9b051be" category="sidebar">存储控制器 FAQ</block>
+  <block id="423cac0d8ecb8cbe666a15aa9d177028" category="sidebar">iSCSI 协议常见问题解答</block>
+  <block id="57a622d8a0a7d13e86e3514bb3b4e9ea" category="sidebar">NVMe 协议常见问题解答</block>
+  <block id="7848d82d7d98c22e1395a7e63f5fab9b" category="sidebar">存储驱动器常见问题解答</block>
+  <block id="dab141492d4f7a76f831015c28747d7e" category="sidebar">存储系统警报常见问题解答</block>
+  <block id="4da5cbb04d7ab418ddaf55ae50d07680" category="sidebar">存储阵列设置常见问题解答</block>
+  <block id="f39e9ea930d05db1a69c96b879497b38" category="sidebar">存储驱动器安全常见问题解答</block>
+  <block id="fe28cf5dc2afdedb53feb43fe61499e7" category="sidebar">用户访问管理常见问题解答</block>
+  <block id="2a2d5026981871719d2bae7c3420cf9e" category="sidebar">证书常见问题解答</block>
+  <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport FAQ</block>
+  <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">导入设置常见问题解答</block>
+  <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">存储镜像常见问题解答</block>
 </blocks>

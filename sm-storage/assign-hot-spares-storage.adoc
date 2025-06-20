@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign hot spares 
 summary: 您可以在RAID 1、RAID 5或RAID 6卷组中将热备用磁盘分配为备用驱动器、以实现额外的数据保护。如果其中一个卷组中的驱动器发生故障、则控制器会将故障驱动器中的数据重新构建到热备用磁盘中。 
 ---
-= 分配热备用磁盘
+= 在 SANtricity System Manager 中分配热备件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
