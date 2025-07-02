@@ -9034,4 +9034,5 @@
   <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport FAQ</block>
   <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">导入设置常见问题解答</block>
   <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">存储镜像常见问题解答</block>
+  <block id="ded92516be8a7fa425e1814e7ca1ea4e" category="paragraph">E4000 使用 iSCSI 协议时不支持异步镜像。</block>
 </blocks>
