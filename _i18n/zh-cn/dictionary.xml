@@ -8085,7 +8085,6 @@
   <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
   <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90发行说明</block>
   <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
-  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
   <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>*性能*</block>
   <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>*存储*</block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">数据保护</block>
@@ -8726,8 +8725,6 @@
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 控制器不支持 iSCSI 镜像。</block>
   <block id="da4fb5c6e93e74d3df8527599fa62642" category="paragraph">120</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="paragraph">16</block>
-  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 发行说明</block>
-  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
   <block id="fd2794987891340c24fff2fa599efaee" category="admonition">EF80、EF50、EF600/EF600C 和 EF300/EF300C 存储阵列不支持同步镜像或精简卷。</block>
   <block id="ccdf92355b0aaee2a2280755e8b08e7c" category="paragraph">Unified Manager 是基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新 E-Series 和 EF-Series 阵列的状态，例如 EF80、EF50、E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C 和 EF600C。您还可以在选定的存储阵列上执行批处理操作。</block>
   <block id="82c50740e9777a0b839701b8603354cb" category="paragraph">8.x (SP10)、9.x (SP6、SP7)、10.x (GA、SP1) / 64 位</block>
@@ -8738,7 +8735,6 @@
   <block id="e663db07e118a870f470c797797eabdc" category="list-text">通过键入<block ref="26eb25b14d930f9d5f59b2c50798a9a4" prefix=" " category="inline-code"></block>确认操作，然后单击 *Erase Drives*。</block>
   <block id="a37442aae2fdec96cb5238a1da614975" category="paragraph">擦除操作可能需要几分钟或几个小时。您可以在菜单中查看状态：Storage[Operations in Progress]。擦除操作完成后，驱动器可以在另一个卷组或磁盘池或另一个存储阵列中使用。</block>
   <block id="dcfabf77926c61707b0aec26409327ca" category="paragraph">Deallocated or Unwritten Logical Block Error (DULBE) 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300/EF300C 或 EF600/EF600C 存储阵列支持资源调配的卷。</block>
-  <block id="38833d44319a29abce252a75db2a1f8b" category="doc">SANtricity System Manager 12.0</block>
   <block id="8200990c6066d1d9a57e817228d442ed" category="paragraph">指示是否启用已取消分配或未写入逻辑块错误 (DULBE) 选项（是）或未启用（否）。DULBE 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300 或 EF600 存储阵列支持资源调配的卷。</block>
   <block id="80c4081de557a7ea6b138514f14e41c8" category="paragraph">延迟图提供了卷、卷组、池、应用程序和工作负载的延迟统计信息，以毫秒 (ms) 为单位。此图形显示在"逻辑视图"、"物理视图"和"应用程序和工作负载视图"选项卡中。</block>
   <block id="301220bfd980824d7e894be673f80491" category="paragraph">IOPS 图表显示每秒输入/输出操作的统计信息。在主页上，此图表显示存储阵列的统计信息。在 Performance 页面的 Logical View、Physical View 和 Applications and workloads View 选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。</block>
@@ -9083,26 +9079,30 @@
   <block id="0c577323ad91a9214ccf927630b8f24e" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像。</block>
   <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">运行状况检查完成后，您可以单击每行右侧的省略号 (...) 查看更多信息并执行其他任务。</block>
   <block id="b3e39c045e7dc1da6b72058620f83a78" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储阵列上不提供同步镜像。</block>
-  <block id="a1a85e20a47be8d7fe53c0f34789b4c7" category="doc">SANtricity OS 12.0 中的新增功能</block>
-  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">下表介绍了 SANtricity System Manager 12.0 中的新功能。</block>
-  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">版本 12.0 中的新增功能</block>
-  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以获取以前版本中的新功能列表。</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">新存储系统型号 – EF80 和 EF50 全闪存存储系统</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager 的新用户界面</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">对于新的 EF80 和 EF50 控制器，SANtricity System Manager 用户界面经过重新设计，以提供更现代的外观和感觉。新界面包括左侧面板导航和增强的可用性，以简化管理任务。</block>
-  <block id="522e7d53ef8c9a652990f42224faa7e2" category="admonition">新的用户界面目前仅适用于带有 SANtricity 12.0 版本的 EF80 和 EF50 存储系统。如果使用的是 SANtricity 11.9 或更早版本，请参阅 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block> 使用旧版用户界面的说明。</block>
   <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">服务器证书的使用者备用名称 (SAN) 现在仅允许字母、数字和连字符</block>
   <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">在 SANtricity System Manager 或 Unified Manager 中创建或编辑服务器证书时，使用者备用名称 (SAN) 字段现在只允许使用字母、数字和连字符。此更改可增强安全性，并确保与 SSL/TLS 证书的行业标准兼容。</block>
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">对于基于 SSD 和 NVMe 的系统，动态磁盘池段大小现在默认为 32K</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">对于基于 SSD 和 NVMe 的系统上的动态磁盘池，默认数据段大小已更改为 32K。以前，这些系统的动态磁盘池默认段大小固定为 128K。此更改可优化涉及小型和大型 I/O 操作混合的工作负载的性能。</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">现在可在 SANtricity System Manager 中使用脚本编辑器</block>
   <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager 中现在提供了新的脚本编辑器。脚本编辑器允许您创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。脚本编辑器提供用于管理存储系统的语法检查和命令执行功能。有关详细信息，请参见 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>。</block>
-  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 软件 12.0 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。</block>
-  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 软件 12.0 文档</block>
-  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">使用 SANtricity System Manager 12.0 进行单阵列管理</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">使用 SANtricity Unified Manager 8 进行多阵列管理</block>
-  <block id="2352bcb087671319b99c6ee8bf6be16b" category="sidebar">SANtricity 软件 12.0 文档</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">使用脚本编辑器</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">此版本引入了 EF80 和 EF50 全 NVMe 闪存存储系统。EF80 和 EF50 支持 24 个 NVME SSD 驱动器和每个控制器一个控制器间镜像卡。支持的 NVMe over Fabrics 主机接口包括 NVMe over RoCE、NVMe over IB、EF80 的 NVMe over FC 和 EF50 的 NVMe over FC。支持的 SCSI 接口是两个系统的光纤通道。EF50 支持每个控制器最多两个主机接口卡，而 EF80 支持每个控制器最多三个主机接口卡。</block>
   <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">EF80 和 EF50 也支持 30TB 或 60TB 大小的大容量 NVMe SSD 驱动器。EF80 和 EF50 只能在阵列装有 30TB 或 60TB 驱动器时使用动态磁盘池。</block>
+  <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 发行说明</block>
+  <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
+  <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
+  <block id="dcf1521fe2188852a3d1ae5493b83c24" category="doc">SANtricity System Manager 12.00</block>
+  <block id="b9e4ac9c6566befa2eace1a2f5e1c0e9" category="doc">SANtricity OS 12.00 中的新增功能</block>
+  <block id="ae8ef432f09f0cc2743b6f647e8b7391" category="paragraph">下表介绍了 SANtricity System Manager 12.00 中的新功能。</block>
+  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">版本 12.00 中的新增功能</block>
+  <block id="22df7e56856f8d8f8a1db64219f4f7a9" category="admonition">SANtricity OS 12.00 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以获取以前版本中的新功能列表。</block>
+  <block id="34eb0a9cd2b702531a67dae4540bdd52" category="admonition">新的用户界面目前仅适用于带有 SANtricity 12.00 版本的 EF80 和 EF50 存储系统。如果使用的是 SANtricity 11.9 或更早版本，请参阅 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block> 使用旧版用户界面的说明。</block>
+  <block id="579aadc4c26cc865ba493de4c39a2dbf" category="sidebar">SANtricity 软件 12.00 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。</block>
+  <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 软件 12.00 文档</block>
+  <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">使用 SANtricity System Manager 12.00 进行单阵列管理</block>
+  <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 软件 12.00 文档</block>
 </blocks>
