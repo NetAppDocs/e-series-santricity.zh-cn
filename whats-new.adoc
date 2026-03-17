@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.90 
+keywords: whats new, new features, SANtricity 12.0 
 summary: SANtricity OS 中的新增功能。 
 ---
-= SANtricity OS 11.90中的新增功能
+= SANtricity OS 12.0 中的新增功能
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,23 +12,14 @@ summary: SANtricity OS 中的新增功能。
 
 
 [role="lead"]
-下表介绍了SANtricity系统管理器11.9中的新增功能。
+下表介绍了 SANtricity System Manager 12.0 中的新功能。
 
 
 
-== 版本 11.90R5 中的新增功能
-
-此版本仅包含缺陷修复，不包含新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 11.90R5 README。
+== 版本 12.0 中的新增功能
 
 
-
-== 11.90R4 版本新增功能
-
-此版本仅包含小的更改，没有新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 11.90R4 README。
-
-
-
-== 11.90R3中的新增功能
+NOTE: SANtricity OS 12.0 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 link:known-issues.html["已知问题"] 以获取以前版本中的新功能列表。
 
 [cols="35h,~"]
 |===
@@ -36,79 +27,41 @@ summary: SANtricity OS 中的新增功能。
 
 
  a| 
-SANtricity 操作系统对 IOM12C 和 DCM3 的支持
+新存储系统型号 – EF80 和 EF50 全闪存存储系统
  a| 
-控制器固件版本 11.90R3 或更高版本现已支持 IOM12C 和 DCM3 SAS-3 磁盘架。IOM12C和 DCM3 磁盘架将替代 IOM12B 和 DCM2 磁盘架。
+此版本引入了 EF80 和 EF50 全 NVMe 闪存存储系统。EF80 和 EF50 每个控制器支持 24 个 NVME SSD 驱动器和一个主机接口卡 (HIC)。支持的 NVMe over Fabrics 主机接口包括 NVMe over RoCE、NVMe over IB for EF80 和 NVMe over FC for EF50。支持的 SCSI 接口包括光纤通道。
 
-|===
-
-
-== 11.90R2中的新增功能
-
-此版本仅包含少量更改、没有任何新功能。有关此版本中变更的详细信息，请参阅 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E系列11.90发行说明"^]。
-
-
-
-== 11.90R1中的新增功能
-
-[cols="35h,~"]
-|===
-| 新增功能 | Description 
-
-
- a| 
-新存储系统型号—EF300C和EF600C
- a| 
-此版本推出了EF300C和EF600C全闪存NVMe存储系统。EF300C和EF600C是现有EF300和EF600存储系统的高容量闪存版本。EF300C和EF600C支持30 TB或60 TB大小的高容量NVMe SSD驱动器。EF300C/EF600C仅兼容动态磁盘池、不支持原有RAID。
+EF80 和 EF30 也支持 30TB 或 60TB 大小的大容量 NVMe SSD 驱动器。EF80 和 EF30 仅兼容动态磁盘池使用，不支持传统 RAID。
 
 
 
  a| 
-支持EF4000上的12 Gb SAS接口
+SANtricity System Manager 的新用户界面
  a| 
-E4000控制器现在支持12 Gb SAS主机接口卡。
-
-|===
+对于新的 EF80 和 EF50 控制器，SANtricity System Manager 用户界面经过重新设计，以提供更现代的外观和感觉。新界面包括左侧面板导航和增强的可用性，以简化管理任务。
 
 
-== 11.90版中的新增功能
-
-[cols="35h,~"]
-|===
-| 新增功能 | Description 
-
-
- a| 
-新存储系统型号— E4000
- a| 
-此版本引入了E4000低成本存储系统。E4000支持12个和60个驱动器以及每个控制器一个主机接口卡(Host Interface Card、HIC)。初始版本支持的主机接口卡包括iSCSI和光纤通道。可以在Unified Manager中查看和管理E4000存储系统和其他E系列存储系统。
+NOTE: 新的用户界面目前仅适用于带有 SANtricity 12.0 版本的 EF80 和 EF50 存储系统。如果使用的是 SANtricity 11.9 或更早版本，请参阅 link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity系统管理器11.9."] 使用旧版用户界面的说明。
 
 
 
  a| 
-增加了动态磁盘池的容量
+服务器证书的使用者备用名称 (SAN) 现在仅允许字母、数字和连字符
  a| 
-只要动态磁盘池(Dynamic Disk Pool、DDP)中每个驱动器的容量超过23 TB、该容量就会增加到12 PB。如果单个驱动器容量小于23 TB、则DDP容量为6 PB。
-
-
-
- a| 
-增加了默认介质扫描设置
- a| 
-默认介质扫描速率已增加到120天。
+在 SANtricity System Manager 或 Unified Manager 中创建或编辑服务器证书时，使用者备用名称 (SAN) 字段现在只允许使用字母、数字和连字符。此更改可增强安全性，并确保与 SSL/TLS 证书的行业标准兼容。
 
 
 
  a| 
-专用密钥现在可用于外部密钥管理
+对于基于 SSD 和 NVMe 的系统，动态磁盘池段大小现在默认为 32K
  a| 
-现在、可以通过System Manager导入外部通过私钥和公共密钥对生成的证书签名请求(CSR)文件。
+对于基于 SSD 和 NVMe 的系统上的动态磁盘池，默认数据段大小已更改为 32K。以前，这些系统的动态磁盘池默认段大小固定为 128K。此更改可优化涉及小型和大型 I/O 操作混合的工作负载的性能。
 
 
 
  a| 
-现在、Web服务可以使用登录锁定功能
+现在可在 SANtricity System Manager 中使用脚本编辑器
  a| 
-现在、嵌入式Web服务和代理Web服务均可使用新的登录锁定设置、该设置仅可通过REST API进行配置。
+SANtricity System Manager 中现在提供了新的脚本编辑器。脚本编辑器允许您创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。脚本编辑器提供用于管理存储系统的语法检查和命令执行功能。有关详细信息，请参见 link:sm-support/use-script-editor.html["使用脚本编辑器"^]。
 
 |===

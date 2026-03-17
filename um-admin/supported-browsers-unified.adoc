@@ -23,28 +23,28 @@ SANtricity 统一管理器可从多种类型的浏览器进行访问。
  a| 
 Google Chrome
  a| 
-81.
+120
 
 
 
  a| 
 Mozilla Firefox
  a| 
-80
+120
 
 
 
  a| 
 Safari
  a| 
-14.
+16
 
 
 
  a| 
 Microsoft Edge
  a| 
-90
+120
 
 |===
 [NOTE]

@@ -32,7 +32,7 @@ System Manager使用质询握手身份验证协议(Challenge Handshake Authentic
 
 ====
 .步骤
-. 选择菜单：设置[系统]。
+. 从左侧面板中，选择菜单：Settings[System]。
 . 在iSCSI设置下、单击*配置身份验证*。
 +
 此时将显示配置身份验证对话框、其中显示了当前设置的方法。此外、还会显示是否已配置任何主机的CHAP机密。

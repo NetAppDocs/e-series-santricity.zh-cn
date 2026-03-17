@@ -8,16 +8,16 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: '11.9'
+  - version-number: '12.0'
     url: "/e-series-santricity"
+  - version-number: '11.9'
+    url: "/e-series-santricity-119"
   - version-number: '11.8'
     url: "/e-series-santricity-118"
-  - version-number: '11.7'
-    url: "/e-series-santricity-117"
   langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
 sidebar:
   entries:
-  - title: SANtricity软件版本、版本为
+  - title: SANtricity 软件 12.0 文档
     url: "/index.html"
   - title: 发行说明
     entries:
@@ -290,6 +290,8 @@ sidebar:
           url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
         - title: 更改主机的主机端口标识符
           url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+        - title: 更改主机 I/O 模块协议
+          url: "/sm-storage/io-module-change-protocol.html"
       - title: 主机系统和主机集群常见问题解答
         url: "/sm-storage/faq-systems-clusters.html"
     - title: 快照
@@ -692,8 +694,6 @@ sidebar:
           url: "/sm-settings/change-cache-settings-for-storage-array.html"
         - title: 设置自动负载平衡
           url: "/sm-settings/set-automatic-load-balancing.html"
-        - title: 启用或禁用原有管理界面
-          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
       - title: 配置附加功能
         entries:
         - title: 附加功能的工作原理
@@ -914,6 +914,8 @@ sidebar:
           url: "/sm-support/upgrade-drive-firmware.html"
         - title: 查看可能的软件和固件升级错误
           url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: 使用脚本编辑器
+        url: "/sm-support/use-script-editor.html"
       - title: AutoSupport FAQ
         url: "/sm-support/faq-autosupport.html"
   - title: SANtricity 统一管理器

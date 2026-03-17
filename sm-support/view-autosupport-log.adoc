@@ -22,7 +22,7 @@ AutoSupport 日志提供有关状态、派单历史记录以及在交付AutoSupp
 
 
 .步骤
-. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
 . 选择*查看AutoSupport 日志*。
 +
 此时将显示一个对话框、其中列出了当前的AutoSupport 日志。

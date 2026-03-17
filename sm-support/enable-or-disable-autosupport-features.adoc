@@ -28,7 +28,7 @@ AutoSupport 功能由三个单独启用的功能组成。
 
 
 .步骤
-. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
 . 选择*启用/禁用AutoSupport 功能*。
 . 选中要启用的AutoSupport 功能旁边的复选框。
 +

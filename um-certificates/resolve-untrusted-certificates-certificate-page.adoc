@@ -37,7 +37,7 @@ summary: 如果存储阵列尝试建立与SANtricity Unified Manager的安全连
 
 
 .步骤
-. 选择*证书管理*。
+. 从左侧面板中，选择菜单：Settings[Certificates]。
 . 选择*可信*选项卡。
 +
 此页面显示为存储阵列报告的所有证书。

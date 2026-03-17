@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity软件版本操作文档
+  title: SANtricity 软件 12.0 文档
   summary: SANtricity System Manager和Unified Manager
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity软件版本是一款适用于数据分析、视频监控以及备份和恢复等繁重工作负载应用程序的E系列混合闪存和EF系列全闪存阵列、可帮助您实现最高性能和利用率。
+  lead: SANtricity 软件 12.0 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。
   tiles:
   - title: 入门
     links:
@@ -41,9 +41,9 @@ indexpage:
   - title: 对于 SE
     links:
     - title: E 系列 /EF 系列技术培训（需要登录）
-      url: https://fieldportal.netapp.com/content/199944
+      url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
     - title: EF300 概述和技术详细信息（需要登录）
-      url: https://fieldportal.netapp.com/content/1417672
+      url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
     - title: NetApp Fusion （需要登录）
       url: https://fusion.netapp.com/
   - title: 工具和支持

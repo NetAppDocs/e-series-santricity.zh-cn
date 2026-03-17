@@ -21,7 +21,7 @@ summary: 您可以删除不再需要的快照一致性组。
 此操作将删除与快照一致性组关联的所有快照映像或计划。
 
 .步骤
-. 选择菜单：Storage[Snapshots]。
+. 从左侧面板中，选择菜单：Storage[Snapshots]。
 . 选择*快照一致性组*选项卡。
 . 选择要删除的快照一致性组、然后选择菜单：uncommon Tasks[Delete]。
 +

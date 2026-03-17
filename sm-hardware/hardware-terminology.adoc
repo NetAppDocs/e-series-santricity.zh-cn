@@ -229,7 +229,7 @@ da.
  a| 
 DULBE
  a| 
-已取消分配或未写入逻辑块错误(DULBE")是NVMe驱动器上的一个选项、它允许EF300或EF600存储阵列支持资源配置的卷。
+Deallocated or Unwritten Logical Block Error (DULBE) 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300/EF300C 或 EF600/EF600C 存储阵列支持资源调配的卷。
 
 
 

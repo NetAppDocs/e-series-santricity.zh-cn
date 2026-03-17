@@ -25,7 +25,6 @@
   <block id="ce3499c6092757b77708ecd02cd1d388" category="doc">查看存储阵列配置文件</block>
   <block id="1f3e26ac1457eb72a5e0f03f9933ea10" category="paragraph">您可以在恢复期间使用存储阵列配置文件作为辅助工具、也可以概述存储阵列的当前配置。您可能希望在管理客户端上保存存储阵列配置文件的副本、并在存储阵列中保留存储阵列配置文件的硬副本。如果配置发生更改、请为存储阵列配置文件创建一个新副本。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="816b5202d71e5ae34f653f042acc010d" category="list-text">选择菜单：Support[支持中心&gt;支持资源]选项卡。</block>
   <block id="f344c836e45c8ac96c6bcd269ae01d9f" category="list-text">向下滚动到 * 启动详细存储阵列信息 * ，然后选择 * 存储阵列配置文件 * 。</block>
   <block id="233716d35a2da532ee3863faee939ede" category="paragraph">此时、报告将显示在您的屏幕上。</block>
   <block id="8bdd9d6f4eea4586c608b7cd27de8c13" category="example-title">字段详细信息</block>
@@ -90,7 +89,6 @@
   <block id="f869702509af8522ab5a8d9317437a5c" category="paragraph">查看不同的协议：</block>
   <block id="c320b46bad703dba81e017b358d86d07" category="list-text">* HTTPS *-允许您使用HTTPS直接连接到目标技术支持服务器。如果要启用AutoSupport OnDemand或远程诊断、则AutoSupport 交付方法必须设置为HTTPS。</block>
   <block id="5b999ecb8bff8dd3f70944baa491c671" category="list-text">*电子邮件*-用于使用电子邮件服务器作为发送AutoSupport 派单的传送方法。</block>
-  <block id="ad0299a08f3ae4e0e7821efec30e957c" category="list-text">选择菜单：Support[支持中心&gt; AutoSupport ]选项卡。</block>
   <block id="d15ef58f591a31679a31fd6a6870c0f9" category="list-text">选择 * 配置 AutoSupport 交付方法 * 。</block>
   <block id="b0e813c1d02ae767a417776fd8a8e6f9" category="paragraph">此时将显示一个对话框、其中列出了派单交付方法。</block>
   <block id="c143b9caf0caf400d47403e99931103b" category="list-text">选择所需的交付方法、然后选择该交付方法的参数。执行以下操作之一：</block>
@@ -121,7 +119,6 @@
   <block id="fe21a4b4c7370b73210cfa79500a95c9" category="list-text">所有驱动器均处于最佳状态。</block>
   <block id="a8559bb45a3d0a180d3398ef27367a53" category="list-text">存储阵列上未运行任何配置更改。</block>
   <block id="e6f2dc3aa8152d09abac598a55e9366f" category="list-text">如果驱动器只能脱机升级、则与驱动器关联的所有卷的I/O活动将停止。</block>
-  <block id="a56e70035fdf4b7df936ab775f083aa4" category="list-text">选择菜单：Support[升级中心]。</block>
   <block id="27cbc683bae5b0ae674e1f14b28ba85b" category="list-text">将新文件从支持站点下载到您的管理客户端。</block>
   <block id="97ee451d6d95940738f8ea5c329f19b4" category="list-text">按照其余说明进行操作。</block>
   <block id="953a296f7b11258e3941c8cf2edc32a6" category="list-text">在驱动器固件升级下、单击*开始升级*。</block>
@@ -640,7 +637,6 @@
   <block id="075e5f5e3effee4ba8e827827c488091" category="list-text">选择要结束的会话</block>
   <block id="bd6a44ecaf818d9ed042334cbe10542c" category="list-text">单击*结束会话*、然后确认要执行此操作。</block>
   <block id="690752e5e5c1eec2845ab13481f63056" category="summary">您可以查看事件日志、其中提供了存储阵列上发生的事件的历史记录。</block>
-  <block id="f935bb769c237afb304f2eb94055b212" category="list-text">选择菜单：Support[事件日志]。</block>
   <block id="6711a7f27c9fa223bbe0e85b65da8385" category="paragraph">此时将显示"Event Log"页面。</block>
   <block id="b45b43dbc109060db4497aaa37ef5e72" category="example-title">页面详细信息</block>
   <block id="6061d0e585d031da8460a02d2b71cb62" category="paragraph">查看全部字段</block>
@@ -730,8 +726,6 @@
   <block id="563af0d23fd85448336d877b26d56bcc" category="summary">对于快照计划、您可以更改自动收集时间或收集频率。</block>
   <block id="c770e0557e37eec1175c5e132b5573ad" category="paragraph">您可以从现有快照计划导入设置、也可以根据需要修改设置。</block>
   <block id="abcf9709de55788d69010451f394baa5" category="paragraph">由于快照计划与快照组或快照一致性组关联、因此、计划设置更改可能会影响预留的容量。</block>
-  <block id="f9f5e05fdd7630083b26cd44a4934403" category="list-text">选择菜单：Storage[Snapshots]。</block>
-  <block id="b7d7e51b05c863103a7a76111b30bd65" category="list-text">单击*计划*选项卡。</block>
   <block id="255ed058d003fe4fb89196deae68851f" category="list-text">选择要更改的快照计划、然后单击*编辑*。</block>
   <block id="7c6bef2cdc75fc120ee2c47835654809" category="paragraph">此时将显示编辑Snapshot计划对话框。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">执行以下操作之一：</block>
@@ -776,10 +770,6 @@
   <block id="14200173d197fcc38e651d26a7a5f739" category="doc">更改池的配置设置</block>
   <block id="9054990ebdafd2a57fe5b568bd44f545" category="paragraph">此任务介绍如何更改池的配置设置。</block>
   <block id="ea0bfd5bbd0d1b0d9a352196d0b2087d" category="paragraph">您不能使用System Manager界面更改池的RAID级别。System Manager会自动将池配置为RAID 6。</block>
-  <block id="5a71368e354e9edef7e4d6588a10ae19" category="list-text">选择菜单：Storage[Pools &amp; Volume Groups]。</block>
-  <block id="80dba542fe4def3577692de6060d6714" category="list-text">选择要编辑的池、然后单击*查看/编辑设置*。</block>
-  <block id="f8399dfefb009796cbf907e71eb1f748" category="paragraph">此时将显示Pool Setting对话框。</block>
-  <block id="1b1816709ff2a100a301f4d10c96685f" category="list-text">选择*设置*选项卡、然后根据需要编辑池设置。</block>
   <block id="49ee3087348e8d44e1feda1917443987" category="paragraph">Name</block>
   <block id="cd28c3a9df93bc4a5f15931a4bf6adb7" category="paragraph">您可以更改用户提供的池名称。需要为池指定名称。</block>
   <block id="a1aa34c9c00ae957832674481c76acd9" category="paragraph">容量警报</block>
@@ -818,7 +808,6 @@
   <block id="c8b683caf010ac698a90dd897620ec5a" category="inline-link-macro">解读性能数据</block>
   <block id="c08474664a89e996c5ba900acd208685" category="list-text"><block ref="c08474664a89e996c5ba900acd208685" category="inline-link-macro-rx"></block></block>
   <block id="9af8e70c2152ca5e60b42c567ce33fa9" category="doc">CPU图形显示了什么？</block>
-  <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU图形显示了每个控制器(控制器A和控制器B)的处理容量统计信息。CPU是_central processing unit_的缩写。在主页页面上、此图显示存储阵列的统计信息。在性能图块的物理视图选项卡上、此图显示存储阵列和驱动器的统计信息。</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU图形显示了阵列上的操作所使用的CPU处理容量百分比。即使没有发生外部I/O、CPU利用率百分比也可以不为零、因为存储操作系统可能正在执行后台操作和监控。将光标悬停在图形上的某个点上、可查看该时间点所使用的处理能力百分比。</block>
   <block id="ec427217874a4925059f42a4cc0d10c9" category="summary">在使用远程存储功能之前、请查看以下要求和限制。</block>
   <block id="c84d4278eb32c7a089aea86ebf95ad39" category="section-title">支持的协议</block>
@@ -849,34 +838,14 @@
   <block id="e298ddbac0c7e8b508debaf62613efd2" category="summary">您可以更改卷的设置、例如名称、主机分配、区块大小、修改优先级、缓存、 等等。</block>
   <block id="8a9d122d42d84ec02591e2da50b53190" category="paragraph">您可以更改卷的设置、例如名称、主机分配、区块大小、修改优先级、缓存、 等等。</block>
   <block id="b768d698f525e9b46e91718351cad1a3" category="paragraph">要更改的卷处于最佳状态。</block>
-  <block id="bbf46f9beb7cca84a6bd9b9ad7a9d701" category="list-text">选择菜单： Storage[Volumes] 。</block>
-  <block id="036d52f8140bf4badafe2b44dab3558c" category="list-text">选择要更改的卷、然后选择*查看/编辑设置*。</block>
-  <block id="1b05bfb645b2ba9febd5e5d63f325492" category="paragraph">此时将显示卷设置对话框。选定卷的配置设置将显示在此对话框中。</block>
-  <block id="2c1f077105976fb20133497be60e4280" category="list-text">选择*基本*选项卡以更改卷的名称和主机分配。</block>
   <block id="b116c9042909cca13e420133192d47e0" category="paragraph">显示卷的名称。如果当前名称不再有意义或适用、请更改卷的名称。</block>
   <block id="dbfaa70df5ccac03d160cc61398adc95" category="paragraph">容量</block>
-  <block id="7414e1fa6dc8929e9a06ab33948c0d7b" category="paragraph">显示所选卷的已报告容量和已分配容量。</block>
   <block id="d86d5413519b2167ff78113f9b19c357" category="paragraph">对于厚卷、报告的容量和分配的容量相同、但对于精简卷、报告的容量和分配的容量不同。对于厚卷、物理分配的空间等于向主机报告的空间。对于精简卷、报告的容量是指向主机报告的容量、而分配的容量是指当前为写入数据而分配的驱动器空间量。</block>
-  <block id="2ca5de0e3e7c2b2fb452cb4f72cb6bd4" category="paragraph">池/卷组</block>
-  <block id="27f8b284741286e7c8a22a04aef726df" category="paragraph">显示池或卷组的名称和RAID级别。指示池或卷组是否支持安全和启用安全。</block>
   <block id="c54e68bfe7ede00fce1915195f1b6d4b" category="paragraph">显示卷分配。您可以将卷分配给主机或主机集群、以便可以对其进行访问以执行I/O操作。此分配授予主机或主机集群对特定卷或存储阵列中的多个卷的访问权限。</block>
   <block id="6850380f9da8f65ebd257af508b79e5e" category="list-text">*已分配给*-标识可访问选定卷的主机或主机集群。</block>
   <block id="b238cf6fc9e58254255e7835db676b0f" category="list-text">* LUN *—逻辑单元号(LUN)是指分配给主机用于访问卷的地址空间的编号。卷以LUN的形式呈现给主机。每个主机都有自己的LUN地址空间。因此、不同的主机可以使用同一个LUN来访问不同的卷。</block>
   <block id="76c8e64ef601fb34ff3d473ed78beb31" category="admonition">对于NVMe接口、此列显示命名空间ID。命名空间是指为块访问而格式化的NVM存储。它类似于SCSI中的逻辑单元、它与存储阵列中的卷相关。命名空间ID是NVMe控制器在命名空间中的唯一标识符、可设置为1到255之间的值。它类似于SCSI中的逻辑单元号(Logical Unit Number、LUN)。</block>
-  <block id="e2da36de4fe1aaf514aaef4ecca2c8ec" category="paragraph">标识符</block>
-  <block id="da7fd28ecf1718426f3ec29ffcbfe1ee" category="paragraph">显示选定卷的标识符。</block>
-  <block id="d2292baee368be1f39ffbf9894ea016a" category="list-text">*全球通用标识符(WWID)*—卷的唯一十六进制标识符。</block>
-  <block id="f4be6d63c7a274ed614955ed25dcd36b" category="list-text">*扩展唯一标识符(EUI)*—卷的EUI-64标识符。</block>
-  <block id="018a68ae0a3d38c3c416163230023cd5" category="list-text">*子系统标识符(SSID)*—卷的存储阵列子系统标识符。</block>
-  <block id="b955561ce1a5fa6012d848f5aa503115" category="list-text">选择*高级*选项卡可更改池或卷组中卷的其他配置设置。</block>
-  <block id="ceeed899b3597b1fe9522da491485a4e" category="paragraph">应用程序和工作负载信息</block>
-  <block id="a676d10a3461e7ce0311db65b0fa81f3" category="paragraph">在创建卷期间、您可以创建应用程序专用的工作负载或其他工作负载。如果适用、将显示选定卷的工作负载名称、应用程序类型和卷类型。</block>
-  <block id="3ec05f46727bb8b1bb0c15f7d5eab590" category="paragraph">如果需要、您可以更改工作负载名称。</block>
-  <block id="2ad8007f6e9cce77c667f60a65cb821b" category="paragraph">服务质量设置</block>
-  <block id="9f0925226005829fa76d4e4a22dcfa51" category="paragraph">*永久禁用数据保证*-只有在卷启用了数据保证(Data Assurance、DA)的情况下、才会显示此设置。DA可检查并更正在数据通过控制器向下传输到驱动器时可能发生的错误。使用此选项可在选定卷上永久禁用DA。禁用后、无法在此卷上重新启用DA。</block>
-  <block id="f4599fd7aeef5d0f52b0fc002aebbaae" category="paragraph">*启用预读取冗余检查*-只有当卷为厚卷时、才会显示此设置。预读取冗余检查可确定卷上的数据是否在执行读取时保持一致。如果控制器固件确定数据不一致、则启用了此功能的卷将返回读取错误。</block>
   <block id="6d6a336b01dd49567f4a6b988e71b80c" category="paragraph">控制器所有权</block>
-  <block id="959aa700d02021f8a9d28b8f657228a7" category="paragraph">定义指定为卷的拥有或主控制器的控制器。</block>
   <block id="3ae137321456730021c28527f38c7f6e" category="paragraph">控制器所有权非常重要、应仔细规划。对于总I/O、控制器应尽可能保持平衡。</block>
   <block id="30aad6b0b4cbbadf1559550b260030bc" category="paragraph">分段规模估算</block>
   <block id="970eeb03da847122d99ea8d4146079cb" category="paragraph">显示了分段大小调整设置、此设置仅对卷组中的卷显示。您可以更改区块大小以优化性能。</block>
@@ -894,12 +863,8 @@
   <block id="5fd79f1d656c189d6543ef1af53d2373" category="paragraph">移动滑块条以选择优先级。</block>
   <block id="05a700f3611e4a948800423dae37593f" category="paragraph">*修改优先级速率*—最低优先级速率有利于系统性能、但修改操作所需时间较长。最高优先级比率有利于修改操作、但系统性能可能会受到影响。</block>
   <block id="02d56cf7754ce16d7ce0193fbca7c90a" category="paragraph">缓存</block>
-  <block id="01875a0a0c6c489daebdf2da47822bf8" category="paragraph">显示了缓存设置、您可以更改此设置以影响卷的整体I/O性能。</block>
   <block id="f7fad94692941472b9a76c2ba57c020c" category="paragraph">SSD 缓存</block>
-  <block id="0ac6cd8987ecb9501395a6c2fed923c4" category="paragraph">显示了SSD缓存设置、您可以在兼容卷上启用此设置以提高只读性能。如果卷共享相同的驱动器安全和数据保证功能、则这些卷是兼容的。</block>
-  <block id="d0c8df7335fd09690d17fec5d12d8ec8" category="paragraph">* SSD缓存功能使用一个或多个固态磁盘(SSD)来实施读取缓存*。由于SSD的读取速度更快、因此应用程序性能得到了提高。由于读取缓存位于存储阵列中、因此使用该存储阵列的所有应用程序将共享缓存。只需选择要缓存的卷、即可自动动态缓存。</block>
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager会根据您的选择更改卷的设置。</block>
-  <block id="7d4d06d4d7f18d34e58915011308eea8" category="paragraph">选择菜单：主页(查看正在执行的操作)可查看当前正在对选定卷运行的更改操作的进度。</block>
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">在System Manager中、您可以按照以下步骤创建快照映像和快照卷。</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">创建快照映像的工作流</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">用于创建快照卷的工作流</block>
@@ -955,7 +920,6 @@
   <block id="8a3f9efa692ee530b5a77e298ca9d049" category="list-text">如果删除最后一个不支持安全的驱动器、则池中将保留所有支持安全的驱动器。在这种情况下、您可以选择为池启用安全性。</block>
   <block id="98cfc6125f5a86ca2db8b5ad5812a3d3" category="list-text">如果删除最后一个不支持数据保证(Data Assurance、DA)的驱动器、则池将保留所有支持DA的驱动器。</block>
   <block id="034377a917d821b3551d814f158771b0" category="admonition">在池中创建的任何新卷都将支持DA。如果您希望现有卷支持DA、则需要先删除此卷、然后再重新创建此卷。</block>
-  <block id="988ac32966b89dfa2aeacd5416acb339" category="list-text">选择池或SSD缓存、然后单击菜单：更多[删除容量]。</block>
   <block id="f64fe1f2b38263dc509bd2eb4baf5e0f" category="paragraph">此时将显示删除容量对话框。</block>
   <block id="28e8f86dc44511ce18f0637a5d8885f5" category="list-text">在列表中选择一个或多个驱动器。</block>
   <block id="f40c486763aa424b6091bf4553990c1e" category="paragraph">在列表中选择或取消选择驱动器时、*选定总容量*字段将更新。此字段显示删除选定驱动器后产生的池或SSD缓存的总容量。</block>
@@ -996,7 +960,6 @@
   <block id="624a1dff311bc4d163f1158fdd79e3bb" category="list-text">预留容量不能直接从主机读取或写入。</block>
   <block id="fa6e0c909e3145f51bfdd46bf738d97b" category="list-text">每个读/写Snapshot卷、快照组、一致性组成员卷和镜像对卷都有预留容量。</block>
   <block id="d8bd7fd2f9375aab50b9c8238587ef00" category="summary">您可以找到驱动器、以物理方式识别构成选定池、卷组或SSD缓存的所有驱动器。选定池、卷组或SSD缓存中的每个驱动器上都会亮起一个LED指示灯。</block>
-  <block id="dd622c0178d6ffaeb6d3c17389a4d397" category="list-text">选择要查找的池、卷组或SSD缓存、然后单击菜单：更多(打开定位灯)。</block>
   <block id="da01e7e2a730ad7efb5964db19366480" category="paragraph">此时将显示一个对话框、指示包含选定池、卷组或SSD缓存的驱动器上的指示灯已打开。</block>
   <block id="7ce5899000f51ae10c4246754e3e2d5f" category="list-text">成功找到驱动器后、单击*关闭*。</block>
   <block id="f141084aa8ad5b9a6f454ff3903c2973" category="summary">暂停计划后、不会按计划创建快照映像。您可以暂停快照计划以节省存储空间、然后稍后恢复计划的快照。</block>
@@ -1055,19 +1018,10 @@
   <block id="a7bff65d0ed51d740a39f731e7d8021b" category="list-text">*添加*—添加主机端口时、要将主机端口标识符与为连接到存储阵列而创建的主机相关联。您可以使用主机总线适配器(HBA)实用程序手动输入端口信息。</block>
   <block id="f2d3620c344a28c110b23aa6b6f1ce14" category="list-text">*编辑*—您可以编辑主机端口以将主机端口移动(关联)到其他主机。您可能已将主机总线适配器或iSCSI启动程序移动到其他主机、因此必须将主机端口移动(关联)到新主机。</block>
   <block id="8dab6150ab20dd516ffa6f6a8e5d5b39" category="list-text">*删除*—您可以删除主机端口以从主机中删除(取消关联)主机端口。</block>
-  <block id="ab94b6a8329f1317bef48a59170c97d3" category="list-text">选择要与端口关联的主机，然后单击 * 查看 / 编辑设置 * 。</block>
-  <block id="886fd4c813c4e11df06fc3da60d87627" category="paragraph">如果要向主机集群中的主机添加端口、请展开主机集群并选择所需主机。您不能在主机集群级别添加端口。</block>
-  <block id="b21d93f656eb2bcdcad000f223bb6d82" category="paragraph">此时将显示一个对话框，其中显示了当前主机设置。</block>
-  <block id="0b9640a6de1778b66de3d4d7e9ac4027" category="list-text">单击 * 主机端口 * 选项卡。</block>
-  <block id="2168687a9826215951f8cbf501f602dc" category="paragraph">此对话框将显示当前主机端口标识符。</block>
   <block id="6942ecce5d06ee71ea4d9444a3e06d23" category="list-text">根据需要更改主机端口标识符设置。</block>
   <block id="c99234f5c824d853dc664a29cabe2b54" category="paragraph">主机端口</block>
   <block id="737fa850e15c43fbda7d29a4db80881a" category="paragraph">您可以选择以下选项之一：</block>
-  <block id="e6fa394b8a78cb4a2f25b8c08a4ca6fd" category="list-text">*添加*—使用添加将新的主机端口标识符与主机关联。主机端口标识符名称的长度由主机接口技术决定。光纤通道和Infiniband主机端口标识符名称必须包含16个字符。iSCSI 主机端口标识符名称最多包含 223 个字符。此端口必须是唯一的。不允许使用已配置的端口号。</block>
-  <block id="933c9b8a2db30ecfa143b5fe5628c9af" category="list-text">*删除*—使用删除删除删除主机端口标识符(取消关联)。删除选项不会物理删除主机端口。此选项将删除主机端口与主机之间的关联。除非您删除主机总线适配器或 iSCSI 启动程序，否则控制器仍可识别主机端口。</block>
   <block id="a95440176e287477eaeacb95bb5ad505" category="paragraph">如果删除主机端口标识符、它将不再与此主机关联。此外、主机将无法通过此主机端口标识符访问其分配的任何卷。</block>
-  <block id="b021df6aac4654c454f46c77646e745f" category="paragraph">Label</block>
-  <block id="bf2cdc1ca8bb23a3325ae304718b94e9" category="paragraph">要更改端口标签名称、请单击*编辑*图标(铅笔)。端口标签名称必须是唯一的。不允许使用已配置的标签名称。</block>
   <block id="c0296ecd3afa93bf29ddc2115f385e67" category="paragraph">CHAP机密</block>
   <block id="291ee725c21a1c513cccdf4357fae371" category="paragraph">仅对iSCSI主机显示。您可以为启动程序(iSCSI主机)设置或更改CHAP密钥。</block>
   <block id="c3e63a4d883be6253170457bd795f190" category="paragraph">System Manager使用质询握手身份验证协议(Challenge Handshake Authentication Protocol、CHAP)方法、在初始链接期间验证目标和启动程序的身份。身份验证基于一个称为CHAP机密的共享安全密钥。</block>
@@ -1075,7 +1029,6 @@
   <block id="f12c1bb4a3c32ad8040d726560920bad" category="doc">删除快照组</block>
   <block id="696d8050bcaff93bbeaee1e6d01bb977" category="paragraph">删除快照组后、该组中的所有快照映像也会被删除。</block>
   <block id="23a53e6e187d863f8bcc9d0b6c4ad84a" category="list-text">单击*预留容量*选项卡。</block>
-  <block id="dc3d86e6cfcfdd3a41a652780f284da3" category="list-text">选择要删除的快照组、然后单击菜单：不常见任务[删除快照组]。</block>
   <block id="7c65908d27e22c1808aa0fcd96463db2" category="paragraph">此时将显示确认删除Snapshot组对话框。</block>
   <block id="17af20b470d18570088aebd82c9caeeb" category="list-text">键入`delete`进行确认。</block>
   <block id="214a6cbfa5a71d06f1302a2e8a871678" category="paragraph">System Manager将执行以下操作：</block>
@@ -1085,10 +1038,8 @@
   <block id="612f26578322c586474c073fa672ae80" category="summary">使用远程存储功能时、请注意、远程卷是数据源。</block>
   <block id="bb2120ee118b29e62f82a6f61eafd12e" category="doc">需要了解有关导入中的远程卷的哪些信息？</block>
   <block id="9b9e4ceb282b654a236633ed7253a439" category="paragraph">导入过程中、数据将从远程卷传输到目标存储系统上的目标卷。这两个卷必须具有匹配的块大小。</block>
-  <block id="799105ce484d8f1f7c12ac0f2c9df07c" category="summary">性能余量图与存储阵列控制器的剩余性能功能相关。此图形可在主页页面和性能图块的物理视图选项卡上查看。</block>
   <block id="cede3d535d801caf5fd0782ee83656f3" category="doc">性能余量图显示了哪些内容？</block>
   <block id="d7139927d5a83f535d25d7224b926d87" category="paragraph">性能余量图显示了存储系统中物理对象的剩余性能。将光标悬停在图中的某个点上方、可查看控制器A和控制器B的剩余IOPS和MiB/秒功能百分比</block>
-  <block id="050300a59e8d2f30266ea2923a2ea01c" category="summary">在添加容量对话框中、并非所有驱动器都可用于向现有池或卷组添加容量。</block>
   <block id="09b58f476656738f40f34656fb9a5039" category="doc">为什么某些驱动器不显示？</block>
   <block id="07228919748601c02a2f205a60e84c80" category="paragraph">驱动器不符合条件的原因如下：</block>
   <block id="8cdd3ca8b47cf32f754799e08a518b83" category="list-text">驱动器必须已取消分配、并且未启用安全保护。驱动器已属于另一个池、另一个卷组或配置为热备用磁盘不符合条件。如果某个驱动器未分配但已启用安全保护、则必须手动擦除该驱动器才能使其符合条件。</block>
@@ -1115,7 +1066,6 @@
   <block id="28c9a3c549895c0b2dd62381581137e5" category="summary">导入过程开始后，您可以查看其进度并对其执行操作。</block>
   <block id="50b90a98b9cdf26b7b210c126b40e512" category="doc">管理远程存储导入的进度</block>
   <block id="aa16d7676d7396512a6999e556c16794" category="paragraph">对于每个导入操作、"正在执行的操作"对话框会显示完成百分比和估计剩余时间。操作包括更改导入优先级，停止和恢复操作以及断开操作连接。</block>
-  <block id="79519e912d4d07f5263c465c12ae969f" category="paragraph">您还可以从主页页面查看正在进行的操作(菜单：主页(显示正在进行的操作)。</block>
   <block id="b2578de0628ca8c265614526a2213f38" category="list-text">从远程存储页面中、选择*查看操作*。</block>
   <block id="85831f57ace07b2c9d57ed2b62333118" category="paragraph">此时将显示操作进行中对话框。</block>
   <block id="bfdff97b5f8ca47eebd90d8d7d33ee97" category="list-text">如果需要、可使用*操作*列中的链接停止并恢复、更改优先级或断开操作。</block>
@@ -1132,8 +1082,6 @@
   <block id="d2c3016b1c4893861f6df9e9ca35fb38" category="paragraph">请查看以下准则：</block>
   <block id="6c9b5dc92523d840fc4b93d169fbc2de" category="list-text">只能按与添加时相反的顺序删除预留容量卷。</block>
   <block id="61920f5d1d4d7bdb0b54148a30245a28" category="list-text">您不能减少只读快照卷的预留容量、因为它没有任何关联的预留容量。只有读写Snapshot卷才需要预留容量。</block>
-  <block id="8d3b8ca4360889c06f6903ad9ebe9df9" category="list-text">选择要减少预留容量的存储对象、然后单击*减少容量*。</block>
-  <block id="a18a11fa21bc3a9584c26cfec969ca17" category="paragraph">此时将显示减少预留容量对话框。</block>
   <block id="e1f94b1654c3cce945e69ba66864025d" category="list-text">选择要减少预留容量的容量、然后单击*减少*。</block>
   <block id="807a7a3169f74a2a70daa9d359c76ce0" category="list-text">更新存储对象的容量。</block>
   <block id="4a14f9efd3f3c8b8c5f0e699de1e30e1" category="list-text">显示存储对象新更新的预留容量。</block>
@@ -1204,10 +1152,7 @@
   <block id="2157e40c445a8f49bf980b944254fb8d" category="paragraph">未分配容量是指存储阵列中已*未*分配给池或卷组的空间。</block>
   <block id="d135d0a1a36e1dc4b83f89e9347995f5" category="paragraph">写入容量</block>
   <block id="f8ff7ae920792d6c93d25169f1ca8bbb" category="paragraph">写入容量是指从为精简卷分配的预留容量中写入的容量。</block>
-  <block id="f5b7242871c7e38119218bf8bacfa990" category="summary">您可以编辑SSD缓存的名称并查看其状态、最大和当前容量、驱动器安全性和数据保证状态及其关联的卷和驱动器。</block>
   <block id="21006395f0494e955888b243b91b9fea" category="doc">更改SSD缓存设置</block>
-  <block id="e7ba533ee273e4d365e80c9c55d661bf" category="list-text">选择要编辑的SSD缓存、然后单击*查看/编辑设置*。</block>
-  <block id="efcecb34c8abd12a5a1d6adb55a9a429" category="paragraph">此时将显示SSD缓存设置对话框。</block>
   <block id="ac84fab32f52b7806064f3707fc5210f" category="list-text">根据需要查看或编辑SSD缓存设置。</block>
   <block id="a7e16a950a089a09a2115f7ba68348e6" category="paragraph">显示SSD缓存的名称、您可以对其进行更改。SSD缓存的名称为必填项。</block>
   <block id="93932ba537ba6424fb935c090e4d40a9" category="paragraph">特性</block>
@@ -1239,16 +1184,10 @@
   <block id="fc886e3e7e0f9eb3c2b50db3c468785a" category="list-text">池或卷组必须处于最佳状态。</block>
   <block id="916449b0af53edf7ce215a58134fb74b" category="list-text">一个卷组中允许的最大卷数为256。</block>
   <block id="0f5df647ca5dab4ee03a26732709068f" category="list-text">池中允许的最大卷数取决于存储系统型号：</block>
-  <block id="4c54c92d3510c01a7395053d83e94ed9" category="list-text">2、048个卷(EF600和E5700系列)</block>
-  <block id="aff83888aa4f8769518fc32e759fbbe3" category="list-text">1、024个卷(EF300)</block>
   <block id="05b93f6f166f69fe87a016a1bfa75578" category="list-text">如果池或卷组包含所有支持安全的驱动器、请仅添加支持安全的驱动器、以继续使用支持安全的驱动器的加密功能。</block>
   <block id="3cebaa2c5445065ae59be02b02aebe90" category="paragraph">支持安全的驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器、也可以是联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。</block>
   <block id="f62b6a7943693e0c4263ed7095ad9c21" category="paragraph">对于池、一次最多可以添加60个驱动器。对于卷组、一次最多可以添加两个驱动器。如果需要添加的驱动器数超过最大数量、请重复执行操作步骤。(池中的驱动器数不能超过存储系统的最大限制。)</block>
   <block id="7602688ddcf77e644ebf94fbe48e7006" category="paragraph">添加驱动器后、可能需要增加保留容量。您应考虑在执行扩展操作后增加预留容量。</block>
-  <block id="fde1430fbfd0637d84f0b76cc21adbbb" category="paragraph">避免使用能够向不支持DA的池或卷组添加容量的数据保证(Data Assurance、DA)驱动器。池或卷组无法利用支持DA的驱动器的功能。在这种情况下、请考虑使用不支持DA的驱动器。</block>
-  <block id="581b2b3e28a393faff019729a2775e0d" category="list-text">选择要添加驱动器的池或卷组、然后单击*添加容量*。</block>
-  <block id="204f9a4b2b278c2c4db0dbeccaf6bb18" category="paragraph">此时将显示添加容量对话框。仅显示与池或卷组兼容的未分配驱动器。</block>
-  <block id="3472fb25c08dfed857bd2f1dae99d77f" category="list-text">在*选择要添加容量的驱动器...*下、选择要添加到现有池或卷组的一个或多个驱动器。</block>
   <block id="40742508e3203918da26a24a5ea7b235" category="paragraph">控制器固件会使用顶部列出的最佳选项来排列未分配的驱动器。添加到池或卷组的总可用容量显示在*选定总容量*中的列表下方。</block>
   <block id="27369e02201cfd95107ef7fe0fe1a46c" category="paragraph">磁盘架</block>
   <block id="0ae499dfc4c4d7dd3df3854cee6c03fc" category="paragraph">指示驱动器的磁盘架位置。</block>
@@ -1267,10 +1206,7 @@
   <block id="9a592c493e417f248a9e4323c89e367a" category="list-text">报告为支持安全的驱动器可以是全磁盘加密(Full Disk Encryption、FDE)驱动器或联邦信息处理标准(Federal Information Processing Standard、FIPS)驱动器。</block>
   <block id="6323643218ac541e069841e0e8e8fa09" category="paragraph">支持DA</block>
   <block id="2437e7b5729be1d1d1d2028feb8574dc" category="paragraph">指示驱动器是否支持数据保证(Data Assurance、DA)。</block>
-  <block id="aaeb09a40f9775414c6761b3be7f7b1e" category="list-text">建议不要使用数据保证(Data Assurance、DA)无法向支持DA的池或卷组添加容量的驱动器。池或卷组不再具有DA功能、您也无法再对池或卷组中新创建的卷启用DA。</block>
-  <block id="234bef12bb34b9dbf16feca527a40e45" category="list-text">建议不要使用能够向不支持DA的池或卷组添加容量的数据保证(Data Assurance、DA)驱动器、因为该池或卷组无法利用支持DA的驱动器的功能(驱动器属性不匹配)。在这种情况下、请考虑使用不支持DA的驱动器。</block>
   <block id="004a6379519fe8070c1684b326622e31" category="paragraph">支持DULBE</block>
-  <block id="3fe06ffeb4eaa28e26a81fda1486a8ba" category="paragraph">指示驱动器是否具有已取消分配或未写入逻辑块错误(DULBE")选项。DULBE"是NVMe驱动器上的一个选项、它允许EF300或EF600存储阵列支持资源配置的卷。</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">单击 * 添加 * 。</block>
   <block id="0cdaa4eb0beaad57c361808508b93526" category="paragraph">如果要向池或卷组添加驱动器、则如果选择的驱动器导致池或卷组不再具有以下一个或多个属性、则会显示一个确认对话框：</block>
   <block id="58c364dc222075f668543b2a054cb8f8" category="list-text">磁盘架丢失保护</block>
@@ -1299,11 +1235,9 @@
   <block id="793298ad926fd7c3c1d548e0a52994a6" category="paragraph">详细性能视图中的图形位于三个选项卡下：</block>
   <block id="6905e60a7e354193f00181fb1bb848a9" category="list-text">*逻辑视图*-显示按卷组和池分组的逻辑对象的性能数据。逻辑对象包括卷组、池和卷。</block>
   <block id="4312686ccecbcf89ea27506ecda614c2" category="list-text">*物理视图*-显示控制器、主机通道、驱动器通道和驱动器的性能数据。</block>
-  <block id="3d80a9e14bb26c2755d0a5da6ea90f84" category="list-text">*应用程序和工作负载视图*-显示按已定义的应用程序类型和工作负载分组的逻辑对象(卷)列表。</block>
   <block id="13987fa6e6b00abe396521d7064816da" category="list-text">选择*主页*。</block>
   <block id="8a743cfc602fa9c41096bfc63f81f33f" category="list-text">要选择阵列级别视图、请单击IOPS、MIB/s或CPU按钮。</block>
   <block id="1e2853e652b7c8458c7ad2fb41a37498" category="list-text">要查看更多详细信息、请单击*查看性能详细信息*。</block>
-  <block id="677b177acc68985e9a4627fe9dc5252d" category="list-text">选择*逻辑视图*选项卡、*物理视图*选项卡或*应用程序和工作负载视图*选项卡。</block>
   <block id="37571b2d04da5be9ecb4ae79c764c9c9" category="paragraph">根据对象类型、每个选项卡中会显示不同的图形。</block>
   <block id="2be8915618a9fef53f8dfbf9b28fabc8" category="cell">查看选项卡</block>
   <block id="d97e0fd36d398108161b474873e8484c" category="cell">显示每个对象类型的性能数据</block>
@@ -1317,7 +1251,6 @@
   <block id="6c5ef2e7cde336d4d8673350a8d926d3" category="list-text">*主机通道*：延迟、IOPS、MiB/秒、余量</block>
   <block id="56a35ae70dcb68b89edc331464641ec7" category="list-text">*驱动器通道*：延迟、IOPS、MIB/s</block>
   <block id="b104fa1cb4e8601d04e6a90189127b31" category="list-text">*驱动器*：延迟、IOPS、MIB/s</block>
-  <block id="0f403f88dfdaa7b1d38dee5fcf79e631" category="paragraph">应用程序和工作负载视图</block>
   <block id="534bd61435a2a14e3b8c623a43fac1b9" category="list-text">*应用程序*：延迟、IOPS、MIB/s</block>
   <block id="03f4c345792d7c830e49045efc5d6772" category="list-text">*工作负载*：延迟、IOPS、MiB/秒</block>
   <block id="488e0128353962e42fa30d22a2fdecd9" category="list-text">使用选项查看所需的对象和信息。</block>
@@ -1349,7 +1282,6 @@
   <block id="37dcc9930b0f6dd7aeec1f23129a1607" category="paragraph">要重置图形、请选择一个时间范围选项。</block>
   <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="paragraph">拖放</block>
   <block id="30185cadcdaae5e719e742e91c7c2516" category="paragraph">在图形上、将光标从一个时间点拖动到另一个时间点以放大某个时间范围。</block>
-  <block id="1045c0a24c9aaad2175ff995e0b9542a" category="summary">资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。</block>
   <block id="72ac4d3b5f851bd084b3de1f3e95a925" category="doc">什么是资源配置功能？</block>
   <block id="84f89fc32eda5be9a17ee2bd540a8082" category="paragraph">资源配置卷是SSD卷组或池中的厚卷、在创建卷时会分配(分配给卷)驱动器容量、但会取消分配(取消映射)驱动器块。相比之下、在传统厚卷中、所有驱动器块都会在后台卷初始化操作期间映射或分配、以便初始化数据保证保护信息字段并使每个RAID条带中的数据和RAID奇偶校验保持一致。对于资源配置的卷、不会进行有时间限制的后台初始化。而是在首次写入条带中的卷块时初始化每个RAID条带。</block>
   <block id="bfd30f24eb9ff30b408a2596e56c473c" category="paragraph">只有SSD卷组和池支持资源配置的卷、其中组或池中的所有驱动器都支持NVMe已取消分配或未写入逻辑块错误启用(DULBE")错误恢复功能。创建资源配置的卷时、分配给该卷的所有驱动器块都会进行取消分配(未映射)。此外、主机还可以使用NVMe Dataset Management命令或SCSI Unmap命令取消分配卷中的逻辑块。取消分配块可以延长SSD的使用寿命并提高最大写入性能。性能提升因驱动器型号和容量而异。</block>
@@ -1361,9 +1293,6 @@
   <block id="f12218600597823c2864c3e5295af902" category="paragraph">如果要更改RAID级别以满足访问卷组的应用程序的性能需求、请确保满足以下前提条件：</block>
   <block id="340b95658c5db26c65025cbe9f6a33bf" category="list-text">卷组必须处于最佳状态。</block>
   <block id="bf563b0562d8a0e131243c124c304121" category="list-text">卷组中必须有足够的容量才能转换为新的RAID级别。</block>
-  <block id="8911529abce0ca29a049a76af455e603" category="list-text">选择要编辑的卷组、然后单击*查看/编辑设置*。</block>
-  <block id="bb3585552070feb92ff5310d8b9e49a8" category="paragraph">此时将显示卷组设置对话框。</block>
-  <block id="b49937904b958b98d87ec8d30f3c8a76" category="list-text">选择*设置*选项卡、然后根据需要编辑卷组设置。</block>
   <block id="9a61236dc67e7d9d6bdfe786eab5bcb6" category="paragraph">您可以更改用户提供的卷组名称。需要为卷组指定名称。</block>
   <block id="7ff5cd0636ffd772e300537a71b5e07b" category="paragraph">RAID级别</block>
   <block id="907757458753701f587c3171ade67de6" category="paragraph">从下拉菜单中选择新的RAID级别。</block>
@@ -1386,7 +1315,6 @@
   <block id="3247825acdcdabc51503b1e4d187fe45" category="list-text">池或卷组中的所有驱动器都必须是支持安全的驱动器。</block>
   <block id="c684c1e7df01426e7aa22bb8fc315103" category="paragraph">如果要使用驱动器安全性、请选择一个支持安全的池或卷组。池或卷组可以同时包含支持安全和不支持安全的驱动器，但所有驱动器都必须具有安全功能才能使用其加密功能。</block>
   <block id="280f4d7df0319ee44a63453a0d526d1f" category="paragraph">启用安全性后、只能通过删除池或卷组并擦除驱动器来删除它。</block>
-  <block id="71cf48159becdb12b97ce78521a7e58c" category="list-text">选择要启用安全性的池或卷组、然后单击菜单：更多[启用安全性]。</block>
   <block id="130f0e180a3d7701649f57c0097aca01" category="paragraph">此时将显示确认启用安全性对话框。</block>
   <block id="c04d914c03cc0471f07bc0f715b520f0" category="list-text">确认要为选定池或卷组启用安全性、然后单击*启用*。</block>
   <block id="53567044ab47914aeb9bd4b0055d8513" category="doc">什么是卷组？</block>
@@ -1396,7 +1324,6 @@
   <block id="b84e85e7db7f8a3d2c3833ca5a766938" category="list-text">创建快照映像时、该映像与基础卷完全匹配。创建快照后、如果对基础卷上的任何块或块集发出首次写入请求、则在将新数据写入基础卷之前、原始数据会复制到快照预留容量。</block>
   <block id="15e7467dc499e6bd623850837ffbc81c" category="list-text">后续快照仅包含自创建第一个快照映像以来发生更改的数据块。在将新数据写入基础卷之前、后续的每次写入时复制操作都会将基础卷上即将覆盖的原始数据保存到Snapshot预留容量中。</block>
   <block id="33d4af9dc0c0fc34b7caf0a6ce97ce1c" category="summary">您可以更改主机的名称、主机操作系统类型以及关联的主机集群。</block>
-  <block id="81f7602d508495d45605b46b5bb92187" category="list-text">选择要编辑的主机、然后单击*查看/编辑设置*。</block>
   <block id="356644152a8ce764e09fdec4e9212fb9" category="list-text">如果尚未选择此选项、请单击*属性*选项卡。</block>
   <block id="dc4c397fe7e85b41f4983bddd8fc0f3d" category="list-text">根据需要更改设置。</block>
   <block id="3c9ea8b0df5243922d11243ee90d68bb" category="paragraph">您可以更改用户提供的主机名称。需要为主机指定名称。</block>
@@ -1413,8 +1340,6 @@
   <block id="a5bfdea5193f51af0e194a3fd747bd70" category="list-text">不能将快照组指定为"`re提供服务"。`</block>
   <block id="9ff859118a1a45c457548aeac34aa0a9" category="list-text">预留容量卷必须与快照组的关联基础卷具有相同的数据保证(Data Assurance、DA)设置。</block>
   <block id="5d3756ec6d43814f7457c3e2ea570e29" category="list-text">要创建快照映像、请执行以下操作之一：</block>
-  <block id="7d561160d423e4c1dde77c93921d5ef9" category="list-text">选择菜单： Storage[Volumes] 。选择对象(基础卷或快照一致性组)、然后选择菜单：复制服务[创建即时快照]。</block>
-  <block id="48c449c3bfbf4186ce4a8619b3744b00" category="list-text">选择菜单：Storage[Snapshots]。选择*快照映像*选项卡、然后选择菜单：创建[即时快照]。</block>
   <block id="69971837f6c73fb1042fd9c01f85ac39" category="paragraph">此时将显示创建Snapshot映像对话框。选择对象(基础卷或快照一致性组)、然后单击*下一步*。如果为卷或快照一致性组创建了先前的快照映像、则系统会立即创建即时快照。否则、如果这是首次为卷或快照一致性组创建快照映像、则会显示确认创建Snapshot映像对话框。</block>
   <block id="26d30140f91af4b016fc1366f76d65f5" category="list-text">单击*创建*接受需要预留容量的通知、然后继续执行预留容量步骤。</block>
   <block id="50d73b98e1f7a9e7c2ace97983ed4d08" category="paragraph">此时将显示预留容量对话框。</block>
@@ -1451,7 +1376,6 @@
   <block id="6dee74719546d8700311fdc171e6eaf5" category="list-text">比较RAID 1镜像驱动器上的数据块。</block>
   <block id="bc9e8f7c1b6e3cc0add76ca67b72db44" category="list-text">如果控制器固件确定数据不一致、则返回冗余错误。</block>
   <block id="a18bfa5536f6ad90a9b1127adc6ab086" category="paragraph">立即对同一个池或卷组运行冗余检查可能会出现发生原因 错误。要避免此问题、请等待一到两分钟、然后再对同一个池或卷组运行另一个冗余检查。</block>
-  <block id="81bb3f0d1044a6d8bfc1c8d7fa1f068f" category="list-text">选择菜单：不常见任务(检查卷冗余)。</block>
   <block id="b1f3e44c47f90a56b8334384fe572e4e" category="paragraph">此时将显示检查冗余对话框。</block>
   <block id="2c358916480fbf4b494ae2e408cbc4be" category="list-text">选择要检查的卷、然后键入`check`确认要执行此操作。</block>
   <block id="a0802956ee77a57e48b33ba9979e9829" category="list-text">单击*检查*。</block>
@@ -1475,7 +1399,6 @@
   <block id="c2ef08d2a4f49ae850391736276d1a5e" category="paragraph">奇偶校验错误</block>
   <block id="2710317bb3cba0edc2a791f8a7c8404f" category="paragraph">奇偶校验与给定部分数据的奇偶校验不同。奇偶校验错误可能很严重、并且发生原因 可能会导致数据永久丢失。</block>
   <block id="5e043064dc164788c2cbfe6a4f36c0f7" category="list-text">检查池或卷组中的最后一个卷后、单击*完成*。</block>
-  <block id="d8041b5b6b275d7cdf01fe25b171405f" category="summary">MIB/s图以每秒兆字节为单位显示传输速度统计信息。在主页页面上、此图显示存储阵列的统计信息。在性能图块的逻辑视图、物理视图以及应用程序和工作负载视图选项卡中、此图显示存储阵列、卷、卷组、池、应用程序、 和工作负载。</block>
   <block id="6e9fca991ed7800e2f06ec6512519a9f" category="doc">MIB/s图显示什么？</block>
   <block id="6db3e77ddfb8e3cc7a3a71f02e83d0e3" category="paragraph">MiB/秒是_mebibytes per second_的缩写、即1、048、576字节/秒。将光标悬停在图形上的某个点上、可查看该时间点的以下值：</block>
   <block id="9fe0970e12f81e473b4136dfed8cceaf" category="list-text">读取的数据量。</block>
@@ -1505,7 +1428,6 @@
   <block id="3bfd2179043341e09a4fc1cfd720d6ff" category="summary">此工作负载由一组使用命令行界面(CLI)创建或从其他存储阵列迁移(导入/导出)的卷组成。因此、此工作负载中的卷不会与特定于应用程序的工作负载关联、因此无法删除此工作负载。</block>
   <block id="3cedad73b5b33c8b0c2b8d5beeed5264" category="summary">如果已在所有可用容量上创建卷、则可能无法增加保留容量。</block>
   <block id="71396049ff539200dbba1007ca0cbc94" category="paragraph">保留容量是指池中为支持潜在驱动器故障而预留的容量(驱动器数量)。创建池时、系统会根据池中的驱动器数量自动预留默认保留容量。如果已在所有可用容量上创建卷、则在不通过添加驱动器或删除卷向池添加容量的情况下、无法增加保留容量。</block>
-  <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">您可以从*池和卷组*更改保留容量。选择要编辑的池。单击*查看/编辑设置*、然后选择*设置*选项卡。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">保留容量指定为多个驱动器、即使实际保留容量分布在池中的驱动器之间也是如此。</block>
   <block id="46c0ce9f7787b7e7378014c3a3284d40" category="summary">下图说明了如何配置主机访问。</block>
   <block id="122f46bed4564e906a8313a3e36d3a7f" category="summary">选定卷组可能具有一个或多个可用容量区域。可用容量区域是指删除卷或在创建卷期间未使用所有可用容量时可能产生的可用容量。</block>
@@ -1514,7 +1436,6 @@
   <block id="3ec84691de4461afcb7edd3dc451ed36" category="paragraph">如果卷组具有可用容量区域、则卷组图形包含一个链接、指示现有可用容量区域的数量。选择此链接可显示一个弹出窗口、指示每个区域的容量。</block>
   <block id="38c03baad50c9c2d3adca3113ebd4076" category="paragraph">通过整合可用容量、您可以从卷组中的最大可用容量创建更多卷。您可以使用以下方法之一整合选定卷组上的现有可用容量：</block>
   <block id="d09d336ebf6dcd6e078e3b213ff87eab" category="list-text">如果至少为卷组检测到一个可用容量区域、则"通知"区域的主页页面上将显示"整合可用容量"建议。单击*整合可用容量*链接以启动对话框。</block>
-  <block id="c2513e9727acbc2439169454bebe278f" category="list-text">您也可以选择菜单：池和卷组(不常见的任务&gt;整合卷组可用容量)以启动此对话框。</block>
   <block id="4dc729af6728b435730f4dd990d7aca9" category="paragraph">如果要使用特定的可用容量区域、而不是最大可用容量区域、请使用命令行界面(CLI)。</block>
   <block id="a24f0326dbde4f9cc32d3db951e2ad84" category="summary">存储阵列具有可用于每个主机的最大逻辑单元号(LUN)数。</block>
   <block id="2ff2aeee5067a8750084da3c25948dce" category="paragraph">最大数量取决于主机的操作系统。存储阵列会跟踪已使用的LUN数量。如果您尝试将卷分配给超过最大LUN数的主机、则该主机将无法访问该卷。</block>
@@ -1557,7 +1478,6 @@
   <block id="b56a5fd4bbd3253eb632e0d3225c6ba4" category="paragraph">此时将显示Snapshot映像设置对话框。</block>
   <block id="3f32c7ad02124299dfc7c01e16cc558b" category="list-text">查看快照映像的设置。</block>
   <block id="f949e1c1c71d48680d0ee072b23da4ff" category="summary">您可以查看正在执行的复制卷操作、并停止、更改优先级、重新复制或清除复制卷操作。</block>
-  <block id="2a960fa11f5217be7b07c29c966c7d36" category="list-text">选择菜单：主页(查看正在执行的操作)。</block>
   <block id="1cab632814d61fafc9d8700dfb3e6bb1" category="paragraph">此时将显示操作进行中对话框。</block>
   <block id="75324fe07b5254b86eb250d33e9a267f" category="list-text">找到要对其执行操作的复制卷操作、然后单击*操作*列中的链接以执行以下操作之一。</block>
   <block id="6b5d1f6eff8fddebc04bf243132e5f82" category="paragraph">阅读对话框中提供的所有注意事项文本、尤其是在停止操作时。</block>
@@ -1584,7 +1504,6 @@
   <block id="ebc4150673e179c605ff911a9cc96626" category="paragraph">如果您认为主卷会发生许多更改、或者某个特定副本服务操作的生命周期很长、请使用较高的百分比。</block>
   <block id="75bd49321a7a43edb56771713bb1df1a" category="paragraph">您不能增加只读快照卷的预留容量。只有读写Snapshot卷才需要预留容量。</block>
   <block id="38078437bbd05c758da64ea9d2214e38" category="list-text">选择*预留容量*选项卡。</block>
-  <block id="21435608403976b8a1b1f1dd0a38afd7" category="list-text">选择要为其增加预留容量的存储对象、然后单击*增加容量*。</block>
   <block id="ca7598af88348a0eb26a79790c50e57e" category="paragraph">此时将显示增加预留容量对话框。</block>
   <block id="b005f440024604af24d0d7627b707a30" category="list-text">使用spinner框调整容量百分比。</block>
   <block id="b2a360a079ebb8754130c75b687f3b2e" category="paragraph">如果包含所选存储对象的池或卷组上不存在可用容量、并且存储阵列具有未分配的容量、则可以创建新的池或卷组。然后、您可以使用该池或卷组上的新可用容量重试此操作。</block>
@@ -1605,7 +1524,6 @@
   <block id="ad9f9d864463081efefa7e457113d2f2" category="section-title">Snapshot映像和Snapshot组</block>
   <block id="f214d00977d56cf60e1a65ff6ad71773" category="list-text">每个快照映像仅与一个快照组相关联。</block>
   <block id="6a7e4282e4950495e258aca3f5baf77e" category="list-text">首次为关联对象创建计划的或即时的快照映像时、系统会创建快照组。这将创建预留容量。</block>
-  <block id="10cc5847817703edea7d7ebf868be874" category="paragraph">您可以从"池和卷组"页面查看快照组。</block>
   <block id="57292cb576872ef166cabacc31fd0d54" category="list-text">当存储阵列脱机或关闭电源时、不会发生计划的快照映像。</block>
   <block id="2de9ad9186b9878ccb6f9e63e9c3c087" category="list-text">如果删除具有快照计划的快照组、则该快照计划也会被删除。</block>
   <block id="9753096b6f17058fedb85f86c468b130" category="list-text">如果您的快照卷不再需要、则可以重复使用它以及任何关联的预留容量、而不是删除它。这样就会为同一个基础卷创建不同的快照卷。您可以将快照卷或快照一致性组快照卷与相同的快照映像或不同的快照映像重新关联、前提是快照映像位于同一个基础卷中。</block>
@@ -1654,16 +1572,7 @@
   <block id="579111952277df3df9fa742ea446a46e" category="paragraph">必须初始化新创建的卷。系统可以使用以下两种模式之一进行初始化：即即时可用格式(Immediate Available Format、IAF)后台初始化过程或脱机过程。</block>
   <block id="b1c4b88d281bea242ba9cbb2fc92f27f" category="paragraph">将卷映射到主机时、它会强制该组中所有初始化的卷过渡到后台初始化。此后台初始化过程允许并发主机I/O、这有时可能非常耗时。</block>
   <block id="4eca01072b181a01596e3bbd4352155a" category="paragraph">如果未映射卷组中的任何卷、则会执行脱机初始化。脱机过程比后台进程快得多。</block>
-  <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">选定工作负载对卷创建有何影响？</block>
-  <block id="313e2c8f533507666d0259a50f56b9d4" category="paragraph">在创建卷期间、系统会提示您提供有关工作负载使用情况的信息。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。或者、您也可以在卷创建序列中跳过此步骤。</block>
   <block id="ab699fec90fd6cda5e110bb5189e9178" category="paragraph">工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。对于某些应用程序、系统会将工作负载配置为包含具有类似底层卷特征的卷。这些卷特征会根据工作负载支持的应用程序类型进行优化。例如、如果您创建了一个支持Microsoft SQL Server应用程序的工作负载、然后为该工作负载创建了卷、则底层卷特征将进行优化以支持Microsoft SQL Server。</block>
-  <block id="4f7439eaf72081063362c689d77bf875" category="list-text">*应用程序专用*—当您使用应用程序专用工作负载创建卷时、系统可能会建议优化卷配置、以最大程度地减少应用程序工作负载I/O与应用程序实例中的其他流量之间的争用。对于为以下应用程序类型创建的工作负载、系统会自动建议并优化卷特征、例如I/O类型、区块大小、控制器所有权以及读写缓存。</block>
-  <block id="bb82d22dd45cd104286d254d0ba84e4f" category="list-text">Microsoft®SQL Server (Microsoft®SQL Server)</block>
-  <block id="6b51faff7a1bf7a008e9d2173d6a2980" category="list-text">Microsoft®Exchange Server (Microsoft®Exchange Server)</block>
-  <block id="a9b6571e3fb4b307db1e9aeb13903f33" category="list-text">视频监控应用程序</block>
-  <block id="9e58bf91c4db2768afe12a38561fb7ee" category="list-text">VMware ESXi®(适用于要与虚拟机文件系统结合使用的卷)</block>
-  <block id="978ec6001b2172ad0515b162a6b92721" category="paragraph">您可以使用添加/编辑卷对话框查看建议的卷配置以及编辑、添加或删除系统建议的卷和特征。</block>
-  <block id="2f80ce597e2c0c00e53a627a39a89400" category="list-text">*其他*(或不支持特定卷创建的应用程序)— 其他工作负载使用的卷配置、您必须在创建与特定应用程序无关的工作负载时手动指定、或者如果您要在存储阵列上使用的应用程序没有内置优化功能、则必须手动指定。您必须使用添加/编辑卷对话框手动指定卷配置。</block>
   <block id="b66879679e0a456d131df0dfbdb9fb95" category="doc">容量警报为何重要？</block>
   <block id="36b833228459c54e9caad4c4ebad3dad" category="paragraph">在使用*池自动配置*选项或*创建池*选项创建池时、可以设置此百分比。如果选择自动选项、则默认设置会自动确定何时接收警报通知。如果您选择手动创建池、则可以确定警报通知设置；如果愿意、也可以接受默认设置。您可以稍后在菜单：Settings[警报]中调整这些设置。</block>
   <block id="2e7fdb8bc40f6a8c60ac3763b5af0b1d" category="paragraph">当池中的可用容量达到指定百分比时、将使用您在警报配置中指定的方法发送警报通知。</block>
@@ -1712,8 +1621,6 @@
   <block id="6ee2999a4e5670425e0ea687e391af5d" category="paragraph">指示数据保证(Data Assurance、DA)是否可用于此组。数据保证(Data Assurance、DA)可检查并更正在数据通过控制器向下传输到驱动器时可能发生的错误。</block>
   <block id="51116241f4b1bce91a88a71fca13cc1d" category="paragraph">如果要使用DA、请选择一个支持DA的卷组。(对于支持DA的驱动器、在池中创建的卷会自动启用DA。)</block>
   <block id="638b5ec826787200f55db76541b5b778" category="paragraph">卷组可以包含支持DA或不支持DA的驱动器、但要使用此功能、所有驱动器都必须支持DA。</block>
-  <block id="9b4ace633a67fbd7fc13488654e4039a" category="paragraph">支持资源配置(仅限EF300和EF600)</block>
-  <block id="67f499ebbd7fdad55cde14381c77d246" category="paragraph">显示资源配置是否可用于此组。资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。</block>
   <block id="497f98df0a65d45702bbb213f94ad2f9" category="paragraph">磁盘架丢失保护</block>
   <block id="583c0f2e390971cb9f4ba4ce9747868e" category="paragraph">显示磁盘架丢失保护是否可用。磁盘架丢失保护功能可确保在与磁盘架完全失去通信时能够访问卷组中卷上的数据。</block>
   <block id="ccadd3c23eb718337466208415f3437d" category="paragraph">抽盒丢失保护</block>
@@ -1745,16 +1652,13 @@
   <block id="5667801c9d485200cee1dd727cd1ab29" category="doc">驱动器支持哪些介质类型？</block>
   <block id="6460199a09a62534a5d7285029145977" category="summary">您可以在现有池或卷组上启用或禁用资源配置。</block>
   <block id="45626cd18cb972bec9636194a3ad449c" category="paragraph">对于任何支持DULBE-的驱动器、您可以在池或卷组中的现有卷上启用或禁用资源配置。</block>
-  <block id="af4e386f4a0bfa6defdb867cccb5c066" category="paragraph">资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。分配给卷的所有驱动器块都会进行取消分配(未映射)、这样可以延长SSD的使用寿命并提高最大写入性能。</block>
   <block id="5c6c27c561cdd8551b9bc0d3f459a366" category="paragraph">默认情况下、在驱动器支持DULBE"的系统上启用资源配置。除非您先前已禁用资源配置、否则无需启用该配置。</block>
-  <block id="1e0aa07b02f0921d650a6bd5488bcd38" category="list-text">您必须具有EF300或EF600存储阵列。</block>
   <block id="d379741ffe5d2165b53e9f28a974d6f3" category="list-text">您必须具有SSD卷组或池、其中的所有驱动器都支持NVMe已取消分配或未写入逻辑块错误启用(DULBEe)错误恢复功能。否则、资源配置选项将不可用。</block>
   <block id="5197142f33ea62c8876f1cf64283dbc3" category="paragraph">在为现有卷组和池启用资源配置时、选定卷组或池中的所有卷都会发生更改、以允许取消分配这些块。此过程可能涉及后台操作、以确保在取消映射粒度处分配一致。此操作不会取消映射任何空间。后台操作完成后、操作系统需要取消映射任何未使用的块以创建可用空间。</block>
   <block id="ce1596facf88ad4b1c10770040edfa12" category="paragraph">在为现有卷组或池禁用资源配置时、后台操作会重新写入每个卷中的所有逻辑块。现有数据保持不变。写入操作将在与卷组或池关联的驱动器上映射或配置块。</block>
   <block id="3b321059903848cdb56bae726434cd78" category="admonition">对于新的卷组和池、您可以从菜单：设置[系统&gt;其他设置&gt;启用/禁用资源配置的卷]启用或禁用资源配置。</block>
   <block id="66e4194eefdcd79b18d507c21e56e21c" category="list-text">从列表中选择一个池或卷组。</block>
   <block id="b76913026aae098ef0b8e6b8a75ab814" category="paragraph">一次只能选择一个池或卷组。向下滚动列表以查看其他池或卷组。</block>
-  <block id="3e5cc3257f1985b382415a4fab7c65d9" category="list-text">选择*不常见任务*、然后选择*启用资源配置*或*禁用资源配置*。</block>
   <block id="057fd6d85219203435ea065ff7eeca02" category="list-text">在对话框中、确认操作。</block>
   <block id="a12dd8ae911fabfd99caece66bd2bab2" category="admonition">*如果您重新启用DULBE*-后台操作完成后、您可能需要重新启动主机以检测到DULBE*配置更改、然后重新挂载所有文件系统。</block>
   <block id="f956e41235aa6de0ef7cf1901fa9a994" category="paragraph">具有已启用DA的基础卷的Snapshot卷不能分配给不支持数据保证(Data Assurance、DA)的主机。您必须先在基础卷上禁用DA、然后才能将快照卷分配给不支持DA的主机。</block>
@@ -1772,7 +1676,6 @@
   <block id="ce72ff0d1d07715fd85f625f0c0729d7" category="paragraph">此时将显示确认删除远程存储连接对话框。</block>
   <block id="8c769323bf95aaa0e633003dabe724ac" category="list-text">键入 `remove` 然后单击 * 删除 * ，确认操作。</block>
   <block id="953c05d7c928421c7c04e9383c53a283" category="paragraph">此时将删除选定的远程存储对象。</block>
-  <block id="c6227747a405668813f4babd6c9a5a4e" category="summary">延迟图形可提供卷、卷组、池的延迟统计信息、以毫秒(ms)为单位。 应用程序和工作负载。此图形显示在逻辑视图、物理视图以及应用程序和工作负载视图选项卡中。</block>
   <block id="b29da8e221e22a16455692348d333858" category="doc">延迟图显示了什么内容？</block>
   <block id="cc76e10b76188be61d82eb8fb2ed608f" category="paragraph">延迟是指读取或写入数据时发生的任何延迟。将光标悬停在图形上的某个点上、可查看该时间点的以下值(以毫秒(ms)为单位)：</block>
   <block id="8b456f4235e294af9c1c0ed76d938b87" category="list-text">读取时间。</block>
@@ -1869,8 +1772,6 @@
   <block id="88b6d510c50bcb1b16c968fd91477174" category="paragraph">此时将显示复制卷对话框、提示您选择目标。</block>
   <block id="9427d6397f3d0799cd0eff4c90af378a" category="list-text">选择要用作复制目标的目标卷、然后单击*完成*。</block>
   <block id="3ffd5f0322b1320cb436208a96cd164d" category="summary">您可以更改主机集群名称、或者在主机集群中添加或删除主机。</block>
-  <block id="51d60eae66c9543a949b6c5741bec4c2" category="list-text">选择要编辑的主机集群、然后单击*查看/编辑设置*。</block>
-  <block id="6e1d2ef0ede0098f422178e7c2f227ef" category="paragraph">此时将显示一个对话框、其中显示了当前主机集群设置。</block>
   <block id="ea082987b476f935cb21974d95545371" category="list-text">根据需要更改主机集群的设置。</block>
   <block id="0d04cde439ee3ef14d1f718c1bfa148b" category="paragraph">您可以指定用户提供的主机集群名称。需要为集群指定名称。</block>
   <block id="f214b91c4ea43244f501490c6edd94f6" category="paragraph">关联主机</block>
@@ -1942,8 +1843,6 @@
   <block id="718def83cc27de3ea7c791559cbfb9e4" category="summary">您可以更改卷的首选控制器所有权、以便通过新路径定向主机应用程序的I/O。</block>
   <block id="72b5db057b884e837900cd46506f3406" category="paragraph">如果不使用多路径驱动程序、则必须关闭当前正在使用此卷的任何主机应用程序。此操作可防止在I/O路径发生更改时出现应用程序错误。</block>
   <block id="1a193d87a118a7b0ea8d2329908ebc62" category="paragraph">您可以更改池或卷组中一个或多个卷的控制器所有权。</block>
-  <block id="055de6d23ba3feacf68acd0dece439fc" category="list-text">选择任何卷、然后选择菜单：更多[更改所有权]。</block>
-  <block id="0caf7821c08f34d24dd4a34d475fe523" category="paragraph">此时将显示更改卷所有权对话框。存储阵列上的所有卷都会显示在此对话框中。</block>
   <block id="92216f6a17c7b9758a0136dc9eb26dc2" category="list-text">使用*首选所有者*下拉列表更改要更改的每个卷的首选控制器、并确认要执行此操作。</block>
   <block id="f7465e26f6da9199ea364328d17635d9" category="list-text">System Manager会更改卷的控制器所有权。现在、卷的I/O将通过此I/O路径定向。</block>
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">在多路径驱动程序重新配置以识别新路径之前、卷可能不会使用新的I/O路径。此操作通常需要不到五分钟的时间。</block>
@@ -2103,7 +2002,6 @@
   <block id="4bfb96757d6215ff28763db74f38fc1b" category="paragraph">在此任务期间、系统将显示所有未分配的卷、但具有或不具有数据保证(Data Assurance、DA)的主机的功能如下所示：</block>
   <block id="3c3ac8eaa57d34b0e8f3adb25c93c686" category="list-text">对于支持 DA 的主机，您可以选择已启用 DA 或未启用 DA 的卷。</block>
   <block id="73ba8f5a28422010fdc041b7d19240ee" category="list-text">对于不支持 DA 的主机，如果选择的卷已启用 DA ，则会显示一条警告，指出系统必须先自动关闭卷上的 DA ，然后才能将卷分配给主机。</block>
-  <block id="c33a4b01764595ce2907731c7851faa8" category="list-text">选择要将卷分配到的主机或主机集群，然后单击 * 分配卷 * 。</block>
   <block id="357fd1dbf3ba7dcc16de96ec6ce72f17" category="paragraph">此时将显示一个对话框，其中列出了可分配的所有卷。您可以对任意列进行排序或在 * 筛选器 * 框中键入内容，以便于查找特定卷。</block>
   <block id="b394536458f5cb716382143bfa6db202" category="list-text">选中要分配的每个卷旁边的复选框，或者选中表标题中的复选框以选择所有卷。</block>
   <block id="cd2234687c4402f5eb8472bd92694220" category="list-text">单击 * 分配 * 以完成此操作。</block>
@@ -2112,31 +2010,21 @@
   <block id="4faf06e0466760e50f45759abdf2041c" category="list-text">用户提供的卷名称将显示在与主机关联的卷列表中。如果适用，出厂配置的访问卷也会显示在与主机关联的卷列表中。</block>
   <block id="380cbfd4d1cf37c4bcab258a95fa8770" category="summary">您可以更改快照组的设置以更改其名称、自动删除设置、允许的最大快照映像数、System Manager发送预留容量警报通知的百分比点或预留容量达到其最大定义百分比时要使用的策略。</block>
   <block id="461d4d6aff9437cf486bde4465e94358" category="paragraph">在创建快照组期间、系统会创建预留容量来存储组中所有快照映像的数据。</block>
-  <block id="8c6fc876d654fd1d7f379afba14dabae" category="list-text">选择要编辑的快照组、然后单击*查看/编辑设置*。</block>
-  <block id="3726b7f0267ff56f9f5c771bd06c30b7" category="paragraph">此时将显示Snapshot组设置对话框。</block>
   <block id="5577250c3a813ef10d6deb748f56241a" category="list-text">根据需要更改快照组的设置。</block>
   <block id="7a010b2f73ea576231e7d4878cdf66de" category="paragraph">* Snapshot组设置*</block>
   <block id="cba14577ca1ea7044457c2cc8e9c57dc" category="paragraph">快照组的名称。需要为快照组指定名称。</block>
   <block id="160bf55a8e16d1cb7cafa207626644e9" category="paragraph">一种将组中的快照映像总数保持在或低于用户定义的最大值的设置。启用此选项后、System Manager会在创建新快照时自动删除组中最早的快照映像、以符合组允许的最大快照映像数。</block>
   <block id="b7ea8a5dee2bff2103a290a54440e137" category="paragraph">一个可配置的值、用于指定快照组允许的最大快照映像数。</block>
   <block id="aa26420e86849fbaddb6d2502dfcd8c7" category="paragraph">Snapshot计划</block>
-  <block id="ac8e418d8759b9bd151ebd6361d575ff" category="paragraph">如果是、则会为自动创建快照设置计划。</block>
   <block id="cd81d6e763089fa43e8b009b1e87db98" category="paragraph">使用spinner框调整当快照组的预留容量接近全满时System Manager发送警报通知的百分比。</block>
   <block id="b4a062f79c27ad8873cbe6f30d9bd89c" category="paragraph">当快照组的预留容量超过指定阈值时、System Manager会发送警报、以便您有时间增加预留容量或删除不必要的对象。</block>
   <block id="dd3bee12186f4cb1167b816a4a38da61" category="paragraph">您可以选择以下策略之一：</block>
   <block id="d0dc2593ad1c4c25178dbf48f96fd388" category="list-text">*清除最旧的快照映像*- System Manager会自动清除快照组中最旧的快照映像、从而释放快照映像预留容量、以便在组中重复使用。</block>
   <block id="309f7f446a7e565ec33677c0cd5d26bc" category="list-text">*拒绝向基础卷写入数据*-当预留容量达到其最大定义百分比时、System Manager将拒绝向基础卷发出的任何I/O写入请求、此请求会触发预留容量访问。</block>
   <block id="a56ee3183f2df03e8f5e1693b426d8bd" category="paragraph">*关联对象*</block>
-  <block id="623d502dd199865f6525b44a6d08647a" category="paragraph">用于组的基础卷的名称。基础卷是创建快照映像的源卷。它可以是厚卷或精简卷、通常分配给主机。基础卷可以位于卷组或磁盘池中。</block>
-  <block id="97d53b4f282155ae401d293ebdccb91c" category="paragraph">Snapshot映像</block>
-  <block id="c38842405be4e038eb8ce4e1cc6d5f8b" category="paragraph">从此组创建的映像数。快照映像是指在特定时间点捕获的卷数据的逻辑副本。与还原点一样，您可以通过快照映像回滚到已知正常的数据集。尽管主机可以访问快照映像、但它无法直接对其进行读写。</block>
   <block id="6cc74fd32775ac04a8d99c762864bfd8" category="list-text">单击*保存*将所做的更改应用于快照组设置。</block>
   <block id="33684691d817d60d42d151ed3a899635" category="summary">您可以更改工作负载的名称并查看其关联的应用程序类型。如果当前名称不再有意义或适用、请更改工作负载的名称。</block>
   <block id="c8df6d375a78cc6c108d606dbdb4c01a" category="doc">更改工作负载设置</block>
-  <block id="3b13fe839ebcfbf44d63586da27034e9" category="list-text">选择*应用程序和工作负载*选项卡。</block>
-  <block id="c0e1caaf14259c0b2dd52e382baf579a" category="paragraph">此时将显示"Applications &amp; Workloads View"。</block>
-  <block id="fbf7a1613c847c3c5c726582b8f6417b" category="list-text">选择要更改的工作负载、然后选择*查看/编辑设置*。</block>
-  <block id="816b8af41e51f246c781f95473f8ad84" category="paragraph">此时将显示应用程序和工作负载设置对话框。</block>
   <block id="f743379a29a0dce3d8109ed01a36fadf" category="list-text">*可选：*更改用户提供的工作负载名称。</block>
   <block id="3a63df27105842dced3b363a4c4cc957" category="summary">了解卷术语如何应用于存储阵列。</block>
   <block id="d9b18e0552a3d3cf076bdc5698449d55" category="section-title">所有卷类型</block>
@@ -2240,13 +2128,10 @@
   <block id="8db66a590e793cc7d91473709ac78620" category="doc">为什么要手动配置池？</block>
   <block id="88efe75144fdce28e60ef7fe5c711261" category="list-text">如果存储阵列上有多个应用程序、并且不希望它们争用相同的驱动器资源、则可以考虑手动为一个或多个应用程序创建一个较小的池。</block>
   <block id="d73f1141e2eec0194762737db5af2cec" category="paragraph">您只能分配一个或两个卷、而不能将工作负载分配给一个大型池、该池包含许多卷、可用于分布数据。手动创建专用于特定应用程序工作负载的单独池可以提高存储阵列操作的执行速度、并减少争用。</block>
-  <block id="426f1de91935e5b15f1d608af11aa109" category="paragraph">要手动创建池、请选择*存储*、然后选择*池和卷组*。从所有容量选项卡中、单击菜单：创建[池]。</block>
   <block id="442fc72fb02307d7bb547f3a9e330e5f" category="list-text">如果存在多个驱动器类型相同的池、则会显示一条消息、指示System Manager无法自动为池推荐驱动器。但是、您可以手动将驱动器添加到现有池。</block>
-  <block id="cfd5addb3d7e99111f81d8aa18f9a5aa" category="paragraph">要手动将驱动器添加到现有池：从"池和卷组"页面中、选择该池、然后单击*添加容量*。</block>
   <block id="499a0602905ccb67c6d649daa6d57413" category="summary">您可以为任何类型的应用程序创建工作负载。</block>
   <block id="53d52e9f5e84c6e320cab61e6c75088f" category="paragraph">请牢记以下准则：</block>
   <block id="65d1a857de2802d1a9f3295655aaf36f" category="list-text">选择菜单：创建[工作负载]。</block>
-  <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">此时将显示创建应用程序工作负载对话框。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">使用下拉列表选择要为其创建工作负载的应用程序类型、然后键入工作负载名称。</block>
   <block id="c6f5742708364491211254845c51e364" category="paragraph">您已准备好向创建的工作负载添加存储容量。使用*创建卷*选项为应用程序创建一个或多个卷、并为每个卷分配特定容量。</block>
   <block id="dc0cac4fc3fe8b65f61e8ceff382e740" category="doc">可以从池中删除的驱动器数量是否有限制？</block>
@@ -2306,16 +2191,8 @@
   <block id="73779582a310039a6d0727054409f0e5" category="list-text">自动监控和平衡控制器资源利用率。</block>
   <block id="7383f8d0122030bd97ade5e692168399" category="list-text">根据需要自动调整卷控制器所有权、从而优化主机和存储阵列之间的I/O带宽。</block>
   <block id="b6909b5323122e503a689a50ac6a2d1d" category="summary">创建卷时、您可以选择一个工作负载来为特定应用程序自定义存储阵列配置。</block>
-  <block id="6e1b82fdbd4a6f33ac84117d07128a20" category="paragraph">在创建卷期间、系统会提示您回答有关工作负载使用情况的问题解答 问题。例如、如果要为Microsoft Exchange创建卷、系统会询问您需要多少邮箱、平均邮箱容量要求是多少以及所需数据库副本的数量。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。或者、您也可以在卷创建序列中跳过此步骤。</block>
-  <block id="dc46bc55c2bd450d61d48165d956af78" category="section-title">工作负载类型</block>
-  <block id="257efa039e2f5821abbe27b080af6724" category="paragraph">您可以创建两种类型的工作负载：特定于应用程序的工作负载和其他工作负载。</block>
-  <block id="410995cb7cb8cc63caa7c4f61346c2c9" category="list-text">*特定于应用程序*。在使用应用程序特定的工作负载创建卷时、系统可能会建议优化卷配置、以最大程度地减少应用程序工作负载I/O与应用程序实例中的其他流量之间的争用。对于为以下应用程序类型创建的工作负载、系统会自动建议并优化卷特征、例如I/O类型、区块大小、控制器所有权以及读写缓存。</block>
-  <block id="38e70382c27c688002774f4050df068d" category="list-text">视频监控应用程序</block>
-  <block id="4aa13148e098383582165231cf361bfd" category="list-text">*其他*(或不支持特定卷创建的应用程序)。其他工作负载使用的卷配置必须手动指定、以便在创建与特定应用程序无关的工作负载时、或者系统没有为要在存储阵列上使用的应用程序进行内置优化时。您必须使用添加/编辑卷对话框手动指定卷配置。</block>
   <block id="d3d734c0983e87caf96fabfa4f63590c" category="section-title">应用程序和工作负载视图</block>
   <block id="ba73741693d174fa0aea19f5640fa141" category="paragraph">要查看应用程序和工作负载、请启动SANtricity System Manager。在此界面中、您可以通过多种不同方式查看与应用程序特定工作负载关联的信息：</block>
-  <block id="e2b55cbf1da587ab432dea10ed7793a4" category="list-text">您可以选择卷图块中的*应用程序和工作负载*选项卡、以查看按工作负载分组的存储阵列卷以及与工作负载关联的应用程序类型。</block>
-  <block id="ac18a6a26f564a918149353f318b2d9d" category="list-text">您可以选择性能图块中的*应用程序和工作负载*选项卡以查看逻辑对象的性能指标(延迟、IOPS和MBs)。对象按应用程序和关联工作负载分组。通过定期收集此性能数据、您可以建立基线测量并分析趋势、这有助于您调查与I/O性能相关的问题。</block>
   <block id="8bc8cf41f208c93a13a5a656ec48608d" category="summary">您可以执行回滚操作来更改基础卷的内容、使其与保存在快照映像中的内容匹配。回滚操作不会更改与基础卷关联的快照映像的内容。</block>
   <block id="235ad21d209038d7e95be805248f929d" category="paragraph">您可以执行回滚操作来更改基础卷的内容、使其与保存在快照映像中的内容匹配。</block>
   <block id="e29010bd175ff4270aad98626de4bc9b" category="paragraph">回滚操作不会更改与基础卷关联的快照映像的内容。</block>
@@ -2328,11 +2205,9 @@
   <block id="34e6f9c8b4d4018e876e98a1eb31b7bd" category="list-text">选择快照映像、然后选择菜单：Rollback[启动]。</block>
   <block id="65d6d722d45b1200be58417eedce4870" category="paragraph">此时将显示确认开始回滚对话框。</block>
   <block id="607b4ed2f4e103b8cb50dff9929e613d" category="list-text">*可选：*如果需要、选择*增加容量*选项。</block>
-  <block id="99948644448eea4d3e9374a4cea5e985" category="paragraph">如果包含选定存储对象的池或卷组中不存在可用容量、并且存储阵列具有未分配的容量、则可以添加容量。您可以创建新的池或卷组、然后使用该池或卷组上的新可用容量重试此操作。</block>
   <block id="bef5074c6b3457c4442c56e4b23af7d2" category="list-text">确认要执行此操作、然后单击*回滚*。</block>
   <block id="8a6cbb05a4ebc1027dae495bd7357e57" category="list-text">还原包含保存在选定快照映像上的内容的卷。</block>
   <block id="53f66ecb240148a4f9ef9a137c78f642" category="list-text">使回滚卷可立即供主机访问。您无需等待回滚操作完成。</block>
-  <block id="c267ab3645222a6bb1423bcb5220bd12" category="paragraph">选择菜单：主页(查看正在执行的操作)以查看回滚操作的进度。</block>
   <block id="67c5aa7eff0e814c011f8a98dbb17afe" category="paragraph">如果回滚操作不成功、此操作将暂停。您可以恢复已暂停的操作、如果仍不成功、请按照Recovery Guru操作步骤 更正问题或联系技术支持。</block>
   <block id="d2efad642fc50fabf618a5cc34435a7e" category="summary">卷是一种数据容器，用于管理和组织存储阵列上的存储空间。</block>
   <block id="2d5512fb0c53d8ff5067981e4a4fe824" category="paragraph">您可以使用存储阵列上的可用存储容量创建卷、并轻松组织和使用系统资源。这一概念类似于在计算机上使用文件夹/目录来组织文件、以便于轻松快速地访问。</block>
@@ -2469,7 +2344,6 @@
   <block id="c351b042a636173f01b6ea9a3598eaf2" category="summary">如果您不再需要收集快照映像、则可以删除现有快照计划。</block>
   <block id="d3f0f3d3f914e65366343da5d61310e1" category="doc">删除快照计划</block>
   <block id="6c9e12f927f5ddcf4135c8f0ac4a8fbc" category="paragraph">删除快照计划时、不会同时删除关联的快照映像。如果您认为快照映像的收集可能在某个时刻恢复、则应暂停快照计划、而不是将其删除。</block>
-  <block id="8c06bc91bc7e972275b25c6600652afc" category="list-text">选择要删除的快照计划、然后确认此操作。</block>
   <block id="2ca2521bd984988b62fd46e21768a1c2" category="paragraph">系统会从基础卷或快照一致性组中删除所有计划属性。</block>
   <block id="f504b91fc7b2daed13ef594e9760a84e" category="summary">您可以从现有快照一致性组中删除成员卷。</block>
   <block id="aedcc7652c31273f99b946fb9bb5a005" category="paragraph">从快照一致性组中删除成员卷时、System Manager会自动删除与该成员卷关联的快照对象。</block>
@@ -2517,7 +2391,6 @@
   <block id="8c45241ab558d833f34447e88aa03e9a" category="doc">如何查看和解释所有SSD缓存统计信息？</block>
   <block id="dde8e4a88eb9a2e64d4f424e26bc4b1f" category="paragraph">只有在将所有SSD统计信息导出到`.csv`文件时、才能查看详细统计信息。在查看和解释统计信息时、请记住、某些解释是通过结合统计信息得出的。</block>
   <block id="7a442868d6ae88e65149cf670969d586" category="section-title">标称统计信息</block>
-  <block id="c4b26a46b69bd1c8525590b1d275f664" category="paragraph">要查看SSD缓存统计信息、请选择菜单：存储(池和卷组)。选择要查看统计信息的SSD缓存、然后选择菜单：更多(查看统计信息)。标称统计信息显示在"查看SSD缓存统计信息"对话框中。</block>
   <block id="56554b40f3839cc475126846cd1a4daf" category="paragraph">以下列表包含标称统计信息、这些统计信息是详细统计信息的一部分。</block>
   <block id="b17bd6f420e3527a2910c80441acbfbc" category="cell">标称统计信息</block>
   <block id="9465f3c51e2c4e65ce217e5a38e2bad5" category="paragraph">读取/写入</block>
@@ -2570,7 +2443,6 @@
   <block id="78cad8caffd843a6d8697519b35e65a7" category="paragraph">SSD缓存中包含基础卷中的数据的已分配字节数。可用字节数、已分配字节数和用户数据字节数用于计算缓存分配百分比和缓存利用率百分比。</block>
   <block id="6d9c06e04d17d85325a8e4070ca61f69" category="summary">如果需要节省存储空间、您可以暂时暂停按计划收集快照映像。此方法比删除快照计划并稍后重新创建快照计划的效率更高。</block>
   <block id="02f81331c3946fa42ca877f31aa7f324" category="paragraph">快照计划的状态将保持暂停、直到您使用*激活*选项恢复计划的快照活动为止。</block>
-  <block id="8d45993d556f77ec18873c6a4b16eb10" category="list-text">如果尚未显示、请单击*计划*选项卡。</block>
   <block id="be49673abd6a2cf7d744954864471e5d" category="paragraph">这些计划将在页面上列出。</block>
   <block id="0dbb3e327ec81f22648a5d6f3ce8ec11" category="list-text">选择要暂停的活动快照计划、然后单击*激活/暂停*。</block>
   <block id="0753141b1bddbdf85ca8de456f1ff262" category="paragraph">状态列状态将更改为*已暂停*、并且快照计划将停止收集所有快照映像。</block>
@@ -2629,7 +2501,6 @@
   <block id="8c88a0b4655d6b51ee47d5671f079232" category="list-text">卷组中的驱动器对故障会导致所有关联卷出现故障、并且可能会发生数据丢失。</block>
   <block id="b34fa5aa8d53be8e030d02202acd4eef" category="list-text">RAID 1至少需要两个驱动器：一个驱动器用于用户数据、一个驱动器用于镜像数据。</block>
   <block id="51487081b9993109d4a9680d060f3bc4" category="list-text">如果选择四个或更多驱动器、则会在卷组中自动配置RAID 10：两个驱动器用于用户数据、两个驱动器用于镜像数据。</block>
-  <block id="5362efb6194226625e5792f679cf8f4b" category="list-text">卷组中的驱动器数量必须为偶数。如果驱动器数量不是偶数、并且还有一些未分配的驱动器、请转到*池和卷组*向卷组添加其他驱动器、然后重试此操作。</block>
   <block id="21234f27c1cfa053e523f2a81d1307fb" category="list-text">RAID 1和RAID 10卷组可以包含30个以上的驱动器。可以创建一个包含存储阵列中所有驱动器的卷组。</block>
   <block id="6f8f4c275f958204c23dbaccb4b5db59" category="paragraph">* RAID 5*</block>
   <block id="5f3aa9400b89970777439a3a259412c6" category="list-text">高I/O模式。</block>
@@ -2673,8 +2544,6 @@
   <block id="85729c6c15dbbffe9072f1b86eac0746" category="paragraph">提供了使用支持安全的驱动器启用驱动器安全功能的选项。如果池支持安全、并且您已创建安全密钥、则可以选中复选框来启用安全性。</block>
   <block id="84e59fc152a2578a5896587796bb5232" category="paragraph">启用驱动器安全性后删除驱动器安全性的唯一方法是删除池并擦除驱动器。</block>
   <block id="f9c43ba14ea2442e3027fca527c584e2" category="paragraph">指示此池候选项是否可使用数据保证(Data Assurance、DA)。DA可检查并更正在数据通过控制器向下传输到驱动器时可能发生的错误。</block>
-  <block id="f54115f22f6931201d9cfc1827d29f92" category="paragraph">如果所有驱动器均支持DA、则会启用DA。创建卷后、可以通过选择菜单：Storage[卷&gt;查看/编辑设置&gt;高级&gt;永久禁用数据保证]来禁用DA。如果在卷上禁用了DA、则无法重新启用它。</block>
-  <block id="54956e5fa0f83b1ce728958fa414a2c3" category="paragraph">显示资源配置是否可用于此池候选项。资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。</block>
   <block id="8533201c654b7a349f06e493210b758e" category="paragraph">显示磁盘架丢失保护是否可用。</block>
   <block id="89b84e4445e0866ecd551e123213d9a0" category="paragraph">磁盘架丢失保护功能可确保在与单个驱动器磁盘架完全失去通信时能够访问池中卷上的数据。</block>
   <block id="095b4ee589aded04feaaeec34feaadd8" category="paragraph">显示是否提供了抽盒丢失保护、只有在使用包含抽盒的驱动器架时、才会提供此保护。</block>
@@ -2686,7 +2555,6 @@
   <block id="3dd9ee86cfd0e8890c5f07829252649a" category="list-text">系统将删除任何特定卷分配、并且关联的卷可用于新分配。</block>
   <block id="4048fee1157383b414e2a82ff4a14680" category="list-text">如果主机属于具有自己特定分配的主机集群、则该主机集群不受影响。但是、如果主机属于没有任何其他分配的主机集群、则主机集群以及任何其他关联的主机或主机端口标识符将继承任何默认分配。</block>
   <block id="e279758be7ba5d9ee6e0945d39b0bdd4" category="list-text">与此主机关联的任何主机端口标识符都将变为未定义状态。</block>
-  <block id="ca17bdc26afd5f85cb1576b0946fa3f9" category="list-text">选择要删除的主机或主机集群、然后单击*删除*。</block>
   <block id="a8dd9a1d0588210bd4e14341641b5595" category="paragraph">此时将显示确认对话框。</block>
   <block id="fd2c1bbb57f6457c22606779a70bf847" category="list-text">确认要执行此操作、然后单击*删除*。</block>
   <block id="fb5a51c688c6bc5ce0d07d8b4e89d5f1" category="paragraph">如果删除了主机、系统将执行以下操作：</block>
@@ -2703,12 +2571,8 @@
   <block id="9196bde929a2002fe905ec4f92aa9cb5" category="list-text">执行以下操作之一：</block>
   <block id="6d3d0193dbdd709b91f034f42746f3b1" category="list-text">*将卷添加到现有工作负载*-选择此选项可将卷添加到现有工作负载。</block>
   <block id="e7a5fd06694d43054b85fcf068ea77f7" category="paragraph">使用下拉列表选择工作负载。此工作负载的关联应用程序类型将分配给您添加到此工作负载的卷。</block>
-  <block id="5ff306db5d7a5fa43eb50447232eae76" category="list-text">*将卷添加到新工作负载*-选择此选项可为应用程序类型定义新工作负载并将卷添加到新工作负载。</block>
-  <block id="603cd10fd7f9d83360eea9d92e0670e5" category="list-text">选择*下一步*继续添加到工作负载序列。</block>
-  <block id="d8306b13457f69901a7dcb90c8778228" category="paragraph">此时将显示选择卷对话框。</block>
   <block id="17ec81bc7370b27317a5be302318a3b8" category="list-text">选择要添加到工作负载的卷。</block>
   <block id="875e2406f706886f5e31ebae30c66343" category="list-text">查看要添加到选定工作负载的卷。</block>
-  <block id="fc6cffe9c819ec03322fb7efb1566961" category="list-text">对工作负载配置感到满意后、单击*完成*。</block>
   <block id="c48bbb13d6635029a8b99e9a931ff354" category="summary">如果要更改快照一致性组的名称、自动删除设置或允许的最大快照映像数、请更改该组的设置。</block>
   <block id="87445d8a23c0a915645b18393869c861" category="list-text">选择要编辑的快照一致性组、然后单击*查看/编辑设置*。</block>
   <block id="1b0b0b2ea99e7a5e685e2d755b7587b6" category="paragraph">此时将显示Snapshot一致性组设置对话框。</block>
@@ -2725,7 +2589,6 @@
   <block id="4b1af6bc458dd2a6f95c129f4086f04b" category="list-text">如果使用要重新分配的卷、则会在所有主机上安装多路径驱动程序、否则会发生I/O错误。</block>
   <block id="a8ef96708486f1aaf2620b90c5eee051" category="paragraph">如果要重新分布主机上没有多路径驱动程序的卷、则必须停止卷_while the redistribution operation is in progress_的所有I/O活动、以防止出现应用程序错误。</block>
   <block id="8f5a3b21e15cb8c1f612fe6f8ab982a9" category="paragraph">大多数主机多路径驱动程序都会尝试通过指向其首选控制器所有者的路径访问每个卷。但是、如果此首选路径不可用、则主机上的多路径驱动程序将故障转移到备用路径。此故障转移可能会通过发生原因 将卷所有权更改为备用控制器。解决导致故障转移的情况后、某些主机可能会自动将卷所有权移回首选控制器所有者、但在某些情况下、您可能需要手动重新分配卷。</block>
-  <block id="cd836d5607a72e58c28486ef83128f85" category="list-text">选择菜单：更多 [ 重新分配卷 ] 。</block>
   <block id="111cd02f064e6fcf17d16ba7fdf21cf8" category="paragraph">此时将显示重新分配卷对话框。存储阵列上首选控制器所有者与其当前所有者不匹配的所有卷都会显示在此对话框中。</block>
   <block id="2a514fb7ca283564911adc54e02f573b" category="list-text">选择要重新分布的一个或多个卷、然后确认要执行此操作。</block>
   <block id="8aa0e6500d67eb43f266eeaeab05ee8d" category="paragraph">System Manager会将选定卷移动到其首选控制器所有者、或者您可能会看到"重新分配不必要的卷"对话框。</block>
@@ -2755,24 +2618,17 @@
   <block id="261c95ed5d454ef55df25657c605d472" category="section-title">增加容量</block>
   <block id="d5db5c2cdfd01ccc18d65eeb1b04163a" category="paragraph">您可以通过两种方式扩展卷的容量：</block>
   <block id="bc302a896934826ab22dcfe649236a5a" category="list-text">使用池或卷组中的可用容量。</block>
-  <block id="8d813d6bb2d5d947c3865bff5cbe3f4b" category="paragraph">您可以通过选择菜单：Storage[池和卷组&gt;添加容量]向卷添加容量。</block>
   <block id="68d9fae5766cba1051f2a95cb6d40ad4" category="list-text">将未分配的容量(以未使用的驱动器的形式)添加到卷的池或卷组。如果池或卷组中没有可用容量、请使用此选项。</block>
-  <block id="01e943cc734a89326bf8e81017a327d1" category="paragraph">您可以通过选择菜单：Storage[池和卷组&gt;添加容量]向池或卷组添加未分配的容量。</block>
   <block id="8539877321c258483d1d61c9f455b5d9" category="paragraph">如果池或卷组中没有可用容量、则无法增加卷的容量。您必须先增加池或卷组的大小、或者删除未使用的卷。</block>
   <block id="4068dcbd83689810385f5bd61994998b" category="paragraph">扩展卷容量后、必须手动增加文件系统大小以匹配。如何执行此操作取决于所使用的文件系统。有关详细信息、请参见主机操作系统文档。</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="section-title">删除</block>
   <block id="ea2fd411f982958551d1327ce7a25b12" category="paragraph">通常、如果创建的卷参数或容量不正确、不再满足存储配置需求或不再需要用于备份或应用程序测试的快照映像、则可以删除这些卷。删除卷会增加池或卷组中的可用容量。</block>
   <block id="ef808b4262f67d6a9c068fdf7855441c" category="paragraph">删除卷会导致这些卷上的所有数据丢失。删除卷还会删除任何关联的快照映像、计划和快照卷、并删除任何镜像关系。</block>
   <block id="5fb63579fc981698f97d55bfecb213ea" category="section-title">复制</block>
-  <block id="c56943e417058ef071d371c59ebbc394" category="paragraph">复制卷时、您可以在同一存储阵列上为源卷和目标卷这两个不同卷创建一个时间点副本。您可以通过选择菜单：Storage[卷&gt;复制服务&gt;复制卷]来复制卷。</block>
   <block id="223e06f5cb15fc701ea1e686f7934f4f" category="section-title">初始化</block>
   <block id="48cbc2bb5044a05473749efed867d186" category="paragraph">初始化卷会擦除卷中的所有数据。首次创建卷时、系统会自动对其进行初始化。但是、Recovery Guru可能会建议您手动初始化卷、以便从某些故障情况中恢复。初始化卷时、卷会保留其WWN、主机分配、已分配容量和预留容量设置。它还会保留相同的数据保证(Data Assurance、DA)设置和安全设置。</block>
-  <block id="ae30c57ab7f88883e294bd3c383d71c5" category="paragraph">您可以通过选择菜单：Storage[卷&gt;更多&gt;初始化卷]来初始化卷。</block>
   <block id="24141fa21229b00a1f550bba21fbecc0" category="section-title">重新分布</block>
-  <block id="3ddd787584dfecb329fc03960a135e03" category="paragraph">您可以通过选择菜单：Storage[卷&gt;更多&gt;重新分布卷]来重新分布卷。</block>
   <block id="19fbb555dfd3179f172bb76fa6802e17" category="section-title">更改卷所有权</block>
-  <block id="e97d13f5a4bbb4bbbd1ce260756d3d3b" category="paragraph">更改卷的所有权会更改卷的首选控制器所有权。卷的首选控制器所有者列在菜单：存储(卷)&gt;查看/编辑设置&gt;高级选项卡下。</block>
-  <block id="1f47043f088e8300c501a462ee18a515" category="paragraph">您可以通过选择菜单：Storage[卷&gt;更多&gt;更改所有权]来更改卷的所有权。</block>
   <block id="72858399a5b32858b60947578127402f" category="section-title">镜像和卷所有权</block>
   <block id="ec3ce7409f7eff6aca10ae47bae1a411" category="paragraph">如果镜像对的主卷属于控制器A、则二级卷也属于远程存储阵列的控制器A。更改主卷的所有者将自动更改二级卷的所有者、以确保这两个卷都属于同一控制器。主端的当前所有权更改会自动传播到辅端的相应当前所有权更改。</block>
   <block id="24298fd2e6128300a5a6c474e6f86e7e" category="paragraph">如果镜像一致性组包含一个本地二级卷且控制器所有权发生更改、则在首次写入操作时、二级卷会自动传输回其原始控制器所有者。您不能使用*更改所有权*选项更改二级卷的控制器所有权。</block>
@@ -2783,7 +2639,6 @@
   <block id="2d0467cbc17e5b82e35999a36ad2543f" category="paragraph">缓存是控制器上的临时易失性存储(RAM)区域、其访问速度比驱动器介质更快。如果使用缓存、则可以提高整体I/O性能、原因如下：</block>
   <block id="d58b8b24a912fe4ad574c01f5c194156" category="list-text">从主机请求读取的数据可能已位于先前操作的缓存中、因此无需访问驱动器。</block>
   <block id="1e63ad8d34929946f6080e31fbc0c9cb" category="list-text">写入数据最初会写入缓存、这样、应用程序就可以继续运行、而无需等待数据写入驱动器。</block>
-  <block id="47dadc14d2ba0d7994d8e4d401c82d29" category="paragraph">选择菜单：Storage[卷&gt;更多&gt;更改缓存设置]以更改以下缓存设置：</block>
   <block id="1fb53a3828590ef69e66d6eda001d235" category="list-text">*读取和写入缓存*—读取缓存是一个缓冲区、用于存储从驱动器读取的数据。用于读取操作的数据可能已位于上次操作的缓存中、因此无需访问驱动器。数据会一直保留在读取缓存中、直到被刷新为止。</block>
   <block id="0290a31f99dcf2369de30f2d836b0d62" category="list-text">*使用镜像写入缓存*-如果写入一个控制器的缓存内存中的数据也写入另一个控制器的缓存中、则使用镜像进行写入缓存。因此、如果一个控制器发生故障、另一个控制器可以完成所有未完成的写入操作。只有在启用了写入缓存且存在两个控制器的情况下、写入缓存镜像才可用。创建卷时的默认设置是使用镜像进行写入缓存。</block>
   <block id="018b058d02e17ba2b762be47653c613d" category="list-text">*无电池写入缓存*—无电池写入缓存设置允许写入缓存继续运行、即使电池缺失、出现故障、已完全放电或未完全充电也是如此。通常不建议选择不带电池的写入缓存、因为断电后数据可能会丢失。通常、在电池充电或更换故障电池之前、控制器会暂时关闭写入缓存。</block>
@@ -2864,7 +2719,6 @@
   <block id="216d1f5663e252f61e6f283cd2630c69" category="paragraph">大多数应用程序类型默认为用户定义的卷配置。某些应用程序类型在创建卷时应用了智能配置。例如、如果要为Microsoft Exchange应用程序创建卷、系统会询问您需要多少邮箱、平均邮箱容量要求是多少以及所需数据库副本的数量。System Manager可使用此信息为您创建最佳卷配置、并可根据需要对其进行编辑。</block>
   <block id="cbbc5bd2f3ebde5137c04d75cc517eb1" category="paragraph">创建卷的过程分为多步操作步骤。</block>
   <block id="163a9e9ae6d3793fdb28266d4e6b7f40" category="section-title">第1步：为卷选择主机</block>
-  <block id="817fc80b201defda07b365191d512ca1" category="list-text">有效的主机或主机集群位于主机磁贴下。</block>
   <block id="e6da65fad5812f050c4e6b04fc511634" category="list-text">已为主机定义主机端口标识符。</block>
   <block id="459c6ddc3170946a627dc07d34af2102" category="list-text">在创建启用了DA的卷之前、您计划使用的主机连接必须支持DA。如果存储阵列中控制器上的任何主机连接不支持 DA ，则关联的主机将无法访问已启用 DA 的卷上的数据。</block>
   <block id="ebb4a34bfe3fa6a289891aa2ece90d6b" category="paragraph">分配卷时，请记住以下准则：</block>
@@ -2872,7 +2726,6 @@
   <block id="308da764a2c97b583db3023b56d74ce7" category="list-text">您可以为存储阵列中的每个卷定义一个分配。</block>
   <block id="204a3fd1c32ac6da1c1847d9d1a41723" category="paragraph">如果您尝试将卷分配给与主机集群中已建立的主机分配冲突的主机集群、则向主机分配卷将失败。</block>
   <block id="e57889bdfb8321ecdd658fa7f644c178" category="list-text">选择菜单：创建[卷]。</block>
-  <block id="5f8028fb418690f3a7fb62368906a5ae" category="paragraph">此时将显示创建卷对话框。</block>
   <block id="b3dd594171fd6724a0f4b3570f790903" category="list-text">从下拉列表中，选择要将卷分配到的特定主机或主机集群，或者选择稍后再分配主机或主机集群。</block>
   <block id="8297aa290106f23ce10282b3aed52315" category="list-text">要继续为选定主机或主机集群创建卷、请单击*下一步*、然后转到 <block ref="0785256c9891c01fdb3bc66836cf144c" category="inline-xref-macro-rx"></block>。</block>
   <block id="5a04e9bd229322e03419e6a682870b29" category="section-title">第2步：为卷选择工作负载</block>
@@ -2885,8 +2738,6 @@
   <block id="b4a19bef9510de89c0bc0e5b698d9366" category="list-text">从下拉列表中，选择要为其创建新工作负载的应用程序的名称。</block>
   <block id="8e11417aa1341e008e30a0d06512f9e2" category="paragraph">如果未列出要在此存储阵列上使用的应用程序、请选择"其他"条目之一。</block>
   <block id="c4a3fafd6751e87e87729c0c14c83745" category="list-text">输入要创建的工作负载的名称。</block>
-  <block id="3c2aed26bb96a701bf5330e8c08f790d" category="list-text">如果您的工作负载与支持的应用程序类型关联、请输入所需的信息；否则、请转到 <block ref="e0f373791f380971144c1c35257924cf" category="inline-xref-macro-rx"></block>。</block>
-  <block id="79d2085dbabe589fec2a73cfcf0f1d07" category="section-title">第3步：添加或编辑卷</block>
   <block id="698cbe57c585f0d50dbfd871858b1afc" category="paragraph">System Manager可能会根据您选择的应用程序或工作负载建议卷配置。此卷配置会根据工作负载支持的应用程序类型进行优化。您可以接受建议的卷配置、也可以根据需要对其进行编辑。如果您选择了"其他"应用程序之一、则必须手动指定要创建的卷和特征。</block>
   <block id="3074b1f99383ae6075a1be1bef0a637b" category="list-text">池或卷组必须具有足够的可用容量。</block>
   <block id="f9d70a7e38e480978010e888f7b65ce8" category="example-title">选择具有安全功能的池或卷组</block>
@@ -2920,13 +2771,9 @@
   <block id="03895f91b58717b678dd94bd941d7a72" category="paragraph">da.</block>
   <block id="b94d4b7ab610f1f9f1b180f769e340e0" category="paragraph">只有当池或卷组中的驱动器支持数据保证（ Data Assurance ， DA ）时， "DA" 旁边才会显示 * 是 * 。</block>
   <block id="6bf47d092a89e8f4497d1805a37a2029" category="paragraph">DA 可提高整个存储系统的数据完整性。通过 DA ，存储阵列可以检查在数据通过控制器向下传输到驱动器时可能发生的错误。对新卷使用 DA 可确保检测到任何错误。</block>
-  <block id="938c16b12e173ad6ea24de80faa136e0" category="paragraph">已配置资源(仅限EF300和EF600)</block>
-  <block id="eef64bd1b40c1d89ffc5934fd2bbdbac" category="paragraph">只有当驱动器支持此选项时、"已配置资源"旁边才会显示*是*。资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。</block>
-  <block id="4c2e202f4d6125bf2a9573e161ccdeb2" category="list-text">*应用程序专用工作负载*—单击*下一步*接受系统为选定工作负载建议的卷和特征、或者单击*编辑卷*更改、添加或删除系统为选定工作负载建议的卷和特征。</block>
   <block id="181edf4501b4dbc7110a96eda6d6c750" category="paragraph">卷类型</block>
   <block id="b26cffbb47ada3b9ed8a9bdd08b819fb" category="paragraph">卷类型指示为应用程序特定工作负载创建的卷类型。</block>
   <block id="c7be6e5b4c44a106949d9053e0b5f28c" category="paragraph">驱动器安全性可防止未经授权访问从存储阵列中物理删除的驱动器上的数据。只有在已启用驱动器安全功能且为存储阵列设置了安全密钥时、此选项才可用。</block>
-  <block id="a17fcf86b3438b513f6fe50ea4062cec" category="paragraph">只有当驱动器支持此选项时、"已配置资源"旁边才会显示*是*。资源配置是EF300和EF600存储阵列中提供的一项功能、可在不执行后台初始化过程的情况下立即使用卷。</block>
   <block id="644e9e2dfee7a717043dbc635187da7b" category="list-text">要继续为选定应用程序创建卷、请单击*下一步*、然后转到 <block ref="56b62f43c358117625ee81ab14b9fad1" category="inline-xref-macro-rx"></block>。</block>
   <block id="5bd120e49375def2344bc28e2de1e408" category="section-title">第4步：查看卷配置</block>
   <block id="407950164d87e84ba7432f623db5f040" category="paragraph">查看要创建的卷的摘要、并进行任何必要的更改。</block>
@@ -2952,7 +2799,6 @@
   <block id="2399f5cda5d6ba7edfb800d1107bfeb4" category="paragraph">如果您选择了与多个预留容量对象关联的成员卷、例如快照组和预留容量卷、则可以查看并增加回滚卷的预留容量。</block>
   <block id="017778f6c7ee31856d0fe6e03cb45196" category="list-text">在预留容量极低(或为零)的任何成员卷旁边、单击*编辑*列中的*增加容量*链接。</block>
   <block id="49199f6dde71bf161ac71c8055bea176" category="list-text">使用spinner框调整容量百分比、然后单击*增加*。</block>
-  <block id="af85567c370baa573ea050b345bd14bf" category="paragraph">如果包含选定存储对象的池或卷组中不存在可用容量、并且存储阵列具有未分配的容量、则可以添加容量。您可以创建新的池或卷组、然后使用该池或卷组上的新可用容量重试此操作。</block>
   <block id="718aa1667791af68cd82b060efa0c046" category="list-text">单击*下一步*、然后转到 <block ref="f65159372e0054b53b6e89adab964edc" category="inline-xref-macro-rx"></block>。</block>
   <block id="e2634f0cd2eec90d062d3cb30810883a" category="paragraph">此时将显示编辑优先级对话框。</block>
   <block id="0e578f2aa73ee6615a0a98f5f38f70f1" category="section-title">第3步：编辑优先级</block>
@@ -2967,7 +2813,6 @@
   <block id="b6d9e6a318beaa87a6c771e1137da18a" category="paragraph">您还可以在创建基础卷或快照一致性组的快照映像的同时创建快照计划。</block>
   <block id="ecd15e72736b60e2efe15067e6b56ab5" category="list-text">执行以下操作之一以创建快照计划：</block>
   <block id="ee13fcef8186a6c9b594ed2202eea694" category="paragraph">为此快照计划选择对象(卷或快照一致性组)、然后选择菜单：复制服务[创建快照计划]。</block>
-  <block id="2afadfe6929bc476e076d8b08a86d323" category="paragraph">选择*计划*选项卡、然后单击*创建*。</block>
   <block id="f5b23bb3167ebef94fc0377640a8e47d" category="list-text">为此快照计划选择对象(卷或快照一致性组)、然后单击*下一步*。</block>
   <block id="be1ddb5ac172f23fcd8aa9a94dc00b41" category="paragraph">此时将显示创建Snapshot计划对话框。</block>
   <block id="17b88d8db4dad8545d98dbc204460d63" category="list-text">*使用来自另一个快照对象的先前定义的计划*。</block>
@@ -3064,13 +2909,11 @@
   <block id="a3eac03c9cf72893b67ad5356521258e" category="paragraph">由于以下并发条件、快照映像处于"Pending"状态：</block>
   <block id="346646ad69c732a35b31c461c5971615" category="list-text">某个快照组的基础卷或包含此快照映像的一致性组的一个或多个成员卷是异步镜像组的成员。</block>
   <block id="acdf4d4563babf6c38d223e8b2e7d90c" category="list-text">卷当前正在执行异步镜像同步操作。</block>
-  <block id="57e7d1fd0c7c5753e382ddd127e4df54" category="list-text">选择要取消其待定快照映像的快照组、然后单击菜单：不常见任务[取消待定快照映像]。</block>
   <block id="a32c5c9c0a7e649294d3ff93e62a4c56" category="list-text">单击*是*确认要取消待定快照映像。</block>
   <block id="c4216e73defe5fbfae3934750dcd409b" category="summary">您可以查看SSD缓存的统计信息、例如读取、写入、缓存命中率、缓存分配百分比、 和缓存利用率百分比。</block>
   <block id="3c2625fad69dc2059c8f7894b3300389" category="doc">查看SSD缓存统计信息</block>
   <block id="76b00b1701b1023fda60f1c0976fa7bb" category="paragraph">标称统计信息是详细统计信息的一部分、显示在查看SSD缓存统计信息对话框中。只有在将所有SSD统计信息导出到`.csv`文件时、才能查看SSD缓存的详细统计信息。</block>
   <block id="3516b0069a43e4804f44e6ed854af088" category="paragraph">在查看和解释统计信息时、请记住、某些解释是通过结合统计信息得出的。</block>
-  <block id="1ff70249886c41613bc223c9cadc085a" category="list-text">选择要查看其统计信息的SSD缓存、然后单击菜单：更多(查看SSD缓存统计信息)。</block>
   <block id="7c228b0d62dd7debb1be9f80b0ef4deb" category="paragraph">此时将显示查看SSD缓存统计信息对话框、并显示选定SSD缓存的标称统计信息。</block>
   <block id="f4f70727dc34561dfde1a3c529b6205c" category="cell">设置</block>
   <block id="840c2c3c79be698753668016f58f87b6" category="paragraph">读取</block>
@@ -3094,10 +2937,7 @@
   <block id="022d29d5236acf6a0c4d3252c8c98061" category="list-text">如果控制器固件确定数据不一致、则返回冗余错误。</block>
   <block id="fde13dc4c7d1b0763b56c795eb2b46f0" category="summary">您可以更改一致性组成员卷的设置、以调整在成员卷的预留容量接近全满时System Manager发送警报通知的百分比点、并更改在预留容量达到其定义的最大容量时使用的策略 百分比。</block>
   <block id="42d96921ced5ab0fbb41eb81dc92775b" category="paragraph">更改单个成员卷的预留容量设置还会更改与一致性组关联的所有成员卷的预留容量设置。</block>
-  <block id="23cfe12358ab8744880b94ca23e606a2" category="list-text">选择要编辑的一致性组成员卷、然后单击*查看/编辑设置*。</block>
-  <block id="e889be2a32c09b0c39094fb6e3b75a28" category="paragraph">此时将显示成员卷预留容量设置对话框。</block>
   <block id="e2bee5214f0346117824ee4487622b68" category="list-text">根据需要更改成员卷的预留容量设置。</block>
-  <block id="8954bbb292ba1ab14f8daae108410af4" category="paragraph">使用spinner框调整当成员卷的预留容量接近全满时System Manager发送警报通知的百分比。</block>
   <block id="51a999903b50018b64a12c0fcb496833" category="paragraph">当成员卷的预留容量超过指定阈值时、System Manager会发送警报、以便您有时间增加预留容量或删除不必要的对象。</block>
   <block id="8d8fc1b77f8521bde3bf3fce7bd85747" category="admonition">更改一个成员卷的警报设置将更改属于同一一致性组的_all_成员卷的警报设置。</block>
   <block id="5e21cf2e71ec97d165f6683d10e9b6b9" category="list-text">*清除最旧的快照映像*- System Manager会自动清除一致性组中最早的快照映像、从而释放成员的预留容量、以便在组中重复使用。</block>
@@ -3204,7 +3044,6 @@
   <block id="411ee32ec5072558aaa2f6807072cc8c" category="paragraph">动态区块大小(DSS)</block>
   <block id="3e6326a375ff64ed76e8ae326b10cb13" category="paragraph">可以更改RAID级别</block>
   <block id="63e798ea5a716ddc7757cf43573e6a63" category="paragraph">卷扩展(增加容量)</block>
-  <block id="945ae7820c24188a29edbd29e427962f" category="paragraph">容量扩展(添加容量)</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="paragraph">容量减少</block>
   <block id="dca785ddf6462cb2ce8d0332432fef85" category="paragraph">池或卷组均不支持混合驱动器类型(HDD、SSD)。</block>
   <block id="46ba2008cd8e4789181eb9bf8cfe4d0e" category="summary">您可以使用快照防止数据意外或恶意丢失或损坏、并允许从这种情况中恢复。</block>
@@ -3301,16 +3140,9 @@
   <block id="228473eeadd9e2a100b2de1609869f0c" category="list-text">卷中未使用任何热备用驱动器。（仅适用于卷组中的卷。）</block>
   <block id="29a17d56451f7d782cca1697740fddd2" category="paragraph">请记住、此池或卷组中的其他卷将来可能会有任何容量要求。请确保您提供足够的可用容量来创建快照映像、快照卷或远程镜像。</block>
   <block id="9f0102324ff742c86623776bded770ba" category="paragraph">只有某些操作系统才支持增加卷的容量。如果在不受支持的主机操作系统上增加卷容量、则扩展的容量将不可用、并且无法还原原始卷容量。</block>
-  <block id="d9da72be94b231558e6b88c50dd5489f" category="list-text">选择要增加容量的卷，然后选择 * 增加容量 * 。</block>
-  <block id="b2d73c585ebdf326511fef82620affdd" category="paragraph">此时将显示确认增加容量对话框。</block>
   <block id="991436f750d27eb978488bc85e191067" category="list-text">选择 * 是 * 继续。</block>
-  <block id="175feca37492a6ea46e15229ce4796b9" category="paragraph">此时将显示增加报告的容量对话框。</block>
-  <block id="a242e25241328a66cfba300150ed0ddf" category="paragraph">此对话框显示卷当前报告的容量以及卷关联的池或卷组中可用的容量。</block>
-  <block id="8ebea0904dbbd79829b4e8e18700fe35" category="list-text">使用 * 通过添加增加报告容量 ...* 框向当前可用报告容量添加容量。您可以将容量值更改为以兆字节（ MiB ），吉字节（ GiB ）或太字节（ TiB ）为单位显示。</block>
   <block id="8ae12a3324de65c82a5ac7ad0063817b" category="list-text">System Manager会根据您的选择增加卷的容量。</block>
-  <block id="4557785dd414b53e7a78f3927e297868" category="list-text">选择菜单：主页(查看正在执行的操作)可查看当前正在对选定卷运行的增加容量操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="0af080eb4432df13d727dd507e77884c" category="summary">您可以更改镜像对卷的设置、以调整在镜像对卷的预留容量接近全满时System Manager发送警报通知的百分比。</block>
-  <block id="cb2a61edc8e473df065e2a7ce71b2262" category="list-text">选择要编辑的镜像对卷、然后单击*查看/编辑设置*。</block>
   <block id="20a01fbfbd4cbdbac22c8c5194e23a2a" category="paragraph">此时将显示镜像对卷预留容量设置对话框。</block>
   <block id="551f32821ade9970a4092e53eb39a01b" category="list-text">根据需要更改镜像对卷的预留容量设置。</block>
   <block id="2b9615d31bea53a76b1f01d2d8e8adf5" category="paragraph">使用spinner框调整在镜像对的预留容量接近全满时System Manager发送警报通知的百分比。</block>
@@ -3328,8 +3160,6 @@
   <block id="bb5c61482b7e6fbb4c9ab771a45c2979" category="paragraph">*脱机副本*</block>
   <block id="bb0a421695b8d5a58e59834cab91721a" category="paragraph">脱机副本将从源卷读取数据并将其复制到目标卷、同时暂停对正在进行的源卷进行的所有更新。源卷的所有更新都将暂停、以防止在目标卷上创建按时间顺序排列的不一致。脱机卷副本关系位于源卷和目标卷之间。</block>
   <block id="6e3bf700cfb1a1225308c164f76e325d" category="paragraph">复制卷操作会覆盖目标卷上的数据、并使与目标卷关联的所有快照卷失败(如果存在)。</block>
-  <block id="a3e117a2ac746fb7d4427a44de662656" category="list-text">选择要用作复制卷操作源的卷、然后选择菜单：复制服务[复制卷]。</block>
-  <block id="6f3d803228bc8bec42f3ab73d0bdbeb4" category="paragraph">此时将显示复制卷选择目标对话框。</block>
   <block id="75e1e081c99fe0e6e451f6c9cec3055d" category="list-text">选择要将数据复制到的目标卷。</block>
   <block id="8cbde4f732228692e58824f144b3bdc4" category="paragraph">此对话框中显示的表列出了所有符合条件的目标卷。</block>
   <block id="928d449f36b7ad942c882d3a6ec978d2" category="list-text">使用滑块栏为复制卷操作设置复制优先级。</block>
@@ -3348,7 +3178,6 @@
   <block id="81f103b197c78b7aa760fe367d7fe858" category="list-text">如果选择创建联机副本、请设置用于存储联机副本的数据和其他信息所需的预留容量、然后单击*完成*启动联机副本。</block>
   <block id="2a5ac1b4b49ea50808feb97a695e65e9" category="list-text">但是、预留容量会根据原始数据的更改次数而有所不同。存储对象处于活动状态的时间越长、预留容量就越大。</block>
   <block id="26e157a0a2764f856ec494065d92be1b" category="paragraph">System Manager会将源卷中的所有数据复制到目标卷。复制卷操作完成后、目标卷将自动成为主机的只读卷。</block>
-  <block id="39b366570c063b96083e6d8603ed7d1b" category="paragraph">选择菜单：主页(查看正在执行的操作)以查看复制卷操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="3de78e5c7c31b9d9837db5e2e348e999" category="summary">了解性能术语如何应用于存储阵列。</block>
   <block id="dc48abc6740cc32a9fb888ab380785e5" category="doc">性能术语</block>
   <block id="e096c2297cde25a94af194c530912d1d" category="paragraph">应用程序是一种软件程序、例如SQL或Exchange。</block>
@@ -3376,7 +3205,6 @@
   <block id="6a5b06c6af609724de4c3c5287566c02" category="paragraph">取消分配卷时、请记住以下准则：</block>
   <block id="3eb1c91a6a6febc9c365eba3719bdbc3" category="list-text">如果要从主机集群中删除最后分配的卷、并且主机集群也包含具有特定分配的卷的主机、请确保在删除主机集群的最后一个分配之前删除或移动这些分配。</block>
   <block id="55f71fb20780c812695672340d57d96f" category="list-text">如果将主机集群、主机或主机端口分配给已注册到操作系统的卷、则必须先清除此注册、然后才能删除这些节点。</block>
-  <block id="3b7a9844bb0f2840dbc602ffa875cad3" category="list-text">选择要编辑的主机或主机集群、然后单击*取消分配卷*。</block>
   <block id="f28545e6eda88b96170164e04848e2ae" category="paragraph">此时将显示一个对话框、其中显示了当前分配的所有卷。</block>
   <block id="c93605e78c7321e887f08bf03dbc9907" category="list-text">选中要取消分配的每个卷旁边的复选框、或者选中表标题中的复选框以选择所有卷。</block>
   <block id="583002275364e2d5cd679b8ab0e8a306" category="list-text">单击*取消分配*。</block>
@@ -3386,8 +3214,6 @@
   <block id="ca4985f26b2a7c22b1593e6d3e788a34" category="doc">什么是首选控制器所有权？</block>
   <block id="ea83d1418120e9e91a66317ff177d3e7" category="paragraph">例如、如果一个控制器主要读取大型连续数据块、而另一个控制器具有频繁读取和写入的小型数据块、则负载会截然不同。通过了解哪些卷包含哪种类型的数据、您可以在两个控制器之间平均平衡I/O传输。</block>
   <block id="84d58ff791c5fbcc9cb54d00a50888a1" category="summary">您可以更改快照卷的设置、以调整当快照卷的预留容量接近全满时系统发送警报通知的百分比点。</block>
-  <block id="98215322bdcac7fbd2c48c18bde56b01" category="list-text">选择要编辑的快照卷、然后单击*查看/编辑设置*。</block>
-  <block id="15bf92ab00f4899c0356a7e83271a31e" category="paragraph">此时将显示Snapshot Volume Reserved Capacity Settings对话框。</block>
   <block id="f7e34e1b95ad3b2fa36099a9eded3e0e" category="list-text">根据需要更改快照卷的预留容量设置。</block>
   <block id="fe1e9c92f62085df5bdc6a7e28e9f856" category="paragraph">使用spinner框调整当成员卷的预留容量接近全满时系统发送警报通知的百分比点。</block>
   <block id="804971ab88cecb5006092a270087e41c" category="list-text">单击*保存*将更改应用于快照卷预留容量设置。</block>
@@ -3431,15 +3257,9 @@
   <block id="033fb1a3d72f918d02e201fd9d85b012" category="list-text">您必须已停止正在对池或卷组执行的任何卷复制操作。</block>
   <block id="eb21e1e037474ef495d7f7ac3b5cfa62" category="list-text">池或卷组不得参与异步镜像操作。</block>
   <block id="40689d5590efb533494d40bc13c7375b" category="list-text">卷组中的驱动器不能具有永久性预留。</block>
-  <block id="c130d9bb9978cfb0d8e5217604a2f537" category="list-text">选择菜单：uncommon Tasks[Delete]并确认。</block>
   <block id="626084575c4cd3deeeba0468d295be16" category="list-text">删除池或卷组中的所有数据。</block>
   <block id="4913e9b466776997c75e54756ba56bb6" category="list-text">删除与池或卷组关联的所有驱动器。</block>
   <block id="af6d56349581b4785b05486c257e7fd5" category="list-text">取消分配关联的驱动器、以便在新的或现有的池或卷组中重复使用这些驱动器。</block>
-  <block id="92878f6d9a558672b578cd59402e7331" category="summary">工作负载信息用于优化选定工作负载的卷特征、例如I/O类型、区块大小和读/写缓存。这些优化特性决定了工作负载与存储阵列组件的交互方式。</block>
-  <block id="97dd56c43427190c7ce4da9463583536" category="doc">提供此信息如何帮助创建存储？</block>
-  <block id="ca5b9a6719cb1dd00c961678a1b32fa3" category="paragraph">System Manager会根据您提供的工作负载信息创建相应的卷、并将其放置在系统上当前存在的可用池或卷组上。系统将根据当前选定工作负载的最佳实践创建卷并优化其特征。</block>
-  <block id="ef647fbef952eaa014419c2dff15ee4d" category="paragraph">在为给定工作负载创建卷之前、您可以查看建议的卷配置、并使用添加/编辑卷对话框编辑、添加或删除系统建议的卷和特征。</block>
-  <block id="c8dbf81f11f7f576cfb284c3a02d54c3" category="paragraph">有关最佳实践信息、请参见您的应用程序专用文档。</block>
   <block id="448039cea8f585edd3148738d15c6270" category="paragraph">在手动创建主机期间、您可以通过从列表中选择主机端口标识符或手动输入这些标识符来关联主机端口标识符。创建主机后，如果您计划共享对卷的访问，则可以为其分配卷或将其添加到主机集群。</block>
   <block id="657b70e8c66d59c5eb96a02553896eb0" category="summary">数据保证(Data Assurance、DA)实施了T10保护信息(Protection Information、PI)标准、该标准可通过检查并更正在I/O路径上传输数据时可能发生的错误来提高数据完整性。</block>
   <block id="06d9b9b2855d79c63cc7328c4ffd2456" category="doc">什么是数据保证？</block>
@@ -3456,9 +3276,6 @@
   <block id="abf98a68bfe8eb13875a12f3a3c0d97a" category="list-text">更改整个存储阵列的扫描持续时间</block>
   <block id="3a82f2468e631c51de1230e3971b7f05" category="list-text">为一个或多个卷启用或禁用介质扫描</block>
   <block id="715abce294f43612e296bb41a005c30a" category="list-text">为一个或多个卷启用或禁用冗余检查</block>
-  <block id="ea1dafa134cddef5a48566dfb97e3738" category="list-text">选择任何卷、然后选择菜单：更多(更改介质扫描设置)。</block>
-  <block id="d2f6524db2ebd9618e6d898735574de6" category="paragraph">此时将显示更改驱动器介质扫描设置对话框。存储阵列上的所有卷都会显示在此对话框中。</block>
-  <block id="fb46e90a4131bc0ee2ba4f08e4b989dd" category="list-text">要启用介质扫描、请选中*在过程中扫描介质...*复选框。</block>
   <block id="bbfdd94b16b6305ee9a21bedff17ce3d" category="paragraph">禁用介质扫描复选框会暂停所有介质扫描设置。</block>
   <block id="876a3238f56bb570b8c7e139255143ed" category="list-text">指定要运行介质扫描的天数。</block>
   <block id="d783c4d52fdb2554c4dd8138f61ab3c0" category="list-text">选中要对其执行介质扫描的每个卷对应的*介质扫描*复选框。</block>
@@ -3475,7 +3292,6 @@
   <block id="c67e8804c1152330064b36aba491b2f4" category="paragraph">从下拉列表中选择新主机上运行的操作系统。</block>
   <block id="57bc6b97fee2dfdc74511e2bd9f7d718" category="paragraph">主机接口类型</block>
   <block id="a9565af0f5c5a5d868991acdb06ea113" category="paragraph">（可选）如果存储阵列支持多种类型的主机接口，请选择要使用的主机接口类型。</block>
-  <block id="d4ae69ad37dca3066470d0b47dfcef6e" category="paragraph">主机端口</block>
   <block id="fcbf44fb0e26c4cb9b4afbf513ce37e9" category="list-text">* 选择 I/O 接口 *</block>
   <block id="ba1f49e240a199a4423f1e3006dfb87c" category="paragraph">通常，主机端口应已登录并可从下拉列表中使用。您可以从列表中选择主机端口标识符。</block>
   <block id="74c3ff626b672bb45e346080688f5d16" category="list-text">* 手动添加 *</block>
@@ -3508,14 +3324,12 @@
   <block id="d453942bdb992a136116e4dd43c46c7b" category="list-text"><block ref="d453942bdb992a136116e4dd43c46c7b" category="inline-link-macro-rx"></block></block>
   <block id="75f54b5ba0767ed2ab92684939ea4fa5" category="list-text"><block ref="75f54b5ba0767ed2ab92684939ea4fa5" category="inline-link-macro-rx"></block></block>
   <block id="8a4852c9189526cc2c5cdc19d3edd1f6" category="section-title">如何创建池？</block>
-  <block id="f3bcd525b88f27bde0994073dcf5a872" category="paragraph">您可以允许System Manager在检测到存储阵列中的未分配容量时自动创建池。或者、如果自动创建无法确定最佳配置、您也可以从菜单：Storage[Pools &amp; Volume Groups]手动创建池。</block>
   <block id="6969601bc2d4dc3c89b07d680d5a2be1" category="list-text"><block ref="6969601bc2d4dc3c89b07d680d5a2be1" category="inline-link-macro-rx"></block></block>
   <block id="78ab1fb8de7ce337d653573b483df1a6" category="inline-link-macro">自动创建池</block>
   <block id="6b875d402094e8cab5c192b38a996481" category="list-text"><block ref="6b875d402094e8cab5c192b38a996481" category="inline-link-macro-rx"></block></block>
   <block id="6e50348a48c119eff6c7f783d93a9320" category="list-text"><block ref="6e50348a48c119eff6c7f783d93a9320" category="inline-link-macro-rx"></block></block>
   <block id="05be8a9c749790be3ad4eaea953621b4" category="list-text"><block ref="05be8a9c749790be3ad4eaea953621b4" category="inline-link-macro-rx"></block></block>
   <block id="7e9ecc195387a6cc43056d17833f72b1" category="section-title">如何创建卷组？</block>
-  <block id="f02174009f5adcd2eb052e464c65759a" category="paragraph">您可以从菜单：Storage[Pools &amp; Volume Groups]创建卷组。</block>
   <block id="818ce2e152c5f325e9149752f731db0b" category="list-text"><block ref="818ce2e152c5f325e9149752f731db0b" category="inline-link-macro-rx"></block></block>
   <block id="0d685aa9525c199bfbca6e26260d6bc2" category="paragraph">详细了解与池和卷组相关的概念：</block>
   <block id="737fde717967f1d8cd42e634a2645196" category="list-text"><block ref="737fde717967f1d8cd42e634a2645196" category="inline-link-macro-rx"></block></block>
@@ -3539,16 +3353,13 @@
   <block id="c49bc7c84b22253dca6f8bd8d7047c78" category="list-text">不得正在执行卷修改操作、例如更改卷的区块大小。</block>
   <block id="b6e9279b5a3f5aa21179770c4f9fea26" category="paragraph">操作开始后、您将无法取消。在整合操作期间、您的数据仍可访问。</block>
   <block id="5c74afc40267613f171f6c06bc209832" category="paragraph">您可以使用以下任一方法启动整合可用容量对话框：</block>
-  <block id="3a5db02904bf41ff952368e7417cba00" category="list-text">您还可以从"池和卷组"页面启动"整合可用容量"对话框、如以下任务所述。</block>
   <block id="9c6d5d354dd5531ad34f0c54cb7dc180" category="example-title">有关可用容量区域的更多信息</block>
   <block id="18b85eb42a1bdd18bbdf637c7108c0b7" category="paragraph">您可以整合卷组上的可用容量以提高写入性能。随着主机写入、修改和删除文件、卷组的可用容量将逐渐变得碎片化。最终、可用容量不会位于一个连续块中、而是分散在卷组中的小片段中。这会导致文件进一步碎片化、因为主机必须将新文件作为碎片写入、才能将其放入可用集群范围内。</block>
   <block id="4e4999e468dbe8808aecf2b467c1470c" category="paragraph">通过将选定卷组上的可用容量整合在一起、您会发现、每当主机写入新文件时、文件系统性能都会提高。整合过程还有助于防止新文件在将来被碎片化。</block>
-  <block id="347dc23556c4936845be175daf1c0d62" category="list-text">选择具有要整合的可用容量的卷组、然后选择菜单：不常见任务(整合卷组可用容量)。</block>
   <block id="4ab2e3fcc36c109b447ff8e794cd054b" category="paragraph">此时将显示整合可用容量对话框。</block>
   <block id="0bb96decae7e79dc82219246bc3a55af" category="list-text">键入`consolidate`确认要执行此操作。</block>
   <block id="5e9ab766ec08679ade0079d0bb739b2e" category="list-text">单击*整合*。</block>
   <block id="a87d8d7857ce00063a8a01c9ff2ee430" category="paragraph">System Manager会开始将卷组的可用容量区域整合(碎片整理)为一个连续的容量、以便执行后续的存储配置任务。</block>
-  <block id="c876da7d0afadd41fce2f9e2370f8507" category="paragraph">选择菜单：主页(查看正在执行的操作)以查看整合可用容量操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="bf11a5989c3168a2749cbe0bc9d1420e" category="summary">性能数据可以指导您调整存储阵列的性能。</block>
   <block id="e7b6ce7df92a6d4542acac63e7842a57" category="paragraph">在解释性能数据时、请记住、影响存储阵列性能的因素有多种。下表介绍了需要考虑的主要方面。</block>
   <block id="cc412c40172e597623d127ac815cf90b" category="cell">性能数据</block>
@@ -3639,19 +3450,13 @@
   <block id="93513d11c804d486194905555dbcf3f4" category="list-text">打开更改缓存设置对话框后、您可能会看到选定缓存属性旁边显示的图标。此图标表示控制器已暂时暂停缓存操作。</block>
   <block id="cf72f8d286e9d569a846c3b337018393" category="paragraph">如果新电池正在充电、已删除控制器或控制器检测到缓存大小不匹配、则可能会发生此操作。清除此条件后、在对话框中选择的缓存属性将变为活动状态。如果选定缓存属性未处于活动状态、请联系技术支持。</block>
   <block id="cd0cfa5332f1eb3e7bf99dd53c87d34c" category="list-text">您可以更改一个卷或一个存储阵列上多个卷的缓存设置。您可以同时更改所有标准卷或所有精简卷的缓存设置。</block>
-  <block id="0fd7aeb9a1e0638b40df88fd94974bcb" category="list-text">选择任何卷，然后选择菜单：更多（更改缓存设置）。</block>
-  <block id="55aaa54c38c716763f6b9341367cc2c6" category="paragraph">此时将显示更改缓存设置对话框。存储阵列上的所有卷都会显示在此对话框中。</block>
-  <block id="b58f7c5149edcbbdea0e2bcac6ab9ea2" category="list-text">选择*基本*选项卡可更改读取缓存和写入缓存的设置。</block>
   <block id="67b53a0a01b56fe8dd98847a38407503" category="cell">缓存设置</block>
   <block id="54c90d9fd755db93b52190b54eb5a20e" category="paragraph">读取缓存</block>
   <block id="a26bc807d3dac4361c693d427c36531d" category="paragraph">写入缓存</block>
   <block id="6471d489b57f5178bbd67dbefcbeb561" category="admonition">对卷禁用*写入缓存*后、缓存会自动刷新。</block>
-  <block id="9308051dd8aa269db697ecd8de89ac4c" category="list-text">选择*高级*选项卡可更改厚卷的高级设置。高级缓存设置仅适用于厚卷。</block>
   <block id="5f3082ee2aa3e89a0763e8ffbe225803" category="paragraph">动态读取缓存预取</block>
-  <block id="d2acc201aaee03f36bf5f2a3d13ebcb4" category="paragraph">无电池写入缓存</block>
   <block id="a092b9bb39624536ba814e05b8bd2e59" category="admonition">*可能丢失数据*-如果选择此选项而没有通用电源进行保护、则可能会丢失数据。此外、如果您没有控制器电池、并且启用了*无电池写入缓存*选项、则可能会丢失数据。</block>
   <block id="8ff5f4a695ce9507f7a8849f7c3f0409" category="paragraph">使用镜像进行写入缓存</block>
-  <block id="fb7abab81bf2adb946430056dd5c13d6" category="list-text">单击*保存*以更改缓存设置。</block>
   <block id="dc700d3f57a23d7f48f77f010bb5a905" category="summary">当System Manager检测到存储阵列中未分配的驱动器时、将自动启动池创建。您可以使用自动创建池将存储阵列中所有未分配的驱动器轻松配置到一个池中、并将驱动器添加到现有池中。</block>
   <block id="804c9baca587d4af47d3c9ff774654ae" category="paragraph">如果满足以下条件之一、则可以启动池自动配置对话框：</block>
   <block id="682781173e998f520331fc9b21dc44ab" category="list-text">至少检测到一个未分配的驱动器、可以将其添加到具有类似驱动器类型的现有池中。</block>
@@ -3661,17 +3466,13 @@
   <block id="b85f48510f4862cca2fdecb6b35fd319" category="list-text">如果先前已定义池、则System Manager会自动提示您选择将兼容驱动器添加到现有池。将新驱动器添加到现有池后、System Manager会自动在新容量中重新分布数据、现在、新容量包含您添加的新驱动器。</block>
   <block id="ae26012aefb21bb331774de86b6e4d53" category="list-text">在配置EF600或EF300存储阵列时、请确保每个控制器可以访问前12个插槽中相同数量的驱动器、以及最后12个插槽中相同数量的驱动器。此配置有助于控制器更有效地使用驱动器端PCIe总线。</block>
   <block id="6267760f05dee65b83e1f034619add7a" category="paragraph">您可以使用以下任一方法启动池自动配置对话框：</block>
-  <block id="08b43741884dd3117799bbaa5f74fd5e" category="list-text">检测到未分配的容量后、"通知"区域的主页页面上将显示池自动配置建议。单击*查看池自动配置*以启动对话框。</block>
   <block id="4d99ef1c77679ff9d194e8c25f26989a" category="list-text">您还可以从"池和卷组"页面启动"池自动配置"对话框、如以下任务所述。</block>
-  <block id="acb569f17fdca9e4f6287ad7bfbb7fa3" category="list-text">选择菜单：更多[启动池自动配置]。</block>
   <block id="1d76b086702c5a90e75be19b07ef0c54" category="paragraph">此结果表列出了新池、已添加驱动器的现有池或这两者。默认情况下、新池使用序列号命名。</block>
   <block id="ceb210f2cbed1f2f068bf53245c8f030" category="paragraph">System Manager将执行以下任务：</block>
   <block id="b5b76e7fbd3cc29054f1f8906df41f5f" category="list-text">如果有足够数量的驱动器具有相同的驱动器类型(HDD或SSD)并具有类似的容量、则创建一个池。</block>
   <block id="ec018f520211cbed5cdf3e9b5265255f" category="list-text">如果未分配的容量包含不同的驱动器类型、则创建多个池。</block>
   <block id="3c0b3725a4bc7d9dbdb74b809377265f" category="list-text">如果已在存储阵列中定义池、则将驱动器添加到现有池、并将相同驱动器类型的新驱动器添加到该池。</block>
   <block id="26f5d4bfb7cf551f333b5571c2bcf9fd" category="list-text">将相同驱动器类型的驱动器添加到现有池中、如果新驱动器的驱动器类型不同、则使用其他驱动器类型创建不同的池。</block>
-  <block id="7bc6f60ead60c59b6d2dc53f5f0595e2" category="list-text">要更改新池的名称、请单击*编辑*图标(铅笔)。</block>
-  <block id="10ee86b3dd4f279ef1e078bf5a463626" category="list-text">要查看池的其他特征、请将光标置于或轻触*详细信息*图标(页面)。</block>
   <block id="f7a51ce2e025c28b006c32277b55921c" category="paragraph">此时将显示有关驱动器类型、安全功能、数据保证(Data Assurance、DA)功能、磁盘架丢失保护和抽盒丢失保护的信息。</block>
   <block id="d1e6c9ce55c2b78347e578b91cf6f589" category="paragraph">对于EF600和EF300存储阵列、还会显示资源配置和卷块大小的设置。</block>
   <block id="e17905dd31e746ef069a3367c5d92d78" category="list-text">单击 * 接受 * 。</block>
@@ -3705,12 +3506,10 @@
   <block id="2a7fdf4a81c6accb6221b95dc017b3f2" category="list-text">卷副本中的目标卷</block>
   <block id="75a103d03f932020c73f5f866e39dbd6" category="list-text">已在进行初始化的卷</block>
   <block id="7cbd930167d1a696bb7ee34fc5e5bf9d" category="paragraph">本主题仅适用于从池或卷组创建的标准卷。</block>
-  <block id="5f89d74976a7d1e7acd335ef53179e8a" category="list-text">选择任何卷、然后选择菜单：更多[初始化卷]。</block>
   <block id="40ca200239017761fae3cfdb3acb6ebd" category="paragraph">此时将显示初始化卷对话框。存储阵列上的所有卷都会显示在此对话框中。</block>
   <block id="39bc2b15352bda8dc5a732085ea1d574" category="list-text">选择要初始化的一个或多个卷、然后确认要执行此操作。</block>
   <block id="5177a22291a0479f014a4c628e8c39bf" category="list-text">擦除已初始化的卷中的所有数据。</block>
   <block id="fc9997eb02932a98d6282e5da3bf886e" category="list-text">清除块索引、这样会将未写入的块读取为零填充(卷显示为完全空)。</block>
-  <block id="00d92cf19a2e5e9082686234904a6424" category="paragraph">选择菜单：主页(查看正在执行的操作)可查看当前正在对选定卷运行的初始化操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="5854c5f62742ce4f7b1c894d9e82e275" category="summary">使用计划收集快照映像、并使用快照一致性组管理多个基础卷。</block>
   <block id="0afa922719fbc0842b311cbab80ed46f" category="doc">Snapshot计划和快照一致性组</block>
   <block id="10f89ee93a190dfd6f2b29c31f5f28bc" category="paragraph">要轻松管理基础卷的快照操作、您可以使用以下功能：</block>
@@ -3741,7 +3540,6 @@
   <block id="436d2b4adace53f4410f1116a13e44f1" category="list-text">删除任何关联的快照映像、计划和快照卷。</block>
   <block id="3cdebc422ce56a03d6b4ab54c2320f0f" category="list-text">删除任何镜像关系。</block>
   <block id="14ab600a49776be57a71f0fa17dc5b38" category="list-text">增加池或卷组中的可用容量。</block>
-  <block id="fbda0bb7361476a087848a96504c7424" category="summary">IOPS图显示每秒输入/输出操作的统计信息。在主页页面上、此图显示存储阵列的统计信息。在性能图块的逻辑视图、物理视图以及应用程序和工作负载视图选项卡中、此图显示存储阵列、卷、卷组、池、应用程序、 和工作负载。</block>
   <block id="1d14b5ef286ec29225479e96e1ba92d1" category="doc">IOPS图显示了什么？</block>
   <block id="f0a3fb10411ee5a0643114b26a810639" category="paragraph">IOPS是_input/output (I/O) operations per second_的缩写。将光标悬停在图形上的某个点上、可查看该时间点的以下值：</block>
   <block id="f772fa91644f9e9eeb1f5fdf939f432e" category="list-text">读取操作的数量。</block>
@@ -3772,7 +3570,6 @@
   <block id="80933066965c90d46f5aaaaec71625fa" category="list-text">密码区分大小写。</block>
   <block id="f8d9bf7bcc41775eb6d5f8fcaaea7cd5" category="list-text">设置密码时、不会从密码中删除尾随空格。如果密码中包含空格、请小心操作。</block>
   <block id="7c0e7191de1df2a543c751121e6c9aa0" category="list-text">为了提高安全性、请至少使用15个字母数字字符并频繁更改密码。</block>
-  <block id="e736f377d2d06dab519bb7a876ed766a" category="list-text">选择菜单：设置[访问管理]。</block>
   <block id="7596f0abc6689facb36bacde7cf114f1" category="list-text">选择*本地用户角色*选项卡。</block>
   <block id="afc11caec8df4bb27d2d12eb2cb8a68e" category="list-text">从表中选择*管理员*用户。</block>
   <block id="a4d9306b3e8a54ca9a4954ace5022c39" category="paragraph">更改密码按钮将变为可用。</block>
@@ -3811,7 +3608,6 @@
   <block id="f89f258b32e38347c5d91409d78fc2ab" category="paragraph">您可以从导航边栏访问Unified Manager的特性和功能。</block>
   <block id="deec4ff19974f12ed781cb9a59064214" category="cell">区域</block>
   <block id="34e34c43ec6b943c10a3cc1a1a16fb11" category="paragraph">管理</block>
-  <block id="99c37293187f838b8697847869522d6b" category="paragraph">发现网络中的存储阵列、为阵列启动SANtricity System Manager、将设置从一个阵列导入到多个阵列以及管理阵列组。选中阵列名称旁边的复选框以对其执行操作、例如导入设置和创建阵列组。每行末尾的省略号提供了一个在线菜单、用于对单个阵列执行操作、例如重命名该阵列。</block>
   <block id="456d0deba6a86c9585590550c797502d" category="paragraph">操作</block>
   <block id="aa5833fef4d31655ac9c7deda4b838f9" category="paragraph">查看批处理操作的进度、例如将设置从一个阵列导入到另一个阵列。</block>
   <block id="6680b466d5f00e16aa00d216e1097c5b" category="paragraph">当存储阵列处于非最佳状态时、某些操作不可用。</block>
@@ -3824,7 +3620,6 @@
   <block id="6b694fe509060de51f5b3a8f3e63fcbb" category="section-title">接口设置和帮助</block>
   <block id="e0b1b548c2f4d0c07277bf505e8cf50a" category="paragraph">在界面的右上角、您可以访问帮助和其他文档。您还可以访问管理选项、这些选项可从您的登录名旁边的下拉列表中找到。</block>
   <block id="36679b5333c4e9b6c381e3191335f936" category="section-title">用户登录和密码</block>
-  <block id="e592adde2bfcb912261b63a294753016" category="paragraph">登录到系统的当前用户显示在界面的右上角。</block>
   <block id="216b0b121e6f2408241a848b4595c30c" category="paragraph">有关用户和密码的详细信息、请参见：</block>
   <block id="dab914db541126686bbe7301f26a031b" category="list-text"><block ref="dab914db541126686bbe7301f26a031b" category="inline-link-macro-rx"></block></block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">访问并登录到Unified Manager。</block>
@@ -4001,8 +3796,6 @@
   <block id="4e5e827d704d9b760ff1b338673a2c44" category="paragraph">需要注意或修复</block>
   <block id="764a2caff05993fc0d3eff5de7b225e9" category="paragraph">小心</block>
   <block id="dab64d84f160f1ff1bd1dd11088b61a0" category="paragraph">System Manager会在不同位置显示这些图标。</block>
-  <block id="9acd806686dd3234546b1446cdcad0cf" category="list-text">主页页面上的通知区域将显示失败图标和消息。</block>
-  <block id="b5ba0bf7582b1b7c65214351e00dbee2" category="list-text">导航区域中的主页图标将显示故障图标。</block>
   <block id="2079c938b6d2d255d4cbf9cb50f7eeae" category="list-text">在组件页面上、驱动器和控制器的图形显示故障图标。</block>
   <block id="b9f34a47580c3ff521cf236c6436d408" category="section-title">警报和LED</block>
   <block id="d7d656ea9ea40ce86f4230b76e7545b4" category="paragraph">此外、System Manager还会通过其他方式通知您问题。</block>
@@ -4089,12 +3882,9 @@
   <block id="0b7252deab11ddabf78395397af0a16e" category="paragraph">如果您对上述任一问题回答是、请考虑拒绝建议的池配置。</block>
   <block id="86f65326f494cad447fd6a15681fcd28" category="summary">您可以更改性能图显示的默认时间范围。</block>
   <block id="2d024c9e4b007de534d2391900f4e105" category="paragraph">主页页面和性能页面上显示的性能图最初显示的时间范围为1小时。首选项存储在浏览器的本地存储中、因此所有用户都可以拥有自己的设置。</block>
-  <block id="06e0e9fb81cfd5d44a085b9698e36497" category="list-text">选择菜单：首选项[设置首选项]。</block>
-  <block id="2ae5775716be49890c9364bab55f2f71" category="list-text">在下拉列表中、选择* 5分钟*、* 1小时*、* 8小时*、* 1天*或* 7天*、 并确认要执行此操作。</block>
   <block id="e8b6fd44336114a9d9ca684f602e6ca0" category="summary">要查看长时间运行的操作并对其执行操作、请使用操作进行中页面。</block>
   <block id="17cb3d0bb58a5f9848a9348aa4e01df0" category="doc">查看正在进行的操作并采取相应措施</block>
   <block id="5e0fe307482793a6ed7349a0801dfde0" category="paragraph">对于"Operations in Progress"页面上列出的每个操作、将显示完成百分比以及完成该操作所需的预计剩余时间。在某些情况下、您可以停止某个操作或将其置于较高或较低的优先级。您也可以从列表中清除已完成的卷复制操作。</block>
-  <block id="97e851ff9f3b3f8bf86dc9d9389ff051" category="list-text">在主页页面上、选择*显示正在执行的操作*。</block>
   <block id="6905afdeb8e550ae1f4ec5b7c8fa772e" category="paragraph">此时将显示操作进行中页面。</block>
   <block id="0ce902fd0cacd18c8b3077e687505783" category="list-text">如果需要、可使用操作列中的链接停止或更改操作的优先级。</block>
   <block id="9a779b920411b6ba469f23d5e654b644" category="paragraph">阅读对话框中提供的所有注意事项文本、尤其是在停止操作时。</block>
@@ -4102,22 +3892,15 @@
   <block id="35add11daa03126332ded679a471057a" category="list-text">卷复制操作完成后、您可以选择*清除*将其从列表中删除。</block>
   <block id="0cfd3bc55947c6b31d655ec407a2f71f" category="paragraph">操作完成后、主页页面顶部将显示一条信息消息和黄色扳手图标。此消息包含一个链接、可用于从"正在执行的操作"页面中清除此操作。</block>
   <block id="3412f4f9996db44d85e9a7ddb64f8fc2" category="summary">您可以导航主界面以访问System Manager功能和任务。</block>
-  <block id="a274f4d4670213a9045ce258c6c56b80" category="paragraph">通知</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="paragraph">性能</block>
   <block id="fbc25e9c092c98f7b43c32748a412668" category="paragraph">存储层次结构</block>
   <block id="b0727c658d662b43f94be32da626a7e2" category="section-title">接口设置</block>
   <block id="cea80bc59fa659067236f0f22d07f5eb" category="paragraph">您可以从主界面更改显示首选项和其他设置。</block>
-  <block id="87f2a268788f2c10df500f018d1f43e5" category="paragraph">显示首选项</block>
-  <block id="daca174edc500057992f3c77fb4e0ec4" category="paragraph">从界面右上角的首选项下拉列表中更改容量值和时间范围。</block>
-  <block id="a8abb8284382869befe42b989472a287" category="paragraph">配置超时、以便用户的非活动会话在指定时间后断开连接。</block>
-  <block id="6a26f548831e6a8c26bfbbd9f6ec61e0" category="paragraph">帮助</block>
-  <block id="8a3756e443f3087d0407e433424e5187" category="paragraph">从界面右上角的下拉列表中访问帮助文档和其他资源。</block>
   <block id="b44cc8f2227561bd5c9166d7540d3bf7" category="list-text"><block ref="b44cc8f2227561bd5c9166d7540d3bf7" category="inline-link-macro-rx"></block></block>
   <block id="b47240c91c3c71e6f24291515a38e27e" category="inline-link-macro">更改密码</block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
   <block id="7cb5c9b7004163f1a52b20165ecce689" category="summary">Recovery Guru是System Manager的一个组件、用于诊断存储阵列问题并建议恢复过程以修复问题。</block>
   <block id="097aa9373d1177a905ff25237ef92e64" category="doc">使用Recovery Guru从问题中恢复</block>
-  <block id="021f1bb83b28d41e3ee27b42fcb94b13" category="list-text">单击窗口中央顶部标记为*从_n_问题恢复*的链接。</block>
   <block id="ec3f87ca6f30814c079d2d1c60973501" category="paragraph">此时将显示Recovery Guru对话框。</block>
   <block id="882ac0adc9e9651e72ac1d7b2d395b24" category="list-text">选择摘要列表中显示的第一个问题、然后按照恢复操作步骤 中的说明更正此问题。如有必要、请按照更换说明更换出现故障的组件。对列出的每个问题重复此步骤。</block>
   <block id="c1befcf3b6d030ef175003a98a5115b1" category="paragraph">一个存储阵列中的多个问题可能是相关的。在这种情况下、更正问题的顺序可能会影响结果。按问题在摘要列表中的列出顺序选择并更正问题。</block>
@@ -4126,16 +3909,12 @@
   <block id="d453802fdd4280b94f37f450cfb69fd4" category="paragraph">如果您为异步镜像组或异步镜像组的成员选择了问题、请先单击*清除*以从控制器中清除故障、然后单击*重新检查*以从Recovery Guru中删除此事件。</block>
   <block id="1c5f14cb9fa36e6899b49cd5f9460af3" category="paragraph">如果所有问题均已解决、则存储阵列图标最终会从需要注意过渡到最佳状态。对于某些问题、在执行重建等操作时会显示一个修复图标。</block>
   <block id="d03a913486dd32b87b23006b190d17cc" category="list-text">*可选：*要将Recovery Guru信息保存到文件中、请单击*保存*图标。</block>
-  <block id="82ab678a4f5cf6d791ac2b387c308298" category="paragraph">此文件将保存在浏览器的"Downloads"文件夹中、其名称为`recovery-guru -failure-yyyy-mm-dd-hh-mm-ss-mmm.html`。</block>
-  <block id="a0d8ff3a23302401ce4263ad4c69a5ca" category="list-text">要打印Recovery Guru信息、请单击*打印*图标。</block>
   <block id="e08bea33d06f32222715e3fdc7fa8842" category="summary">对于网络中的某些应用程序、例如SQL Server或Exchange、您可以定义一个工作负载来优化该应用程序的存储。</block>
   <block id="6404d6af6f191a945c98c6e22bb8a302" category="doc">什么是工作负载？</block>
   <block id="0f00e158c95683733d5268cd23a15139" category="paragraph">在创建卷期间、系统会提示您回答有关工作负载使用情况的问题解答 问题。例如、如果要为Microsoft Exchange创建卷、系统会询问您需要多少邮箱、平均邮箱容量要求是多少以及所需数据库副本的数量。系统会使用此信息为您创建最佳卷配置、您可以根据需要对其进行编辑。</block>
   <block id="c56a19e88f72c77c4ab3e3911e485975" category="doc">识别应用程序如何帮助我管理存储阵列？</block>
-  <block id="e8d880726c1e775bd5008cff6e09ad34" category="paragraph">按应用程序优化卷可以提高数据存储操作的效率。卷配置包括I/O类型、区块大小、控制器所有权以及读写缓存等特征。此外、您还可以按应用程序和工作负载查看性能数据、以评估应用程序及其关联工作负载的延迟、IOPS和MiB/秒数。</block>
   <block id="720fa4ee2f7b9beaa1e33c121c9216e8" category="summary">System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。</block>
   <block id="7aed0dc542e7448fba73fad407e8d96d" category="paragraph">首选项存储在浏览器的本地存储中、因此所有用户都可以拥有自己的设置。</block>
-  <block id="ec432c26aba4fd98ec045302afa35ca0" category="list-text">单击*吉字节*或*太字节*的单选按钮、然后确认您要执行此操作。</block>
   <block id="5fb6a5a7221610e7ceb053f58d304bc3" category="paragraph">有关缩写词和值、请参见下表。</block>
   <block id="b54d58d7e43c404563f91e38d3efbcac" category="cell">缩写</block>
   <block id="689202409e48743b914713f96d93947c" category="cell">价值</block>
@@ -4239,7 +4018,6 @@
   <block id="6f442aa152161a218b0ba9c1efd8c71e" category="list-text">您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。</block>
   <block id="da13d809b489d8a77e218c58d261b8eb" category="list-text">必须事先导入CA签名的证书。</block>
   <block id="dcebb04589a867092036f44a7b1b5095" category="paragraph">重置功能会从每个控制器中删除当前CA签名的证书文件。然后、这些控制器将还原为使用自签名证书。</block>
-  <block id="a026258a3791496ac03c6a22a709acbc" category="list-text">选择菜单：设置[证书]。</block>
   <block id="3c84829f2bfa8265d18d8420c0336c61" category="list-text">从阵列管理选项卡中、选择*重置*。</block>
   <block id="cb5e9cdccd285e5c3cf25c87dc73b4bd" category="paragraph">此时将打开确认重置管理证书对话框。</block>
   <block id="b80c48d727d1041bba4e709604bfdfc1" category="list-text">在字段中键入`reset`、然后单击*重置*。</block>
@@ -4279,7 +4057,6 @@
   <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">单击 * 完成 * 。</block>
   <block id="ddb5573c6f39b580321b3833c2d21c1a" category="summary">您可以编辑SNMPv3陷阱的用户定义。</block>
   <block id="e6ae1cef6f540818bd9a9f5d26d5b552" category="paragraph">必须为SNMPv3陷阱创建用户。</block>
-  <block id="4dc1e0718a071b0cde9dafee55e930d8" category="list-text">选择菜单：设置[警报]。</block>
   <block id="e184a1e2b514901f3669384a849c6dc6" category="list-text">选择* SNMP *选项卡。</block>
   <block id="80298fcfadfe17ff31c415c0bf1bd2df" category="paragraph">陷阱目标和用户名显示在表中。</block>
   <block id="c1e2aa534689c8a263f97b1b0a47f09a" category="list-text">要编辑用户定义、请在表中选择用户、然后单击*配置用户*。</block>
@@ -4292,7 +4069,6 @@
   <block id="a2eecd95a99d8053aa1d5498221ae3e3" category="paragraph">警报页面的SNMP选项卡会显示更新后的设置。</block>
   <block id="791619360769dccd85a8d792aa45ff5e" category="summary">如果控制器包含基于InfiniBand的iSER端口、则可以配置与主机的网络连接。</block>
   <block id="24a9a6e35a752248c7b66abff54c0656" category="list-text">控制器必须包含基于InfiniBand端口的iSER；否则、基于InfiniBand的iSER设置在System Manager中不可用。</block>
-  <block id="380b81d3006a30c7eccc3ebed7a0a567" category="list-text">在*基于InfiniBand设置的iSER *下、选择*基于InfiniBand端口配置iSER *。</block>
   <block id="f5620cf50734f86187c0eab090267312" category="list-text">单击具有要配置的iSER over InfiniBand端口的控制器。单击 * 下一步 * 。</block>
   <block id="860fa57c2a839ecf264232c1dc1cc54f" category="list-text">在下拉列表中、选择要配置的HIC端口、然后输入主机的IP地址。</block>
   <block id="8e736fec560076a8a802b9a2abdd1d1c" category="list-text">单击*是*重置基于InfiniBand的iSER端口。</block>
@@ -4395,7 +4171,6 @@
   <block id="d1ad8766309061c494ee3e1c2f57dea9" category="paragraph">删除存储阵列名称</block>
   <block id="c2d675aaacf58de2c3640a4f4ab16e76" category="paragraph">将存储阵列缓存设置重置为默认值</block>
   <block id="1455f29100a8d475664afca723eceb02" category="paragraph">*数据丢失风险*—此操作将删除存储阵列中的所有数据。(它不会执行安全擦除。) 此操作启动后、您将无法取消。只有在技术支持要求时、才执行此操作。</block>
-  <block id="3df24867fbc734a877c835d7f1cd872b" category="list-text">选择*清除存储阵列配置*。</block>
   <block id="32ae189cdbb4aef5cc7573075c6cadb7" category="list-text">在下拉列表中、选择*卷*或*存储阵列*。</block>
   <block id="1b16857105a932c4a3ee2d15161b8e7a" category="list-text">*可选：*如果要保存配置(而不是数据)、请使用对话框中的链接。</block>
   <block id="2d80446b00a0d521658b7e7d91d97d11" category="list-text">确认要执行此操作。</block>
@@ -4973,7 +4748,6 @@
   <block id="215cf6beecf479adb3a867d26fc744da" category="list-text">已使用SNMP服务应用程序在服务器上复制和编译管理信息库(Management Information Base、MIB)文件。此MIB文件定义了要监控和管理的数据。</block>
   <block id="21bfc3076ecd20e3a23a918418d483cc" category="paragraph">如果您没有MIB文件、可以从NetApp支持站点获取：</block>
   <block id="9d1a7a7afc8659cbac70f975e0b9147a" category="paragraph">表中将显示当前定义的陷阱目标。</block>
-  <block id="c8ca91aeb48db292a1ab001d626dd2a8" category="list-text">选择*添加陷阱配置*。</block>
   <block id="f051bb35c62399f8abc0b6dd10ee2235" category="paragraph">此时将打开添加陷阱目标对话框。</block>
   <block id="67813f6d86c3921cd6ec311b7db1001c" category="list-text">输入一个或多个陷阱目标、选择其关联的社区名称或用户名、然后单击*添加*。</block>
   <block id="ad08104930fb8235aa64de390c16c957" category="list-text">*陷阱目标*-输入运行SNMP服务的服务器的IPv4或IPv6地址。</block>
@@ -5618,7 +5392,6 @@
   <block id="81327700abab9468bb8a3ed635ab23e5" category="list-text">CA返回签名证书文件。这些文件包括根证书、一个或多个中间证书以及服务器证书。</block>
   <block id="d2d5ae5d6b56bafa4d876c6bcf3fdbcf" category="list-text">如果CA提供了一个链式证书文件(例如.p7b文件)、则必须将链式文件解压缩到各个文件中：根证书、一个或多个中间证书以及用于标识控制器的服务器证书。您可以使用Windows `certmgr`实用程序解压缩文件(右键单击并选择菜单：所有任务[导出])。建议使用64位编码。导出完成后、系统将为链中的每个证书文件显示一个CER"文件。</block>
   <block id="dc8c04c4ee29f32dbb46fbda4c2cdd2c" category="list-text">您已将证书文件复制到访问System Manager的主机系统。</block>
-  <block id="4e8049d992150b4a75e56ac8524291a9" category="list-text">选择菜单：设置[证书]</block>
   <block id="0cfa0e9957aadb69991aadc960e79747" category="list-text">从阵列管理选项卡中、选择*导入*。</block>
   <block id="9be16d4941d274d452b3aadad03a4ebc" category="paragraph">此时将打开一个对话框、用于导入证书文件。</block>
   <block id="109aa3a3a3d05949e97d84d0b42bb0ca" category="list-text">单击*浏览*按钮、首先选择根证书和中间证书文件、然后选择控制器的每个服务器证书。两个控制器的根文件和中间文件相同。对于每个控制器、只有服务器证书是唯一的。如果从外部工具生成CSR、则还必须导入随CSR一起创建的私钥文件。</block>
@@ -5705,8 +5478,6 @@
   <block id="01fccb238136cadbbda6282b2738a082" category="paragraph">此任务介绍如何收集功能所需的信息、然后发送功能密钥文件请求。所需信息包括：</block>
   <block id="1fe0bc7459693232ff7ad04999b73597" category="list-text">机箱序列号</block>
   <block id="aaa7a3624a97859ee3583f71dde90af3" category="list-text">功能激活代码</block>
-  <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">在System Manager中、找到并记录机箱序列号。您可以通过将鼠标悬停在支持中心磁贴上来查看此序列号。</block>
-  <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">在 System Manager 中，找到功能启用标识符。转到菜单：设置[系统]、然后向下滚动到*加载项*。查找*功能启用标识符*。记录功能启用标识符的编号。</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">找到并记录用于激活功能的代码。对于功能包、此代码将在执行转换的相应说明中提供。</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">对于高级功能、您可以从支持站点访问激活代码、如下所示：</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">登录到<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>。</block>
@@ -5752,10 +5523,8 @@
   <block id="95e7c5800741d9cdff5cc057adec8a3d" category="admonition">您最多可以配置五个系统日志服务器。</block>
   <block id="58a01fc86219ba33eab71c3c26d37e86" category="paragraph">系统日志服务器地址将显示在表中。</block>
   <block id="079344e24125661a235311c4af323831" category="doc">关于资源配置卷功能、我需要了解哪些信息？</block>
-  <block id="9742fedd4fc70f86711709c96aad31ad" category="paragraph">在驱动器支持DULBE"的系统上、默认情况下会启用资源配置。您可以在*池和卷组*中禁用此默认设置。</block>
   <block id="51a446719a3a2b36bb69b274d84caafe" category="summary">您可以编辑SNMPv2c陷阱的社区名称。</block>
   <block id="b87c0a131c7bdafd2d279917218a6018" category="paragraph">必须创建社区名称。</block>
-  <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">选择菜单：设置[警报]。</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">输入新的社区名称、然后单击*保存*。团体名称只能包含可打印的ASCII字符。</block>
   <block id="828a1a17714ff7fbe66b286e64f2e8e2" category="paragraph">警报页面的SNMP选项卡会显示更新后的社区名称。</block>
   <block id="e1338191b3f39c31a394336c2fb52f36" category="doc">关于证书撤消检查、我需要了解哪些信息？</block>
@@ -5851,15 +5620,6 @@
   <block id="dee2311da640ca76dd6f667b2ea83b22" category="list-text">要允许本地用户在不输入密码的情况下访问存储阵列、请取消选中"至少需要所有本地用户密码"复选框。</block>
   <block id="c76cfd011c8ffeceecf387577a0adcd3" category="list-text">要为所有本地用户密码设置最小密码长度、请选中"要求所有本地用户密码至少为"复选框、然后使用spinner框设置所有本地用户密码所需的最小长度。</block>
   <block id="828436964eaf23a46c9ae630ed2d1c4c" category="paragraph">任何新的本地用户密码都必须满足或超过当前设置。</block>
-  <block id="44593be4ae80d015facafd7cb9d8a787" category="summary">您可以启用或禁用原有管理界面(符号)、这是存储阵列与管理客户端之间的一种通信方法。</block>
-  <block id="c2c297f17a71d6c9bcafda51309d0597" category="doc">启用或禁用原有管理界面</block>
-  <block id="75a981a887d30887b8b11cddc636abf4" category="paragraph">默认情况下、原有管理界面处于打开状态。如果禁用此功能、则存储阵列和管理客户端将使用更安全的通信方法(基于https的REST API)；但是、如果禁用此功能、某些工具和任务可能会受到影响。</block>
-  <block id="fb54b5dd93b715176053cded7e068219" category="paragraph">对于EF600存储系统、此功能默认处于禁用状态。</block>
-  <block id="6795035dc021f214e108bba9375d2af0" category="paragraph">此设置将影响以下操作：</block>
-  <block id="0ae27aeec30b70c72e4f635caa13822c" category="list-text">*开*(默认)—使用命令行界面和其他一些工具(例如OCI适配器)配置镜像所需的设置。</block>
-  <block id="5fac989ff1caacc35939c34cbfda18ea" category="list-text">*关*—在存储阵列与管理客户端之间的通信中强制实施机密性以及访问外部工具所需的设置。配置目录服务器(LDAP)时的建议设置。</block>
-  <block id="1ca78c8380b9e9f1261560599c386619" category="list-text">向下滚动到*其他设置*、然后单击*更改管理界面*。</block>
-  <block id="aec62e973fb5362d3c566b3ad4c54349" category="list-text">在对话框中、单击*是*继续。</block>
   <block id="bcd58fe597b664c8bf522d665a911e3e" category="summary">您可以启用对已撤销证书的自动检查、以便联机证书状态协议(OCSP)服务器阻止用户进行非安全连接。</block>
   <block id="698ed3bef61712d684d96c334e215e50" category="list-text">在两个控制器上都配置了DNS服务器、这样可以为OCSP服务器使用完全限定域名。此任务可从硬件页面访问。</block>
   <block id="ab62a1c8640662571ae2bae627603eac" category="list-text">如果要指定自己的OCSP服务器、则必须知道该服务器的URL。</block>
@@ -5911,10 +5671,6 @@
   <block id="f796514589e8f8da2b0ae30fa4873727" category="list-text">当存储阵列的事件监控器检测到问题描述 时、它会将有关该问题描述 的信息写入事件日志(可从菜单：Support[事件日志]中获取)。例如、问题可能包括电池故障、组件从最佳状态移至脱机状态或控制器出现冗余错误等事件。</block>
   <block id="1a42b4a1f399e86011f5e3cfd8174130" category="list-text">如果事件监控器确定该事件为"可处理"事件、则会使用配置的警报方法(电子邮件、SNMP和/或系统日志)发送通知。所有严重事件以及一些警告和信息性事件均视为"可处理"。</block>
   <block id="b5d9623250e3e523b79a0cbfbf87f59f" category="section-title">警报配置</block>
-  <block id="43448d9a663aa61d79c8435c95543a4e" category="paragraph">您可以通过初始设置向导(仅适用于电子邮件警报)或警报页面配置警报。要检查当前配置、请转到菜单：设置[警报]。</block>
-  <block id="6b17bea55d175dd3eb0404055ffecfe3" category="paragraph">"Alerts"图块显示警报配置、可以是以下配置之一：</block>
-  <block id="f8265712eaac1d6e77a9bd4f27c32435" category="list-text">未配置。</block>
-  <block id="5de8055df3b1b122e4e0bf80fd70c25b" category="list-text">已配置；已至少设置一种警报方法。要确定配置了哪些警报方法、请将光标指向此图块。</block>
   <block id="e3ab74ea72568ba3c8e39d27b3ffd29b" category="section-title">警报信息</block>
   <block id="0175ee361c7d5816bff4dc5a8b517efd" category="paragraph">警报可以包括以下类型的信息：</block>
   <block id="b996e2000477a25abf3faa5019221ac3" category="list-text">存储阵列的名称。</block>
@@ -6045,13 +5801,10 @@
   <block id="61a482d244aceb646a9634a51eab4e96" category="paragraph">磁盘架视图仅显示未分配的驱动器；所有其他驱动器均显示为灰色。</block>
   <block id="858c50442cb48573bb9b790cfbdc74f9" category="list-text">要打开驱动器的上下文菜单、请单击要擦除的驱动器。(如果要选择多个驱动器、可以在擦除驱动器对话框中执行此操作。)</block>
   <block id="d0857010b61f2e6654498c1d70bc2b04" category="paragraph">*可能的数据丢失*-擦除操作无法撤消。确保在操作步骤 期间选择正确的驱动器。</block>
-  <block id="b3d3d439e3984daebf24379061fa282e" category="list-text">从上下文菜单中、选择*擦除*。</block>
   <block id="66c6440e50a3a7190e88c5176fd292c2" category="paragraph">此时将打开擦除驱动器对话框、其中显示了所有符合擦除操作条件的驱动器。</block>
   <block id="1dbf4738562eff13f39bcaed82390432" category="list-text">如果需要、请从表中选择其他驱动器。您不能选择_all_驱动器；请确保仍有一个驱动器处于未选中状态。</block>
-  <block id="85feffe972801ce9009291da4dc16727" category="list-text">键入`erase`确认操作、然后单击*擦除*。</block>
   <block id="66ef43440c7c742eea1b8b74faebcd59" category="paragraph">请务必继续执行此操作。在下一个对话框中单击是后、此操作将无法中止。</block>
   <block id="bf6dc3a58a56b4b23ad3370df45976b7" category="list-text">在估计完成时间对话框中、单击*是*继续执行擦除操作。</block>
-  <block id="0f8da6c82d30b5d0fc48192dce965ba5" category="paragraph">擦除操作可能需要几分钟或几小时。您可以在菜单：主页(查看正在执行的操作)中查看状态。擦除操作完成后、驱动器可在其他卷组或磁盘池中或其他存储阵列中使用。</block>
   <block id="25cdb6fe42b8d4fcfa1845da7f73cdd7" category="paragraph">如果要再次使用该驱动器、必须先对其进行初始化。要执行此操作、请从驱动器的上下文菜单中选择*初始化*。</block>
   <block id="43876d6d2ae9df2e2482a9e0697e7204" category="summary">您可以将控制器置于三种不同的状态：联机、脱机和服务模式。</block>
   <block id="24e42e365daf483eabf7f269f09d04b0" category="doc">控制器状态</block>
@@ -6248,7 +6001,6 @@
   <block id="7ed3341dcb3fe1751cb426e3630e4d03" category="example-title">驱动器术语：</block>
   <block id="158ff4b17ad2902fe12ace4b9b0d3fba" category="paragraph">数据保证(Data Assurance、DA)是一项功能、用于检查并更正在数据通过控制器向下传输到驱动器时可能发生的错误。可以在池或卷组级别启用数据保证、主机使用光纤通道等具有DA功能的I/O接口。</block>
   <block id="7d32c9f012d298e3519b82991460389e" category="paragraph">DULBE</block>
-  <block id="881399878ef5107cf38d8a0789d9a36c" category="paragraph">已取消分配或未写入逻辑块错误(DULBE")是NVMe驱动器上的一个选项、它允许EF300或EF600存储阵列支持资源配置的卷。</block>
   <block id="9c2dc227590d4220750b52b21b0aeb99" category="paragraph">HDD</block>
   <block id="2f033065fccd9f120571df2762be8f1f" category="paragraph">硬盘驱动器（ HDD ）是指使用带有磁性层的旋转金属盘的数据存储设备。</block>
   <block id="30cb0bb76148d111e8a300c136f40302" category="paragraph">热备用驱动器</block>
@@ -6384,7 +6136,6 @@
   <block id="2a6310cde2a9aa2abb6c18e5ac6c11a3" category="paragraph">驱动器将恢复为未分配(以灰色显示)。</block>
   <block id="4159cdde3f290f08d06c1f8b00354757" category="summary">您可以从"正在执行的操作"信息板查看驱动器重建状态。</block>
   <block id="082abfc0167c63e29e68841b39ed6782" category="doc">在何处可以查看正在重建的驱动器的状态？</block>
-  <block id="32b7d659e5d1ce23fed40b88a50dca2a" category="paragraph">在主页页面中、单击右上角的*查看正在进行的操作*链接。</block>
   <block id="5f89d01999b1beb5d648cf2750e94931" category="paragraph">根据驱动器的不同、完全重建可能需要相当长的时间。如果卷所有权发生变化、则可能会进行完全重建、而不是快速重建。</block>
   <block id="67f3537809c69b9de0936cb2060d07e9" category="summary">您可以更改硬件页面上显示的磁盘架顺序、以匹配机柜中磁盘架的物理顺序。</block>
   <block id="d0eda527f7a2260bbfda9cd51a805033" category="doc">更改磁盘架的视图顺序</block>
@@ -6507,7 +6258,6 @@
   <block id="57cac9f7f45fc113fc3e21a7f1926577" category="paragraph">显示驱动器是否已启用安全保护(是)(否)。启用了安全保护的驱动器与驱动器安全功能结合使用。启用驱动器安全功能后、如果将驱动器安全应用于安全-_capable"驱动器上的池或卷组、则这些驱动器将变为安全-_enabled_。只能通过配置了正确安全密钥的控制器进行读写访问。这种增强的安全性可防止未经授权访问从存储阵列中物理删除的驱动器上的数据。</block>
   <block id="a4f2c7a50453a086d2b145d4af5535cf" category="paragraph">支持数据保证(Data Assurance、DA)</block>
   <block id="ba6c0f46e1c7900bba2382d3b2105bff" category="paragraph">显示数据保证(Data Assurance、DA)功能是否已启用(Yes)或未启用(No)。数据保证(Data Assurance、DA)是一项功能、用于检查并更正在数据通过控制器向下传输到驱动器时可能发生的错误。可以在池或卷组级别启用数据保证、主机使用光纤通道等具有DA功能的I/O接口。</block>
-  <block id="7da0d7c76c2ebd19b9c8a4df8a18e87f" category="paragraph">指示已取消分配或未写入逻辑块错误(DULBE")选项是启用("是")还是未启用("否")。DULBE"是NVMe驱动器上的一个选项、它允许EF300或EF600存储阵列支持资源配置的卷。</block>
   <block id="9ec79ffd425a97fbe377e3b2ebf632ea" category="paragraph">可读/写</block>
   <block id="380e55ebcfea656659f3ce50dc884026" category="paragraph">显示驱动器是否可读/写(是)(否)。</block>
   <block id="6f149d0f3a49266571585c95c4300d1b" category="paragraph">驱动器安全密钥标识符</block>
@@ -6599,7 +6349,6 @@
   <block id="a54e8bbbb036b83f8181f0c77eaaf906" category="list-text">如果在一端(本地存储阵列端或远程存储阵列端)删除了一致性镜像组中的成员卷、而不是在另一端删除了该成员卷、则会存在孤立镜像对。</block>
   <block id="250696e24a4e70ab9003d34e160b476c" category="list-text">在恢复阵列间通信且镜像配置的两端协调镜像参数时、系统会检测到孤立镜像对。</block>
   <block id="c286e227d05f3ac80f8013f06715bd2a" category="list-text">您可以删除镜像对以更正孤立的镜像对状态。</block>
-  <block id="a24d7673801675a700bfd83a84f659a2" category="list-text">选择菜单：Storage[Asynchronous Mirroring]。</block>
   <block id="c582651b060f869537738d25acde6b45" category="list-text">选择*镜像对*选项卡。</block>
   <block id="1da241611815695096a463801637dcb5" category="paragraph">此时将显示镜像对表、并显示与存储阵列关联的所有镜像对。</block>
   <block id="01c77ce8a1928a9babf79a92291ca6df" category="list-text">选择要删除的镜像对、然后单击*删除*。</block>
@@ -6688,7 +6437,6 @@
   <block id="a1dc8dcd0ef0c3f9c09c995746bd9eaa" category="summary">您可以在镜像对中出于管理目的或在本地存储阵列发生灾难时参与同步镜像的两个卷之间执行角色反转。</block>
   <block id="82deb6e7c6ccf745d601a8e410473414" category="paragraph">您可以在镜像对中参与同步镜像的两个卷之间执行角色反转。出于管理目的或在本地存储阵列发生灾难时、可能需要执行此任务。</block>
   <block id="a94d228d4ea6bacf24f30d98d435d32e" category="paragraph">您可以将主卷降级为二级角色、也可以将二级卷提升为主角色。正在访问主卷的所有主机均可对该卷进行读/写访问。当主卷成为二级卷时、只会向该卷写入由主控制器启动的远程写入。</block>
-  <block id="ab473df4e0c88c723409554d7d88c823" category="list-text">选择菜单：Storage[Synchronous Mirroring]。</block>
   <block id="e55928da6f3f28a9fd42c8250521f87c" category="list-text">选择包含要更改角色的卷的镜像对、然后选择菜单：更多(更改角色)。</block>
   <block id="7179bf9dca2528ab6e5f5333db51ca87" category="paragraph">系统将显示确认信息。</block>
   <block id="5e3c63c84d01d8f2094f6df147c8aa8d" category="list-text">确认要更改卷的角色、然后选择*更改角色*。</block>
@@ -7223,7 +6971,6 @@
   <block id="aa4306ca5582318a4c71780a034351e8" category="list-text">选中要通过运行状况检查运行的存储系统对应的复选框。</block>
   <block id="059bcb3d06d5b7c0c9b7f4d6d250d626" category="list-text">单击 * 开始 * 。</block>
   <block id="70c0249de1da6c602476f4e4d22c5c3d" category="paragraph">执行运行状况检查时，此进度将显示在对话框中。</block>
-  <block id="6288150d7ef4839b9a49ad845bc05aaf" category="list-text">运行状况检查完成后，您可以单击每行右侧的省略号（ ... ）以查看更多信息并执行其他任务。</block>
   <block id="b7d5630f68b2ae105a1892c1784263e4" category="paragraph">如果任何阵列未通过运行状况检查，您可以跳过该特定阵列并继续对其他阵列进行升级，也可以停止整个过程并对未通过的阵列进行故障排除。</block>
   <block id="d8c5cfafc5001ebbc9958231249cc52a" category="summary">您可以创建存储组、然后将存储阵列添加到这些组中。存储组定义了哪些驱动器提供构成卷的存储。</block>
   <block id="4f7870b34e5bca1943525d9280d28ad9" category="doc">配置存储阵列组</block>
@@ -7296,7 +7043,6 @@
   <block id="c9a10c26dff1ccc6556a2006bd54521a" category="doc">发现多个存储阵列</block>
   <block id="af79150969b4d48bc866f35ea2543694" category="list-text">您必须使用具有安全管理员权限的用户配置文件登录。</block>
   <block id="d752b017a49db2bf839d5688eeee79a4" category="list-text">必须正确设置和配置存储阵列。</block>
-  <block id="8577ad1c75c35289f43ab00368b85a77" category="list-text">存储阵列密码必须使用System Manager的"访问管理"图块进行设置。</block>
   <block id="e398c4a4afb099bfca78578b16cb9f60" category="list-text">要解析不可信的证书、您必须拥有证书颁发机构(CA)提供的可信证书文件、并且证书文件可在本地系统上使用。</block>
   <block id="f4818254270302a4c78b32eedd0d5c6f" category="paragraph">发现阵列是一种多步骤操作步骤。</block>
   <block id="da7e0f354c79d74ef2a2638357a23004" category="section-title">第1步：输入网络地址</block>
@@ -7412,7 +7158,6 @@
   <block id="3c8d9471611e2ed4621b07da623ba160" category="paragraph">只有镜像对中二级卷的远程首选控制器所有者才会接受在此端口上收到的I/O请求。(允许在主卷上进行预留。)</block>
   <block id="a0dec66ee10611c15b4ca5a86e1e3f37" category="list-text">创建两个预留容量卷、每个控制器一个、用于记录写入信息、以便从控制器重置和其他临时中断中恢复。</block>
   <block id="7ffb2dd2b9b992754eefeb08b87a3e23" category="paragraph">每个卷的容量为128 MiB。但是、如果将卷放置在池中、则会为每个卷预留4 GiB。</block>
-  <block id="cda4530cc29b73a2848e3ee73549537a" category="paragraph">转到System Manager并选择菜单：主页(查看正在执行的操作)以查看同步镜像操作的进度。此操作可能会很长，并且可能会影响系统性能。</block>
   <block id="839a15232e75363abd83283c12dccb75" category="summary">如果一个池或卷组中有多个卷满足您为存储对象选择的容量百分比量、则您将看到多个候选卷。</block>
   <block id="c80a3b4054f1065c5ed2862c799574d3" category="summary">您可以将设置从一个存储阵列导入到另一个存储阵列、包括警报、AutoSupport 和目录服务。</block>
   <block id="6d2afd33fd55f01ede09873e95c44962" category="paragraph">通过导入设置功能、您可以执行批量操作、将设置从一个阵列导入到多个阵列。当您需要在网络中配置多个阵列时、此功能可以节省时间。</block>
@@ -7764,7 +7509,6 @@
   <block id="34919a9493354af06c60b6a7efe26f66" category="summary">要为访问管理配置身份验证、请在LDAP服务器与运行适用于SANtricity Unified Manager的Web服务代理的主机之间建立通信。然后、将LDAP用户组映射到本地用户角色。</block>
   <block id="b828924e6cb61c82f7d84db873261628" category="doc">添加目录服务器</block>
   <block id="b53df6d7d04b2e16a801c386e5491e43" category="paragraph">添加目录服务器分为两步。首先输入域名和URL。如果服务器使用安全协议、则如果CA证书由非标准签名颁发机构签名、则还必须上传此CA证书以进行身份验证。如果您拥有绑定帐户的凭据、则还可以输入您的用户帐户名称和密码。接下来、将LDAP服务器的用户组映射到本地用户角色。</block>
-  <block id="062bd96c08dfa22823465cc5da09e38b" category="list-text">选择*访问管理*。</block>
   <block id="983f7148d2276d9ec50cb88b8a839197" category="list-text">从*目录服务*选项卡中、选择*添加目录服务器*。</block>
   <block id="60663c300fc50a2b09201085bb18ed81" category="list-text">在*服务器设置*选项卡中、输入LDAP服务器的凭据。</block>
   <block id="8f02cbd4956cafb0414be52e04ed65d3" category="paragraph">输入一个只读用户帐户、用于对LDAP服务器进行搜索查询以及在组中进行搜索。以LDAP类型格式输入帐户名称。例如、如果绑定用户名为"bindAcct"、则可以输入一个值、例如`cn=bindAcct、cn=users、DC=cpoc、DC=local`。</block>
@@ -7809,7 +7553,6 @@
   <block id="cc9f062b4b8ca3d1da28128815a142ae" category="list-text">您知道LDAP用户组的组域名。</block>
   <block id="7ed1c23fd5825fcffa42b8277d75a176" category="summary">您可以将管理证书还原到原始出厂自签名状态。</block>
   <block id="f8da35c36c426cc6f5e85f3b036b8c22" category="paragraph">此任务将从安装了Web服务代理和Unified Manager的主机系统中删除当前管理证书。重置证书后、主机系统将恢复为使用自签名证书。</block>
-  <block id="e4d7c78f06cfedfb1960a9d1ee053e0a" category="list-text">选择*证书管理*。</block>
   <block id="4c670df3c34ee6fe770985c68d612b00" category="paragraph">此时将打开确认重置管理证书对话框。</block>
   <block id="0d976dc17b4640ed74e2e82306ff7154" category="paragraph">系统将恢复为使用服务器中的自签名证书。因此、系统会提示用户为其会话手动接受自签名证书。</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">如果存储阵列尝试建立与SANtricity Unified Manager的安全连接、但此连接无法确认为安全连接、则会发生不可信证书。</block>
@@ -7899,7 +7642,6 @@
   <block id="9448915bfa64b3a5e64429c61e5807e2" category="list-text">选择以下选项卡之一：</block>
   <block id="636a225a6f5ecbdf9d5cf7d1e255601d" category="list-text">*管理*-显示托管Web服务代理的系统的证书。管理证书可以是自签名证书、也可以由证书颁发机构(CA)批准。它允许安全访问Unified Manager。</block>
   <block id="1a8f5fefd99ba5427cda707e9fef82f2" category="list-text">*可信*-显示Unified Manager可访问的存储阵列和其他远程服务器(例如LDAP服务器)的证书。证书可以从证书颁发机构(CA)颁发、也可以是自签名证书。</block>
-  <block id="177b3451c3ab8af94b99ec603169f482" category="list-text">从页面中选择一个证书、然后单击行末尾的省略号。</block>
   <block id="5df555ad8a5d58c2d2be3f9893464acb" category="list-text">单击*导出*、然后保存证书文件。</block>
   <block id="818d28e7b7b11b8d0de393cdf2bad961" category="list-text">在证书查看器应用程序中打开文件。</block>
   <block id="ff35c3e3725af39a06df8c1a8972f5c3" category="summary">在Access Management中添加目录服务器之前、您必须满足特定要求。</block>
@@ -7918,7 +7660,6 @@
   <block id="4e659f859cf08d5887aa434a7f8bd662" category="paragraph">在Unified Manager会话期间、当您尝试访问没有CA签名证书的控制器时、可能会看到其他安全消息。在这种情况下、您可以永久信任自签名证书、也可以为控制器导入CA签名证书、以便Web服务代理服务器可以对来自这些控制器的传入客户端请求进行身份验证。</block>
   <block id="57180671ca977e7c71697763b3f08403" category="summary">您可以查看证书的摘要信息、其中包括使用证书的组织、颁发证书的机构、有效期以及指纹(唯一标识符)。</block>
   <block id="6577f92f6d3e817e406cf5c8fc28fb74" category="doc">查看证书</block>
-  <block id="9c6c2f35f874859a647563b0d99e7685" category="list-text">要查看有关证书的详细信息、请选择其行、选择行末尾的省略号、然后单击*查看*或*导出*。</block>
   <block id="980f833f7f8f14ed4d3e2fb0e550d98e" category="paragraph">证书签名请求(CSR)是从申请人发送给证书颁发机构(CA)的一条消息。CSR会验证CA对证书进行问题描述 所需的信息。</block>
   <block id="f131afe2eabed5b381e5517af0e2e91e" category="paragraph">信任存储库</block>
   <block id="cf93328a82ffe3d054899b90fbfeed65" category="paragraph">信任存储库是一个存储库、其中包含来自CA等可信第三方的证书。</block>
@@ -8238,10 +7979,6 @@
   <block id="70a5ac954926edc08c5f6fc4c248a4a6" category="section-title">SANtricity 11.7版</block>
   <block id="f7b52729af7c7aa177e09390f0afd194" category="list-text"><block ref="f7b52729af7c7aa177e09390f0afd194" category="inline-link-rx"></block></block>
   <block id="797222f106ff986b71e9f972dd342bc3" category="list-text"><block ref="797222f106ff986b71e9f972dd342bc3" category="inline-link-rx"></block></block>
-  <block id="7647966b7343c29048673252e490f736" category="paragraph">81.</block>
-  <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
-  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
-  <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用阵列中嵌入的安全断言标记语言(SAML)功能配置访问管理、则当用户的SSO会话达到其最大限制时、可能会发生会话超时。可能会在System Manager会话超时之前发生这种情况。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必须匹配相同的协议、托盘级别、区块大小、安全类型和RAID级别。不符合条件的异步镜像对不会显示在可用卷列表中。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是^3^</block>
@@ -8260,7 +7997,6 @@
   <block id="4b09b699877612f901bc1067fb675519" category="paragraph">域名字段为只读。</block>
   <block id="f12f2a18a7e07620fad6228a36b64f3c" category="list-text">从本地系统中、找到您导出的XML格式的服务提供商元数据文件。</block>
   <block id="075d83a0abd972ce69ef61db38da29be" category="list-text">从Idp服务器中、导入服务提供商元数据文件。您可以直接导入文件、也可以手动输入控制器信息。</block>
-  <block id="7c4628a811708cf3294dac2de4c5f97f" category="list-text">选择*设置&gt;证书*。</block>
   <block id="a450e680be3e9f05356e4a72d3b2fd9f" category="list-text">选择*阵列管理*选项卡，然后选择*重置*。</block>
   <block id="90322e9b8e628209c77e7fcaddff0eb5" category="list-text">您必须知道存储阵列中控制器的IP地址或域名。</block>
   <block id="a8f3d1d2c981da6e0da6bfa7f0083639" category="list-text">管理员已确保IdP服务器和控制器时钟同步(通过NTP服务器或通过调整控制器时钟设置)。</block>
@@ -8381,7 +8117,6 @@
   <block id="e3ef647d9c4d52f37e6e8692049489f5" category="paragraph"><block ref="e3ef647d9c4d52f37e6e8692049489f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ae04b8c08989c6922154b7c875f1ed28" category="paragraph"><block ref="ae04b8c08989c6922154b7c875f1ed28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fa089d11d37f87ad34ea6d956fa1fae8" category="paragraph">您可以通过SANtricity系统管理器管理异步镜像和同步镜像。</block>
-  <block id="b3ff8e795b3d80ba68cbe1156469a2cb" category="list-text">*选择私钥文件*--如果需要，请单击第二个*浏览*按钮，为存储阵列的控制器选择私钥文件。</block>
   <block id="ee01112415d197728f20c99202d37eb2" category="list-text">*选择密钥管理服务器的服务器证书*--单击第三个*浏览*按钮选择密钥管理服务器的证书文件。您可以为密钥管理服务器选择根证书、中间证书或服务器证书。</block>
   <block id="54c0574306f4d58143114e2e0861640f" category="paragraph">客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。</block>
   <block id="66093664d0d43a7f4fc3ddbad78f691c" category="paragraph">要获取客户端证书、请使用System Manager为存储阵列完成CSR。您还可以使用私钥和公共密钥对在外部生成CSR。</block>
@@ -8422,22 +8157,8 @@
   <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技术支持。</block>
   <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">升级固件位置</block>
   <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport工作流</block>
-  <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity统一管理器7.</block>
   <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">您可以通过SANtricity统一管理器配置使用的设置。</block>
   <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">使用Web浏览器与网络管理客户端建立带外连接。</block>
-  <block id="3ea0f7b73838fea25dfb4ff6da50f43a" category="doc">SANtricity OS 11.90中的新增功能</block>
-  <block id="e6575254726c9c37843a559ef72300fd" category="paragraph">下表介绍了SANtricity系统管理器11.9中的新增功能。</block>
-  <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">11.90版中的新增功能</block>
-  <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">新存储系统型号— E4000</block>
-  <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">此版本引入了E4000低成本存储系统。E4000支持12个和60个驱动器以及每个控制器一个主机接口卡(Host Interface Card、HIC)。初始版本支持的主机接口卡包括iSCSI和光纤通道。可以在Unified Manager中查看和管理E4000存储系统和其他E系列存储系统。</block>
-  <block id="0d05e82ffcabd1bd655a97084285e90d" category="paragraph">增加了动态磁盘池的容量</block>
-  <block id="372fa8b3c2d2e776e7b288a3b8bbd7da" category="paragraph">只要动态磁盘池(Dynamic Disk Pool、DDP)中每个驱动器的容量超过23 TB、该容量就会增加到12 PB。如果单个驱动器容量小于23 TB、则DDP容量为6 PB。</block>
-  <block id="47366514f1926a1d18e6b7ee9660d7f5" category="paragraph">增加了默认介质扫描设置</block>
-  <block id="9b21ddbc5c4f3b0196cbd88ac900622e" category="paragraph">默认介质扫描速率已增加到120天。</block>
-  <block id="545cf0306f91cc802f72bee950711b04" category="paragraph">专用密钥现在可用于外部密钥管理</block>
-  <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">现在、可以通过System Manager导入外部通过私钥和公共密钥对生成的证书签名请求(CSR)文件。</block>
-  <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">现在、Web服务可以使用登录锁定功能</block>
-  <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">现在、嵌入式Web服务和代理Web服务均可使用新的登录锁定设置、该设置仅可通过REST API进行配置。</block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">SANtricity System Manager和Unified Manager</block>
   <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 软件产品规格</block>
   <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文档</block>
@@ -8469,7 +8190,6 @@
   <block id="00cffad3ca607922a6c706858259b403" category="paragraph">热备件在SANtricity系统管理器的RAID 1、RAID 5或RAID 6卷组中用作备用驱动器。</block>
   <block id="f1a4437045c85126e53d06d8e40fd021" category="paragraph">存储系统处于非最佳模式是由于系统配置无效状态所致。尽管处于此状态、但完全支持对现有卷进行正常I/O访问；但是、SANtricity系统管理器将禁止某些操作。</block>
   <block id="4c1548b517bea01f9959a884be8575f3" category="paragraph">主页页面提供了用于存储阵列日常管理的信息板视图。登录到SANtricity系统管理器后、将显示主页页面。</block>
-  <block id="23d5a32d5d5e34af0ae01167c84aee80" category="paragraph">在确定应用程序时、SANtricity系统管理器会自动根据应用程序类型建议可优化存储的卷配置。</block>
   <block id="37ab8a55610b93d738f7d12e13b2cbe8" category="paragraph">SANtricity系统管理器是一个基于Web的界面、可用于在一个视图中管理存储阵列。</block>
   <block id="533d0451d27fab44f457ddccee791402" category="doc">SANtricity System Manager界面概述</block>
   <block id="1d4af631b6959ddfabcf268d07e5d112" category="paragraph">SANtricity系统管理器使用图标和其他几种方法来通知您存储阵列存在问题。</block>
@@ -8521,36 +8241,9 @@
   <block id="99e207225cad4e6c8aa147bb693de2fe" category="paragraph">在使用SANtricity 统一管理器升级多个存储阵列之前、请在规划过程中查看主要注意事项。</block>
   <block id="48003406c3332bb90497a98f2d79b26a" category="sidebar">SANtricity系统管理器界面</block>
   <block id="b4baa7fdabc903993aebeaaa5980c455" category="sidebar">SANtricity Unified Manager界面</block>
-  <block id="447d926e847ba6e7316f7c54ac601bab" category="sidebar">使用SANtricity系统管理器进行单阵列管理</block>
-  <block id="4895fd90ba99a1644bbfaaa77bf80a43" category="sidebar">使用SANtricity统一管理器7进行多阵列管理</block>
   <block id="3089984c7abf64387bdc035943beae57" category="sidebar">SANtricity系统管理器设置</block>
   <block id="61ed698df3699989d8d782fe430d2755" category="sidebar">SANtricity Unified Manager设置</block>
-  <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricity软件版本是一款适用于数据分析、视频监控以及备份和恢复等繁重工作负载应用程序的E系列混合闪存和EF系列全闪存阵列、可帮助您实现最高性能和利用率。</block>
-  <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricity软件版本操作文档</block>
-  <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricity软件版本、版本为</block>
-  <block id="bea9b4f39c26a537662fed44c4b4ab7e" category="admonition">EF600/EF600C和EF300/EF300C存储阵列不支持同步镜像或精简卷。</block>
-  <block id="07ceb34078b6425ead2bdf25c28b4765" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中、您可以查看所有较新的E系列和EF系列阵列的状态、例如E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C和EF600C。您还可以对选定存储阵列执行批处理操作。</block>
-  <block id="a8d536a226bc5040b931337a7644185d" category="paragraph">EF600/EF600C或EF300/EF300C存储阵列不支持同步镜像。</block>
-  <block id="68d28abd2b869bd5795d298dfa9e846e" category="paragraph">此功能在EF600/EF600C或EF300/EF300C存储系统上不可用。</block>
-  <block id="465143b73392c408d4e639ff6ed7cf18" category="paragraph">EF300/EF300C或EF600/EF600C存储阵列不支持同步镜像。</block>
-  <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C或EF300/EF300C存储系统不支持同步镜像。</block>
-  <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">此功能不适用于EF600/EF600C或EF300/EF300C存储系统上的同步镜像。</block>
-  <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">目前、EF300C或EF600C存储阵列不支持DULBE。</block>
-  <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000、EF600/EF600C或EF300/EF300C存储系统不支持使用Access卷进行带内管理。</block>
-  <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">精简卷在EF600/EF600C或EF300/EF300C存储系统上不可用。</block>
   <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">显示是否提供了抽盒丢失保护、只有在使用包含抽盒的驱动器架时、才会提供此保护。如果与驱动器架中的单个抽盒完全失去通信、则抽盒丢失保护功能可确保能够访问卷组中卷上的数据。</block>
-  <block id="d1395fc90f77b84babf353a6d9d715db" category="list-text">2、048个卷(EF600、EF600C和E5700系列)</block>
-  <block id="896a61fe313f0f38c6a4575f53d2958d" category="list-text">1、024个卷(EF300和EF300C)</block>
-  <block id="61c9873f4f28e9fd9310c86bf6f0e33f" category="paragraph">SMcli可直接通过SANtricity系统管理器访问。此SMClI可下载版本适用于E4000、EF600、EF600C、EF300、EF300C、E5700、EF570、E2800和EF280控制器。要在SANtricity 系统管理器中下载SMCLI、请选择*设置*&gt;*系统*和*加载项*&gt;*命令行界面*。</block>
-  <block id="4f0494c1ee4d34a0be2e413265889dcb" category="paragraph">EF600/EF600C和EF300/EF300C存储系统不支持精简配置。</block>
-  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">11.90R1中的新增功能</block>
-  <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">新存储系统型号—EF300C和EF600C</block>
-  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">此版本推出了EF300C和EF600C全闪存NVMe存储系统。EF300C和EF600C是现有EF300和EF600存储系统的高容量闪存版本。EF300C和EF600C支持30 TB或60 TB大小的高容量NVMe SSD驱动器。EF300C/EF600C仅兼容动态磁盘池、不支持原有RAID。</block>
-  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">支持EF4000上的12 Gb SAS接口</block>
-  <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000控制器现在支持12 Gb SAS主机接口卡。</block>
-  <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">11.90R2中的新增功能</block>
-  <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E系列11.90发行说明</block>
-  <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本仅包含少量更改、没有任何新功能。有关此版本中变更的详细信息，请参阅<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
   <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">启用SAML的连接有限</block>
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">启用SAML后、以下存储阵列功能与JSON Web令牌身份验证的连接将受到限制。</block>
   <block id="afd690b4a6f8f723237e406e691e1994" category="doc">了解SANtricity软件</block>
@@ -8699,7 +8392,6 @@
   <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">在 SANtricity System Manager 中启用证书吊销检查</block>
   <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">在 SANtricity System Manager 中启用功能包</block>
   <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">在 SANtricity System Manager 中启用 iSCSI 发现设置</block>
-  <block id="95d8541a159451a64c0bdb938e4bcf77" category="doc">在 SANtricity System Manager 中启用或禁用旧式管理界面</block>
   <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">在 SANtricity System Manager 中启用或禁用新卷组或池的资源配置</block>
   <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">在 SANtricity System Manager 中启用高级功能</block>
   <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">在 SANtricity System Manager 中结束 iSCSI 会话</block>
@@ -8956,9 +8648,6 @@
   <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">在 SANtricity Unified Manager 中查看存储阵列状态</block>
   <block id="9da51a1302e75e343632d510bb4cc161" category="doc">了解如何使用 SANtricity Unified Manager 升级多个存储阵列</block>
   <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">升级 SANtricity 操作系统</block>
-  <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">11.90R3中的新增功能</block>
-  <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">SANtricity 操作系统对 IOM12C 和 DCM3 的支持</block>
-  <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">控制器固件版本 11.90R3 或更高版本现已支持 IOM12C 和 DCM3 SAS-3 磁盘架。IOM12C和 DCM3 磁盘架将替代 IOM12B 和 DCM2 磁盘架。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager 的存储控制器常见问题解答</block>
   <block id="d51277c947b0f0f0862c6f10192a1cc0" category="section-title">我该选择哪一个——DHCP 还是手动配置？</block>
@@ -9031,15 +8720,389 @@
   <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">导入设置常见问题解答</block>
   <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">存储镜像常见问题解答</block>
   <block id="ded92516be8a7fa425e1814e7ca1ea4e" category="paragraph">E4000 使用 iSCSI 协议时不支持异步镜像。</block>
-  <block id="df48668a095024b3fd7f5c07bbd643f2" category="paragraph">8.x (SP8)、9.x (SP2)/64 位</block>
-  <block id="5d0e952c1d2bb4a6c656e4848e5ac620" category="paragraph">12.x (SP4、SP5)、15.x (SP4、SP5)/64 位</block>
-  <block id="6da6782b5d9ad68dd92fc2d385dd25e9" category="paragraph">8.x (U8)、9.x (U2)/64 位</block>
   <block id="a644eb9a683d4a7e20ade5239234152a" category="paragraph">2019、2022、2025 / 64 位</block>
   <block id="a625adde4feeab3aa4c85cef062cc2b4" category="paragraph">20.04、22.04/64 位</block>
   <block id="3ec10d346538ec4062959d73db3a7bac" category="list-text">主卷和辅助卷不得启用资源分区。</block>
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 控制器不支持 iSCSI 镜像。</block>
-  <block id="2ba81316cd80bb512d2d7c99312de69e" category="section-title">11.90R4 版本新增功能</block>
-  <block id="980295b6698b8b2aea7adc1d9dafed8c" category="section-title">版本 11.90R5 中的新增功能</block>
-  <block id="94bf3a177cda972f0b25d90290f4610c" category="paragraph">此版本仅包含缺陷修复，不包含新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 11.90R5 README。</block>
-  <block id="b2676fbb812b8574fa9249e68163593f" category="paragraph">此版本仅包含小的更改，没有新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 11.90R4 README。</block>
+  <block id="da4fb5c6e93e74d3df8527599fa62642" category="paragraph">120</block>
+  <block id="c74d97b01eae257e44aa9d5bade97baf" category="paragraph">16</block>
+  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 发行说明</block>
+  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
+  <block id="fd2794987891340c24fff2fa599efaee" category="admonition">EF80、EF50、EF600/EF600C 和 EF300/EF300C 存储阵列不支持同步镜像或精简卷。</block>
+  <block id="ccdf92355b0aaee2a2280755e8b08e7c" category="paragraph">Unified Manager 是基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新 E-Series 和 EF-Series 阵列的状态，例如 EF80、EF50、E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C 和 EF600C。您还可以在选定的存储阵列上执行批处理操作。</block>
+  <block id="82c50740e9777a0b839701b8603354cb" category="paragraph">8.x (SP10)、9.x (SP6、SP7)、10.x (GA、SP1) / 64 位</block>
+  <block id="aaedc5bd74b285fe0c7f5e37832da5e1" category="paragraph">15.x (SP6、SP7)、16.x (GA) / 64 位</block>
+  <block id="4d35418604bd41666951c6566cd04637" category="paragraph">8.x (U10)、9.x (U6、U7)、10.x (GA、SP1) / 64 位</block>
+  <block id="1971a45b8bf02ad33010f85ebdc859bc" category="list-text">在左侧面板中，选择 *Hardware*。</block>
+  <block id="93a5c3772c7b53688ddd4f42b57b629d" category="list-text">从上下文菜单中，选择 *Erase Drives*。</block>
+  <block id="e663db07e118a870f470c797797eabdc" category="list-text">通过键入<block ref="26eb25b14d930f9d5f59b2c50798a9a4" prefix=" " category="inline-code"></block>确认操作，然后单击 *Erase Drives*。</block>
+  <block id="a37442aae2fdec96cb5238a1da614975" category="paragraph">擦除操作可能需要几分钟或几个小时。您可以在菜单中查看状态：Storage[Operations in Progress]。擦除操作完成后，驱动器可以在另一个卷组或磁盘池或另一个存储阵列中使用。</block>
+  <block id="dcfabf77926c61707b0aec26409327ca" category="paragraph">Deallocated or Unwritten Logical Block Error (DULBE) 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300/EF300C 或 EF600/EF600C 存储阵列支持资源调配的卷。</block>
+  <block id="38833d44319a29abce252a75db2a1f8b" category="doc">SANtricity System Manager 12.0</block>
+  <block id="8200990c6066d1d9a57e817228d442ed" category="paragraph">指示是否启用已取消分配或未写入逻辑块错误 (DULBE) 选项（是）或未启用（否）。DULBE 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300 或 EF600 存储阵列支持资源调配的卷。</block>
+  <block id="80c4081de557a7ea6b138514f14e41c8" category="paragraph">延迟图提供了卷、卷组、池、应用程序和工作负载的延迟统计信息，以毫秒 (ms) 为单位。此图形显示在"逻辑视图"、"物理视图"和"应用程序和工作负载视图"选项卡中。</block>
+  <block id="301220bfd980824d7e894be673f80491" category="paragraph">IOPS 图表显示每秒输入/输出操作的统计信息。在主页上，此图表显示存储阵列的统计信息。在 Performance 页面的 Logical View、Physical View 和 Applications and workloads View 选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。</block>
+  <block id="9af6d4604e0d05001d330e7eae66e9ac" category="paragraph">MiB/s 图表以每秒兆字节为单位显示传输速度统计信息。在主页上，此图表显示存储阵列的统计信息。在 Performance 页面的 Logical View、Physical View 和 Applications and workloads View 选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。</block>
+  <block id="b66b71ac5a2adb0da02cf04f57535ae4" category="paragraph">CPU 图表显示每个控制器（控制器 A 和控制器 B）的处理能力统计信息。CPU 是_中央处理器_的缩写。在主页上，此图表显示存储阵列的统计信息。在性能页面的物理视图选项卡上，此图表显示存储阵列和驱动器的统计信息。</block>
+  <block id="6a5d99144cadaffd7de7836dca8de6c1" category="paragraph">净空图与存储阵列控制器的剩余性能功能相关。此图形在主页和性能页面的物理视图选项卡上可见。</block>
+  <block id="ede7515b0b16283849e7975832d4298c" category="paragraph">您可以按应用程序和工作负载查看性能数据，以评估应用程序及其相关工作负载的延迟、IOPS 和 MiB/s，从而优化性能。卷配置中包括 I/O 类型、段大小、控制器所有权以及读写缓存等特征。</block>
+  <block id="bb77e3449fb22de704ec7f80e6235b3b" category="paragraph">仪表板视图包括三个摘要区域，其中包含有关存储阵列状态和运行状况的关键信息。您可以在摘要区域找到更多信息。</block>
+  <block id="8be9f04fc892ca94a61382280f21a45f" category="section-title">通知区域</block>
+  <block id="ad3dda0f382dc8e316c5340950ac8247" category="paragraph">通知区域可通过窗口上角的铃铛图标访问。通知区域显示指示存储阵列及其组件状态的问题通知。此外，此部分还会显示自动警报，以帮助您在问题影响存储环境的其他区域之前对其进行故障排除。</block>
+  <block id="4ea2365a084b556f023aeb91e53d3ccf" category="paragraph">当前登录系统的用户将显示在用户设置中。</block>
+  <block id="aa99cd75e011eca8dbe66a2b446d991c" category="list-text">通知区域（窗口顶部的铃铛图标）</block>
+  <block id="6aea0ac4671dbef8eabe0a0e417f98dd" category="list-text">在左侧面板中，选择 *主页*。</block>
+  <block id="2bb793a88baa8fb0dd29a569cdb8f493" category="list-text">单击 *Bell* 图标，然后单击窗口中间顶端标有 *Recover from _n_ problems* 的链接。</block>
+  <block id="4a1732fd30f89db5cf194d7885340df1" category="paragraph">此文件将以此名称保存在浏览器的 Downloads 文件夹中<block ref="81cda54e8363263ae4aa2f19c1e9d9e7" prefix=" " category="inline-code"></block>。</block>
+  <block id="0701a1f8334434b737b82f0e520df030" category="list-text">单击窗口右上角的 *User Settings* 图标。</block>
+  <block id="534b23ae10897c7b9a9994787b6771db" category="list-text">在默认性能图时间范围显示下拉列表中，选择 *5 minutes*、*1 hour*、*8 hours*、*1 day* 或 *7 days*，并确认要执行此操作。</block>
+  <block id="28baae529bdae6012479aabfb3034afd" category="list-text">在显示容量值下拉列表中，选择 *Gibibytes* 或 *Tebibytes*。</block>
+  <block id="58f97911ad526a0b3114b5d1ceb5714e" category="list-text">从左侧面板中，选择菜单：Storage[Operations in Progress]。</block>
+  <block id="68bd8586d0f43977809d9625c2f3832d" category="list-text">从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。</block>
+  <block id="15fa65c6a6259a589bc87d4cc9d20696" category="list-text">从左侧面板中，选择菜单：Storage[Synchronous Mirroring]。</block>
+  <block id="e40605a4c8787d0a8bd5a3d942b6d72b" category="list-text">从左侧面板中，选择菜单：Storage[Pools and volume groups]。</block>
+  <block id="71724fcc5d968d46f6ae9aea9d8432bb" category="list-text">选择要编辑的镜像对卷，然后单击菜单：省略号图标[Edit Settings]。</block>
+  <block id="20b62625723273b82ac5b3a537850d56" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储阵列上不提供同步镜像。</block>
+  <block id="9537d9baa857d6915e93798866a36cd3" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像。</block>
+  <block id="b243c63ff10157d320198d7e855a65fe" category="list-text">选择要增加预留容量的存储对象，然后单击 menu:ellipsis icon[Increase reserved capacity]。</block>
+  <block id="9d42549873b2e3f2f340c0ee60aa94d6" category="paragraph">此时将显示增加保留容量页面。</block>
+  <block id="55c1fee1e2b0ca49191b6b2991051839" category="paragraph">此功能不适用于 EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统。</block>
+  <block id="99cc04edc3c4934b54f043aebf20d304" category="paragraph">EF80、EF50、EF300/EF300C 或 EF600/EF600C 存储阵列上不提供同步镜像。</block>
+  <block id="52c7d8b4829be51d5c304c6584524a88" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像。</block>
+  <block id="0ffacd71a3f967294cc7e17170f72142" category="paragraph">此功能不适用于 EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统。</block>
+  <block id="282ea9f3ebe21389c4e400a931c3339e" category="list-text">从左侧面板中，选择菜单：Storage[Synchronous Mirroring]。</block>
+  <block id="4d5252494ee430e05211d62611768c48" category="paragraph">此功能不适用于 EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上的同步镜像。</block>
+  <block id="26483c8a375149cabf233a9ae9d7c1bb" category="list-text">从左侧面板中，选择菜单：Settings[Access Management]。</block>
+  <block id="96cfdf4746c9d70d80f05ea57167f56b" category="list-text">在左侧面板中，选择菜单：Settings[Alerts]。</block>
+  <block id="51fbec8fc88921e62424eb57c4696d06" category="list-text">选择 *Add Trap Destinations*。</block>
+  <block id="f8e12e1f0e060b76cabb7f7dd91a7a3f" category="list-text">从左侧面板中，选择菜单：Settings[System]。</block>
+  <block id="ec1afa520331f76ee4213e48a67779fb" category="list-text">选择 *Map System Manager roles*。</block>
+  <block id="fc99a176c19f209de0407ac880925f59" category="list-text">在 *常规* 下，选择 *清除存储阵列配置*。</block>
+  <block id="800bff57fb9610bf7b8a9de762e44ee0" category="list-text">在 *iSER 设置*下，选择*通过 InfiniBand 端口配置 iSER*。</block>
+  <block id="f9f35e678e9247c3cd3913763722574d" category="list-text">*选择专用密钥文件* -- 如果需要，单击第二个 *浏览* 按钮为存储阵列的控制器选择专用密钥文件。</block>
+  <block id="27476eb161e26b22e6f82858e6792a3f" category="list-text">从左侧面板中，选择菜单：Settings[Certificates]。</block>
+  <block id="26ead79f391a53e2e4f33f54556396af" category="list-text">从左侧面板中，选择菜单：Setting[Alerts]。</block>
+  <block id="314fdd3b15d2079c78b419b5566c4a1a" category="paragraph">资源调配是 EF80、EF50、EF300/EF300C 和 EF600/EF600C 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。分配给卷的所有驱动器块都将被取消分配（未映射），这可以提高 SSD 的磨损寿命并提高最大写入性能。</block>
+  <block id="dbb7d5d33b58c24cf0f412534a7567a3" category="list-text">您必须具有 EF80、EF50、EF300 或 EF600 存储阵列。</block>
+  <block id="6e0823aad40150aac3a33c5a04916735" category="list-text">在 *iSCSI 设置*下，选择*查看/结束 iSCSI 会话*。</block>
+  <block id="7f1edc0ff63a6a5bdcb7e70a78834577" category="paragraph">您可以从 Initial Setup 向导（仅适用于电子邮件警报）或从 Alerts 页面配置警报。要访问 Alerts 页面，请从左侧面板转到 menu:Settings[Alerts]。</block>
+  <block id="0ade17f71567fdbcdda8471771886f28" category="list-text">在 System Manager 中，找到并记录机箱序列号。从左侧面板转到菜单：Support[Support Center]，然后向下滚动到 *View top storage array properties* 以查看机箱序列号。</block>
+  <block id="e54929680296ae5dd5bf6c6e91cb0e52" category="list-text">在 System Manager 中，找到功能启用标识符。从左侧面板转到菜单：设置[系统]，然后向下滚动到*附加组件*。查找*功能启用标识符*。记录功能启用标识符的编号。</block>
+  <block id="2eae09d7c741ba50e1f303030b60d31b" category="list-text">在左侧面板中，选择菜单：Settings[Certificates]</block>
+  <block id="9fb6f4828396c75e65a2938b96a9ac68" category="list-text">选择 *View iSCSI Statistics*。</block>
+  <block id="7e4fc6332d3729e4414a3acc91c18b4e" category="paragraph">使用 Access 卷的带内管理不适用于 EF80、EF50、E4000、EF600/EF600C 或 EF300/EF300C 存储系统。</block>
+  <block id="a896a3a5baa8cb8671571cee4a89c66d" category="paragraph">您可以通过从左侧面板中选择菜单：Storage[Volumes]，然后为该卷选择菜单：ellipsis icon[Increase capacity] 来向卷添加容量。</block>
+  <block id="1cd170d4c43d9af1616a403bba77265d" category="paragraph">您可以通过选择菜单：Storage[Pools and Volume Groups &gt; Add capacity] 向池或卷组添加未分配的容量。</block>
+  <block id="10f41f4ea699d623192cdf7c809c5c46" category="paragraph">复制卷时，需要在同一存储阵列上创建两个独立卷（源卷和目标卷）的时间点副本。您可以通过选择菜单：Storage[Volumes]，然后选择菜单：省略号图标[Copy volume] 来复制卷。</block>
+  <block id="8301d80a88018eeea284258a8ec0aaf7" category="paragraph">您可以通过选择菜单：Storage[Volumes &gt; 省略号图标 &gt; Initialize volumes] 来初始化卷。</block>
+  <block id="9ed60b36d65fa74cfd76756233e7448e" category="paragraph">您可以通过选择菜单：Storage[Volumes &gt; 省略号图标 &gt; Redistribute volumes] 来重新分配卷。</block>
+  <block id="82114f04b039aaacd75ee40dc0cd98a5" category="paragraph">更改卷的所有权会更改卷的首选控制器所有权。卷的首选控制器所有者列在菜单下：Storage[Volumes &gt; 省略号图标 &gt; Edit settings]。</block>
+  <block id="b0ac84e12e15bc04467f6b9f999e0052" category="paragraph">您可以通过选择菜单：Storage[Volumes &gt; 省略号图标 &gt; Change volume ownership] 来更改卷的所有权。</block>
+  <block id="caed4fb8c4c770c63250883adc5441be" category="paragraph">选择菜单：Storage[Volumes &gt; 省略号图标 &gt; Change cache settings] 以更改以下缓存设置：</block>
+  <block id="2a0a9b211a63d983ac3b54c8bdbd8dfa" category="list-text">从左侧面板中，选择菜单：Storage[Snapshots]。</block>
+  <block id="c16d7b75914e2988f9ab1bf1d8567f8b" category="list-text">如果尚未显示，请单击 *Snapshot Schedules* 选项卡。</block>
+  <block id="64750d4f8237e4de968898e26b8cbe0f" category="list-text">2,048 卷（EF80、EF600 和 E5700 系列）</block>
+  <block id="de5de6e5b4e2470a1dd5c5aaeedacb17" category="list-text">1,024 卷（EF50 和 EF300）</block>
+  <block id="702dd89343d2592db5a273e0031ceac4" category="paragraph">避免使用具有 Data Assurance (DA) 功能的驱动器向不具有 DA 功能的池或卷组添加容量。池或卷组无法利用具有 DA 功能的驱动器的功能。在这种情况下，请考虑使用不具有 DA 功能的驱动器。</block>
+  <block id="ff4e761b4bad34dae09cffbf5a5d92ae" category="list-text">选择要添加驱动器的池或卷组，然后单击菜单：省略号图标[Add capacity]。</block>
+  <block id="e20d113ba8bf4b5577903bd229311b58" category="paragraph">此时将显示"添加容量"对话框。仅显示与池或卷组兼容的未分配驱动器。</block>
+  <block id="2d85541597e88fbf0a4370dc3534538f" category="list-text">在 *Select drives to Add capacity...* 下，选择要添加到现有池或卷组的一个或多个驱动器。</block>
+  <block id="73835b82efb40d68394d3a9094f8bbfc" category="list-text">不建议使用不支持 Data Assurance (DA) 的驱动器向支持 DA 的池或卷组添加容量。池或卷组将不再具有 DA 功能，并且您不再可以选择在池或卷组内新创建的卷上启用 DA。</block>
+  <block id="292840d59965ff863fc3a32f7e56b5b6" category="list-text">不建议使用支持 Data Assurance (DA) 的驱动器向不支持 DA 的池或卷组添加容量，因为该池或卷组无法利用支持 DA 的驱动器的功能（驱动器属性不匹配）。在这种情况下，请考虑使用不支持 DA 的驱动器。</block>
+  <block id="e7231a9ea7c87d7730f027e359ea2feb" category="paragraph">指示驱动器是否具有取消分配或未写入逻辑块错误 (DULBE) 的选项。DULBE 是 NVMe 驱动器上的一个选项，允许 EF80、EF50、EF300 或 EF600 存储阵列支持资源调配的卷。</block>
+  <block id="de8e9500d29a561b5336f384ec5c9acb" category="list-text">从左侧面板中，选择菜单：Storage[Volumes]。</block>
+  <block id="faf31906838a90053a5e842a3691bc56" category="list-text">选择菜单：省略号图标 [Add volumes to workload]。</block>
+  <block id="795a9350449270eff98b5a486db91538" category="paragraph">此时将显示 Applications and workloads 视图。</block>
+  <block id="f2351a5fe030304473a9c61900d7cc3c" category="list-text">请执行以下操作：</block>
+  <block id="ec2325109c467065c6037473ae8b9a81" category="list-text">对工作负载配置感到满意后，单击 *添加*。</block>
+  <block id="769ffa546ec00708bab1334064113cc6" category="list-text">在左侧面板中，选择菜单： Storage [Hosts]。</block>
+  <block id="d4bda18f017b04ed57c5d915d3ab72aa" category="list-text">选择要分配卷的主机或主机集群，然后单击菜单：省略号图标[Assign Volumes]。</block>
+  <block id="4087443c9d1d08e1129472ebac650f90" category="list-text">选择要取消挂起快照映像的快照组，然后单击菜单：省略号图标[取消挂起快照映像]。</block>
+  <block id="ffea7eb2f4f5200137e2e1e3fb6e0300" category="list-text">单击菜单：省略号图标 [Change volume cache settings]。</block>
+  <block id="9cc160da36ecf9c37c74bcb3a5782e72" category="paragraph">此时将显示更改卷缓存设置窗口。存储阵列上的所有卷都将显示在此对话框中。</block>
+  <block id="9cb94620b707bafe6b42c119e48ab2b4" category="list-text">选中要更改其缓存设置的每个卷旁边的框，或选中表头中的框以选择所有卷。</block>
+  <block id="0d4d49786e2fe666a257f0350cf8b62a" category="paragraph">不使用电池的写缓存</block>
+  <block id="b104c3e55eb7004f1365f5a902b41ab6" category="list-text">单击 *Save* 以更改缓存设置</block>
+  <block id="af41c8f2376a36c83b35a21d6386cd97" category="list-text">选择要编辑的池，然后单击 menu:ellipsis icon[Edit Settings]。</block>
+  <block id="781bc547426ef3bb136dc36724aaf48e" category="paragraph">此时将显示编辑池设置窗口。</block>
+  <block id="05e6cd5f4c1b560bc89f7a1701f126b1" category="list-text">根据需要编辑池设置。</block>
+  <block id="a70a1633f7b983d84bdc64a4f6e9c8af" category="list-text">选择要编辑的卷组，然后单击 menu:ellipsis icon[Edit Settings]。</block>
+  <block id="0ac11d07b0b47fe5a935083b0715a86d" category="paragraph">此时将显示 Edit Volume Group Settings（编辑卷组设置）窗口。</block>
+  <block id="5b55e86194c960de91495af2fb401286" category="list-text">根据需要编辑卷组设置。</block>
+  <block id="c18ba435286365a159a2041b0ddd72ef" category="list-text">单击菜单：省略号图标 [Change volume ownership]。</block>
+  <block id="16b89b08b988ac3bef3ae8273a99782e" category="paragraph">此时将显示 Change Volume Ownership（更改卷所有权）窗口。存储阵列上的所有卷都将显示在此对话框中。</block>
+  <block id="d76dc8815655282d837e4f542f21f790" category="list-text">选择要关联端口的主机，然后单击菜单：省略号图标 [Edit Settings]。</block>
+  <block id="660b9f3f970b99b532bc8b227bd4798f" category="paragraph">如果要将端口添加到主机群集中的主机，请选择所需的主机。无法在主机群集级别添加端口。</block>
+  <block id="baffaca063075ff0c142b8e0426447da" category="paragraph">此时会显示编辑主机设置屏幕，其中显示当前的主机设置。</block>
+  <block id="5fb745fe41973bcb56dd4fc4909a251e" category="list-text">*添加主机端口* -- 单击 *添加主机端口* 将新的主机端口标识符关联到主机。主机端口标识符名称的长度由主机接口技术决定。Fibre Channel 和 Infiniband 主机端口标识符名称必须包含 16 个字符。iSCSI 主机端口标识符名称最多包含 223 个字符。端口必须是唯一的。不允许使用已配置的端口号。</block>
+  <block id="bce5542e3ab0fb55524e8bf53407709c" category="list-text">*删除（X 图标）* -- 单击 *X* 图标以删除（取消关联）主机端口标识符。删除选项不会物理删除主机端口。此选项删除主机端口和主机之间的关联。除非您卸下主机总线适配器或 iSCSI 启动程序，否则控制器仍可识别主机端口。</block>
+  <block id="c95bd2cf1f9bd58f65291d4f879f803c" category="paragraph">如果需要，您可以更改端口标签名称。端口标签名称必须是唯一的。不允许使用已配置的标签名称。</block>
+  <block id="1ad9222a617c622865323f269af89569" category="list-text">单击菜单：省略号图标 [Change volume media scan settings]。</block>
+  <block id="82eb11ee17aa2466d42679d2ea2a709c" category="paragraph">此时将显示更改驱动器介质扫描设置窗口。存储阵列上的所有卷都将显示在此对话框中。</block>
+  <block id="a889ca1729b7f3a8733985edacb288fd" category="list-text">要启用媒体扫描，请选中 *Media scan* 复选框。</block>
+  <block id="48d72d97655bb2e73c1162fcba606694" category="list-text">选择要更改的卷，然后单击 menu:ellipsis icon[Edit Settings]。</block>
+  <block id="70e29afd1a429f0254ef5ad9954d12f2" category="paragraph">此时将显示 Edit Volume Settings（编辑卷设置）窗口，其中显示选定卷的配置设置。</block>
+  <block id="766e6b41cdc8b8e6ace25682f6015286" category="list-text">根据需要配置卷设置：</block>
+  <block id="dfae26ff4dcff3e01176c2776f8abdc9" category="paragraph">选择菜单：Storage[Operations in Progress] 以查看当前为所选卷运行的更改操作的进度。</block>
+  <block id="9919322107d84462dc4b0057e0a67d07" category="summary">您可以编辑 SSD Cache 的设置。可通过"查看设置"选项访问 SSD 缓存的当前设置。</block>
+  <block id="1638f82dd65a5406700aacc0916f25fa" category="list-text">选择要编辑的 SSD Cache，然后单击菜单：省略号图标[编辑设置]。</block>
+  <block id="4b7b1e5a9ea22161c3d92619f6170afc" category="paragraph">此时将显示编辑 SSD 缓存设置窗口。</block>
+  <block id="618c806cbfb51aea37a97ab6d536e539" category="list-text">选择要编辑的一致性组成员卷，然后单击菜单:省略号图标[Edit Settings]。</block>
+  <block id="c27bcef9266d6193aa15b1852b755f1c" category="paragraph">此时将显示编辑一致性组成员卷窗口。</block>
+  <block id="d8f6f8e34717bf63e1bd9ed2f2ddc9ff" category="paragraph">预留容量已满警报阈值</block>
+  <block id="2413990795535b9bc67d7404dd48e17f" category="paragraph">使用此栏可调整 System Manager 在成员卷的保留容量接近满时发送警报通知的百分比点。</block>
+  <block id="29d5e76ef66c157fe82da660a1582ea9" category="paragraph">此时将显示 Edit Mirrored Pair Volume Reserved Capacity Settings（编辑镜像对卷保留容量设置）窗口。</block>
+  <block id="a7046f61b6228d2deb732732dc5a28b9" category="paragraph">当镜像对的保留容量接近满时，使用条形图调整 System Manager 发送警报通知的百分比点。</block>
+  <block id="3145db22022ba6aa4fe91465892273cf" category="list-text">选择要编辑的快照组，然后单击 menu:ellipsis icon[Edit Settings]。</block>
+  <block id="f1ed08b4ef9c5b2c40c29dd17d5ccfc5" category="paragraph">此时将显示"编辑快照组设置"窗口。</block>
+  <block id="a88e9624f6ab6bc98bb74881980ebdf4" category="paragraph">快照镜像自动删除</block>
+  <block id="397ab67a5a83b41b07a2ef760f264e2e" category="list-text">选择要编辑的快照卷，然后单击菜单：省略号图标[Edit Settings]。</block>
+  <block id="16cf0247a7a5f026784d48cef156b586" category="paragraph">此时将显示 Edit Snapshot Volume Reserved Capacity Settings（编辑快照卷保留容量设置）窗口。</block>
+  <block id="d6e060cc1c8d93bab5debcb392ec9493" category="list-text">选择要编辑的主机群集，然后单击菜单：省略号图标[编辑设置]。</block>
+  <block id="a5d40ca9dd39ddd7179d6cc0eb26bb59" category="paragraph">此时将显示一个窗口，其中显示当前主机群集设置。</block>
+  <block id="b3edb01adab9580e4f427bb97783456f" category="list-text">选择要编辑的主机，然后单击菜单：省略号图标 [Edit Settings]。</block>
+  <block id="cb97c4e101270f501a3fe39206de1247" category="paragraph">此时会出现一个窗口，显示当前的主机设置。</block>
+  <block id="855e8c59018df60867eb88f6e27837e2" category="list-text">单击 *Snapshot Schedules* 选项卡。</block>
+  <block id="9e2e71c32d8a845ce2c41a9d5ba4baef" category="list-text">选择 *Applications and workloads* 选项卡。</block>
+  <block id="665931ba82485e34b894ae04204b7098" category="list-text">选择要更改的工作负载，然后单击 menu:ellipsis icon[Edit Settings]。</block>
+  <block id="806bbb27c84c94ab14c630e05543e3aa" category="paragraph">此时将显示"应用程序和工作负载设置"对话框。</block>
+  <block id="48f976f13f8bade7d03f2cc2f21bdef6" category="admonition">检查卷冗余功能目前仅适用于 Legacy System Manager 界面中的操作。</block>
+  <block id="0839adfef9006b809e4027e9bbca5726" category="list-text">单击要检查的池或卷组的菜单:省略号图标 [Check volume redundancy]。</block>
+  <block id="ccf427737a581286d3f01744ea81bea5" category="list-text">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上没有可用的精简卷。</block>
+  <block id="bb95fb0223dd2b99d19fc82760592747" category="list-text">您还可以从池和卷组页面启动 Consolidate Free Capacity 对话框，如以下任务中所述。</block>
+  <block id="c3610c639e378979b467903180b951ae" category="list-text">单击菜单：省略号图标 [Consolidate volume group free capacity]。</block>
+  <block id="4445afaae77ef0f3a727c00d78cab4ec" category="paragraph">选择菜单：Storage[Operations in Progress] 以查看 Consolidate Free Capacity 操作的进度。此操作可能很长，并可能影响系统性能。</block>
+  <block id="428e00884e444e2eebc6231a66407da8" category="list-text">选择要用作 Copy Volume 操作的源的卷，然后单击菜单：省略号图标[Copy volume]。</block>
+  <block id="dbae42eac126ebabf8b0cb606c219dbd" category="paragraph">此时将显示 Copy Volume 窗口。</block>
+  <block id="815cb21986856fd1b951a97be7f63cdd" category="paragraph">选择菜单：Storage[Operations in Progress] 以查看 Copy Volume 操作的进度。此操作可能很长，并可能影响系统性能。</block>
+  <block id="29ee5d1ebcc033234938a5234f1f2075" category="paragraph">标识符</block>
+  <block id="ba0aa1863f8fd04eddf1b4ecc8f393d2" category="list-text">检测到未分配的容量时，池自动配置建议会显示在通知区域（窗口顶端的铃铛图标）。单击 *View Pool Auto-Configuration* 以启动对话框。</block>
+  <block id="b7e6d7e7e23a0995e9cc1460ee3d8ac7" category="list-text">单击菜单：省略号图标 [Launch pool auto-configuration]。</block>
+  <block id="1c79635e19ea015a49326bc6978f620f" category="list-text">要查看池的其他特征，请单击显示的池名称。</block>
+  <block id="b448cdf3523bbeedf20d87e75ad0d760" category="paragraph">如果所有驱动器都支持 DA，则启用 DA。创建卷后，可以通过选择菜单禁用 DA：存储[卷 &gt; 省略号图标 &gt; 禁用数据保证]。</block>
+  <block id="9bdf666c9eeae6a616e6a1562926439b" category="paragraph">资源调配功能（仅限 EF80、EF50、EF300 和 EF600）</block>
+  <block id="07cf124a9073fa41d159395dff6cae01" category="paragraph">显示资源调配是否可用于此池候选。资源调配是 EF80、EF50、EF300 和 EF600 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。</block>
+  <block id="93100fe9b87b2973a201fc5bf4b10738" category="list-text">从左侧面板中，选择菜单：Storage[Volumes]。选择对象（基本卷或快照一致性组），然后单击菜单：省略号图标[Create instant snapshot]。</block>
+  <block id="659f1264eb7d2cfad5eeec4a95547967" category="list-text">从左侧面板中，选择菜单：Storage[Snapshots]。选择 *Snapshot Images* 选项卡，然后选择菜单：Create[Instant snapshot Image]。</block>
+  <block id="45fd86d1315e7f85eab278667b99a374" category="paragraph">支持资源调配（仅限 EF80、EF50、EF300 和 EF600）</block>
+  <block id="79c0bc4f6740e8aae03182a3841745c7" category="paragraph">显示资源调配是否可用于此组。资源调配是 EF80、EF50、EF300 和 EF600 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。</block>
+  <block id="51fcc2fbff861c409bee1b9bb06462dc" category="paragraph">此时将显示 Create Volumes 页面。</block>
+  <block id="d7d4f72258633d09371d967e66c5bdcb" category="list-text">如果您的工作负载与受支持的应用程序类型相关联，请输入所请求的信息；否则，请转到 <block ref="156988a7318b6f08733ec1dcc95a4e0b" category="inline-xref-macro-rx"></block>。</block>
+  <block id="9c526c585cb917faacd6f17efc4666a2" category="section-title">步骤 3：添加卷</block>
+  <block id="5f5dd64656d4173ea4e76c9dd6c89bad" category="list-text">2,048 卷（EF80、EF600、EF600C 和 E5700 系列）</block>
+  <block id="2b1ebafbb5abb80d832e01a12cd7ed41" category="list-text">1,024 卷（EF50、EF300 和 EF300C）</block>
+  <block id="bdeaaebcb45e187e5cbcf6994a4f2ba1" category="paragraph">资源调配（仅限 EF80、EF50、EF300 和 EF600）</block>
+  <block id="d58bd40c3128e933980a763d9a6bd69f" category="paragraph">仅当驱动器支持此选项时，"Resource provisioned" 旁边才会显示 *Yes*。Resource Provisioning 是 EF80、EF50、EF300 和 EF600 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。</block>
+  <block id="d9c372244f91c2219a6da7fdca1ba635" category="list-text">*特定于应用程序的工作负载* -- 单击 *编辑卷* 以更改、添加或删除选定工作负载的系统推荐卷和特性。</block>
+  <block id="18a16d25948cf55cd15d8a13f2722dfb" category="paragraph">卷块大小（仅限 EF80、EF50、EF300 和 EF600）</block>
+  <block id="6a8f003ddaeef3c1608183caabd9755d" category="paragraph">仅当驱动器支持此选项时，"Resource Provisioned"旁边才会显示 *Yes*。Resource Provisioning 是 EF80、EF50、EF300 和 EF600 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。</block>
+  <block id="d60fced0b1242991c0fcb97f72cbfbaa" category="paragraph">SMcli 可直接通过 SANtricity System Manager 获得。此可下载版本的 SMcli 可在 EF80、EF50、E4000、EF600、EF600C、EF300、EF300C、E5700、EF570、E2800 和 EF280 控制器上使用。要在 SANtricity System Manager 中下载 SMcli，请选择*设置* &gt; *系统*和*附加组件* &gt; *命令行界面*。</block>
+  <block id="123ee1d7a45d785d651ca465f49694b2" category="paragraph">此时将显示 Create Application Workload 页面。</block>
+  <block id="e2be1fa5b5ba197a4176f720839abb74" category="paragraph">容量扩展（添加容量）</block>
+  <block id="bc6940dab103242e662e612e0885da38" category="list-text">选择要降低预留容量的存储对象，然后单击菜单：省略号图标 [Decrease Capacity]。</block>
+  <block id="54e8a5d9c81f48bd8792592ea5c1ec12" category="paragraph">此时将显示减少保留容量页面。</block>
+  <block id="17585358a3fd5777210e47d3bed5c974" category="list-text">选择要删除的主机或主机群集，然后单击菜单：省略号图标 [Delete]。</block>
+  <block id="ba4d372a93f2f7e262a53395d52d0b6a" category="list-text">选择菜单：省略号图标 [Delete] 并确认。</block>
+  <block id="0fb6dd843ca67ad13e8855f53e3f5723" category="list-text">选择要删除的快照组，然后单击菜单：省略号图标 [Delete]。</block>
+  <block id="749f5f4a5fa220b0d7a46e4429a1ff1f" category="list-text">单击 *Snapshots Schedules* 选项卡。</block>
+  <block id="ddf7d45fac447f29c39cd5cefb8ebb76" category="list-text">选择要删除的快照计划，单击 *Delete*，并确认操作。</block>
+  <block id="0ff0e5e2cfabead1dcb15de08ba4d427" category="list-text">选择要删除的卷，然后单击 menu:ellipsis icon[Delete]。</block>
+  <block id="6ec1f8d3e3b03ac51977b6095f7f6569" category="paragraph">资源调配是 EF80、EF50、EF300/EF300C 和 EF600/EF600C 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。分配给卷的所有驱动器块都将被取消分配（未映射），这可以提高 SSD 的磨损寿命并提高最大写入性能。</block>
+  <block id="78d4f7a792a1c8299a6b75826925b689" category="list-text">单击*省略号*图标，然后为选定的池或卷组选择*启用资源调配*或*禁用资源调配*。</block>
+  <block id="01dfbae9620ed03fa1c9ef743474f7d0" category="list-text">选择要启用安全性的池或卷组，然后单击菜单：省略号图标[启用安全性]。</block>
+  <block id="285d27b133b85c947b0b930050c6faa6" category="paragraph">要手动创建池：选择 *Storage*，然后选择 *Pools and volume groups*。从 All Capacity 选项卡中，单击菜单：Create[Pool]。</block>
+  <block id="e5158c851caf18e324b91cfbfb922581" category="paragraph">要手动将驱动器添加到现有池：从池和卷组页面中，选择池，然后单击 *添加容量*。</block>
+  <block id="9b28f499395634e632fb240580a15dda" category="paragraph">您可以从*池和卷组*更改保留容量。选择要编辑的池。单击菜单：省略号图标[Edit Settings]，然后选择 *Settings* 选项卡。</block>
+  <block id="a260b040ca3e86fafb44c05bded781f7" category="paragraph">在添加容量对话框中，并非所有驱动器都可用于向现有池或卷组添加容量。</block>
+  <block id="e64806462766590775334bc89241b9dd" category="list-text">卷组中必须有偶数个驱动器。如果您没有偶数个驱动器，并且还有一些未分配的驱动器，请转到*池和卷组*以向卷组添加其他驱动器，然后重试该操作。</block>
+  <block id="dd060adc863e8d804760c660ebce2dae" category="paragraph">要查看 SSD Cache 统计信息，请从左侧面板中选择菜单：Storage[Pools and volume groups]。选择要查看其统计信息的 SSD Cache，然后单击菜单：省略号图标[View statistics]。标称统计信息显示在 View Statistics 页面上。</block>
+  <block id="c7b3d8a96e28433442fbace8b1d3ee78" category="paragraph">资源调配是 EF80、EF50、EF300 和 EF600 存储阵列中提供的一项功能，它允许卷立即投入使用，而无需后台初始化过程。</block>
+  <block id="bd490319bbf82f1de442f6c1fe287d03" category="paragraph">默认情况下，在驱动器支持 DULBE 的系统上，资源调配处于启用状态。您可以从*池和卷组*禁用该默认设置。</block>
+  <block id="46864e9795213fde02551afe2e2ad28e" category="paragraph">在左侧面板的 Storage 菜单下，单击右上角的 *Operations in Progress* 链接。</block>
+  <block id="8a0af989704eb1e51ef73fa991c6f1f3" category="list-text">您还可以从左侧面板中选择菜单：Storage[Pools and volume groups]，然后选择菜单：省略号图标[Consolidate volume group free capacity] 以启动对话框。</block>
+  <block id="dbd1770fdb165446229db9657706eb9b" category="paragraph">EF80、EF50、EF600/EF600C 和 EF300/EF300C 存储系统不支持精简配置。</block>
+  <block id="2ae93faf328cc19e0ff2c56c74da7f8b" category="section-title">创建工作负载</block>
+  <block id="cf91374fc5ed0a104a4a629b7c85f938" category="paragraph">您必须手动指定何时要创建未与特定应用程序关联的工作负载。您还必须使用添加卷页面手动指定卷配置。</block>
+  <block id="95475fa732fc00f34f70e3dab0f79ed3" category="list-text">您可以选择 Volumes 页面中的 *Applications and workloads* 选项卡，以查看按工作负载和工作负载关联的应用程序类型分组的存储阵列的卷。</block>
+  <block id="427658910676345197b98f2b5e0affd0" category="list-text">您可以选择性能页面中的*应用程序和工作负载*选项卡，以查看逻辑对象的性能指标（延迟、IOPS 和 MB）。对象按应用程序和相关工作负载分组。通过定期收集此性能数据，您可以建立基线测量并分析趋势，这有助于调查与 I/O 性能相关的问题。</block>
+  <block id="f1ed5f676dfd85310667dba1aafa9f9a" category="list-text">选择要增加容量的卷，然后单击 menu:ellipsis icon[Increase Capacity]。</block>
+  <block id="d578940f9a66d2529b5aaab4926e7576" category="paragraph">此时将显示确认增加容量页面。</block>
+  <block id="e807ac311a4b1f7cd3ea0e345ee647b8" category="paragraph">此时将显示"增加报告容量"页面。</block>
+  <block id="3789a6813f98ecca1ee9e4b6e1aaa9d4" category="paragraph">此页面显示卷的当前报告容量和卷的关联池或卷组中的可用容量。</block>
+  <block id="c07b39823791dbe78a978131bc606740" category="list-text">使用*通过添加...增加报告容量*框将容量添加到当前可用报告容量。您可以更改以 mebibytes (MiB)、gibibytes (GiB) 或 tebibytes (TiB) 显示的容量值。</block>
+  <block id="70786e650784c4c3b7ca22a0605fcbbf" category="list-text">选择菜单：Storage[Operations in Progress] 以查看当前为所选卷运行的增加容量操作的进度。此操作可能很长，并可能影响系统性能。</block>
+  <block id="fbff71d66df7702bd94c2ccda66a3949" category="list-text">单击菜单：省略号图标 [Initialize volumes]。</block>
+  <block id="ef6d8ec97705422a4bfeac73fbd406b0" category="paragraph">选择菜单：Storage[Operations in Progress] 以查看当前为所选卷运行的初始化操作的进度。此操作可能很长，并可能影响系统性能。</block>
+  <block id="46497b2d4541438593779d3f6a262619" category="summary">当您需要在现有 I/O 模块上使用不同的协议时，作为 I/O 模块升级的一部分，或者当新存储系统安装或控制器升级中新控制器的默认协议不是您想要的协议时，您可以更改控制器的主机 I/O 模块上的协议。</block>
+  <block id="c03d4e5482a08230326a686f0f5a0e16" category="doc">更改主机 I/O 模块协议</block>
+  <block id="82cad080f04aa6a2f5b09355f1c92238" category="list-text">通过准备、停止主机 I/O 操作、更改协议，然后将主机配置为使用新协议，来更改主机 I/O 模块上的协议。</block>
+  <block id="8f8c2babd694314cdd77d5ad0b67c342" category="list-text">已更改存储系统中所有主机 I/O 模块上的协议。</block>
+  <block id="4c9b71bb189ece048356461b1775be6f" category="list-text">更改主机 I/O 模块上的协议时，将暂时中断主机对所有卷的访问，并在重新启动期间使存储系统不可用，这需要几分钟的时间。</block>
+  <block id="33296abf5a1642af31a4d756f85cb169" category="section-title">步骤 1：为协议变更做好准备</block>
+  <block id="6970ce3288781a5f5f4bb687b7a43bbc" category="paragraph">通过验证当前使用的协议，确定是否需要更改协议，如果需要，则安排停机维护窗口，准备更改主机 I/O 模块上的协议。</block>
+  <block id="dda5c0246946fe4d768f8697be0a5411" category="list-text">如果不知道存储系统中主机 I/O 模块上的当前协议，请使用 SANtricity System Manager 进行验证。</block>
+  <block id="2d25e8226c440048c9e502acef78ce75" category="list-text">选择 *Settings* &gt; *System*。</block>
+  <block id="f4f194a527e25705dac27f3aad9c18bd" category="list-text">在 *其他设置* 部分中，单击 *更改主机 I/O 协议* 以打开该页面。</block>
+  <block id="b285314b6b465f044f782ffdd9cc362d" category="list-text">请参阅 *Host I/O Protocol* 字段中显示的默认协议。</block>
+  <block id="5773f5591c5be0dd5c50653e6d20aec4" category="admonition">如果要查看主机 I/O 模块的可用协议列表，请选择 *Host I/O Protocol* 字段中的下拉菜单。协议列表基于当前安装的主机 I/O 模块。</block>
+  <block id="f62d068f7839c83973a946e971309862" category="list-text">下一步取决于默认协议是否是您想要的协议：</block>
+  <block id="bfa9de45095a3a90ebc55708a5ee6dd2" category="cell">条件</block>
+  <block id="c1325f6903ebb5ebb2bb519a73ddb1b0" category="cell">操作</block>
+  <block id="b8ed3149efb59c6c876d3d0175d04ca1" category="paragraph">默认协议是您想要的协议</block>
+  <block id="6254f83a536e9be53589a1db4776caa3" category="paragraph">无需采取操作。您可以退出此过程。</block>
+  <block id="d5dfda2c054ffb702ffa51688eadd327" category="paragraph">默认协议不是您想要的协议</block>
+  <block id="fe6e8d93cf140aed40cb0c118024a679" category="paragraph">继续此过程以更改协议。</block>
+  <block id="e4f1442149d9233a2ae070b8b54c13ce" category="list-text">请为此过程安排一个停机维护窗口。</block>
+  <block id="41d72c8d647ea7b0a9aad9c594d3c098" category="section-title">步骤 2：停止主机 I/O 操作</block>
+  <block id="d87d058614a637dca18e8276b72b4d60" category="paragraph">更改协议之前，必须停止主机的所有 I/O 操作，然后从存储系统中删除所有定义的主机。</block>
+  <block id="8323bec76d3c20c5ff905fad50e89c4f" category="admonition">在成功完成协议更改之前，您无法访问存储系统上的数据。</block>
+  <block id="6ba03a3402729fd11feb88e957747228" category="list-text">确保存储系统与所有连接的主机之间没有发生 I/O 操作。例如，您可以执行以下步骤：</block>
+  <block id="f9943d982cd75f6490bd2f11438ad8f7" category="list-text">停止所有涉及从存储映射到主机的 LUN 的进程。</block>
+  <block id="7935806fe956907ab29c6f04dda2305c" category="list-text">请确保没有应用程序将数据写入从存储映射到主机的任何 LUN。</block>
+  <block id="8cd14a522d01d11d4df48615a78c1777" category="list-text">卸载与存储系统上的卷关联的所有文件系统。</block>
+  <block id="8c966853804ddd0c8a58685b53b824cc" category="admonition">停止主机 I/O 操作的确切步骤取决于主机操作系统和配置，这超出了本说明的范围。如果您不确定如何停止环境中的主机 I/O 操作，请考虑关闭主机或联系<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>。</block>
+  <block id="09b7966207ed47804cd153c702504e26" category="admonition">*可能的数据丢失* -- 如果在 I/O 操作发生时继续此过程，则可能会丢失数据。</block>
+  <block id="fa28d38e7ea04d9e1f9f826bf1c468a2" category="list-text">在每个控制器上，确保 NV Caching Active（绿色）LED 熄灭。</block>
+  <block id="1e73b048adbb2b88c1979ef16f8dbb06" category="paragraph">当 NV 缓存活动（绿色）LED 熄灭时，缓存内存中的任何数据都已写入驱动器，可以安全地继续此过程。</block>
+  <block id="1e20d67488b878e63809f430aa2d8f11" category="admonition">如果 NV Caching Active（绿色）LED 指示灯亮起，则缓存数据正在写入驱动器。您必须等待过程完成，并且 NV Caching Active（绿色）LED 指示灯关闭。但是，如果 LED 指示灯持续亮起超过五分钟，请<block ref="eb2c61027d5e6c8b35692c1e74187026" category="inline-link-rx"></block>，然后再继续此过程。</block>
+  <block id="277a5437b393a9dae2e1f36dc8c357c0" category="paragraph">NV 缓存活动（绿色）LED 位于控制器上的 NV 图标旁边。</block>
+  <block id="7d4f1018779bf26ae6ea9c3314b4748f" category="image-alt">NV 状态 LED 位置</block>
+  <block id="eff9a2b0e485ca3fb80f96fc9995fb62" category="image-alt">标注编号 1</block>
+  <block id="e8ed7b11484014d720b422ee782eba78" category="paragraph">控制器上的 NV 图标和 NV 缓存活动指示灯</block>
+  <block id="2cc0ecee1b51ebde25612c3f89f70dd5" category="list-text">确认控制器上的操作已在 SANtricity System Manager 中完成：</block>
+  <block id="62d71459ec4565a064b31e7101748457" category="list-text">选择 *Storage* &gt; *Operations in progress* 以查看概览屏幕。</block>
+  <block id="2f3292d0ca451b4603badba163d7d565" category="list-text">等待所有操作完成，概览屏幕显示 *当前没有正在进行的操作*，然后继续下一步。</block>
+  <block id="023e6709c3cc6f7e022c1f737b9ecf13" category="list-text">从存储系统中删除所有定义的主机。</block>
+  <block id="ca767bc605424f30ad6e8c3c9b55c330" category="inline-link">删除主机或主机集群</block>
+  <block id="6f57879172779bee797189005b2f78f8" category="paragraph">有关删除主机的详细信息，请参见 <block ref="e48f9b8e540f5b077717f737d67f3938" category="inline-link-rx"></block>。</block>
+  <block id="0c5fc7de27442b2cafd032bc7294a088" category="section-title">步骤 3：更改协议</block>
+  <block id="f281568467abf1639273a9b57450f6c3" category="paragraph">使用 SANtricity System Manager 更改主机 I/O 模块上的协议，等待控制器完成其重新启动周期，确认其状态为 Optimal，然后重新创建主机定义。</block>
+  <block id="d48176ad8c4882f0a0b0aa0d355e3946" category="list-text">在 *Host I/O Protocol* 字段中，单击下拉菜单并选择要使用的协议。</block>
+  <block id="40e7a3d3edaa4c623f15403e6676b491" category="paragraph">协议列表基于当前安装的主机 I/O 模块。</block>
+  <block id="30cc9a1d254ab83b67c3f083c4ef6631" category="list-text">在打开的字段中键入 *CHANGE* 以确认更改。</block>
+  <block id="c7f108d72b11a69d9f9b213b4fcf08f3" category="list-text">选择 *Change* 按钮。</block>
+  <block id="dc42b5d491fc6401762c79419b8c1d71" category="list-text">等待控制器完成重新启动周期。</block>
+  <block id="03404525cd31ebe332bcd916a32408fe" category="paragraph">此过程可能需要大约五分钟时间。</block>
+  <block id="2e56f614153bec38bd8729d49c8a4aca" category="list-text">当控制器恢复联机时，请使用 SANtricity System Manager 确认其状态为最佳。</block>
+  <block id="c86f60fc7fcc7f12bacc87413a01f8ea" category="list-text">重新创建主机定义。</block>
+  <block id="6d5737dafad067ead210b32885226f31" category="inline-link">创建主机或主机集群</block>
+  <block id="d6c2e1393ed197984969e205ec7d9754" category="paragraph">有关创建主机的详细信息，请参见 <block ref="6927ac4a58379ac9db7467fda38c5183" category="inline-link-rx"></block> 过程。</block>
+  <block id="9b2d6660ebdf1089f3521ca4c1853164" category="section-title">步骤 4：配置主机以使用新协议</block>
+  <block id="f40b8cf4f20aead3a3cfe1f3f0e899ab" category="paragraph">更改主机端口的协议后，必须将主机配置为使用新协议。</block>
+  <block id="1fc86e94ed7b025b1b598bb2f43d1407" category="list-text">有关分步说明，请参见适用于您的存储系统的指南：</block>
+  <block id="27445b090b7ae507ff16ac0fcfc060e3" category="list-text"><block ref="27445b090b7ae507ff16ac0fcfc060e3" category="inline-link-macro-rx"></block></block>
+  <block id="265a3b277db29d35659670ba81701d0a" category="list-text"><block ref="265a3b277db29d35659670ba81701d0a" category="inline-link-macro-rx"></block></block>
+  <block id="7568d84867982b084c548e436f75dcd3" category="list-text"><block ref="7568d84867982b084c548e436f75dcd3" category="inline-link-macro-rx"></block></block>
+  <block id="df2839c02c12ce7fb5ee89d23d2cc262" category="paragraph">具体设置可能有所不同。有关解决方案的具体说明和其他建议设置，请参阅<block ref="ae69c67e09c854d61b64be1ef166878d" category="inline-link-rx"></block>。</block>
+  <block id="eab2b5c419b35644f8db78874ca0c045" category="paragraph">您可以允许 System Manager 在检测到存储阵列中的未分配容量时自动创建池。或者，当自动创建无法确定最佳配置时，您可以从菜单：Storage[Pools and volume groups] 手动创建池。</block>
+  <block id="6ba77f303a435cfbcca861db76e7b233" category="paragraph">您可以从菜单：Storage[Pools and volume groups] 创建卷组。</block>
+  <block id="2fd5be0aa6a93fa426178d136a51a606" category="list-text">单击菜单：省略号图标 [Redistribute volumes]。</block>
+  <block id="0a0587e492bf91d12979b92421109b26" category="list-text">选择池或 SSD Cache，然后单击菜单：省略号图标[Remove capacity]。</block>
+  <block id="ba65139f59e4327fc1c3940e24628869" category="paragraph">您可以从池和卷组页面查看快照组。</block>
+  <block id="d660329ef08a947ac0dcacafb0e88ba8" category="paragraph">您还可以通过菜单查看正在进行的操作：Storage[Operations in Progress]。</block>
+  <block id="6fb2220631cc8d45139dc44645ef80d5" category="paragraph">选择 *Snapshot schedules* 选项卡，然后单击 *Create*。</block>
+  <block id="85b8eec85bdfe4bc4dc90ac15c5f219a" category="paragraph">如果包含所选存储对象的池或卷组上不存在可用容量，且存储阵列具有未分配容量，则可以添加容量。您可以创建新的池或卷组，然后使用该池或卷组上的新可用容量重试此操作。</block>
+  <block id="78b0df070c6ea4ecf7970d5e38d668b7" category="paragraph">选择菜单：Storage[Operations in Progress] 以查看回滚操作的进度。</block>
+  <block id="fd80fd8e1052bed97b0bfe61d8f1f3eb" category="paragraph">如果包含所选存储对象的池或卷组上不存在可用容量，且存储阵列具有未分配容量，则可以添加容量。您可以创建新的池或卷组，并使用该池或卷组上的新可用容量重试此操作。</block>
+  <block id="26b1d0fff3f76b18d892cae7189e1d48" category="list-text">选择要查找的池、卷组或 SSD Cache，然后单击菜单：省略号图标[打开定位器指示灯]。</block>
+  <block id="54b0914d7277874ccba08c2f0982e40a" category="list-text">选择要编辑的主机或主机群集，然后单击菜单：省略号图标[取消分配卷]。</block>
+  <block id="57879afd98c79ce259125c4ce237de44" category="list-text">*Applications and workloads View* -- 显示按已定义的应用程序类型和工作负载分组的逻辑对象（卷）列表。</block>
+  <block id="52ec3a4fe51a5ea772cee2ecc2c7bb0a" category="list-text">选择 *Logical View* 选项卡、*Physical View* 选项卡或 *Applications and workloads View* 选项卡。</block>
+  <block id="2d78d285d268aec7e84b7228e37e169a" category="paragraph">应用程序和工作负载视图</block>
+  <block id="9415f4231725ae1029831bddfc847283" category="list-text">选择要查看其统计信息的 SSD Cache，然后单击菜单：省略号图标[View statistics]。</block>
+  <block id="d4e68cef5ba938bc62b62cc203f15e4e" category="list-text">从左侧面板中，选择菜单：Support[Upgrade Center]。</block>
+  <block id="7d0966ba8eace8ffaa46a43eb5caf60f" category="list-text">从左侧面板中，选择菜单：Support[Support Center &gt; Diagnostics] 选项卡。</block>
+  <block id="f3d86e0a0ab53ff92fd7fe855aa7455f" category="list-text">在左侧面板中，选择菜单：Support[Support Center &gt; AutoSupport] 选项卡。</block>
+  <block id="65855161982c3e6064d4126321631754" category="summary">使用 Script 编辑器创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。</block>
+  <block id="286df7907589603c59edb63682f9667f" category="doc">使用脚本编辑器</block>
+  <block id="787b189c9aa2a8d06969b4eed3b50187" category="paragraph">脚本编辑器与存储阵列通信，以启用脚本语法检查和命令执行。键入到脚本编辑器中的脚本命令通常在存储阵列上运行。</block>
+  <block id="516fab9f4dbf4646911f17b48642be9a" category="paragraph">脚本编辑器在窗口中提供两个视图：</block>
+  <block id="f15c02c42d186760efd6295d63804b0e" category="list-text">编辑器窗格 – 提供用于输入或编辑脚本命令的区域。</block>
+  <block id="39fd545c6d4caa6293039415afc06c37" category="list-text">输出窗格 – 显示验证或执行结果。拆分栏在编辑器窗格和输出窗格之间划分窗口。</block>
+  <block id="a919d2e867828489c2af6361d1c08279" category="list-text">脚本编辑器不支持需要输入文件的命令，例如控制器固件、NVSRAM 或驱动器固件升级。</block>
+  <block id="65b47d934f3f0336f46badbfae2d5214" category="list-text">脚本编辑器支持生成输出文件的命令。</block>
+  <block id="9007ea601b345e19b4d742ae0d4f9efe" category="list-text">有一些命令需要在客户端执行（客户端命令）。</block>
+  <block id="0ddb050be139777062921a9baff7e46b" category="list-text">此版本唯一支持的客户端命令是 <block ref="3e1f19b408d393b2c639633e2a65f432" prefix=" " category="inline-code"></block> 和 <block ref="34460f593d94784bf475a1b5fdd673b3" prefix=" " category="inline-code"></block>。</block>
+  <block id="58dea768b39a18f2000a2f3c6dabc5bc" category="list-text">如果尝试运行任何其他客户端命令，脚本编辑器会生成错误。</block>
+  <block id="67ba93071ee5b230844d56ad33ea16d4" category="section-title">打开脚本编辑器</block>
+  <block id="b171c15f49c91db2eb8056d496498a0b" category="list-text">从左侧面板中，选择菜单：Support[Script editor]。</block>
+  <block id="32a5d2b12a34e0452a8e67a700b78803" category="paragraph">下表列出了脚本编辑器中可用的文件选项：</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">任务</block>
+  <block id="b61801ff3a4444f5ac49b155b1d34868" category="paragraph">打开新脚本</block>
+  <block id="2d5e9e28d176ebd676a26b6febc73a8c" category="list-text">单击 *Load script file* 将现有脚本文件上传到 Script editor。</block>
+  <block id="ffabbea111a4549a4c19876938f64985" category="paragraph">脚本编辑器在编辑器窗格中打开选定的脚本文件。</block>
+  <block id="8b4e961a236c1cba04ee21dcb0e03086" category="paragraph">验证脚本命令语法</block>
+  <block id="07a23ca3c7bb6288f50e1e3797c703df" category="list-text">单击 *Syntax check* 以验证编辑器窗格中当前脚本的语法。</block>
+  <block id="c564c2c5e30fe85043a73aab51b2ccc9" category="paragraph">Script 编辑器一次一行地解析脚本文件中的语句，并验证它们的语法是否正确。任何语法错误都会出现在输出窗格中，该窗格会报告错误的行号和错误说明。</block>
+  <block id="eb37d45afd0223178e3ad6ad77216e90" category="paragraph">如果脚本编辑器遇到语法错误，则不会对脚本执行进一步的语法验证。</block>
+  <block id="6b8fa5e9a17c47725b4d7e6c4cdc6481" category="paragraph">修复任何语法错误，然后重新运行 *Syntax Check* 以验证错误更正并检查脚本中的其余语句。</block>
+  <block id="d8a193c50b518b20a76e664b89e9245c" category="paragraph">执行脚本</block>
+  <block id="de98e850fbbebc3fbd7553e2c8f1ecc1" category="list-text">单击 *Execute Script* 在编辑器窗格中运行当前脚本。</block>
+  <block id="ec96442a6c4d30bef6d16ac5c385c204" category="paragraph">脚本编辑器启动语法检查操作，然后对输入文件中的每个脚本命令，在存储阵列控制器上运行命令执行。</block>
+  <block id="129743acfe1d96b4f599a621c2cb5a0e" category="paragraph">如果 Script 编辑器遇到语法错误，则会停止执行并显示错误消息。</block>
+  <block id="8a05b9ecd13dae8a7df45c5929b1953e" category="paragraph">修复错误，然后重新运行 *Syntax check* 以验证错误更正。</block>
+  <block id="4f287d4e115c66e67d3f5e672e9c27ee" category="admonition">如果发生执行错误，脚本可能无法继续执行，具体取决于包含的<block ref="5b7bbd785dbf30930b83c7b8f30efe91" prefix=" " category="inline-code"></block>脚本语句。<block ref="c34fdd7543fb33099b4b0cb537a56260" prefix=" " category="inline-code"></block>语句在遇到执行错误时会停止脚本。<block ref="fc737c95bd4054e9bb3d0f5285e72826" prefix=" " category="inline-code"></block>语句允许脚本在遇到执行错误后继续运行。此语句是默认设置。</block>
+  <block id="8bbc685fb9669049fb8f636542c532c3" category="paragraph">编辑现有脚本</block>
+  <block id="bfbb303e62d4c778c94698a1eb220e9c" category="list-text">在编辑器窗格中，对脚本进行任何必要的更改。</block>
+  <block id="6b3c02731158393217eddcc5880a5089" category="paragraph">将脚本保存到本地文件</block>
+  <block id="9e1b80d34d8d7b959986407a46e43e2b" category="list-text">单击 *Save script file* 将脚本窗格中的更改下载为新的脚本文件。</block>
+  <block id="8e41bb8f766569a0eaf7d26a4dd01d4a" category="paragraph">清除 Script editor 编辑器窗格中的文本</block>
+  <block id="61c79bf1a224d673405526b103b1f1d5" category="list-text">单击 *Clear editor* 可清除编辑器窗格中的文本。</block>
+  <block id="5abae7565630c1d3c00d6b3a78097c6f" category="paragraph">将输出结果保存到本地文件</block>
+  <block id="14a6a257bd753cc4a4ef65e5b3095d15" category="list-text">单击 *Save results* 将输出窗格的内容下载为新文件。</block>
+  <block id="2d2dcd551a8f1d5a06c332c6d176eca2" category="section-title">在脚本编辑器中编写脚本</block>
+  <block id="d5209b9df9e494aaf848896a02ee730e" category="paragraph">使用脚本编辑器编写脚本命令时，请确保遵循以下准则： * 以分号 (;) 结束所有语句。* 用空格分隔每个基本命令及其相关的主参数和辅助参数。* 在脚本编辑器中输入参数时，不区分大小写。* 将每个语句放在单独的一行。* 向脚本添加注释，以便您和未来的用户更容易理解命令语句的目的。</block>
+  <block id="d419c97c9c45c130d0a9ccbfd0e0748e" category="list-text">用字符<block ref="523048e7f5ca9550505f2d8ea6d587e7" prefix=" " category="inline-code"></block>和<block ref="c4c9bdd47ee05028cb84873da0ebf2b5" prefix=" " category="inline-code"></block>包围多行注释。</block>
+  <block id="0f76a12fec0f743f7a58977f476c82dc" category="paragraph">如果脚本引擎未找到开始注释符号和结束注释符号，则会出现错误消息，脚本执行将终止。</block>
+  <block id="d780e93cbc3c7f9064246ddc6d61d4f2" category="list-text">以两个正斜杠 <block ref="7bc0ee636b3b83484fc3b9348863bd22" prefix="(" category="inline-code"></block> 开始单行注释，并以行尾字符结尾，您可以按 *Enter* 插入行尾字符。</block>
+  <block id="69b6eefb8dd80ce8b885d93d18109ec9" category="paragraph">如果脚本引擎在处理注释后未在脚本中找到行尾字符，则会显示错误消息，并终止脚本执行。</block>
+  <block id="efc2eda056811734a231622ba8fa7a38" category="paragraph">当注释放置在脚本末尾，而您忘记按 *Enter* 时，通常会出现此错误。</block>
+  <block id="ebe26851cadb39c6b4c7c1631dfe4fc5" category="list-text">使用 <block ref="a7dd12b1dab17d25467b0b0a4c8d4a92" prefix=" " category="inline-code"></block> 语句将注释嵌入脚本中，这些注释将在脚本执行期间显示在编辑器窗格中。</block>
+  <block id="b9013d4d9061d6613a11bbb01e04719a" category="paragraph">该<block ref="a7dd12b1dab17d25467b0b0a4c8d4a92" prefix=" " category="inline-code"></block>语句对于调试脚本非常有用。</block>
+  <block id="147183bc49feb1943d2d15f9d2f3777f" category="paragraph">在脚本中包含<block ref="d989c6563d24f0483bc377ee90e17dea" prefix=" " category="inline-code"></block>语句会导致在脚本执行期间处理此行时输出窗格中出现以下行：</block>
+  <block id="0443fa122589c88de438318d1406f795" category="section-title">解读脚本执行结果</block>
+  <block id="bda75ea56c8edc22077b300000ecaf3d" category="paragraph">在脚本执行期间，消息出现在输出窗格中，开头为：</block>
+  <block id="d2cc03f2ac574f381894b9886acd83c8" category="paragraph">如果在解析阶段发生错误，则该错误将显示在输出窗格中，该窗格提供行号和列号以及语法错误的描述。以下是语法错误消息的示例。</block>
+  <block id="892983be91ef863e83038423052aa31e" category="paragraph">如果在脚本中键入以下语句：</block>
+  <block id="31a16bcd02fab1b01c73c83412628d0a" category="paragraph"><block ref="038a8af5b5fd462c253dbb5bed25614e" prefix="" category="inline-code"></block></block>
+  <block id="471e1e3076cdb400e6ccfc6750e370d5" category="paragraph">输出窗格显示生成的语法错误，如下所示：</block>
+  <block id="06e4c1c99bf541aae56700974ff8284d" category="paragraph">如果在脚本执行过程中发生错误，输出窗格中会显示一条消息，指出命令失败并报告错误说明。</block>
+  <block id="41eb1f4ec397a2e6b98ec7d720f21984" category="paragraph">例如，如果在脚本中键入以下语句：</block>
+  <block id="108ddab8f8ebd40286af56b225d691cb" category="paragraph"><block ref="b6a0c35c9bc93d0da2f36e6723931366" prefix="" category="inline-code"></block></block>
+  <block id="1b6db931b3901060f9bce4c85c4a34cc" category="paragraph">由此产生的错误出现在以下输出窗格中。此命令无法发送到存储阵列，因为它处于无响应状态。</block>
+  <block id="4bd6b0da16174697589aad42880c9338" category="admonition">某些执行错误，包括无法与存储阵列通信，总是会导致脚本执行停止。在这些情况下，即使使用 <block ref="6a81d15ce4f19001b944098a1cf27c05" prefix=" " category="inline-code"></block> 语句，执行也会停止。</block>
+  <block id="09444e28574d4688dfa88a3173185f23" category="paragraph">执行脚本后，请查看输出窗格以检查成功或错误。</block>
+  <block id="8bcec6e46e2d844f4829d251f1092c83" category="list-text">从左侧面板中，选择菜单：Support[Event Log]。</block>
+  <block id="719f2c102c6d146726a0baef68f0a75d" category="list-text">在左侧面板中，选择菜单：Support[Support Center &gt; Support Resources] 选项卡。</block>
+  <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="summary">SANtricity Unified Manager 8</block>
+  <block id="b7daa67e940ded0a69f505694ca9bdcb" category="paragraph">发现网络中的存储阵列，为阵列启动 SANtricity System Manager，将设置从一个阵列导入到多个阵列，并管理阵列组。选中阵列名称旁边的复选框以对其执行操作，例如导入设置和创建阵列组。每行末尾的省略号为单个阵列的操作（例如重命名）提供了一个内联菜单。</block>
+  <block id="f95817b2bc0b41d0e6a92b658b3204e4" category="list-text">从页面中选择一个证书，然后单击该行末尾的省略号。</block>
+  <block id="2bcb50ee17148fb9fd0603f1ac802486" category="list-text">要查看有关证书的更多信息，请选择其行，选择该行末尾的省略号，然后单击 *View* 或 *Export*。</block>
+  <block id="bd5dc549b764ca29e91714da72974e6f" category="paragraph">转到 System Manager 和菜单：Storage[Operations in Progress] 查看同步镜像操作的进度。此操作可能很长，并可能影响系统性能。</block>
+  <block id="a38f5bfcee7336b9a7ce75e9a3621547" category="list-text">必须使用 System Manager 的访问管理页面设置存储阵列密码。</block>
+  <block id="0c577323ad91a9214ccf927630b8f24e" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像。</block>
+  <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">运行状况检查完成后，您可以单击每行右侧的省略号 (...) 查看更多信息并执行其他任务。</block>
+  <block id="b3e39c045e7dc1da6b72058620f83a78" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储阵列上不提供同步镜像。</block>
+  <block id="a1a85e20a47be8d7fe53c0f34789b4c7" category="doc">SANtricity OS 12.0 中的新增功能</block>
+  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">下表介绍了 SANtricity System Manager 12.0 中的新功能。</block>
+  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">版本 12.0 中的新增功能</block>
+  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以获取以前版本中的新功能列表。</block>
+  <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">新存储系统型号 – EF80 和 EF50 全闪存存储系统</block>
+  <block id="5c6dee44700e6c5c47a1e1f079ae7fce" category="paragraph">此版本引入了 EF80 和 EF50 全 NVMe 闪存存储系统。EF80 和 EF50 每个控制器支持 24 个 NVME SSD 驱动器和一个主机接口卡 (HIC)。支持的 NVMe over Fabrics 主机接口包括 NVMe over RoCE、NVMe over IB for EF80 和 NVMe over FC for EF50。支持的 SCSI 接口包括光纤通道。</block>
+  <block id="6f8772ffc1694efdc2041680c31dc990" category="paragraph">EF80 和 EF30 也支持 30TB 或 60TB 大小的大容量 NVMe SSD 驱动器。EF80 和 EF30 仅兼容动态磁盘池使用，不支持传统 RAID。</block>
+  <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager 的新用户界面</block>
+  <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">对于新的 EF80 和 EF50 控制器，SANtricity System Manager 用户界面经过重新设计，以提供更现代的外观和感觉。新界面包括左侧面板导航和增强的可用性，以简化管理任务。</block>
+  <block id="522e7d53ef8c9a652990f42224faa7e2" category="admonition">新的用户界面目前仅适用于带有 SANtricity 12.0 版本的 EF80 和 EF50 存储系统。如果使用的是 SANtricity 11.9 或更早版本，请参阅 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block> 使用旧版用户界面的说明。</block>
+  <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">服务器证书的使用者备用名称 (SAN) 现在仅允许字母、数字和连字符</block>
+  <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">在 SANtricity System Manager 或 Unified Manager 中创建或编辑服务器证书时，使用者备用名称 (SAN) 字段现在只允许使用字母、数字和连字符。此更改可增强安全性，并确保与 SSL/TLS 证书的行业标准兼容。</block>
+  <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">对于基于 SSD 和 NVMe 的系统，动态磁盘池段大小现在默认为 32K</block>
+  <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">对于基于 SSD 和 NVMe 的系统上的动态磁盘池，默认数据段大小已更改为 32K。以前，这些系统的动态磁盘池默认段大小固定为 128K。此更改可优化涉及小型和大型 I/O 操作混合的工作负载的性能。</block>
+  <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">现在可在 SANtricity System Manager 中使用脚本编辑器</block>
+  <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager 中现在提供了新的脚本编辑器。脚本编辑器允许您创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。脚本编辑器提供用于管理存储系统的语法检查和命令执行功能。有关详细信息，请参见 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>。</block>
+  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 软件 12.0 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。</block>
+  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 软件 12.0 文档</block>
+  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">使用 SANtricity System Manager 12.0 进行单阵列管理</block>
+  <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">使用 SANtricity Unified Manager 8 进行多阵列管理</block>
+  <block id="2352bcb087671319b99c6ee8bf6be16b" category="sidebar">SANtricity 软件 12.0 文档</block>
+  <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">使用脚本编辑器</block>
 </blocks>

@@ -32,7 +32,7 @@ AutoSupport功能支持使用HTTPS和SMTP协议向技术支持发送派单。
 
 ====
 .步骤
-. 选择菜单：Support[支持中心> AutoSupport ]选项卡。
+. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
 . 选择 * 配置 AutoSupport 交付方法 * 。
 +
 此时将显示一个对话框、其中列出了派单交付方法。

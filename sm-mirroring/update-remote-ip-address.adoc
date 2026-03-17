@@ -18,7 +18,7 @@ summary: 您可以更新远程存储阵列的iSCSI IP地址、以重新与本地
 必须使用iSCSI连接为本地存储阵列和远程存储阵列配置异步镜像。
 
 .步骤
-. 选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
 . 选择*镜像一致性组*选项卡。
 +
 镜像一致性组表显示与存储阵列关联的所有镜像一致性组。
