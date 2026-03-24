@@ -905,7 +905,6 @@
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">什么是池的优化容量？</block>
   <block id="672f98d79305b073b8d6566d14c8bc16" category="paragraph">对于与池关联的驱动器、未分配的容量包括池的保留容量、可用容量(卷未使用的容量)以及作为额外优化容量而预留的部分可用容量。额外的优化容量可通过减少可用容量来确保最低的优化容量级别、因此不可用于创建卷。</block>
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">创建池时、系统会生成一个建议的优化容量、以便在性能、驱动器使用寿命和可用容量之间实现平衡。"池设置"对话框中的"其他优化容量"滑块可用于调整池的优化容量。调整滑块可以提高性能和驱动器磨损寿命、而不会影响可用容量、也不会影响性能和驱动器磨损寿命。</block>
-  <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">附加优化容量滑块仅适用于EF600和EF300存储系统。</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">您可以删除驱动器以减少现有池或SSD缓存的容量。</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">删除驱动器后、池或SSD缓存中每个卷中的数据将重新分配给其余驱动器。已删除的驱动器将变为未分配、其容量将成为存储阵列总可用容量的一部分。</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">删除容量时、请遵循以下准则：</block>
@@ -9105,4 +9104,5 @@
   <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 软件 12.00 文档</block>
   <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">使用 SANtricity System Manager 12.00 进行单阵列管理</block>
   <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 软件 12.00 文档</block>
+  <block id="578bcdf9f5107955b69cf51095e173c5" category="paragraph">附加优化容量滑块仅适用于 EF80、EF50、EF600 和 EF300 存储系统。</block>
 </blocks>
