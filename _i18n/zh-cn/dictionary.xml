@@ -9096,13 +9096,15 @@
   <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
   <block id="dcf1521fe2188852a3d1ae5493b83c24" category="doc">SANtricity System Manager 12.00</block>
   <block id="b9e4ac9c6566befa2eace1a2f5e1c0e9" category="doc">SANtricity OS 12.00 中的新增功能</block>
-  <block id="ae8ef432f09f0cc2743b6f647e8b7391" category="paragraph">下表介绍了 SANtricity System Manager 12.00 中的新功能。</block>
-  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">版本 12.00 中的新增功能</block>
-  <block id="22df7e56856f8d8f8a1db64219f4f7a9" category="admonition">SANtricity OS 12.00 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以获取以前版本中的新功能列表。</block>
   <block id="34eb0a9cd2b702531a67dae4540bdd52" category="admonition">新的用户界面目前仅适用于带有 SANtricity 12.00 版本的 EF80 和 EF50 存储系统。如果使用的是 SANtricity 11.9 或更早版本，请参阅 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block> 使用旧版用户界面的说明。</block>
-  <block id="579aadc4c26cc865ba493de4c39a2dbf" category="sidebar">SANtricity 软件 12.00 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。</block>
-  <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 软件 12.00 文档</block>
-  <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">使用 SANtricity System Manager 12.00 进行单阵列管理</block>
   <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 软件 12.00 文档</block>
   <block id="578bcdf9f5107955b69cf51095e173c5" category="paragraph">附加优化容量滑块仅适用于 EF80、EF50、EF600 和 EF300 存储系统。</block>
+  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">下表介绍了 SANtricity System Manager 12.0 中的新功能。</block>
+  <block id="0766a0860283ed4bfb84c83d84f27eb7" category="section-title">版本 12.0R1 中的新增功能</block>
+  <block id="5daddfd6f05e5067c7a89f1710325e32" category="paragraph">此版本仅包含小的更改，没有新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 12.0R1 README。</block>
+  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">版本 12.0 中的新增功能</block>
+  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0 版本仅与新的 EF80 和 EF50 全闪存存储系统兼容。如果使用的是 SANtricity OS 11.9 或更早版本，请参阅 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以获取以前版本中的新功能列表。</block>
+  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 软件 12.0 可让您实现 E 系列混合闪存和 EF 系列全闪存阵列的最大性能和利用率，以用于繁重的工作负载应用，包括数据分析、视频监控以及备份和恢复。</block>
+  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 软件 12.0 文档</block>
+  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">使用 SANtricity System Manager 12.0 进行单阵列管理</block>
 </blocks>
