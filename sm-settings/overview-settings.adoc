@@ -21,7 +21,7 @@ summary: 您可以为System Manager配置一些常规阵列设置和附加功能
 阵列设置包括：
 
 * link:cache-settings-and-performance.html["缓存设置和性能"]
-* link:automatic-load-balancing-overview.html"["自动负载平衡"]
+* link:automatic-load-balancing-overview.html["自动负载平衡"]
 * link:how-add-on-features-work.html["附加功能"]
 * link:overview-drive-security.html["驱动器安全性"]
 
