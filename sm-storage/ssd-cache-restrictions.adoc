@@ -15,6 +15,7 @@ summary: 了解在存储阵列上使用SSD缓存时的限制。
 
 
 
+[[restrictions]]
 == 限制
 
 * 分配给使用控制器SSD缓存的任何卷均不符合自动负载平衡传输的条件。
@@ -27,6 +28,7 @@ summary: 了解在存储阵列上使用SSD缓存时的限制。
 
 
 
+[[restrictions-with-drive-security]]
 == 驱动器安全限制
 
 * 只有在创建SSD缓存时、才能在SSD缓存上启用安全性。您稍后无法像在卷上那样启用安全性。

@@ -15,6 +15,7 @@ summary: '您可以使用System Manager创建证书签名请求(Certificate Sign
 
 
 
+[[what-are-certificates]]
 == 什么是证书？
 
 _Certificates_是数字文件、用于标识网站和服务器等联机实体、以便在互联网上进行安全通信。证书有两种类型：_signed certificate"由证书颁发机构(CA)验证；_self-signed certificate"由实体所有者(而不是第三方)验证。
@@ -27,6 +28,7 @@ _Certificates_是数字文件、用于标识网站和服务器等联机实体、
 
 
 
+[[how-do-i-configure-signed-certificates]]
 == 如何配置签名证书？
 
 您可以从System Manager生成签名请求、也可以使用私钥和公共密钥对从外部生成签名请求。签名请求将发送到CA以生成证书文件。CA返回证书文件后、您可以使用System Manager导入这些文件。
@@ -39,6 +41,7 @@ _Certificates_是数字文件、用于标识网站和服务器等联机实体、
 
 
 
+[[related-information]]
 == 相关信息
 
 详细了解与证书相关的任务：

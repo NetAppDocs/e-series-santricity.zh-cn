@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-do-i-need-to-know-before-creating-a-mirror-consistency-group]]
 == 在创建镜像一致性组之前、我需要了解哪些信息？
 
 在创建镜像一致性组之前、请遵循以下准则。
@@ -44,6 +45,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像
 ====
 
 
+[[what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 在创建镜像对之前、我需要了解哪些信息？
 
 创建镜像对之前、请遵循以下准则。
@@ -65,6 +67,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像
 ====
 
 
+[[why-would-i-change-this-percentage]]
 == 为什么要更改此百分比？
 
 对于异步镜像操作、预留容量通常为基础卷的20%。通常、此容量足以满足要求。
@@ -77,6 +80,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像
 
 
 
+[[why-do-i-see-more-than-one-reserved-capacity-candidate]]
 == 为什么我会看到多个预留容量候选项？
 
 如果一个池或卷组中有多个卷满足您为存储对象选择的容量百分比量、则您将看到多个候选卷。
@@ -85,6 +89,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像
 
 
 
+[[why-dont-i-see-all-my-volumes]]
 == 为什么我看不到我的所有卷？
 
 为镜像对选择主卷时、列表将显示所有符合条件的卷。
@@ -102,6 +107,7 @@ NOTE: 对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必�
 
 
 
+[[why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 为什么我看不到远程存储阵列上的所有卷？
 
 在远程存储阵列上选择二级卷时、列表将显示该镜像对的所有符合条件的卷。
@@ -129,6 +135,7 @@ NOTE: 对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必�
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 同步优先级对同步速率有何影响？
 
 同步优先级用于定义为同步活动分配的处理时间与系统性能相关。
@@ -186,6 +193,7 @@ NOTE: 对于EF600和EF300控制器、异步镜像对中的主卷和二级卷必�
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 为什么建议使用手动同步策略？
 
 建议使用手动重新同步、因为它可以让您以最佳机会恢复数据的方式管理重新同步过程。

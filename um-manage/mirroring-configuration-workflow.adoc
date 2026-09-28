@@ -15,6 +15,7 @@ summary: 您可以在Unified Manager中配置异步或同步镜像、然后使�
 
 
 
+[[asynchronous-mirroring-workflow]]
 == 异步镜像工作流
 
 异步镜像涉及以下工作流：
@@ -45,6 +46,7 @@ summary: 您可以在Unified Manager中配置异步或同步镜像、然后使�
 
 
 
+[[synchronous-mirroring-workflow]]
 == 同步镜像工作流
 
 同步镜像涉及以下工作流：

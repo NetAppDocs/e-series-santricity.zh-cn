@@ -23,8 +23,8 @@ summary: 要在存储阵列上启用高级功能或功能包、必须先获取�
 
 
 .步骤
-. 在 System Manager 中，找到并记录机箱序列号。从左侧面板转到菜单：Support[Support Center]，然后向下滚动到 *View top storage array properties* 以查看机箱序列号。
-. 在 System Manager 中，找到功能启用标识符。从左侧面板转到菜单：设置[系统]，然后向下滚动到*附加组件*。查找*功能启用标识符*。记录功能启用标识符的编号。
+. 在 System Manager 中，找到并记录机箱序列号。从左侧面板转到 menu:Support[Support center]，然后向下滚动到 *View top storage array properties* 以查看机箱序列号。
+. 在 System Manager 中，找到功能启用标识符。在左侧面板中，选择 *系统*，然后向下滚动到 *附加组件*。查找 *功能启用标识符*。记录功能启用标识符的编号。
 . 找到并记录用于激活功能的代码。对于功能包、此代码将在执行转换的相应说明中提供。
 +
 对于高级功能、您可以从支持站点访问激活代码、如下所示：

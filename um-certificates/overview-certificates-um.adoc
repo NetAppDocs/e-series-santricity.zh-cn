@@ -15,6 +15,7 @@ summary: '通过证书管理、您可以创建证书签名请求(CSR)、导入�
 
 
 
+[[what-are-certificates]]
 == 什么是证书？
 
 _Certificates_是数字文件、用于标识网站和服务器等联机实体、以便在互联网上进行安全通信。证书有两种类型：_signed certificate"由证书颁发机构(CA)验证；_self-signed certificate"由实体所有者(而不是第三方)验证。
@@ -27,6 +28,7 @@ _Certificates_是数字文件、用于标识网站和服务器等联机实体、
 
 
 
+[[how-do-i-configure-certificates]]
 == 如何配置证书？
 
 在证书管理中、您可以为托管Unified Manager的管理工作站配置证书、也可以为阵列中的控制器导入证书。

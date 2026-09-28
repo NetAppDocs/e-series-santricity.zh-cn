@@ -24,6 +24,7 @@ summary: 您可以获取CA签名的证书、以便在控制器与用于访问Sys
 
 
 
+[[step-1-complete-csrs-for-the-controllers]]
 == 第1步：完成控制器的CSR
 
 您必须先为存储阵列中的每个控制器生成证书签名请求(CSR)文件。
@@ -37,8 +38,7 @@ summary: 您可以获取CA签名的证书、以便在控制器与用于访问Sys
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Settings[Certificates]。
-. 从阵列管理选项卡中、选择*完成CSR*。
+. 从左侧面板中，选择菜单：Certificates[Array management certificates]，然后选择 *Complete CSR*。
 +
 [NOTE]
 ====
@@ -85,6 +85,7 @@ summary: 您可以获取CA签名的证书、以便在控制器与用于访问Sys
 
 
 
+[[step-2-submit-the-csr-files]]
 == 第2步：提交CSR文件
 
 创建证书签名请求(CSR)文件后、请将这些文件发送到证书颁发机构(CA)。E系列系统要求对签名证书使用PEM格式(Base64 ASCII编码)、其中包括以下文件类型：PEM、.crt、.cer或.key。
@@ -103,6 +104,7 @@ summary: 您可以获取CA签名的证书、以便在控制器与用于访问Sys
 
 
 
+[[step-3-import-signed-certificates-for-controllers]]
 == 第3步：导入控制器的签名证书
 
 从证书颁发机构(CA)收到签名证书后、导入控制器的文件。
@@ -114,8 +116,7 @@ summary: 您可以获取CA签名的证书、以便在控制器与用于访问Sys
 
 
 .步骤
-. 在左侧面板中，选择菜单：Settings[Certificates]
-. 从阵列管理选项卡中、选择*导入*。
+. 从左侧面板中选择菜单：Certificates[Array management certificates]，然后选择 *Import*。
 +
 此时将打开一个对话框、用于导入证书文件。
 

@@ -15,6 +15,7 @@ Snapshot功能使用写时复制技术存储快照映像并使用分配的预留
 
 
 
+[[how-snapshot-images-are-used]]
 == 如何使用快照映像
 
 Snapshot映像是在特定时间点捕获的卷内容的逻辑只读副本。您可以使用快照防止数据丢失。
@@ -23,6 +24,7 @@ Snapshot映像对于测试环境也很有用。通过创建数据的虚拟副本
 
 
 
+[[snapshot-creation]]
 == 创建快照
 
 创建快照时、Snapshot功能会按如下方式存储映像数据：
@@ -42,6 +44,7 @@ image::../media/sam1130-dwg-snapshots-cow-overview.gif[Snapshot概述]
 
 
 
+[[snapshot-restoration]]
 == Snapshot还原
 
 要将数据还原到基础卷、您可以使用Snapshot卷或Snapshot映像：

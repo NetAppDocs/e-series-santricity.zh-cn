@@ -24,7 +24,7 @@ SANtricity系统管理器会自动为AutoSupport派单创建默认计划。如�
 
 
 .步骤
-. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
+. 从左侧面板中，选择菜单：支持[AutoSupport]。
 . 选择*计划AutoSupport 派单*。
 +
 此时将显示计划AutoSupport 卸载向导。

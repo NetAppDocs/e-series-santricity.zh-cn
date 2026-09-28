@@ -18,8 +18,7 @@ summary: 如果要永久删除快照组的数据并将其从系统中删除、�
 删除快照组后、该组中的所有快照映像也会被删除。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Pools and volume groups]。
-. 单击*预留容量*选项卡。
+. 从左侧面板中，选择菜单：Storage[Reserved capacity]。
 . 选择要删除的快照组，然后单击菜单：省略号图标 [Delete]。
 +
 此时将显示确认删除Snapshot组对话框。

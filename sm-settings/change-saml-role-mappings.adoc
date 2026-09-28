@@ -21,8 +21,7 @@ summary: 如果先前已为访问管理配置SAML、则可以更改IdP组与存�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[Access Management]。
-. 选择* SAML *选项卡。
+. 从左侧面板中，选择菜单：Authentication[SAML]。
 . 选择 *Map System Manager roles*。
 +
 此时将打开角色映射对话框。

@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-data-am-i-collecting]]
 == 我正在收集哪些数据？
 
 通过AutoSupport 功能和手动支持数据收集功能、可以在客户支持包中收集数据、以便由技术支持进行远程故障排除和问题分析。
@@ -24,6 +25,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-does-unreadable-sectors-data-show-me]]
 == 无法读取的扇区数据显示了什么？
 
 您可以显示有关在存储阵列中的驱动器上检测到的不可读扇区的详细数据。
@@ -104,6 +106,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 |===
 
 
+[[what-is-a-health-image]]
 == 什么是运行状况映像？
 
 运行状况映像是指控制器处理器内存的原始数据转储、技术支持可使用该数据转储来诊断控制器的问题。
@@ -112,6 +115,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-do-the-autosupport-features-do]]
 == AutoSupport 功能的作用是什么？
 
 AutoSupport 功能由三个单独启用的功能组成。
@@ -123,6 +127,7 @@ AutoSupport 功能由三个单独启用的功能组成。
 
 
 
+[[what-type-of-data-is-collected-through-the-autosupport-feature]]
 == 通过AutoSupport 功能收集哪种类型的数据？
 
 AutoSupport 功能包含三种标准派单类型：事件派单、计划派单以及按需和远程诊断派单。
@@ -157,6 +162,7 @@ AutoSupport 功能会定期自动发送多个派单。
 
 
 
+[[how-do-i-configure-the-delivery-method-for-the-autosupport-feature]]
 == 如何配置AutoSupport 功能的交付方法？
 
 AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技术支持。
@@ -179,7 +185,7 @@ AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技�
 
 ====
 .步骤
-. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
+. 从左侧面板中，选择菜单：支持[AutoSupport]。
 . 选择 * 配置 AutoSupport 交付方法 * 。
 +
 此时将显示一个对话框、其中列出了派单交付方法。
@@ -213,6 +219,7 @@ AutoSupport功能支持使用HTTPS和SMTP协议将AutoSupport派单发送给技�
 
 
 
+[[what-is-configuration-data]]
 == 什么是配置数据？
 
 选择收集配置数据后、系统将保存RAID配置数据库的当前状态。
@@ -221,6 +228,7 @@ RAID配置数据库包含控制器上卷组和磁盘池的所有数据。`s配�
 
 
 
+[[what-do-i-need-to-know-before-upgrading-the-santricity-os-software]]
 == 在升级SANtricity OS软件之前、我需要了解哪些信息？
 
 在升级控制器的软件和固件之前、请注意以下事项。
@@ -268,6 +276,7 @@ CAUTION: 升级期间、请勿更改存储阵列。
 
 
 
+[[what-do-i-need-to-know-before-suspending-iom-auto-synchronization]]
 == 暂停IOM自动同步前需要了解哪些信息？
 
 暂停IOM自动同步可防止下次升级SANtricity OS控制器软件时升级IOM固件。
@@ -276,6 +285,7 @@ CAUTION: 升级期间、请勿更改存储阵列。
 
 
 
+[[why-is-my-firmware-upgrade-progressing-so-slowly]]
 == 为什么固件升级进度如此缓慢？
 
 固件升级进度取决于系统的整体负载。
@@ -284,6 +294,7 @@ CAUTION: 升级期间、请勿更改存储阵列。
 
 
 
+[[what-do-i-need-to-know-before-upgrading-drive-firmware]]
 == 升级驱动器固件前需要了解哪些信息？
 
 在升级驱动器固件之前、请注意以下事项。
@@ -298,6 +309,7 @@ CAUTION: 升级期间、请勿更改存储阵列。
 
 
 
+[[how-do-i-choose-which-type-of-upgrade-to-perform]]
 == 如何选择要执行的升级类型？
 
 您可以根据池或卷组的状态选择要对驱动器执行的升级类型。

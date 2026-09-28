@@ -17,9 +17,8 @@ summary: 您可以更改快照组的设置以更改其名称、自动删除设�
 在创建快照组期间、系统会创建预留容量来存储组中所有快照映像的数据。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Pools and volume groups]。
-. 单击*预留容量*选项卡。
-. 选择要编辑的快照组，然后单击 menu:ellipsis icon[Edit Settings]。
+. 从左侧面板中，选择菜单：Storage[Reserved capacity]。
+. 选择要编辑的快照组，然后单击 menu:ellipsis icon[Edit settings]。
 +
 此时将显示"编辑快照组设置"窗口。
 

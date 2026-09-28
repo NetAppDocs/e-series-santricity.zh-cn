@@ -18,8 +18,7 @@ summary: 如果需要节省存储空间、您可以暂时暂停按计划收集�
 快照计划的状态将保持暂停、直到您使用*激活*选项恢复计划的快照活动为止。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 如果尚未显示，请单击 *Snapshot Schedules* 选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot schedules]。
 +
 这些计划将在页面上列出。
 

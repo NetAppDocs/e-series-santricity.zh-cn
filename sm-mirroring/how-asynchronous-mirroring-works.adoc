@@ -24,6 +24,7 @@ summary: 异步镜像可按需或按计划复制数据卷、从而最大限度�
 
 
 
+[[asynchronous-mirroring-session]]
 == 异步镜像会话
 
 异步镜像可捕获主卷在特定时间点的状态、并仅复制自上次映像捕获以来发生更改的数据。通过异步镜像、可以立即更新主站点、并在带宽允许的情况下更新二级站点。此信息将在网络资源可用时进行缓存并稍后发送。
@@ -46,6 +47,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[异步镜像会话]
 
 
 
+[[mirror-consistency-groups-and-mirrored-pairs]]
 == 镜像一致性组和镜像对
 
 您可以创建镜像一致性组、以便在本地存储阵列和远程存储阵列之间建立镜像关系。异步镜像关系由一个镜像对组成：一个存储阵列上的主卷和另一个存储阵列上的二级卷。
@@ -54,6 +56,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[异步镜像会话]
 
 
 
+[[synchronization-settings]]
 == 同步设置
 
 创建镜像对时、还需要定义同步优先级和重新同步策略、镜像对使用该策略在通信中断后完成重新同步操作。
@@ -72,6 +75,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[异步镜像会话]
 
 
 
+[[reserved-capacity-and-asynchronous-mirroring]]
 == 预留容量和异步镜像
 
 预留容量用于跟踪未进行同步时主卷与二级卷之间的差异。它还会跟踪每个镜像对的同步统计信息。
@@ -80,6 +84,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[异步镜像会话]
 
 
 
+[[configuration-and-management]]
 == 配置和管理
 
 要在两个阵列之间启用和配置镜像、必须使用Unified Manager界面。启用镜像后、您可以在System Manager中管理镜像对和同步设置。

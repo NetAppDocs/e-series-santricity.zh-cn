@@ -20,6 +20,7 @@ summary: 同步镜像功能可在存储阵列之间远程进行联机实时数�
 ====
 
 
+[[what-is-synchronous-mirroring]]
 == 什么是同步镜像？
 
 _Synchronous mirroring _实时复制数据卷以确保持续可用性。存储阵列控制器负责管理镜像操作、该操作对主机和软件应用程序是透明的。
@@ -37,6 +38,7 @@ _Synchronous mirroring _实时复制数据卷以确保持续可用性。存储�
 
 
 
+[[how-do-i-configure-synchronous-mirroring]]
 == 如何配置同步镜像？
 
 您必须使用Unified Manager界面在阵列之间执行初始镜像配置。配置后、您可以在System Manager中管理镜像对。
@@ -50,6 +52,7 @@ _Synchronous mirroring _实时复制数据卷以确保持续可用性。存储�
 
 
 
+[[related-information]]
 == 相关信息
 
 详细了解与同步镜像相关的概念：

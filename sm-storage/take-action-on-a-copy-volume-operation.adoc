@@ -15,7 +15,7 @@ summary: 您可以查看正在执行的复制卷操作、并停止、更改优�
 您可以查看正在执行的复制卷操作、并停止、更改优先级、重新复制或清除复制卷操作。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Operations in Progress]。
+. 从左侧面板中，选择 menu:Monitoring[Operations in progress]。
 +
 此时将显示操作进行中对话框。
 

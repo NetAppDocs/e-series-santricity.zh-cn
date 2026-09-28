@@ -16,6 +16,7 @@ summary: 您可以为System Manager配置一些常规阵列设置和附加功能
 
 
 
+[[what-settings-can-i-configure]]
 == 我可以配置哪些设置？
 
 阵列设置包括：
@@ -28,6 +29,7 @@ summary: 您可以为System Manager配置一些常规阵列设置和附加功能
 
 
 
+[[related-tasks]]
 == 相关任务
 
 详细了解与系统设置相关的任务：

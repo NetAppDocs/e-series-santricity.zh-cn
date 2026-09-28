@@ -2,22 +2,18 @@
 permalink: sm-interface/home-page.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, home page 
-summary: 主页页面提供了用于存储阵列日常管理的信息板视图。登录到System Manager时、主页页面将显示第一个屏幕。 
+summary: 控制面板提供了存储阵列日常管理的摘要视图。当您登录到 System Manager 时，控制面板是显示的第一个屏幕。 
 ---
-= 了解 SANtricity System Manager 主页
+= 了解 SANtricity System Manager 仪表板
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-主页页面提供了用于存储阵列日常管理的信息板视图。登录到SANtricity系统管理器后、将显示主页页面。
+控制面板提供了存储阵列日常管理的摘要视图。当您登录 SANtricity System Manager 时，控制面板是显示的第一个屏幕。
 
-信息板视图包含四个摘要区域、其中包含有关存储阵列状态和运行状况的关键信息。您可以从摘要区域中找到更多信息。
-
-* *通知*
-+
-Notifications区域将显示问题通知、指示存储阵列及其组件的状态。此外、此portlet还会显示自动警报、有助于您在问题影响存储环境的其他区域之前对问题进行故障排除。
+仪表板视图包括三个摘要区域，其中包含有关存储阵列状态和运行状况的关键信息。您可以在摘要区域找到更多信息。
 
 * * 性能 *
 +

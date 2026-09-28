@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-is-auto-negotiation]]
 == 什么是自动协商？
 
 自动协商是指网络接口能够自动将其自身的连接参数(速度和双工)与另一个网络接口进行协调。
@@ -29,6 +30,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 ====
 
 
+[[what-is-ipv6-stateless-address-auto-configuration]]
 == 什么是IPv6无状态地址自动配置？
 
 使用无状态自动配置时、主机不会从服务器获取地址和其他配置信息。
@@ -49,12 +51,14 @@ IPv6中的无状态自动配置功能包括链路本地地址、多播和邻居�
 
 
 
+[[which-do-i-choose-dhcp-or-manual-configuration]]
 == 我该选择哪一个——DHCP 还是手动配置？
 
 网络配置的默认方法是动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)。除非您的网络没有DHCP服务器、否则请始终使用此选项。
 
 
 
+[[what-is-a-dhcp-server]]
 == 什么是DHCP服务器？
 
 动态主机配置协议(Dynamic Host Configuration Protocol、DHCP)是一种可自动执行Internet协议(IP)地址分配任务的协议。
@@ -65,6 +69,7 @@ IPv6中的无状态自动配置功能包括链路本地地址、多播和邻居�
 
 
 
+[[how-do-i-configure-my-dhcp-server]]
 == 如何配置DHCP服务器？
 
 您必须将动态主机配置协议(DHCP)服务器配置为对存储阵列中的控制器使用静态Internet协议(IP)地址。
@@ -75,6 +80,7 @@ DHCP服务器分配的IP地址通常是动态的、可能会发生更改、因�
 
 
 
+[[why-do-i-need-to-change-the-controller-network-configuration]]
 == 为什么需要更改控制器网络配置？
 
 使用带外管理时、您必须为每个控制器设置网络配置、包括其Internet协议(IP)地址、子网掩码(子网掩码)和网关。
@@ -83,6 +89,7 @@ DHCP服务器分配的IP地址通常是动态的、可能会发生更改、因�
 
 
 
+[[where-do-i-get-the-network-configuration]]
 == 从何处获取网络配置？
 
 您可以从网络管理员处获取Internet协议(IP)地址、子网掩码(子网掩码)和网关信息。
@@ -91,6 +98,7 @@ DHCP服务器分配的IP地址通常是动态的、可能会发生更改、因�
 
 
 
+[[what-are-icmp-ping-responses]]
 == 什么是ICMP ping响应？
 
 Internet控制消息协议(Internet Control Message Protocol、ICMP)是TCP/IP套件的协议之一。
@@ -99,6 +107,7 @@ Internet控制消息协议(Internet Control Message Protocol、ICMP)是TCP/IP套
 
 
 
+[[when-should-i-refresh-the-port-configuration]]
 == 何时应刷新端口配置？
 
 随时修改或升级DHCP服务器、并且与当前存储阵列和要使用的存储阵列相关的DHCP信息已更改、请刷新此服务器。
@@ -112,6 +121,7 @@ Internet控制消息协议(Internet Control Message Protocol、ICMP)是TCP/IP套
 ====
 
 
+[[what-should-i-do-after-configuring-the-management-ports]]
 == 配置管理端口后应执行什么操作？
 
 如果更改了存储阵列的IP地址、则可能需要在SANtricity 统一管理器中更新全局阵列视图。
@@ -122,6 +132,7 @@ Internet控制消息协议(Internet Control Message Protocol、ICMP)是TCP/IP套
 
 
 
+[[why-is-the-storage-system-in-non-optimal-mode]]
 == 为什么存储系统处于非最佳模式？
 
 存储系统处于非最佳模式是由于系统配置无效状态所致。尽管处于此状态、但完全支持对现有卷进行正常I/O访问；但是、SANtricity系统管理器将禁止某些操作。

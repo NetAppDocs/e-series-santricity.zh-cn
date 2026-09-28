@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-happens-when-i-use-an-isns-server-for-registration]]
 == 使用iSNS服务器进行注册时会发生什么情况？
 
 使用Internet存储名称服务(iSNS)服务器信息时、可以将主机(启动程序)配置为查询iSNS服务器以从目标(控制器)检索信息。
@@ -24,6 +25,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[which-registration-methods-are-automatically-supported-for-iscsi]]
 == iSCSI自动支持哪些注册方法？
 
 iSCSI实施支持Internet存储名称服务(iSNS)发现方法或使用发送目标命令。
@@ -34,9 +36,10 @@ iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS
 
 
 
+[[how-do-i-interpret-iser-over-infiniband-statistics]]
 == 如何解读基于InfiniBand统计信息的iSER？
 
-查看基于InfiniBand的iSER统计信息对话框可显示本地目标(协议)统计信息和基于InfiniBand的iSER (IB)接口统计信息。所有统计信息均为只读、无法设置。
+View iSER over InfiniBand statistics 对话框显示本地目标（协议）统计数据和 iSER over InfiniBand (IB) 接口统计数据。所有统计信息均为只读，无法设置。
 
 * *本地目标(协议)统计信息*—提供基于InfiniBand的iSER目标的统计信息、其中显示了对其存储介质的块级访问。
 * * iSER over InfiniBand Interface statistics*—提供InfiniBand接口上所有基于InfiniBand端口的iSER的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。
@@ -46,6 +49,7 @@ iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband]]
 == 要通过InfiniBand配置或诊断iSER、还需要执行哪些操作？
 
 下表列出了可用于配置和管理基于InfiniBand会话的iSER的SANtricity系统管理器功能。
@@ -63,16 +67,15 @@ iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS
  a| 
 通过InfiniBand端口配置iSER
  a| 
-. 选择 * 硬件 * 。
-. 选择*控制器和组件*选项卡。
+. 选择菜单：Hardware[Controllers and components]。
 . 选择一个控制器。
 . 选择*通过InfiniBand端口配置iSER *。
 
 
 或
 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand端口配置iSER *。
+. 选择*System*。
+. 向下滚动到 *iSER over InfiniBand settings*，然后选择 *Configure iSER over InfiniBand ports*。
 
 
 
@@ -80,13 +83,14 @@ iSNS方法允许在启动程序(iSCSI主机)和目标(控制器)之间进行iSNS
  a| 
 查看基于InfiniBand的iSER统计信息
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于InfiniBand设置的iSER *、然后选择*基于InfiniBand统计信息查看iSER *。
+. 选择*System*。
+. 向下滚动到 *iSER over InfiniBand settings*，然后选择 *View iSER over InfiniBand statistics*。
 
 
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi]]
 == 配置或诊断iSCSI还需要执行哪些操作？
 
 iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。下表列出了可用于配置和管理这些iSCSI会话的SANtricity系统管理器功能。
@@ -98,6 +102,7 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
 ====
 
 
+[[configure-iscsi]]
 === 配置iSCSI
 
 [cols="1a,1a"]
@@ -108,7 +113,7 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
  a| 
 管理iSCSI设置
  a| 
-. 选择菜单：设置[系统]。
+. 选择*System*。
 . 向下滚动到* iSCSI设置*可查看所有管理功能。
 
 
@@ -128,8 +133,8 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
  a| 
 设置主机CHAP密钥
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到* iSCSI设置*、然后选择*配置身份验证*。
+. 选择*System*。
+. 向下滚动到 *iSCSI 设置*，然后选择*通过 InfiniBand 身份验证配置 iSCSI/iSER*。
 
 
 或
@@ -142,6 +147,7 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
 |===
 
 
+[[diagnose-iscsi]]
 === 诊断iSCSI
 
 [cols="1a,1a"]
@@ -152,14 +158,14 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
  a| 
 查看或结束iSCSI会话
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到* iSCSI设置*、然后选择*查看/结束iSCSI会话*。
+. 选择*System*。
+. 向下滚动到 *iSCSI 设置*，然后选择 *查看/结束 iSCSI 会话*。
 
 
 或
 
-. 选择菜单：Support[支持中心>诊断]选项卡。
-. 选择*查看/结束iSCSI会话*。
+. 选择菜单：Support[Diagnostics]。
+. 选择*查看/结束 iSCSI 会话*。
 
 
 
@@ -167,14 +173,14 @@ iSCSI会话可以与异步镜像关系中的主机或远程存储阵列进行。
  a| 
 查看iSCSI统计信息
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到* iSCSI设置*、然后选择*查看iSCSI统计信息包*。
+. 选择*System*。
+. 向下滚动到 *iSCSI 设置*，然后选择 *查看 iSCSI 统计信息*。
 
 
 或
 
-. 选择菜单：Support[支持中心>诊断]选项卡。
-. 选择*查看iSCSI统计信息包*。
+. 选择菜单：Support[Diagnostics]。
+. 选择*查看 iSCSI 统计信息*。
 
 
 |===

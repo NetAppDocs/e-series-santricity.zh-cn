@@ -21,8 +21,7 @@ summary: '您可以更改用于归档审核日志的系统日志服务器的设�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[Access Management]。
-. 从审核日志选项卡中、选择*配置系统日志服务器*。
+. 从左侧面板中，选择菜单：监控[Audit log]，然后选择 *Configure Syslog Servers*。
 +
 已配置的系统日志服务器将显示在页面上。
 

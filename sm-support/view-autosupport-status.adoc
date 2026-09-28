@@ -15,7 +15,7 @@ summary: AutoSupport 页面将显示AutoSupport 功能和各个AutoSupport 功�
 AutoSupport 页面将显示AutoSupport 功能和各个AutoSupport 功能当前是否已启用。
 
 .步骤
-. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
+. 从左侧面板中，选择菜单：支持[AutoSupport]。
 . 查看页面右侧选项卡下方、查看是否已启用基本AutoSupport 功能。
 . 将光标悬停在问号上方可查看是否已启用各个AutoSupport 功能。
 

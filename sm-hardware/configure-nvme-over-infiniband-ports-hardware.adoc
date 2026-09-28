@@ -24,18 +24,14 @@ summary: 如果控制器包含基于InfiniBand的NVMe连接、则可以从硬件
 
 ====
 .步骤
-. 在左侧面板中，选择 *Hardware*。
-. 如果图中显示了驱动器，请单击*控制器和组件*选项卡。
-+
-此图将发生变化，以显示控制器，而不是驱动器。
-
+. 从左侧面板中，选择菜单：Hardware[Controllers and components]。
 . 单击具有要配置的基于InfiniBand的NVMe端口的控制器。
 +
 此时将显示控制器的上下文菜单。
 
 . 选择 * 配置基于 InfiniBand 端口的 NVMe * 。
 +
-此时将打开配置基于InfiniBand端口的NVMe对话框。
+此时将打开通过 InfiniBand 端口配置 NVMe 对话框。
 
 . 从下拉列表中选择要配置的HIC端口、然后输入IP地址。
 +

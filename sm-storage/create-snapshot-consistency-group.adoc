@@ -23,6 +23,7 @@ summary: 为了确保副本一致、您可以创建一组多个卷、称为快�
 
 
 
+[[step-1-add-members-to-snapshot-consistency-group]]
 == 第1步：向快照一致性组添加成员
 
 选择成员以指定构成快照一致性组的一组卷。对快照一致性组执行的任何操作都会统一扩展到选定的成员卷。
@@ -31,18 +32,18 @@ summary: 为了确保副本一致、您可以创建一组多个卷、称为快�
 成员卷必须是最佳卷。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 单击* Snapshot一致性组*选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot consistency groups]。
 . 选择菜单：创建[ Snapshot一致性组]。
 +
 此时将显示创建Snapshot一致性组对话框。
 
-. 选择要作为成员卷添加到快照一致性组的卷。
+. 找到要作为成员卷添加到快照一致性组的卷。
 . 单击*下一步*、然后转到 <<第2步：为快照一致性组预留容量>>。
 
 
 
 
+[[step-2-reserve-capacity-for-snapshot-consistency-group]]
 == 第2步：为快照一致性组预留容量
 
 将预留容量与快照一致性组相关联。System Manager会根据快照一致性组的属性建议卷和容量。您可以接受建议的预留容量配置或自定义分配的存储。
@@ -74,6 +75,7 @@ summary: 为了确保副本一致、您可以创建一组多个卷、称为快�
 
 
 
+[[step-3-edit-settings-for-snapshot-consistency-group]]
 == 第3步：编辑快照一致性组的设置
 
 接受或选择快照一致性组的自动删除设置和预留容量警报阈值。

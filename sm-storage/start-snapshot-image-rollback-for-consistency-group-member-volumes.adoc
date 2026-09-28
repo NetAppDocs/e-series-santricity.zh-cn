@@ -34,13 +34,13 @@ summary: 您可以执行回滚操作、以更改快照一致性组成员卷的�
 
 
 
+[[step-1-select-members]]
 == 第1步：选择成员
 
 您必须选择要回滚的成员卷。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 选择* Snapshot映像*选项卡。
+. 从左侧面板中，选择 menu:Snapshots[Snapshot images]。
 . 选择快照一致性组快照映像、然后选择菜单：Rollback[启动]。
 +
 此时将显示开始回滚对话框。
@@ -56,6 +56,7 @@ summary: 您可以执行回滚操作、以更改快照一致性组成员卷的�
 
 
 
+[[step-2-review-capacity]]
 == 第2步：查看容量
 
 如果您选择了与多个预留容量对象关联的成员卷、例如快照组和预留容量卷、则可以查看并增加回滚卷的预留容量。
@@ -77,6 +78,7 @@ summary: 您可以执行回滚操作、以更改快照一致性组成员卷的�
 
 
 
+[[step-3-edit-priority]]
 == 第3步：编辑优先级
 
 您可以根据需要编辑回滚操作的优先级。
@@ -97,6 +99,6 @@ System Manager将执行以下操作：
 
 
 .完成后
-选择菜单：Storage[Operations in Progress] 以查看回滚操作的进度。
+选择菜单：Monitoring[Operations in progress]以查看回滚操作的进度。
 
 如果回滚操作不成功、此操作将暂停。您可以恢复已暂停的操作、如果仍不成功、请按照Recovery Guru操作步骤 更正问题或联系技术支持。

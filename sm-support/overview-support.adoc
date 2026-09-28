@@ -16,6 +16,7 @@ summary: 使用支持中心执行技术支持可能请求的诊断、恢复和�
 
 
 
+[[what-support-tasks-are-available]]
 == 有哪些支持任务可用？
 
 在支持中、您可以查看技术支持联系人、执行诊断、配置AutoSupport 、查看事件日志以及执行软件升级。
@@ -29,6 +30,7 @@ summary: 使用支持中心执行技术支持可能请求的诊断、恢复和�
 
 
 
+[[how-do-i-contact-technical-support]]
 == 如何联系技术支持？
 
-在主页中、单击菜单：Support[支持中心>支持资源选项卡]。技术支持联系信息列在界面的右上角。
+在主页，单击菜单：支持[Support resources]。技术支持联系信息列在界面右上角。

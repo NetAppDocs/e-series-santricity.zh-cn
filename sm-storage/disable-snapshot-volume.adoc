@@ -30,8 +30,7 @@ summary: 如果您不再需要快照卷或希望暂时停止使用快照一致�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 选择* Snapshot Volumes*选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot volumes]。
 +
 System Manager将显示与存储阵列关联的所有快照卷。
 

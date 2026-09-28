@@ -19,6 +19,7 @@ summary: 卷是一种数据容器，用于管理和组织存储阵列上的存�
 
 
 
+[[volume-types-you-can-create-from-pools-and-volume-groups]]
 == 可以从池和卷组创建的卷类型
 
 卷从池或卷组中提取容量。您可以从存储阵列上的池或卷组创建以下类型的卷。
@@ -48,6 +49,7 @@ EF80、EF50、EF600/EF600C 和 EF300/EF300C 存储系统不支持精简配置。
 ====
 
 
+[[characteristics-of-volumes]]
 == 卷的特征
 
 池或卷组中的每个卷都可以根据要存储的数据类型具有自己的特征。其中一些特征包括：

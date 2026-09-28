@@ -18,6 +18,7 @@ summary: 通过远程存储功能、您可以将数据从远程存储系统导�
 
 
 
+[[hardware-setup]]
 == 硬件设置
 
 使用以下工作流准备硬件连接。
@@ -31,7 +32,7 @@ NOTE: SANtricity远程存储卷目前在E4000系统上不受支持。
 
 . 确保每个控制器都与远程存储系统建立iSCSI连接。通过此连接、本地E系列系统充当iSCSI启动程序、可将其设置为远程系统上的主机。
 . 为导入操作创建目标卷。确保卷的容量等于或大于远程存储系统上的源卷、块大小匹配且未映射。请参见 link:create-volumes.html["创建卷"]。
-. 从System Manager界面收集本地E系列系统的iSCSI限定名称(IQN)。稍后将使用IQN将本地E系列系统设置为远程存储系统上的主机。在System Manager中、转至：菜单：设置[系统> iSCSI设置>目标IQN]。
+. 从其 System Manager 界面收集本地 E 系列系统的 iSCSI 限定名称 (IQN)。IQN 稍后将用于将本地 E 系列系统设置为远程存储系统上的主机。在 System Manager 中，转到：menu:System[iSCSI settings > Target IQN]。
 
 
 在远程存储系统上：
@@ -55,6 +56,7 @@ NOTE: SANtricity远程存储卷目前在E4000系统上不受支持。
 
 
 
+[[system-manager-setup]]
 == System Manager设置
 
 使用以下工作流为导入创建远程存储对象：

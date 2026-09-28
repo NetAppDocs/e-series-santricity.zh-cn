@@ -20,7 +20,7 @@ summary: 您可以暂停或恢复镜像一致性组中所有镜像对上的数�
 镜像一致性组及其镜像对的状态将保持暂停状态、直到您使用恢复选项恢复同步活动为止。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Asynchronous mirror consistency groups]。
 . 选择*镜像一致性组*选项卡。
 +
 此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。

@@ -15,6 +15,7 @@ summary: 异步镜像功能提供了一种基于固件的控制器级别机制�
 
 
 
+[[what-is-asynchronous-mirroring]]
 == 什么是异步镜像？
 
 _Asynchronous mirroring _捕获主卷在特定时间点的状态、并仅复制自上次映像捕获以来发生更改的数据。可以立即更新主站点、并在带宽允许的情况下更新二级站点。此信息将在网络资源可用时进行缓存并稍后发送。
@@ -32,6 +33,7 @@ _Asynchronous mirroring _捕获主卷在特定时间点的状态、并仅复制�
 
 
 
+[[how-do-i-configure-asynchronous-mirroring]]
 == 如何配置异步镜像？
 
 您必须使用Unified Manager界面在阵列之间执行初始镜像配置。配置后、您可以在System Manager中管理镜像对和一致性组。
@@ -45,6 +47,7 @@ _Asynchronous mirroring _捕获主卷在特定时间点的状态、并仅复制�
 
 
 
+[[related-information]]
 == 相关信息
 
 详细了解与异步镜像相关的概念：

@@ -16,7 +16,7 @@ summary: 您可以将系统配置从一个存储阵列导入到其他存储阵�
 
 .开始之前
 * 系统设置在System Manager中为要用作源的存储阵列配置。
-* 目标存储阵列的现有配置会在System Manager中进行备份(菜单：设置[系统>保存存储阵列配置])。
+* 目标存储阵列的现有配置在 System Manager 中备份（菜单：System[Save storage array configuration]）。
 
 
 .关于此任务

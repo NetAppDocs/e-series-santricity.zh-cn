@@ -24,12 +24,14 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储阵列上不提供同步镜像
 
 
 
+[[synchronous-mirroring-relationship]]
 == 同步镜像关系
 
 同步镜像关系由一个主卷和一个位于不同存储阵列上的二级卷组成。包含主卷的存储阵列通常位于主站点、并为活动主机提供服务。包含二级卷的存储阵列通常位于二级站点、并保存数据的副本。如果主卷的存储阵列因完全断电、火灾或主站点的硬件故障等原因而不可用、则会使用二级卷。
 
 
 
+[[synchronous-mirroring-session]]
 == 同步镜像会话
 
 同步镜像配置过程涉及将卷配置成对。创建镜像对后、您可以启动同步镜像、该镜像对由一个存储阵列上的主卷和另一个存储阵列上的二级卷组成。同步镜像的步骤如下所示。
@@ -49,6 +51,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 
 
+[[disaster-recovery]]
 == 灾难恢复
 
 同步镜像可维护物理上远离数据所在站点的数据副本。如果主站点发生灾难、例如断电或洪灾、可以从二级站点快速访问数据。
@@ -57,6 +60,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 
 
+[[synchronization-settings]]
 == 同步设置
 
 创建镜像对时、还需要定义同步优先级和重新同步策略、镜像对使用该策略在通信中断后完成重新同步操作。
@@ -69,6 +73,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 
 
+[[unsynchronized-data]]
 == 未同步的数据
 
 如果主卷的存储阵列无法向二级卷写入数据、则主卷和二级卷将不同步。这可能是由于以下问题导致的：
@@ -80,6 +85,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 
 
+[[orphaned-mirrored-pair]]
 == 孤立镜像对
 
 如果在一端(主端或二级端)删除了成员卷、而在另一端未删除、则会存在孤立的镜像对卷。
@@ -90,6 +96,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步镜像会话]
 
 
 
+[[configuration-and-management]]
 == 配置和管理
 
 要在两个阵列之间启用和配置镜像、必须使用Unified Manager界面。启用镜像后、您可以在System Manager中管理镜像对和同步设置。

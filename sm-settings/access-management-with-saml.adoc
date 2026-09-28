@@ -15,6 +15,7 @@ summary: '对于访问管理、管理员可以使用阵列中嵌入的安全断�
 
 
 
+[[configuration-workflow]]
 == 配置工作流
 
 SAML配置的工作原理如下：
@@ -26,7 +27,7 @@ SAML配置的工作原理如下：
 `admin`用户可以完全访问System Manager中的所有功能。
 
 ====
-. 管理员转到访问管理下的* SAML *选项卡。
+. 管理员转到身份验证下的 *SAML* 页面。
 . 管理员配置与身份提供程序(Identity Provider、IdP)的通信。IdP是一种外部系统、用于向用户请求凭据并确定用户是否已成功通过身份验证。要配置与存储阵列的通信、管理员将从IdP系统下载IdP元数据文件、然后使用System Manager将此文件上传到存储阵列。
 . 管理员在服务提供商和IdP之间建立信任关系。服务提供商负责控制用户授权；在这种情况下、存储阵列中的控制器充当服务提供商。要配置通信、管理员可以使用System Manager导出每个控制器的服务提供商元数据文件。然后、管理员从IdP系统将这些元数据文件导入到IdP中。
 +
@@ -49,6 +50,7 @@ SAML配置的工作原理如下：
 
 
 
+[[management]]
 == 管理
 
 使用SAML进行身份验证时、管理员可以执行以下管理任务：
@@ -59,6 +61,7 @@ SAML配置的工作原理如下：
 
 
 
+[[access-restrictions]]
 == 访问限制
 
 启用SAML后、用户将无法通过Unified Manager或原有Storage Manager界面发现或管理该阵列的存储。
@@ -73,6 +76,7 @@ SAML配置的工作原理如下：
 
 
 
+[[limited-connectivity-with-saml-enabled]]
 === 启用SAML的连接有限
 
 启用SAML后、以下存储阵列功能与JSON Web令牌身份验证的连接将受到限制。

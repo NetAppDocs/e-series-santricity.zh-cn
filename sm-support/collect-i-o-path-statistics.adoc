@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/collect-i-o-path-statistics.html 
 sidebar: sidebar 
-keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
-summary: 您可以保存I/O路径统计信息文件并将其发送给技术支持进行分析。 
+keywords: SANtricity, System Manager, E-Series, collect, io path, statistics 
+summary: 您可以保存 IO 路径统计文件并将其发送到技术支持进行分析。 
 ---
 = 在 SANtricity System Manager 中收集 I/O 路径统计信息
 :allow-uri-read: 
@@ -25,7 +25,7 @@ summary: 您可以保存I/O路径统计信息文件并将其发送给技术支�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Support[Support Center > Diagnostics] 选项卡。
+. 从左侧面板中，选择菜单：Support[Diagnostics]。
 . 选择*收集I/O路径统计信息*。
 . 键入`Collect`确认要执行此操作、然后单击*收集*。
 +

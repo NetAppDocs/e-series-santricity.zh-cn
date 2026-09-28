@@ -24,12 +24,14 @@ summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6
 
 
 
+[[how-to-identify-hot-spares]]
 == 如何识别热备用磁盘
 
 您可以通过初始设置向导或硬件页面分配热备用磁盘。要确定是否已分配热备用磁盘、请转到硬件页面并查找以粉色显示的任何驱动器托架。
 
 
 
+[[how-hot-spare-coverage-works]]
 == 热备用磁盘覆盖的工作原理
 
 热备用磁盘覆盖范围如下：
@@ -49,6 +51,7 @@ summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6
 
 
 
+[[considerations-for-hot-spare-drive-capacity]]
 == 热备用驱动器容量注意事项
 
 选择容量等于或大于要保护的驱动器总容量的驱动器。例如、如果您有一个配置容量为8 GiB的18 GiB驱动器、则可以使用一个9 GiB或更大的驱动器作为热备用驱动器。通常、除非驱动器的容量等于或大于存储阵列中最大驱动器的容量、否则不要将其分配为热备用驱动器。
@@ -60,12 +63,14 @@ summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6
 ====
 
 
+[[considerations-for-media-and-interface-types]]
 == 介质和接口类型的注意事项
 
 用作热备用磁盘的驱动器必须与要保护的驱动器共享相同的介质类型和接口类型。例如、HDD驱动器不能用作SSD驱动器的热备用磁盘。
 
 
 
+[[considerations-for-secure-capable-drives]]
 == 支持安全的驱动器的注意事项
 
 支持安全的驱动器(例如FDE或FIPS)可用作具有或不具有安全功能的驱动器的热备用磁盘。但是、不支持安全的驱动器不能用作具有安全功能的驱动器的热备用磁盘。
@@ -79,6 +84,7 @@ summary: 对于System Manager、热备用磁盘可充当RAID 1、RAID 5或RAID 6
 ====
 
 
+[[recommended-number-of-hot-spare-drives]]
 == 建议的热备用驱动器数量
 
 如果您使用初始设置向导自动创建热备用磁盘、则System Manager会为特定介质类型和接口类型的每30个驱动器创建一个热备用磁盘。否则、您可以在存储阵列中的卷组之间手动创建热备用驱动器。

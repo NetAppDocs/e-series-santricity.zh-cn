@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 异步镜像与同步镜像有何不同？
 
 异步镜像功能与同步镜像功能在一个基本方面有所不同：它可以捕获源卷在特定时间点的状态、并仅复制自上次映像捕获以来发生更改的数据。
@@ -112,6 +113,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 |===
 
 
+[[synchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 同步镜像 - 为什么我看不到所有卷？
 
 为镜像对选择主卷时、列表将显示所有符合条件的卷。
@@ -125,6 +127,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 同步镜像 - 为什么我看不到远程存储阵列上的所有卷？
 
 在远程存储阵列上选择二级卷时、列表将显示该镜像对的所有符合条件的卷。
@@ -144,6 +147,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 同步镜像—在创建镜像对之前、我需要了解哪些信息？
 
 您可以在SANtricity统一管理器界面中配置镜像对、然后在SANtricity系统管理器中管理这些对。
@@ -163,6 +167,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 同步优先级对同步速率有何影响？
 
 同步优先级用于定义为同步活动分配的处理时间与系统性能相关。
@@ -224,6 +229,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 为什么建议使用手动同步策略？
 
 建议使用手动重新同步、因为它可以让您以最佳机会恢复数据的方式管理重新同步过程。

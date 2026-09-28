@@ -20,8 +20,7 @@ summary: 您可以删除备份或软件应用程序测试不再需要的快照�
 删除基础卷会自动删除任何关联的快照卷或一致性组快照卷。不能删除状态为*进行中*的卷副本中的快照卷。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 选择* Snapshot Volumes*选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot volumes]。
 +
 System Manager将显示与存储阵列关联的所有快照卷。
 

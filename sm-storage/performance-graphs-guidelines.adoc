@@ -30,6 +30,7 @@ summary: 性能页面提供了数据图形和表、可用于评估存储阵列�
 
 
 
+[[characteristics-of-performance-data-formats]]
 == 性能数据格式的特征
 
 [cols="1a,1a,1a,1a,1a"]
@@ -93,6 +94,7 @@ summary: 性能页面提供了数据图形和表、可用于评估存储阵列�
 |===
 
 
+[[guidelines-for-viewing-performance-data]]
 == 查看性能数据的准则
 
 * 性能数据收集始终处于打开状态。无法关闭此选项。

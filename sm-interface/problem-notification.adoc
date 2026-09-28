@@ -15,6 +15,7 @@ SANtricity系统管理器使用图标和其他几种方法来通知您存储阵�
 
 
 
+[[icons]]
 == 图标
 
 System Manager可使用这些图标指示存储阵列及其组件的状态。
@@ -59,6 +60,7 @@ System Manager会在不同位置显示这些图标。
 
 
 
+[[alerts-and-leds]]
 == 警报和LED
 
 此外、System Manager还会通过其他方式通知您问题。

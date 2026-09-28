@@ -22,7 +22,7 @@ summary: 您可以删除镜像对、以便从本地存储阵列上的主卷和�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Synchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Synchronous mirroring]。
 . 选择要删除的镜像对、然后选择菜单：uncommon Tasks[Remove]。
 +
 此时将显示删除镜像关系对话框。

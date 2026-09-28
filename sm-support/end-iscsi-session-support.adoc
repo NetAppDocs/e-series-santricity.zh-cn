@@ -22,7 +22,7 @@ summary: 您可以结束不再需要的iSCSI会话。iSCSI会话可以与异步�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Support[Support Center > Diagnostics] 选项卡。
+. 从左侧面板中，选择菜单：Support[Diagnostics]。
 . 选择*查看/结束iSCSI会话*。
 +
 此时将显示当前iSCSI会话的列表。

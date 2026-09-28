@@ -23,7 +23,7 @@ summary: 您可以删除镜像对、以便从本地存储阵列上的主卷和�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Asynchronous mirrored pairs]。
 . 选择*镜像对*选项卡。
 +
 此时将显示镜像对表、并显示与存储阵列关联的所有镜像对。

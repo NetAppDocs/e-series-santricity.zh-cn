@@ -28,8 +28,7 @@ summary: 您可以重新创建先前禁用的快照卷或快照一致性组快�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 选择* Snapshot Volumes*选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot volumes]。
 +
 此时将显示Snapshot Volumes表、其中显示了与存储阵列关联的所有Snapshot卷。
 

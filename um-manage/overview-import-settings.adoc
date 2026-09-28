@@ -15,6 +15,7 @@ summary: 您可以将设置从一个存储阵列导入到另一个存储阵列�
 
 
 
+[[what-settings-can-be-imported]]
 == 可以导入哪些设置？
 
 您可以导入警报方法、AutoSupport 配置、目录服务配置、存储配置(例如卷组和池)和系统设置(例如自动负载平衡)。
@@ -27,6 +28,7 @@ summary: 您可以将设置从一个存储阵列导入到另一个存储阵列�
 
 
 
+[[how-do-i-perform-a-batch-import]]
 == 如何执行批量导入？
 
 在要用作源的存储阵列上、打开System Manager并配置所需的设置。然后从Unified Manager中、转到"管理"页面并将设置导入到一个或多个阵列。

@@ -22,6 +22,7 @@ summary: 您可以获取并导入CA签名的证书、以安全访问托管Unifie
 
 
 
+[[step-1-complete-a-csr-file]]
 == 第1步：完成CSR文件
 
 您必须先生成证书签名请求(CSR)文件、用于标识您的组织以及安装了Web服务代理和Unified Manager的主机系统。
@@ -57,6 +58,7 @@ summary: 您可以获取并导入CA签名的证书、以安全访问托管Unifie
 
 
 
+[[step-2-submit-csr-file]]
 == 第2步：提交CSR文件
 
 创建证书签名请求(CSR)文件后、您可以将其发送到证书颁发机构(CA)、以接收托管Unified Manager和Web服务代理的系统的已签名管理证书。
@@ -81,6 +83,7 @@ NOTE: E系列系统要求对签名证书使用PEM格式(Base64 ASCII编码)、�
 
 
 
+[[step-3-import-management-certificates]]
 == 第3步：导入管理证书
 
 从证书颁发机构(CA)收到签名证书后、请将这些证书导入到安装了Web服务代理和Unified Manager界面的主机系统中。

@@ -15,7 +15,7 @@ summary: 启用AutoSupport 维护窗口以禁止在发生错误事件时自动�
 启用AutoSupport 维护窗口以禁止在发生错误事件时自动创建服务单。在正常操作模式下、如果存在问题描述 、存储阵列将使用AutoSupport 向支持部门创建案例。
 
 .步骤
-. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
+. 从左侧面板中，选择菜单：支持[AutoSupport]。
 . 选择*启用AutoSupport 维护窗口*。
 . 输入电子邮件地址、以确认维护窗口请求已处理。
 +

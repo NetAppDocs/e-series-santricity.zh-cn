@@ -33,6 +33,7 @@ summary: 使用 Script 编辑器创建或编辑脚本文件，将脚本文件保
 
 
 
+[[open-the-script-editor]]
 == 打开脚本编辑器
 
 .步骤
@@ -136,6 +137,7 @@ Continue`语句允许脚本在遇到执行错误后继续运行。此语句是�
 
 
 
+[[write-scripts-in-the-script-editor]]
 === 在脚本编辑器中编写脚本
 
 .开始之前
@@ -169,6 +171,7 @@ setting controller mode
 
 
 
+[[interpret-script-execution-results]]
 === 解读脚本执行结果
 
 在脚本执行期间，消息出现在输出窗格中，开头为：

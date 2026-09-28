@@ -30,8 +30,7 @@ summary: 要为访问管理配置身份验证、您可以在存储阵列和LDAP�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Settings[Access Management]。
-. 从目录服务选项卡中、选择*添加目录服务器*。
+. 从左侧面板中，选择菜单：Authentication[Directory services]，然后选择 *Add Directory Server*。
 +
 此时将打开添加目录服务器对话框。
 

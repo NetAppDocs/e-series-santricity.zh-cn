@@ -56,4 +56,4 @@ System Manager将执行以下操作：
 * 清除块索引、这样会将未写入的块读取为零填充(卷显示为完全空)。
 
 
-选择菜单：Storage[Operations in Progress] 以查看当前为所选卷运行的初始化操作的进度。此操作可能很长，并可能影响系统性能。
+选择菜单：Monitoring[Operations in progress]，查看当前为选定卷运行的初始化操作的进度。此操作可能耗时较长，并可能影响系统性能。

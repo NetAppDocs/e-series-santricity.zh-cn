@@ -47,7 +47,7 @@ summary: 通常、如果创建的卷参数或容量不正确、不再满足存�
 ====
 .步骤
 . 从左侧面板中，选择菜单：Storage[Volumes]。
-. 选择要删除的卷，然后单击 menu:ellipsis icon[Delete]。
+. 找到要删除的卷，然后单击 menu:ellipsis icon[Delete]。
 +
 此时将显示删除卷对话框。
 

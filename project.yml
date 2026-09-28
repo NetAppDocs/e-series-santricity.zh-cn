@@ -8,7 +8,7 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: 12.0x
+  - version-number: 12.1x
     url: "/e-series-santricity"
   - version-number: 11.9x
     url: "/e-series-santricity-119"
@@ -17,7 +17,7 @@ settings:
   langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
 sidebar:
   entries:
-  - title: SANtricity 软件 12.00 文档
+  - title: SANtricity 软件 12.10 文档
     url: "/index.html"
   - title: 发行说明
     entries:
@@ -506,8 +506,6 @@ sidebar:
           url: "/sm-hardware/view-hardware-components.html"
         - title: 显示或隐藏组件状态
           url: "/sm-hardware/show-or-hide-component-status.html"
-        - title: 在正面视图和背面视图之间切换
-          url: "/sm-hardware/switch-between-front-and-back-views.html"
         - title: 更改磁盘架的视图顺序
           url: "/sm-hardware/change-view-order-of-shelves.html"
         - title: 打开磁盘架定位灯

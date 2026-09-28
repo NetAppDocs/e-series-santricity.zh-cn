@@ -28,7 +28,7 @@ System Manager将显示这些类型的iSCSI统计信息。所有统计信息均�
 您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。原始统计信息是自控制器启动以来收集的所有统计信息。基线统计信息是自设置基线时间以来收集的时间点统计信息。
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[System]。
+. 从左侧面板中，选择 *System*。
 . 选择 *View iSCSI Statistics*。
 . 单击一个选项卡可查看不同的统计信息集。
 . *可选：*要设置基线、请单击*设置新基线*。
@@ -41,6 +41,7 @@ System Manager将显示这些类型的iSCSI统计信息。所有统计信息均�
 
 
 
+[[mac-transmit-and-mac-receive-statistics]]
 == MAC传输和MAC接收统计信息
 
 如果选择以太网MAC统计信息、则会同时显示接收和传输统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
@@ -273,6 +274,7 @@ CSE
 ====
 
 
+[[ethernet-tcpip-statistics]]
 == 以太网TCP/IP统计信息
 
 如果选择以太网TCP/IP统计信息、则会同时显示TCP和IP统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
@@ -463,6 +465,7 @@ DRE-TOC
 ====
 
 
+[[iscsi-target-statistics-and-local-initiator-statistics]]
 == iSCSI目标统计信息和本地启动程序统计信息
 
 如果选择目标(协议)统计信息或本地启动程序(协议)统计信息、则会显示iSCSI统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
@@ -547,6 +550,7 @@ UCT
 ====
 
 
+[[dcbx-operational-state-statistics]]
 == DCBX运行状态统计信息
 
 选择数据中心桥接交换(Data Center Bridging Exchange、DCBX)操作状态统计信息后、将显示DCBX统计信息。
@@ -606,6 +610,7 @@ NOTE: 您可以在状态捕获文件中找到其他DCBX运行状态统计信息�
 
 
 
+[[lldp-tlv-statistics]]
 == LLDP TLV统计信息
 
 如果选择链路层发现协议(Link Layer Discovery Protocol、LLDP) Type L长度 值(TLV) Statistics、则会显示两组统计信息：一组用于本地设备、一组用于远程设备。本地设备是指控制器。远程设备是指控制器所连接的对等设备、通常是交换机。
@@ -665,6 +670,7 @@ NOTE: 您可以在状态捕获文件中找到其他LLDP TLV统计信息。
 
 
 
+[[dcbx-tlv-statistics]]
 == DCBX TLV统计信息
 
 选择数据中心桥接交换(Data Center Bridging Exchange、DCBX)类型长度值(TLV)统计信息时、将显示以下统计信息：

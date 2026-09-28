@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[why-cant-i-log-in]]
 == 为什么我无法登录？
 
 如果在尝试登录到SANtricity系统管理器时收到错误、请查看这些可能的原因。
@@ -26,7 +27,7 @@ System Manager登录错误可能是由于以下原因之一：
 * 您的权限不足。
 * 目录服务器(如果已配置)可能不可用。如果是这种情况、请尝试使用本地用户角色登录。
 * 您尝试多次登录失败、从而触发锁定模式。等待10分钟以重新登录。
-* 已触发锁定条件、并且您的审核日志可能已满。转至访问管理并从审核日志中删除旧事件。
+* 已触发锁定条件，您的审核日志可能已满。转到监控 > 审核日志，从审核日志中删除旧事件。
 * 已启用SAML身份验证。刷新浏览器以登录。
 
 
@@ -39,6 +40,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == 在添加目录服务器之前、我需要了解哪些信息？
 
 在Access Management中添加目录服务器之前、请确保满足以下要求。
@@ -50,6 +52,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == 关于映射到存储阵列角色、我需要了解哪些信息？
 
 在将组映射到角色之前、请查看以下准则。
@@ -64,6 +67,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[directory-services]]
 === 目录服务
 
 如果您使用的是LDAP (轻型目录访问协议)服务器和目录服务、请确保：
@@ -80,6 +84,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[saml]]
 === SAML
 
 如果您使用的是存储阵列中嵌入的安全断言标记语言(SAML)功能、请确保：
@@ -97,12 +102,14 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[which-external-management-tools-may-be-affected-by-this-change]]
 == 哪些外部管理工具可能会受到此更改的影响？
 
 在SANtricity系统管理器中进行某些更改(例如切换管理接口或使用SAML进行身份验证方法)时、可能会限制使用某些外部工具和功能。
 
 
 
+[[management-interface]]
 === 管理接口
 
 除非启用旧版管理接口设置、否则直接与旧版管理界面(符号)通信的工具(例如SANtricity SMI-S Provider或OnCommand Insight (OCI))无法正常工作。此外、如果禁用了此设置、则不能使用传统CLI命令或执行镜像操作。
@@ -111,6 +118,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[saml-authentication]]
 === SAML 身份验证
 
 启用SAML后、以下客户端将无法访问存储阵列服务和资源：
@@ -127,12 +135,14 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == 在配置和启用SAML之前、我需要了解哪些信息？
 
 在配置和启用安全断言标记语言(SAML)身份验证功能之前、请确保满足以下要求并了解SAML限制。
 
 
 
+[[requirements]]
 === 要求
 
 开始之前、请确保：
@@ -147,6 +157,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[restrictions]]
 === 限制
 
 除了上述要求之外、请确保您了解以下限制：
@@ -168,6 +179,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[what-types-of-events-are-recorded-in-the-audit-log]]
 == 审核日志中记录了哪些类型的事件？
 
 审核日志可以记录修改事件、也可以同时记录修改和只读事件。
@@ -180,6 +192,7 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[what-do-i-need-to-know-before-configuring-a-syslog-server]]
 == 在配置系统日志服务器之前、我需要了解哪些信息？
 
 您可以将审核日志归档到外部系统日志服务器。
@@ -195,8 +208,9 @@ System Manager登录错误可能是由于以下原因之一：
 
 
 
+[[the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do]]
 == 系统日志服务器不再接收审核日志。我该怎么办？
 
 如果您为系统日志服务器配置了TLS协议、则如果证书因任何原因而无效、则服务器将无法接收消息。审核日志中会发布一条有关此无效证书的错误消息。
 
-要解决此问题描述 、必须先修复系统日志服务器的证书。建立有效的证书链后、转到菜单：设置[审核日志>配置系统日志服务器>测试全部]。
+要解决此问题，必须首先修复 syslog 服务器的证书。有效的证书链到位后，请转到菜单：Monitoring[Audit log > Configure Syslog Servers > Test All]。

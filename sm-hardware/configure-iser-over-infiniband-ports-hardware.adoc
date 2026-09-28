@@ -19,11 +19,7 @@ summary: 如果控制器包含基于InfiniBand的iSER端口、则可以配置与
 
 
 .步骤
-. 在左侧面板中，选择 *Hardware*。
-. 如果图中显示了驱动器，请单击*控制器和组件*选项卡。
-+
-此图将发生变化，以显示控制器，而不是驱动器。
-
+. 从左侧面板中，选择菜单：Hardware[Controllers and components]。
 . 单击具有要配置的iSER over InfiniBand端口的控制器。
 +
 此时将显示控制器的上下文菜单。
@@ -33,6 +29,6 @@ summary: 如果控制器包含基于InfiniBand的iSER端口、则可以配置与
 此时将打开Configure iSER over InfiniBand Ports对话框。
 
 . 在下拉列表中、选择要配置的HIC端口、然后输入主机的IP地址。
-. 单击 * 配置 * 。
+. 单击 * 保存 * 。
 . 完成配置、然后单击*是*重置基于InfiniBand的iSER端口。
 

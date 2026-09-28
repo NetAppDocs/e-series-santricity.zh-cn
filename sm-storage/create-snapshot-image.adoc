@@ -25,7 +25,7 @@ summary: 您可以从基础卷或快照一致性组手动创建快照映像。�
 . 要创建快照映像、请执行以下操作之一：
 +
 ** 从左侧面板中，选择菜单：Storage[Volumes]。选择对象（基本卷或快照一致性组），然后单击菜单：省略号图标[Create instant snapshot]。
-** 从左侧面板中，选择菜单：Storage[Snapshots]。选择 *Snapshot Images* 选项卡，然后选择菜单：Create[Instant snapshot Image]。
+** 从左侧面板中，选择菜单：Snapshots[Snapshot images]，然后选择菜单：Create[Instant snapshot Image]。
 +
 此时将显示创建Snapshot映像对话框。选择对象(基础卷或快照一致性组)、然后单击*下一步*。如果为卷或快照一致性组创建了先前的快照映像、则系统会立即创建即时快照。否则、如果这是首次为卷或快照一致性组创建快照映像、则会显示确认创建Snapshot映像对话框。
 

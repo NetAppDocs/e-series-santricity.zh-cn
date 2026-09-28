@@ -50,6 +50,7 @@ System Manager不提供创建精简卷的选项。如果要创建精简卷、请
 |===
 
 
+[[thin-volume-restrictions]]
 == 精简卷限制
 
 精简卷支持所有厚卷操作、但以下情况除外：

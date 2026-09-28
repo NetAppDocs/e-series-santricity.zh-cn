@@ -35,7 +35,7 @@ summary: 您可以保存无法读取的扇区日志并将文件发送给技术�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Support[Support Center > Diagnostics] 选项卡。
+. 从左侧面板中，选择菜单：Support[Diagnostics]。
 . 选择*查看/清除不可读扇区*。
 . 要保存无法读取的扇区日志、请执行以下操作：
 +

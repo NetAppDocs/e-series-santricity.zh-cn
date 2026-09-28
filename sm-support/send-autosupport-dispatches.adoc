@@ -21,7 +21,7 @@ SANtricity系统管理器允许您将AutoSupport派单发送给技术支持、�
 此操作会收集支持数据并自动将其发送给技术支持、以便他们可以对问题进行故障排除。
 
 .步骤
-. 在左侧面板中，选择菜单：Support[Support Center > AutoSupport] 选项卡。
+. 从左侧面板中，选择菜单：支持[AutoSupport]。
 . 选择*发送AutoSupport 派遣*。
 +
 此时将显示发送AutoSupport 派单对话框。

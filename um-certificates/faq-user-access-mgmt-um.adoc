@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[why-cant-i-log-in]]
 == 为什么我无法登录？
 
 如果在尝试登录时收到错误、请查看这些可能的原因。
@@ -30,6 +31,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == 在添加目录服务器之前、我需要了解哪些信息？
 
 在Access Management中添加目录服务器之前、您必须满足特定要求。
@@ -41,6 +43,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == 关于映射到存储阵列角色、我需要了解哪些信息？
 
 在将组映射到角色之前、请查看相关准则。
@@ -66,6 +69,7 @@ RBAC (基于角色的访问控制)功能包括以下角色：
 
 
 
+[[saml]]
 === SAML
 
 如果您使用的是存储阵列中嵌入的安全断言标记语言(SAML)功能、请确保：
@@ -83,12 +87,14 @@ RBAC (基于角色的访问控制)功能包括以下角色：
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == 在配置和启用SAML之前、我需要了解哪些信息？
 
 在配置和启用安全断言标记语言(SAML)身份验证功能之前、请确保满足以下要求并了解SAML限制。
 
 
 
+[[requirements]]
 === 要求
 
 开始之前、请确保：
@@ -103,6 +109,7 @@ RBAC (基于角色的访问控制)功能包括以下角色：
 
 
 
+[[restrictions]]
 === 限制
 
 除了上述要求之外、请确保您了解以下限制：
@@ -124,6 +131,7 @@ RBAC (基于角色的访问控制)功能包括以下角色：
 
 
 
+[[what-are-the-local-users]]
 == 本地用户有哪些？
 
 本地用户在系统中预定义、并包括特定权限。

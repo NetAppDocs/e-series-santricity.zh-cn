@@ -16,9 +16,10 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[how-do-i-interpret-nvme-over-fabrics-statistics]]
 == 如何解读基于网络结构的NVMe统计信息？
 
-查看基于网络结构的NVMe统计信息对话框显示NVMe子系统和RDMA接口的统计信息。所有统计信息均为只读、无法设置。
+View NVMe over Fabrics 统计信息对话框显示 NVMe 子系统和 RDMA 接口的统计信息。所有统计信息均为只读，无法设置。
 
 * * NVMe子系统统计信息*-显示NVMe控制器及其队列的统计信息。NVMe控制器可在主机与存储阵列中的命名空间之间提供访问路径。您可以查看连接故障、重置和关闭等项的NVMe子系统统计信息。有关这些统计信息的详细信息、请单击*查看表标题的图例*。
 * * RDMA接口统计信息*-提供RDMA接口上所有基于网络结构的NVMe端口的统计信息、其中包括与每个交换机端口关联的性能统计信息和链路错误信息。只有当基于网络结构的NVMe端口可用时、才会显示此选项卡。有关统计信息的详细信息、请单击*查看表标题的图例*。
@@ -28,6 +29,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband]]
 == 要配置或诊断基于InfiniBand的NVMe、还需要执行哪些操作？
 
 下表列出了可用于配置和管理基于InfiniBand的NVMe会话的SANtricity系统管理器功能。
@@ -45,16 +47,15 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
  a| 
 配置基于InfiniBand的NVMe端口
  a| 
-. 选择 * 硬件 * 。
-. 选择*控制器和组件*选项卡。
+. 选择菜单：Hardware[Controllers and components]。
 . 选择一个控制器。
 . 选择 * 配置基于 InfiniBand 端口的 NVMe * 。
 
 
 或
 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于InfiniBand的NVMe设置*、然后选择*配置基于InfiniBand端口的NVMe *。
+. 选择*System*。
+. 向下滚动到 *NVMe over InfiniBand settings*，然后选择 *Configure NVMe over InfiniBand ports*。
 
 
 
@@ -62,16 +63,17 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
  a| 
 查看基于InfiniBand的NVMe统计信息
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于InfiniBand的NVMe设置*、然后选择*查看基于网络结构的NVMe统计信息*。
+. 选择*System*。
+. 向下滚动到 *NVMe over InfiniBand settings*，然后选择 *View NVMe over Fabrics statistics*。
 
 
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce]]
 == 要通过RoCE配置或诊断NVMe、还需要执行哪些操作？
 
-您可以从硬件和设置页面配置和管理基于RoCE的NVMe。
+您可以从硬件和系统页面配置和管理 NVMe over RoCE。
 
 [NOTE]
 ====
@@ -94,8 +96,8 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 或
 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于RoCE的NVMe设置*、然后选择*配置基于RoCE的NVMe端口*。
+. 选择*System*。
+. 向下滚动到 *NVMe over RoCE settings*，然后选择 *Configure NVMe over RoCE ports*。
 
 
 
@@ -103,13 +105,14 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
  a| 
 查看基于网络结构的NVMe统计信息
  a| 
-. 选择菜单：设置[系统]。
-. 向下滚动到*基于RoCE的NVMe设置*、然后选择*查看基于网络结构的NVMe统计信息*。
+. 选择*System*。
+. 向下滚动到 *NVMe over RoCE 设置*，然后选择 *View NVMe over Fabrics statistics*。
 
 
 |===
 
 
+[[why-are-there-two-ip-addresses-for-one-physical-port]]
 == 为什么一个物理端口有两个IP地址？
 
 EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。
@@ -120,6 +123,7 @@ EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。
 
 
 
+[[why-are-there-two-sets-of-parameters-for-one-physical-port]]
 == 为什么一个物理端口有两组参数？
 
 EF600存储阵列可以包含两个HIC—一个外部HIC和一个内部HIC。

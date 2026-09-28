@@ -23,7 +23,7 @@ summary: 您可以编辑卷组的设置、包括其名称和RAID级别。
 
 .步骤
 . 从左侧面板中，选择菜单：Storage[Pools and volume groups]。
-. 选择要编辑的卷组，然后单击 menu:ellipsis icon[Edit Settings]。
+. 找到要编辑的卷组，然后单击 menu:ellipsis icon[Edit Settings]。
 +
 此时将显示 Edit Volume Group Settings（编辑卷组设置）窗口。
 

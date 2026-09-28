@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[why-does-the-cannot-access-other-controller-dialog-box-appear]]
 == 为什么会显示"无法访问其他控制器"对话框？
 
 在执行与CA证书相关的某些操作(例如、导入证书)时、您可能会看到一个对话框、提示您接受第二个控制器的自签名证书。
@@ -32,6 +33,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[how-do-i-know-what-certificates-need-to-be-uploaded-to-santricity-system-manager-for-external-key-management]]
 == 我如何知道需要将哪些证书上传到SANtricity系统管理器以进行外部密钥管理？
 
 对于外部密钥管理、您可以导入两种类型的证书、以便在存储阵列和密钥管理服务器之间进行身份验证、从而使这两个实体可以相互信任。
@@ -46,6 +48,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-do-i-need-to-know-about-certificate-revocation-checking]]
 == 关于证书撤消检查、我需要了解哪些信息？
 
 使用SANtricity系统管理器、您可以使用联机证书状态协议(Online Certificate Status Protocol、OCSP)服务器(而不是上传证书撤消列表(Certificate Revocation List、CRL))来检查是否存在已撤销的证书。
@@ -61,6 +64,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 ====
 
 
+[[what-types-of-servers-will-revocation-checking-be-enabled-for]]
 == 将为哪些类型的服务器启用撤消检查？
 
 每当存储阵列连接到AutoSupport 服务器、外部密钥管理服务器(External Key Management Server、EKMS)、基于SSL的轻型目录访问协议(Lightweight Directory Access Protocol over SSL、LDAPS)服务器或系统日志服务器时、它都会执行撤消检查。

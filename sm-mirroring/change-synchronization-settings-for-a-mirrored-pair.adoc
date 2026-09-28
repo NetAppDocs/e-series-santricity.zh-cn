@@ -18,7 +18,7 @@ summary: 您可以更改镜像对在通信中断后用于完成重新同步操�
 您只能在包含主卷的存储阵列上编辑镜像对的同步设置。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Synchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Synchronous mirroring]。
 . 选择要编辑的镜像对、然后选择菜单：更多[编辑设置]。
 +
 系统将显示查看/编辑设置对话框。

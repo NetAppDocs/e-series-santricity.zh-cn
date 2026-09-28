@@ -34,7 +34,7 @@ NOTE: 一次最多只能将卷容量扩展到128 TiB。
 ====
 .步骤
 . 从左侧面板中，选择菜单：Storage[Volumes]。
-. 选择要增加容量的卷，然后单击 menu:ellipsis icon[Increase Capacity]。
+. 找到要增加容量的卷，然后单击 menu:ellipsis icon[Increase Capacity]。
 +
 此时将显示确认增加容量页面。
 
@@ -51,7 +51,7 @@ NOTE: 一次最多只能将卷容量扩展到128 TiB。
 
 .结果
 * System Manager会根据您的选择增加卷的容量。
-* 选择菜单：Storage[Operations in Progress] 以查看当前为所选卷运行的增加容量操作的进度。此操作可能很长，并可能影响系统性能。
+* 选择菜单：监控[正在进行的操作]以查看当前为选定卷运行的增加容量操作的进度。此操作可能耗时较长，并可能影响系统性能。
 
 
 .完成后

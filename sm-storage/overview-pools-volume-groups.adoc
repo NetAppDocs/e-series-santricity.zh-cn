@@ -16,6 +16,7 @@ summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存�
 
 
 
+[[what-are-pools-and-volume-groups]]
 == 什么是池和卷组？
 
 池_是一组逻辑分组的驱动器。卷组_是具有共享特征的卷的容器。您可以使用池或卷组创建可供主机访问的卷。
@@ -29,6 +30,7 @@ summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存�
 
 
 
+[[how-do-you-create-pools]]
 == 如何创建池？
 
 您可以允许 System Manager 在检测到存储阵列中的未分配容量时自动创建池。或者，当自动创建无法确定最佳配置时，您可以从菜单：Storage[Pools and volume groups] 手动创建池。
@@ -43,6 +45,7 @@ summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存�
 
 
 
+[[how-do-you-create-volume-groups]]
 == 如何创建卷组？
 
 您可以从菜单：Storage[Pools and volume groups] 创建卷组。
@@ -55,6 +58,7 @@ summary: 您可以从存储阵列中未分配的部分驱动器创建逻辑存�
 
 
 
+[[related-information]]
 == 相关信息
 
 详细了解与池和卷组相关的概念：

@@ -20,6 +20,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 存储系统上不提供同步镜像
 ====
 
 
+[[types-of-mirroring]]
 == 镜像类型
 
 SANtricity 应用程序包括两种类型的镜像：异步和同步。
@@ -30,6 +31,7 @@ SANtricity 应用程序包括两种类型的镜像：异步和同步。
 
 
 
+[[differences-between-mirroring-types]]
 == 镜像类型之间的差异
 
 下表介绍了这两种镜像类型之间的主要区别。

@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager将设置从一个存储阵列导入到�
 
 
 
+[[settings-available-for-import]]
 == 可用于导入的设置
 
 可以将以下配置导入到多个阵列：
@@ -40,6 +41,7 @@ summary: 您可以使用Unified Manager将设置从一个存储阵列导入到�
 
 
 
+[[configuration-workflow]]
 == 配置工作流
 
 要导入设置、请按照以下工作流进行操作：

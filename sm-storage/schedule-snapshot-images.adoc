@@ -32,10 +32,7 @@ summary: 您可以创建快照计划、以便在基础卷出现问题时进行�
 +
 为此快照计划选择对象(卷或快照一致性组)、然后选择菜单：复制服务[创建快照计划]。
 
-** 从左侧面板中，选择菜单：Storage[Snapshots]。
-+
-选择 *Snapshot schedules* 选项卡，然后单击 *Create*。
-
+** 从左侧面板中，选择菜单：Snapshots[Snapshot schedules]，然后单击*Create*。
 
 
 . 为此快照计划选择对象(卷或快照一致性组)、然后单击*下一步*。

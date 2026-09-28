@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-if-i-dont-see-all-of-my-hardware-components]]
 == 如果我没有看到所有硬件组件怎么办？
 
 如果验证硬件对话框中未显示所有硬件组件、则可能表示驱动器架连接不正确或存储阵列中安装了不兼容的磁盘架。
@@ -24,6 +25,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-if-i-dont-see-all-of-my-hosts]]
 == 如果我没有看到所有主机怎么办？
 
 如果未看到已连接的主机、则自动检测失败、主机连接不正确或当前未连接任何主机。
@@ -36,12 +38,14 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[how-does-identifying-applications-help-me-manage-my-storage-array]]
 == 识别应用程序如何帮助我管理存储阵列？
 
 您可以按应用程序和工作负载查看性能数据，以评估应用程序及其相关工作负载的延迟、IOPS 和 MiB/s，从而优化性能。卷配置中包括 I/O 类型、段大小、控制器所有权以及读写缓存等特征。
 
 
 
+[[what-is-a-workload]]
 == 什么是工作负载？
 
 对于网络中的某些应用程序、例如SQL Server或Exchange、您可以定义一个工作负载来优化该应用程序的存储。
@@ -52,14 +56,16 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[how-do-i-configure-the-delivery-method-for-autosupport]]
 == 如何配置AutoSupport 的交付方法？
 
-要访问AutoSupport 交付方法的配置任务、请转到菜单：Support[支持中心]、然后单击* AutoSupport *选项卡。
+要访问 AutoSupport 交付方式的配置任务，请转到菜单：支持[AutoSupport]。
 
 支持以下协议：HTTPS和SMTP。
 
 
 
+[[how-do-i-know-if-i-should-accept-the-recommended-pool-configuration]]
 == 如何知道是否应接受建议的池配置？
 
 是否接受建议的池配置取决于几个因素。
@@ -75,6 +81,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[santricity-system-manager-has-not-detected-any-hosts-what-do-i-do]]
 == SANtricity系统管理器未检测到任何主机。我该怎么办？
 
 如果未看到已连接的主机、则自动检测失败、主机连接不正确或当前未连接任何主机。

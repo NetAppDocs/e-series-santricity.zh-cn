@@ -33,8 +33,7 @@ summary: 您最多可以添加10个服务器来发送SNMP陷阱。
 
 
 .步骤
-. 在左侧面板中，选择菜单：Settings[Alerts]。
-. 选择* SNMP *选项卡。
+. 从左侧面板中，选择菜单：Alerts[SNMP alerts]。
 +
 表中将显示当前定义的陷阱目标。
 

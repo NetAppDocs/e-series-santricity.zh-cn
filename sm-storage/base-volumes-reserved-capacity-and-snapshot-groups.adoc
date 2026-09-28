@@ -15,6 +15,7 @@ Snapshot功能可使用基础卷、预留容量和快照组。
 
 
 
+[[base-volumes]]
 == 基础卷
 
 a _base volume"是用作快照映像源的卷。基础卷可以是厚卷、也可以是精简卷、并且可以驻留在池或卷组中。
@@ -29,6 +30,7 @@ image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot对象和基�
 
 
 
+[[reserved-capacity-and-snapshot-groups]]
 == 预留容量和快照组
 
 System Manager会将快照映像组织为_snapshot groups_.当System Manager建立快照组时、它会自动创建关联的_reserved capacity_、以存放组的快照映像并跟踪后续对其他快照所做的更改。
@@ -43,6 +45,7 @@ Snapshot组无需用户操作、但您可以随时调整Snapshot组上的预留�
 
 
 
+[[auto-deletion]]
 == 自动删除
 
 使用快照时、请使用默认选项启用自动删除。自动删除功能会在快照组达到32个映像的快照组限制时自动删除最旧的快照映像。如果关闭自动删除、则最终会超过快照组限制、您必须手动执行操作来配置快照组设置并管理预留容量。

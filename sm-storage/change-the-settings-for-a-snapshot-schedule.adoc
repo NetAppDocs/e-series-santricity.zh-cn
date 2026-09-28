@@ -20,8 +20,7 @@ summary: 对于快照计划、您可以更改自动收集时间或收集频率�
 由于快照计划与快照组或快照一致性组关联、因此、计划设置更改可能会影响预留的容量。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 单击 *Snapshot Schedules* 选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot schedules]。
 . 选择要更改的快照计划、然后单击*编辑*。
 +
 此时将显示编辑Snapshot计划对话框。

@@ -20,7 +20,7 @@ summary: 如果控制器包含基于InfiniBand的iSER端口、则可以配置与
 
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[System]。
+. 从左侧面板中，选择 *System*。
 . 在 *iSER 设置*下，选择*通过 InfiniBand 端口配置 iSER*。
 . 单击具有要配置的iSER over InfiniBand端口的控制器。单击 * 下一步 * 。
 . 在下拉列表中、选择要配置的HIC端口、然后输入主机的IP地址。

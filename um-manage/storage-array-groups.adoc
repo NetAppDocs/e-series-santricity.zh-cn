@@ -15,6 +15,7 @@ summary: 您可以通过对一组存储阵列进行分组来管理物理和虚�
 
 
 
+[[types-of-storage-array-groups]]
 == 存储阵列组的类型
 
 * *所有组*

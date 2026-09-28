@@ -15,6 +15,7 @@ summary: 访问管理是一种在SANtricity Unified Manager中配置用户身份
 
 
 
+[[what-authentication-methods-are-available]]
 == 有哪些身份验证方法可用？
 
 可以使用以下身份验证方法：
@@ -34,6 +35,7 @@ summary: 访问管理是一种在SANtricity Unified Manager中配置用户身份
 
 
 
+[[how-do-i-configure-access-management]]
 == 如何配置访问管理？
 
 SANtricity 软件已预先配置为使用本地用户角色。如果要使用LDAP、可以在访问管理页面下对其进行配置。

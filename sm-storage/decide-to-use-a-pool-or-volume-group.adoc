@@ -15,6 +15,7 @@ summary: 您可以使用池或卷组创建卷。最佳选择主要取决于关�
 
 
 
+[[reasons-to-choose-a-pool-or-volume-group]]
 == 选择池或卷组的原因
 
 *选择池*
@@ -40,6 +41,7 @@ summary: 您可以使用池或卷组创建卷。最佳选择主要取决于关�
 ====
 
 
+[[feature-differences-between-pools-and-volume-groups]]
 == 池和卷组之间的功能差异
 
 下表提供了卷组和池之间的功能比较。
@@ -149,6 +151,7 @@ No：must allocate hotspares、configure RAID
 |===
 
 
+[[functional-comparison-of-pools-and-volume-groups]]
 == 池和卷组的功能比较
 
 池和卷组的功能和用途相同。这两个对象都是一组驱动器、这些驱动器在存储阵列中逻辑分组在一起、用于创建主机可以访问的卷。

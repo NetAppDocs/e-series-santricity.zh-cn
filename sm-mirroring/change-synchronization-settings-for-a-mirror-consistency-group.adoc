@@ -18,7 +18,7 @@ summary: 您可以更改本地存储阵列上的镜像一致性组在初始同�
 更改同步设置会影响镜像一致性组中所有镜像对的同步操作。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Asynchronous mirror consistency groups]。
 . 选择*镜像一致性组*选项卡。
 +
 此时将显示镜像一致性组表、并显示与存储阵列关联的所有镜像一致性组。

@@ -46,7 +46,7 @@ NOTE: 在池中创建的任何新卷都将支持DA。如果您希望现有卷支
 ====
 .步骤
 . 从左侧面板中，选择菜单：Storage[Pools and volume groups]。
-. 选择池或 SSD Cache，然后单击菜单：省略号图标[Remove capacity]。
+. 找到池或 SSD 缓存，然后单击菜单：省略号图标[Remove capacity]。
 +
 此时将显示删除容量对话框。
 

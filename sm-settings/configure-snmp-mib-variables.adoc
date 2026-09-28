@@ -37,8 +37,7 @@ summary: '对于SNMP警报、您可以选择配置SNMP陷阱中显示的管理�
 
 
 .步骤
-. 在左侧面板中，选择菜单：Settings[Alerts]。
-. 选择* SNMP *选项卡。
+. 从左侧面板中，选择菜单：Alerts[SNMP alerts]。
 . 选择*配置SNMP MIB变量*。
 +
 此时将打开配置SNMP MIB变量对话框。

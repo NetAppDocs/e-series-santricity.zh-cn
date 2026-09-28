@@ -2,7 +2,7 @@
 permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
-summary: 如果您先前已禁用资源配置的默认功能、则可以转到设置并为您创建的任何新SSD卷组或池重新启用此功能。您也可以再次禁用此设置。 
+summary: 如果以前禁用了资源调配的默认功能，则可以转到系统，并为您创建的任何新 SSD 卷组或池重新启用它。您也可以再次禁用此设置。 
 ---
 = 在 SANtricity System Manager 中启用或禁用新卷组或池的资源配置
 :allow-uri-read: 
@@ -28,7 +28,7 @@ NOTE: 默认情况下、在驱动器支持DULBE"的系统上启用资源配置�
 在为新卷组或池重新启用资源配置时、仅会影响新创建的卷组和池。启用了资源配置的任何现有卷组和池将保持不变。
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[System]。
+. 从左侧面板中，选择 *System*。
 . 向下滚动到*其他设置*、然后单击*启用/禁用资源配置卷*。
 +
 设置问题描述 指示当前是启用还是禁用资源配置。

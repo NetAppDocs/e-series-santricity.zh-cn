@@ -15,6 +15,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[snapshot-images-and-snapshot-groups]]
 == Snapshot映像和Snapshot组
 
 * 每个快照映像仅与一个快照组相关联。
@@ -29,6 +30,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[snapshot-consistency-group]]
 == Snapshot一致性组
 
 * 对于属于快照一致性组的每个卷、快照一致性组包含一个快照组。
@@ -39,6 +41,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[base-volume]]
 == 基础卷
 
 * 快照卷必须与关联的基础卷具有相同的数据保证(Data Assurance、DA)和安全设置。
@@ -49,6 +52,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[reserved-capacity]]
 == 预留容量
 
 * 预留容量仅与一个基本卷相关联。
@@ -58,6 +62,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[pending-snapshot-images]]
 == 待定快照映像
 
 在以下情况下、快照映像创建可能会保持"Pending"状态：
@@ -68,6 +73,7 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[maximum-number-of-snapshot-images]]
 == 最大快照映像数
 
 * 如果某个卷是快照一致性组的成员、则System Manager会为该成员卷创建一个快照组。此快照组计入每个基础卷允许的最大快照组数。
@@ -81,12 +87,14 @@ summary: 创建和使用快照时、请查看以下要求和准则。
 
 
 
+[[auto-deletion]]
 == 自动删除
 
 如果启用了快照组或快照一致性组自动删除、则System Manager会在系统为该组创建新快照映像时删除最旧的快照映像。
 
 
 
+[[rollback-operation]]
 == 回滚操作
 
 * 正在执行回滚操作时、您无法执行以下操作：

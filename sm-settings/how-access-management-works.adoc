@@ -22,7 +22,7 @@ summary: 访问管理是在SANtricity System Manager中建立用户身份验证�
 首次登录时、系统会自动显示用户名`admin`、并且无法更改。`admin`用户可以完全访问系统中的所有功能。
 
 ====
-. 管理员可在用户界面中导航到访问管理。存储阵列已预先配置为使用本地用户角色、这是RBAC (基于角色的访问控制)功能的实施。
+. 管理员导航到用户界面中的身份验证。存储阵列已预配置为使用本地用户角色，这是 RBAC（基于角色的访问控制）功能的实现。
 . 管理员配置以下一种或多种身份验证方法：
 +
 ** *本地用户角色*—身份验证通过在存储阵列中强制实施的RBAC功能进行管理。本地用户角色包括预定义的用户配置文件以及具有特定访问权限的角色。管理员可以使用这些本地用户角色作为单一身份验证方法、也可以将其与目录服务结合使用。除了为用户设置密码之外、无需进行任何配置。
@@ -52,6 +52,7 @@ summary: 访问管理是在SANtricity System Manager中建立用户身份验证�
 
 
 
+[[tasks-available-in-system-manager]]
 == System Manager中提供的任务
 
 任务访问权限取决于用户分配的角色、这些角色包括：
@@ -66,6 +67,7 @@ summary: 访问管理是在SANtricity System Manager中建立用户身份验证�
 
 
 
+[[limitations-in-unified-manager-and-storage-manager]]
 == Unified Manager和Storage Manager中的限制
 
 如果为存储阵列配置了SAML、则用户无法通过Unified Manager或原有Storage Manager界面发现或管理该阵列的存储。

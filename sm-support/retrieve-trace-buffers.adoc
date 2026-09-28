@@ -23,7 +23,7 @@ summary: 您可以从控制器中检索跟踪缓冲区、并将文件发送给�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Support[Support Center > Diagnostics] 选项卡。
+. 从左侧面板中，选择菜单：Support[Diagnostics]。
 . 选择*检索跟踪缓冲区*。
 . 选中要检索跟踪缓冲区的每个控制器旁边的复选框。
 +

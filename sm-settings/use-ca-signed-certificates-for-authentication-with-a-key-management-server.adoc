@@ -22,6 +22,7 @@ summary: 要在密钥管理服务器和存储阵列控制器之间实现安全�
 
 
 
+[[step-1-complete-and-submit-csr-for-authentication-with-a-key-management-server]]
 == 第1步：完成并提交CSR、以便使用密钥管理服务器进行身份验证
 
 您必须先生成证书签名请求(CSR)文件、然后使用CSR从密钥管理服务器信任的证书颁发机构(CA)请求签名客户端证书。您还可以使用下载的CSR文件从密钥管理服务器创建和下载客户端证书。客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。
@@ -30,8 +31,7 @@ summary: 要在密钥管理服务器和存储阵列控制器之间实现安全�
 NOTE: 通过私钥和公共密钥对在外部生成的CSR文件可以通过"Create External Security Key"(创建外部安全密钥)对话框导入。有关导入外部生成的CSR文件的详细信息，请参阅 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server["第2步：导入密钥管理服务器的证书"]。
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[Certificates]。
-. 从密钥管理选项卡中、选择*完成CSR*。
+. 从左侧面板中，选择菜单：Certificates[Key management certificates]，然后选择 *Complete CSR*。
 . 输入以下信息：
 +
 ** *公用名*--用于标识客户机的名称。常见做法是、将公用名中的内容与KMS服务器对客户端证书命名约定的要求进行匹配。公用名通常有助于KMS在握手期间提供客户端证书时识别该证书。
@@ -56,6 +56,7 @@ NOTE: 密钥管理服务器通常具有直接生成签名证书的工具、因�
 
 
 
+[[step-2-import-certificates-for-the-key-management-server]]
 == 第2步：导入密钥管理服务器的证书
 
 下一步是、在存储阵列和密钥管理服务器之间导入用于身份验证的证书。证书有两种类型：客户端证书用于验证存储阵列的控制器、而密钥管理服务器证书用于验证服务器。您必须加载控制器的客户端证书文件和密钥管理服务器的服务器证书文件。
@@ -72,8 +73,7 @@ NOTE: 密钥管理服务器通常具有直接生成签名证书的工具、因�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Settings[Certificates]。
-. 从密钥管理选项卡中、选择*导入*。
+. 从左侧面板中，选择菜单：Certificates[Key management certificates]，然后选择*Import*。
 +
 此时将打开一个对话框、用于导入证书文件。
 

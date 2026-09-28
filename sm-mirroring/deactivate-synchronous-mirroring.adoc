@@ -18,7 +18,7 @@ summary: '您可以在存储阵列上停用同步镜像功能、以重新建立�
 您必须已删除所有同步镜像关系。验证是否已从存储阵列中删除所有镜像对。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Synchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Synchronous mirroring]。
 . 选择菜单：不常见任务[停用]。
 +
 系统将显示确认信息。

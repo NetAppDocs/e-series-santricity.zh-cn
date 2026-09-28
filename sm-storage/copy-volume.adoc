@@ -44,7 +44,7 @@ summary: '您可以将数据从一个卷复制到同一存储阵列中的另一�
 ====
 .步骤
 . 从左侧面板中，选择菜单：Storage[Volumes]。
-. 选择要用作 Copy Volume 操作的源的卷，然后单击菜单：省略号图标[Copy volume]。
+. 找到要用作"复制卷"操作的源的卷，然后单击 menu:ellipsis icon[Copy volume]。
 +
 此时将显示 Copy Volume 窗口。
 
@@ -94,7 +94,7 @@ summary: '您可以将数据从一个卷复制到同一存储阵列中的另一�
 
 
 .结果
-System Manager会将源卷中的所有数据复制到目标卷。复制卷操作完成后、目标卷将自动成为主机的只读卷。
+System Manager 将所有数据从源卷复制到目标卷。
 
 .完成后
-选择菜单：Storage[Operations in Progress] 以查看 Copy Volume 操作的进度。此操作可能很长，并可能影响系统性能。
+选择菜单：监控[正在进行的操作]以查看"复制卷"操作的进度。此操作可能耗时较长，并可能影响系统性能。

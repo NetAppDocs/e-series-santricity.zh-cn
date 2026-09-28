@@ -17,8 +17,7 @@ summary: 如果需要、您可以将只读快照卷或快照一致性组快照�
 转换为读写可访问的Snapshot卷包含其自身的预留容量。此容量用于将主机应用程序随后所做的任何修改保存到基础卷、而不会影响引用的快照映像。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 选择* Snapshot Volumes*选项卡。
+. 从左侧面板中，选择菜单：Snapshots[Snapshot volumes]。
 +
 此时将显示Snapshot Volumes表、其中显示了与存储阵列关联的所有Snapshot卷。
 

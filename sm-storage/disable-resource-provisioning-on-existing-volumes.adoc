@@ -29,7 +29,7 @@ summary: 您可以在现有池或卷组上启用或禁用资源配置。
 在为现有卷组或池禁用资源配置时、后台操作会重新写入每个卷中的所有逻辑块。现有数据保持不变。写入操作将在与卷组或池关联的驱动器上映射或配置块。
 
 
-NOTE: 对于新的卷组和池、您可以从菜单：设置[系统>其他设置>启用/禁用资源配置的卷]启用或禁用资源配置。
+NOTE: 对于新的卷组和池，可以从菜单启用或禁用资源调配：System[Additional settings > Configure resource-provisioned volumes]。
 
 .步骤
 . 从左侧面板中，选择菜单：Storage[Pools and volume groups]。

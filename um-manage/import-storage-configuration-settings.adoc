@@ -16,7 +16,7 @@ summary: 您可以将存储配置从一个存储阵列导入到其他存储阵�
 
 .开始之前
 * 已在SANtricity 系统管理器中为要用作源的存储阵列配置存储。
-* 目标存储阵列的现有配置会在System Manager中进行备份(菜单：设置[系统>保存存储阵列配置])。
+* 目标存储阵列的现有配置在 System Manager 中备份（菜单：System[Save storage array configuration]）。
 * 源阵列和目标阵列必须满足以下要求：
 +
 ** 控制器所在的磁盘架必须相同。

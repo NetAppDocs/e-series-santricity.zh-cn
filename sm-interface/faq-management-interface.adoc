@@ -16,6 +16,7 @@ summary: 如果您只是想快速了解问题解答，此常见问题解答会�
 
 
 
+[[what-are-the-supported-browsers]]
 == 支持哪些浏览器？
 
 SANtricity系统管理器支持这些浏览器版本。
@@ -54,12 +55,14 @@ Microsoft Edge
 |===
 
 
+[[what-are-the-keyboard-shortcuts]]
 == 什么是键盘快捷键？
 
 您可以仅使用键盘在SANtricity系统管理器中导航。
 
 
 
+[[overall-navigation]]
 === 整体导航
 
 [cols="1a,1a"]
@@ -117,6 +120,7 @@ Shift + Tab
 |===
 
 
+[[table-navigation]]
 === 表导航
 
 [cols="1a,1a"]
@@ -146,6 +150,7 @@ Shift + Tab
 |===
 
 
+[[calendar-navigation]]
 === 日历导航
 
 [cols="1a,1a"]
@@ -245,6 +250,7 @@ Control + Page Down
 |===
 
 
+[[how-do-performance-statistics-for-individual-volumes-relate-to-the-total]]
 == 各个卷的性能统计信息与总数有何关系？
 
 池和卷组的统计信息是通过聚合所有卷计算得出的、包括预留容量卷。
@@ -255,6 +261,7 @@ Control + Page Down
 
 
 
+[[why-does-data-display-as-zero-in-the-graphs-and-table]]
 == 为什么数据在图形和表中显示为零？
 
 如果在图形和表中为某个数据点显示零、则表示该对象在该时间点没有I/O活动。发生这种情况的原因可能是主机未向该对象启动I/O、或者该对象本身存在问题。
@@ -315,6 +322,7 @@ Volume
 |===
 
 
+[[what-does-the-latency-graph-show]]
 == 延迟图显示了什么内容？
 
 延迟图提供了卷、卷组、池、应用程序和工作负载的延迟统计信息，以毫秒 (ms) 为单位。此图形显示在"逻辑视图"、"物理视图"和"应用程序和工作负载视图"选项卡中。
@@ -328,9 +336,10 @@ Volume
 
 
 
+[[what-does-the-iops-graph-show]]
 == IOPS图显示了什么？
 
-IOPS 图表显示每秒输入/输出操作的统计信息。在主页上，此图表显示存储阵列的统计信息。在 Performance 页面的 Logical View、Physical View 和 Applications and workloads View 选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。
+IOPS 图表显示每秒输入/输出操作的统计信息。在仪表板上，此图表显示存储阵列的统计信息。在"性能"页面的"逻辑视图"、"物理视图"和"应用程序和工作负载视图"选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。
 
 IOPS是_input/output (I/O) operations per second_的缩写。将光标悬停在图形上的某个点上、可查看该时间点的以下值：
 
@@ -341,9 +350,10 @@ IOPS是_input/output (I/O) operations per second_的缩写。将光标悬停在�
 
 
 
+[[what-does-the-mibs-graph-show]]
 == MIB/s图显示什么？
 
-MiB/s 图表以每秒兆字节为单位显示传输速度统计信息。在主页上，此图表显示存储阵列的统计信息。在 Performance 页面的 Logical View、Physical View 和 Applications and workloads View 选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。
+MiB/s 图表以每秒兆字节（mebibytes）为单位显示传输速度统计信息。在仪表板上，此图表显示存储阵列的统计信息。在"性能"页面的"逻辑视图"、"物理视图"和"应用程序和工作负载视图"选项卡中，此图表显示存储阵列、卷、卷组、池、应用程序和工作负载的统计信息。
 
 MiB/秒是_mebibytes per second_的缩写、即1、048、576字节/秒。将光标悬停在图形上的某个点上、可查看该时间点的以下值：
 
@@ -354,22 +364,25 @@ MiB/秒是_mebibytes per second_的缩写、即1、048、576字节/秒。将光�
 
 
 
+[[what-does-the-cpu-graph-show]]
 == CPU图形显示了什么？
 
-CPU 图表显示每个控制器（控制器 A 和控制器 B）的处理能力统计信息。CPU 是_中央处理器_的缩写。在主页上，此图表显示存储阵列的统计信息。在性能页面的物理视图选项卡上，此图表显示存储阵列和驱动器的统计信息。
+CPU 图表显示每个控制器（控制器 A 和控制器 B）的处理能力统计信息。CPU 是_中央处理器_的缩写。在仪表板上，此图表显示存储阵列的统计信息。在性能页面的物理视图选项卡上，此图表显示存储阵列和驱动器的统计信息。
 
 CPU图形显示了阵列上的操作所使用的CPU处理容量百分比。即使没有发生外部I/O、CPU利用率百分比也可以不为零、因为存储操作系统可能正在执行后台操作和监控。将光标悬停在图形上的某个点上、可查看该时间点所使用的处理能力百分比。
 
 
 
+[[what-does-the-headroom-graph-show]]
 == 性能余量图显示了哪些内容？
 
-净空图与存储阵列控制器的剩余性能功能相关。此图形在主页和性能页面的物理视图选项卡上可见。
+净空图与存储阵列控制器的剩余性能相关。此图表在控制面板和"性能"页面的"物理视图"选项卡上可见。
 
 性能余量图显示了存储系统中物理对象的剩余性能。将光标悬停在图中的某个点上方、可查看控制器A和控制器B的剩余IOPS和MiB/秒功能百分比
 
 
 
+[[where-can-i-find-more-information-about-display-preferences]]
 == 在哪里可以找到有关显示首选项的详细信息？
 
 要查找有关可用显示选项的信息、请执行以下操作：

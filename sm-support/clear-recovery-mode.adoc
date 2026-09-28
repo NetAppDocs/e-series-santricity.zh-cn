@@ -35,7 +35,7 @@ summary: '还原存储阵列配置后、请使用"Clear Recovery Mode"操作恢�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Support[Support Center > Diagnostics] 选项卡。
+. 从左侧面板中，选择菜单：Support[Diagnostics]。
 . 选择*清除恢复模式*、然后确认要执行此操作。
 +
 只有当存储阵列处于恢复模式时、才会显示此选项。

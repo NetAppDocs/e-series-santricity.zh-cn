@@ -23,8 +23,7 @@ summary: '您可以取消正在进行的活动回滚(主动复制数据)、正�
 
 ====
 .步骤
-. 从左侧面板中，选择菜单：Storage[Snapshots]。
-. 单击* Snapshot映像*选项卡。
+. 从左侧面板中，选择 menu:Snapshots[Snapshot images]。
 . 选择活动或暂停的回滚、然后选择菜单：Rollback[Cancel]。
 +
 此时将显示确认取消回滚对话框。

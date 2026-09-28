@@ -23,7 +23,7 @@ summary: 您可以在本地和远程存储阵列上停用异步镜像、以重�
 停用异步镜像时、本地和远程存储阵列上不会发生镜像活动。
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Asynchronous mirror consistency groups]。
 . 选择菜单：不常见任务[停用]。
 +
 系统将显示确认信息。

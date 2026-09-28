@@ -27,7 +27,7 @@ summary: 您可以测试通信链路、以诊断本地存储阵列与与镜像�
 
 
 .步骤
-. 从左侧面板中，选择菜单：Storage[Asynchronous Mirroring]。
+. 从左侧面板中，选择菜单：Mirroring[Asynchronous mirror consistency groups]。
 . 选择*镜像一致性组*选项卡、然后选择要测试的镜像一致性组。
 . 选择*测试通信*。
 +
