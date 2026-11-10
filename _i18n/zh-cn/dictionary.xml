@@ -4662,7 +4662,6 @@
   <block id="93cdbb6011f5cec110b51da4f7da2c61" category="doc">使用iSNS服务器进行注册时会发生什么情况？</block>
   <block id="9f70d94a69fea670e92e1e022dfe9511" category="paragraph">此注册可为iSNS服务器提供控制器的iSCSI限定名称(IQN)和端口信息、并允许在启动程序(iSCSI主机)和目标(控制器)之间进行查询。</block>
   <block id="eb7ac2ae06e4c6929aed5e3ea8735078" category="summary">您可以使用System Manager创建证书签名请求(Certificate Signing Requests、CSR)、导入证书以及管理现有证书。</block>
-  <block id="6b719500a46be35ef104e70ead2e14cb" category="doc">证书概述</block>
   <block id="48175419b6d2c9a5a87011f6ccb110a4" category="section-title">什么是证书？</block>
   <block id="a8dcfbdd9061e0fab3b633f081422a43" category="paragraph">_Certificates_是数字文件、用于标识网站和服务器等联机实体、以便在互联网上进行安全通信。证书有两种类型：_signed certificate"由证书颁发机构(CA)验证；_self-signed certificate"由实体所有者(而不是第三方)验证。</block>
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
@@ -6622,8 +6621,6 @@
   <block id="187d6c7dc064b2e1160460f09ec5d938" category="list-text"><block ref="187d6c7dc064b2e1160460f09ec5d938" category="inline-link-macro-rx"></block></block>
   <block id="58f350d490d06ade1ed3a46f76fe29e5" category="section-title">如何配置镜像？</block>
   <block id="034207a5b0689b9750ad865f17fd2dfe" category="paragraph">您可以在Unified Manager中配置异步或同步镜像、然后使用System Manager管理同步。</block>
-  <block id="457c34efc7526192d414539f64c241d3" category="inline-link-macro">镜像配置工作流</block>
-  <block id="a2c2ab24785ab98435f81f6f49001ec8" category="list-text"><block ref="a2c2ab24785ab98435f81f6f49001ec8" category="inline-link-macro-rx"></block></block>
   <block id="cabd111bd64f2c0b495508e181e87cbb" category="inline-link-macro">使用镜像的要求</block>
   <block id="769e5cef8b7a04539aae3ab7eaffda22" category="list-text"><block ref="769e5cef8b7a04539aae3ab7eaffda22" category="inline-link-macro-rx"></block></block>
   <block id="a247edbf826158f534b2a1bac52db6d0" category="inline-link-macro">创建异步镜像对</block>
@@ -6854,9 +6851,7 @@
   <block id="1ce28fccbd059af9ebab85e5f644e942" category="section-title">可以导入哪些设置？</block>
   <block id="c60d96f37d31d58ac863067912c7f98b" category="paragraph">您可以导入警报方法、AutoSupport 配置、目录服务配置、存储配置(例如卷组和池)和系统设置(例如自动负载平衡)。</block>
   <block id="1c99c00fd0cee61a1217e8a4d3a2f2f3" category="inline-link-macro">导入设置的工作原理</block>
-  <block id="1eaf4936c48bc1f30cb16af32c820a59" category="list-text"><block ref="1eaf4936c48bc1f30cb16af32c820a59" category="inline-link-macro-rx"></block></block>
   <block id="619fa8d14b30418e24e34ef456564a85" category="inline-link-macro">复制存储配置的要求</block>
-  <block id="1388708b1c1631e745e1497782d0a4a5" category="list-text"><block ref="1388708b1c1631e745e1497782d0a4a5" category="inline-link-macro-rx"></block></block>
   <block id="379b94d4679423b71b3ad5d1f504f684" category="section-title">如何执行批量导入？</block>
   <block id="70c7166b154a445fe10a136db28a586f" category="paragraph">在要用作源的存储阵列上、打开System Manager并配置所需的设置。然后从Unified Manager中、转到"管理"页面并将设置导入到一个或多个阵列。</block>
   <block id="475bd5337d6b7fa83c682f24d8d33a33" category="inline-link-macro">导入警报设置</block>
@@ -6923,14 +6918,11 @@
   <block id="a308cde70025b17fe6c5cd5adaa155f3" category="list-text"><block ref="a308cde70025b17fe6c5cd5adaa155f3" category="inline-link-macro-rx"></block></block>
   <block id="66172aeb0189d32ce06409dfd99ccf26" category="list-text"><block ref="66172aeb0189d32ce06409dfd99ccf26" category="inline-link-macro-rx"></block></block>
   <block id="c65d34dff50813b34b5065dfaf00ba86" category="inline-link-macro">发现单个阵列</block>
-  <block id="e4030f71404621b473962d90bbbdc87b" category="list-text"><block ref="e4030f71404621b473962d90bbbdc87b" category="inline-link-macro-rx"></block></block>
   <block id="57e45bf5f6e12e521722b45f43d3afd0" category="section-title">如何管理阵列？</block>
   <block id="7d3d0712e2714dbbe8d4647363a274ab" category="paragraph">发现阵列后、转到*管理-全部*页面。在此页面中、您可以滚动浏览网络中发现的存储阵列列表、查看其状态、并对单个阵列或一组阵列执行操作。</block>
   <block id="b11298094a50528300b64d339010858f" category="paragraph">如果要管理单个阵列、可以将其选中并打开System Manager。</block>
   <block id="a64eb96db49578879ca2e4e10dcf4a50" category="list-text"><block ref="a64eb96db49578879ca2e4e10dcf4a50" category="inline-link-macro-rx"></block></block>
   <block id="2eb9615072a762fcf9887eef0a0a2560" category="list-text"><block ref="2eb9615072a762fcf9887eef0a0a2560" category="inline-link-macro-rx"></block></block>
-  <block id="234804df6b8c83d56d3d447cbd1e7fe3" category="inline-link-macro">查看存储阵列状态</block>
-  <block id="ed3b298a5696d78a02facae953c788ad" category="list-text"><block ref="ed3b298a5696d78a02facae953c788ad" category="inline-link-macro-rx"></block></block>
   <block id="c6ada984d7ca1711de042f34ca89ba6f" category="summary">使用添加/发现单个存储阵列选项手动发现单个存储阵列并将其添加到组织的网络中。</block>
   <block id="5e86bcd5309e2c4febb4a8a41a078b13" category="paragraph">使用添加/发现单个存储阵列选项手动发现单个存储阵列并将其添加到组织的网络中。</block>
   <block id="b851020c009e66a17568b3384c3adb49" category="list-text">选择*发现单个存储阵列*单选按钮。</block>
@@ -7913,36 +7905,27 @@
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">启用SAML后、以下存储阵列功能与JSON Web令牌身份验证的连接将受到限制。</block>
   <block id="afd690b4a6f8f723237e406e691e1994" category="doc">了解SANtricity软件</block>
   <block id="55efb1bea2303063bea2fdc03480bf5d" category="doc">SANtricity 软件浏览器和操作系统支持</block>
-  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">在 SANtricity System Manager 中配置远程登录 (SSH)</block>
   <block id="791192eba5e6ba25fcb3f4d4787bdd42" category="doc">在 SANtricity System Manager 中分配热备件</block>
   <block id="2a179d4ca17916b1724afc04dabd8796" category="doc">在 SANtricity System Manager 中更改架子 ID</block>
   <block id="3efe7542ac804d872e4cb32668bdcd0b" category="doc">更改 SANtricity System Manager 中架子的视图顺序</block>
   <block id="0f25f1493e996ca8c9fe406f75014e5b" category="doc">在 SANtricity System Manager 中配置 DNS 服务器地址</block>
   <block id="6fec971fb5688583e3ae938ea6635252" category="doc">在 SANtricity System Manager 中配置 iSCSI 端口</block>
   <block id="647bd57aa89ba480c449b7af20bcdb4b" category="doc">在 SANtricity System Manager 中配置 iSER over InfiniBand 端口</block>
-  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">在 SANtricity System Manager 中配置管理端口</block>
   <block id="942b826e8bf81247277dd17294833adb" category="doc">在 SANtricity System Manager 中配置 NTP 服务器地址</block>
   <block id="ed71508096ddf105f7a66756aaa909a1" category="doc">在 SANtricity System Manager 中配置 NVMe over InfiniBand 端口</block>
   <block id="139a4bc3ba2ed00c3628e46a02eaec8e" category="doc">在 SANtricity System Manager 中配置 NVMe over RoCE 端口</block>
-  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">了解 E 系列控制器的 IP 地址分配</block>
   <block id="84e1a7e377374cd578c829ac734ca1b1" category="doc">了解 SANtricity System Manager 中的控制器状态</block>
   <block id="3e4ca6f5f42e0015e4c9dfee09a5dcc0" category="doc">了解 SANtricity System Manager 中的驱动器状态</block>
   <block id="0ff6204b4922a614f054cf74d19b5033" category="doc">在 SANtricity System Manager 中擦除驱动器</block>
   <block id="4a14bf0b2df804251e27c193a6a0765f" category="doc">在 SANtricity System Manager 中手动关闭驱动器</block>
-  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 硬件页面和组件</block>
-  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">了解 SANtricity 软件中使用的硬件术语</block>
   <block id="acaa93f0c47521f4f2f9398239806b48" category="doc">了解 SANtricity System Manager 中的热备用驱动器</block>
-  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">在 SANtricity System Manager 中初始化（格式化）驱动器</block>
   <block id="f59aa10f5efd30da7726822e94f66de3" category="doc">在 SANtricity System Manager 中筛选驱动器视图</block>
   <block id="3d1cf52a63b21d443e1cf92f6943bea9" category="doc">在 SANtricity System Manager 中查看和管理硬件组件</block>
-  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">在 SANtricity System Manager 中将控制器置于服务模式</block>
   <block id="baa8f21cf13b83a225b1c7853c8625cb" category="doc">在 SANtricity System Manager 中将控制器置于脱机状态</block>
   <block id="d2f436ef9eb00d0e92e11a9d418eadc8" category="doc">在 SANtricity System Manager 中将控制器置于联机状态</block>
   <block id="c3b7a3c7230a12b101d55060d1570cca" category="doc">在 SANtricity System Manager 中手动重建驱动器</block>
   <block id="569a85590c4c73a17007b1bde319b3b8" category="doc">在 SANtricity System Manager 中逻辑替换驱动器</block>
-  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">在 SANtricity System Manager 中重置（重新启动）控制器</block>
   <block id="e51433051a984f5e19002bc90747281b" category="doc">在 SANtricity System Manager 中显示或隐藏组件状态</block>
-  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">了解 SANtricity System Manager 中的固态磁盘 (SSD)</block>
   <block id="fbcb1ff48c181cd2172f9bbafd85feef" category="doc">在 SANtricity System Manager 中打开驱动器定位器指示灯</block>
   <block id="2efbaccdd317d40351cbd3b0078ba4e5" category="doc">在 SANtricity System Manager 中打开机架定位灯</block>
   <block id="27524250c330c0c3b3e4d14953ab61ba" category="doc">在 SANtricity System Manager 中取消分配热备用</block>
@@ -7952,59 +7935,33 @@
   <block id="019cd8fdd410c8e21ac8e48aa82391f2" category="doc">在 SANtricity System Manager 中查看驱动器状态和设置</block>
   <block id="c524d0a4d62606457b777ef541ea9347" category="doc">在 SANtricity System Manager 中查看硬件组件</block>
   <block id="9e9cedf03a8665e4bad051e08cd66766" category="doc">在 SANtricity System Manager 中查看机架组件状态和设置</block>
-  <block id="69985995523c2d426b66408d7daed125" category="doc">在 SANtricity System Manager 中管理密码保护</block>
-  <block id="5c32253d600042425394ed5980d9be38" category="doc">了解 SANtricity System Manager 操作进度页面</block>
   <block id="58a34f657d81d7edfbaed6401bb0f515" category="doc">了解 SANtricity System Manager 界面</block>
   <block id="33e2da76f04b079e476aa9cac594b266" category="doc">了解 SANtricity System Manager 问题通知</block>
-  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">使用 SANtricity System Manager Recovery Guru 恢复问题</block>
   <block id="547886ecd6f44d1e94d51c7a824cdf5c" category="doc">在 SANtricity System Manager 中设置性能图的默认时间范围</block>
   <block id="32fc217fc1fed4d84d398e41c515b71d" category="doc">在 SANtricity System Manager 中设置容量值的默认单位</block>
   <block id="427aa43b9cdc2defe80f26a9b8201921" category="doc">了解 SANtricity System Manager 安装向导</block>
-  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">查看并执行 SANtricity System Manager 中正在进行的操作</block>
-  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">在 SANtricity System Manager 中查看存储层次结构</block>
-  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">在 SANtricity System Manager 中查看异步镜像状态</block>
-  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">了解 SANtricity 软件中的异步镜像术语</block>
-  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">在 SANtricity System Manager 中将镜像一致性组角色更改为主或辅助</block>
-  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">在 SANtricity System Manager 中更改镜像对中卷之间的角色</block>
-  <block id="e344db326042f633dec679fb389ca0e4" category="doc">在 SANtricity System Manager 中更改镜像一致性组的同步设置</block>
-  <block id="b571c7942921f56e38dc2234119600d8" category="doc">在 SANtricity System Manager 中更改镜像对的同步设置</block>
   <block id="af90f6617180555848d0d0edc437d6e1" category="doc">在 SANtricity System Manager 中更改镜像对卷的预留容量设置</block>
-  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">在 SANtricity System Manager 中完成在旧系统上创建的主卷的镜像对</block>
   <block id="5e5c7541af958458f1ac268b6712c5b5" category="doc">在 SANtricity System Manager 中停用异步镜像</block>
   <block id="b92bbd05d370531c1aa6532c3519f954" category="doc">在 SANtricity System Manager 中停用同步镜像</block>
   <block id="2ce490e8da130e3ad278fad4b8eee537" category="doc">在 SANtricity System Manager 中删除镜像一致性组</block>
   <block id="81b2556e4fd871f9ea682e69a232b804" category="doc">异步镜像在 SANtricity System Manager 中的工作方式</block>
   <block id="e9d5efeaff5fce51394bba9ee3af6eac" category="doc">SANtricity System Manager 中的同步镜像工作原理</block>
   <block id="026ccf050237d46deb2637acd910f852" category="doc">增加 SANtricity System Manager 中的预留容量</block>
-  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">了解 SANtricity 软件中的异步镜像</block>
-  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">了解 SANtricity 软件中的同步镜像</block>
-  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">在 SANtricity System Manager 中手动重新同步镜像一致性组</block>
   <block id="f1c3f1483418f4843025c78102b16af4" category="doc">在 SANtricity System Manager 中删除异步镜像关系</block>
   <block id="288e2c16d3025c5aeb7ddfdcf7e12576" category="doc">在 SANtricity System Manager 中删除同步镜像关系</block>
   <block id="7c24c58ebddc7ce4f60ae6f4686a8cc1" category="doc">在 SANtricity 软件中使用异步镜像的要求</block>
   <block id="2d0b5b4cae00ca0b94335defe5fc08fe" category="doc">在 SANtricity 软件中使用同步镜像的要求</block>
-  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">在 SANtricity 软件中更改镜像一致性组角色</block>
   <block id="0d1b357841241bc8e28cae55f9a67ffd" category="doc">了解 SANtricity 软件中镜像对中的卷角色变化</block>
-  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">在 SANtricity System Manager 中暂停和恢复镜像对的同步</block>
-  <block id="792c6be07e358d94fe968a169f79db04" category="doc">在 SANtricity System Manager 中暂停或恢复镜像一致性组的同步</block>
-  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">了解 SANtricity System Manager 中的同步镜像状态</block>
-  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">了解 SANtricity 软件中的同步镜像术语</block>
   <block id="43a0f9d96717dc640a9f5807452d5629" category="doc">在 SANtricity System Manager 中测试镜像一致性组的通信</block>
   <block id="440e769d8cd1305095a160989cbe81dc" category="doc">在 SANtricity System Manager 中测试同步镜像的通信</block>
   <block id="515576da6c365e178e990e12007bd60f" category="doc">在 SANtricity System Manager 中更新远程存储阵列 IP 地址</block>
   <block id="8d7b05b34155e2c1e475071247cd76bf" category="doc">在 SANtricity System Manager 中查看镜像一致性组之间不同步的数据量</block>
   <block id="2362f7bbc535b1dc6072c22c675c861e" category="doc">了解 SANtricity 软件中异步镜像的卷所有权</block>
   <block id="91eafc3e8b902bfe2e658f3494dadf73" category="doc">了解 SANtricity 软件中同步镜像的卷所有权</block>
-  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">在 SANtricity 软件中异步镜像卷</block>
-  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">在 SANtricity 软件中同步镜像卷</block>
   <block id="a8fbfce67e03a9242f79c779433628dd" category="doc">了解 SANtricity 软件中的访问管理术语</block>
   <block id="7e99fcc276ed873dd7e2a3253d7cb578" category="doc">在 SANtricity System Manager 中创建访问令牌</block>
   <block id="bfb6bcf04fa0010ea3a31baca8a4c547" category="doc">在 SANtricity System Manager 中编辑访问令牌设置</block>
   <block id="a8e01fd75b10b5cf4680125403fa6462" category="doc">撤销 SANtricity System Manager 中的访问令牌</block>
-  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">了解访问令牌和 SANtricity 软件</block>
-  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">使用 SANtricity System Manager 中的目录服务配置访问管理</block>
-  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">在 SANtricity System Manager 中使用本地用户角色配置访问管理</block>
-  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">在 SANtricity System Manager 中使用 SAML 配置访问管理</block>
   <block id="f385220cdc8e60569df92b9d7eabb4c8" category="doc">在 SANtricity System Manager 中添加警报的电子邮件地址</block>
   <block id="9f2b00c7fbe58a2fc27cd5892bd6e8e1" category="doc">在 SANtricity System Manager 中为 SNMPv2c 陷阱添加社区</block>
   <block id="2996b5d1f418841877ba521f22a1ac71" category="doc">在 SANtricity System Manager 中添加 LDAP 目录服务器</block>
@@ -8041,7 +7998,6 @@
   <block id="45537ac2660f470d89198d9cced18fe9" category="doc">删除 SANtricity System Manager 中警报的系统日志服务器</block>
   <block id="4e6256ca8c4fa71022d3eaeee97b3b8c" category="doc">在 SANtricity System Manager 中删除陷阱目标</block>
   <block id="f619b095ff69ee2e39492981fab79a75" category="doc">在 SANtricity System Manager 中删除受信任的证书</block>
-  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">下载 SANtricity 命令行界面 (CLI)</block>
   <block id="2f525b8539b39a67b470766447ab5bca" category="doc">了解 SANtricity 软件中的驱动器安全术语</block>
   <block id="ccef233b8aa60591e10f80e9a07fa49b" category="doc">在 SANtricity System Manager 中编辑警报的电子邮件地址</block>
   <block id="1f3d1096e329e5b75789b8b8e9ea9a0d" category="doc">在 SANtricity System Manager 中编辑 SNMPv2c 陷阱的社区</block>
@@ -8053,11 +8009,8 @@
   <block id="a8119e85bf377d3c639c56a0a32f52ba" category="doc">在 SANtricity System Manager 中编辑警报的系统日志服务器</block>
   <block id="fd73f1b2be5817f542818738ca756ac3" category="doc">在 SANtricity System Manager 中编辑 SNMPv3 陷阱的用户设置</block>
   <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">在 SANtricity System Manager 中启用证书吊销检查</block>
-  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">在 SANtricity System Manager 中启用功能包</block>
   <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">在 SANtricity System Manager 中启用 iSCSI 发现设置</block>
-  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">在 SANtricity System Manager 中启用或禁用新卷组或池的资源配置</block>
   <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">在 SANtricity System Manager 中启用高级功能</block>
-  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">在 SANtricity System Manager 中结束 iSCSI 会话</block>
   <block id="6f498623a1b6cc1d1ed3a98feb04e6c4" category="doc">在 SANtricity System Manager 中导出密钥管理服务器证书</block>
   <block id="94637ab9cad9908845d1b9eb4a7a3f5b" category="doc">在 SANtricity System Manager 中导出 SAML 服务提供商文件</block>
   <block id="ee5e02e3e6430426582311b05aa6660c" category="doc">SANtricity System Manager 中的访问管理工作原理</block>
@@ -8066,7 +8019,6 @@
   <block id="2d08c425e5df039556cb7f8b1cf9b3ff" category="doc">证书在 SANtricity System Manager 中的工作方式</block>
   <block id="27bdf3ead650486aebb952ecf83b0f4a" category="doc">SANtricity System Manager 中的安全密钥管理工作原理</block>
   <block id="0127eb4ceb8184bc8788f2f8e705e869" category="doc">SANtricity System Manager 中的驱动器安全功能如何工作</block>
-  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">在 SANtricity System Manager 中充当客户端时导入控制器的证书</block>
   <block id="acb821d135d279a55a79fc28435f0e27" category="doc">在 SANtricity System Manager 中管理会话超时</block>
   <block id="5f822c60893c9bb2c258abe33195c314" category="doc">了解 NVMe 和 SANtricity 软件</block>
   <block id="90e38527b9b59d98d9e61a2e9b208145" category="doc">在 SANtricity System Manager 中获取功能密钥文件</block>
@@ -8074,23 +8026,17 @@
   <block id="e7d845895b4a8391f704543dddac2b30" category="doc">了解 SANtricity System Manager 中的警报</block>
   <block id="4e0705446c75aaa8c722d01477add263" category="doc">了解 SANtricity System Manager 中的证书</block>
   <block id="2cacee96f6e579cecc30bd9716d2b304" category="doc">了解 SANtricity System Manager 中的驱动器安全性</block>
-  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">了解 SANtricity System Manager 中的设置概述</block>
-  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">了解 SANtricity System Manager 中映射角色的权限</block>
   <block id="fbf1a8e12861c428c9880acfae54cb14" category="doc">在 SANtricity System Manager 中删除 SNMPv2c 陷阱的社区</block>
-  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">在 SANtricity System Manager 中删除目录服务器</block>
   <block id="0e0b711e14d848611081dd0c7c5bfd84" category="doc">在 SANtricity System Manager 中删除 SNMPv3 陷阱的用户</block>
   <block id="c93553d53b7594a2f55ac551dee2a7cd" category="doc">在 SANtricity System Manager 中重置管理证书</block>
   <block id="22df0766fabfc3aa8c477941ae92c9d1" category="doc">在 SANtricity System Manager 中保存存储阵列配置</block>
   <block id="9250977b6fc74e450587fba1db99f008" category="doc">在 SANtricity System Manager 中设置自动负载平衡</block>
   <block id="4e70ce522d6b7b255672b9f2b7f05e54" category="doc">在 SANtricity System Manager 中设置主机连接报告</block>
-  <block id="00777c3320e115287926e31250ef4795" category="doc">在 SANtricity System Manager 中从外部密钥管理切换到内部密钥管理</block>
   <block id="6920c227f5515cf38df838a7fe711fbb" category="doc">在 SANtricity System Manager 中同步存储阵列时钟</block>
   <block id="d39867f534eecef2c702a868fff1675b" category="doc">在 SANtricity System Manager 中打开存储阵列定位器灯</block>
   <block id="64b2495c2fe314d34754523613020356" category="doc">在 SANtricity System Manager 中使用外部密钥管理时解锁驱动器</block>
   <block id="390e79029af21ff41137881f05857435" category="doc">在 SANtricity System Manager 中使用内部密钥管理时解锁驱动器</block>
-  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">使用 CA 签名证书通过 SANtricity System Manager 中的密钥管理服务器进行身份验证</block>
   <block id="bdae02098d2024cc99f583c8528a34e0" category="doc">在 SANtricity System Manager 中为控制器使用 CA 签名的证书</block>
-  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">在 SANtricity System Manager 中验证安全密钥</block>
   <block id="838be43bb8157a4382de7c0df9a5848e" category="doc">在 SANtricity System Manager 中查看审计日志活动</block>
   <block id="39362ae8f84d6584f46edbb1ea9c559a" category="doc">在 SANtricity System Manager 中查看导入的证书信息</block>
   <block id="aff17649c80932061abc5a42b1abbe5f" category="doc">在 SANtricity System Manager 中查看 iSCSI 会话</block>
@@ -8102,14 +8048,9 @@
   <block id="7ae0437fb66cb1d11d9ba880d1855d4c" category="doc">您可以在 SANtricity System Manager 中对卷执行的操作</block>
   <block id="ba8875d55ed38186f452f0779c05022c" category="doc">在 SANtricity System Manager 中激活和暂停快照计划</block>
   <block id="12646556c051d8afb3253ce36273ad1c" category="doc">在 SANtricity System Manager 中向池或卷组添加容量</block>
-  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">在 SANtricity System Manager 中将成员卷添加到快照一致性组</block>
   <block id="c82d281f4a42668c59b407c5439f7041" category="doc">在 SANtricity System Manager 中将卷添加到工作负载</block>
   <block id="346683dc1d86ee2232d45a02874e70f6" category="doc">在 SANtricity System Manager 中将卷分配给主机</block>
-  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">了解 SANtricity System Manager 中的自动池创建与手动池创建</block>
   <block id="80764ae4bac51ce96a179980b0272cd5" category="doc">取消 SANtricity System Manager 中的待处理快照映像</block>
-  <block id="a5f504929c631626bde694e07e40402f" category="doc">在 SANtricity System Manager 中取消快照映像回滚</block>
-  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">如何在 SANtricity System Manager 中分配卷容量</block>
-  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">了解 SANtricity 软件中的容量术语</block>
   <block id="9e7606366310838bc01463b6e40b71cf" category="doc">在 SANtricity System Manager 中更改精简卷的分配容量限制</block>
   <block id="ba7d755ec0c4f655c206cd6915083206" category="doc">在 SANtricity System Manager 中更改卷的缓存设置</block>
   <block id="876346aa2afb1152de2f75b929ce9a97" category="doc">在 SANtricity System Manager 中更改池的配置设置</block>
@@ -8118,7 +8059,6 @@
   <block id="9d0eef6ca8a369214dae3893a569a26d" category="doc">在 SANtricity System Manager 中更改主机的主机端口标识符</block>
   <block id="976d5b100c8bb46a978d025d54df9db7" category="doc">在 SANtricity System Manager 中更改卷的介质扫描设置</block>
   <block id="32106203ac6ae6e19b181aff1dbd5ed2" category="doc">更改 SANtricity System Manager 中的卷设置</block>
-  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">在 SANtricity System Manager 中更改 SSD 缓存设置</block>
   <block id="322aaec0ca97fbcb9472361aaa86b9bb" category="doc">在 SANtricity System Manager 中更改一致性组成员卷的预留容量设置</block>
   <block id="2129449eac2f1abcf7571dadc500ed44" category="doc">在 SANtricity System Manager 中更改快照组的预留容量设置</block>
   <block id="1a58763a2cba36bf2c96c197a7468796" category="doc">在 SANtricity System Manager 中更改快照卷的预留容量设置</block>
@@ -8126,12 +8066,9 @@
   <block id="8a7e1ef4bbc2211e7f5a82552f991017" category="doc">在 SANtricity System Manager 中更改主机的设置</block>
   <block id="027bd5c8f9103029b8be80e9fbb4c8f8" category="doc">在 SANtricity System Manager 中更改快照一致性组的设置</block>
   <block id="02c61f2208b07fccaf99cf3021683fca" category="doc">更改 SANtricity System Manager 中的快照计划设置</block>
-  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">在 SANtricity System Manager 中更改快照卷的卷设置</block>
   <block id="2bbf6db559a55a9597ef3a1331156b4b" category="doc">在 SANtricity System Manager 中更改工作负载设置</block>
   <block id="7b593eeadba9048e035e5e95858a4f3f" category="doc">在 SANtricity System Manager 中检查卷冗余</block>
-  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">了解 SANtricity 软件中的厚卷和薄卷</block>
   <block id="9483c72f80e16ad2a8994ff6242b6fbf" category="doc">在 SANtricity System Manager 中整合卷组的可用容量</block>
-  <block id="cebf235e245ac1727a4fb08543606201" category="doc">在 SANtricity System Manager 中将快照卷转换为读写模式</block>
   <block id="94e367453c588ed2953d8cdaf12bd179" category="doc">在 SANtricity System Manager 中复制快照卷</block>
   <block id="e28693570486edcbf19eae6d1bf4e000" category="doc">了解 SANtricity System Manager 中的复制卷</block>
   <block id="cb4d76dfabd71388f81783d1f6683914" category="doc">在 SANtricity System Manager 中复制卷</block>
@@ -8142,12 +8079,9 @@
   <block id="385f418e214bdb6723032ee80bc9d225" category="doc">在 SANtricity System Manager 中创建快照一致性组</block>
   <block id="96f6bbb92838490ba4cfd5e4fdb34676" category="doc">在 SANtricity System Manager 中创建快照映像</block>
   <block id="092ce361ed9559ba823bac0c5c8c97be" category="doc">在 SANtricity System Manager 中创建快照卷</block>
-  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">在 SANtricity System Manager 中创建 SSD 缓存</block>
   <block id="241d4844735147be96e18c62745d0aba" category="doc">在 SANtricity System Manager 中创建卷组</block>
   <block id="d70d3c3654f0dc1516e419e794c4e634" category="doc">在 SANtricity System Manager 中创建卷</block>
   <block id="ee8139e7a79d1303ae381079df78417a" category="doc">在 SANtricity System Manager 中创建工作负载</block>
-  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">了解 SANtricity 软件中卷的数据完整性和数据安全性</block>
-  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">了解 SANtricity 软件中的池和卷组</block>
   <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">减少 SANtricity System Manager 中的预留容量</block>
   <block id="0f065244a3565fda62f0c2976c388d92" category="doc">在 SANtricity System Manager 中删除主机或主机集群</block>
   <block id="c5c9cf2ee2dcd4d87d04772b62b322f4" category="doc">在 SANtricity System Manager 中删除池或卷组</block>
@@ -8157,50 +8091,30 @@
   <block id="bed6e6ab9580560abff8902133b2d790" category="doc">在 SANtricity System Manager 中删除快照计划</block>
   <block id="bb911c27080e432d25f5cd8fb82c2f19" category="doc">在 SANtricity System Manager 中删除快照卷</block>
   <block id="699d3c8de2c6b58221acff3442153e07" category="doc">在 SANtricity System Manager 中删除卷</block>
-  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">在 SANtricity System Manager 中启用或禁用现有卷组和池的资源配置</block>
   <block id="1c92a73211bcb188f3b5f2030d1a25ec" category="doc">在 SANtricity System Manager 中禁用快照卷</block>
   <block id="acca3d436b0bbe84c91c35c048a92083" category="doc">在 SANtricity System Manager 中为池或卷组启用安全性</block>
-  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">在 SANtricity CLI 中导出/导入卷组</block>
-  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">了解 SANtricity 软件中的主机术语</block>
   <block id="e262c7061ccf9614b315a45f2b000f9e" category="doc">SANtricity 软件中的预留容量工作原理</block>
   <block id="9266af538e0dac8d3b6cac89f8d44f98" category="doc">快照存储在 SANtricity 软件中的工作原理</block>
   <block id="3238be27f78645ac1292e42c24181394" category="doc">SSD 缓存在 SANtricity 软件中的工作原理</block>
-  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">如何在 SANtricity 软件中将卷分配给主机和主机集群</block>
   <block id="2cf3377f31335a0a3de5985e36ada500" category="doc">SANtricity 软件中的卷工作原理</block>
-  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">SANtricity 软件中的工作负载工作原理</block>
   <block id="f9ab1379c579b2393b9bf8aba288559d" category="doc">增加 SANtricity System Manager 中卷的容量</block>
   <block id="fe02b7fc1c3f72ac227996fa4fd0227a" category="doc">在 SANtricity System Manager 中初始化卷</block>
-  <block id="9d4b81d6353945511bba44b53f060178" category="doc">解读 SANtricity System Manager 中的性能数据</block>
-  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">在 SANtricity System Manager 中管理应用程序和工作负载</block>
   <block id="ad45b02bb613f89a36807319b8b1c991" category="doc">了解 SANtricity System Manager 中的手动主机创建</block>
-  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">了解 SANtricity 软件中的最大 LUN 数量</block>
   <block id="5910120f88b026d84ccb959f3e061afb" category="doc">在 SANtricity System Manager 中监控精简卷</block>
   <block id="dd0d36753dad2d9b708f3e0143f81e15" category="doc">了解 SANtricity 软件中的主机和主机集群</block>
-  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">了解 SANtricity System Manager 中的性能概述</block>
   <block id="6153428cf786fb4d7b2d14144b207d2d" category="doc">了解 SANtricity System Manager 中的池和卷组</block>
   <block id="31599231d5b8254d0d62975d0cdbf117" category="doc">了解 SANtricity System Manager 中的远程存储功能</block>
   <block id="c208bf91e8a0df25bb7b48152e8204a5" category="doc">了解 SANtricity System Manager 中的快照</block>
   <block id="b5a3371dc2d8a29f4873f495b92d247a" category="doc">了解 SANtricity System Manager 中的卷和工作负载</block>
-  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">了解 SANtricity System Manager 中的性能图表和指南</block>
-  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">了解 SANtricity 软件中的性能术语</block>
   <block id="e47dd25f85e15805b5f310c947b42bca" category="doc">在 SANtricity System Manager 中重新创建快照卷</block>
   <block id="70474cf06dc73d58a01a97006cd687ed" category="doc">在 SANtricity System Manager 中重新分配卷</block>
-  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">从 SANtricity System Manager 中的池或 SSD 缓存中删除容量</block>
-  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">从 SANtricity System Manager 中的快照一致性组中删除成员卷</block>
   <block id="f2db3cbe9a176b268ceff67072def08d" category="doc">SANtricity System Manager 中的快照要求和指南</block>
   <block id="532efc960c239d58c30eb4d8254f3ac4" category="doc">在 SANtricity System Manager 中恢复快照映像回滚</block>
-  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">远程存储在 SANtricity 软件中的工作原理</block>
   <block id="e6ac89d8f6549854ff238879c90d974e" category="doc">在 SANtricity System Manager 中导入远程存储</block>
   <block id="a5a3cec422c98a6055cafd0fbb1884d1" category="doc">在 SANtricity System Manager 中管理远程存储导入的进度</block>
-  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">在 SANtricity System Manager 中修改远程存储的连接设置</block>
-  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">了解 SANtricity 软件中的远程存储功能要求</block>
-  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">了解 SANtricity 软件中的远程存储卷要求</block>
   <block id="fccbb682788c68809a3443edfb4277e8" category="doc">在 SANtricity System Manager 中删除远程存储对象</block>
-  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">了解 SANtricity 软件中的远程存储术语</block>
   <block id="9995bb9afc99d41ab721f7f8cd86534a" category="doc">在 SANtricity System Manager 中安排快照映像</block>
   <block id="c0b569d8ce87ac810947f22fb4605077" category="doc">了解 SANtricity 软件中的快照回滚</block>
-  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">了解 SANtricity System Manager 中的快照计划和快照一致性组</block>
-  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">了解 SANtricity 软件中的快照术语</block>
   <block id="d1ed0fc7b9cdd69553d3bb787eec62b7" category="doc">了解 SANtricity 软件中的快照卷</block>
   <block id="6e9294ea12dc5399b02d69ef241e9fa9" category="doc">了解 SANtricity 软件中的 SSD 缓存和卷</block>
   <block id="5d33e25c1d367155f7d3cae11424abaa" category="doc">了解 SANtricity 软件中的 SSD 缓存限制</block>
@@ -8208,21 +8122,13 @@
   <block id="d598aebdbf681a329fb0199bc184638c" category="doc">在 SANtricity System Manager 中启动快照一致性组成员卷的快照映像回滚</block>
   <block id="f148978799622908e86625a1be990510" category="doc">在 SANtricity System Manager 中对复制卷操作采取行动</block>
   <block id="21a1be4e8d1df5431436d38683ed51b8" category="doc">了解 SANtricity 软件中的精简卷监控</block>
-  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">在 SANtricity System Manager 中打开池、卷组或 SSD 缓存中的定位器灯</block>
   <block id="fa7759509da8c7c79ae9fb63775d856a" category="doc">了解 SANtricity 软件中的复制卷操作类型</block>
   <block id="d6e8360b2cb0d8e3e14484b82709a35a" category="doc">在 SANtricity System Manager 中取消分配卷</block>
   <block id="83fc0ebc2ad61a3e97ce59f4fb9047f9" category="doc">在 SANtricity System Manager 中查看和保存表格性能数据</block>
   <block id="797fb1139409c1127dd559f83c0bbe6b" category="doc">在 SANtricity System Manager 中查看图形性能数据</block>
   <block id="84d5b685a37be079a60f4b95f43b316a" category="doc">在 SANtricity System Manager 中查看快照映像设置</block>
   <block id="9b6b546777e9f0c4bf77147600a53b2b" category="doc">在 SANtricity System Manager 中查看 SSD 缓存统计信息</block>
-  <block id="150d59a7387353231504faf7bf859a37" category="doc">了解 SANtricity 软件中的卷术语</block>
-  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">使用 SANtricity System Manager 中的复制服务</block>
-  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager 中的主机创建和卷分配的工作原理</block>
-  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">如何在 SANtricity System Manager 中创建快照映像和快照卷</block>
-  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">如何在 SANtricity System Manager 中创建卷</block>
   <block id="2a6f1c9883df4f32f0e0cce228054d30" category="doc">在 SANtricity System Manager 中激活控制器软件和固件</block>
-  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">了解 E 系列的 AutoSupport</block>
-  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">SANtricity 软件中的清除恢复模式</block>
   <block id="cad307494928a47597a4d3f3f22e0549" category="doc">在 SANtricity System Manager 中收集配置数据</block>
   <block id="4d610ec1d8da57ef3d3cb976ca9964e6" category="doc">在 SANtricity System Manager 中收集 I/O 路径统计信息</block>
   <block id="3031fc1b7e95f47d5b6e408a1fe1da82" category="doc">在 SANtricity System Manager 中手动收集支持数据</block>
@@ -8231,14 +8137,9 @@
   <block id="ceb37a3d20b732f1e9e18a021af8b44d" category="doc">在 SANtricity System Manager 中启用 AutoSupport 维护窗口</block>
   <block id="e6293a2da1040683d4c217a73bcaded8" category="doc">在 SANtricity System Manager 中启用或禁用 AutoSupport 功能</block>
   <block id="03445e0c39174a97cf2215c8d7b43557" category="doc">在 SANtricity System Manager 中结束 iSCSI 会话</block>
-  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">了解 SANtricity 软件中的事件日志</block>
-  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">获取 SANtricity System Manager 支持</block>
-  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">了解如何升级SANtricity软件</block>
   <block id="1df40413268ea802e8842361f2930e29" category="doc">在 SANtricity System Manager 中重新启用驱动器端口</block>
-  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">在 SANtricity System Manager 中检索健康图像</block>
   <block id="f030d9e0f32f240f816b1c3efb5a9eb0" category="doc">在 SANtricity System Manager 中检索恢复支持文件</block>
   <block id="a4004de8d3a6553f6f7b5a30da919b92" category="doc">在 SANtricity System Manager 中检索跟踪缓冲区</block>
-  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">了解 SANtricity 软件和固件升级错误</block>
   <block id="0da414b6db8ea25737e4addb928b7678" category="doc">在 SANtricity System Manager 中安排 AutoSupport 调度</block>
   <block id="f11e0d8e9c3ee108d5252105d6b3d146" category="doc">在 SANtricity System Manager 中发送 AutoSupport 调度</block>
   <block id="34b42367166dc58389323853b131ce17" category="doc">在 SANtricity System Manager 中对存储阵列状态采取恢复操作</block>
@@ -8248,22 +8149,17 @@
   <block id="22fa42db986406a5c66610591a3e22dd" category="doc">在 SANtricity System Manager 中查看 AutoSupport 状态</block>
   <block id="8b33eabd8c76e2ac31fa5f17bd0e4fff" category="doc">使用 SANtricity System Manager 中的事件日志查看事件</block>
   <block id="aa3d88e1e49082ff6c7c1cca8a8eac5d" category="doc">在 SANtricity System Manager 中查看软件和固件清单</block>
-  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">在 SANtricity System Manager 中查看存储阵列的信息</block>
   <block id="526671aab5a269160910a134da3e3986" category="doc">在 SANtricity System Manager 中查看存储阵列的配置文件</block>
   <block id="f1ff77b3a9e0132d7bc42edd71e852cd" category="doc">查看 SANtricity System Manager 中不可读扇区日志</block>
-  <block id="599923004690b0c1117d7b708d7321cb" category="doc">在 SANtricity System Manager 中配置 AutoSupport</block>
   <block id="3cd4b94b1c1fffe404c8c018c1791943" category="doc">了解 SANtricity Unified Manager 中的管理员密码保护</block>
   <block id="464b12e0772bcfed1c42bfa46f879dca" category="doc">在 SANtricity Unified Manager 中更改管理员密码</block>
   <block id="3438015d59c89bd0f7e2cad7ee17b809" category="doc">在 SANtricity Unified Manager 中更改存储阵列密码</block>
   <block id="1204125f1034038b68d1105bbee4cd9a" category="doc">在 SANtricity Unified Manager 中管理会话超时</block>
   <block id="a54710832ee5a423064fca5395cf9042" category="doc">了解 SANtricity Unified Manager</block>
   <block id="d8dd5de41b5b3a9fcb4c3b7a0881087b" category="doc">SANtricity Unified Manager 支持的浏览器</block>
-  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">了解 SANtricity Unified Manager 访问管理术语</block>
   <block id="c130faf5f75c80684c1dcc31ac0d6406" category="doc">使用 SANtricity Unified Manager 中的目录服务进行访问管理</block>
   <block id="82a7b453e318f7a3bdf4692ba422e535" category="doc">SANtricity Unified Manager 中的本地用户角色访问管理</block>
   <block id="24656b3bd6cf5e93077f7198a4d813e8" category="doc">使用 SANtricity Unified Manager 中的 SAML 进行访问管理</block>
-  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">在 SANtricity Unified Manager 中添加目录服务器</block>
-  <block id="678fed422fa391c5a10436bb093756a0" category="doc">了解 SANtricity Unified Manager 中的证书术语</block>
   <block id="61127992be34b32f41d73f18997a8364" category="doc">在 SANtricity Unified Manager 中更改本地用户密码设置</block>
   <block id="f7423e9d4df8d8e9084556e1c1ff38d9" category="doc">在 SANtricity Unified Manager 中更改本地用户配置文件的密码</block>
   <block id="63476dfab5a207f15f6c7bc98ba041c7" category="doc">在 SANtricity Unified Manager 中更改 SAML 角色映射</block>
@@ -8284,8 +8180,6 @@
   <block id="c3d5dfbb534fb862e47732fe36583be8" category="doc">在 SANtricity Unified Manager 中创建同步镜像对</block>
   <block id="b8721ad259aeca37ccbc3dc6adcbab4f" category="doc">在 SANtricity Unified Manager 中删除存储阵列组</block>
   <block id="d64eea73e524455b96174c2f6402dc79" category="doc">在 SANtricity Unified Manager 中发现多个存储阵列</block>
-  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">在 SANtricity Unified Manager 中发现单个阵列</block>
-  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">了解如何在 SANtricity Unified Manager 中配置多个存储阵列</block>
   <block id="af25a8f324b7dbf97f90f90c3c71a997" category="doc">在 SANtricity Unified Manager 中导入警报设置</block>
   <block id="29d52818815ba6dd7c7a7c74d86c558a" category="doc">在 SANtricity Unified Manager 中导入 AutoSupport 设置</block>
   <block id="eb3fd545a78e3ee552c4a85ea9ea5aa0" category="doc">在 SANtricity Unified Manager 中导入存储配置设置</block>
@@ -8293,22 +8187,15 @@
   <block id="0a853dc1023f2caadb8bfa27e8ad1273" category="doc">了解如何从 Unified Manager 访问 SANtricity System Manager</block>
   <block id="88f73e2cd5f762edce7e3e3d70975b13" category="doc">在 SANtricity Unified Manager 中管理单个存储阵列</block>
   <block id="0397a3a58d5821945f8530d856fc1c18" category="doc">在 Unified Manager 中管理 SANtricity 软件存储库</block>
-  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">镜像 SANtricity 配置工作流程</block>
   <block id="3c093e9fa11cb83fdb4558d0ecf2443c" category="doc">了解 SANtricity 镜像</block>
-  <block id="3b359f38e087517c0d02b105333d690f" category="doc">了解 SANtricity Unified Manager 中的镜像术语</block>
-  <block id="273afb9794fcb75bd1b190680990764e" category="doc">了解如何在 SANtricity Unified Manager 中导入存储阵列设置</block>
-  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">了解 SANtricity Unified Manager 中的组概述</block>
   <block id="746efcb7e933a3cf8db78361deec9a15" category="doc">了解 SANtricity Unified Manager 中的镜像</block>
   <block id="97a8edd259940a20fd1ace7cf0af3dfc" category="doc">了解 SANtricity Unified Manager 中的发现</block>
   <block id="3a486a444a7e994002a2a326de7c9715" category="doc">了解 SANtricity Unified Manager 中的升级中心</block>
   <block id="5abc1d0156d65f17f8756eb333623b9a" category="doc">在 SANtricity Unified Manager 中执行升级前健康检查</block>
   <block id="f79baa1058b14f4b32dc00bdc8d2ceda" category="doc">从 SANtricity Unified Manager 中的组中删除存储阵列</block>
   <block id="d63d0c7dfdc8a7552901436cde5658ab" category="doc">在 SANtricity Unified Manager 中重命名存储阵列组</block>
-  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">在 SANtricity Unified Manager 中复制存储阵列配置的要求</block>
   <block id="fe015c845a17ffd8b3ccded4f1c7ec14" category="doc">在 SANtricity Unified Manager 中使用镜像的要求</block>
   <block id="ce0f43f0cff59f79cef9d24182d1c24b" category="doc">了解 SANtricity Unified Manager 中的存储阵列组</block>
-  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">在 SANtricity Unified Manager 中查看存储阵列状态</block>
-  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">了解如何使用 SANtricity Unified Manager 升级多个存储阵列</block>
   <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">升级 SANtricity 操作系统</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager 的存储控制器常见问题解答</block>
@@ -8318,14 +8205,12 @@
   <block id="8587ba2a3667d610eb60afc44dad1723" category="doc">SANtricity System Manager 的存储系统设置常见问题解答</block>
   <block id="a8d4770377b5b26815bf4624787b5cd2" category="section-title">如果我没有看到所有硬件组件怎么办？</block>
   <block id="93553c3f530e96d0430861eab073fd9f" category="section-title">如果我没有看到所有主机怎么办？</block>
-  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager 异步镜像常见问题解答</block>
   <block id="9f823e5a9e8f9ed671d7256745222141" category="section-title">为什么我无法访问我选择的镜像功能？</block>
   <block id="056a12680d6f0ea9fbc5b9cd0dcbbbc5" category="section-title">为什么我无法将预留容量增加到我请求的数量？</block>
   <block id="627802c3caee37379a9c399ab704765d" category="section-title">为什么我看不到所有的池和卷组？</block>
   <block id="c61a1154889025d1e7a947414ac8a162" category="section-title">异步镜像 - 为什么我看不到所有卷？</block>
   <block id="a7d50b4837966a5a224cf9d31b8f4a86" category="section-title">异步镜像 - 为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="2aea594a4c81b0946e1265a4de81a100" category="section-title">为什么要更新远程存储阵列的 IP 地址？</block>
-  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager 同步镜像常见问题解答</block>
   <block id="3cf88cf8f3807ba93b6284bc7f35241d" category="section-title">同步镜像 - 为什么我看不到所有卷？</block>
   <block id="127409013236f2ee4d2fedecdfdf9696" category="section-title">同步镜像 - 为什么我看不到远程存储阵列上的所有卷？</block>
   <block id="474e6194420a15da8f116ca1d03c1089" category="doc">了解 SANtricity 软件中的缓存设置和性能</block>
@@ -8336,7 +8221,6 @@
   <block id="7e2b30503c6c69f7a65b4e868fd7b1d7" category="doc">SANtricity System Manager 的存储系统警报常见问题解答</block>
   <block id="fe7c1bb53377d143fbbd6019354e2c03" category="doc">SANtricity System Manager 用户访问管理常见问题解答</block>
   <block id="0307aefebec2be18a5e72767abfab6ea" category="section-title">为什么我无法登录？</block>
-  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">了解 SANtricity System Manager 中的基本卷、预留容量和快照组</block>
   <block id="93ff2ee6ca3ebff76b39eee6c837a05c" category="doc">SANtricity System Manager 的池和卷组常见问题解答</block>
   <block id="95480a662f5c9e477922a7a2b403bb11" category="section-title">为什么我无法提高我的保存能力？</block>
   <block id="e162d80660b94f1ba0e8a0ed9b5db00c" category="section-title">为什么我不能选择其他要减少的金额？</block>
@@ -8606,7 +8490,6 @@
   <block id="54b0914d7277874ccba08c2f0982e40a" category="list-text">选择要编辑的主机或主机群集，然后单击菜单：省略号图标[取消分配卷]。</block>
   <block id="9415f4231725ae1029831bddfc847283" category="list-text">选择要查看其统计信息的 SSD Cache，然后单击菜单：省略号图标[View statistics]。</block>
   <block id="65855161982c3e6064d4126321631754" category="summary">使用 Script 编辑器创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。</block>
-  <block id="286df7907589603c59edb63682f9667f" category="doc">使用脚本编辑器</block>
   <block id="787b189c9aa2a8d06969b4eed3b50187" category="paragraph">脚本编辑器与存储阵列通信，以启用脚本语法检查和命令执行。键入到脚本编辑器中的脚本命令通常在存储阵列上运行。</block>
   <block id="516fab9f4dbf4646911f17b48642be9a" category="paragraph">脚本编辑器在窗口中提供两个视图：</block>
   <block id="f15c02c42d186760efd6295d63804b0e" category="list-text">编辑器窗格 – 提供用于输入或编辑脚本命令的区域。</block>
@@ -8664,7 +8547,6 @@
   <block id="1b6db931b3901060f9bce4c85c4a34cc" category="paragraph">由此产生的错误出现在以下输出窗格中。此命令无法发送到存储阵列，因为它处于无响应状态。</block>
   <block id="4bd6b0da16174697589aad42880c9338" category="admonition">某些执行错误，包括无法与存储阵列通信，总是会导致脚本执行停止。在这些情况下，即使使用 <block ref="6a81d15ce4f19001b944098a1cf27c05" prefix=" " category="inline-code"></block> 语句，执行也会停止。</block>
   <block id="09444e28574d4688dfa88a3173185f23" category="paragraph">执行脚本后，请查看输出窗格以检查成功或错误。</block>
-  <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="summary">SANtricity Unified Manager 8</block>
   <block id="b7daa67e940ded0a69f505694ca9bdcb" category="paragraph">发现网络中的存储阵列，为阵列启动 SANtricity System Manager，将设置从一个阵列导入到多个阵列，并管理阵列组。选中阵列名称旁边的复选框以对其执行操作，例如导入设置和创建阵列组。每行末尾的省略号为单个阵列的操作（例如重命名）提供了一个内联菜单。</block>
   <block id="f95817b2bc0b41d0e6a92b658b3204e4" category="list-text">从页面中选择一个证书，然后单击该行末尾的省略号。</block>
   <block id="2bcb50ee17148fb9fd0603f1ac802486" category="list-text">要查看有关证书的更多信息，请选择其行，选择该行末尾的省略号，然后单击 *View* 或 *Export*。</block>
@@ -8679,7 +8561,6 @@
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">对于基于 SSD 和 NVMe 的系统，动态磁盘池段大小现在默认为 32K</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">对于基于 SSD 和 NVMe 的系统上的动态磁盘池，默认数据段大小已更改为 32K。以前，这些系统的动态磁盘池默认段大小固定为 128K。此更改可优化涉及小型和大型 I/O 操作混合的工作负载的性能。</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">现在可在 SANtricity System Manager 中使用脚本编辑器</block>
-  <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager 中现在提供了新的脚本编辑器。脚本编辑器允许您创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。脚本编辑器提供用于管理存储系统的语法检查和命令执行功能。有关详细信息，请参见 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>。</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">使用 SANtricity Unified Manager 8 进行多阵列管理</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">使用脚本编辑器</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">此版本引入了 EF80 和 EF50 全 NVMe 闪存存储系统。EF80 和 EF50 支持 24 个 NVME SSD 驱动器和每个控制器一个控制器间镜像卡。支持的 NVMe over Fabrics 主机接口包括 NVMe over RoCE、NVMe over IB、EF80 的 NVMe over FC 和 EF50 的 NVMe over FC。支持的 SCSI 接口是两个系统的光纤通道。EF50 支持每个控制器最多两个主机接口卡，而 EF80 支持每个控制器最多三个主机接口卡。</block>
@@ -8834,7 +8715,6 @@
   <block id="ad50d726052bde88bc90a7de8b261c70" category="paragraph">目标地址不再显示在 SNMP 警报页面上。</block>
   <block id="a5a495c8a76d23e49998cffbbe024cf6" category="list-text">从左侧面板中，选择菜单：Certificates[Trusted certificates]。</block>
   <block id="3e3e9f6a06a2df6dafb81e09e0790519" category="list-text">在*附加组件*下，选择*下载命令行界面*。</block>
-  <block id="e952784922289283b3df3c1933d68928" category="admonition">不支持在同一存储阵列中混合使用 FDE 和 FIPS 驱动器。系统中所有具有安全功能的驱动器必须具有相同的类型。</block>
   <block id="52755546a2563cd647b18d3a1f892a9b" category="paragraph">您要编辑的电子邮件地址必须在"电子邮件警报"页面上定义。</block>
   <block id="5d6a25f66bc362e734370bc21a11b8cf" category="paragraph">电子邮件警报页面显示更新后的电子邮件地址。</block>
   <block id="d3ebec6e93349cf953efd5a7c741ba17" category="paragraph">SNMP 警报页面显示更新的社区名称。</block>
@@ -9118,4 +8998,139 @@
   <block id="9058b34022122c78e9a4a4d9c48a5b78" category="sidebar">SANtricity 软件 12.10 文档</block>
   <block id="484059fb06cc5d8441498bee89fda7f0" category="sidebar">使用 SANtricity System Manager 12.10 进行单阵列管理</block>
   <block id="1f83597d32022fe75587024ad625d4e2" category="sidebar">SANtricity 软件 12.10 文档</block>
+  <block id="134432d9b45ecd0bcdd7b7c60bd89da4" category="doc">在 SANtricity System Manager 中配置远程登录</block>
+  <block id="6f2c8150d0541f6d3d80fd1a169388e7" category="doc">在 SANtricity System Manager 中配置管理端口</block>
+  <block id="927b4dde35df16413982ab0976a77c09" category="doc">了解 SANtricity System Manager 中的 IP 地址分配</block>
+  <block id="5adae37ff25d36c6049a940a86676ee1" category="doc">了解 SANtricity System Manager 中的硬件页面</block>
+  <block id="61a3838bcd7ac35c7c9ce40cc761200e" category="doc">了解 SANtricity System Manager 中使用的硬件术语</block>
+  <block id="70d924eca8845b61b1cdd970867f402d" category="doc">SANtricity System Manager 中的硬件组件</block>
+  <block id="6607ffaeb29ed452100e0c7be07cfd1b" category="doc">在 SANtricity System Manager 中初始化并格式化驱动器</block>
+  <block id="cd7ee85ab0133b77bee2a0af986ef781" category="doc">使用 SANtricity System Manager 将控制器置于服务模式</block>
+  <block id="dd3ed70dcea5a4d788ac339495ccfaec" category="doc">在 SANtricity System Manager 中重置控制器</block>
+  <block id="c6d38bd42c7753a502dbfcc3e64a4e68" category="doc">了解 SANtricity System Manager 中的固态磁盘</block>
+  <block id="2a23eef8c145213f4060c0554e5e6b7b" category="doc">了解 SANtricity System Manager 中的密码保护</block>
+  <block id="cd232f63ed0f060fa350ea1b26df4363" category="doc">了解 SANtricity System Manager</block>
+  <block id="a9735a04dc71a7db46a174ac8ccda166" category="doc">SANtricity System Manager 正在执行的操作页面</block>
+  <block id="084874d5f181b81b23ffbd59e3d4a668" category="doc">使用 SANtricity System Manager 中的 Recovery Guru 从问题中恢复</block>
+  <block id="921c144f48ef3893455fcdb6decb4ba0" category="doc">查看并处理 SANtricity System Manager 正在进行的操作</block>
+  <block id="ba6f63b2cab2a580f8dd18519f0edbd7" category="doc">SANtricity System Manager 中的存储层次结构</block>
+  <block id="5888e1873e32110f9f832a166fc0f6b6" category="doc">SANtricity System Manager 中的异步镜像状态</block>
+  <block id="f098bcbdba1a541d53b204f22655fefa" category="doc">SANtricity 软件中的异步镜像术语</block>
+  <block id="8f8561ca1fde03428626df6a44e63942" category="doc">在 SANtricity System Manager 中更改镜像一致性组角色</block>
+  <block id="2378ab2eda4ec14e25f5b46cd1c7559c" category="doc">更改 SANtricity System Manager 镜像对中的卷角色</block>
+  <block id="55be868d2ebe435e831bab0a220aa3b0" category="doc">在 SANtricity System Manager 中更改镜像一致性组同步设置</block>
+  <block id="8055d362c1c525a7880f1859b9d441ac" category="doc">在 SANtricity System Manager 中更改镜像对同步设置</block>
+  <block id="4637b68ca7ff918b4e4bf5ac658d2547" category="doc">在 SANtricity System Manager 中更改镜像对卷的保留容量设置</block>
+  <block id="0a19af6efe6a2a449d9dcd507afb17ea" category="doc">在 SANtricity System Manager 中为旧版主卷完成镜像对</block>
+  <block id="ad5437cc669ff0015f8db812b4a4edbf" category="doc">SANtricity System Manager 的异步镜像常见问题解答</block>
+  <block id="678dcb8b934bcfee6023f4387ecc5edc" category="doc">SANtricity System Manager 同步镜像常见问题解答</block>
+  <block id="27dd2829274cb731d86fdfff738a32aa" category="doc">了解 SANtricity System Manager 中的镜像</block>
+  <block id="ede0c36dbf5f30fc169cec99857a1440" category="doc">了解 SANtricity System Manager 中的异步镜像</block>
+  <block id="7a6d62a7461954e464c86505d6a8c7d4" category="doc">了解 SANtricity System Manager 中的同步镜像</block>
+  <block id="191e76d66a912905e157f9225d8e3186" category="doc">在 SANtricity System Manager 中手动重新同步镜像一致性组</block>
+  <block id="2025435a1266219220e858696a963e70" category="doc">镜像一致性组角色更改在 SANtricity 软件中的工作原理</block>
+  <block id="d107764a4f14ba79357c932a2e8fe251" category="doc">在 SANtricity System Manager 中暂停或恢复镜像对同步</block>
+  <block id="5158ed7e99a63d68a703740e281ca5b3" category="doc">在 SANtricity System Manager 中挂起或恢复镜像一致性组同步</block>
+  <block id="2b1f465833d7101e5ea6946c576c9590" category="doc">SANtricity System Manager 中的同步镜像状态</block>
+  <block id="af47f4e1076312f48bf60c1509779628" category="doc">SANtricity 软件中的同步镜像术语</block>
+  <block id="ca68d7f80a0ebedb5b7bd3b981f01410" category="doc">SANtricity 软件的异步镜像工作流程</block>
+  <block id="8954c73d912d880bf588530889efb774" category="doc">SANtricity 软件的同步镜像工作流程</block>
+  <block id="556d06cd51a88ddf44ea0610f7d83950" category="doc">了解 SANtricity System Manager 中的访问令牌</block>
+  <block id="68eb179a14037e17ab457b9bdc0dee21" category="doc">SANtricity System Manager 中的目录服务访问管理</block>
+  <block id="b71dd4c1e9beff6bd6d4c63728b656bd" category="doc">在 SANtricity System Manager 中使用本地用户角色进行访问管理</block>
+  <block id="9f61df96f208c62b0160a6ea16391412" category="doc">SANtricity System Manager 中使用 SAML 的访问管理</block>
+  <block id="c7d61109369977053daf9c88d1108e8e" category="doc">下载 SANtricity 命令行界面</block>
+  <block id="95a98b3c6e0c5954da4c7e8b96a3ac5a" category="doc">在 SANtricity System Manager 中启用功能包</block>
+  <block id="464f8a9d64784984a543eae9182df875" category="doc">在 SANtricity System Manager 中启用或禁用资源配置</block>
+  <block id="1fd0a1d54f4bd06351fb76e8eca332ad" category="doc">在 SANtricity System Manager 中为客户端控制器导入受信任的证书</block>
+  <block id="a934f0d06ea2342378e1380857519549" category="doc">了解 SANtricity System Manager 中的设置</block>
+  <block id="1ccffe90f1de4d408d38bf20da51c899" category="doc">SANtricity System Manager 中映射角色的权限</block>
+  <block id="039788d1864b684f87346f59bfa4d739" category="doc">在 SANtricity System Manager 中删除目录服务器</block>
+  <block id="3453a28d38c4cafd145716ec592d395d" category="doc">在 SANtricity System Manager 中切换到内部密钥管理</block>
+  <block id="b470a793f075a7fcfcfc9659dc234c58" category="doc">在 SANtricity System Manager 中使用 CA 签名的证书进行密钥管理服务器身份验证</block>
+  <block id="1331920238f82433bb6db7793528c5ea" category="doc">在 SANtricity System Manager 中验证安全密钥</block>
+  <block id="d2a1754e8e06bfe5612c3beea7f405ff" category="doc">在 SANtricity System Manager 中向快照一致性组添加卷</block>
+  <block id="0e69962765f06e747fa32fbef5ca2dfa" category="doc">SANtricity System Manager 中的自动与手动池创建</block>
+  <block id="02b225176109d9c377facad88362e99a" category="doc">SANtricity System Manager 中的基础卷、预留容量和快照组</block>
+  <block id="d192a83ef8925f54fdcf0c16c0e7b299" category="doc">在 SANtricity System Manager 中取消快照映像回滚</block>
+  <block id="7e918b0d2faea692d326e3756220b310" category="doc">SANtricity System Manager 如何为卷分配容量</block>
+  <block id="f54321e06c768597eebe0dcc72e489c0" category="doc">SANtricity System Manager 中的容量术语</block>
+  <block id="32a3b11ed3463df61dc16477437d8a24" category="doc">在 SANtricity System Manager 中更改 SSD 缓存设置</block>
+  <block id="56192af025cdf48a354c62c853f30e54" category="doc">在 SANtricity System Manager 中更改快照卷设置</block>
+  <block id="fab94fed7dca6dc66cfc6ab1f0f5c05e" category="doc">SANtricity System Manager 中的厚卷和精简卷</block>
+  <block id="3d2c4b5356c5b86167b6a15f009e24e5" category="doc">在 SANtricity System Manager 中将快照卷转换为读写模式</block>
+  <block id="9083ead8449c448c781abfe6b54610f4" category="doc">在 SANtricity System Manager 中创建 SSD 缓存</block>
+  <block id="b5b04b6393f18dbf0e62bd2b4dd834a8" category="doc">了解 SANtricity System Manager 卷的数据完整性和安全性</block>
+  <block id="3c54e1c53a0dc4c38d81725a8da18c12" category="doc">在 SANtricity System Manager 中启用或禁用现有卷上的资源配置</block>
+  <block id="00c222b3c27caa065f2548538948419d" category="doc">使用 SANtricity CLI 导出和导入卷组</block>
+  <block id="60515e9f325b01561c9a2ed474128036" category="doc">SANtricity 软件中的主机术语</block>
+  <block id="7c2e93916c4a983be9790eb66bf04cf6" category="doc">SANtricity System Manager 如何将卷分配给主机和主机集群</block>
+  <block id="c5f2b72a092ee991678a3b63fb135375" category="doc">工作负载在 SANtricity System Manager 中的工作原理</block>
+  <block id="bfddbb4a8974ff568ad18a38fda4dfc1" category="doc">SANtricity System Manager 中的性能指标及其影响</block>
+  <block id="eee1145d1428056283f791bad1763d47" category="doc">在 SANtricity System Manager 中更改主机 I/O 模块协议</block>
+  <block id="6bedb5cbd20ea6f758277a771f0d9619" category="doc">SANtricity System Manager 中的应用程序和工作负载</block>
+  <block id="24cc6fafa46a4c4c80d12d135f962c9b" category="doc">了解 SANtricity System Manager 中的最大 LUN 数量</block>
+  <block id="b89ee3f3429b4e7847dbed9539b56934" category="doc">了解 SANtricity System Manager 中的性能监控</block>
+  <block id="d819f2c17c60edea453d123633ebd19c" category="doc">SANtricity System Manager 中的性能图表和准则</block>
+  <block id="ecb13a670ce0aca336bd52c59d8f9a27" category="doc">SANtricity 软件中的性能术语</block>
+  <block id="fa147213586cc32c79ffab9d58b400ed" category="doc">在 SANtricity System Manager 中从池或 SSD 缓存中移除容量</block>
+  <block id="a2bd31be59cb17391b08f73dc83aae2b" category="doc">在 SANtricity System Manager 中从快照一致性组中移除卷</block>
+  <block id="5cd5c8220f13f98d2fe6b292135e29ae" category="doc">远程存储在 SANtricity System Manager 中的工作原理</block>
+  <block id="8bfc191572da98279c6c9c0513469753" category="doc">在 SANtricity System Manager 中修改远程存储连接设置</block>
+  <block id="ca288818744ef5728748d41b6c613b9d" category="doc">SANtricity 软件中的远程存储功能要求</block>
+  <block id="a243a7b5acda9122ef1699d6d1dc6103" category="doc">SANtricity 软件中的远程存储卷要求</block>
+  <block id="fe755a1a0856a898707f25e7afd31925" category="doc">SANtricity 软件中的远程存储术语</block>
+  <block id="ddb40ea2e71917899406465ddab6b266" category="doc">了解 SANtricity System Manager 中的快照计划和一致性组</block>
+  <block id="29e61858c276e79b0402d85b037c18a7" category="doc">SANtricity 软件中的快照术语</block>
+  <block id="e2ebe859b5713ea8bb2f4a44408b9309" category="doc">在 SANtricity System Manager 中打开池、卷组或 SSD 缓存的定位灯</block>
+  <block id="776f5784462b72c4d773b46e42ad192f" category="doc">SANtricity System Manager 中的卷术语</block>
+  <block id="6cffc95c43f10dad2ccd290c79c89cf2" category="doc">了解 SANtricity System Manager 中的复制服务</block>
+  <block id="4a7b7b8c4bd59cf364756c6ed8442f82" category="doc">SANtricity System Manager 中的主机创建和卷分配工作流</block>
+  <block id="76d433aabf7d2457b9020c23d5e36443" category="doc">SANtricity System Manager 中的快照映像和快照卷创建工作流</block>
+  <block id="cb957be371f4decf5b339d4cc8a4121b" category="doc">SANtricity System Manager 中的卷创建工作流</block>
+  <block id="fa4a43d6200d6d180038f666f189f163" category="doc">了解 SANtricity System Manager 中的 AutoSupport</block>
+  <block id="c76bd70d7abee16e78ad80f656dec63f" category="doc">在 SANtricity System Manager 中清除恢复模式</block>
+  <block id="27fd826d33043052db377eea34000de6" category="doc">SANtricity System Manager 中的支持</block>
+  <block id="f731c4e3b43815425b588e377f8b8bc1" category="doc">了解 SANtricity System Manager 中的事件日志</block>
+  <block id="87f3ce8d204b0e323026384d3bd0d9aa" category="doc">了解 SANtricity System Manager 中的支持</block>
+  <block id="d6f46d0217af5fd0a99ad24839f9525f" category="doc">了解如何使用 SANtricity System Manager 进行升级</block>
+  <block id="2a94eba180a711a184d2fd7931e69678" category="doc">在 SANtricity System Manager 中检索运行状况映像</block>
+  <block id="e06497835b2b7382a8895553a3db5d8b" category="doc">SANtricity System Manager 中的软件和固件升级错误</block>
+  <block id="d3befcf90191b6f16d3a22220a61e39b" category="doc">使用 SANtricity System Manager 中的脚本编辑器</block>
+  <block id="655af2da0ba012c2c8a9a88cb897b759" category="doc">SANtricity System Manager 中的存储阵列信息</block>
+  <block id="e68263bc0480a6d1e0655715e366dabc" category="doc">SANtricity System Manager 的 AutoSupport 配置工作流程</block>
+  <block id="f30f830df378d2c8989c81556f2c4764" category="summary">了解 SANtricity Unified Manager 管理</block>
+  <block id="47f0413cb20bb8e14a5ffff0eaadaa09" category="doc">SANtricity Unified Manager 中的访问管理术语</block>
+  <block id="4757289a5855c9f1c7db68000325786c" category="doc">在 SANtricity Unified Manager 中添加目录服务器</block>
+  <block id="6b5418b89a39f915692d8e34cfd942a6" category="doc">SANtricity Unified Manager 中的证书术语</block>
+  <block id="9637827307b29627dc2238af9725a5d6" category="doc">了解 SANtricity Unified Manager 中的证书管理</block>
+  <block id="a7ecf1553995da3d2743c22262c37124" category="doc">了解 SANtricity Unified Manager 中的证书</block>
+  <block id="b5f1b67c06b7b544f96a6bbdad051ccb" category="doc">SANtricity Unified Manager 中映射角色的权限</block>
+  <block id="5a209d7dbfa459b30592ced09cdeec87" category="doc">删除 SANtricity Unified Manager 中的目录服务器</block>
+  <block id="9d2c2b0302cfbfb3c67b05135a735b12" category="doc">在 SANtricity Unified Manager 中重置管理证书</block>
+  <block id="5bf7980117541c59631c0a16238f41ae" category="doc">在 SANtricity Unified Manager 中解决不受信任的证书</block>
+  <block id="05c5f1fcfe8cc31fab357e37d4775802" category="doc">为 SANtricity Unified Manager 使用 CA 签名的证书</block>
+  <block id="c1007a9b27f844c6cfb5b9721fc0d3d7" category="doc">在 SANtricity Unified Manager 中查看证书</block>
+  <block id="9fa5838c036e41275620f4416d7f3ccc" category="doc">在 SANtricity Unified Manager 中查看本地用户角色</block>
+  <block id="481a1eb5d00f26554de764845060834c" category="doc">在 SANtricity Unified Manager 中发现单个存储阵列</block>
+  <block id="477e7370a4b5379f602b1304b1cf7e15" category="doc">SANtricity Unified Manager 中的导入设置功能的工作方式</block>
+  <block id="579042bf24fd7fde9d7627d9ecf70af7" category="doc">SANtricity Unified Manager 中的镜像配置工作流</block>
+  <block id="e878e800e48b5fa2852ca7f54fb327e7" category="doc">SANtricity Unified Manager 中的镜像术语</block>
+  <block id="29da77c52eafcba541581a388cd664a9" category="doc">了解如何在 SANtricity Unified Manager 中导入设置</block>
+  <block id="e2fdda3387120d1171ee4244ec5b44ce" category="inline-link-macro">“导入设置”功能的工作原理</block>
+  <block id="03f5ec10608e982c1558044d901b338b" category="list-text"><block ref="03f5ec10608e982c1558044d901b338b" category="inline-link-macro-rx"></block></block>
+  <block id="310a91e54737c4ae8df21da5af91b19f" category="inline-link-macro">存储配置复制要求</block>
+  <block id="5319c9afb1aeefc2270bda11ebaf9791" category="list-text"><block ref="5319c9afb1aeefc2270bda11ebaf9791" category="inline-link-macro-rx"></block></block>
+  <block id="53e23b1768e32229c0ee10904e25f9c7" category="doc">了解 SANtricity Unified Manager 中的阵列组</block>
+  <block id="62fa16231fa8e76394efd72b5b3c2e66" category="inline-link-macro">镜像配置工作流程</block>
+  <block id="17371bd83c772c10f3243d7e49b98b70" category="list-text"><block ref="17371bd83c772c10f3243d7e49b98b70" category="inline-link-macro-rx"></block></block>
+  <block id="a0506609f1afca5d8ba269ec071ce896" category="inline-link-macro">发现单个存储阵列</block>
+  <block id="90a265ac1f01d3273097d6ed7a2e35cb" category="list-text"><block ref="90a265ac1f01d3273097d6ed7a2e35cb" category="inline-link-macro-rx"></block></block>
+  <block id="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="list-text"><block ref="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="inline-link-macro-rx"></block></block>
+  <block id="1dbfa2854295a031cae67e2c27b8d7f7" category="doc">SANtricity Unified Manager 中的存储配置复制要求</block>
+  <block id="63b0ef9396e6fdd1ebe4ed0ac96a0b88" category="doc">SANtricity Unified Manager 中的存储阵列状态</block>
+  <block id="3e3ab97da43f9cbbde4f710dc1523d3a" category="doc">了解如何使用 SANtricity Unified Manager 升级存储阵列</block>
+  <block id="712baff1701c605dfc39f4e5da7d934e" category="section-title">版本 12.10R1 中的新增功能</block>
+  <block id="9bee6f4318d6dc6bfd57ef5376da8437" category="paragraph">此版本仅包含小的更改，没有新功能。有关此版本中更改的更多信息，请参见 E-Series SANtricity 操作系统 12.10R1 README。</block>
+  <block id="534d737e3b11a0c1ecc6be448beff492" category="paragraph">SANtricity System Manager 中现在提供了新的脚本编辑器。脚本编辑器允许您创建或编辑脚本文件，将脚本文件保存到存储管理站的本地磁盘，或从磁盘加载脚本文件。脚本编辑器提供用于管理存储系统的语法检查和命令执行功能。有关详细信息，请参见<block ref="c89b24f343925323abf5bc404bade770" category="inline-link-macro-rx"></block>。</block>
 </blocks>

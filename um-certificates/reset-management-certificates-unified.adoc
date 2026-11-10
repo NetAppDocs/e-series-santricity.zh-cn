@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
 summary: 您可以将管理证书还原到原始出厂自签名状态。 
 ---
-= 重置管理证书
+= 在 SANtricity Unified Manager 中重置管理证书
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

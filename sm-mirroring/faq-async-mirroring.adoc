@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
-= SANtricity System Manager 异步镜像常见问题解答
+= SANtricity System Manager 的异步镜像常见问题解答
 :allow-uri-read: 
 :experimental: 
 :icons: font

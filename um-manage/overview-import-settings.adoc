@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings 
 summary: 您可以将设置从一个存储阵列导入到另一个存储阵列、包括警报、AutoSupport 和目录服务。 
 ---
-= 了解如何在 SANtricity Unified Manager 中导入存储阵列设置
+= 了解如何在 SANtricity Unified Manager 中导入设置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,8 +22,8 @@ summary: 您可以将设置从一个存储阵列导入到另一个存储阵列�
 
 了解更多信息。
 
-* link:how-import-settings-works.html["导入设置的工作原理"]
-* link:requirements-for-replicating-storage-configurations.html["复制存储配置的要求"]
+* link:how-import-settings-works.html["“导入设置”功能的工作原理"]
+* link:requirements-for-replicating-storage-configurations.html["存储配置复制要求"]
 
 
 

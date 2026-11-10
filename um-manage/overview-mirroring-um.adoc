@@ -40,7 +40,7 @@ SANtricity 应用程序包括两种类型的镜像：异步和同步。异步镜
 
 了解更多信息。
 
-* link:mirroring-configuration-workflow.html["镜像配置工作流"]
+* link:mirroring-configuration-workflow.html["镜像配置工作流程"]
 * link:requirements-for-using-mirroring.html["使用镜像的要求"]
 * link:create-asynchronous-mirrored-pair-um.html["创建异步镜像对"]
 * link:create-synchronous-mirrored-pair-um.html["创建同步镜像对"]

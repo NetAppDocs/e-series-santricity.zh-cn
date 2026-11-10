@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, interpret, performance data 
 summary: 性能数据可以指导您调整存储阵列的性能。 
 ---
-= 解读 SANtricity System Manager 中的性能数据
+= SANtricity System Manager 中的性能指标及其影响
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

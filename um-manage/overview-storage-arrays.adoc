@@ -24,7 +24,7 @@ summary: 要管理存储资源、您必须先发现网络中的存储阵列。
 
 * link:considerations-for-discovering-arrays.html["发现阵列的注意事项"]
 * link:discover-multiple-arrays.html["发现多个存储阵列"]
-* link:discover-single-array.html["发现单个阵列"]
+* link:discover-single-array.html["发现单个存储阵列"]
 
 
 
@@ -40,5 +40,5 @@ summary: 要管理存储资源、您必须先发现网络中的存储阵列。
 
 * link:launch-considerations.html["访问System Manager的注意事项"]
 * link:launch-system-manager.html["管理单个存储阵列"]
-* link:storage-array-status.html["查看存储阵列状态"]
+* link:storage-array-status.html["存储阵列状态"]
 

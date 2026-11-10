@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, view, local, user, roles 
 summary: '在本地用户角色选项卡中、您可以查看用户与默认角色的映射。这些映射是在适用于SANtricity Unified Manager的Web服务代理中强制实施的RBAC (基于角色的访问控制)的一部分。' 
 ---
-= 查看本地用户角色
+= 在 SANtricity Unified Manager 中查看本地用户角色
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
