@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, permissions, mapped, roles 
 summary: 'RBAC (基于角色的访问控制)功能包括已映射一个或多个角色的预定义用户。每个角色都具有访问SANtricity Unified Manager中任务的权限。' 
 ---
-= SANtricity Unified Manager 中映射角色的权限
+= 映射角色的权限
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

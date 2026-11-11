@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca-signed, certificates 
 summary: 您可以获取并导入CA签名的证书、以安全访问托管Unified Manager的管理系统。 
 ---
-= 为 SANtricity Unified Manager 使用 CA 签名的证书
+= 对管理系统使用CA签名的证书
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, center 
 summary: 使用升级中心下载最新的软件和固件、并升级存储阵列以获取最新功能和错误修复。 
 ---
-= 了解如何使用 SANtricity System Manager 进行升级
+= 了解有关升级 SANtricity 软件的信息
 :allow-uri-read: 
 :experimental: 
 :icons: font
